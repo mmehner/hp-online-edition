@@ -193,13 +193,13 @@
   </xsl:template>
 
   <!-- footnotes -->
-  <xsl:template match="note[@place='bottom']">
+  <xsl:template match="note[@place='bottom' or @type='myfn']">
     <xsl:element name="span">
       <xsl:attribute name="class">fn</xsl:attribute>
       <xsl:attribute name="title">
 	<xsl:value-of select="."/>
       </xsl:attribute>
-      <xsl:text>*</xsl:text>
+      <b>*</b>
     </xsl:element>
   </xsl:template>
   
