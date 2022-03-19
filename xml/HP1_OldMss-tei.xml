@@ -1,0 +1,765 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title><!-- Title --></title>
+<respStmt>
+<resp><!-- Edited by --></resp>
+<name><!-- Name --></name>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<distributor><!-- Distributor name  --></distributor>
+</publicationStmt>
+<sourceDesc>
+<listWit>
+<witness xml:id="Vu">
+<abbr type="siglum">Vulg</abbr>
+Vulgate, i.e. Brahmānanda's version
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="X">
+<abbr type="siglum">X</abbr>
+TenChapter Version, Jodhpur 02228 and 02225 (ed. Lonavla)
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="Six">
+<abbr type="siglum">Ṣ</abbr>
+SixChapterVersion, ``6ChapterHPms'', fragment of enlarged text, Jodhpur
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V1">
+<abbr type="siglum">V<hi rend="sub">1</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 30109
+<msDesc>
+<msIdentifier/>
+<physDesc>
+<handDesc hands="2">
+<handNote xml:id="V1ac">
+<abbr type="siglum">V<hi rend="sup">ac</hi></abbr>
+
+</handNote>
+<handNote xml:id="V1pc">
+<abbr type="siglum">V<hi rend="sup">pc</hi></abbr>
+
+</handNote>
+</handDesc>
+</physDesc>
+</msDesc>
+</witness>
+<witness xml:id="V2">
+<abbr type="siglum">V<hi rend="sub">2</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 29869
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V3">
+<abbr type="siglum">V<hi rend="sub">3</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 29899
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V4">
+<abbr type="siglum">V<hi rend="sub">4</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 29937
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V5">
+<abbr type="siglum">V<hi rend="sub">5</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 29938
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V6">
+<abbr type="siglum">V<hi rend="sub">6</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 29991
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V8">
+<abbr type="siglum">V<hi rend="sub">8</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 30014
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V11">
+<abbr type="siglum">V<hi rend="sub">11</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 30029
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V12">
+<abbr type="siglum">V<hi rend="sub">12</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 30030
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V13">
+<abbr type="siglum">V<hi rend="sub">13</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 30031
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V14">
+<abbr type="siglum">V<hi rend="sub">14</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 30050
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V15">
+<abbr type="siglum">V<hi rend="sub">15</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 30051
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V15pc">
+<abbr type="siglum">V<hi rend="sup">pc</hi>space </abbr>
+
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V16">
+<abbr type="siglum">V<hi rend="sub">16</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 30052
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V17">
+<abbr type="siglum">V<hi rend="sub">17</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 30053
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V16pc">
+<abbr type="siglum">V<hi rend="sup">pc</hi>space </abbr>
+
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V18">
+<abbr type="siglum">V<hi rend="sub">18</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 30064
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V19">
+<abbr type="siglum">V<hi rend="sub">19</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 30069
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V21">
+<abbr type="siglum">V<hi rend="sub">21</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 30104
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V22">
+<abbr type="siglum">V<hi rend="sub">22</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 30110
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V25">
+<abbr type="siglum">V<hi rend="sub">25</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 30122
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V26">
+<abbr type="siglum">V<hi rend="sub">26</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 30123
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V28">
+<abbr type="siglum">V<hi rend="sub">28</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 30136
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="K1">
+<abbr type="siglum">K<hi rend="sub">1</hi></abbr>
+Raghunātha Temple Library 4383
+<msDesc>
+<msIdentifier>
+<settlement>Jammu</settlement>
+</msIdentifier>
+</msDesc>
+</witness>
+<witness xml:id="K1ac">
+<abbr type="siglum">K<hi rend="sup">ac</hi>space </abbr>
+
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="K1pc">
+<abbr type="siglum">K<hi rend="sup">pc</hi>space </abbr>
+
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="L1">
+<abbr type="siglum">L<hi rend="sub">1</hi></abbr>
+SOAS RE 43454
+<msDesc>
+<msIdentifier>
+<settlement>Jammu</settlement>
+</msIdentifier>
+</msDesc>
+</witness>
+<witness xml:id="J10">
+<abbr type="siglum">J<hi rend="sub">10</hi></abbr>
+MSPP Jodhpur 2230
+<msDesc>
+<msIdentifier/>
+<physDesc>
+<handDesc hands="2">
+<handNote xml:id="J10ac">
+<abbr type="siglum">J<hi rend="sup">ac</hi></abbr>
+
+</handNote>
+<handNote xml:id="J10pc">
+<abbr type="siglum">J<hi rend="sup">pc</hi></abbr>
+
+</handNote>
+</handDesc>
+</physDesc>
+</msDesc>
+</witness>
+<witness xml:id="J1">
+<abbr type="siglum">J<hi rend="sub">1</hi></abbr>
+Jodhpur 02231
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="J2">
+<abbr type="siglum">J<hi rend="sub">2</hi></abbr>
+Jodhpur 02232
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="J3">
+<abbr type="siglum">J<hi rend="sub">3</hi></abbr>
+Jodhpur 02233
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="J4">
+<abbr type="siglum">J<hi rend="sub">4</hi></abbr>
+Jodhpur 02234
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="J4ac">
+<abbr type="siglum">J<hi rend="sup">ac</hi>space </abbr>
+MSPP Jodhpur 02234
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="J4pc">
+<abbr type="siglum">J<hi rend="sup">pc</hi>space </abbr>
+MSPP Jodhpur 02234
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="J5">
+<abbr type="siglum">J<hi rend="sub">5</hi></abbr>
+Jodhpur 02235
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="J6ac">
+<abbr type="siglum">J<hi rend="sub">ac</hi></abbr>
+Jodhpur 02237
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="J6pc">
+<abbr type="siglum">J<hi rend="sub">pc</hi></abbr>
+Jodhpur 02237
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="J7">
+<abbr type="siglum">J<hi rend="sub">7</hi></abbr>
+Jodhpur 02241
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="J8">
+<abbr type="siglum">J<hi rend="sub">8</hi></abbr>
+Jodhpur 23709
+<msDesc>
+<msIdentifier/>
+<physDesc>
+<handDesc hands="2">
+<handNote xml:id="J8ac">
+<abbr type="siglum">J<hi rend="sup">ac</hi></abbr>
+
+</handNote>
+<handNote xml:id="J8pc">
+<abbr type="siglum">J<hi rend="sup">pc</hi></abbr>
+
+</handNote>
+</handDesc>
+</physDesc>
+</msDesc>
+</witness>
+<witness xml:id="J9">
+<abbr type="siglum">J<hi rend="sub">9</hi></abbr>
+Jodhpur 02224
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="J11">
+<abbr type="siglum">J<hi rend="sub">11</hi></abbr>
+Jodhpur 23532
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="J12">
+<abbr type="siglum">J<hi rend="sub">12</hi></abbr>
+Jodhpur 18552
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="J13">
+<abbr type="siglum">J<hi rend="sub">13</hi></abbr>
+Jodhpur 02229
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="J14">
+<abbr type="siglum">J<hi rend="sub">14</hi></abbr>
+Jodhpur 02239
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="J15">
+<abbr type="siglum">J<hi rend="sub">15</hi></abbr>
+Jodhpur 9732A
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="J17">
+<abbr type="siglum">J<hi rend="sub">17</hi></abbr>
+Jodhpur 3013
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="B1">
+<abbr type="siglum">B<hi rend="sub">1</hi></abbr>
+Bodleian Library No. d.457(8)
+<msDesc>
+<msIdentifier>
+<settlement>Oxford</settlement>
+</msIdentifier>
+</msDesc>
+</witness>
+<witness xml:id="B2">
+<abbr type="siglum">B<hi rend="sub">2</hi></abbr>
+Bodleian Library No. d.458(1)
+<msDesc>
+<msIdentifier>
+<settlement>Oxford</settlement>
+</msIdentifier>
+</msDesc>
+</witness>
+<witness xml:id="B3">
+<abbr type="siglum">B<hi rend="sub">3</hi></abbr>
+Bodleian Library No. d.458(9)
+<msDesc>
+<msIdentifier>
+<settlement>Oxford</settlement>
+</msIdentifier>
+</msDesc>
+</witness>
+<witness xml:id="C1">
+<abbr type="siglum">C<hi rend="sub">1</hi></abbr>
+Lalchand M 2080
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="C2">
+<abbr type="siglum">C<hi rend="sub">2</hi></abbr>
+Lalchand M 6065
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="C3">
+<abbr type="siglum">C<hi rend="sub">3</hi></abbr>
+Lalchand M 1293
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="C4">
+<abbr type="siglum">C<hi rend="sub">4</hi></abbr>
+Lalchand M 2081
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="C4ac">
+<abbr type="siglum">C<hi rend="sup">ac</hi>space </abbr>
+
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="C4pc">
+<abbr type="siglum">C<hi rend="sup">pc</hi>space </abbr>
+
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="C5">
+<abbr type="siglum">C<hi rend="sub">5</hi></abbr>
+Lalchand M 2082
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="C6">
+<abbr type="siglum">C<hi rend="sub">6</hi></abbr>
+Lalchand M 2089
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="C7">
+<abbr type="siglum">C<hi rend="sub">7</hi></abbr>
+Lalchand M 6494
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="C8">
+<abbr type="siglum">C<hi rend="sub">8</hi></abbr>
+Lalchand M 2091
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="C8pc">
+<abbr type="siglum">C<hi rend="sup">pc</hi>space </abbr>
+
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="C9">
+<abbr type="siglum">C<hi rend="sub">9</hi></abbr>
+Lalchand M 4530
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N1">
+<abbr type="siglum">N<hi rend="sub">1</hi></abbr>
+NGMPP A1400 2
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N2">
+<abbr type="siglum">N<hi rend="sub">2</hi></abbr>
+NGMPP B 39 19
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N3">
+<abbr type="siglum">N<hi rend="sub">3</hi></abbr>
+NGMPP B 62 20
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N5">
+<abbr type="siglum">N<hi rend="sub">5</hi></abbr>
+NGMPP A60 15 + A61 1
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N6">
+<abbr type="siglum">N<hi rend="sub">6</hi></abbr>
+NGMPP A61 6
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N9">
+<abbr type="siglum">N<hi rend="sub">9</hi></abbr>
+NGMPP A62 33
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N10">
+<abbr type="siglum">N<hi rend="sub">10</hi></abbr>
+NGMPP A62 37
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N11">
+<abbr type="siglum">N<hi rend="sub">11</hi></abbr>
+NGMPP A63 15
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N12">
+<abbr type="siglum">N<hi rend="sub">12</hi></abbr>
+NGMPP A939 19
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N13">
+<abbr type="siglum">N<hi rend="sub">13</hi></abbr>
+NGMPP A1378 18
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N16">
+<abbr type="siglum">N<hi rend="sub">16</hi></abbr>
+NGMPP B39 20
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N17">
+<abbr type="siglum">N<hi rend="sub">17</hi></abbr>
+NGMPP B 111 10
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N18">
+<abbr type="siglum">N<hi rend="sub">18</hi></abbr>
+NGMPP E 929 3
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N19">
+<abbr type="siglum">N<hi rend="sub">19</hi></abbr>
+NGMPP E 1528 1 / E 1527 7(4)
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N20">
+<abbr type="siglum">N<hi rend="sub">20</hi></abbr>
+NGMPP E 2037 13 
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N21">
+<abbr type="siglum">N<hi rend="sub">21</hi></abbr>
+NGMPP E 2097 31
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N22">
+<abbr type="siglum">N<hi rend="sub">22</hi></abbr>
+NGMPP G 4 4
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N23">
+<abbr type="siglum">N<hi rend="sub">23</hi></abbr>
+NGMPP G 25 2
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N24">
+<abbr type="siglum">N<hi rend="sub">24</hi></abbr>
+NGMPP G 190 16
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N24ac">
+<abbr type="siglum">N<hi rend="sup">ac</hi>space </abbr>
+
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N24pc">
+<abbr type="siglum">N<hi rend="sup">pc</hi>space </abbr>
+
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="M1">
+<abbr type="siglum">M<hi rend="sub">1</hi></abbr>
+P 5682/4
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="Tü">
+<abbr type="siglum">Tü</abbr>
+Ma I 339
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="YC">
+<abbr type="siglum">YC</abbr>
+Yogacintāmaṇi
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="ceteri">
+<abbr type="siglum">cet.</abbr>
+ceteri
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="A1">
+<abbr type="siglum">A<hi rend="sub">1</hi></abbr>
+Alwar 952
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+</listWit>
+<listPerson xml:id="scholars">
+<person xml:id="nos">
+<persName>
+<abbr type="siglum">nos</abbr>
+<forename>HPP</forename>
+<surname>Team</surname>
+</persName>
+</person>
+</listPerson>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<variantEncoding method="parallel-segmentation" location="internal"/>
+</encodingDesc>
+</teiHeader>
+<text>
+<body>
+
+<lg xml:id="hp01_001">
+ <l><s type="pada"><app><lem wit="#J8 #J10 #J17 #N17 #V19">śrīādināthāya</lem><rdg wit="#V1">ādīśanāthāya</rdg></app> namo'stu tasmai</s> <s type="pada">yenopadiṣṭā haṭhayogavidyā/</s></l>
+<l><s type="pada">virājate pronnata<app><lem wit="#V1 #V19">rājasaudha</lem><rdg wit="#J8 #J10 #J17 #N17">rājayogam</rdg></app></s><s type="pada"><app><lem wit="#J8 #J10 #N17 #V1 #V19">māroḍhu</lem><rdg wit="#J17">ārohim</rdg></app>micchoradhi<app><lem wit="#J10 #J17 #N17 #V1 #V19">rohiṇīva</lem><rdg wit="#J8">roha eva</rdg></app>//</s></l> 
+</lg>
+ 
+<lg xml:id="hp01_002">
+<l><s type="pada">praṇamya śrīguruṃ nāthaṃ</s> <s type="pada">svātmārāmeṇa <app><lem wit="#J8 #J10 #J17 #N17 #V1">yoginā</lem><rdg wit="#V19">dhīmatā</rdg></app>/</s></l>
+<l><s type="pada">kevalaṃ rājayogāya</s> <s type="pada">haṭha<app><lem wit="#J8pc #V1 #V19">vidyopadiśyate</lem><rdg wit="#J8ac">vidyo diśyate</rdg><rdg wit="#J10 #N17">yogopadiśyate</rdg><rdg wit="#J17">yogopradiśyate</rdg></app>//</s></l> 
+</lg>
+ 
+<lg xml:id="hp01_003">
+<l><s type="pada"><app><lem wit="#J8pc #J10 #J17 #N17 #V1">bhrāntyā</lem><rdg wit="#J8ac #V19">bhrāntvā</rdg></app> bahu<app><lem wit="#J8 #J10 #N17 #V19">matadhvānte</lem><rdg wit="#J17">matādhvānte</rdg><rdg wit="#V1">mataṃ bhrāntaṃ</rdg></app></s> <s type="pada">rājayoga<app><lem wit="#J8 #J10 #J17 #N17 #V1">majānatām</lem><rdg wit="#V19">ajānataḥ</rdg></app>/</s></l>
+<l><s type="pada">haṭhapradīpikāṃ dhatte</s> <s type="pada"><app><lem wit="#J10 #J17 #N17 #V1 #V19">svātmārāmaḥ</lem><rdg wit="#J8">svātmārāma</rdg></app> <app><lem wit="#V1">kṛpākaraḥ</lem><rdg wit="#J10pc #V19">kṛpāparaḥ</rdg><rdg wit="#J8pc #J17 #N17">kṣamākaraḥ</rdg><rdg wit="#J8ac #J10ac">prakāśyate</rdg></app>//</s></l> 
+</lg>
+ 
+<lg xml:id="hp01_004">
+ <l><s type="pada">haṭha<app><lem wit="#J8 #J10 #J17 #V19">vidyāṃ hi</lem><rdg wit="#N17 #V1">vidyā hi</rdg></app> matsyendra</s><s type="pada">gorakṣādyā vijānate/</s></l>
+<l><s type="pada"><app><lem wit="#J8 #J10 #J17 #N17 #V1">svātmārāmo</lem><rdg wit="#V19">ātmārāmo</rdg></app></s><s type="pada">'thavā yogī <app><lem wit="#J8pc #J10 #N17 #V1 #V19">jānīte</lem><rdg wit="#J17">jānite</rdg><rdg wit="#J8ac">jānaṃte</rdg></app> tatprasādataḥ//</s></l> 
+</lg>
+ 
+<lg xml:id="hp01_005">
+ <l><s type="pada"><app><lem wit="#J8 #V19">śrīādinātha</lem><rdg wit="#J10 #J17 #N17 #V1">ādināthādi</rdg></app>matsyendra</s><s type="pada"><app><lem wit="#J10 #J17 #N17">śābarā</lem><rdg wit="#V1">śabarā</rdg><rdg wit="#J8">śāgarā</rdg><rdg wit="#V19">śāradā</rdg></app>nanda<app><lem wit="#J8 #J10 #J17 #V1 #V19">bhairavāḥ</lem><rdg wit="#J17 #N17">bhairavaḥ</rdg></app>/</s></l>
+<l><s type="pada">cauraṅgī<app><lem wit="#J8 #J10 #J17 #N17 #V1">mīna</lem><rdg wit="#V19">ṣīna</rdg></app>gorakṣa</s><s type="pada"><app><lem wit="#J8 #J10 #N17 #V1">virūpākṣa</lem><rdg wit="#J17">virupākṣa</rdg><rdg wit="#V19">virūpākṣaḥ</rdg></app><app><lem wit="#J8 #J10 #J17 #N17 #V1">bileśayāḥ</lem><rdg wit="#V19">savālikaḥ</rdg></app>//</s></l> 
+</lg>
+ 
+<lg xml:id="hp01_006">
+ <l><s type="pada">manthānabhairavo yogī</s> <s type="pada"><app><lem wit="#J8 #V19">siddha</lem><rdg wit="#J10 #J17 #N17">śuddha</rdg><rdg wit="#V1">suddha</rdg></app><app><lem wit="#J10 #J17 #N17 #V1 #V19">buddhaś ca</lem><rdg wit="#J8">budhiśca</rdg></app> <app><lem wit="#V19">kanthaḍiḥ</lem><rdg wit="#V3">kaṃthaḍī</rdg><rdg wit="#J10pc #V1">kaṃthalī</rdg><rdg wit="#J8">kaṃtharī</rdg><rdg wit="#J10ac #J17 #N17">kaṃdalī</rdg></app>/</s></l>
+<l><s type="pada"><app><lem wit="#J8 #J17 #N17 #V1">pauraṇṭakaḥ</lem><rdg wit="#J10">pauraṇṭhakaḥ</rdg></app> <app><lem wit="#J10 #J17 #N17 #V1">surānandaḥ</lem><rdg wit="#J8">surānanda</rdg></app></s> <s type="pada">siddhapādaśca <app><lem wit="#J8pc #J10 #N17">carpaṭiḥ</lem><rdg wit="#J8ac">carppaṭi</rdg><rdg wit="#J17 #V1">carp(p)aṭī</rdg></app>//</s> <note type="myfn">6cd <hi>pauraṇṭakaḥ ... carpaṭiḥ</hi> is omitted in <ref target="#V19">V19</ref>.</note>
+</l> 
+</lg>
+ 
+<lg xml:id="hp01_007">
+ <l><s type="pada"><app><lem wit="#J8 #J10 #J17">kānerī</lem><rdg wit="#N17">kaneri</rdg><rdg wit="#V1">kaṇerī</rdg><rdg wit="#V19">kariṇī</rdg></app> <app><lem wit="#J8 #N17 #V19">pūjya</lem><rdg wit="#V1">pūrya</rdg><rdg wit="#J10 #J17">pūrva</rdg></app>pādaśca</s> <s type="pada"><app><lem wit="#J8 #V1">nityanātho</lem><rdg wit="#J10 #J17 #N17">dhvaninātho</rdg><rdg wit="#V19">bilvanātho</rdg></app> <app><lem wit="#J8pc #J10 #J17 #N17 #V1 #V19">nirañjanaḥ</lem><rdg wit="#J8ac">nirañjanaṃ</rdg></app>/</s></l>
+<l><s type="pada">kapālī bindunāthaś ca</s> <s type="pada">kākacaṇḍīśvarā<app><lem wit="#V1">hvayaḥ</lem><rdg wit="#J8 #J10 #J17 #N17 #V19">ādayaḥ</rdg></app>//</s></l> 
+</lg>
+ 
+<lg xml:id="hp01_008">
+ <l><s type="pada"><app><lem wit="#J8 #J10 #J17 #V1">allamaḥ</lem><rdg wit="#N17">akṣamaḥ</rdg><rdg wit="#V19">sukṣamaḥ</rdg></app> prabhudevaśca</s> <s type="pada"><app><lem wit="#J8">ghoḍācolī</lem><rdg wit="#J10 #J17 #N17 #V1">ghorācolī</rdg><rdg wit="#V19">ghoṭācolī</rdg></app> <app><lem wit="#J8 #J10 #N17 #V1">ca</lem><rdg wit="#V19">sa</rdg></app> <app><lem wit="#J8pc #J10 #J17 #V1">ṭiṇṭiṇī</lem><rdg wit="#N17">ṭiṃṭiṇīḥ</rdg><rdg wit="#V19">ṭiṃṭiniḥ</rdg><rdg wit="#J8ac">ciṃciṇī</rdg></app>/</s></l>
+<l><s type="pada"><app><lem wit="#J10 #J17 #N17 #V1">bhālukī</lem><rdg wit="#V19">vālukir</rdg><rdg wit="#J8">vāsukir</rdg></app> <app><lem wit="#J8 #J10 #J17 #N17 #V1">nāgabodha</lem><rdg wit="#V19">nāgarodhaś</rdg></app>śca</s> <s type="pada"><app><lem wit="#J8 #J10ac #J17">khaṇḍa</lem><rdg wit="#J10pc">khaṃṭha</rdg><rdg wit="#N17 #V1">khaṃḍaṃ</rdg><rdg wit="#V19">caṃḍī</rdg></app><app><lem wit="#J8 #J10 #N17 #V1 #V19">kāpālika</lem><rdg wit="#J17">kapālikas</rdg></app>kāpālikastathā//</s></l> 
+</lg>
+ 
+<lg xml:id="hp01_009">
+ <l><s type="pada">ityādayo mahāsiddhā</s> <s type="pada">haṭhayoga<app><lem wit="#J10 #J17 #N17 #V1 #V19">prabhāvataḥ</lem><rdg wit="#J8">prasādataḥ</rdg></app>/</s></l>
+<l><s type="pada"><app><lem wit="#J8 #J10 #J17 #N17 #V1">khaṇḍayitvā</lem><rdg wit="#V19">khaṃḍa i tvā</rdg></app> kāladaṇḍaṃ</s> <s type="pada">brahmāṇḍe <app><lem wit="#J10 #J17 #N17 #V1">vicaranti</lem><rdg wit="#J8">tu caranti</rdg><rdg wit="#V19">ṣu caranti</rdg></app> te//</s></l> 
+</lg>
+ 
+<lg xml:id="hp01_010">
+ <l><s type="pada"><app><lem wit="#V1 #V19">saṃsāratāpa</lem><rdg wit="#J10 #J17 #N17">saṃsāraśrama</rdg><rdg wit="#J8">saṃsārāśrama</rdg></app>taptānāṃ</s> <s type="pada"><app><lem wit="#V1">samāśrayo</lem><rdg wit="#V19">samāśraya</rdg><rdg wit="#J8 #J10 #J17 #N17">āśrayo yaṃ</rdg></app> <app><lem wit="#J8 #J10 #J17 #N17">haṭho mataḥ</lem><rdg wit="#V1">haṭho maṭhaḥ</rdg><rdg wit="#V19">mato haṭhaḥ</rdg></app>/</s></l>
+<l><s type="pada"><app><lem wit="#J8 #J10 #J17 #V1 #V19">aśeṣa</lem><rdg wit="#N17">aśeṣo</rdg></app>yoga<app><lem wit="#J8pc #J10 #N17 #V19">jagatā</lem><rdg wit="#V1">jagatīm</rdg><rdg wit="#J8ac">yuktānām</rdg><rdg wit="#J17">juktānāṃm</rdg></app></s><s type="pada"><app><lem wit="#V1">mādhāra</lem><rdg wit="#J8 #J10 #J17 #N17 #V19">ādhāraḥ</rdg></app><app><lem wit="#J8 #J10 #J17 #V19">kamaṭho haṭhaḥ</lem><rdg wit="#N17">kramahaṭhaḥ</rdg><rdg wit="#V1">kahaṭho maṭhaḥ</rdg></app>//</s></l> 
+</lg>
+ 
+</body>
+</text>
+</TEI>

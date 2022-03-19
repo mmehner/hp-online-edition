@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<locatingRules xmlns="http://thaiopensource.com/ns/locating-rules/1.0">
+  <uri resource="HP1_OldMss-tei.xml" uri="../tei-schema/tei_all.rnc"/>
+  <uri resource="HP1-TranslComm-tei.xml" uri="../tei-schema/tei_all.rnc"/>
+  <uri resource="Jyotsna-tei.xml" uri="../tei-schema/tei_all.rnc"/>
+  <uri resource="Marmasthanas-tei.xml" uri="../tei-schema/tei_all.rnc"/>
+</locatingRules>

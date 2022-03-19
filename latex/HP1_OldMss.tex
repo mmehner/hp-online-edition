@@ -1,0 +1,216 @@
+\input{Preamble-Print}
+\makepagestyle{HPed}
+\makeoddhead{HPed}{\small\texteng{HP1 OldMss}}{}{\small\texteng{\today}}
+\makeevenhead{HPed}{\small\texteng{HP1 OldMss}}{}{\small\texteng{\today}}
+\makeoddfoot{HPed}{}{\small\texteng{\thepage}}{}
+\makeevenfoot{HPed}{}{\small\texteng{\thepage}}{}
+
+\newcommand{\myfn}[1]{\footnote{\texteng{#1}}}
+\setlength{\footmarkwidth}{1.3em}
+\setlength{\footmarksep}{0em}
+\setlength{\footparindent}{1.3em}
+\footmarkstyle{\textsuperscript{#1} }
+\usepackage{fnpos}
+\makeFNbottom
+
+% additions/changes 2022-03-12 mm:
+\SetTEIxmlExport{autopar=false}
+\NewDocumentEnvironment{tlg}{O{}}{\begin{ekdverse}\indentpattern{0000}}{\end{ekdverse}}
+\NewDocumentCommand{\tl}{m}{#1}
+
+
+\begin{document}
+\pagestyle{HPed} %
+\begin{otherlanguage}{iast}
+  \begin{ekdosis}
+    \begin{tlg}[hp01_001]  %1.1
+      \tl{\pada{\app{\lem[wit={J8,J10,J17,N17,V19}]{śrīādināthāya}
+            \rdg[wit={V1}]{ādīśanāthāya}}
+          namo'stu tasmai}
+        \pada{yenopadiṣṭā haṭhayogavidyā/}\\+}
+      \tl{\pada{virājate pronnata\app{\lem[wit={V1,V19},alt={rājasaudham}]{rājasaudha}
+            \rdg[wit={J8,J10,J17,N17}]{rājayogam}}}%
+        \pada{\app{\lem[wit={J8,J10,N17,V1,V19},alt={āroḍhum}]{māroḍhu}
+            \rdg[wit={J17}]{ārohim}}micchoradhi%
+          \app{\lem[wit={J10,J17,N17,V1,V19}]{rohiṇīva}
+            \rdg[wit={J8}]{roha eva}}//}\\!}
+    \end{tlg}
+    
+    \begin{tlg}[hp01_002]%1.2
+      \tl{\pada{praṇamya śrīguruṃ nāthaṃ}
+        \pada{svātmārāmeṇa \app{\lem[wit={J8,J10,J17,N17,V1}]{yoginā}
+            \rdg[wit={V19}]{dhīmatā}}/}\\+}
+      \tl{\pada{kevalaṃ rājayogāya} 
+        \pada{haṭha\app{\lem[wit={J8pc,V1,V19}]{vidyopadiśyate}
+            \rdg[wit={J8ac}]{vidyo diśyate}
+            \rdg[wit={J10,N17}]{yogopadiśyate}
+            \rdg[wit={J17}]{yogopradiśyate}}//}\\!}
+    \end{tlg}
+    
+    \begin{tlg}[hp01_003]%1.3
+      \tl{\pada{\app{\lem[wit={J8pc,J10,J17,N17,V1}]{bhrāntyā}
+            \rdg[wit={J8ac,V19}]{bhrāntvā}}
+          bahu\app{\lem[wit={J8,J10,N17,V19}]{matadhvānte}
+            \rdg[wit={J17}]{matādhvānte}
+            \rdg[wit={V1}]{mataṃ bhrāntaṃ}}}
+        \pada{rājayoga\app{\lem[wit={J8,J10,J17,N17,V1},alt={ajānatām}]{majānatām}
+            \rdg[wit={V19}]{ajānataḥ}}/}\\+}
+      \tl{\pada{haṭhapradīpikāṃ dhatte}
+        \pada{\app{\lem[wit={J10,J17,N17,V1,V19}]{svātmārāmaḥ}
+            \rdg[wit={J8}]{svātmārāma}}
+          \app{\lem[wit={V1}]{kṛpākaraḥ}
+            \rdg[wit={J10pc,V19}]{kṛpāparaḥ}
+            \rdg[wit={J8pc,J17,N17}]{kṣamākaraḥ}
+            \rdg[wit={J8ac,J10ac}]{prakāśyate}}//}\\!}
+    \end{tlg}
+    
+    \begin{tlg}[hp01_004]
+      % 1.4
+      \tl{\pada{haṭha\app{\lem[wit={J8,J10,J17,V19}]{vidyāṃ hi}
+            \rdg[wit={N17,V1}]{vidyā hi}}
+          matsyendra}\pada{gorakṣādyā vijānate/}\\+}
+      \tl{\pada{\app{\lem[wit={J8,J10,J17,N17,V1}]{svātmārāmo}
+            \rdg[wit={V19}]{ātmārāmo}}}%
+        \pada{'thavā yogī 
+          \app{\lem[wit={J8pc,J10,N17,V1,V19}]{jānīte}
+            \rdg[wit={J17}]{jānite}
+            \rdg[wit={J8ac}]{jānaṃte}}
+          tatprasādataḥ//}\\!}
+    \end{tlg}
+    
+    \begin{tlg}[hp01_005]
+      % 1.5
+      \tl{\pada{\app{\lem[wit={J8,V19}]{śrīādinātha}
+            \rdg[wit={J10,J17,N17,V1}]{ādināthādi}}%   
+          matsyendra}%
+        \pada{\app{\lem[wit={J10,J17,N17}]{śābarā}
+            \rdg[wit={V1}]{śabarā}
+            \rdg[wit={J8}]{śāgarā}
+            \rdg[wit={V19}]{śāradā}}nanda%
+          \app{\lem[wit={J8,J10,J17,V1,V19}]{bhairavāḥ}
+            \rdg[wit={J17,N17}]{bhairavaḥ}}/}\\+}
+      \tl{\pada{cauraṅgī\app{\lem[wit={J8,J10,J17,N17,V1}]{mīna}\rdg[wit={V19}]{ṣīna}}gorakṣa}%
+        \pada{\app{\lem[wit={J8,J10,N17,V1}]{virūpākṣa}
+            \rdg[wit={J17}]{virupākṣa}
+            \rdg[wit={V19}]{virūpākṣaḥ}}%
+          \app{\lem[wit={J8,J10,J17,N17,V1}]{bileśayāḥ}
+            \rdg[wit={V19}]{savālikaḥ}}//}\\!}
+    \end{tlg}
+    
+    \begin{tlg}[hp01_006]
+      % 1.6
+      \tl{\pada{manthānabhairavo yogī} 
+        \pada{\app{\lem[wit={J8,V19}]{siddha}
+            \rdg[wit={J10,J17,N17}]{śuddha} 
+            \rdg[wit={V1}]{suddha}}%
+          \app{\lem[wit={J10,J17,N17,V1,V19}]{buddhaś ca}
+            \rdg[wit={J8}]{budhiśca}}
+          \app{\lem[wit={V19}]{kanthaḍiḥ}
+            \rdg[wit={V3}]{kaṃthaḍī}
+            \rdg[wit={J10pc,V1}]{kaṃthalī}
+            \rdg[wit={J8}]{kaṃtharī}
+            \rdg[wit={J10ac,J17,N17}]{kaṃdalī}}/}\\+}
+      \tl{\pada{\app{\lem[wit={J8,J17,N17,V1}]{pauraṇṭakaḥ}
+            \rdg[wit={J10}]{pauraṇṭhakaḥ}}
+          \app{\lem[wit={J10,J17,N17,V1}]{surānandaḥ}
+            \rdg[wit={J8}]{surānanda}}}
+        \pada{siddhapādaśca 
+          \app{\lem[wit={J8pc,J10,N17},alt=carp(p)aṭiḥ]{carpaṭiḥ}
+            \rdg[wit={J8ac}]{carppaṭi}
+            \rdg[wit={J17,V1}]{carp(p)aṭī}}//}
+        \myfn{6cd \emph{pauraṇṭakaḥ ... carpaṭiḥ} is omitted in \getsiglum{V19}.}\\!}
+    \end{tlg}
+    
+    \begin{tlg}[hp01_007]          
+      % 1.7
+      \tl{\pada{\app{\lem[wit={J8,J10,J17}]{kānerī}
+            \rdg[wit={N17}]{kaneri}
+            \rdg[wit={V1}]{kaṇerī}
+            \rdg[wit={V19}]{kariṇī}}
+          \app{\lem[wit={J8,N17,V19}]{pūjya}
+            \rdg[wit={V1}]{pūrya}    
+            \rdg[wit={J10,J17}]{pūrva}}pādaśca}
+        \pada{\app{\lem[wit={J8,V1}]{nityanātho}
+            \rdg[wit={J10,J17,N17}]{dhvaninātho}
+            \rdg[wit={V19}]{bilvanātho}}
+          \app{\lem[wit={J8pc,J10,J17,N17,V1,V19}]{nirañjanaḥ}
+            \rdg[wit={J8ac}]{nirañjanaṃ}}/}\\+}
+      \tl{\pada{kapālī bindunāthaś ca}
+        \pada{kākacaṇḍīśvarā\app{\lem[wit={V1},alt={āhvayaḥ}]{hvayaḥ}
+            \rdg[wit={J8,J10,J17,N17,V19}]{ādayaḥ}}//}\\!}
+    \end{tlg}
+    
+
+    \pagebreak
+    \begin{tlg}[hp01_008]
+      % 1.8
+      \tl{\pada{\app{\lem[wit={J8,J10,J17,V1}]{allamaḥ} % allāmaḥ in Vulg.!
+            \rdg[wit={N17}]{akṣamaḥ}
+            \rdg[wit={V19}]{sukṣamaḥ}}
+          prabhudevaśca}
+        \pada{\app{\lem[wit={J8}]{ghoḍācolī}  
+            \rdg[wit={J10,J17,N17,V1}]{ghorācolī}
+            \rdg[wit={V19}]{ghoṭācolī}}
+          \app{\lem[wit={J8,J10,N17,V1}]{ca}
+            \rdg[wit={V19}]{sa}}
+          \app{\lem[wit={J8pc,J10,J17,V1}]{ṭiṇṭiṇī}
+            \rdg[wit={N17}]{ṭiṃṭiṇīḥ}
+            \rdg[wit={V19}]{ṭiṃṭiniḥ}
+            \rdg[wit={J8ac}]{ciṃciṇī}}/}\\+}
+      \tl{\pada{\app{\lem[wit={J10,J17,N17,V1}]{bhālukī} 
+            \rdg[wit={V19}]{vālukir}
+            \rdg[wit={J8}]{vāsukir}}
+          \app{\lem[wit={J8,J10,J17,N17,V1},alt={nāgabodhaś}]{nāgabodha}
+            \rdg[wit={V19}]{nāgarodhaś}}śca}
+        \pada{\app{\lem[wit={J8,J10ac,J17}]{khaṇḍa}
+            \rdg[wit={J10pc}]{khaṃṭha}
+            \rdg[wit={N17,V1}]{khaṃḍaṃ}
+            \rdg[wit={V19}]{caṃḍī}}%
+          \app{\lem[wit={J8,J10,N17,V1,V19},alt={kāpālikas}]{kāpālika}
+            \rdg[wit={J17}]{kapālikas}}kāpālikastathā//}\\!}
+    \end{tlg}
+    
+    \begin{tlg}[hp01_009]     
+      % 1.9
+      \tl{\pada{ityādayo mahāsiddhā}
+        \pada{haṭhayoga\app{\lem[wit={J10,J17,N17,V1,V19}]{prabhāvataḥ}
+            \rdg[wit={J8}]{prasādataḥ}}/}\\+}
+      \tl{\pada{\app{\lem[wit={J8,J10,J17,N17,V1}]{khaṇḍayitvā} 
+            \rdg[wit={V19}]{khaṃḍa-i-tvā}} kāladaṇḍaṃ}
+        \pada{brahmāṇḍe 
+          \app{\lem[wit={J10,J17,N17,V1}]{vicaranti}
+            \rdg[wit={J8}]{tu caranti}
+            \rdg[wit={V19}]{ṣu caranti}} te//}\\!}
+    \end{tlg}
+    
+    \begin{tlg}[hp01_010]          
+      % 1.10
+      \tl{\pada{\app{\lem[wit={V1,V19}]{saṃsāratāpa}
+            \rdg[wit={J10,J17,N17}]{saṃsāraśrama}
+            \rdg[wit={J8}]{saṃsārāśrama}}taptānāṃ}
+        \pada{\app{\lem[wit={V1}]{samāśrayo}
+            \rdg[wit={V19}]{samāśraya}
+            \rdg[wit={J8,J10,J17,N17}]{āśrayo yaṃ}}
+          \app{\lem[wit={J8,J10,J17,N17}]{haṭho mataḥ}
+            \rdg[wit={V1}]{haṭho maṭhaḥ}
+            \rdg[wit={V19}]{mato haṭhaḥ}}/}\\+}
+      \tl{\pada{\app{\lem[wit={J8,J10,J17,V1,V19}]{aśeṣa}\rdg[wit={N17}]{aśeṣo}}yoga%
+          \app{\lem[wit={J8pc,J10,N17,V19},alt={jagatām}]{jagatā}      
+            \rdg[wit={V1}]{jagatīm}
+            \rdg[wit={J8ac}]{yuktānām}
+            \rdg[wit={J17}]{juktānāṃm}}}%
+        \pada{\app{\lem[wit={V1},alt={ādhāra}]{mādhāra} %%%
+            \rdg[wit={J8,J10,J17,N17,V19}]{ādhāraḥ}}%
+          \app{\lem[wit={J8,J10,J17,V19}]{kamaṭho haṭhaḥ}
+            \rdg[wit={N17},post={\unm}]{kramahaṭhaḥ}
+            \rdg[wit={V1}]{kahaṭho maṭhaḥ}}//}\\!}
+    \end{tlg}
+
+  \end{ekdosis}
+\end{otherlanguage}
+\end{document}
+
+% Local Variables:
+% TeX-engine: luatex
+% TeX-master: t
+% End:

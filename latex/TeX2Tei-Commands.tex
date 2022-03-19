@@ -1,0 +1,114 @@
+﻿
+
+%%% modify environments and commands
+%%% TEI mapping
+
+% additions/changes 2022-03-12 mm:
+\TeXtoTEIPat{\begin {tlg}[#1]}{<lg xml:id="#1">}
+  \TeXtoTEIPat{\end {tlg}}{</lg>}
+  
+\TeXtoTEIPat{\begin {translation}[#1]}{<note type="translation" target="##1">}
+\TeXtoTEIPat{\end {translation}}{</note>}
+\TeXtoTEIPat{\begin {philcomm}[#1]}{<note type="philcomm" target="##1">}
+  \TeXtoTEIPat{\end {philcomm}}{</note>}
+
+\TeXtoTEIPat{\begin {marma}[#1]}{<note type="marma" target="##1">}
+\TeXtoTEIPat{\end {marma}}{</note>}
+
+\TeXtoTEIPat{\begin {jyotsna}[#1]}{<note type="jyotsna" target="##1">}
+\TeXtoTEIPat{\end {jyotsna}}{</note>}
+
+\EnvtoTEI{description}{list}
+\EnvtoTEI{itemize}{list}
+\TeXtoTEIPat{\item [#1]}{<label>#1</label>\item}
+
+\TeXtoTEI{tl}{l}
+\TeXtoTEI{myfn}{note}[type="myfn"]
+\TeXtoTEIPat{\getsiglum {#1}}{<ref target="##1">#1</ref>}
+
+\TeXtoTEI{SetLineation}{}
+\TeXtoTEI{noindent}{}
+\TeXtoTEI{subsection*}{}
+
+\TeXtoTEI{rlap}{}
+
+% end additions/changes
+
+\TeXtoTEIPat{\skp {#1}}{#1}
+\TeXtoTEIPat{\skm {#1}}{}
+
+\TeXtoTEIPat{\begin {prose}}{<p>}
+\TeXtoTEIPat{\end {prose}}{</p>}
+
+\TeXtoTEIPat{\begin {tlate}}{<p>}
+\TeXtoTEIPat{\end {tlate}}{</p>}
+
+\TeXtoTEI{emph}{hi}
+\TeXtoTEI{bigskip}{}
+%\TeXtoTEI{/}{|}
+\TeXtoTEI{tl}{l}
+\TeXtoTEIPat{english}{}
+\TeXtoTEIPat{-}{ }
+\TeXtoTEIPat{°}{}
+\TeXtoTEIPat{\textcolor {#1}{#2}}{<hi rend="#1">#2</hi>}
+
+\TeXtoTEIPat{\eyeskip}{}
+\TeXtoTEIPat{\aberratio}{}
+\TeXtoTEIPat{\ad}{}
+\TeXtoTEIPat{\add}{}
+\TeXtoTEIPat{\ann}{}
+\TeXtoTEIPat{\ante}{}
+\TeXtoTEIPat{\post}{}
+\TeXtoTEIPat{\codd}{}
+\TeXtoTEIPat{\conj }{}
+\TeXtoTEIPat{\contin}{}
+\TeXtoTEIPat{\corr}{}
+\TeXtoTEIPat{\del}{}
+\TeXtoTEIPat{\dub}{}
+\TeXtoTEIPat{\emend }{}
+\TeXtoTEIPat{\expl}{}
+\TeXtoTEIPat{\ȩxplicat}{}
+\TeXtoTEIPat{\fol}{}
+\TeXtoTEIPat{\gloss}{}
+\TeXtoTEIPat{\ins}{}
+\TeXtoTEIPat{\im}{}
+\TeXtoTEIPat{\inmargine}{}
+\TeXtoTEIPat{\intextu}{}
+\TeXtoTEIPat{\indist}{}
+\TeXtoTEIPat{\iteravit}{}
+\TeXtoTEIPat{\lectio}{}
+\TeXtoTEIPat{\leginequit}{}
+\TeXtoTEIPat{\legn}{}
+\TeXtoTEIPat{\illeg}{}
+\TeXtoTEIPat{\om }{}
+\TeXtoTEIPat{\primman}{}
+\TeXtoTEIPat{\prob}{}
+\TeXtoTEIPat{\rep}{}
+\TeXtoTEIPat{\sequentia}{}
+\TeXtoTEIPat{\supralineam}{}
+\TeXtoTEIPat{\interlineam}{}
+\TeXtoTEIPat{\vl}{}
+\TeXtoTEIPat{\vide}{}
+\TeXtoTEIPat{\videtur}{}
+\TeXtoTEIPat{\crux}{}
+\TeXtoTEIPat{\cruxxx}{}
+\TeXtoTEIPat{\unm }{}
+
+
+% List of Scholars
+\DeclareScholar{nos}{nos}[
+forename=HPP,
+surname=Team]
+
+
+
+
+% Nullify \selectlanguage in TEI as it has been used in
+% \DeclareWitness but should be ignored in TEI.
+\TeXtoTEI{selectlanguage}{}
+
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:

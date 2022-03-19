@@ -1,0 +1,88 @@
+\documentclass[10pt]{memoir}
+\setstocksize{220mm}{155mm} 	        
+\settrimmedsize{220mm}{155mm}{*}	
+\settypeblocksize{170mm}{116mm}{*}	
+\setlrmargins{18mm}{*}{*}
+\setulmargins{*}{*}{1.2}
+% \setlength{\headheight}{5pt}
+\checkandfixthelayout[lines]
+\linespread{1.16}
+
+\usepackage[teiexport=tidy,poetry=verse]{ekdosis}
+\usepackage{sanskrit-poetry}
+\usepackage[english]{babel}
+\usepackage{babel-iast,xparse,xcolor}
+\babelfont[iast]{rm}[Renderer=Harfbuzz, Scale=1.5]{AdishilaSan}
+
+\babelfont[english]{rm}[Scale=0.9]{Adobe Text Pro}
+\babeltags{dev = iast}     % new
+\babeltags{eng = english}  % new
+
+\SetHooks{
+  lemmastyle=\bfseries,
+  refnumstyle=\selectlanguage{english}\color{blue}\bfseries, 
+}
+\newif\ifinapparatus
+\DeclareApparatus{default}[
+% bhook=\inapparatustrue, 
+lang=english,
+% bhook=\selectlanguage{english},
+sep = {] },
+delim=\hskip 0.75em,
+rule=none,
+]
+\DeclareApparatus{notes}[
+% notelang=english,
+lang=english,
+% bhook=\selectlanguage{english},
+sep = {},
+delim=\hskip 0.75em,
+rule=\rule{0.7in}{0.4pt}, % changed by MD
+]
+
+\setlength{\vgap}{3mm}
+\verselinenumfont{\footnotesize\selectlanguage{english}\normalfont}
+\NewDocumentCommand{\skp}{m}{}
+\NewDocumentCommand{\skm}{m}{\unless\ifinapparatus#1-\fi}
+
+\setlength{\vrightskip}{-10pt}
+
+\DeclareShorthand{egoscr}{\selectlanguage{english}\emph{scripsi}}{ego}
+\DeclareShorthand{egomute}{\unskip}{ego}
+\DeclareShorthand{nosscr}{\selectlanguage{english}\emph{nos scribere}}{nos}
+
+\input{Manuscript-Sigla}
+\input{Abbreviations}
+\input{TeX2Tei-Commands}
+
+%%%%%%%%%%% below added by MD %%%%%%%%%%%
+
+\DeclareShorthand{conj}{\texteng{\emph{conj.}}}{ego}
+\DeclareShorthand{emend}{\texteng{\emph{em.}}}{ego}
+
+\def\startaltrecension#1{
+  \stopvline
+  \begin{ekdverse}[type=altrecension]
+    \indentpattern{0000} 
+    \begin{patverse*}
+      \color{gray}
+      \setvnum{#1}
+    }
+    \def\endaltrecension{
+    \end{patverse*}
+  \end{ekdverse}
+  \vskip 1\baselineskip
+  \startvline   
+}
+
+\renewcommand{\thefootnote}{\texteng{\arabic{footnote}}}\newcommand{\devnote}[1]{\selectlanguage{iast}{\scriptsize #1}\selectlanguage{english}} % new   
+\newcommand{\outdent}{\hspace{-\vgap}}
+\newcommand{\sgwit}[1]{{\small (\getsiglum{#1})}\selectlanguage{iast}}
+\newcommand{\NotIn}[1]{\texteng{\footnotesize (om. \getsiglum{#1})}\selectlanguage{iast}}
+
+\def\om{\emph{om.}} % \!}
+\def\illeg{\emph{illeg.}} %\!}
+\def\unm{\emph{unm.\:}}
+\def\recte{\texteng{r.\:}}
+\def\for{\texteng{for }}
+\def\sic{\emph{sic}}

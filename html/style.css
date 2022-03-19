@@ -1,0 +1,224 @@
+@font-face {
+    font-family: LinuxBiolinumORegular, sans-serif;
+    src: url(fonts/LinBiolinum_R.woff);
+    src: url(fonts/LinBiolinum_RB.woff);
+    src: url(fonts/LinBiolinum_RI.woff);
+}
+
+* {box-sizing: border-box;}
+
+body {
+    background-color:  #313131;
+    font-family: 'LinuxBiolinumORegular';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    width: 1200px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:100px;
+     }
+
+h1 {
+    text-indent: 20px;
+    color: #ecbc9c;
+    font-weight: bold;
+    font-size: 32px;
+    padding-bottom: 15px;
+    padding-right: 9px;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 18px;
+    padding-bottom: 10px;
+    padding-top: 0px;
+    margin: 0px;
+}
+
+summary {
+    text-indent: 1em;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    padding-bottom: 10px;
+}
+
+#content {
+    display: block;
+    width: 100%;
+}
+
+div {
+    color:  #b3b3b3;
+}
+
+mark {
+    color:  #b3b3b3;
+    background-color: #313131;
+}
+
+.main {
+    width: 100%;
+    display: block;
+}
+
+.number {
+    color: #313131;
+    background-color:  #b3b3b3;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 5px 5px 10px;
+    border-radius: 10px;
+}
+
+.number:before {
+    display: inline;
+    content: " – ";
+    padding-right: 10px;
+}
+
+.number:after {
+    display: inline-block;
+    content: " – ";
+    padding-left: 10px;
+}
+
+.hpmeta {
+    display: flex;
+    width: 100%
+}
+
+.text {
+    float: left;
+    width: 60%;
+    padding: 10px;
+}
+
+.hp {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.hp:hover mark {
+    color: #fcd08b;
+}
+
+.hpvers {
+    margin: 0;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 60px;
+}
+
+.hpvers + .hpvers {
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+
+.translation{
+    width: 100%;
+    padding-left: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+
+.philcomm-d{
+    background-color:  #520A1A;
+    widht: 100%;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+}
+
+.philcomm{
+    padding-left: 40px;
+}
+
+.crit {
+    float: right;
+    width: 40%;
+    background-color: #3e3e3e;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.apparatus {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 10px;
+}
+
+.app {
+    display: block;
+    padding-bottom: 5px;
+    padding-left: 20px;
+}
+
+
+.marma-d {
+    padding-bottom: 10px;
+}
+
+.marma {
+    display: block;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 10px;
+}
+
+.lem {
+    color: #fcd08b;
+}
+
+.jyotsna-d {
+    display: block;
+    width: auto;
+    background-color: #061E39;
+    padding: 10px 10px 10px 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.jyotsna {
+    display: block;
+    width: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+    
+.vers {
+    padding-left: 30px;
+}
+
+.showonhover{
+    display:none;
+}
+
+.fnsign:hover + div.showonhover{
+    display:block;
+}
+
+@media screen and (max-width: 900px) {
+    body {font-size: 14px;}
+    .hpmeta {display: block;}
+    .text {width: auto; float: none; }
+    .crit {width: auto; float: none; margin-top: 0px; }
+    .marma-d {padding-left: 10px; padding-right: 10px;}
+    .apparatus {padding-left: 25px;}
+}
+
+@media screen and (max-width: 1200px) {
+    body {width: auto; padding: 20px;}
+}

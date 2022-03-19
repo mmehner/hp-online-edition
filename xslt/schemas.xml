@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<locatingRules xmlns="http://thaiopensource.com/ns/locating-rules/1.0">
+  <uri resource="hp-online.xsl" uri="xslt-relax-ng/xslt.rnc"/>
+</locatingRules>

@@ -1,0 +1,288 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{sanskrit-poetry}[2021/09/03 v0.3 sanskrit verse typesetting]
+\RequirePackage{ekdosis}
+\RequirePackage{xstring}
+
+\newcounter{ekd@padanum}
+\renewcommand*\theekd@padanum{\alph{ekd@padanum}}
+\newif\ifekd@newpada
+\def\current@ref@arg#1#2{{%\textdir TLT%
+    \unexpanded\expandafter{\ekd@refnumstyle}%
+    \ifnum%
+    \pdf@strcmp{\getpagerefnumber{#1}}{\getpagerefnumber{#2}}
+    =
+    0
+    \ifnum%
+    \pdf@strcmp{\getrefnumber{#1}}{\getrefnumber{#2}}
+    =
+    0
+    %
+    \ifekd@mapps%
+    \ifbool{subsq@unit@\ekdan@type}{%
+      \ifnum%
+      \pdf@strcmp{\getrefnumber{#1}}{%
+        \getrefnumber{\luadirect{tex.sprint(ekdosis.getprevnotelab())}}}
+      =
+      0
+      \ifekd@newpada
+      \LRnum{\getrefnumber{#1}\theekd@padanum}\unexpanded\expandafter{\ekd@postrefnum}% issue the no
+      \fi
+      \else
+      \LRnum{\getrefnumber{#1}\theekd@padanum}\unexpanded\expandafter{\ekd@postrefnum}% issue the no
+      \fi%
+    }%
+    {\LRnum{\getrefnumber{#1}\theekd@padanum}\unexpanded\expandafter{\ekd@postrefnum}}% issue the no
+    \else
+    \ifsubsq@unit%
+    %
+    \ifnum%
+    \pdf@strcmp{\getrefnumber{#1}}{%
+      \getrefnumber{\luadirect{tex.sprint(ekdosis.getprevnotelab())}}}
+    =
+    0
+    \ifekd@newpada
+    \LRnum{\getrefnumber{#1}\theekd@padanum}\unexpanded\expandafter{\ekd@postrefnum}% issue the no
+    \fi
+    \else
+    \LRnum{\getrefnumber{#1}\theekd@padanum}\unexpanded\expandafter{\ekd@postrefnum}% issue the no
+    \fi
+    %
+    \else
+    \LRnum{\getrefnumber{#1}\theekd@padanum}\unexpanded\expandafter{\ekd@postrefnum}% issue the no
+    \fi
+    \fi
+    %
+    \else
+    % \ifekd@elidednumbers
+    % \luadirect{tex.sprint(ekdosis.numrange(\luastring{\getrefnumber{#1}},
+    %   \luastring{\getrefnumber{#2}}))}%
+    %     \unexpanded\expandafter{\ekd@postrefnum}% issue the nos
+    % \else
+    \LRnum{\getrefnumber{#1}\theekd@padanum}--%
+    \LRnum{\getrefnumber{#2}\theekd@padanum}\unexpanded\expandafter{\ekd@postrefnum}% issue the nos
+    % \fi
+    \fi%
+    \else
+    \ifboolexpr{bool {ekd@pagelineation} or bool {ekd@pagevlineation}}
+      {\LRnum{\getrefnumber{#1}\theekd@padanum}--%
+      \LRnum{\getpagerefnumber{#2}}.%
+      \LRnum{\getrefnumber{#2}\theekd@padanum}\unexpanded\expandafter{\ekd@postrefnum}}% issue pg and ln nos
+      {\LRnum{\getrefnumber{#1}\theekd@padanum}--%
+      \LRnum{\getrefnumber{#2}\theekd@padanum}\unexpanded\expandafter{\ekd@postrefnum}}% issue the nos
+    \fi%
+    \ifekdn@forcenum
+      \LRnum{\getrefnumber{#1}\theekd@padanum}\unexpanded\expandafter{\ekd@postrefnum}% force the no
+    \fi
+  }%
+}
+\def\current@ref{{%\textdir TLT%
+    \unexpanded\expandafter{\ekd@refnumstyle}%
+    \ifnum%
+    \pdf@strcmp{%
+      \getpagerefnumber{\luadirect{tex.sprint(ekdosis.getlnlab())}-b}}%
+      {\getpagerefnumber{\luadirect{tex.sprint(ekdosis.getlnlab())}-e}}
+    =
+    0
+    \ifnum%
+    \pdf@strcmp{%
+      \getrefnumber{\luadirect{tex.sprint(ekdosis.getlnlab())}-b}}%
+      {\getrefnumber{\luadirect{tex.sprint(ekdosis.getlnlab())}-e}}
+    =
+    0
+    %
+    \ifekd@mapps%
+    \ifbool{subsq@unit@\ekdan@type}{%
+      \ifnum%
+      \pdf@strcmp{\getrefnumber{\luadirect{tex.sprint(ekdosis.getlnlab())}-b}}%
+      {\getrefnumber{\luadirect{tex.sprint(ekdosis.getprevlnlab())}-b}}
+      =
+      0
+    %%%begin
+    \ifnum%
+    \pdf@strcmp{\getrefnumber{\luadirect{tex.sprint(ekdosis.getlnlab())}-e}}%
+    {\getrefnumber{\luadirect{tex.sprint(ekdosis.getprevlnlab())}-e}}
+    =
+    0
+    \ifekd@appinapp
+    \ifnum%
+    \pdf@strcmp{\getrefnumber{\luadirect{tex.sprint(ekdosis.getlnlab())}-b}}%
+    {\getrefnumber{\luadirect{tex.sprint(ekdosis.getprevprevlnlab())}-b}}
+    =
+    0
+    \ifekd@newpada
+    \LRnum{\getrefnumber{\luadirect{tex.sprint(ekdosis.getlnlab())}-b}\theekd@padanum}%
+      \unexpanded\expandafter{\ekd@postrefnum}% issue the no
+    \fi
+    \else
+    \LRnum{\getrefnumber{\luadirect{tex.sprint(ekdosis.getlnlab())}-b}\theekd@padanum}%
+      \unexpanded\expandafter{\ekd@postrefnum}% issue the no
+    \fi
+    \fi
+    \ifekd@newpada
+    \LRnum{\getrefnumber{\luadirect{tex.sprint(ekdosis.getlnlab())}-b}\theekd@padanum}%
+      \unexpanded\expandafter{\ekd@postrefnum}% issue the no
+    \fi
+    \else
+    \LRnum{\getrefnumber{\luadirect{tex.sprint(ekdosis.getlnlab())}-b}\theekd@padanum}%
+      \unexpanded\expandafter{\ekd@postrefnum}% issue the no
+    \fi
+    %%% end
+      \else
+      \LRnum{\getrefnumber{\luadirect{tex.sprint(ekdosis.getlnlab())}-b}\theekd@padanum}%
+        \unexpanded\expandafter{\ekd@postrefnum}% issue the no
+      \fi%
+    }{\LRnum{\getrefnumber{\luadirect{tex.sprint(ekdosis.getlnlab())}-b}\theekd@padanum}%
+      \unexpanded\expandafter{\ekd@postrefnum}}% issue the no
+    \else
+    \ifsubsq@unit%
+    %
+    \ifnum%
+    \pdf@strcmp{\getrefnumber{\luadirect{tex.sprint(ekdosis.getlnlab())}-b}}%
+    {\getrefnumber{\luadirect{tex.sprint(ekdosis.getprevlnlab())}-b}}
+    =
+    0
+    %%%begin
+    \ifnum%
+    \pdf@strcmp{\getrefnumber{\luadirect{tex.sprint(ekdosis.getlnlab())}-e}}%
+    {\getrefnumber{\luadirect{tex.sprint(ekdosis.getprevlnlab())}-e}}
+    =
+    0
+    \ifekd@appinapp
+    \ifnum%
+    \pdf@strcmp{\getrefnumber{\luadirect{tex.sprint(ekdosis.getlnlab())}-b}}%
+    {\getrefnumber{\luadirect{tex.sprint(ekdosis.getprevprevlnlab())}-b}}
+    =
+    0
+    \else
+    \LRnum{\getrefnumber{\luadirect{tex.sprint(ekdosis.getlnlab())}-b}\theekd@padanum}%
+      \unexpanded\expandafter{\ekd@postrefnum}% issue the no
+    \fi
+    \fi
+    \else
+    \LRnum{\getrefnumber{\luadirect{tex.sprint(ekdosis.getlnlab())}-b}\theekd@padanum}%
+      \unexpanded\expandafter{\ekd@postrefnum}% issue the no
+    \fi
+    %%% end
+    \ifekd@newpada
+    \LRnum{\getrefnumber{\luadirect{tex.sprint(ekdosis.getlnlab())}-b}\theekd@padanum}%
+      \unexpanded\expandafter{\ekd@postrefnum}% issue the no
+    \fi
+    \else
+    \LRnum{\getrefnumber{\luadirect{tex.sprint(ekdosis.getlnlab())}-b}\theekd@padanum}%
+      \unexpanded\expandafter{\ekd@postrefnum}% issue the no
+    \fi
+    %
+    \else
+    \LRnum{\getrefnumber{\luadirect{tex.sprint(ekdosis.getlnlab())}-b}\theekd@padanum}%
+      \unexpanded\expandafter{\ekd@postrefnum}% issue the no
+    \fi
+    \fi
+    %
+    \else
+    % \ifekd@elidednumbers
+    % \luadirect{tex.sprint(ekdosis.numrange(
+    %   \luastring{\getrefnumber{\luadirect{tex.sprint(ekdosis.getlnlab())}-b}},
+    %   \luastring{\getrefnumber{\luadirect{tex.sprint(ekdosis.getlnlab())}-e}}))}%
+    %     \unexpanded\expandafter{\ekd@postrefnum}% issue the nos
+    % \else
+    \LRnum{\getrefnumber{\luadirect{tex.sprint(ekdosis.getlnlab())}-b}\theekd@padanum}--%
+    \LRnum{\getrefnumber{\luadirect{tex.sprint(ekdosis.getlnlab())}-e}\theekd@padanum}%
+        \unexpanded\expandafter{\ekd@postrefnum}% issue the nos
+    % \fi
+    \fi%
+    \else
+    \ifboolexpr{bool {ekd@pagelineation} or bool {ekd@pagevlineation}}
+      {\LRnum{\getrefnumber{\luadirect{tex.sprint(ekdosis.getlnlab())}-b}\theekd@padanum}--%
+      \LRnum{\getpagerefnumber{\luadirect{tex.sprint(ekdosis.getlnlab())}-e}}.%
+      \LRnum{\getrefnumber{\luadirect{tex.sprint(ekdosis.getlnlab())}-e}\theekd@padanum}%
+        \unexpanded\expandafter{\ekd@postrefnum}}% issue pg and ln nos
+      {\LRnum{\getrefnumber{\luadirect{tex.sprint(ekdosis.getlnlab())}-b}\theekd@padanum}--%
+      \LRnum{\getrefnumber{\luadirect{tex.sprint(ekdosis.getlnlab())}-e}\theekd@padanum}%
+        \unexpanded\expandafter{\ekd@postrefnum}}% issue the nos
+    \fi%
+    \ifekdl@forcenum
+    \LRnum{\getrefnumber{\luadirect{tex.sprint(ekdosis.getlnlab())}-b}\theekd@padanum}%
+      \unexpanded\expandafter{\ekd@postrefnum}% force the no
+    \fi
+  }%
+}
+\RenewDocumentCommand{\app}{O{} > { \TrimSpaces } +m}{%
+  \leavevmode
+  \begingroup
+  \ekvset{appnote}{#1}%
+  \ifekd@isinapp\ekd@appinapptrue\fi
+  \ekd@isinapptrue
+  \stepcounter{ekd@lab}%
+  \zlabel{ekd:\theekd@lab}%
+  \luadirect{ekdosis.storeabspg(
+    \luastring{\zref@extract{ekd:\theekd@lab}{abspage}})}%
+  \ifekd@state\add@apparatus\fi
+  \luadirect{tex.sprint(ekdosis.removesp(\luastringN{#2}))}%
+  \ekd@isinappfalse
+  \ekd@appinappfalse
+  \endgroup
+  \ekd@newpadafalse
+}
+\NewDocumentCommand{\ekd@strip@hindsection}{m}{%
+  \IfSubStr{#1}{.}{\StrBehind{#1}{.}}{#1}}
+\def\hindsection{I}
+\renewcommand*{\thepoemline}{\hindsection.\arabic{poemline}}
+
+% verse: new option \verselinenumskip
+\newlength{\vnumskip}
+\setlength{\vnumskip}{4em}
+
+\ifekd@memoir@loaded
+\newcommand*{\@vstypelinenumskip}{%
+  \hskip\vnumskip\bgroup\vlvnumfont\getthelinenumber{poemline}{memfvsline}\egroup}
+\else
+\newcommand*{\@vstypelinenumskip}{%
+  \hskip\vnumskip\getmodulo@vs%
+}
+\fi
+
+\newcommand*\verselinenumberskip{\def\@vstypelinenum{\@vstypelinenumskip}}
+
+\patchcmd{\@vscentercr}{\incr@vsline}{\incr@vsline\reset@padanum}{}{}
+
+% definition of \pada
+\newcommand{\reset@padanum}{\setcounter{ekd@padanum}{0}}
+
+\NewDocumentCommand{\pada}{m}{%
+  \ekd@newpadatrue
+  \stepcounter{ekd@padanum}#1%
+}
+
+\protected\def\LRnum#1{%
+  \bgroup\textdir TLT\ekd@strip@hindsection{#1}\egroup}
+
+\TeXtoTEIPat{\pada @b1}{<s type="pada">@b1</s>}
+
+% definition of \prosenum and prosevnum
+% reminder: \newcommand\thelinenumber{\arabic{linenumber}}
+\NewDocumentCommand{\prosenum}{m}{%
+  \def\thelinenumber{#1}\ignorespaces
+}
+\TeXtoTEI{prosenum}{}
+\NewDocumentCommand{\setvnum}{m}{%
+  \def\thepoemline{#1}\ignorespaces
+}
+\TeXtoTEI{setvnum}{}
+
+\newcounter{saved@poemline}
+\newcommand{\stopvline}{%
+  \setcounter{saved@poemline}{\value{poemline}}%
+  \setcounter{poemline}{1}%
+}
+\newcommand{\startvline}{%
+  \setcounter{poemline}{\value{saved@poemline}}%
+}
+\TeXtoTEIPat{\stopvline }{}
+\TeXtoTEIPat{\startvline }{}
+
+% color
+\TeXtoTEI{color}{}
+
+\endinput
+%%
+%% End of file `verse.sty'.
