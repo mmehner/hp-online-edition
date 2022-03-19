@@ -7,14 +7,14 @@ Static web rendering routine for the Haṭhapradīpikā-editing project.
 - sed.
 
 ## Usage
-- Inspect: refer to rendering of [hp-online.html](html/hp-online.html) over [here](ttps://rawcdn.githack.com/radardenker/hp-online-edition/master/html/hp-online.html).
+- Inspect: refer to rendering of [hp-online.html](html/hp-online.html) over [here](https://rawcdn.githack.com/radardenker/hp-online-edition/master/html/hp-online.html).
 - Recreate:
   1. change variable `xslcmd` in [compile-tidyup.sh](./compile-tidyup.sh) to suite your xslt 2 processor,
   2. run [compile-tidyup.sh](./compile-tidyup.sh).
 - Change styling: refer to [style.css](html/style.css).
 
 ## Encoding modifications on initial release
-- documented in each `*.tex` file under `% additions/changes 2022-03-12 mm`, especially notworthy:
+- documented in each `*.tex` file under `% additions/changes 2022-03-12 mm`, especially noteworthy:
 - [HP1_OldMss](latex/HP1_OldMss.tex) :
   - changed environment `vsid` to `tlg`, wherein `ekdverse` is integrated,
   - explicitly encoded verse lines with `tl` command,
