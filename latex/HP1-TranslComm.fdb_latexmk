@@ -1,5 +1,5 @@
 # Fdb version 3
-["lualatex"] 1647439574 "HP1-TranslComm.tex" "HP1-TranslComm.pdf" "HP1-TranslComm" 1647439578
+["lualatex"] 1648117437 "HP1-TranslComm.tex" "HP1-TranslComm.pdf" "HP1-TranslComm" 1648117439
   "/etc/texmf/tex/generic/config/language.dat" 1640600964 6475 6656d4ab552837f0d69c9a396d2d0e9b ""
   "/home/sahibram/.texlive/texmf-var/luatex-cache/generic/fonts/otl/adobe-text-pro-2050.luc" 1647085405 1082549 294d4e70dcc66ac49f67ec89ae821bcc ""
   "/home/sahibram/.texlive/texmf-var/luatex-cache/generic/fonts/otl/adobe-text-pro-bold-2046.luc" 1647085408 1078466 e08927e475f541be8564f77a019a29ca ""
@@ -138,11 +138,11 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1641740383 4372627 61ff1e80ac3be442048b69305fe67333 ""
   "/var/lib/texmf/web2c/luahbtex/lualatex.fmt" 1641740366 4418047 7051dfc4aa2c7cf5b01a3ad39e181ded ""
   "Abbreviations.tex" 1646990755 2883 ad4cfdce1717f10c90722b138b2633e1 ""
-  "HP1-TranslComm.aux" 1647439577 1225 7402973d3e0ae37d47d17aae0820a62e "lualatex"
-  "HP1-TranslComm.tex" 1647439503 8290 03b441ae23a99c987dd90ce32c3ec30f ""
+  "HP1-TranslComm.aux" 1648117438 1225 7402973d3e0ae37d47d17aae0820a62e "lualatex"
+  "HP1-TranslComm.tex" 1648117189 8375 01790257b7869c82cd5ee0507f6bc9e0 ""
   "Manuscript-Sigla.tex" 1646845425 11089 a3d834cf9c5d6210f27806cdd4799cfe ""
   "Preamble-Print.tex" 1647364348 2442 66144c926863d19fc5f8644fcc4fac0c ""
-  "TeX2Tei-Commands.tex" 1647369892 2588 2fe89d72a2082157113ca198357ccbad ""
+  "TeX2Tei-Commands.tex" 1648117167 2692 543e6a879e69075fa6a0ab7d7ae058b7 ""
   "babel-iast.sty" 1646931737 3402 26fe333fae10f3490045ff0bae537130 ""
   "ekdosis.lua" 1647274122 70624 8d19244a175e0347883a85019c643c72 ""
   "ekdosis.sty" 1647274122 53848 d8bd824b72b638e467ad68447737e0d1 ""

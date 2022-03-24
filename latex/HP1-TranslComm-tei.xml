@@ -43,11 +43,11 @@ Sampurnananda Library Sarasvati Bhavan 30109
 <physDesc>
 <handDesc hands="2">
 <handNote xml:id="V1ac">
-<abbr type="siglum">V{<hi rend="sub">1</hi>}<hi rend="sup">ac</hi></abbr>
+<abbr type="siglum">V<hi rend="sup">ac</hi></abbr>
 
 </handNote>
 <handNote xml:id="V1pc">
-<abbr type="siglum">V{<hi rend="sub">1</hi>}<hi rend="sup">pc</hi></abbr>
+<abbr type="siglum">V<hi rend="sup">pc</hi></abbr>
 
 </handNote>
 </handDesc>
@@ -132,7 +132,7 @@ Sampurnananda Library Sarasvati Bhavan 30051
 </msDesc>
 </witness>
 <witness xml:id="V15pc">
-<abbr type="siglum">V{<hi rend="sub">15</hi>}<hi rend="sup">pc</hi>space </abbr>
+<abbr type="siglum">V<hi rend="sup">pc</hi>space </abbr>
 
 <msDesc>
 <msIdentifier/>
@@ -153,7 +153,7 @@ Sampurnananda Library Sarasvati Bhavan 30053
 </msDesc>
 </witness>
 <witness xml:id="V16pc">
-<abbr type="siglum">V{<hi rend="sub">16</hi>}<hi rend="sup">pc</hi>space </abbr>
+<abbr type="siglum">V<hi rend="sup">pc</hi>space </abbr>
 
 <msDesc>
 <msIdentifier/>
@@ -218,14 +218,14 @@ Raghunātha Temple Library 4383
 </msDesc>
 </witness>
 <witness xml:id="K1ac">
-<abbr type="siglum">K{<hi rend="sub">1</hi>}<hi rend="sup">ac</hi>space </abbr>
+<abbr type="siglum">K<hi rend="sup">ac</hi>space </abbr>
 
 <msDesc>
 <msIdentifier/>
 </msDesc>
 </witness>
 <witness xml:id="K1pc">
-<abbr type="siglum">K{<hi rend="sub">1</hi>}<hi rend="sup">pc</hi>space </abbr>
+<abbr type="siglum">K<hi rend="sup">pc</hi>space </abbr>
 
 <msDesc>
 <msIdentifier/>
@@ -248,11 +248,11 @@ MSPP Jodhpur 2230
 <physDesc>
 <handDesc hands="2">
 <handNote xml:id="J10ac">
-<abbr type="siglum">J{<hi rend="sub">10</hi>}<hi rend="sup">ac</hi></abbr>
+<abbr type="siglum">J<hi rend="sup">ac</hi></abbr>
 
 </handNote>
 <handNote xml:id="J10pc">
-<abbr type="siglum">J{<hi rend="sub">10</hi>}<hi rend="sup">pc</hi></abbr>
+<abbr type="siglum">J<hi rend="sup">pc</hi></abbr>
 
 </handNote>
 </handDesc>
@@ -288,14 +288,14 @@ Jodhpur 02234
 </msDesc>
 </witness>
 <witness xml:id="J4ac">
-<abbr type="siglum">J{<hi rend="sub">4</hi>}<hi rend="sup">ac</hi>space </abbr>
+<abbr type="siglum">J<hi rend="sup">ac</hi>space </abbr>
 MSPP Jodhpur 02234
 <msDesc>
 <msIdentifier/>
 </msDesc>
 </witness>
 <witness xml:id="J4pc">
-<abbr type="siglum">J{<hi rend="sub">4</hi>}<hi rend="sup">pc</hi>space </abbr>
+<abbr type="siglum">J<hi rend="sup">pc</hi>space </abbr>
 MSPP Jodhpur 02234
 <msDesc>
 <msIdentifier/>
@@ -309,14 +309,14 @@ Jodhpur 02235
 </msDesc>
 </witness>
 <witness xml:id="J6ac">
-<abbr type="siglum">J{<hi rend="sub">6</hi>}<hi rend="sub">ac</hi></abbr>
+<abbr type="siglum">J<hi rend="sub">ac</hi></abbr>
 Jodhpur 02237
 <msDesc>
 <msIdentifier/>
 </msDesc>
 </witness>
 <witness xml:id="J6pc">
-<abbr type="siglum">J{<hi rend="sub">6</hi>}<hi rend="sub">pc</hi></abbr>
+<abbr type="siglum">J<hi rend="sub">pc</hi></abbr>
 Jodhpur 02237
 <msDesc>
 <msIdentifier/>
@@ -337,11 +337,11 @@ Jodhpur 23709
 <physDesc>
 <handDesc hands="2">
 <handNote xml:id="J8ac">
-<abbr type="siglum">J{<hi rend="sub">8</hi>}<hi rend="sup">ac</hi></abbr>
+<abbr type="siglum">J<hi rend="sup">ac</hi></abbr>
 
 </handNote>
 <handNote xml:id="J8pc">
-<abbr type="siglum">J{<hi rend="sub">8</hi>}<hi rend="sup">pc</hi></abbr>
+<abbr type="siglum">J<hi rend="sup">pc</hi></abbr>
 
 </handNote>
 </handDesc>
@@ -453,14 +453,14 @@ Lalchand M 2081
 </msDesc>
 </witness>
 <witness xml:id="C4ac">
-<abbr type="siglum">C{<hi rend="sub">4</hi>}<hi rend="sup">ac</hi>space </abbr>
+<abbr type="siglum">C<hi rend="sup">ac</hi>space </abbr>
 
 <msDesc>
 <msIdentifier/>
 </msDesc>
 </witness>
 <witness xml:id="C4pc">
-<abbr type="siglum">C{<hi rend="sub">4</hi>}<hi rend="sup">pc</hi>space </abbr>
+<abbr type="siglum">C<hi rend="sup">pc</hi>space </abbr>
 
 <msDesc>
 <msIdentifier/>
@@ -495,7 +495,7 @@ Lalchand M 2091
 </msDesc>
 </witness>
 <witness xml:id="C8pc">
-<abbr type="siglum">C{<hi rend="sub">8</hi>}<hi rend="sup">pc</hi>space </abbr>
+<abbr type="siglum">C<hi rend="sup">pc</hi>space </abbr>
 
 <msDesc>
 <msIdentifier/>
@@ -642,14 +642,14 @@ NGMPP G 190 16
 </msDesc>
 </witness>
 <witness xml:id="N24ac">
-<abbr type="siglum">N{<hi rend="sub">24</hi>}<hi rend="sup">ac</hi>space </abbr>
+<abbr type="siglum">N<hi rend="sup">ac</hi>space </abbr>
 
 <msDesc>
 <msIdentifier/>
 </msDesc>
 </witness>
 <witness xml:id="N24pc">
-<abbr type="siglum">N{<hi rend="sub">24</hi>}<hi rend="sup">pc</hi>space </abbr>
+<abbr type="siglum">N<hi rend="sup">pc</hi>space </abbr>
 
 <msDesc>
 <msIdentifier/>
@@ -709,181 +709,65 @@ Alwar 952
 <text>
 <body>
 <note type="translation" target="#hp01_001"> dummy translation. </note>
-
-
-
- <note type="philcomm" target="#hp01_001"> <list><label>Sources</label><item><hi>Tantrālokaviveka</hi> 5.126, <hi>Śivasūtravimarśinī</hi> 1.6, <hi>Spandanirṇaya</hi> 1.11, <hi>Pratyabhijñāhṛdaya</hi></item> <label>Testimonia</label><item><hi>Amanaska</hi> 2.10, <hi>Candrāvalokana</hi> 1</item></list> The verse is variously transmitted, with differing case endings and pronouns, but remains consistent substance. It occurs in a group of texts from Kashmirian non dual Śaivism, the earliest being the quotations by Kṣemarāja, who quotes this verse frequently. A name of the sources text in never given, but the impression is that it is from an esoteric Tantric source, since Kṣemarāja quotes it in his <hi>Spandanirṇaya</hi> on 1.11 as from a <hi>mahārahasyaśāstra</hi>, that is, from a ``secret'', meaning heterodox Tantric scriptural text. The original Tantric context of the verse rules out Brāhmananda's reading <hi>vedaśāstreṣu</hi> instead of <hi>sarvatantreṣu</hi> in Pāda d. Since Brahmānanda's version is hardly ever represented in the manuscripts—only C$_{7}$ reads <hi>sarvaśāstreṣu</hi>—, one wonders whether this reading was in fact one of his own innovations<note place="bottom">There are other cases, where Brahmānanda frames doctrines in a Vedāntic context.</note>
-
-
-
+ <note type="sources" target="#hp01_001"> <list><label>Sources</label><item><hi>Tantrālokaviveka</hi> 5.126, <hi>Śivasūtravimarśinī</hi> 1.6, <hi>Spandanirṇaya</hi> 1.11, <hi>Pratyabhijñāhṛdaya</hi></item> <label>Testimonia</label><item><hi>Amanaska</hi> 2.10, <hi>Candrāvalokana</hi> 1</item></list> </note>
+ <note type="philcomm" target="#hp01_001"> The verse is variously transmitted, with differing case endings and pronouns, but remains consistent substance. It occurs in a group of texts from Kashmirian non dual Śaivism, the earliest being the quotations by Kṣemarāja, who quotes this verse frequently. A name of the sources text in never given, but the impression is that it is from an esoteric Tantric source, since Kṣemarāja quotes it in his <hi>Spandanirṇaya</hi> on 1.11 as from a <hi>mahārahasyaśāstra</hi>, that is, from a ``secret'', meaning heterodox Tantric scriptural text. The original Tantric context of the verse rules out Brāhmananda's reading <hi>vedaśāstreṣu</hi> instead of <hi>sarvatantreṣu</hi> in Pāda d. Since Brahmānanda's version is hardly ever represented in the manuscripts—only C$_{7}$ reads <hi>sarvaśāstreṣu</hi>—, one wonders whether this reading was in fact one of his own innovations<note place="bottom">There are other cases, where Brahmānanda frames doctrines in a Vedāntic context.</note>
  in order to bring the text more in line with—from his perspective—Vedāntic main stream religion. It is also worth noting that the claim that Yogic technique is contained in the Veda is also a position held by our commentator, who says in his commentary: <hi>vedaśāstreṣu gopitā vedeṣu ṛgādiṣu śāstreṣu sāṅkhyapātañjalādiṣu gopitā rakṣitā</hi>. The verse has been elaborately rewritten in an interesting small work that goes under the name <hi>Anubhavanivedana</hi> and is attributed by the editor K.C. Pandey to Abhinavagupta,<note place="bottom"><hi>Abhinavagupta. An Historical and Philosophical Study" K.C. Pandey Chaukhamba Amarabharati Prakashan</hi>. Varanasi 1935, p.,953.</note>
-
-
-
  but the mainly Yogic content does not suggest this authorship. In verse 2 the supreme reality is called <hi>aśeṣabāhyarahitaṃ paraṃ pumāṃsam</hi>, which collides with non dual Pratyabhijñā Śaivism, and 4c <hi>yogaḥ sa prathate yataḥ pravahaṇaṃ prāṇasya saṃkṣīyate</hi> suggests more likely a Haṭhayogic context. The attribution of this text is probably based on a short note, as we find them in Kashmirian codices that transmit smaller texts as writers' notes in the leaves added between the main texts.<note place="bottom">See Jürgen Hanneder: <hi>Sāhib Kaul's Tree of Languages</hi>. Marburg 2021, p.??, for an example for this.</note>
-
-
-
  In Vaktraśambhu's <hi>Yogasaṃgraha</hi> the first verse is attributed to an otherwise unknown <hi>Yogaśāṃkara</hi>. 
-
-
-
 <lg>
-
-
-
 
 <l> <hi>antarlakṣyavilīnacittapavano yogī yadā vartate</hi></l>
 <l><hi>dṛṣṭyā niścalatārayā bahir asau paśyann apaśyann api</hi></l>
 <l><hi>mudreyaṃ khalu śāmbhavī bhavati sā yuṣmatprasādād guro</hi></l>
 <l><hi>śūnyāśūnyavivarjitaṃ bhavati yat tattvaṃ padaṃ śāmbhavam</hi> (1)</l>
 
-
-
-
 </lg>
 
-
-
-
-
-
-
 <lg>
-
-
-
 
 <l> <hi>ardhodghāṭitalocanaḥ sthiramanā nāsāgradattekṣaṇaś</hi></l>
 <l><hi>candrārkāv api līnatām upagatau trispandabhāvāntare</hi></l>
 <l><hi>jyotīrūpam aśeṣabāhyarahitaṃ caikaṃ pumāṃsaṃ param</hi></l>
 <l><hi>tattvaṃ tatpadam eti vastu paramaṃ vācyaṃ kim atrādhikam</hi> (2)</l>
 
-
-
-
 </lg>
 
-
-
-
-
-
-
 <lg>
-
-
-
 
 <l> <hi>śabdaḥ kaś cana yo mukhād udayato mantraḥ sa lokottaraḥ</hi></l>
 <l><hi>saṃsthānaṃ sukhaduḥkhajanmavapuṣo yat kāpi mudraiva sā</hi></l>
 <l><hi>prāṇasya svarasena yat pravahaṇaṃ yogaḥ sa evādbhutaḥ</hi></l>
 <l><hi>śāktam dhāma paraṃ mamānubhavataḥ kin nāma na bhrājate</hi> (3)</l>
 
-
-
-
 </lg>
 
-
-
-
-
-
-
 <lg>
-
-
-
 
 <l> <hi>mantraḥ sa pratibhāti varṇaracanā yasmin na saṃlakṣayate</hi></l>
 <l><hi>mudrā sā samudeti yatra galitā kṛtsnā kriyā kāyikī</hi></l>
 <l><hi>yogaḥ sa prathate yataḥ pravahaṇaṃ prāṇasya saṃkṣīyate</hi></l>
 <l><hi>tvaddhāmādhigamotsaveṣu sudhiyāṃ kiṃ kiṃ na nāmādbhutam</hi> (4)</l>
 
-
-
-
 </lg>
-
-
-
 The transformation of this Tantric quote does not end here: It is read as Śāṇḍilya Upaniṣat ??, but with 1c as referring to the <hi>khecarī</hi> mudrā rather than the <hi>śāmbhavī</hi>: <hi>mudreyaṃ khalu khecarī bhavati sā lakṣyaikatānā śivā</hi>, and both the Śāṇḍilya and the Yogakundali Upaniṣat furnish it with a Vaiṣṇava context: <hi>śūnyāśūnyavivarjitaṃ sphurati sā tattvaṃ padaṃ vaiṣṇavī</hi>. <list><item>Vaktraśambhu: <hi>Yogasārasaṃgraha</hi>. Available as a transcript in Pondichery: IFP T0859 copied from D 4373 belonging to the GOML, Madras. The verse is introduced there as <hi>yogaśāṃkare</hi>.</item> <item>śāṇḍilya upaniṣat śrī upaniṣad brahmayogin Adyar library and research centre. Madras 1920</item> <item>yogakuṇḍalyupaniṣat</item> <item>Narahari: Bodhasara</item></list> </note>
-
-
-
  <note type="translation" target="#hp01_002"> dummy translation. </note>
-
-
-
  <note type="philcomm" target="#hp01_002"> dummy commentary. </note>
-
-
-
  <note type="translation" target="#hp01_003"> dummy translation. </note>
-
-
-
  <note type="philcomm" target="#hp01_003"> dummy commentary. </note>
-
-
-
  <note type="translation" target="#hp01_004"> dummy translation. </note>
-
-
-
  <note type="philcomm" target="#hp01_004"> dummy commentary. </note>
-
-
-
  <note type="translation" target="#hp01_005"> dummy translation. </note>
-
-
-
  <note type="philcomm" target="#hp01_005"> dummy commentary. </note>
-
-
-
  <note type="translation" target="#hp01_006"> dummy translation. </note>
-
-
-
  <note type="philcomm" target="#hp01_006"> dummy commentary. </note>
-
-
-
  <note type="translation" target="#hp01_007"> dummy translation. </note>
-
-
-
  <note type="philcomm" target="#hp01_007"> dummy commentary. </note>
-
-
-
  <note type="translation" target="#hp01_008"> dummy translation. </note>
-
-
-
  <note type="philcomm" target="#hp01_008"> dummy commentary. </note>
-
-
-
  <note type="translation" target="#hp01_009"> dummy translation. </note>
-
-
-
  <note type="philcomm" target="#hp01_009"> dummy commentary. </note>
-
-
-
  <note type="translation" target="#hp01_010"> dummy translation. </note>
-
-
-
  <note type="philcomm" target="#hp01_010"> dummy commentary. </note>
-
-
-
  
 </body>
 </text>

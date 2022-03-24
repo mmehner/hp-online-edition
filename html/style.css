@@ -5,6 +5,21 @@
     src: url(fonts/LinBiolinum_RI.woff);
 }
 
+@font-face {
+    font-family: Adishila;
+    src: url(fonts/Adishila.ttf);
+}
+
+@font-face {
+    font-family: Adishila;
+    font-weight: bold;
+    src: url(fonts/AdishilaBold.ttf);
+}
+
+.Adishila{
+    font-family: Adishila;
+}
+
 * {box-sizing: border-box;}
 
 body {
@@ -94,11 +109,10 @@ mark {
 .text {
     float: left;
     width: 60%;
-    padding: 10px;
+    margin: 10px;
 }
 
 .hp {
-    font-weight: bold;
     font-size: 18px;
 }
 
@@ -129,7 +143,7 @@ mark {
 
 .philcomm-d{
     background-color:  #520A1A;
-    widht: 100%;
+    width: 100%;
     padding: 10px 10px 10px 10px;
     border-radius: 10px;
 }
@@ -168,6 +182,17 @@ mark {
 }
 
 .marma {
+    display: block;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 10px;
+}
+
+.sources-d {
+    padding-bottom: 10px;
+}
+
+.sources {
     display: block;
     padding-bottom: 5px;
     padding-left: 15px;

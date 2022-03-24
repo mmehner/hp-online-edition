@@ -47,7 +47,9 @@
 	    <span class="number">
 	      <xsl:value-of select="replace(@xml:id, 'hp0*(\d+)_0*(\d+)', 'HP $1.$2')"/>
 	    </span>
-	    <xsl:apply-templates/>
+	    <div class="Adhishila">
+	      <xsl:apply-templates/>
+	    </div>
 	  </div>
 	  
 	  <div class="translation">
@@ -76,6 +78,12 @@
 		<xsl:apply-templates select="document('../xml/Marmasthanas-tei.xml')//note[@type='marma' and @target=$correspkey]"/>
 	      </div>
 	    </details>
+	    <details class="sources-d">
+	      <summary>Sources &amp; Testimonia</summary>
+	      <div class="sources">
+		<xsl:apply-templates select="document('../xml/HP1-TranslComm-tei.xml')//note[@type='sources' and @target=$correspkey]"/>
+	      </div>
+	    </details>
 	  </div>
 	</div>
 
@@ -86,6 +94,51 @@
 	  </div>
 	</details>
     </div>
+  </xsl:template>
+
+  <!-- iast2nagari for text nodes of hp -->
+  <xsl:template match="l[not(ancestor::note)]//text()">
+    <xsl:value-of select="replace(replace(
+			  translate(
+			  replace(replace(
+			  translate(
+			  replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(.,
+			  '([kgṅcjñṭḍṇtdnpbmyrlvśṣsh]) *([kgṅcjñṭḍṇtdnpbmyrlvśṣs])','$1्$2'),
+			  '([r])([h])','$1्$2'),
+			  '([kgṅcjñṭḍṇtdnpbmyrlvśṣsh]h?)ai','$1ै'),
+			  '([kgṅcjñṭḍṇtdnpbmyrlvśṣsh]h?)au','$1ौ'),
+			  '([kgṅcjñṭḍṇtdnpbmyrlvśṣsh]h?)a','$1'),
+			  '([kgṅcjñṭḍṇtdnpbmyrlvśṣsh]h?)ā','$1ा'),
+			  '([kgṅcjñṭḍṇtdnpbmyrlvśṣsh]h?)i','$1ि'),
+			  '([kgṅcjñṭḍṇtdnpbmyrlvśṣsh]h?)ī','$1ी'),
+			  '([kgṅcjñṭḍṇtdnpbmyrlvśṣsh]h?)u','$1ु'),
+			  '([kgṅcjñṭḍṇtdnpbmyrlvśṣsh]h?)ū','$1ू'),
+			  '([kgṅcjñṭḍṇtdnpbmyrlvśṣsh]h?)ṛ','$1ृ'),
+			  '([kgṅcjñṭḍṇtdnpbmyrlvśṣsh]h?)ṝ','$1ॄ'),
+			  '([kgṅcjñṭḍṇtdnpbmyrlvśṣsh]h?)ḷ','$1ॢ'),
+			  '([kgṅcjñṭḍṇtdnpbmyrlvśṣsh]h?)ḹ','$1ॣ'),
+			  '([kgṅcjñṭḍṇtdnpbmyrlvśṣsh]h?)e','$1े'),
+			  '([kgṅcjñṭḍṇtdnpbmyrlvśṣsh]h?)o','$1ो'),
+			  '’', 'ऽ'),
+			  'ṃ', 'ं'),
+			  'ḥ', 'ः'),
+			  'kh','ख'),
+			  'gh','घ'),
+			  'ch','छ'),
+			  'jh','झ'),
+			  'ṭh','ठ'),
+			  'ḍh','ढ'),
+			  'th','थ'),
+			  'dh','ध'),
+			  'ph','फ'),
+			  'bh','भ'),
+			  'kgṅcjñṭḍṇtdnpbmyrlvśṣshṃḥ','कगङचजञटडणतदनपबमयरलवशषसह'),
+			  'ai','ऐ'),
+			  'au','औ'),
+			  'aāiīuūṛṝḷeo','अआइईउऊऋलृएओ'),
+			  '//',' ॥'),
+			  '/',' ।')"/>
+    <xsl:apply-templates/>
   </xsl:template>
   
   <!-- lemma-choice -->
@@ -131,14 +184,13 @@
   <xsl:template match="lem|rdg" mode="lemma">
     <xsl:variable name="correspkey" select="concat('#', @xml:id )"/>
     <span class="lem">
-      <xsl:apply-templates/>
+      <xsl:value-of select="."/>
     </span>
     <xsl:call-template name="sigla"/>
   </xsl:template>
 
   <xsl:template match="lem|rdg">
-    <xsl:variable name="correspkey" select="concat('#', @xml:id )"/>
-    <xsl:apply-templates/>
+    <xsl:value-of select="."/>
     <xsl:call-template name="sigla"/>
   </xsl:template>
 

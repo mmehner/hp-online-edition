@@ -16,7 +16,7 @@
 <listWit>
 <witness xml:id="Vu">
 <abbr type="siglum">Vulg</abbr>
-Vulgate, i.e. Brahmānanda's version
+Vulgate, i.e. Brahmānanda’s version
 <msDesc>
 <msIdentifier/>
 </msDesc>
@@ -30,7 +30,7 @@ TenChapter Version, Jodhpur 02228 and 02225 (ed. Lonavla)
 </witness>
 <witness xml:id="Six">
 <abbr type="siglum">Ṣ</abbr>
-SixChapterVersion, ``6ChapterHPms'', fragment of enlarged text, Jodhpur
+SixChapterVersion, ``6ChapterHPms’’, fragment of enlarged text, Jodhpur
 <msDesc>
 <msIdentifier/>
 </msDesc>

@@ -27,6 +27,7 @@ compile(){
     	    -e "s_</?item>_&\n_g" \
 	    -e "s_</?list>_&\n_g" \
 	    -e "s_\\\\[+!]\?__g" \
+	    -e "s_'_’_g" \
 	    "${tei}"
 
 	cp  -v "${tei}" ../xml/

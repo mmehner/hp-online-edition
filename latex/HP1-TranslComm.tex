@@ -17,6 +17,7 @@
 \SetTEIxmlExport{autopar=false}
 \NewDocumentEnvironment{translation}{O{}}{}{}
 \NewDocumentEnvironment{philcomm}{O{}}{}{}
+\NewDocumentEnvironment{sources}{O{}}{}{}
 
 \NewDocumentEnvironment{tlg}{O{}}{\begin{ekdverse}\indentpattern{0000}}{\end{ekdverse}}
 \RenewDocumentEnvironment{verse}{}{\begin{ekdverse}\indentpattern{0000}\begin{patverse*}}{\end{patverse*}\end{ekdverse}}
@@ -35,12 +36,14 @@
     dummy translation.
   \end{translation}
 
-  \begin{philcomm}[hp01_001]
+  \begin{sources}[hp01_001]
     \begin{description}
-      \item[Sources]{\emph{Tantrālokaviveka} 5.126, \emph{Śivasūtravimarśinī} 1.6, \emph{Spandanirṇaya} 1.11, \emph{Pratyabhijñāhṛdaya}}
-      \item[Testimonia]{\emph{Amanaska} 2.10, \emph{Candrāvalokana} 1}
-    \end{description}  
-
+    \item[Sources]{\emph{Tantrālokaviveka} 5.126, \emph{Śivasūtravimarśinī} 1.6, \emph{Spandanirṇaya} 1.11, \emph{Pratyabhijñāhṛdaya}}
+    \item[Testimonia]{\emph{Amanaska} 2.10, \emph{Candrāvalokana} 1}
+    \end{description}
+  \end{sources}
+  
+  \begin{philcomm}[hp01_001]
     \noindent
     The verse is variously transmitted, with differing case endings and pronouns, but remains
     consistent substance. It occurs in a group of texts from Kashmirian non-dual Śaivism, the earliest
