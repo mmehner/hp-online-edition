@@ -12,7 +12,7 @@
 
 @font-face {
     font-family: Adishila;
-    font-weight: bold;
+2    font-weight: bold;
     src: url(fonts/AdishilaBold.ttf);
 }
 
@@ -108,11 +108,14 @@ mark {
 
 .text {
     float: left;
+    display: grid;
+    grid-template-rows: min-content min-content auto;
     width: 60%;
     margin: 10px;
 }
 
 .hp {
+    width: 100%;
     font-size: 18px;
 }
 
@@ -144,6 +147,7 @@ mark {
 .philcomm-d{
     background-color:  #520A1A;
     width: 100%;
+    height: -webkit-fill-available;
     padding: 10px 10px 10px 10px;
     border-radius: 10px;
 }

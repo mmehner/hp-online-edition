@@ -42,15 +42,19 @@
     <div class="main">
       <div class="hpmeta">
 	<div class="text">
-	
-	  <div class="hp">
+
+	  <xsl:element name="div">
+	    <xsl:attribute name="id">
+	      <xsl:value-of select="@xml:id"/>
+	    </xsl:attribute>
+	    <xsl:attribute name="class">hp</xsl:attribute>
 	    <span class="number">
 	      <xsl:value-of select="replace(@xml:id, 'hp0*(\d+)_0*(\d+)', 'HP $1.$2')"/>
 	    </span>
 	    <div class="Adhishila">
 	      <xsl:apply-templates/>
 	    </div>
-	  </div>
+	  </xsl:element>
 	  
 	  <div class="translation">
 	    <xsl:apply-templates select="document('../xml/HP1-TranslComm-tei.xml')//note[@type='translation' and @target=$correspkey]"/>
