@@ -26,6 +26,10 @@
       <xsl:apply-templates select="node()|@*" />
     </xsl:copy>
   </xsl:template>
+
+  <!-- deletions -->
+  <xsl:template match="note[@type='altrecension']"/>
+  <xsl:template match="note[@type='avataranika']"/>
   
   <!-- main template -->
   <xsl:template match="body">
@@ -52,6 +56,7 @@
 	      <xsl:value-of select="replace(@xml:id, 'hp0*(\d+)_0*(\d+)', 'HP $1.$2')"/>
 	    </span>
 	    <div class="Adhishila">
+	      <xsl:apply-templates select="//note[@type='avataranika' and @target=$correspkey]" mode="avataranika"/>
 	      <xsl:apply-templates/>
 	    </div>
 	  </xsl:element>
@@ -100,8 +105,14 @@
     </div>
   </xsl:template>
 
-  <!-- iast2nagari for text nodes of hp -->
-  <xsl:template match="l[not(ancestor::note)]//text()">
+  <xsl:template match="note" mode="avataranika">
+    <p>
+      <xsl:apply-templates/>
+    </p>
+  </xsl:template>
+  
+  <!-- iast2nagari for text nodes of hp and avataranika -->
+  <xsl:template match="l[not(ancestor::note)]//text()|note[@type='avataranika']//text()">
     <xsl:value-of select="replace(replace(
 			  translate(
 			  replace(replace(

@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.13.2 (TeX Live 2021/Arch Linux)  (format=lualatex 2022.1.9)  24 MAR 2022 11:23
+This is LuaHBTeX, Version 1.13.2 (TeX Live 2021/Arch Linux)  (format=lualatex 2022.1.9)  4 APR 2022 19:43
  restricted system commands enabled.
 **HP1_OldMss.tex
 (./HP1_OldMss.tex
@@ -403,10 +403,13 @@ Sidefoothsep and sidefootwidth: 7pt and 128pt
 Sidefootvsep and sidefootheight: 12pt and 548.39996pt
 ******************************************************
 
-(./ekdosis.sty
+(/usr/share/texmf-dist/tex/latex/yafoot/fnpos.sty
+Package: fnpos 2018/09/03 v1.1 
+) (./ekdosis.sty
 Package: ekdosis 2022/01/17 v1.5-dev Typesetting TEI xml-compliant critical edi
 tions
- (/usr/share/texmf-dist/tex/generic/expkv-opt/expkv-opt.sty
+
+(/usr/share/texmf-dist/tex/generic/expkv-opt/expkv-opt.sty
 Package: expkv-opt 2021-04-04 v0.2 parse class and package options with expkv
 
 (/usr/share/texmf-dist/tex/latex/expkv/expkv.sty
@@ -750,9 +753,7 @@ Package babel Info: Importing font and identification data for english
 (babel)             from babel-en.ini. Reported on input line 11.
 )
 (./Manuscript-Sigla.tex) (./Abbreviations.tex) (./TeX2Tei-Commands.tex))
-(/usr/share/texmf-dist/tex/latex/yafoot/fnpos.sty
-Package: fnpos 2018/09/03 v1.1 
-) (./HP1_OldMss.aux
+(./HP1_OldMss.aux
 
 Package babel Info: The following font families will use the default
 (babel)             settings for all or some languages:
@@ -855,28 +856,28 @@ UTF-8 Sanskrit hyphenation patterns
 (/usr/share/texmf-dist/tex/generic/hyph-utf8/patterns/tex/hyph-sa.tex)))
 \openout1 = HP1_OldMss.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
-2.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 8
+.
 
 (/usr/share/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
 \c@ekdapparatus=\count347
 \c@loadepth=\count348
 \cftbeforeekdapparatusskip=\skip195
@@ -903,66 +904,66 @@ Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 22.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 22.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 22.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 22.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 22.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 22.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 22.
-LaTeX Font Info:    Redeclaring math accent \check on input line 22.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 22.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 22.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 22.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 22.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 22.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 22.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 22.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 22.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 22.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 22.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 22.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 22.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 22.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 22.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 22.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 22.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 22.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 8.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 8.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 8.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 8.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 8.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 8.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 8.
+LaTeX Font Info:    Redeclaring math accent \check on input line 8.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 8.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 8.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 8.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 8.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 8.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 8.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 8.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 8.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 8.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 8.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 8.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 8.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 8.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 8.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 8.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 8.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 8.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 22.
+(Font)              `operators' in the math version `normal' on input line 8.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/AdobeTextPro(0)/m/n on input line 22
-.
+(Font)                  OT1/cmr/m/n --> TU/AdobeTextPro(0)/m/n on input line 8.
+
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 22.
+(Font)              `operators' in the math version `bold' on input line 8.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/AdobeTextPro(0)/m/n on input line 2
-2.
+(Font)                  OT1/cmr/bx/n --> TU/AdobeTextPro(0)/m/n on input line 8
+.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  TU/AdobeTextPro(0)/m/n --> TU/AdobeTextPro(0)/m/n on in
-put line 22.
+put line 8.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> TU/AdobeTextPro(0)/m/it on input line 
-22.
+8.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/AdobeTextPro(0)/b/n on input line 2
-2.
+(Font)                  OT1/cmr/bx/n --> TU/AdobeTextPro(0)/b/n on input line 8
+.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 22.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 8.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 22.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 8.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  TU/AdobeTextPro(0)/m/n --> TU/AdobeTextPro(0)/b/n on in
-put line 22.
+put line 8.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> TU/AdobeTextPro(0)/b/it on input line
- 22.
+ 8.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 22.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 8.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 22.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 8.
 LaTeX Font Info:    Font shape `TU/AdishilaSan(0)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 209.
+(Font)              scaled to size 12.0pt on input line 2225.
 LaTeX Font Info:    Font shape `TU/AdobeTextPro(0)/m/n' will be
 (Font)              scaled to size 7.19995pt on input line 1.
 LaTeX Font Info:    Font shape `TU/AdobeTextPro(0)/bx/n' in size <8> not availa
@@ -988,106 +989,537 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 1.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1--209
+Underfull \hbox (badness 1052) in paragraph at lines 1--2225
 [][][]\TU/AdobeTextPro(0)/b/n/8 1a [][][]śrīād-ināthāya[] []\TU/AdobeTextP
-ro(0)/m/n/8 J$[][]$[]J$[][]$[]J$[][]$[]N$[][]$[]V$[][]$] []ādīśanāthāya[] 
-[]V$[][]$  [][]\TU/AdobeTextPro(0)/b/n/8 1c [][][]rā-jasaud-ham[] []\TU/AdobeT
-extPro(0)/m/n/8 V$[][]$[]V$[][]$] []rā-jayo-gam[] []J$[][]$[]J$[][]$[]J$[][]$[
-]N$[][]$
+ro(0)/m/n/8 J$[][]$[]J$[][]$[]J$[][]$[]N$[][]$[]V$[][]$[]W$[][]$] []ādīśan
+āthāya[] []V$[][]$  [][]\TU/AdobeTextPro(0)/b/n/8 1c [][][]rā-jasaud-ham[] [
+]\TU/AdobeTextPro(0)/m/n/8 V$[][]$[]V$[][]$] []rā-jayo-gam[] []J$[][]$[]J$[][]
+$[]J$[][]$[]N$[][]$[]W$[][]$
  []
 
 
-Underfull \hbox (badness 4353) in paragraph at lines 1--209
-[]\TU/AdobeTextPro(0)/m/n/8 dhī-matā[] []V$[][]$  [][]\TU/AdobeTextPro(0)/b/n
-/8 2d [][][]vidy-opadiśy-ate[] []\TU/AdobeTextPro(0)/m/n/8 J[]$[][]$[]V$[][]$[
-]V$[][]$] []vidyo diśy-ate[] []J[]$[][]$ []yo-gopadiśy-ate[] []J$[][]$[]N$[][
-]$ []yo-go-pradiśy-ate[] []J$[][]$
+Underfull \hbox (badness 10000) in paragraph at lines 1--2225
+[][]\TU/AdobeTextPro(0)/b/n/8 1d [][][]āroḍhum[] []\TU/AdobeTextPro(0)/m/n/8
+ J$[][]$[]J$[][]$[]N$[][]$[]V$[][]$[]V$[][]$[]W$[][]$] []āro-him[] []J$[][]$  
+[][][][][]\TU/AdobeTextPro(0)/b/n/8 ro-hiṇīva[] []\TU/AdobeTextPro(0)/m/n/8 
+J$[][]$[]J$[][]$[]N$[][]$[]V$[][]$[]V$[][]$[]W$[][]$] []roha eva[] []J$[][]$  [
+][]\TU/AdobeTextPro(0)/b/n/8 2b [][][]yo-ginā[]
  []
 
 
-Underfull \hbox (badness 1221) in paragraph at lines 1--209
-[]\TU/AdobeTextPro(0)/m/n/8 V$[][]$] []kṛpā-paraḥ[] []J[]$[][]$[]V$[][]$ [
-]kṣamākaraḥ[] []J[]$[][]$[]J$[][]$[]N$[][]$ []prakāśy-ate[] []J[]$[][]$[
-]J[]$[][]$  [][]\TU/AdobeTextPro(0)/b/n/8 4a [][][]vidyāṃ hi[] []\TU/AdobeTe
-xtPro(0)/m/n/8 J$[][]$[]J$[][]$[]J$[][]$[]V$[][]$] []vidyā hi[] []N$[][]$[]V$[
+Underfull \hbox (badness 1960) in paragraph at lines 1--2225
+[]\TU/AdobeTextPro(0)/m/n/8 J$[][]$[]J$[][]$[]J$[][]$[]N$[][]$[]V$[][]$[]W$[][]
+$] []dhī-matā[] []V$[][]$  [][]\TU/AdobeTextPro(0)/b/n/8 2d [][][]vidy-opadi
+śy-ate[] []\TU/AdobeTextPro(0)/m/n/8 J[]$[][]$[]V$[][]$[]V$[][]$] []vidyo di
+śy-ate[] []J[]$[][]$ []yo-gopadiśy-ate[] []J$[][]$[]N$[][]$[]W$[][]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--2225
+[]\TU/AdobeTextPro(0)/m/n/8 yo-go-pradiśy-ate[] []J$[][]$  [][]\TU/AdobeTextPr
+o(0)/b/n/8 3a [][][]bhrān-tyā[] []\TU/AdobeTextPro(0)/m/n/8 J[]$[][]$[]J$[][]
+$[]J$[][]$[]N$[][]$[]V$[][]$[]W$[][]$] []bhrāntvā[] []J[]$[][]$[]V$[][]$  [][
+][][][]\TU/AdobeTextPro(0)/b/n/8 matad-hvānte[] []\TU/AdobeTextPro(0)/m/n/8 J$
+[][]$[]J$[][]$[]N$[][]$[]V$[][]$[]W$[][]$]
+ []
+
+
+Underfull \hbox (badness 1509) in paragraph at lines 1--2225
+[]\TU/AdobeTextPro(0)/m/n/8 matād-hvānte[] []J$[][]$ []mataṃ bhrān-taṃ[]
+ []V$[][]$  [][]\TU/AdobeTextPro(0)/b/n/8 3b [][][]ajā-natām[] []\TU/AdobeTex
+tPro(0)/m/n/8 J$[][]$[]J$[][]$[]J$[][]$[]N$[][]$[]V$[][]$[]W$[][]$] []ajā-nata
+ḥ[] []V$[][]$  [][]\TU/AdobeTextPro(0)/b/n/8 3d [][][]kṛpākaraḥ[] []\TU/
+AdobeTextPro(0)/m/n/8 V$[][]$]
+ []
+
+
+Underfull \hbox (badness 3965) in paragraph at lines 1--2225
+[][]\TU/AdobeTextPro(0)/b/n/8 4c [][][]svāt-mārāmo[] []\TU/AdobeTextPro(0)/m
+/n/8 J$[][]$[]J$[][]$[]J$[][]$[]N$[][]$[]V$[][]$[]W$[][]$] []āt-mārāmo[] []V$[][]$  [][]\TU/AdobeTextPro(0)/b/n/8 4d [][][]j
+ānīte[] []\TU/AdobeTextPro(0)/m/n/8 J[]$[][]$[]J$[][]$[]N$[][]$[]V$[][]$[]V$[
+][]$[]W$[][]$] []jānite[] []J$[][]$ []jā-naṃte[] []J[]$[][]$
+ []
+
+
+Underfull \hbox (badness 4156) in paragraph at lines 1--2225
+[][]\TU/AdobeTextPro(0)/b/n/8 5a [][][]śrīād-inātha[] []\TU/AdobeTextPro(0)
+/m/n/8 J$[][]$[]V$[][]$] []ād-ināthādi[] []J$[][]$[]J$[][]$[]N$[][]$[]V$[][]
+$[]W$[][]$  [][]\TU/AdobeTextPro(0)/b/n/8 5b [][][]śābarā[] []\TU/AdobeTextP
+ro(0)/m/n/8 J$[][]$[]J$[][]$[]N$[][]$[]W$[][]$] []śabarā[] []V$[][]$ []śā-ga
+rā[] []J$[][]$ []śāradā[]
+ []
+
+
+Underfull \hbox (badness 1565) in paragraph at lines 1--2225
+[]\TU/AdobeTextPro(0)/m/n/8 J$[][]$[]J$[][]$[]J$[][]$[]N$[][]$[]V$[][]$[]W$[][]
+$] []virūpākṣaḥ[] []V$[][]$  [][][][][]\TU/AdobeTextPro(0)/b/n/8 bileśay
+āḥ[] []\TU/AdobeTextPro(0)/m/n/8 J$[][]$[]J$[][]$[]J$[][]$[]N$[][]$[]V$[][]$
+[]W$[][]$] []savā-likaḥ[] []V$[][]$  [][]\TU/AdobeTextPro(0)/b/n/8 6b [][][]
+sid-dha[] []\TU/AdobeTextPro(0)/m/n/8 J$[][]$[]V$[][]$] []śud-dha[]
+ []
+
+
+Underfull \hbox (badness 1642) in paragraph at lines 1--2225
+[]\TU/AdobeTextPro(0)/m/n/8 J$[][]$[]J$[][]$[]N$[][]$[]W$[][]$ []sud-dha[] []V$
+[][]$  [][][][][]\TU/AdobeTextPro(0)/b/n/8 bud-dhaś ca[] []\TU/AdobeTextPro(0)
+/m/n/8 J$[][]$[]J$[][]$[]N$[][]$[]V$[][]$[]V$[][]$[]W$[][]$] []bud-hiśca[] []J$[][]$  [][][][][]\TU/AdobeTextPro(0)/b/n/8 kan-tha
+ḍiḥ[] []\TU/AdobeTextPro(0)/m/n/8 V$[][]$] []kaṃthaḍī[] []V$[][]$[]W$[
 ][]$
  []
 
 
-Underfull \hbox (badness 1189) in paragraph at lines 1--209
-[]\TU/AdobeTextPro(0)/m/n/8 bhairavaḥ[] []J$[][]$[]N$[][]$  [][]\TU/AdobeText
-Pro(0)/b/n/8 5c [][][]mīna[] []\TU/AdobeTextPro(0)/m/n/8 J$[][]$[]J$[][]$[]J$[
-][]$[]N$[][]$[]V$[][]$] []ṣīna[] []V$[][]$  [][]\TU/AdobeTextPro(0)/b/n/8 5d [][][]vir
-ūpākṣa[] []\TU/AdobeTextPro(0)/m/n/8 J$[][]$[]J$[][]$[]N$[][]$[]V$[][]$] []
-virupākṣa[] []J$[][]$ []virūpākṣaḥ[]
- []
-
-
-Underfull \hbox (badness 1708) in paragraph at lines 1--209
-[][]\TU/AdobeTextPro(0)/b/n/8 6c [][][]pau-raṇṭakaḥ[] []\TU/AdobeTextPro(
-0)/m/n/8 J$[][]$[]J$[][]$[]N$[][]$[]V$[][]$] []pau-raṇṭhakaḥ[] []J$[][]$ 
- [][][][][]\TU/AdobeTextPro(0)/b/n/8 surā-nan-daḥ[] []\TU/AdobeTextPro(0)/m/
-n/8 J$[][]$[]J$[][]$[]N$[][]$[]V$[][]$] []surā-nanda[] []J$[][]$  [][]\TU/Adob
-eTextPro(0)/b/n/8 6d [][][]carp(p)aṭiḥ[]
- []
-
-
-Underfull \hbox (badness 3590) in paragraph at lines 1--209
-[]\TU/AdobeTextPro(0)/m/n/8 J[]$[][]$[]J$[][]$[]N$[][]$] []carp-paṭi[] []J[]$
-[][]$ []carp(p)aṭī[] []J$[][]$[]V$[][]$  [][]\TU/AdobeTextPro(0)/b/n/8 7a []
-[][]kān-erī[] []\TU/AdobeTextPro(0)/m/n/8 J$[][]$[]J$[][]$[]J$[][]$] []kaneri[] []N$[][]$ []ka
-ṇerī[] []V$[][]$ []kar-iṇī[] []V$[][]$  [][][][][]\TU/AdobeTextPro(0)/b/n
-/8 pūjya[]
+Underfull \hbox (badness 4072) in paragraph at lines 1--2225
+[]\TU/AdobeTextPro(0)/m/n/8 J$[][]$[]J$[][]$[]N$[][]$[]V$[][]$[]W$[][]$] []sur
+ā-nanda[] []J$[][]$  [][]\TU/AdobeTextPro(0)/b/n/8 6d [][][]carp(p)aṭiḥ[] 
+[]\TU/AdobeTextPro(0)/m/n/8 J[]$[][]$[]J$[][]$[]N$[][]$[]W$[][]$] []carp-paṭi[] []J[]$[][]$ []carp(p)a
+ṭī[] []J$[][]$[]V$[][]$  [][]\TU/AdobeTextPro(0)/b/n/8 7a [][][]kān-erī[]
  []
 
 LaTeX Font Info:    Font shape `TU/AdobeTextPro(0)/m/n' will be
-(Font)              scaled to size 6.29996pt on input line 209.
+(Font)              scaled to size 6.29996pt on input line 2225.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 209.
+(Font)              <7> on input line 2225.
 LaTeX Font Info:    Font shape `TU/AdishilaSan(0)/m/n' will be
-(Font)              scaled to size 10.5pt on input line 209.
+(Font)              scaled to size 10.5pt on input line 2225.
 LaTeX Font Info:    Font shape `TU/AdishilaSan(0)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 209.
+(Font)              scaled to size 9.0pt on input line 2225.
 LaTeX Font Info:    Font shape `TU/AdobeTextPro(0)/m/it' will be
-(Font)              scaled to size 7.19995pt on input line 209.
+(Font)              scaled to size 7.19995pt on input line 2225.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 6380) has occurred while \output is active []
 
 LaTeX Font Info:    Font shape `TU/AdishilaSan(0)/m/n' will be
-(Font)              scaled to size 13.5pt on input line 209.
+(Font)              scaled to size 13.5pt on input line 2225.
 LaTeX Font Info:    Font shape `TU/AdobeTextPro(0)/m/n' will be
-(Font)              scaled to size 8.09995pt on input line 209.
+(Font)              scaled to size 8.09995pt on input line 2225.
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
-Underfull \hbox (badness 1424) in paragraph at lines 1--209
-[][]\TU/AdobeTextPro(0)/b/n/8 9c [][][]khaṇḍay-itvā[] []\TU/AdobeTextPro(0
-)/m/n/8 J$[][]$[]J$[][]$[]J$[][]$[]N$[][]$[]V$[][]$] []khaṃḍa-i-tvā[] []V$
-[][]$  [][]\TU/AdobeTextPro(0)/b/n/8 9d [][][]vicaranti[] []\TU/AdobeTextPro(0)
-/m/n/8 J$[][]$[]J$[][]$[]N$[][]$[]V$[][]$] []tu caranti[] []J$[][]$ []ṣu caran
-ti[] []V$[][]$
+Underfull \hbox (badness 2245) in paragraph at lines 1--2225
+[]\TU/AdobeTextPro(0)/m/n/8 ghoṭā-colī[] []V$[][]$  [][][][][]\TU/AdobeText
+Pro(0)/b/n/8 ca[] []\TU/AdobeTextPro(0)/m/n/8 J$[][]$[]J$[][]$[]N$[][]$[]V$[][]
+$[]W$[][]$] []sa[] []V$[][]$  [][][][][]\TU/AdobeTextPro(0)/b/n/8 ṭiṇṭi
+ṇī[] []\TU/AdobeTextPro(0)/m/n/8 J[]$[][]$[]J$[][]$[]J$[][]$[]V$[][]$] []
+ṭiṃṭiṇīḥ[] []N$[][]$[]W$[][]$ []ṭiṃṭiniḥ[] []V$[][]$ []ci
+ṃ-ciṇī[] []J[]$[][]$
  []
 
-[2] (./HP1_OldMss.aux))
+
+Underfull \hbox (badness 1642) in paragraph at lines 1--2225
+[]\TU/AdobeTextPro(0)/m/n/8 ja-gatīm[] []V$[][]$ []yuk-tānām[] []J[]$[][]$ [
+]juk-tānāṃm[] []J$[][]$  [][]\TU/AdobeTextPro(0)/b/n/8 10d [][][]ād-hāra[
+] []\TU/AdobeTextPro(0)/m/n/8 V$[][]$[]W$[][]$] []ād-hāraḥ[] []J$[][]$[]J$[
+][]$[]J$[][]$[]N$[][]$[]V$[][]$  [][][][][]\TU/AdobeTextPro(0)/b/n/8 ka-maṭho ha
+ṭhaḥ[]
+ []
+
+
+Underfull \hbox (badness 1527) in paragraph at lines 1--2225
+[]\TU/AdobeTextPro(0)/m/n/8 J[]$[][]$[]J$[][]$[]J$[][]$[]N$[][]$[]V$[][]$[]V$[]
+[]$[]W$[][]$] []gopyaṃ[] []J[]$[][]$  [][][][][]\TU/AdobeTextPro(0)/b/n/8 yo-g
+ināṃ[] []\TU/AdobeTextPro(0)/m/n/8 J[]$[][]$[]J$[][]$[]J$[][]$[]N$[][]$[]V$[
+][]$[]W$[][]$] []yo-gīnāṃ[] []J[]$[][]$ []yo-ginā[] []V$[][]$  [][]\TU/Ado
+beTextPro(0)/b/n/8 11b [][][]ic-cha-tām[]
+ []
+
+
+Underfull \hbox (badness 1622) in paragraph at lines 1--2225
+[]\TU/AdobeTextPro(0)/m/n/8 N$[][]$[]V$[][]$] []piṭhakaṃ[] []J$[][]$ []vi
+ṭharaṃ[] []J[]$[][]$ []viṭa-paṃ[] []J$[][]$[]J[]$[][]$[]W$[][]$ []sahi-t
+aṃ[] []V$[][]$  [][][][][]\TU/AdobeTextPro(0)/b/n/8 nā-tyuc-canīcā[] []\TU
+/AdobeTextPro(0)/m/n/8 J$[][]$[]N$[][]$[]V$[][]$[]V$[][]$[]W$[][]$] []nā-tyuc-
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2]
+Underfull \hbox (badness 1092) in paragraph at lines 1--2225
+[][][]\TU/AdobeTextPro(0)/b/n/8 14a [][][]evaṃvidhe[] []\TU/AdobeTextPro(0)/m
+/n/8 J$[][]$[]J$[][]$[]J$[][]$[]V$[][]$[]V$[][]$[]W$[][]$] []evaṃvidha[] []N$
+[][]$  [][]\TU/AdobeTextPro(0)/b/n/8 14c [][][]gurūpa[] []\TU/AdobeTextPro(0)/
+m/n/8 J$[][]$[]J$[][]$[]N$[][]$[]V$[][]$[]V$[][]$[]W$[][]$] []gu-rupa[] []J$[][
+]$  [][]\TU/AdobeTextPro(0)/b/n/8 14d [][][]yo-
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 1.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3]
+Underfull \hbox (badness 2042) in paragraph at lines 1--2225
+[][][]\TU/AdobeTextPro(0)/b/n/8 19a [][][]jānūr-vor[] []\TU/AdobeTextPro(0)/m
+/n/8 J[]$[][]$[]J$[][]$[]J$[][]$[]V$[][]$[]W$[][]$] []jānur-vor[] []J[]$[][]$[
+]N$[][]$ []jaṃtūrvo[] []V$[][]$  [][]\TU/AdobeTextPro(0)/b/n/8 19c [][][]
+ṛjukāyaḥ[] []\TU/AdobeTextPro(0)/m/n/8 J[]$[][]$[]J$[][]$[]J$[][]$[]N$[][]
+$[]V$[][]$[]W$[][]$] []ṛjukāya[]
+ []
+
+
+Underfull \hbox (badness 1158) in paragraph at lines 1--2225
+[]\TU/AdobeTextPro(0)/m/n/8 V$[][]$ []ṛjuḥ kāya[] []J[]$[][]$  [][][][][]\
+TU/AdobeTextPro(0)/b/n/8 samāsī-naḥ[] []\TU/AdobeTextPro(0)/m/n/8 J[]$[][]$
+[]J$[][]$[]J$[][]$[]N$[][]$[]V$[][]$[]V$[][]$[]W$[][]$] []samāsī-naṃ[] []J[
+]$[][]$  [][]\TU/AdobeTextPro(0)/b/n/8 20a [][][]savye[] []\TU/AdobeTextPro(0)/
+m/n/8 J$[][]$[]J$[][]$[]N$[][]$[]V$[][]$[]V$[][]$[]W$[][]$] []sarvye[]
+ []
+
+
+Underfull \hbox (badness 1082) in paragraph at lines 1--2225
+[]\TU/AdobeTextPro(0)/m/n/8 itarās-miṃ[] []V$[][]$  [][][][][]\TU/AdobeTextP
+ro(0)/b/n/8 coruṃ[] []\TU/AdobeTextPro(0)/m/n/8 J$[][]$[]J$[][]$[]V$[][]$[]V$
+[][]$] []corau[] []W$[][]$ []cānyaṃ[] []J[]$[][]$ []ce ..[] []V$[][]$ []caika
+ṃ[] []N$[][]$  [][]\TU/AdobeTextPro(0)/b/n/8 22a [][][]ni-bad-hya[] []\TU/Ado
+beTextPro(0)/m/n/8 V$[][]$] []ni-
+ []
+
+
+Underfull \hbox (badness 1087) in paragraph at lines 1--2225
+\TU/AdobeTextPro(0)/m/n/8 bad-dhi[] []J$[][]$ []niyamya[] []V$[][]$ []niṣpī
+ḍya[] []J$[][]$[]J$[][]$[]W$[][]$ []niṣ.īḍya[] []N$[][]$  [][]\TU/AdobeT
+extPro(0)/b/n/8 22b [][][]samāhi-taḥ[] []\TU/AdobeTextPro(0)/m/n/8 J$[][]$[]
+J$[][]$[]N$[][]$[]V$[][]$[]V$[][]$[]W$[][]$] []samāhi-taṃ[] []J$[][]$
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4]
+Underfull \hbox (badness 1902) in paragraph at lines 1--2225
+[]\TU/AdobeTextPro(0)/m/n/8 yathā[] []J$[][]$  [][][][][]\TU/AdobeTextPro(0)/b
+/n/8 siṃhaṃ[] []\TU/AdobeTextPro(0)/m/n/8 J$[][]$[]J$[][]$[]J$[][]$[]N$[][]
+$[]V$[][]$[]W$[][]$] []pad-maṃ[] []V$[][]$  [][]\TU/AdobeTextPro(0)/b/n/8 34b [][][]bhadra
+ṃ[] []\TU/AdobeTextPro(0)/m/n/8 J$[][]$[]J$[][]$[]J$[][]$[]N$[][]$[]V$[][]$[]
+W$[][]$] []siṃhaṃ[] []V$[][]$  [][][][][]\TU/AdobeTextPro(0)/b/n/8 ceti[]
+ []
+
+[5]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6]
+Underfull \hbox (badness 3098) in paragraph at lines 1--2225
+[]\TU/AdobeTextPro(0)/m/n/8 anye[] []V$[][]$  [][]\TU/AdobeTextPro(0)/b/n/8 38a [][][]iva[] []\TU/AdobeTextPro(0)/m/n/8 J$[][]$[]N$[][]$[]V$[][]$[]W$[][]$] []eva[] []J$[][]$[]J$[][]$[]V$[][]$  [][][][][]\TU/AdobeTextPro(0)/b/n/8 mit
+āhāram[] []\TU/AdobeTextPro(0)/m/n/8 V$[][]$] []mitāhāra[] []J$[][]$[]V$[][
+]$ []mitāhāraḥ[] []J$[][]$[]J$[][]$[]N$[][]$[]W$[][]$
+ []
+
+
+Underfull \hbox (badness 3291) in paragraph at lines 1--2225
+[]\TU/AdobeTextPro(0)/m/n/8 J$[][]$[]J$[][]$[]J$[][]$[]N$[][]$[]V$[][]$[]W$[][]
+$] []evaṃ[] []V$[][]$  [][]\TU/AdobeTextPro(0)/b/n/8 38d [][][]sid-dhāḥ sid
+-dhāsanaṃ[] []\TU/AdobeTextPro(0)/m/n/8 J$[][]$[]V[]$[][]$[]W$[][]$] []sid-dh
+ā sid-dhāsanaṃ[] []N$[][]$[]V[]$[][]$[]V$[][]$ []sid-
+ []
+
+
+Underfull \hbox (badness 3803) in paragraph at lines 1--2225
+\TU/AdobeTextPro(0)/b/n/8 eva[] []\TU/AdobeTextPro(0)/m/n/8 J$[][]$[]J$[][]$[]J$[][]$[]N$[][]$[]V$[][]$] []sid-dhe-meva[] []W$[][]$ []sid-dh
+āsanaṃ[] []V$[][]$  [][][][][]\TU/AdobeTextPro(0)/b/n/8 sadāb-hyaset[] []\T
+U/AdobeTextPro(0)/m/n/8 J$[][]$[]J$[][]$[]J$[][]$[]N$[][]$[]V$[][]$[]V$[][]$] [
+]sam-ab-hyaset[] []W$[][]$
+ []
+
+
+Underfull \hbox (badness 1127) in paragraph at lines 1--2225
+[]\TU/AdobeTextPro(0)/m/n/8 mala-sod-hanam[] []J$[][]$ []malaśod-hane[] []J[]$
+[][]$[]N$[][]$[]W$[][]$  [][]\TU/AdobeTextPro(0)/b/n/8 40a [][][]āt-mad-hyāy
+ī[] []\TU/AdobeTextPro(0)/m/n/8 J$[][]$[]J$[][]$[]J$[][]$[]V$[][]$[]V$[][]$[]W$[][]$] []
+āt-mad-hyāyi[] []N$[][]$  [][][][][]\TU/AdobeTextPro(0)/b/n/8 mitāhārī[]
+ []
+
+
+Underfull \hbox (badness 2495) in paragraph at lines 1--2225
+[]\TU/AdobeTextPro(0)/m/n/8 J$[][]$[]J$[][]$[]J$[][]$[]N$[][]$[]V$[][]$[]W$[][]
+$] []mitāhāro[] []V$[][]$  [][]\TU/AdobeTextPro(0)/b/n/8 40c [][][]bhyāsād[
+] []\TU/AdobeTextPro(0)/m/n/8 J$[][]$[]J$[][]$[]J$[][]$[]N$[][]$[]V$[][]$[]W$[]
+[]$] []bhyānād[] []V$[][]$  [][]\TU/AdobeTextPro(0)/b/n/8 40d [][][]niṣ-pat-
+tim āp-nuyāt[]
+ []
+
+
+Underfull \hbox (badness 1496) in paragraph at lines 1--2225
+\TU/AdobeTextPro(0)/m/n/8 dau bahub-hiḥ[] []V$[][]$ []kim ādyair bahub-hi
+ḥ[] []J$[][]$[]J$[][]$[]J$[][]$[]N$[][]$[]W$[][]$ []śra-madairghyādib-hi
+ḥ[] []V$[][]$  [][]\TU/AdobeTextPro(0)/b/n/8 40f [][][]kiṃ syāt[] []\TU/Ad
+obeTextPro(0)/m/n/8 V$[][]$] []sadā[]
+ []
+
+
+Underfull \hbox (badness 3919) in paragraph at lines 1--2225
+\TU/AdobeTextPro(0)/m/n/8 padyaṃte[] []N$[][]$[]V$[][]$[]V$[][]$  [][][][][]\
+TU/AdobeTextPro(0)/b/n/8 nirāyāsāt[] []\TU/AdobeTextPro(0)/m/n/8 J$[][]$[]J$
+[][]$[]J$[][]$[]V$[][]$[]V$[][]$[]W$[][]$] []vināb-hyāsāt[] []N$[][]$  [][]\
+TU/AdobeTextPro(0)/b/n/8 41d [][][]yathā[] []\TU/AdobeTextPro(0)/m/n/8 J$[][]$
+[]J$[][]$[]J$[][]$[]N$[][]$[]V$[][]$[]W$[][]$] []tathā[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7]
+Underfull \hbox (badness 2253) in paragraph at lines 1--2225
+[]\TU/AdobeTextPro(0)/m/n/8 J[]$[][]$[]V$[][]$  [][]\TU/AdobeTextPro(0)/b/n/8 45
+d [][][]pāṇī[] []\TU/AdobeTextPro(0)/m/n/8 J$[][]$[]J$[][]$[]V$[][]$[]V$[][
+]$] []pāṇīn[] []W$[][]$ []pāṇiṃ[] []J$[][]$ []pāṇau[] []N$[][]$  []
+[][][][]\TU/AdobeTextPro(0)/b/n/8 tato[] []\TU/AdobeTextPro(0)/m/n/8 J$[][]$[]J$[][]$[]J$[][]$[]N$[][]$[]V$[][]$] []tat
+ā[] []W$[][]$ []tu tā[] []V$[][]$
+ []
+
+[8]
+Underfull \hbox (badness 4940) in paragraph at lines 1--2225
+[][][] [][][]\TU/AdobeTextPro(0)/b/n/8 matāntare tu[] []\TU/AdobeTextPro(0)/m/
+n/8 J$[][]$[]J$[][]$[]N$[][]$] []matāntare[] []J$[][]$[]V$[][]$[]W$[][]$ []mata
+b-hede[] []V$[][]$  [][]\TU/AdobeTextPro(0)/b/n/8 48b [][][]ūru[] []\TU/AdobeT
+extPro(0)/m/n/8 J[]$[][]$[]J$[][]$[]N$[][]$[]V$[][]$[]V$[][]$[]W$[][]$] []kuru[
+] []J[]$[][]$
+ []
+
+
+Underfull \hbox (badness 2409) in paragraph at lines 1--2225
+[][][][][]\TU/AdobeTextPro(0)/b/n/8 saṃsthau[] []\TU/AdobeTextPro(0)/m/n/8 J$
+[][]$[]J$[][]$[]J$[][]$[]V$[][]$[]V$[][]$[]W$[][]$] []saṃd-hau[] []N$[][]$  [
+][][][][]\TU/AdobeTextPro(0)/b/n/8 pray-at-nataḥ[] []\TU/AdobeTextPro(0)/m/n/
+8 J$[][]$[]J$[][]$[]J$[][]$[]N$[][]$[]V$[][]$[]W$[][]$] []vid-hā-nataḥ[] []V$[][]$  [][]\TU/AdobeTextPro(0)/b/n/8 48c [][][]tathot-
+ []
+
+
+Underfull \hbox (badness 1838) in paragraph at lines 1--2225
+\TU/AdobeTextPro(0)/b/n/8 tā-nau[] []\TU/AdobeTextPro(0)/m/n/8 J[]$[][]$[]J$[]
+[]$[]N$[][]$[]V$[][]$[]V$[][]$[]W$[][]$] []tathāt-tā-nau[] []J$[][]$ []tathaut
+-tā-nau[] []J[]$[][]$[]V$[][]$  [][]\TU/AdobeTextPro(0)/b/n/8 48d [][][]pā
+ṇī[] []\TU/AdobeTextPro(0)/m/n/8 J$[][]$[]J$[][]$[]V$[][]$[]V$[][]$] []pā
+ṇīn[] []W$[][]$ []pāṇiṃ[] []J$[][]$
+ []
+
+
+Underfull \hbox (badness 3148) in paragraph at lines 1--2225
+[]\TU/AdobeTextPro(0)/m/n/8 pāṇau[] []N$[][]$  [][][][][]\TU/AdobeTextPro(0)
+/b/n/8 tato[] []\TU/AdobeTextPro(0)/m/n/8 J$[][]$[]J$[][]$[]J$[][]$[]N$[][]$[]V$[][]$] []tat
+ā[] []W$[][]$ []tu tā[] []V$[][]$  [][][][][]\TU/AdobeTextPro(0)/b/n/8 dṛ
+śau[] []\TU/AdobeTextPro(0)/m/n/8 J$[][]$[]J$[][]$[]N$[][]$[]V$[][]$[]V$[][]$[
+]W$[][]$] []dṛśai[] []J$[][]$  [][]\TU/AdobeTextPro(0)/b/n/8 49a [][][]nās
+ā-gre[]
+ []
+
+
+Underfull \hbox (badness 1371) in paragraph at lines 1--2225
+[]\TU/AdobeTextPro(0)/m/n/8 V$[][]$] []vakṣaṃ[] []V$[][]$ []vakṣaḥ[] []
+W$[][]$ []vakṣa[] []J$[][]$[]J$[][]$[]J$[][]$[]N$[][]$  [][]\TU/AdobeTextPro(
+0)/b/n/8 49d [][][]āsthāpya[] []\TU/AdobeTextPro(0)/m/n/8 V$[][]$] []sthā-pay
+et[] []J$[][]$[]J$[][]$[]J$[][]$[]V$[][]$[]W$[][]$ []sthā-payat[] []N$[][]$
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9]
+Underfull \hbox (badness 2521) in paragraph at lines 1--2225
+[]\TU/AdobeTextPro(0)/m/n/8 mat-sya-mate[] []W$[][]$ []mat-syakṛ-tam[] []N$[]
+[]$ []mat-syen-dra-matam[] []V$[][]$  [][]\TU/AdobeTextPro(0)/b/n/8 51a [][][]k
+ṛtvā[] []\TU/AdobeTextPro(0)/m/n/8 J$[][]$[]J$[][]$[]J$[][]$[]N$[][]$[]V$[][
+]$[]W$[][]$] []dhṛtvā[] []V$[][]$  [][][][][]\TU/AdobeTextPro(0)/b/n/8 tu[]
+ []
+
+
+Underfull \hbox (badness 1769) in paragraph at lines 1--2225
+[]\TU/AdobeTextPro(0)/m/n/8 aṅgulīḥ[] []V$[][]$  [][]\TU/AdobeTextPro(0)/b
+/n/8 54c [][][]vyāt-tavak-tro[] []\TU/AdobeTextPro(0)/m/n/8 J$[][]$[]J$[][]$[]
+N$[][]$[]V$[][]$] []vyā-tavakro[] []J$[][]$ []vyālā-vak-tro[] []V$[][]$ []vy
+āghravak-tro[] []W$[][]$  [][][][][]\TU/AdobeTextPro(0)/b/n/8 nirīkṣeta[]
+ []
+
+
+Underfull \vbox (badness 4013) has occurred while \output is active []
+
+ [10]
+Underfull \hbox (badness 1122) in paragraph at lines 1--2225
+[]\TU/AdobeTextPro(0)/m/n/8 pāb-hyāṃ[] []N$[][]$  [][]\TU/AdobeTextPro(0)/b
+/n/8 56d [][][]bad-dhvā[] []\TU/AdobeTextPro(0)/m/n/8 J$[][]$[]J$[][]$[]N$[][]
+$[]V$[][]$[]W$[][]$] []bad-dhvāṃ[] []J$[][]$ []bad-dhaṃ[] []V$[][]$  [][][
+][][]\TU/AdobeTextPro(0)/b/n/8 suniś-calam[] []\TU/AdobeTextPro(0)/m/n/8 J$[][
+]$[]J$[][]$[]J$[][]$[]N$[][]$[]V$[][]$[]W$[][]$]
+ []
+
+
+Underfull \hbox (badness 6658) in paragraph at lines 1--2225
+[]\TU/AdobeTextPro(0)/m/n/8 suniści-tam[] []V$[][]$  [][]\TU/AdobeTextPro(0)/b
+/n/8 57b [][][]viṣā-pa-ham[] []\TU/AdobeTextPro(0)/m/n/8 J$[][]$[]J$[][]$[]J$[][]$[]V[]$[][]$[]W$[][]$] []vin
+āśanam[] []V[]$[][]$[]V$[][]$ []vināsanam[] []N$[][]$  [][]\TU/AdobeTextPro(
+0)/b/n/8 57d [][][]sid-dhayo-gi-
+ []
+
+
+Underfull \hbox (badness 2781) in paragraph at lines 1--2225
+\TU/AdobeTextPro(0)/b/n/8 naḥ[] []\TU/AdobeTextPro(0)/m/n/8 J$[][]$[]J$[][]$[
+]N$[][]$[]V$[][]$[]V$[][]$[]W$[][]$] []sid-dhiyo-gib-hiḥ[] []J$[][]$  [][]\TU
+/AdobeTextPro(0)/b/n/8 58a [][][]āsana[] []\TU/AdobeTextPro(0)/m/n/8 J$[][]$[]
+J$[][]$[]J$[][]$[]V$[][]$[]V$[][]$[]W$[][]$] []āsane[] []N$[][]$  [][]\TU/Adob
+eTextPro(0)/b/n/8 58b [][][]vi-gataśra-maḥ[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [11]
+Underfull \hbox (badness 1210) in paragraph at lines 1--2225
+\TU/AdobeTextPro(0)/b/n/8 raṃ[] []\TU/AdobeTextPro(0)/m/n/8 J[]$[][]$[]J$[][]
+$[]J$[][]$[]N$[][]$[]V$[][]$[]W$[][]$] []citro[] []J[]$[][]$  [][]\TU/AdobeText
+Pro(0)/b/n/8 59b [][][]mu-drākhyaṃ[] []\TU/AdobeTextPro(0)/m/n/8 V$[][]$] []
+mu-drādi[] []J$[][]$[]J$[][]$[]J$[][]$[]N$[][]$[]W$[][]$  [][][][][]\TU/AdobeT
+extPro(0)/b/n/8 karaṇaṃ tathā[] []\TU/AdobeTextPro(0)/m/n/8 V$[][]$]
+ []
+
+
+Underfull \hbox (badness 3364) in paragraph at lines 1--2225
+[]\TU/AdobeTextPro(0)/m/n/8 vicāraṇāt[] []J$[][]$[]J$[][]$  [][]\TU/AdobeTe
+xtPro(0)/b/n/8 61a [][][]āhāraś[] []\TU/AdobeTextPro(0)/m/n/8 J$[][]$[]N$[][
+]$[]V$[][]$[]V$[][]$[]W$[][]$] []āhāraḥ[] []J$[][]$ []āhāraṃ[] []J$[][]
+$  [][]\TU/AdobeTextPro(0)/b/n/8 61b [][][]caturthāṃśa[] []\TU/AdobeTextPro
+(0)/m/n/8 J$[][]$[]J$[][]$[]V$[][]$[]V$[][]$[]W$[][]$]
+ []
+
+
+Underfull \hbox (badness 2418) in paragraph at lines 1--2225
+[]\TU/AdobeTextPro(0)/m/n/8 tikta[] []V$[][]$  [][][][][]\TU/AdobeTextPro(0)/b/
+n/8 harīta[] []\TU/AdobeTextPro(0)/m/n/8 J[]$[][]$[]J$[][]$[]N$[][]$[]V$[][]$[
+]V$[][]$[]W$[][]$] []harita[] []J[]$[][]$[]J$[][]$  [][][][][]\TU/AdobeTextPro(
+0)/b/n/8 śākaṃ[] []\TU/AdobeTextPro(0)/m/n/8 J$[][]$[]V$[][]$] []śāka[] [
+]N$[][]$[]V$[][]$[]W$[][]$ []sāka[] []J$[][]$[]J$[][]$  [][]\TU/AdobeTextPro(0
+)/b/n/8 62b [][][]tila[]
+ []
+
+
+Underfull \hbox (badness 2608) in paragraph at lines 1--2225
+[]\TU/AdobeTextPro(0)/m/n/8 J$[][]$[]J$[][]$[]J$[][]$[]N$[][]$[]V$[][]$[]W$[][]
+$] []\TU/AdobeTextPro(0)/m/it/8 il-leg.[] []\TU/AdobeTextPro(0)/m/n/8 V$[][]$  
+[][][][][]\TU/AdobeTextPro(0)/b/n/8 mat-sya-madyam[] []\TU/AdobeTextPro(0)/m/n/
+8 J$[][]$[]J$[][]$[]J$[][]$[]N$[][]$[]V$[][]$[]W$[][]$] []tsya-m-aghaṃ[] []V$
+[][]$  [][]\TU/AdobeTextPro(0)/b/n/8 62c [][][]ājāvi[] []\TU/AdobeTextPro(0)/
+m/n/8 J$[][]$] []ajāvi[]
+ []
+
+
+Underfull \vbox (badness 6236) has occurred while \output is active []
+
+ [12]
+Underfull \hbox (badness 4072) in paragraph at lines 1--2225
+[][][]\TU/AdobeTextPro(0)/b/n/8 63a [][][]vidyāt[] []\TU/AdobeTextPro(0)/m/n/8
+ J[]$[][]$[]J$[][]$[]V$[][]$[]W$[][]$] []vidyā[] []V$[][]$ []viṃdyāt[] []J[
+]$[][]$[]J$[][]$[]N$[][]$  [][][][][]\TU/AdobeTextPro(0)/b/n/8 apy[] []\TU/Adob
+eTextPro(0)/m/n/8 J$[][]$[]J$[][]$[]J$[][]$[]N$[][]$[]V$[][]$[]W$[][]$] []\TU/A
+dobeTextPro(0)/m/it/8 om.[] []\TU/AdobeTextPro(0)/m/n/8 V$[][]$  [][][][][]\TU/
+AdobeTextPro(0)/b/n/8 uṣṇīkṛ-taṃ[]
+ []
+
+
+Underfull \hbox (badness 5446) in paragraph at lines 1--2225
+[]\TU/AdobeTextPro(0)/m/n/8 J$[][]$[]J$[][]$[]N$[][]$[]V$[][]$[]W$[][]$] []uś-n
+akrataṃ[] []J[]$[][]$ []uś-naṃ kṛ-taṃ[] []J[]$[][]$ []uṣṇīb-hū-ta
+m[] []V$[][]$  [][][][][]\TU/AdobeTextPro(0)/b/n/8 rūkṣam[] []\TU/AdobeTextP
+ro(0)/m/n/8 J$[][]$[]J$[][]$[]J$[][]$[]N$[][]$[]W$[][]$] []rūkṣa[] []V$[][]$
+
+ []
+
+
+Underfull \hbox (badness 1259) in paragraph at lines 1--2225
+[]\TU/AdobeTextPro(0)/m/n/8 aprami-taṃ[] []V$[][]$  [][]\TU/AdobeTextPro(0)/b
+/n/8 63b [][][]atilavaṇaṃ[] []\TU/AdobeTextPro(0)/m/n/8 J$[][]$[]J$[][]$[]J$[][]$[]N$[][]$[]V$[][]$[]W$[][]$] []atilava
+ṇa[] []V$[][]$  [][][][][]\TU/AdobeTextPro(0)/b/n/8 tilapiṇḍaṃ[] []\TU/
+AdobeTextPro(0)/m/n/8 J$[][]$] []tilapiṇḍa[] []J[]$[][]$[]J$[][]$[]N$[][]$[
+]W$[][]$
+ []
+
+
+Underfull \hbox (badness 1205) in paragraph at lines 1--2225
+[]\TU/AdobeTextPro(0)/m/n/8 tilaṃ piṇḍa[] []J[]$[][]$ []dyuṣṇataṃ[]
+ []V$[][]$ []sava-palala[] []V$[][]$  [][][][][]\TU/AdobeTextPro(0)/b/n/8 kada
+śana[] []\TU/AdobeTextPro(0)/m/n/8 V$[][]$[]V$[][]$] []kadaśanaṃ[] []J[]$[]
+[]$[]J$[][]$[]J$[][]$[]N$[][]$[]W$[][]$ []ka-maśana[] []J[]$[][]$
+ []
+
+
+Underfull \hbox (badness 1603) in paragraph at lines 1--2225
+[]\TU/AdobeTextPro(0)/m/n/8 J$[][]$[]W$[][]$ []\TU/AdobeTextPro(0)/m/it/8 il-leg
+.[] []\TU/AdobeTextPro(0)/m/n/8 V$[][]$ []\TU/AdobeTextPro(0)/m/it/8 om.[] []\T
+U/AdobeTextPro(0)/m/n/8 N$[][]$  [][] [][][]\TU/AdobeTextPro(0)/b/n/8 tathā[] 
+[]\TU/AdobeTextPro(0)/m/n/8 J[]$[][]$[]J$[][]$[]V$[][]$] []tathā hi[] []J$[][]
+$ []tathā ca[] []J[]$[][]$[]W$[][]$ []\TU/AdobeTextPro(0)/m/it/8 om.[] []\TU/A
+dobeTextPro(0)/m/n/8 N$[][]$[]V$[][]$  [][][][][]\TU/AdobeTextPro(0)/b/n/8 gorak
+ṣava-canam[]
+ []
+
+
+Underfull \hbox (badness 1675) in paragraph at lines 1--2225
+[]\TU/AdobeTextPro(0)/m/n/8 prā-taśnāno[] []J$[][]$  [][]\TU/AdobeTextPro(0)
+/b/n/8 64d [][][]kleśādikaṃ[] []\TU/AdobeTextPro(0)/m/n/8 J$[][]$[]N$[][]$[
+]V$[][]$[]V$[][]$[]W$[][]$] []kleśādikas[] []J$[][]$ []kleśavid-hiṃ[] []J$
+[][]$  [][][][][]\TU/AdobeTextPro(0)/b/n/8 tathā[] []\TU/AdobeTextPro(0)/m/n/8
+ J$[][]$[]J$[][]$[]J$[][]$[]N$[][]$[]V$[][]$[]W$[][]$]
+ []
+
+
+Underfull \vbox (badness 5475) has occurred while \output is active []
+
+ [13]
+Underfull \hbox (badness 1275) in paragraph at lines 1--2225
+\TU/AdobeTextPro(0)/b/n/8 laṣi-taṃ[] []\TU/AdobeTextPro(0)/m/n/8 J$[][]$[]J$[][]$[]J$[][]$[]N$[][]$[]V$[][]$[]W$[][]$] []bhil
+āṣi-taṃ[] []V$[][]$  [][][][][]\TU/AdobeTextPro(0)/b/n/8 yo-gyaṃ[] []\TU
+/AdobeTextPro(0)/m/n/8 J$[][]$[]J$[][]$[]N$[][]$[]V$[][]$[]W$[][]$] []yonyaṃ[
+] []J$[][]$ []bho-jyaṃ[] []V$[][]$  [][][][][]\TU/AdobeTextPro(0)/b/n/8 bho-ja
+nam[]
+ []
+
+
+Underfull \hbox (badness 2762) in paragraph at lines 1--2225
+[]\TU/AdobeTextPro(0)/m/n/8 J$[][]$[]J$[][]$[]N$[][]$[]V$[][]$[]V$[][]$[]W$[][]
+$] []bho-janasam[] []J$[][]$  [][]\TU/AdobeTextPro(0)/b/n/8 67b [][][]dur-balo
+’pi vā[] []\TU/AdobeTextPro(0)/m/n/8 J$[][]$[]V$[][]$[]V$[][]$] []dur-balas 
+tathā[] []J$[][]$[]J$[][]$[]N$[][]$[]W$[][]$  [][]\TU/AdobeTextPro(0)/b/n/8 67d
+ [][][]sar-
+ []
+
+
+Underfull \hbox (badness 1168) in paragraph at lines 1--2225
+\TU/AdobeTextPro(0)/b/n/8 vayo-geṣv atan-dri-taḥ[] []\TU/AdobeTextPro(0)/m/
+n/8 J$[][]$[]J$[][]$[]N$[][]$[]V$[][]$[]W$[][]$] []sar-vayo-geṣu tan-dri-ta
+ḥ[] []J$[][]$ []sar-vaṃ yogī ya-ten-driyaḥ[] []V$[][]$  [][]\TU/AdobeTex
+tPro(0)/b/n/8 68a [][][]pīṭhāni[]
+ []
+
+
+Underfull \hbox (badness 4479) in paragraph at lines 1--2225
+[]\TU/AdobeTextPro(0)/m/n/8 J$[][]$[]J$[][]$[]J$[][]$[]N$[][]$[]V$[][]$[]W$[][]
+$] []pīṭhādi[] []V$[][]$  [][][][][]\TU/AdobeTextPro(0)/b/n/8 kumb-hakāś[
+] []\TU/AdobeTextPro(0)/m/n/8 J$[][]$[]V$[][]$[]V$[][]$] []kumb-hakaś[] []J$[]
+[]$[]J$[][]$[]N$[][]$[]W$[][]$  [][][][][]\TU/AdobeTextPro(0)/b/n/8 citrā[] []
+\TU/AdobeTextPro(0)/m/n/8 J[]$[][]$[]V$[][]$[]V$[][]$] []cit-raṃ[]
+ []
+
+[14] (./HP1_OldMss.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+)
 
 Here is how much of LuaTeX's memory you used:
- 12890 strings out of 477875
- 100000,794899 words of node,token memory allocated
- 7716 words of node memory still in use:
-   3 hlist, 1 vlist, 1 rule, 5 glue, 3 kern, 854 glyph, 208 attribute, 189 glue_
-spec, 105 attribute_list, 2 write nodes
-   avail lists: 1:1,2:5656,3:2185,4:174,5:971,6:44,7:5344,8:2,9:1190,10:21,11:38
-0
- 33083 multiletter control sequences out of 65536+600000
- 70 fonts using 13530743 bytes
- 78i,12n,99p,8383b,1057s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 14048 strings out of 477875
+ 195324,1648299 words of node,token memory allocated
+ 60379 words of node memory still in use:
+   3 hlist, 1 vlist, 1 rule, 67 glue, 3 kern, 7687 glyph, 1674 attribute, 189 gl
+ue_spec, 838 attribute_list, 2 write nodes
+   avail lists: 1:3,2:11979,3:3650,4:274,5:1625,6:48,7:6299,8:2,9:2170,10:23,11:
+452
+ 34241 multiletter control sequences out of 65536+600000
+ 73 fonts using 13717495 bytes
+ 78i,13n,99p,11258b,1222s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/fonts/eigene/Adobe-Text-Pro-Italic_2047.ttf></usr/share/fonts/eigene
 /Adobe-Text-Pro-Bold_2046.ttf></usr/share/fonts/eigene/Adishila San/AdishilaSan.
 ttf></usr/share/fonts/eigene/Adobe-Text-Pro_2050.ttf>
-Output written on HP1_OldMss.pdf (2 pages, 52106 bytes).
+Output written on HP1_OldMss.pdf (14 pages, 174588 bytes).
 
-PDF statistics: 42 PDF objects out of 1000 (max. 8388607)
- 22 compressed objects within 1 object stream
+PDF statistics: 80 PDF objects out of 1000 (max. 8388607)
+ 48 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 

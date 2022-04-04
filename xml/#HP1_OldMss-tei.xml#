@@ -911,8 +911,7 @@ Alwar 952
 <l> <s type="pada"><app><lem wit="#J8 #J10 #J17 #N17 #V1 #W4">sthāṇuḥ</lem><rdg wit="#V19">sthāṇu</rdg></app> saṃyamitendriyo’caladṛśā <app><lem wit="#J8 #J10 #J17 #N17 #V1">paśyan</lem><rdg wit="#W4">n</rdg><rdg wit="#V19">paśyed</rdg></app> bhruvorantaraṃ</s> </l>
 <l> <s type="pada"><app><lem wit="#V1 #V19">eta</lem><rdg wit="#J8 #J10 #J17 #N17 #W4">caitan</rdg></app>nmokṣakapāṭabhedajanakaṃ siddhāsanaṃ procyate//</s></l> 
 </lg>
- <note type="avataranika" target="#hp01_036"> <app><lem wit="#J10 #N17 #W4">matāntare tu </lem><rdg wit="#J17">mantāntare tu</rdg><rdg wit="#J8 #V1">matāntare</rdg><rdg wit="#V19">matsyendraḥ| matāntaraṃ tu</rdg></app> </note>
- 
+ <p type="avataranika"><app><lem wit="#J10 #N17 #W4">matāntare tu </lem><rdg wit="#J17">mantāntare tu</rdg><rdg wit="#J8 #V1">matāntare</rdg><rdg wit="#V19">matsyendraḥ| matāntaraṃ tu</rdg></app></p>
 <lg xml:id="hp01_036">
  <l> <s type="pada">meḍhrādupari <app><lem wit="#V1">vinyasya</lem><rdg wit="#V19">vinyasyaṃ</rdg><rdg wit="#J8">nikṣipya</rdg><rdg wit="#J10 #J17 #N17 #W4">niḥkṣipya</rdg></app></s> <s type="pada"><app><lem wit="#J8 #J10 #W4">savya</lem><rdg wit="#J17">sarvya</rdg><rdg wit="#N17">savyaṃ</rdg><rdg wit="#V1">savyaṃ tu</rdg><rdg wit="#V19">vāma</rdg></app>gulphaṃ <app><lem wit="#J8 #J17 #N17 #V1 #V19 #W4">tathopari</lem><rdg wit="#J10">tathopariḥ</rdg></app> /</s></l>
 <l> <s type="pada">gulphāntaraṃ <app><lem wit="#V1">tu</lem><rdg wit="#J8 #J10 #J17 #N17 #V19 #W4">ca</rdg></app> <app><lem wit="#J8 #V1">nikṣipya</lem><rdg wit="#J10 #J17 #N17 #W4">niḥkṣipya</rdg><rdg wit="#V19">vinyasya</rdg></app></s> <s type="pada">siddhāsanam idaṃ bhavet//</s></l> 
@@ -954,16 +953,14 @@ Alwar 952
 <l> <s type="pada">na khecarīsamā mudrā</s> <s type="pada">na <app><lem wit="#J10 #J17 #N17 #V19 #W4">nāda</lem><rdg wit="#V1">nādaḥ</rdg><rdg wit="#J8"/></app>sadṛśo layaḥ//</s> <note>om. in <ref>J8</ref></note>
 </l> 
 </lg>
- <note type="avataranika" target="#hp01_044"> <app><lem wit="#J10 #J17 #W4">atha</lem><rdg wit="#J8 #V1">tathā</rdg><rdg wit="#N17">.. .[ā]</rdg><rdg wit="#V19"/></app> <app><lem wit="#J8 #J10 #J17 #V1 #V19 #W4">padmāsanam</lem><rdg wit="#N17">[san]. .. dam</rdg><rdg wit="#V19"/></app> / </note>
- 
+ <p><app><lem wit="#J10 #J17 #W4">atha</lem><rdg wit="#J8 #V1">tathā</rdg><rdg wit="#N17">.. .[ā]</rdg><rdg wit="#V19"/></app> <app><lem wit="#J8 #J10 #J17 #V1 #V19 #W4">padmāsanam</lem><rdg wit="#N17">[san]. .. dam</rdg><rdg wit="#V19"/></app> /</p>
 <lg xml:id="hp01_044">
  <l> <s type="pada">vāmorūpari <app><lem wit="#J8pc #J10 #J17 #N17 #V1 #W4">dakṣiṇaṃ ca</lem><rdg wit="#J8ac">dakṣaṇaṃ ca</rdg><rdg wit="#V19">vidakṣiṇaṃ hi</rdg></app> caraṇaṃ saṃsthāpya vāmaṃ <app><lem wit="#J10 #J17 #N17 #V1 #V19 #W4">tathā</lem><rdg wit="#J8">tato</rdg></app></s></l>
 <l> <s type="pada"><app><lem wit="#J8ac #V1">yāmyo</lem><rdg wit="#J8pc">vāmo</rdg><rdg wit="#V19 #W4">dakṣo</rdg><rdg wit="#J10">jānvo</rdg><rdg wit="#J17">jāmvau</rdg><rdg wit="#N17">jānū</rdg></app>rūpari <app><lem wit="#J10 #J17 #N17 #V1 #V19 #W4">paścimena vidhinā</lem><rdg wit="#J8">tasya bandhanavidhau</rdg></app> <app><lem wit="#J10 #J17 #N17 #V1 #V19 #W4">dhṛtvā</lem><rdg wit="#J8">pṛṣṭe</rdg></app> karābhyāṃ dṛḍham/</s></l>
 <l> <s type="pada">aṅguṣṭhau hṛdaye nidhāya <app><lem wit="#J8 #J10 #J17 #V1 #V19 #W4">cibukaṃ</lem><rdg wit="#N17">.. .. kaṃ</rdg></app> nāsāgramālokaye </s></l>
 <l> <s type="pada">detad vyādhi<app><lem wit="#J10 #J17 #V1 #W4">vināśakāri</lem><rdg wit="#J8">vināsanaṃ</rdg><rdg wit="#N17">vināśanāya</rdg><rdg wit="#V19">vikāranāśa</rdg></app> <app><lem wit="#J8 #J10 #J17 #N17 #V1 #W4">yamināṃ</lem><rdg wit="#V19">nakaraṃ</rdg></app> padmāsanaṃ procyate//</s></l> 
 </lg>
- <note type="avataranika" target="#hp01_045"> <app><lem wit="#J10 #J17 #N17">matāntare tu</lem><rdg wit="#J8 #V1 #W4">matāntare</rdg><rdg wit="#V19">matabhede</rdg></app>/ </note>
- 
+ <p><app><lem wit="#J10 #J17 #N17">matāntare tu</lem><rdg wit="#J8 #V1 #W4">matāntare</rdg><rdg wit="#V19">matabhede</rdg></app>/</p>
 <lg xml:id="hp01_045">
  <l> <s type="pada">uttānau caraṇau kṛtvā</s> <s type="pada"><app><lem wit="#J8pc #J10 #N17 #V1 #V19 #W4">ūru</lem><rdg wit="#J8ac">kuru</rdg></app><app><lem wit="#J8 #J10 #J17 #V1 #V19 #W4">saṃsthau</lem><rdg wit="#N17">saṃdhau</rdg></app> <app><lem wit="#J8 #J10 #J17 #N17 #V1 #W4">prayatnataḥ</lem><rdg wit="#V19">vidhānataḥ</rdg></app>/</s></l>
 <l> <s type="pada">ūrumadhye <app><lem wit="#J10pc #J17 #N17 #V1 #V3 #W4">tathottānau</lem><rdg wit="#J8">tathāttānau</rdg><rdg wit="#J10ac #V19">tathauttānau</rdg></app></s> <s type="pada"><app><lem wit="#J8 #J10 #V1 #V19">pāṇī</lem><rdg wit="#W4">pāṇīn</rdg><rdg wit="#J17">pāṇiṃ</rdg><rdg wit="#N17">pāṇau</rdg></app> kṛtvā <app><lem wit="#J8 #J10 #J17 #N17 #V1">tato</lem><rdg wit="#W4">tatā</rdg><rdg wit="#V19">tu tā</rdg></app> <app><lem wit="#J10 #J17 #N17 #V1 #V19 #W4">dṛśau</lem><rdg wit="#J8">dṛśai</rdg></app>//</s></l> 
@@ -979,26 +976,7 @@ Alwar 952
  <l> <s type="pada">idaṃ padmāsanaṃ <app><lem wit="#J8 #J10 #J17 #N17 #V1 #W4">proktaṃ</lem><rdg wit="#V19">praktaṃ</rdg></app></s> <s type="pada">sarvavyādhivināśanam/</s></l>
 <l> <s type="pada"><app><lem wit="#J8 #J10 #J17 #N17 #V1 #W4">durlabhaṃ</lem><rdg wit="#V19">durlabha</rdg></app> yena kenāpi</s> <s type="pada"><app><lem wit="#J8 #J10 #N17 #V1 #V19 #W4">dhīmatā</lem><rdg wit="#J17">dhīmatāṃ</rdg></app> <app><lem wit="#J8 #J10 #N17 #V1 #V19 #W4">labhyate</lem><rdg wit="#J17">labhate</rdg></app> <app><lem wit="#J8 #J10 #J17 #V1 #V19 #W4">bhuvi</lem><rdg wit="#N17">bhuviḥ</rdg></app>//</s></l> 
 </lg>
- <note type="avataranika" target="#hp01_045"> <app><lem wit="#J10 #J17 #N17">matāntare tu</lem><rdg wit="#J8 #V1 #W4">matāntare</rdg><rdg wit="#V19">matabhede</rdg></app>/ </note>
- 
-<lg xml:id="hp01_045">
- <l> <s type="pada">uttānau caraṇau kṛtvā</s> <s type="pada"><app><lem wit="#J8pc #J10 #N17 #V1 #V19 #W4">ūru</lem><rdg wit="#J8ac">kuru</rdg></app><app><lem wit="#J8 #J10 #J17 #V1 #V19 #W4">saṃsthau</lem><rdg wit="#N17">saṃdhau</rdg></app> <app><lem wit="#J8 #J10 #J17 #N17 #V1 #W4">prayatnataḥ</lem><rdg wit="#V19">vidhānataḥ</rdg></app>/</s></l>
-<l> <s type="pada">ūrumadhye <app><lem wit="#J10pc #J17 #N17 #V1 #V3 #W4">tathottānau</lem><rdg wit="#J8">tathāttānau</rdg><rdg wit="#J10ac #V19">tathauttānau</rdg></app></s> <s type="pada"><app><lem wit="#J8 #J10 #V1 #V19">pāṇī</lem><rdg wit="#W4">pāṇīn</rdg><rdg wit="#J17">pāṇiṃ</rdg><rdg wit="#N17">pāṇau</rdg></app> kṛtvā <app><lem wit="#J8 #J10 #J17 #N17 #V1">tato</lem><rdg wit="#W4">tatā</rdg><rdg wit="#V19">tu tā</rdg></app> <app><lem wit="#J10 #J17 #N17 #V1 #V19 #W4">dṛśau</lem><rdg wit="#J8">dṛśai</rdg></app>//</s></l> 
-</lg>
- 
-<lg xml:id="hp01_046">
- <l> <s type="pada"><app><lem wit="#J8 #J10 #J17 #N17 #V1 #W4">nāsāgre</lem><rdg wit="#V19">nāsagre</rdg></app> <app><lem wit="#J10 #J17 #N17 #V1 #V19 #W4">vinyase</lem><rdg wit="#J8">vinyasya</rdg></app><app><lem wit="#J10 #J17 #V19">drāja</lem><rdg wit="#V1 #W4">ddṛṣṭiṃ</rdg><rdg wit="#J8 #N17">dṛṣṭī</rdg></app></s><s type="pada">danta<app><lem wit="#J8 #J10 #J17 #N17 #V1 #W4">mūlaṃ</lem><rdg wit="#V19">mūle</rdg></app> ca jihvayā/</s></l>
-<l> <s type="pada"><app><lem wit="#J10 #J17 #N17 #W4">uttabhya</lem><rdg wit="#J8 #V1 #V19">uttambhya</rdg></app> cibukaṃ <app><lem wit="#V19">vakṣa</lem><rdg wit="#V1">vakṣaṃ</rdg><rdg wit="#W4">vakṣaḥ</rdg><rdg wit="#J8 #J10 #J17 #N17">vakṣa</rdg></app></s><s type="pada"><app><lem wit="#V19">syāsthāpya</lem><rdg wit="#J8 #J10 #J17 #V1 #W4">sthāpayet</rdg><rdg wit="#N17">sthāpayat</rdg></app> pavanaṃ śanaiḥ//</s><note type="myfn">Description incomplete. Perhaps, the following verse is omitted by an eye skip early in the transmission: <s xml:lang="sa-deva">yathāśaktyā samākṛṣya pūrayed udaraṃ śanaiḥ/ yathāśaktyaiva paścāt tu recayet pavanaṃ śanaiḥ//</s> (DYŚ 37)</note>
-</l> 
-</lg>
- 
-<lg xml:id="hp01_047">
- <l> <s type="pada">idaṃ padmāsanaṃ <app><lem wit="#J8 #J10 #J17 #N17 #V1 #W4">proktaṃ</lem><rdg wit="#V19">praktaṃ</rdg></app></s> <s type="pada">sarvavyādhivināśanam/</s></l>
-<l> <s type="pada"><app><lem wit="#J8 #J10 #J17 #N17 #V1 #W4">durlabhaṃ</lem><rdg wit="#V19">durlabha</rdg></app> yena kenāpi</s> <s type="pada"><app><lem wit="#J8 #J10 #N17 #V1 #V19 #W4">dhīmatā</lem><rdg wit="#J17">dhīmatāṃ</rdg></app> <app><lem wit="#J8 #J10 #N17 #V1 #V19 #W4">labhyate</lem><rdg wit="#J17">labhate</rdg></app> <app><lem wit="#J8 #J10 #J17 #V1 #V19 #W4">bhuvi</lem><rdg wit="#N17">bhuviḥ</rdg></app>//</s></l> 
-</lg>
- <note type="avataranika" target="#hp01_048"> paścāduktaṃ <app><lem wit="#J8 #J10 #J17 #V1">matsyamatam</lem><rdg wit="#W4">matsyamate</rdg><rdg wit="#N17">matsyakṛtam</rdg><rdg wit="#V19">matsyendramatam</rdg></app>/ </note>
- <note type="avataranika" target="#hp01_048"> paścāduktaṃ <app><lem wit="#J8 #J10 #J17 #V1">matsyamatam</lem><rdg wit="#W4">matsyamate</rdg><rdg wit="#N17">matsyakṛtam</rdg><rdg wit="#V19">matsyendramatam</rdg></app>/ </note>
- 
+ <p>paścāduktaṃ <app><lem wit="#J8 #J10 #J17 #V1">matsyamatam</lem><rdg wit="#W4">matsyamate</rdg><rdg wit="#N17">matsyakṛtam</rdg><rdg wit="#V19">matsyendramatam</rdg></app>/</p>
 <lg xml:id="hp01_048">
  <l> <s type="pada"><app><lem wit="#J8 #J10 #J17 #N17 #V1 #W4">kṛtvā</lem><rdg wit="#V19">dhṛtvā</rdg></app> sampuṭitau karau dṛḍhataraṃ baddhvā <app><lem wit="#J8 #J10 #J17 #N17 #V1 #W4">tu</lem><rdg wit="#V19">ca</rdg></app> padmāsanaṃ</s></l>
 <l> <s type="pada">gāḍhaṃ vakṣasi <app><lem wit="#J8 #N17 #V19">sannidhāya</lem><rdg wit="#J10 #J17 #V1 #W4">saṃvidhāya</rdg></app> cibukaṃ dhyānaṃ <app><lem wit="#J8 #J10 #J17 #N17 #V19 #W4">ca ta</lem><rdg wit="#V1">tataś</rdg></app><app><lem wit="#J8 #N17 #V1 #V19">ccetasi</lem><rdg wit="#J10 #J17 #W4">cepsitaṃ</rdg></app>/</s></l>
@@ -1010,8 +988,7 @@ Alwar 952
  <l> <s type="pada"><app><lem wit="#V1 #V3 #V19 #W4">padmāsana</lem><rdg wit="#J8 #J10 #J17 #N17">padmāsane</rdg></app>sthito yogī</s> <s type="pada">nāḍī<app><lem wit="#J10 #J17 #V1 #V19 #W4">dvāreṣu</lem><rdg wit="#J8 #N17">dvāreṇa</rdg></app> <app><lem wit="#J8 #V1 #V19">pūrayet</lem><rdg wit="#J17">pūraet</rdg><rdg wit="#N17">pūrayat</rdg><rdg wit="#J10 #W4">pūrayan</rdg></app>/</s></l>
 <l> <s type="pada">mārutaṃ <app><lem wit="#V19">dhārayet yas tu</lem><rdg wit="#V1">pīyate yas tu</rdg><rdg wit="#J8ac">pīvyate yas tu</rdg><rdg wit="#J8pc">pibati yastu</rdg><rdg wit="#J10 #J17 #N17 #W4">yas tu pibati</rdg></app></s> <s type="pada">sa mukto nātra saṃśayaḥ//</s></l> 
 </lg>
- <note type="avataranika" target="#hp01_050"> <app><lem wit="#J8 #J10 #J17 #N17 #V1 #W4">atha siṃhāsanam</lem><rdg wit="#V19">siṃhāsana yathā</rdg></app>/ </note>
- 
+ <p><app><lem wit="#J8 #J10 #J17 #N17 #V1 #W4">atha siṃhāsanam</lem><rdg wit="#V19">siṃhāsana yathā</rdg></app>/</p>
 <lg xml:id="hp01_050">
  <l> <s type="pada">gulphau ca vṛṣaṇasyādhaḥ</s> <s type="pada"><app><lem wit="#J8 #J10 #N17 #V1">sīvanyāḥ</lem><rdg wit="#J17 #W4">sīvanyā</rdg><rdg wit="#V19">sīmanyāḥ</rdg></app> pārśvayoḥ kṣipet/</s></l>
 <l> <s type="pada"><app><lem wit="#J10 #J17 #N17 #V1 #V19 #W4">dakṣiṇe</lem><rdg wit="#J8">dakṣaṇe</rdg></app> savyagulphaṃ <app><lem wit="#J8 #J10 #J17 #N17 #V1 #W4">tu</lem><rdg wit="#V19">ca</rdg></app></s> <s type="pada">dakṣagulphaṃ <app><lem wit="#V1 #V19">ca</lem><rdg wit="#J8 #J10 #J17 #N17 #W4">tu</rdg></app> <app><lem wit="#J8 #J10 #J17 #N17 #V1 #W4">savyake</lem><rdg wit="#V19">guhyake</rdg></app>//</s></l> 
@@ -1026,8 +1003,7 @@ Alwar 952
  <l> <s type="pada">siṃhāsanaṃ bhaved eta</s><s type="pada"><app><lem wit="#J8 #J17 #N17 #V1 #V19 #W4">tpūjitaṃ</lem><rdg wit="#J10">pūjita</rdg></app> <app><lem wit="#J10 #J17 #N17 #V1 #W4">yogibhiḥ sadā</lem><rdg wit="#J8">yogabhiḥ sadā</rdg><rdg wit="#V19">munipuṅgavaiḥ</rdg></app>/</s></l>
 <l> <s type="pada">bandha<app><lem wit="#J8 #J10 #J17 #N17 #W4">tritaya</lem><rdg wit="#V1">tritīya</rdg><rdg wit="#V19">trayasya</rdg></app>sandhānaṃ</s> <s type="pada">kurute <app><lem wit="#J8 #J10pc #N17">cāsanottamam</lem><rdg wit="#V1 #V19">vāsanottamam</rdg><rdg wit="#J10ac #J17">sādhanottamam</rdg><rdg wit="#W4">sādakottamaḥ</rdg></app>//</s></l> 
 </lg>
- <note type="avataranika" target="#hp01_053"> atha <app><lem wit="#J8 #J10 #J17 #N17 #V1 #W4">bhadrāsanam</lem><rdg wit="#V19">bhadraṃ</rdg></app>/ </note>
- 
+ <p>atha <app><lem wit="#J8 #J10 #J17 #N17 #V1 #W4">bhadrāsanam</lem><rdg wit="#V19">bhadraṃ</rdg></app>/</p>
 <lg xml:id="hp01_053">
  <l> <s type="pada">gulphau <app><lem wit="#J8 #J10 #J17 #N17 #V1 #V19">ca</lem><rdg wit="#W4">vā</rdg></app> vṛṣaṇasyādhaḥ</s> <s type="pada"><app><lem wit="#V1 #N17">sīvanyāḥ</lem><rdg wit="#J10 #W4">sīvanyā</rdg><rdg wit="#J17">sīvanyāṃ</rdg><rdg wit="#V19">sīmanyāḥ</rdg></app> pārśvayoḥ kṣipet/</s><note type="myfn">53ab <hi>gulphau ca ... kṣipet</hi> is a repetition of 50ab; omitted in <ref target="#J8">J8</ref>.</note>
 </l>
@@ -1098,8 +1074,7 @@ hiṅgulaśunādyamapathyamāhuḥ//</s></l>
  <l> <s type="pada">bhojanam ahitaṃ <app><lem wit="#J8pc #J17 #V19 #W4">vidyā</lem><rdg wit="#V1">vidyā</rdg><rdg wit="#J8ac #J10 #N17">viṃdyāt</rdg></app>tpunara<app><lem wit="#J8 #J10 #J17 #N17 #V1 #W4">pyu</lem><rdg wit="#V19"/></app><app><lem wit="#J10 #J17 #N17 #V1 #W4">ṣṇīkṛtaṃ</lem><rdg wit="#J8ac">uśnakrataṃ</rdg><rdg wit="#J8pc">uśnaṃ kṛtaṃ</rdg><rdg wit="#V19">uṣṇībhūtam</rdg></app> <app><lem wit="#J8 #J10 #J17 #N17 #W4">rūkṣam</lem><rdg wit="#V1">rūkṣa</rdg><rdg wit="#V19">apramitaṃ</rdg></app>/</s></l>
 <l> <s type="pada"><app><lem wit="#J8 #J10 #J17 #N17 #V1 #W4">atilavaṇaṃ</lem><rdg wit="#V19">atilavaṇa</rdg></app> <app><lem wit="#J17">tilapiṇḍaṃ</lem><rdg wit="#J8pc #J10 #N17 #W4">tilapiṇḍa</rdg><rdg wit="#J8ac">tilaṃ piṇḍa</rdg><rdg wit="#V1">dyuṣṇataṃ</rdg><rdg wit="#V19">savapalala</rdg></app> <app><lem wit="#V1 #V19">kadaśana</lem><rdg wit="#J8ac #J10 #J17 #N17 #W4">kadaśanaṃ</rdg><rdg wit="#J8pc">kamaśana</rdg></app><app><lem wit="#J10 #J17 #V19 #W4">śākotkaṭaṃ</lem><rdg wit="#J8pc">śākotkaṭa</rdg><rdg wit="#J8ac #V1">śokātkaṭa</rdg><rdg wit="#N17"/></app> <app><lem wit="#V3 #V19">varjyam</lem><rdg wit="#J10 #J17">varjjaṃ</rdg><rdg wit="#J8 #W4">varjitaṃ</rdg><rdg wit="#V1"/><rdg wit="#N17"/></app>//</s></l> 
 </lg>
- <note type="avataranika" target="#hp01_061"> <app><lem wit="#J10ac #J17 #V1">tathā</lem><rdg wit="#J8">tathā hi</rdg><rdg wit="#J10pc #W4">tathā ca</rdg><rdg wit="#N17 #V19"/></app> <app><lem wit="#J8 #J10 #J17 #V1 #W4">gorakṣavacanam</lem><rdg wit="#N17 #V19"/></app>/ </note>
- 
+ <p><app><lem wit="#J10ac #J17 #V1">tathā</lem><rdg wit="#J8">tathā hi</rdg><rdg wit="#J10pc #W4">tathā ca</rdg><rdg wit="#N17 #V19"/></app> <app><lem wit="#J8 #J10 #J17 #V1 #W4">gorakṣavacanam</lem><rdg wit="#N17 #V19"/></app>/</p>
 <lg xml:id="hp01_061">
  <l> <note type="myfn"><ref target="#V1">V1</ref> has <hi>tailāmlāloṇītīni kālikā bhā i</hi>(?) before this verse.</note>
 <s type="pada"><app><lem wit="#J8 #J10 #J17 #N17 #V1 #V19 #W4">varjaye</lem><rdg wit="#J8 #N17">varjaye</rdg><rdg wit="#N17">.. [y]ed dūre</rdg></app><app><lem wit="#J8 #J10 #J17 #N17 #V19">ddurjana</lem><rdg wit="#V1">tarjana</rdg></app><app><lem wit="#J10 #J17 #N17 #V19 #W4">prītiṃ</lem><rdg wit="#J8">prīti</rdg><rdg wit="#V1">prātaṃ</rdg></app></s> <s type="pada"><app><lem wit="#J8 #J10 #J17 #N17 #V1 #W4">vahnistrī</lem><rdg wit="#V19">vastrī</rdg></app><app><lem wit="#J8pc #J10 #J17 #N17 #V1 #W4">patha</lem><rdg wit="#J8ac">pathya</rdg><rdg wit="#V19">madhu</rdg></app>sevanam/</s></l>
