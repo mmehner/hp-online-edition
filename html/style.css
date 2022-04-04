@@ -123,12 +123,24 @@ mark {
     color: #fcd08b;
 }
 
+.avataranika {
+    margin: 0;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 30px;
+}
+
 .hpvers {
     margin: 0;
     padding-top: 25px;
     padding-bottom: 10px;
     padding-right: 10px;
     padding-left: 60px;
+}
+
+.avataranika + .hpvers {
+    padding-top: 10px;
 }
 
 .hpvers + .hpvers {

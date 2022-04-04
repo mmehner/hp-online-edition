@@ -106,7 +106,7 @@
   </xsl:template>
 
   <xsl:template match="note" mode="avataranika">
-    <p>
+    <p class="avataranika">
       <xsl:apply-templates/>
     </p>
   </xsl:template>
