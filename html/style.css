@@ -131,6 +131,14 @@ mark {
     padding-left: 30px;
 }
 
+.colophon {
+    margin: 0;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 30px;
+}
+
 .hpvers {
     margin: 0;
     padding-top: 25px;

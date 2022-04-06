@@ -105,6 +105,38 @@
     </div>
   </xsl:template>
 
+  <xsl:template match="div[@type='colophon']">
+    <xsl:variable name="correspkey" select="concat('#', @xml:id )"/>
+    <div class="main">
+      <div class="hpmeta">
+	<div class="text">
+
+	  <xsl:element name="div">
+	    <xsl:attribute name="id">
+	      <xsl:value-of select="@xml:id"/>
+	    </xsl:attribute>
+	    <xsl:attribute name="class">hp</xsl:attribute>
+	    <span class="number">
+	      <xsl:value-of select="replace(@xml:id, 'hp0*(\d+)_.*', 'HP $1 Colophon')"/>
+	    </span>
+	    <div class="Adhishila">
+	      <xsl:apply-templates/>
+	    </div>
+	  </xsl:element>
+	</div>
+
+	<div class="crit">
+	  <div class="apparatus">
+	    <h3>Readings</h3>
+	      <xsl:for-each select="descendant::app">
+		<xsl:call-template name="apparatus"/>
+	      </xsl:for-each>
+	    </div>
+	  </div>
+	</div>
+    </div>
+  </xsl:template>
+
   <xsl:template match="note" mode="avataranika">
     <p class="avataranika">
       <xsl:apply-templates/>
@@ -112,30 +144,27 @@
   </xsl:template>
   
   <!-- iast2nagari for text nodes of hp and avataranika -->
-  <xsl:template match="l[not(ancestor::note)]//text()|note[@type='avataranika']//text()">
+  <xsl:template match="l[not(ancestor::note)]//text()|note[@type='avataranika']//text()|div[@type='colophon']//text()">
     <xsl:value-of select="replace(replace(
 			  translate(
 			  replace(replace(
 			  translate(
-			  replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(.,
-			  '([kgṅcjñṭḍṇtdnpbmyrlvśṣsh]) *([kgṅcjñṭḍṇtdnpbmyrlvśṣs])','$1्$2'),
-			  '([kgṅcjñṭḍṇtdnpbmyrlvśṣsh]) *([kgṅcjñṭḍṇtdnpbmyrlvśṣs])','$1्$2'),
-			  '([kgṅcjñṭḍṇtdnpbmyrlvśṣsh]) *$','$1्'),
-			  '([r])([h])','$1्$2'),
-			  '([kgṅcjñṭḍṇtdnpbmyrlvśṣsh]h?) *ai','$1ै'),
-			  '([kgṅcjñṭḍṇtdnpbmyrlvśṣsh]h?) *au','$1ौ'),
-			  '([kgṅcjñṭḍṇtdnpbmyrlvśṣsh]h?) *a','$1a'),
-			  '([kgṅcjñṭḍṇtdnpbmyrlvśṣsh]h?) *ā','$1ा'),
-			  '([kgṅcjñṭḍṇtdnpbmyrlvśṣsh]h?) *i','$1ि'),
-			  '([kgṅcjñṭḍṇtdnpbmyrlvśṣsh]h?) *ī','$1ी'),
-			  '([kgṅcjñṭḍṇtdnpbmyrlvśṣsh]h?) *u','$1ु'),
-			  '([kgṅcjñṭḍṇtdnpbmyrlvśṣsh]h?) *ū','$1ू'),
-			  '([kgṅcjñṭḍṇtdnpbmyrlvśṣsh]h?) *ṛ','$1ृ'),
-			  '([kgṅcjñṭḍṇtdnpbmyrlvśṣsh]h?) *ṝ','$1ॄ'),
-			  '([kgṅcjñṭḍṇtdnpbmyrlvśṣsh]h?) *ḷ','$1ॢ'),
-			  '([kgṅcjñṭḍṇtdnpbmyrlvśṣsh]h?) *ḹ','$1ॣ'),
-			  '([kgṅcjñṭḍṇtdnpbmyrlvśṣsh]h?) *e','$1े'),
-			  '([kgṅcjñṭḍṇtdnpbmyrlvśṣsh]h?) *o','$1ो'),
+			  replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(.,
+			  '([kgṅcjñṭḍṇtdnpbmyrlvśṣsh]h?) *','$1्'),
+			  '([kgṅcjñṭḍṇtdnpbmyrlvśṣsh]h?)् *ai','$1ै'),
+			  '([kgṅcjñṭḍṇtdnpbmyrlvśṣsh]h?)् *au','$1ौ'),
+			  '([kgṅcjñṭḍṇtdnpbmyrlvśṣsh]h?)् *a','$1'),
+			  '([kgṅcjñṭḍṇtdnpbmyrlvśṣsh]h?)् *ā','$1ा'),
+			  '([kgṅcjñṭḍṇtdnpbmyrlvśṣsh]h?)् *i','$1ि'),
+			  '([kgṅcjñṭḍṇtdnpbmyrlvśṣsh]h?)् *ī','$1ी'),
+			  '([kgṅcjñṭḍṇtdnpbmyrlvśṣsh]h?)् *u','$1ु'),
+			  '([kgṅcjñṭḍṇtdnpbmyrlvśṣsh]h?)् *ū','$1ू'),
+			  '([kgṅcjñṭḍṇtdnpbmyrlvśṣsh]h?)् *ṛ','$1ृ'),
+			  '([kgṅcjñṭḍṇtdnpbmyrlvśṣsh]h?)् *ṝ','$1ॄ'),
+			  '([kgṅcjñṭḍṇtdnpbmyrlvśṣsh]h?)् *ḷ','$1ॢ'),
+			  '([kgṅcjñṭḍṇtdnpbmyrlvśṣsh]h?)् *ḹ','$1ॣ'),
+			  '([kgṅcjñṭḍṇtdnpbmyrlvśṣsh]h?)् *e','$1े'),
+			  '([kgṅcjñṭḍṇtdnpbmyrlvśṣsh]h?)् *o','$1ो'),
 			  '’', 'ऽ'),
 			  'ṃ', 'ं'),
 			  'ḥ', 'ः'),
@@ -149,7 +178,6 @@
 			  'dh','ध'),
 			  'ph','फ'),
 			  'bh','भ'),
-			  'a',''),
 			  'kgṅcjñṭḍṇtdnpbmyrlvśṣshṃḥ','कगङचजञटडणतदनपबमयरलवशषसह'),
 			  'ai','ऐ'),
 			  'au','औ'),
@@ -241,14 +269,49 @@
     </xsl:if>
   </xsl:template>
 
-  <!-- simple html equivalents -->  
+  <!-- refs -->
+  <xsl:template match="ref">
+     <xsl:if test="@target">
+       <xsl:variable name="tree" select="//*"/>
+       <xsl:choose>
+	  <xsl:when test="starts-with(@target, '#')">
+	    <xsl:variable name="idkey" select="substring-after(@target, '#')"/>
+	    <xsl:element name="span">
+	      <xsl:attribute name="class">siglum</xsl:attribute>
+	      <xsl:attribute name="title">
+		<xsl:value-of select="normalize-space($tree[@xml:id = $idkey])"/>
+	      </xsl:attribute>
+	      <xsl:value-of select="."/>
+	    </xsl:element>
+	  </xsl:when>
+	  <xsl:otherwise>
+	    <xsl:value-of select="."/>
+	  </xsl:otherwise>
+	</xsl:choose>
+    </xsl:if>
+  </xsl:template>
+
+  <!-- simple html equivalents -->
   <xsl:template match="l[not(ancestor::note)]">
     <p class="hpvers"><xsl:apply-templates/></p>
   </xsl:template>
-
+  
+  <xsl:template match="div[@type='colophon']/p">
+    <p class="colophon"><xsl:apply-templates/></p>
+  </xsl:template>
+  
+  <xsl:template match="note[@type='omission']">
+    <span class="omission">
+    <xsl:text>(om. </xsl:text>
+    <xsl:apply-templates/>
+    <xsl:text>)</xsl:text>
+    </span>
+  </xsl:template>
   
   <xsl:template match="p">
-    <p><xsl:apply-templates/></p>
+    <xsl:copy>
+      <xsl:apply-templates/>
+    </xsl:copy>
   </xsl:template>
   
   <!-- non-main stanzas -->
