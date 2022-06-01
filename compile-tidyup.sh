@@ -2,7 +2,7 @@
 
 # optional argument 1 is filename, otherwise all relevant *.tex files
 
-xslcmd="java -jar /usr/share/java/saxon/saxon9he.jar -s:xml/HP1_OldMss-tei.xml -xsl:xslt/hp-online.xsl"
+xslcmd="java -jar /usr/share/java/saxon/saxon9he.jar -s:xml/HP_skm_test-tei.xml -xsl:xslt/hp-online.xsl"
 
 xslcmdproc(){
     ${xslcmd} | \
@@ -44,7 +44,7 @@ then
     compile "${1#*/}"
 elif [ -z "${1:-}" ]
 then
-    for f in "HP1_OldMss.tex" "HP1-TranslComm.tex" "Jyotsna.tex" "Marmasthanas.tex"
+    for f in "HP_skm_test.tex" "HP1_OldMss.tex" "HP1-TranslComm.tex" "Jyotsna.tex" "Marmasthanas.tex"
     do
 	compile "${f}"
     done

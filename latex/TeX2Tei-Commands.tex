@@ -2,8 +2,11 @@
 
 %%% modify environments and commands
 %%% TEI mapping
-% additions/changes 2022-04-06 mm:
+% additions/changes 2022-06-01 mm:
+\TeXtoTEI{skp}{seg}[type="deva-ignore"]
+\TeXtoTEI{skm}{seg}[type="ltn-ignore"]
 
+% additions/changes 2022-04-06 mm:
 \TeXtoTEI{sgwit}{ref}
 \TeXtoTEI{textdev}{s}[xml:lang="sa-deva"]
 \TeXtoTEIPat{\begin {col}[#1]}{<div type="colophon" xml:id="#1"><p>}
@@ -51,9 +54,8 @@
 \TeXtoTEI{rlap}{}
 
 % end additions/changes
-
-\TeXtoTEIPat{\skp {#1}}{#1}
-\TeXtoTEIPat{\skm {#1}}{}
+%\TeXtoTEIPat{\skp {#1}}{#1}
+%\TeXtoTEIPat{\skm {#1}}{}
 
 \TeXtoTEIPat{\begin {prose}}{<p>}
 \TeXtoTEIPat{\end {prose}}{</p>}

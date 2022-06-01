@@ -22,9 +22,7 @@
 
   <!-- if nothing else matches: identity transformation for text nodes -->
   <xsl:template match="text()">
-    <xsl:copy>
-      <xsl:apply-templates select="node()|@*" />
-    </xsl:copy>
+    <xsl:copy/>
   </xsl:template>
 
   <!-- deletions -->
@@ -142,14 +140,31 @@
       <xsl:apply-templates/>
     </p>
   </xsl:template>
+
+  <!-- skp and skm, here: deva-ignore and ltn-ignore  -->
+  <xsl:template match="seg[@type='deva-ignore']"/>
+  <xsl:template match="seg[@type='deva-ignore']" mode="lemma">
+    <xsl:value-of select="."/>
+  </xsl:template>
+
+  <xsl:template match="lem/text()|rdg/text()" mode="lemma">
+    <xsl:value-of select="."/>
+  </xsl:template>
+  
+  <xsl:template match="seg[@type='ltn-ignore']"/>
+  <xsl:template match="seg[@type='ltn-ignore']" mode="lemma"/>
   
   <!-- iast2nagari for text nodes of hp and avataranika -->
   <xsl:template match="l[not(ancestor::note)]//text()|note[@type='avataranika']//text()|div[@type='colophon']//text()">
+    <xsl:variable name="addstring">
+      <xsl:value-of select="parent::*/seg[@type='ltn-ignore']"/>
+    </xsl:variable>
+      
     <xsl:value-of select="replace(replace(
 			  translate(
 			  replace(replace(
 			  translate(
-			  replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(.,
+			  replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(concat($addstring,.),
 			  '([kgṅcjñṭḍṇtdnpbmyrlvśṣsh]h?) *','$1्'),
 			  '([kgṅcjñṭḍṇtdnpbmyrlvśṣsh]h?)् *ai','$1ै'),
 			  '([kgṅcjñṭḍṇtdnpbmyrlvśṣsh]h?)् *au','$1ौ'),
@@ -230,7 +245,7 @@
   <xsl:template match="lem|rdg" mode="lemma">
     <xsl:variable name="correspkey" select="concat('#', @xml:id )"/>
     <span class="lem">
-      <xsl:value-of select="."/>
+      <xsl:apply-templates mode="lemma"/>
     </span>
     <xsl:call-template name="sigla"/>
   </xsl:template>
@@ -257,7 +272,7 @@
 	      <xsl:attribute name="title">
 		<xsl:value-of select="normalize-space($tree[@xml:id = $idkey])"/>
 	      </xsl:attribute>
-	      <xsl:value-of select="substring-after(., '#')"/>
+	      <xsl:apply-templates select="$tree[@xml:id = $idkey]/abbr"/>
 	    </xsl:element>
 	  </xsl:when>
 	  <xsl:otherwise>
@@ -360,8 +375,18 @@
   </xsl:template>
 
   <!-- emphasis -->
-  <xsl:template match="hi">
+  <xsl:template match="hi[not(@rend='sub' or @rend='sup')]">
     <i><xsl:apply-templates/></i>
+  </xsl:template>
+
+  <!-- subscript -->
+  <xsl:template match="hi[@rend='sub']">
+    <sub><xsl:apply-templates/></sub>
+  </xsl:template>
+
+  <!-- superscript -->
+  <xsl:template match="hi[@rend='sup']">
+    <sup><xsl:apply-templates/></sup>
   </xsl:template>
   
   <!--deletions -->

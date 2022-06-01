@@ -17,6 +17,7 @@
 
 \usepackage[teiexport=tidy,poetry=verse]{ekdosis}
 \usepackage{sanskrit-poetry}
+\usepackage{xcolor}
 
 \usepackage[english]{babel}
 \usepackage{babel-iast,xparse,xcolor}
@@ -47,26 +48,46 @@
 \DeclareShorthand{emend}{\texteng{\emph{em.}}}{ego}
 
 \setlength{\vrightskip}{-10pt}
-\setlength{\vgap}{3mm}
+%\setlength{\vgap}{3mm} % default 1.5em
 \verselinenumfont{\footnotesize\selectlanguage{english}\normalfont}
+
+%Define two commands: \skp ("sanskrit plus"), to be ignored by TeX in
+%the edition text, but processed in the TEI output. Conversely, \skm
+%("sanskrit minus") is to be processed in the edition text, but
+%ignored if found in the apparatus criticus and in the TEI output:
+
+\NewDocumentCommand{\skp}{m}{}
+%\NewDocumentCommand{\skm}{m}{\unless\ifinapparatus#1-\fi}
+\NewDocumentCommand{\skm}{m}{\unless\ifinapparatus#1\fi} % modified by MD 2022-05-31
 
 \input{Manuscript-Sigla}
 \input{Abbreviations}
 \input{TeX2Tei-Commands}
 
 % additions/changes 2022-04-06 mm:
-\NewDocumentEnvironment{ava}{O{}}{\begin{ekdpar}\SetLineation{lineation=none}}{\end{ekdpar}}
-\NewDocumentEnvironment{col}{O{}}{\begin{ekdpar}\SetLineation{lineation=none}}{\end{ekdpar}}
+%\NewDocumentEnvironment{ava}{O{}}{\begin{ekdpar}\SetLineation{lineation=none}}{\end{ekdpar}}
+%\NewDocumentEnvironment{col}{O{}}{\begin{ekdpar}\SetLineation{lineation=none}}{\end{ekdpar}}
+
+% modified by MD 2022-05-8:
+\NewDocumentEnvironment{ava}{O{}}{
+	\begin{ekdverse}
+	\hspace{-\vgap}}{
+	\end{ekdverse}
+	\vskip 0.75\baselineskip
+	}
+\NewDocumentEnvironment{col}{O{}}{
+	\bigskip
+	\setvnum{col}
+	\begin{ekdverse}
+	\hspace{-\vgap}}{
+	\end{ekdverse}
+	}
 
 % end additions
 
-\NewDocumentCommand{\skp}{m}{}
-\NewDocumentCommand{\skm}{m}{\unless\ifinapparatus#1-\fi}
-
 \SetTEIxmlExport{autopar=false}
 \NewDocumentEnvironment{tlg}{O{}}{
-	\begin{ekdverse}
-	\indentpattern{0000}}{
+	\begin{ekdverse}}{
 	\end{ekdverse}
 	\vskip 0.75\baselineskip}
 \NewDocumentEnvironment{alttlg}{O{}}{}{}
@@ -74,18 +95,23 @@
 
 %%%%%%
 
-\def\startaltrecension#1{
-  \stopvline
-  \begin{ekdverse}[type=altrecension]
-    \indentpattern{0000} 
-    \begin{patverse*}
-      \color{gray}
-      \setvnum{#1}}
+\def\startverse{\begin{ekdverse}} % übergangsweise
+\def\endverse{\end{ekdverse}\vskip 0.75\baselineskip} % übergangsweise
+
+\def\startaltrecension{
+	\stopvline
+	\addtocounter{saved@poemline}{-1}
+	\setvnum{\hindsection.\arabic{saved@poemline}*\arabic{poemline}}
+	\begin{ekdverse}[type=altrecension]
+	\color{gray}
+	}
 \def\endaltrecension{
-  \end{patverse*}
-  \end{ekdverse}
-  \vskip 0.75\baselineskip
-  \startvline}
+	\end{ekdverse}
+	\vskip 0.75\baselineskip
+	\addtocounter{saved@poemline}{1}
+	\startvline
+	\setvnum{\hindsection.\arabic{poemline}}
+	}
 
 %%%%%%
 
@@ -95,6 +121,7 @@
 \newcommand{\outdent}{\hspace{-\vgap}}
 \newcommand{\sgwit}[1]{{\small (\getsiglum{#1})}\selectlanguage{iast}}
 \newcommand{\NotIn}[1]{\texteng{\footnotesize (om. \getsiglum{#1})}\selectlanguage{iast}}
+\newcommand{\grau}[1]{\textcolor{gray}{#1}} % partial altrecension
 
 \def\om{\emph{om.}} % \!}
 \def\illeg{\emph{illeg.}} %\!}
@@ -102,3 +129,4 @@
 \def\recte{\texteng{r.\:}}
 \def\for{\texteng{for }}
 \def\sic{\emph{sic}}
+
