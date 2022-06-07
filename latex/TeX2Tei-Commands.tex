@@ -1,7 +1,9 @@
-﻿
-
-%%% modify environments and commands
+﻿%%% modify environments and commands
 %%% TEI mapping
+% additions/changes 2022-06-07 mm:
+\TeXtoTEI{grau}{hi}[rend="grey"]
+\TeXtoTEIPat{ \& }{ &amp; }
+
 % additions/changes 2022-06-01 mm:
 \TeXtoTEI{skp}{seg}[type="deva-ignore"]
 \TeXtoTEI{skm}{seg}[type="ltn-ignore"]
@@ -17,7 +19,7 @@
 \TeXtoTEIPat{\end {ava}}{</note>}
 \TeXtoTEIPat{\NotIn {#1}}{<note type="omission"><ref target="##1">#1</ref></note>}
 \TeXtoTEIPat{\outdent}{}
-\TeXtoTEIPat{\startaltrecension {#1}}{<note type="altrecension"><ref>#1</ref>}
+\TeXtoTEIPat{\startaltrecension}{<note type="altrecension">}
 \TeXtoTEIPat{\endaltrecension}{</note>}
 \TeXtoTEIPat{\begin {alttlg}[#1]}{<lg xml:id="#1">}
   \TeXtoTEIPat{\end {alttlg}}{</lg>}
@@ -102,7 +104,7 @@
 \TeXtoTEIPat{\leginequit}{}
 \TeXtoTEIPat{\legn}{}
 \TeXtoTEIPat{\illeg}{}
-\TeXtoTEIPat{\om }{}
+\TeXtoTEIPat{\om }{om.}
 \TeXtoTEIPat{\primman}{}
 \TeXtoTEIPat{\prob}{}
 \TeXtoTEIPat{\rep}{}

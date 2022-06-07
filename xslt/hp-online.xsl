@@ -60,13 +60,13 @@
 	  </xsl:element>
 	  
 	  <div class="translation">
-	    <xsl:apply-templates select="document('../xml/HP1-TranslComm-tei.xml')//note[@type='translation' and @target=$correspkey]"/>
+	    <xsl:apply-templates select="document('../xml/HP1_TranslComm-tei.xml')//note[@type='translation' and @target=$correspkey]"/>
 	  </div>
 	  
 	  <details class="philcomm-d">
 	    <summary>Philological Commentary</summary>
 	    <div class="philcomm">
-	      <xsl:apply-templates select="document('../xml/HP1-TranslComm-tei.xml')//note[@type='philcomm' and @target=$correspkey]"/>
+	      <xsl:apply-templates select="document('../xml/HP1_TranslComm-tei.xml')//note[@type='philcomm' and @target=$correspkey]"/>
 	    </div>
 	  </details>
 	  
@@ -75,9 +75,12 @@
 	<div class="crit">
 	  <div class="apparatus">
 	    <h3>Readings</h3>
-	      <xsl:for-each select="descendant::app">
-		<xsl:call-template name="apparatus"/>
-	      </xsl:for-each>
+	    <xsl:for-each select="//note[@type='avataranika' and @target=$correspkey]/descendant::app">
+	      <xsl:call-template name="apparatus"/>
+	    </xsl:for-each>
+	    <xsl:for-each select="descendant::app">
+	      <xsl:call-template name="apparatus"/>
+	    </xsl:for-each>
 	    </div>
 	    <details class="marma-d">
 	      <summary>More Readings</summary>
@@ -88,7 +91,7 @@
 	    <details class="sources-d">
 	      <summary>Sources &amp; Testimonia</summary>
 	      <div class="sources">
-		<xsl:apply-templates select="document('../xml/HP1-TranslComm-tei.xml')//note[@type='sources' and @target=$correspkey]"/>
+		<xsl:apply-templates select="document('../xml/HP1_TranslComm-tei.xml')//note[@type='sources' and @target=$correspkey]"/>
 	      </div>
 	    </details>
 	  </div>
@@ -375,7 +378,7 @@
   </xsl:template>
 
   <!-- emphasis -->
-  <xsl:template match="hi[not(@rend='sub' or @rend='sup')]">
+  <xsl:template match="hi[not(@rend='sub' or @rend='sup' or @rend='grey')]">
     <i><xsl:apply-templates/></i>
   </xsl:template>
 
@@ -387,6 +390,11 @@
   <!-- superscript -->
   <xsl:template match="hi[@rend='sup']">
     <sup><xsl:apply-templates/></sup>
+  </xsl:template>
+
+  <!-- grey -->
+  <xsl:template match="hi[@rend='grey']">
+    <span class="grey"><xsl:apply-templates/></span>
   </xsl:template>
   
   <!--deletions -->

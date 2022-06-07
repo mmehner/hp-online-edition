@@ -70,18 +70,29 @@
 
 % modified by MD 2022-05-8:
 \NewDocumentEnvironment{ava}{O{}}{
-	\begin{ekdverse}
-	\hspace{-\vgap}}{
-	\end{ekdverse}
-	\vskip 0.75\baselineskip
-	}
+  \begin{ekdverse}
+    \hspace{-\vgap}}{
+  \end{ekdverse}
+  \vskip 0.75\baselineskip
+}
 \NewDocumentEnvironment{col}{O{}}{
-	\bigskip
-	\setvnum{col}
-	\begin{ekdverse}
-	\hspace{-\vgap}}{
-	\end{ekdverse}
-	}
+  \bigskip
+  \setvnum{col}
+  \selectlanguage{iast}
+  \begin{ekdverse}
+    \hspace{-\vgap}}{
+  \end{ekdverse}
+}
+
+% end additions
+        
+% modifications/additions by MM 2022-06-07:
+\NewDocumentEnvironment{altava}{O{}}{
+  \begin{ekdverse}
+    \hspace{-\vgap}}{
+  \end{ekdverse}
+  \vskip 0.75\baselineskip
+}   
 
 % end additions
 
@@ -102,6 +113,7 @@
 	\stopvline
 	\addtocounter{saved@poemline}{-1}
 	\setvnum{\hindsection.\arabic{saved@poemline}*\arabic{poemline}}
+	\selectlanguage{iast}
 	\begin{ekdverse}[type=altrecension]
 	\color{gray}
 	}
@@ -111,6 +123,7 @@
 	\addtocounter{saved@poemline}{1}
 	\startvline
 	\setvnum{\hindsection.\arabic{poemline}}
+	\selectlanguage{iast}
 	}
 
 %%%%%%

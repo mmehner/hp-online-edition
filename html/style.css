@@ -251,6 +251,18 @@ mark {
     padding-left: 30px;
 }
 
+.grey {
+    font-size: 14px;
+}
+
+.grey::before {
+    content: "[";
+}
+
+.grey::after {
+    content: "]";
+}
+
 .showonhover{
     display:none;
 }

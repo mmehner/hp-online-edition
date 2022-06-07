@@ -1,0 +1,840 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title><!-- Title --></title>
+<respStmt>
+<resp><!-- Edited by --></resp>
+<name><!-- Name --></name>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<distributor><!-- Distributor name  --></distributor>
+</publicationStmt>
+<sourceDesc>
+<listWit>
+<witness xml:id="Vu">
+<abbr type="siglum">Vulg</abbr>
+Vulgate, i.e. Brahmānanda’s version
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="X">
+<abbr type="siglum">X</abbr>
+TenChapter Version, Jodhpur 02228 and 02225 (ed. Lonavla)
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="Six">
+<abbr type="siglum">Ṣ</abbr>
+SixChapterVersion, ``6ChapterHPms’’, fragment of enlarged text, Jodhpur
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V1">
+<abbr type="siglum">V<hi rend="sub">1</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 30109
+<msDesc>
+<msIdentifier/>
+<physDesc>
+<handDesc hands="2">
+<handNote xml:id="V1ac">
+<abbr type="siglum">V<hi rend="sub">1</hi><hi rend="sup">ac</hi></abbr>
+
+</handNote>
+<handNote xml:id="V1pc">
+<abbr type="siglum">V<hi rend="sub">1</hi><hi rend="sup">pc</hi></abbr>
+
+</handNote>
+</handDesc>
+</physDesc>
+</msDesc>
+</witness>
+<witness xml:id="V2">
+<abbr type="siglum">V<hi rend="sub">2</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 29869
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V3">
+<abbr type="siglum">V<hi rend="sub">3</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 29899
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V4">
+<abbr type="siglum">V<hi rend="sub">4</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 29937
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V5">
+<abbr type="siglum">V<hi rend="sub">5</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 29938
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V6">
+<abbr type="siglum">V<hi rend="sub">6</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 29991
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V8">
+<abbr type="siglum">V<hi rend="sub">8</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 30014
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V11">
+<abbr type="siglum">V<hi rend="sub">11</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 30029
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V12">
+<abbr type="siglum">V<hi rend="sub">12</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 30030
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V13">
+<abbr type="siglum">V<hi rend="sub">13</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 30031
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V14">
+<abbr type="siglum">V<hi rend="sub">14</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 30050
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V15">
+<abbr type="siglum">V<hi rend="sub">15</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 30051
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V15pc">
+<abbr type="siglum">V<hi rend="sub">15</hi><hi rend="sup">pc</hi>space </abbr>
+
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V16">
+<abbr type="siglum">V<hi rend="sub">16</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 30052
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V17">
+<abbr type="siglum">V<hi rend="sub">17</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 30053
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V16pc">
+<abbr type="siglum">V<hi rend="sub">16</hi><hi rend="sup">pc</hi>space </abbr>
+
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V18">
+<abbr type="siglum">V<hi rend="sub">18</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 30064
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V19">
+<abbr type="siglum">V<hi rend="sub">19</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 30069
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V21">
+<abbr type="siglum">V<hi rend="sub">21</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 30104
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V22">
+<abbr type="siglum">V<hi rend="sub">22</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 30110
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V25">
+<abbr type="siglum">V<hi rend="sub">25</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 30122
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V26">
+<abbr type="siglum">V<hi rend="sub">26</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 30123
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V28">
+<abbr type="siglum">V<hi rend="sub">28</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 30136
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="W4">
+<abbr type="siglum">W<hi rend="sub">4</hi></abbr>
+Wai 399 6171
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="K1">
+<abbr type="siglum">K<hi rend="sub">1</hi></abbr>
+Raghunātha Temple Library 4383
+<msDesc>
+<msIdentifier>
+<settlement>Jammu</settlement>
+</msIdentifier>
+</msDesc>
+</witness>
+<witness xml:id="K1ac">
+<abbr type="siglum">K<hi rend="sub">1</hi><hi rend="sup">ac</hi>space </abbr>
+
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="K1pc">
+<abbr type="siglum">K<hi rend="sub">1</hi><hi rend="sup">pc</hi>space </abbr>
+
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="L1">
+<abbr type="siglum">L<hi rend="sub">1</hi></abbr>
+SOAS RE 43454
+<msDesc>
+<msIdentifier>
+<settlement>Jammu</settlement>
+</msIdentifier>
+</msDesc>
+</witness>
+<witness xml:id="J10">
+<abbr type="siglum">J<hi rend="sub">10</hi></abbr>
+MSPP Jodhpur 2230
+<msDesc>
+<msIdentifier/>
+<physDesc>
+<handDesc hands="2">
+<handNote xml:id="J10ac">
+<abbr type="siglum">J<hi rend="sub">10</hi><hi rend="sup">ac</hi></abbr>
+
+</handNote>
+<handNote xml:id="J10pc">
+<abbr type="siglum">J<hi rend="sub">10</hi><hi rend="sup">pc</hi></abbr>
+
+</handNote>
+</handDesc>
+</physDesc>
+</msDesc>
+</witness>
+<witness xml:id="J1">
+<abbr type="siglum">J<hi rend="sub">1</hi></abbr>
+Jodhpur 02231
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="J2">
+<abbr type="siglum">J<hi rend="sub">2</hi></abbr>
+Jodhpur 02232
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="J3">
+<abbr type="siglum">J<hi rend="sub">3</hi></abbr>
+Jodhpur 02233
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="J4">
+<abbr type="siglum">J<hi rend="sub">4</hi></abbr>
+Jodhpur 02234
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="J4ac">
+<abbr type="siglum">J<hi rend="sub">4</hi><hi rend="sup">ac</hi>space </abbr>
+MSPP Jodhpur 02234
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="J4pc">
+<abbr type="siglum">J<hi rend="sub">4</hi><hi rend="sup">pc</hi>space </abbr>
+MSPP Jodhpur 02234
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="J5">
+<abbr type="siglum">J<hi rend="sub">5</hi></abbr>
+Jodhpur 02235
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="J6ac">
+<abbr type="siglum">J<hi rend="sub">6</hi><hi rend="sub">ac</hi></abbr>
+Jodhpur 02237
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="J6pc">
+<abbr type="siglum">J<hi rend="sub">6</hi><hi rend="sub">pc</hi></abbr>
+Jodhpur 02237
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="J7">
+<abbr type="siglum">J<hi rend="sub">7</hi></abbr>
+Jodhpur 02241
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="J8">
+<abbr type="siglum">J<hi rend="sub">8</hi></abbr>
+Jodhpur 23709
+<msDesc>
+<msIdentifier/>
+<physDesc>
+<handDesc hands="2">
+<handNote xml:id="J8ac">
+<abbr type="siglum">J<hi rend="sub">8</hi><hi rend="sup">ac</hi></abbr>
+
+</handNote>
+<handNote xml:id="J8pc">
+<abbr type="siglum">J<hi rend="sub">8</hi><hi rend="sup">pc</hi></abbr>
+
+</handNote>
+</handDesc>
+</physDesc>
+</msDesc>
+</witness>
+<witness xml:id="J9">
+<abbr type="siglum">J<hi rend="sub">9</hi></abbr>
+Jodhpur 02224
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="J11">
+<abbr type="siglum">J<hi rend="sub">11</hi></abbr>
+Jodhpur 23532
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="J12">
+<abbr type="siglum">J<hi rend="sub">12</hi></abbr>
+Jodhpur 18552
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="J13">
+<abbr type="siglum">J<hi rend="sub">13</hi></abbr>
+Jodhpur 02229
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="J14">
+<abbr type="siglum">J<hi rend="sub">14</hi></abbr>
+Jodhpur 02239
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="J15">
+<abbr type="siglum">J<hi rend="sub">15</hi></abbr>
+Jodhpur 9732A
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="J17">
+<abbr type="siglum">J<hi rend="sub">17</hi></abbr>
+Jodhpur 3013
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="B1">
+<abbr type="siglum">B<hi rend="sub">1</hi></abbr>
+Bodleian Library No. d.457(8)
+<msDesc>
+<msIdentifier>
+<settlement>Oxford</settlement>
+</msIdentifier>
+</msDesc>
+</witness>
+<witness xml:id="B2">
+<abbr type="siglum">B<hi rend="sub">2</hi></abbr>
+Bodleian Library No. d.458(1)
+<msDesc>
+<msIdentifier>
+<settlement>Oxford</settlement>
+</msIdentifier>
+</msDesc>
+</witness>
+<witness xml:id="B3">
+<abbr type="siglum">B<hi rend="sub">3</hi></abbr>
+Bodleian Library No. d.458(9)
+<msDesc>
+<msIdentifier>
+<settlement>Oxford</settlement>
+</msIdentifier>
+</msDesc>
+</witness>
+<witness xml:id="C1">
+<abbr type="siglum">C<hi rend="sub">1</hi></abbr>
+Lalchand M 2080
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="C2">
+<abbr type="siglum">C<hi rend="sub">2</hi></abbr>
+Lalchand M 6065
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="C3">
+<abbr type="siglum">C<hi rend="sub">3</hi></abbr>
+Lalchand M 1293
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="C4">
+<abbr type="siglum">C<hi rend="sub">4</hi></abbr>
+Lalchand M 2081
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="C4ac">
+<abbr type="siglum">C<hi rend="sub">4</hi><hi rend="sup">ac</hi>space </abbr>
+
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="C4pc">
+<abbr type="siglum">C<hi rend="sub">4</hi><hi rend="sup">pc</hi>space </abbr>
+
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="C5">
+<abbr type="siglum">C<hi rend="sub">5</hi></abbr>
+Lalchand M 2082
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="C6">
+<abbr type="siglum">C<hi rend="sub">6</hi></abbr>
+Lalchand M 2089
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="C7">
+<abbr type="siglum">C<hi rend="sub">7</hi></abbr>
+Lalchand M 6494
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="C8">
+<abbr type="siglum">C<hi rend="sub">8</hi></abbr>
+Lalchand M 2091
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="C8pc">
+<abbr type="siglum">C<hi rend="sub">8</hi><hi rend="sup">pc</hi>space </abbr>
+
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="C9">
+<abbr type="siglum">C<hi rend="sub">9</hi></abbr>
+Lalchand M 4530
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N1">
+<abbr type="siglum">N<hi rend="sub">1</hi></abbr>
+NGMPP A1400 2
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N2">
+<abbr type="siglum">N<hi rend="sub">2</hi></abbr>
+NGMPP B 39 19
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N3">
+<abbr type="siglum">N<hi rend="sub">3</hi></abbr>
+NGMPP B 62 20
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N5">
+<abbr type="siglum">N<hi rend="sub">5</hi></abbr>
+NGMPP A60 15 + A61 1
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N6">
+<abbr type="siglum">N<hi rend="sub">6</hi></abbr>
+NGMPP A61 6
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N9">
+<abbr type="siglum">N<hi rend="sub">9</hi></abbr>
+NGMPP A62 33
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N10">
+<abbr type="siglum">N<hi rend="sub">10</hi></abbr>
+NGMPP A62 37
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N11">
+<abbr type="siglum">N<hi rend="sub">11</hi></abbr>
+NGMPP A63 15
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N12">
+<abbr type="siglum">N<hi rend="sub">12</hi></abbr>
+NGMPP A939 19
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N13">
+<abbr type="siglum">N<hi rend="sub">13</hi></abbr>
+NGMPP A1378 18
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N16">
+<abbr type="siglum">N<hi rend="sub">16</hi></abbr>
+NGMPP B39 20
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N17">
+<abbr type="siglum">N<hi rend="sub">17</hi></abbr>
+NGMPP B 111 10
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N18">
+<abbr type="siglum">N<hi rend="sub">18</hi></abbr>
+NGMPP E 929 3
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N19">
+<abbr type="siglum">N<hi rend="sub">19</hi></abbr>
+NGMPP E 1528 1 / E 1527 7(4)
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N20">
+<abbr type="siglum">N<hi rend="sub">20</hi></abbr>
+NGMPP E 2037 13 
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N21">
+<abbr type="siglum">N<hi rend="sub">21</hi></abbr>
+NGMPP E 2097 31
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N22">
+<abbr type="siglum">N<hi rend="sub">22</hi></abbr>
+NGMPP G 4 4
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N23">
+<abbr type="siglum">N<hi rend="sub">23</hi></abbr>
+NGMPP G 25 2
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N24">
+<abbr type="siglum">N<hi rend="sub">24</hi></abbr>
+NGMPP G 190 16
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N24ac">
+<abbr type="siglum">N<hi rend="sub">24</hi><hi rend="sup">ac</hi>space </abbr>
+
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N24pc">
+<abbr type="siglum">N<hi rend="sub">24</hi><hi rend="sup">pc</hi>space </abbr>
+
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P28">
+<abbr type="siglum">P<hi rend="sub">28</hi></abbr>
+BORI 399 1895 1902
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="M1">
+<abbr type="siglum">M<hi rend="sub">1</hi></abbr>
+P 5682/4
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="Tü">
+<abbr type="siglum">Tü</abbr>
+Ma I 339
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="YC">
+<abbr type="siglum">YC</abbr>
+Yogacintāmaṇi
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="ceteri">
+<abbr type="siglum">cet.</abbr>
+ceteri
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="A1">
+<abbr type="siglum">A<hi rend="sub">1</hi></abbr>
+Alwar 952
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+</listWit>
+<listPerson xml:id="scholars">
+<person xml:id="nos">
+<persName>
+<abbr type="siglum">nos</abbr>
+<forename>HPP</forename>
+<surname>Team</surname>
+</persName>
+</person>
+</listPerson>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<variantEncoding method="parallel-segmentation" location="internal"/>
+</encodingDesc>
+</teiHeader>
+<text>
+<body>
+<chapter>Translation &amp; philological commentary</chapter>  <note type="translation" target="#hp01_001"> Homage to the glorious Ādinātha by whom the knowledge of Haṭhayoga was taught. It shines forth like a ladder for one desirous of climbing to the lofty terrace of the royal palace. </note>
+ <note type="sources" target="#hp01_001"> Yogasārasaṃgraha (line 3090), Gheraṇḍasaṃhitā </note>
+ <note type="translation" target="#hp01_002"> Having bowed to the glorious guru, the Lord, the yogi Svātmārāma has taught the doctrine of Haṭhayoga solely for [attaining] Rājayoga. </note>
+ <note type="translation" target="#hp01_003"> For those who are ignorant of Rājayoga because of confusion in the darkness of many opinions the compassionate Svātmārāma composes the Lamp on Haṭha. </note>
+ <note type="translation" target="#hp01_004"> In fact, Matsyendra, Gorakṣa and other [siddhas] knew the doctrine of Haṭha, and the yogi Svātmārāma knows it owing to their favour. </note>
+ <note type="translation" target="#hp01_005"> The glorious Ādinātha, Matysendra, Śābara, Ānandabhairava, Cauraṅgī, Mīna, Gorakṣa, Virūpākṣa, Bileśaya, </note>
+ <note type="translation" target="#hp01_006"> Manthānabhairava, Siddhabuddha, and Kanthaḍi, Pauraṇṭaka, Surānanda, Siddhapāda, Carpaṭi. </note>
+ <note type="translation" target="#hp01_007"> Kānerī, Pūjyapāda, Nityanātha, Nirañjana, Kapālī, Bindunātha, and the one named Kākacaṇḍīśvara. </note>
+ <note type="translation" target="#hp01_008"> Allamaprabhudeva, Ghoḍācolī, Ṭiṇṭiṇī, Bhālukī and Nāgabodha and Khaṇḍakāpālika. </note>
+ <note type="translation" target="#hp01_009"> These great siddhas and others have destroyed the rod of death through the power of Haṭhayoga and wander in the universe. </note>
+ <note type="translation" target="#hp01_010"> Haṭha is considered a refuge for those who are burnt by the pains of transmigration. Haṭha is the foundational tortoise for the worlds of all yogas. </note>
+ <note type="translation" target="#hp01_011"> The doctrine of Haṭha should be kept very secret by those yogis who are desiring success. When it is secret it becomes potent. However, when it has been revealed, it becomes impotent. </note>
+ <note type="sources" target="#hp01_011"> ŚS 5.254; BKhP 10v4, YCM </note>
+ <note type="translation" target="#hp01_012"> In well ruled, righteous region, with plenty of food and free of disturbances, the Haṭhayogi should live remotely in a small hut. </note>
+ <note type="sources" target="#hp01_012"> GŚ 32cd; BKhP 107v1, YCM </note>
+ <note type="translation" target="#hp01_013"> It has a small door, without cracks and holes, its length is not too high or low, thickly smeared with cow dung in the proper way, clean, free from everything that annoys, adorned with a pavilion, altar and well, surrounded by a wall: these are the characteristics of the yoga hut as taught by the adept practitioners of haṭha. </note>
+ <note type="sources" target="#hp01_013"> BKhP 107v3, YCM </note>
+ <note type="philcomm" target="#hp01_013"> <hi>piṭharaṃ</hi> good </note>
+ <note type="translation" target="#hp01_014"> Locating oneself in a hut of such a kind, free from all worry, one should constantly practise yoga in the way taught by one’s guru. </note>
+ <note type="translation" target="#hp01_015"> Overeating, exertion, chatter (gossiping/bickering?), sticking to rules, associating with people, inconstancy: through [these] six, yoga will be abandoned. </note>
+ <note type="philcomm" target="#hp01_015"> Impossible to decide on meaning of <hi>niyamāgraha</hi>, avagraha invisible, Jyotsnā takes it as over insistence (as if <hi>āgraha</hi> was implied) as he relates it to extreme ascetic practice; will be abandoned if <hi>prahāsyate</hi> is adopted. </note>
+ <note type="translation" target="#hp01_016"> From zeal, conviction, resolve, understanding of the truth [of yoga], discernment, abandonment of associating with people: by [these] six, on the other hand, yoga is successful. </note>
+ <note type="philcomm" target="#hp01_016"> <hi>tattva</hi> can sometimes refer to the practices of yoga: e.g., <hi>tritattva</hi> in AS 13.12, 14.2  3. </note>
+ <note type="translation" target="#hp01_017"> Because it is the first auxiliary of haṭha, āsana is taught first. This (<hi>tad</hi>) āsana brings about steadiness, good health and dexterity. </note>
+ <note type="translation" target="#hp01_018"> I shall now teach some of the postures which have been accepted by sages (<hi>munis</hi>) such as Vasiṣṭha and yogis such as Matsyendra. </note>
+ <note type="translation" target="#hp01_019"> Correctly placing the soles of both feet between the knees and thighs [and] sitting up with the body straight: they call that the auspicious [pose]. </note>
+ <note type="sources" target="#hp01_019"> VS 1.68 etc </note>
+ <note type="translation" target="#hp01_020"> One should place one’s right heel on the left, at the side of the [lower] back, and on the right the left in the same way. This is the Cow’s Mouth [posture]; it is like a cow’s mouth. </note>
+ <note type="sources" target="#hp01_020"> VS 1.70, YY? 3.5; BKhP 93v7 </note>
+ <note type="translation" target="#hp01_021"> Having placed one foot on one thigh and the seated thigh on the other foot. Vīrāsana is taught [thus]. </note>
+ <note type="translation" target="#hp01_022"> Having blocked the anus with the crossed ankles, focused [the yogi] remains [thus]. Adepts of yoga know that this is kūrmāsana. Or: While focused, [the yogi] should bind the anus with crossed ankles. This is kūrmāsana. Experts in yoga know this. </note>
+ <note type="translation" target="#hp01_023"> Having assumed padmāsana, inserted the hands between the knees and thighs, and placed [the hands] on the ground, [the yogi] remains in the air. This is kurkuṭāsana Or: [The yogi] should assume padmāsana, insert his hands between the knees and thighs onto the ground and place himself in the air. This is kurkuṭāsana. </note>
+ <note type="philcomm" target="#hp01_023"> Kurkuṭa/kurkkuṭa variant in <ref target="#V1,J10ac,V3">V1,J10ac,V3</ref> is attested in Pañcatantra (M W). </note>
+ <note type="translation" target="#hp01_024"> Bound in kurkuṭāsana, [the yogi] binds the neck with the hands and lies supine like a tortoise. This is uttānakūrmāsana. </note>
+ <note type="philcomm" target="#hp01_024"> <hi>bandhasthaḥ</hi> or <hi>vat kṛtvā</hi>? Only V1 has latter, which is simpler. Are the others trying to improve it? Stemmatically ambiguous as <hi>bandha</hi> is on one branch (V3/J8, V19) and <hi>madhya</hi> the other (J10, J17, N17). V1 looks like an outlier. Adopt <hi>bandhastho</hi> with note. <hi>bandhastha</hi> not found in any other texts. <hi>vat kṛtvā</hi> is not good. </note>
+ <note type="translation" target="#hp01_025"> Having clasped the big toes with hands, [the yogi] should perform a bow drawing action as far as the ear. This is called dhanurāsana. </note>
+ <note type="philcomm" target="#hp01_025"> At a stretch (!), this could mean drawing a crossbow, with both hands taken back to the ears, but probably just means like a normal bow. Gheraṇḍasaṃhitā: startverse prasārya pādau bhuvi daṇḍarūpau | karau ca pṛṣṭhaṃ dhṛtapādayugmam | kṛtvā dhanustulyavivartitāṅgaṃ | nigadyate vai dhanurāsanaṃ tat || 2.18 || endverse </note>
+ <note type="translation" target="#hp01_026"> Having grasped the right foot, which is placed at the base of the left thigh, and the left foot, which is wrapped around the outside of the knee, [the yogi] remains with his body twisted. This āsana was taught by Matsyendranātha. </note>
+ <note type="translation" target="#hp01_027"> Through practice, Matsyendra’s seat gives people a torch for the abdomen, a destructive weapon for a range of terrible diseases, the awakening of K and steadiness of the spine. </note>
+ <note type="philcomm" target="#hp01_027"> Difficult to construe first half of verse: <hi>jaṭhara</hi> compound needs to be in apposition to <hi>matsyendrapīṭhaṃ</hi>. KDham ed has variant <hi>jaṭharapradīpaṃ</hi> but <hi>pradīpa</hi> is masculine. Perhaps we have to accept <hi>jaṭharapradīptiṃ</hi>, but that crosses stemmatic lines, so <hi>jvalanapradīptiṃ</hi>; or <hi>jaṭharapravṛddhiṃ</hi>. <hi>jvalana</hi> is found at 3.66 to refer to the fire in the body but <hi>jaṭhara</hi>, stomach, is not found without <hi>agni</hi> elsewhere. YCM has <hi>jaṭharapravṛddhiḥ</hi>. Adopt <hi>jaṭharapradīptiṃ</hi> (<hi>dīptiṃ</hi> is an emendation), understood as object of <hi>dadāti</hi>. Pāda d, J10ac and J17 have <hi>candra</hi> for <hi>daṇḍa</hi>, also in YCM and 6 chapter HP. </note>
+ <note type="translation" target="#hp01_028"> [The yogi] should stretch out both feet on the ground like staffs, hold the ends of both feet with the hands, place the forehead upon the knees and remain thus. They call this the back stretch (paścimatānam). </note>
+ <note type="philcomm" target="#hp01_028"> Only V1 has <hi>dorbhyāṃ padāgra</hi>, others have variations on the much inferior <hi>dvābhyāṃ karābhyāṃ</hi>. Vulgate has same as V1, which is a surprise. V1 reading <hi>dorbhyāṃ pādāgradvitayaṃ</hi> is best, adopt. V1’s <hi>tāṇabandhaḥ</hi> doesn’t work with <hi>idaṃ</hi>. </note>
+ <note type="translation" target="#hp01_029"> This back stretch is the foremost among āsanas. It makes the breath flow in the back [i.e. Central channel], increases the digestive fire, makes the belly thin and prevents diseases in men. </note>
+ <note type="philcomm" target="#hp01_029"> Adopt <hi>arogitāṃ</hi>. </note>
+ <note type="translation" target="#hp01_030"> Supporting oneself on the ground with both hands, their elbows placed on either side of the navel, with a raised position (? uccāsanaḥ) one is placed up into the air [as straight] as a stick. They call this posture the peacock. </note>
+ <note type="philcomm" target="#hp01_030"> 1.30 b tat refers to <hi>karadvaya</hi> (cf. VS). <hi>uccāsano</hi> to be adopted; <hi>samunnataśiraḥpādo</hi> is reading of VS. which is derived from Vimānārcanākalpa 96: <hi>karatale bhūmau samsthāpya kūrparau nābhipārśvayor nyasya na(unnata) ̇ taśira ̄hpādau dandavad vyomni samsthito mayūrāsanam iti</hi>. </note>
+ <note type="translation" target="#hp01_031"> The glorious mayūra posture gets rid of all diseases of the abdomen such as bloating and overcomes [imbalances of] the doṣas. It completely incinerates food which is bad or has been eaten to excess, it generates digestive fire and it digests strong poison. </note>
+ <note type="philcomm" target="#hp01_031"> <hi>aśeṣaṃ</hi> better </note>
+ <note type="translation" target="#hp01_032"> Lying on one’s back on the ground like a corpse is the corpse posture. It removes the fatigue [caused by practising] all [other] āsanas and relaxes the mind. </note>
+ <note type="translation" target="#hp01_033"> However, Śiva taught eight four āsanas. I shall take the four essential ones from them and teach them. </note>
+ <note type="translation" target="#hp01_034"> The adept, lotus, lion and auspicious pose are the best tetrad and, among those, one should always sit in a comfortable adept’s pose. </note>
+ <note type="translation" target="#hp01_035"> Having joined the place of the perineum with the heel of the foot, the yogi should firmly fix the [other] foot on the penis. Having held the face and chest together and the body erect, [the yogi] remains still, his senses restrained, gazing between the brows with his eyes unmoving. This breaks open the door to liberation and is called the adept’s pose. </note>
+ <note type="philcomm" target="#hp01_035"> KDh ed has <hi>āsya</hi>, variant in mss kh and gha, both BORI. Jürgen suggests we might take <hi>āsyahṛdaye</hi> and <hi>vigraham</hi> as the objects of <hi>dhṛtvā</hi> and samam as an adverb (i.e., holding straight the face, chest and body). However, in a different doctrine. </note>
+ <note type="translation" target="#hp01_036"> Having fixed the left heel on the penis, and put the other heel on that, this is siddhāsana. </note>
+ <note type="translation" target="#hp01_037"> Some proclaim this is siddhāsana, others know it as vajrāsana, a few say it is muktāsana and some guptāsana. </note>
+ <note type="translation" target="#hp01_038"> The Siddhas know Siddhasana as the single most important amongst all postures, in the same way as measured diet amongst rules and non violence amongst observances. </note>
+ <note type="philcomm" target="#hp01_038"> <hi>iva</hi> or <hi>eva</hi>? <hi>iva</hi> does work — like <hi>siddhāsana</hi>, <hi>mitāhāra</hi> and <hi>ahiṃsā</hi> are the best, but for it to work properly <hi>mitāhāra</hi> and <hi>ahiṃsā</hi> should be accusative. V19 has acc + <hi>iva</hi>, which seems best, especially with <hi>siddhāḥ viduḥ</hi>, but this might be a correction as V19 often corrects. However, one old KDham BORI (?) ms (pha, 1695 CE) has it, as does Jyotsnā, so adopt. In pāda d V19 has <hi>siddhāsanam idaṃ viduḥ</hi>, but the reading of all other mss is preferable. Clearly based on DYŚ 33, which includes <hi>ekaṃ</hi> and <hi>mukhya</hi>. </note>
+ <note type="translation" target="#hp01_039"> Among the eighty four postures, one should regularly practise just Siddha; in the same way one should practise Suṣumnā among the 72,000 channels. </note>
+ <note type="philcomm" target="#hp01_039"> Odd to have <hi>suṣumnām</hi> as object of <hi>abhyaset</hi>. YCM has this reading though. Perhaps cd were added somewhat indiscriminately by Svātmārāma (with nominative <hi>suṣumnā</hi>) and then others tried to make sense of it. Some witnesses, including Jyotsnā, have <hi>nāḍīnāṃ malaśodhanam/e</hi> for pāda d, which is probably a patch (no other texts say siddhāsana clears the channels), but cf. Amṛtasiddhi in which the practices are said to bring about cālana of the nāḍīs (e.g. 11.6). Good example of early contamination. [<hi>nāḍiṣu</hi> is better supported <ref target="#J10ac,V19,J17">J10ac,V19,J17</ref>.] </note>
+ <note type="translation" target="#hp01_040"> By meditating upon the self, restricting the diet and regularly practising Siddhāsana for twelve years, the yogi attains the Niṣpatti stage. What’s the point of lots of exhausting postures when there is Siddhāsana? </note>
+ <note type="philcomm" target="#hp01_040"> Only possible variant is <hi>mitāhāro</hi> in V19. J8 might be correction of J10’s unmetrical reading. [<hi>sadāsiddhāsanābhyāsād</hi>? Or maybe read <hi>sadā</hi> with <hi>avāpnuyāt</hi>] V19 is found in YCM: <hi>śramadair bahubhịh pīṭhaiḥ kiṃ syāt siddhāsane sati</hi>; JM this seems best to me. Is this notion of āsanas causing <hi>śrama</hi> already current in HY texts? [It is mentioned in the verse on śavāsana] </note>
+ <note type="translation" target="#hp01_041"> When the Prāṇa breath has been carefully stopped in kevala kumbhaka, the Unmanī [state] arises automatically, without effort, in the same way that </note>
+ <note type="philcomm" target="#hp01_041"> V1 has startverse śramādau bahubhiḥ pīṭhais sadā siddhāsane sati | prāṇānile sāvadhānaṃ baddhe kevalakumbhake || 1.41 || endverse Mixing up both versions of the verse — contamination already? </note>
+ <note type="translation" target="#hp01_042"> when just Siddhāsana alone is always firmly bound, the three bandhas arise automatically, without effort. </note>
+ <note type="philcomm" target="#hp01_042"> <hi>dṛḍhe</hi> goes across stemma, although <hi>ṃ</hi> vs <hi>e</hi> is moot. </note>
+ <note type="translation" target="#hp01_043"> There is no posture like siddhāsana, no breath like the restrained breath, no mudrā like khecarī, no dissolution like nāda. </note>
+ <note type="philcomm" target="#hp01_043"> <hi>na kumbhasadṛśo nilaḥ</hi> is difficilior lectio and attested by all early witnesses except V19: (almost?) all testimonia have <hi>kumbhaḥ kevalopamaḥ</hi>; Śivasaṃhitā has <hi>kumbhasadṛśaṃ balam</hi>. </note>
+ <note type="translation" target="#hp01_044"> Now lotus pose. One should place the right foot on the left thigh, and the left on the right though, hold firmly the big toes with the hands behind the back, place the chin on the chest and gaze at the tip of the nose. This is called lotus pose, which destroys diseases for those who undertake the yamas. </note>
+ <note type="translation" target="#hp01_045"> However, in another view, Having put the upturned feet carefully on the thighs and the upturned hands in the middle of the thighs, one should fix the eyes on the tip of the nose. Having raised the root of the uvula with the tongue, one should place the chin on the chest and gradually [draw in<note place="bottom">The verb <hi>ākṛśya</hi> follows in the next verse in the <hi>Dattātreyayogaśāstra</hi>.</note>
+] the breath [...]. This is taught as lotus pose, which cures all diseases. </note>
+ <note type="philcomm" target="#hp01_045"> <hi>uttabhya</hi> vs <hi>uttambhya</hi>. The witnesses split predictably along the two main branches of the stemma. The evidence of the DYŚ is important here. <hi>vakṣasyāsthāpya</hi> is a marmasthāna <hi>pavanaṃ śanaiḥ</hi> is left hanging, perhaps, because of an eyeskip that happened early in the transmission. The following verse in the DYŚ ends with <hi>pavanaṃ śanaiḥ</hi>. startverse nāsāgre vinyased rājadantamūlaṃ ca jihvayā | uttabhya cibukaṃ vakṣasy āsthāpya pavanaṃ śanaiḥ || 36 || yathāśaktyā samākṛṣya pūrayed udaraṃ śanaiḥ | yathāśaktyaiva paścāt tu recayet pavanaṃ śanaiḥ || 37 || idaṃ padmāsanaṃ proktaṃ sarvavyādhivināśanam | endverse [JH] The background of the passage <hi>rājadantamūlaṃ ca jihvayā uttambhya</hi> in 1.46 is more complex than it may appear. Here it is a literal quotation from the DYŚ, but many other Haṭhayogic texts teach a particular position of the tongue, in which it is in one or the other way turned back in the direction of the uvula, as we read explicitly in the <hi>Vivekamārtāṇḍa</hi> (REF): <hi>kapālakuhare jihvā praviṣṭā viparītagā</hi>. Brief references to this practice can become ambiguous for various reasons, and this has possibly confused Brahmānanda. One reason is that there is a, probably older, rule for meditation postures according to which the tongue rests near the teeth. One instance would be <hi>Svacchandatantra</hi>, which teaches a meditation pose called <hi>divyaṃ karaṇam</hi> (4.365f.), in which the tongue is to rest at the tip of the teeth (<hi>dantāgre jihvām ādāya</hi>). Other Tantric texts have this or similar rules, in which the tongue is supposed to rest either on the teeth or the palate,<note place="bottom">This rule is found in <hi>Iśānaśivapaddhati</hi>: <hi>tāluke jihvāṃ saṃyojya kiñcidvivṛtavaktro dantair dantān asaṃspṛśan ṛjukāyaḥ</hi>. REF</note>
+ the earliest instance being perhaps <hi>Mrgendrāgama</hi> ?.18. Placing the tongue where it does not disturb the meditation seems quite appropriate for a ``normal’’ meditative practice. [Jason: There’s also a clear reference to the tip of the tongue being placed in the middle of the palate in 2.27 of the Yogapāda of the Mataṅgapārameśvaratantra (tālumadhyagatenaiva jihvāgreṇa mahāmune). In fact, in works that predate Haṭhayoga (i.e., 11th c.), the most common instruction is to put the tip of the tongue on the palate (tālu).] We might try to interpret the passage in this manner, however, once Haṭhayogic physiology is at the background, we must assume that the aim is to reach back to the uvula, to the source of the "nectar". For the background and for the crucial references see Mallinson’s note on <hi>Khecarīvidyā</hi> 1.65ab.<note place="bottom">p. 209.</note>
+ Confusingly Yogic terminology has used and possibly invented new names for uvula, and among these especially the term <hi>rājadanta</hi> may give rise to confusion, since, as we have seen, the tongue might also in some Yoga systems be placed at the (front) teeth. Furthermore the details in these descriptions of the <hi>khecarīmudrā</hi> are manifold. The 10th century <hi>Mokṣopāya</hi> says that the tongue rests at the ``source of the palate’’<note place="bottom"><hi>tālumūlatalālagnajihvā</hi> MU V.55.14c.</note>
+ and the commentary <hi>Saṃsārataraṇi</hi> on the parallel passage in <hi>Laghuyogavāsiṣṭha</hi> V.6.155, which reads <hi>tālumūlāntarālagnajihva </hi>, explains that this means that the tongue is to be placed in the middle of the two regions of the palate, and that this is the <hi>nabhomudrā</hi>, alias ``<hi>khecarī</hi>’’.<note place="bottom"><hi>tālumūlāntarālagnajihvamūlah. tālumūlayoh. kākudamūladeśayoh. āntare lagnam ālagnam jihvāmūlam yasyety anena nabhomudrā darśitā / yā hi khecarı̄ty ucyate.</hi></note>
+ A little later in the <hi>Mokṣopāya</hi> it is made clear that one should reach the uvula, ``placed a the root of the palate’’.<note place="bottom"><hi>tālumūlagatāṃ yatnāj jihvayākramya ghaṇṭikām</hi> (V.78.24ab)</note>
+ In view of this background we must conclude that the author of the <hi>Jyotsnā</hi> was probably not aware of the Yogic meaning of <hi>rājadanta</hi> and has tried his best to make sense of the passage, echoing the idea of the two roots of the palate (although his text is not talking about the palate), but then wisely refers to the instruction of the teacher for practical details, probably noticing that his literal interpretation is somewhat opaque (I omit the synonyms for clarity): <quote>Pressing both roots of the front teeth on the left and right with the tongue [ldots ] — this fixation of the tongue has to be understood from the mouth of the teacher. <hi>rājadantānāṃ daṃṣṭrāṇāṃ savyadakṣiṇabhāge sthitānāṃ mūle ubhe mūlasthāne jihvayā uttambhya ūrdhvaṃ stambhayitvā | guru mukhād avagantavyo ’yaṃ jihvā bandhaḥ |</hi></quote> [Jason: also, Brahmānanda’s comments on 3.22 indicate that he thought rājadanta refers to the front teeth. When commenting on rājadantasthajihvāyāṃ, he says kutaḥ ? yato dantānāṃ rājāno rājadantā rājadanteṣu tiṣṭhatīti rājadantasthāḥ, rājadantasthā cāsau jihvā ca tasyāṃ rājadantasthajihvāyāṃ bandhaḥ, taduparibhāgasya sambandhaḥ śastaḥ]. </note>
+ <note type="translation" target="#hp01_047"> It is difficult for just anyone to accomplish; it is accomplished by a wise person [here] on earth. </note>
+ <note type="philcomm" target="#hp01_047"> Durlabham is ambiguous as to whether the posture is hard to perform or hard to acquire. The latter is the usual reading. </note>
+ <note type="translation" target="#hp01_048"> Next is taught the doctrine of Matsya. [The yogi] should put the hands together in a bowl shape, very firmly assume padmāsana, firmly place the chin on the chest and meditation in the mind, [and] raising the Apāna breath over and over again, releasing the held Prāṇa, a man attains unequalled knowledge through the power of the goddess [Kuṇḍalinī]. </note>
+ <note type="philcomm" target="#hp01_048"> It is unusual to find Matsyendra referred to as simply Matsya as in the subheading here. This verse is Vivekamārtaṇḍa 36. The teachings of the VM are attributed to Gorakṣa, not Matsyendra, although in the extended recension of it known as Gorakṣaśataka etc. the second verse includes homage to Mīna, i.e. Matsyendra. The end of pāda b is uncertain. Later witnesses including Brahmānanda have <hi>dhyāyaṃś ca</hi> but none of the early ones does. So we have to take <hi>dhyānaṃ</hi> with <hi>sannidhāya</hi>. That makes tat problematic though: what does it refer to? The two participles <hi>proccālayan</hi> and <hi>muñcan</hi> imply that the two things are happening at the same time, which is surprising but perhaps possible. Or perhaps one can understand them as sequential. In the VM this verse comes in the passage on raising Kuṇḍalinī, so tat could refer to visualising K opening the mokṣadvāra. </note>
+ <note type="translation" target="#hp01_049"> While in padmāsana the yogi should fill himself up [with Prāṇa] through [all] the channels. He who takes in breath [in this way] is sure to be liberated. </note>
+ <note type="translation" target="#hp01_050"> Now the lion’s pose [The yogi] should put both ankles at the sides of the perineal seam below the scrotum. Left ankle is on right, and the right ankle on the left. Having placed both hands on the knees and spread his fingers, his mouth open, he gazes with his eyes fixed on the tip of the nose. This is the lion’s pose, which is always worshipped by yogis. It unites the three locks and is the best of all postures. </note>
+ <note type="translation" target="#hp01_053"> Now, the friendly pose. [The yogi] should put both ankles at the sides of the perineal seam below the scrotum. Having firmly and motionlessly held the sides of the feet with the hands, this is bhadrāsana, which cures all diseases and poisons. Yogis of the siddha tradition call it Gorakṣāsana. </note>
+ <note type="translation" target="#hp01_055"> When the great yogi does not become tired [while engaged] in these āsanas and bandhas, he should now practise the breath techniques of mudrā and so forth in order to purify the channels. </note>
+ <note type="philcomm" target="#hp01_055"> 55d is ra vipulā with <hi>nāḍi</hi> <hi>nāḍiśuddhiṃ</hi> is difficult to construe. Jim thinks it is a second accusative of the <hi>abhyaset</hi> and reads it as <hi>nāḍiśuddhyartha</hi>. I wonder if it is not better understood as a bahuvrīhī qualifying <hi>pavanakriyām</hi> (i.e., the yogi should practise a breath technique that is channel purifying. In other words, he does not practise just any breath technique). As a bahuvṛīhi, it may also be understood as a <hi>hetuviśeṣaṇa</hi> (i.e., why should the yogi practice a breath technique such as mudrā? Because it is channel purifying). </note>
+ <note type="translation" target="#hp01_055_1"> Success arises for one engaged in practice. How can it arise for one who has no practice? Success in yoga does not arise by merely reading scriptures. Wearing a robe does not bring about success, nor does talking [about yoga]. Practice alone is the cause of success. This is true, there is no doubt. In this tradition, it should not be given to one who wears robes and is devoted to his genitals and stomach. </note>
+ <note type="philcomm" target="#hp01_055_1"> 1.55*1–2 are omitted from V1 and V19, so may not have been included in the earliest version of the text. In fact, it is possible that both were added (perhaps initially as marginal notes) to elaborate on kriyā in 1.55d. Both verses are similar to verses from the Dattātreyayogaśāstra, and these verses (except 1.55.2ef) appear in the vulgate, but towards the end of chapter 1 (1.65–66). And then just half of DYŚ 47 is given, resulting in a near nonsensical hemistich. The syntax of 1.55.2ef is corrupt. One has to emend to <hi>deyā</hi> to make sense of it. </note>
+ <note type="translation" target="#hp01_055_3"> In me, the pure ocean of awakening, is this empty bubble we call the universe dissolved or does it arise? Where does this veil of doubt about this come from? </note>
+ <note type="philcomm" target="#hp01_055_3"> It is very difficult to find a reason why this verse should be inserted here. It is apparently a <hi>muktaka</hi> that would befit an accomplished spiritual poem more than our <hi>Haṭhapradīpikā</hi>, even here, in what appears as a sort of miscellaneous section at the end of a chapter. In this verse, the lyrical subject wonders about why the mind is still able to doubt, despite its insight into the nature of reality and the reader wonders, how the illusionist verse could be understood to fit our Yoga text, perhaps the scribe of the archetype of V19 and N17, was fond of it. The source is, as far as we can say, the <hi>Śāntiśataka</hi> of the Kashmirian poet Sillana or Silhaṇa,<note place="bottom">The mss. of his <hi>Svātmopalabdhiśataka</hi> give the name as Sillana, the mostly Bengali mss. of the Śāntiśataka read Śilhaṇa, as does Aufrecht in his CC. See Hanneder: forthcoming.</note>
+ who cannot be dated with any certainty, but predates the HP by a few centuries. The edition of this text – where hundred original verses had to be identified – places it into an appendix of doubtful stanzas,<note place="bottom">Karl Schönfeld: <hi>Das Śāntiśataka</hi>. Leipzig: Harrassowitz 1910, p.,90 (A9).</note>
+ but the editor saw no compelling reason not to regard it as original except through the fact that it is not transmitted in all manuscripts. What prevents further investigation of the matter is the lack of Kashmirian mss. for the <hi>Śāntiśataka</hi> and its compilatory character: one quarter of the material is identical with Bhartṛhari’s <hi>Vairāgyaśataka</hi>. A still superficial glance at Sillana’s <hi>Svātmopalabdhiśataka</hi> gives the impression that our verse would fit there, but not so much in the <hi>Śāntiśataka</hi>. While these are only preliminary observations the verse is probably not original in any stage of development of the HYP, but limited to V19 (and N17). </note>
+ <note type="translation" target="#hp01_055_4"> Realisation from scripture, one’s own guru or oneself and the cessation of mind; all these are methods that have been systematised and taught by the wise in this tradition. </note>
+ <note type="philcomm" target="#hp01_055_4"> last greyscale verse (<hi>śrutipratītiḥ…</hi>) is only in V19 of old mss (but some other later ones) and is quoted in Yogacintāmaṇi. The reading in the YCM (<hi>manaso nirodhaḥ</hi>) is better in a yogic context. </note>
+ <note type="translation" target="#hp01_056"> The various āsana, breath retention, bodily technique (karaṇa) called seals (mudrā), and then the fusion of the mind with the internal resonance are the sequence of practice in Haṭha. </note>
+ <note type="philcomm" target="#hp01_056"> Verse is omitted from V1, probably deliberately as it doesn’t have chapter 4, which teaches nādānusandhāna. The numbering in V1 suggests that its exemplar had this verse. Kumbhaka is almost always masculine. Marmasthāna: not clear whether to adopt <hi>citro</hi> or <hi>citraṃ</hi>, or V19’s <hi>mudrākhyaṃ karaṇaṃ tathā</hi> or the others’ <hi>mudrādikaraṇāni ca</hi>. See also 1.65, which has <hi>mudrādikaraṇāni ca</hi>, so perhaps it was through confusion with this that the same reading is found in some witnesses of 1.56. Yes, V19 reading probably best. startverse āsanaṃ kumbhakaś citraṃ mudrākhyaṃ karaṇaṃ tathā | atha nādānusandhānam abhyāsānukramo haṭhe || endverse It seems that the four aṅgas of Haṭhayoga are being referred to in the singular (hence <hi>āsanaṃ</hi>), whereas in 1.65 the plural is used (i.e., <hi>pīṭhāni</hi>). Therefore, we should adopt <hi>citraṃ [...] karaṇaṃ tathā</hi>. </note>
+ <note type="translation" target="#hp01_057"> Celibate, restricted in diet and devoted to yoga, a yogi succeeds in upwards of a year. No doubt about this should be entertained. </note>
+ <note type="translation" target="#hp01_058"> When very unctuous and sweet food that is without a quarter portion [of the stomach] is eaten for love of śiva, it is called a restricted diet (<hi>mitāhāra</hi>). </note>
+ <note type="philcomm" target="#hp01_058"> This verse probably derives from the ‘original’ GŚ (12c–13b). It is also found, but reworked to be about the <hi>mitāhārī</hi>, in Nowotny’s GŚ (extended recension of VM) at 55. </note>
+ <note type="translation" target="#hp01_059"> [Adepts] say the [following] is unwholesome: pungent, sour, bitter, salty and hot foods, horseradish, sour gruel, [sesame] oil, sesame and mustard seeds, fish and intoxicating drink. Flesh of goats and sheep, curds, diluted buttermilk, poor man’s pulse, Jujube fruit, the leftover paste of oily seeds, asafoetida, garlic and the like. </note>
+ <note type="philcomm" target="#hp01_059"> 59a <hi>kaṭvamla</hi> is better than <hi>kaṭvāmla</hi> and well attested elsewhere in lists of tastes and types of foods. On the meaning of <hi>uṣṇa</hi> (in relation to food) see Meulenbeld 1974: 254 fn. 13: ‘Cakra mentions as a variant: <hi>katvamlalavaṇakṣāra</hi> (pungent. acid, saline and caustic). Cakra remarks that the term `hot’ (<hi>uṣṇa</hi>) denotes hot on touch when it occurs the first time, and hot with regard to potency when it occurs for the second time.’ <hi>hari</hi>(<hi>ī</hi> here for metre?)<hi>taśāka</hi> in some nighaṇṭus is horseradish, which makes better sense here. startverse śigrur haritaśākaś ca śākapattraḥ supattrakaḥ | <textup>Rājanighaṇṭu 7.26</textup> śigruko haritaśākaś ca mato vai mūlapatrakaḥ | <textup>Sauśrutanighaṇṭu 75ab</textup> endverse Brahmānanda’s understanding of <hi>harītaśāka</hi> as <hi>patraśāka</hi> is probably wrong if <hi>patraśāka</hi> was intended as ‘leafy vegetables’. But perhaps <hi>patraśāka</hi> can also mean <hi>śigru</hi> (note <hi>śākapattraḥ</hi> above). Anusvāra at end of <hi>śāka</hi>? <hi>sauvīra</hi> probably means sour gruel. Brahmānanda: <hi>sauvīra</hi> = <hi>kāñjika</hi> (fermented rice water). Meulenbeld, madhavanidāna pp. 516–517 <hi>sauvīra</hi> is sour gruel made from barley and wheat. On the process see, Suśruta 1.44.35  40ab. (PV Sharma’s translation of this passage:) <quote>‘Roots of trivṛt etc., the first group (<hi>vidārigandhādi</hi>), <hi>mahat pañcamūla</hi>, <hi>mūrvā</hi> and <hi>śārṅgaṣṭā</hi>, and also of <hi>snuhī</hi>, <hi>haimavatī</hi>, <hi>triphalā</hi>, <hi>ativiṣā</hi> and <hi>vacā</hi>    these are taken and divided into two parts out of which one is decocted and the other is powdered; now, crushed barley grains are impregnated with the above decoction several times, dried and then slightly fried. Taking three parts of this and one part of the above powder are put in a jar and mixed with their (of <hi>trivṛt</hi>, etc.) cold decoction and fermented properly. This is known as <hi>sauvīraka</hi>.’</quote> But according to some nighaṇṭus, <hi>sauvīra</hi> can also mean stibnite (an ingredient in some añjana’s and medicines): startverse añjanaṃ yāmunaṃ kṛṣṇaṃ nādeyaṃ mecakaṃ tathā  srotojaṃ dṛkpradaṃ nīlaṃ sauvīraṃ ca suvīrajam // <textup>Rājanighaṇṭu 13.86</textup> endverse Note also that the Yogaprakāśikā takes <hi>sauvīra</hi> with <hi>taila</hi>, perhaps to solve the problem of <hi>taila</hi> on its own (see below for more on this): <hi>sauvīrataila</hi>    oil produced in the place Suvīra (<hi>suvīradeśodbhavatailam</hi>). Suvīra , a country the people of which, also called Suvira (V.79), Sauvira (XVI.21) and Sauvīraka (IV.23) ... S.M. Ali identifies it with the Rohri   Khairpur region of Sind (Geography of the Purānas, Delhi, 1966, p. 144). <hi>taila</hi> could refer to <hi>tilataila</hi>: Śārṅgadharasaṃhitā: <hi>anuktāvasthāyāṃ paribhāṣāvidhiḥ [...] taile ’nukte tilodbhavam</hi> 48 Dominik Wujastyk supplied this reference and may be able to comment more on taila in this list. On the translation of <hi>madya</hi>, see Mchugh (An Unholy Brew) 2021: 8. <hi>ajāvimāṃsa</hi>: note the variant <hi>ajādimāṃsa</hi>, which makes better sense to me as <hi>aja</hi> might simply indicate that the flesh of animals is meant (as opposed to humans). <hi>ājāvi</hi> is needed for the metre. <hi>kulattha</hi> is a kind of pulse, translated by Dominik Wujastyk as `poor man’s pulse’ (see Roots of Ayurveda). <hi>kola</hi>: Zizyphus Jujuba (Nadkarni 1926: pp. 919 920). Also known as <hi>badara</hi>. This is how Brahmānanda takes it (<hi>kolaṃ kolyāḥ phalaṃ badaram</hi>). According to Nadkarni, the fruit of the wild variety is very acid and astringent. It is believed to purify the blood and assist digestion. The bark is astringent and a simple remedy for diarrhoea. Root is useful as a decoction in fever and delirium. There are references to <hi>kola</hi> being pungent, though this does not seem to indicate sufficiently why <hi>kola</hi> is mentioned separately as an <hi>apathya</hi> food. <hi>piṇyāka</hi>: Sharma (Ḍalhaṇa and his commentary on drugs: 1982: 69) says, ‘The remnant paste of oily seeds after pressing out the oil content is called <hi>piṇyāka</hi>.’ <hi>hiṅgu</hi>: Asafoetida (Nadkarni 1926: pp 360–361): `If long continued even in moderate doses, it gives rise to alliaceous eructations, acrid irritation in the throat, flatulence, diarrhoea and burning in the urine.’ <hi>laśuna</hi> = garlic (Nadkarni 1926: 45). </note>
+ <note type="translation" target="#hp01_060"> One should know as unwholesome food that has been reheated and is dry. [Food that is] too salty, the leftover paste of crushed sesame seeds (tilapiṇḍa), spoiled food, [prohibited] vegetables (?), and pepper (?) are to be omitted. </note>
+ <note type="philcomm" target="#hp01_060"> We have not found any conclusive evidence for the meaning of <hi>tilapiṇḍa</hi>. Brahmānanda glosses it as <hi>piṇyāka</hi> (on which see the notes for the previous verse). Not sure how to take <hi>kadaśanaśākotkaṭaṃ</hi>. Brahmānanda understands it as a dvandva (i.e., <hi>kadaśana</hi>, <hi>śāka</hi>, <hi>utkaṭa</hi>), where <hi>śāka</hi> is prohibited vegetables and <hi>utkaṭa</hi> is pepper. The meaning of <hi>utkaṭa</hi> is not clear. The word <hi>utkaṭā</hi> can mean pepper according to some nighaṇṭus (e.g., Rājanighaṇṭu 5.16 <hi>pārvatī śailajā tāmrā lambabījā tathotkaṭā</hi>). But <hi>utkaṭa</hi> can refer to Saccharum Sara and <hi>utkaṭā</hi> also to Laurus Cassia (cinnamon). Also, <hi>utkaṭa</hi> can be an adjective that means ‘abounding in’ at the end of a compound. So could <hi>kadaśanaśākotkaṭaṃ</hi> have been intended as an adjectival tatpuruṣa along the lines of ‘[food] full of spoiled vegetables’? </note>
+ <note type="translation" target="#hp01_061"> Similarly a saying by Goraksa: One should avoid a liking for bad people, frequenting fire, women and roads, early morning bathing, fasting and the like, as well as such things as harming the body. </note>
+ <note type="philcomm" target="#hp01_061"> The vulgate has a parallel from the Amaraugha added. Also, the vulgate reads <hi>kāyakleśavidhiṃ tathā</hi>. </note>
+ <note type="translation" target="#hp01_062"> Pure food with wheat, rice, śāli rice, barley, sixty day śāli rice, milk, ghee, candied sugar, unclarified fermented butter, ground sugar and honey. Dried ginger, fruit of the snake gourd and five vegetables, mung beans and so on, and rain water are wholesome for the best of sages. </note>
+ <note type="philcomm" target="#hp01_062"> <hi>khaṇḍa</hi>    candied sugar (Meul 507, different types of sugar). <hi>navanīta</hi> (MW fresh butter), Mchugh (2021) unclarified fermented butter. <hi>sitā</hi>    ground sugar (Meul 507, different types of sugar) ``sitā is very white and looks like gravel" <hi>madhu</hi>    honey. <hi>paṭola</hi> can refer to at least two different gourds. See Meul. p. 569 for a long list of possibilities, including TRICHOSANTHES DIOICA ROXB. (`pointed gourd’), T. CUCUMERINA LINN (snake gourd). Nadkarni has two entries on <hi>paṭola</hi>: <enumerate>item snake gourd (Nadkarni p. 863) is common in Bengal and cultivated in Northern India and Punjab. The unripe fruit of this climbing plant is generally used as a culinary vegetable and is very wholesome, specially suited for the convalescent. item smooth luffa (Nadkarni p. 518) is a hairy climbing herb extensively cultivated in several parts of India. The fruit is edible. Medicinally it is described as `cool, costive, demulcent, producive of loss of appetite and excitive of wind, bile and phlegm")</enumerate> Wikipedia : smooth luffa = Luffa aegyptiaca (sponge gourd) Sharma (Syn. Kulaka. Well known (Trichosanthas dioica Roxb.) Brahmānanda glosses it as <hi>kośātakī</hi> (Meul p. 586 LUFFA ACUTANGULA ROXB), which suggests he thought it was some sort of luffa. Brahmānanda also mentions the vernacular term <hi>paravara</hi> for <hi>paṭola</hi>, which the Lonavla ed. states is a kind of cucumber. However, Paras remarked that <hi>paravara</hi> is more like a gourd (hard shell, etc.). On <hi>pañcaśāka</hi>, see GhS startverse bālaśākaṃ kālaśākaṃ tathā paṭolapatrakam | pañcaśākaṃ praśaṃsīyād vāstūkaṃ hilamocikāṃ || 5.20 || endverse HTK 4.26 startverse pañcaśākastu – kṣīraparṇī ca jīvantī matsyākṣī ca punarnavā  meghanādaś ceti budhaiḥ pañcaśākaḥ prakīrtitaḥ || iti || 26 endverse Jyotsnā startverse sarvaśākam acākṣuṣyaṃ cākṣuṣyaṃ śākapañcakam | jīvantī vāstu matsyākṣī meghanāda  punarnavāḥ || iti || endverse It is not entirely clear how we should understand <hi>divya</hi>. Brahmānanda glosses it a <hi>nirdoṣa</hi> and takes it with <hi>udaka</hi>. But could it refer more specifically to <hi>gaṅgāmbu</hi> (as suggested by Paras) or rain water? MW has <hi>divyodaka</hi> n. `divine water’ i.e. rainwater L. The term <hi>divyodaka</hi> appears in Āyurvedic works (but we’re yet to find a gloss in a commentary). E.g., Aṣṭāṅgahṛdaya 8.42–43 startverse śīlayec chāligodhūmayavaṣaṣṭikajāṅgalam | suniṣaṇṇakajīvantībālamūlakavāstukam || 42 || pathyāmalakamṛdvīkāpaṭolīmudgaśarkarāḥ | ghṛtadivyodakakṣīrakṣaudradāḍimasaindhavam || 43 || endverse SriKanta Murty translates <hi>divyodaka</hi> as ‘divyodaka (rain water or pure water)’. The Rājanighaṇṭu says rainwater: startverse divyodakaṃ kharāri syād ākāśasalilaṃ tathā / vyomodakaṃ cāntarikṣajalaṃ ceṣvabhidhāhvayam // <textup>Rajni 14.4</textup> endverse Kharāri? Maybe <hi>khavāri</hi> was intended. Vācaspatyam: <hi rend="bold">divyodaka</hi> na karma. 1 antarīkṣabhave jale divyaśabde bhāva pra vākye tadbhedādi dṛśyam. ambuśabde vivṛtiḥ . </note>
+ <note type="translation" target="#hp01_063"> The yogi should eat food that is pure (<hi>mṛṣṭa</hi>, or delicious <hi>miṣṭa</hi>), unctuous, and containing diary. It should nourish the bodily constituents, satiate the mind and be fit [for yoga]. </note>
+ <note type="philcomm" target="#hp01_063"> The variants of 1.63a all seem possible: <hi>mṛṣṭaṃ</hi>, <hi>miṣṭaṃ</hi> and <hi>iṣṭaṃ</hi>. Maybe the last is made redundant by <hi>mano ’bhilaṣitaṃ</hi>. </note>
+ <note type="translation" target="#hp01_064"> Whether young, old, very old, sick or even weak, the diligent yogi succeeds in all yogas through practice. </note>
+ <note type="philcomm" target="#hp01_064"> Note the different reading in 164d for V1: <hi>sarvaṃ yogī yatendriyaḥ</hi>. Sarvaṃ is not easy to construe, and the testimony of the DYŚ suggests that <hi>yoge sarvo ’py atandritaḥ</hi> was original. </note>
+ <note type="translation" target="#hp01_065"> The postures, various breath retentions and techniques, beginning with seals, are all to be done in the practice of Haṭha until the goal of Rājayoga [is attained]. </note>
+ <note type="philcomm" target="#hp01_065"> <hi>sarvaṇy api</hi> is better than <hi>sarvo pi</hi> ca because it refers to all the practices mentioned in the first hemistich. Reading of Brahmānanda is different for the third pāda: <hi>divyāni karaṇāni</hi>. </note>
+ 
+</body>
+</text>
+</TEI>
