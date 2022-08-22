@@ -53,10 +53,25 @@
 	    <span class="number">
 	      <xsl:value-of select="replace(@xml:id, 'hp0*(\d+)_0*(\d+)', 'HP $1.$2')"/>
 	    </span>
-	    <div class="Adhishila">
-	      <xsl:apply-templates select="//note[@type='avataranika' and @target=$correspkey]" mode="avataranika"/>
-	      <xsl:apply-templates/>
+	    <div class="versdeva">
+	      <xsl:apply-templates select="//note[@type='avataranika' and @target=$correspkey]" mode="avataranika">
+		<xsl:with-param name="transc" select="true()" tunnel="yes"/>
+	      </xsl:apply-templates>
+	      
+	      <xsl:apply-templates>
+		<xsl:with-param name="transc" select="true()" tunnel="yes"/>
+	      </xsl:apply-templates>
 	    </div>
+	    <div class="versltn">
+	      <xsl:apply-templates select="//note[@type='avataranika' and @target=$correspkey]" mode="avataranika">
+		 <xsl:with-param name="transc" select="false()" tunnel="yes"/>
+	       </xsl:apply-templates>
+	       
+	       <xsl:apply-templates>
+		 <xsl:with-param name="transc" select="false()" tunnel="yes"/>
+	       </xsl:apply-templates>
+	    </div>
+	    
 	  </xsl:element>
 	  
 	  <div class="translation">
@@ -120,8 +135,16 @@
 	    <span class="number">
 	      <xsl:value-of select="replace(@xml:id, 'hp0*(\d+)_.*', 'HP $1 Colophon')"/>
 	    </span>
-	    <div class="Adhishila">
-	      <xsl:apply-templates/>
+	    <div class="versdeva">
+	      <xsl:apply-templates>
+		<xsl:with-param name="transc" select="true()" tunnel="yes"/>
+	      </xsl:apply-templates>
+	    </div>
+	    
+	    <div class="versltn">
+	      <xsl:apply-templates>
+		<xsl:with-param name="transc" select="true()" tunnel="yes"/>
+	      </xsl:apply-templates>
 	    </div>
 	  </xsl:element>
 	</div>
@@ -159,49 +182,60 @@
   
   <!-- iast2nagari for text nodes of hp and avataranika -->
   <xsl:template match="l[not(ancestor::note)]//text()|note[@type='avataranika']//text()|div[@type='colophon']//text()">
+    <xsl:param name="transc" tunnel="yes"/>
+
     <xsl:variable name="addstring">
       <xsl:value-of select="parent::*/seg[@type='ltn-ignore']"/>
     </xsl:variable>
+    
+    <xsl:choose>
+    <xsl:when test="$transc">
       
-    <xsl:value-of select="replace(replace(
-			  translate(
-			  replace(replace(
-			  translate(
-			  replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(concat($addstring,.),
-			  '([kgṅcjñṭḍṇtdnpbmyrlvśṣsh]h?) *','$1्'),
-			  '([kgṅcjñṭḍṇtdnpbmyrlvśṣsh]h?)् *ai','$1ै'),
-			  '([kgṅcjñṭḍṇtdnpbmyrlvśṣsh]h?)् *au','$1ौ'),
-			  '([kgṅcjñṭḍṇtdnpbmyrlvśṣsh]h?)् *a','$1'),
-			  '([kgṅcjñṭḍṇtdnpbmyrlvśṣsh]h?)् *ā','$1ा'),
-			  '([kgṅcjñṭḍṇtdnpbmyrlvśṣsh]h?)् *i','$1ि'),
-			  '([kgṅcjñṭḍṇtdnpbmyrlvśṣsh]h?)् *ī','$1ी'),
-			  '([kgṅcjñṭḍṇtdnpbmyrlvśṣsh]h?)् *u','$1ु'),
-			  '([kgṅcjñṭḍṇtdnpbmyrlvśṣsh]h?)् *ū','$1ू'),
-			  '([kgṅcjñṭḍṇtdnpbmyrlvśṣsh]h?)् *ṛ','$1ृ'),
-			  '([kgṅcjñṭḍṇtdnpbmyrlvśṣsh]h?)् *ṝ','$1ॄ'),
-			  '([kgṅcjñṭḍṇtdnpbmyrlvśṣsh]h?)् *ḷ','$1ॢ'),
-			  '([kgṅcjñṭḍṇtdnpbmyrlvśṣsh]h?)् *ḹ','$1ॣ'),
-			  '([kgṅcjñṭḍṇtdnpbmyrlvśṣsh]h?)् *e','$1े'),
-			  '([kgṅcjñṭḍṇtdnpbmyrlvśṣsh]h?)् *o','$1ो'),
-			  '’', 'ऽ'),
-			  'ṃ', 'ं'),
-			  'ḥ', 'ः'),
-			  'kh','ख'),
-			  'gh','घ'),
-			  'ch','छ'),
-			  'jh','झ'),
-			  'ṭh','ठ'),
-			  'ḍh','ढ'),
-			  'th','थ'),
-			  'dh','ध'),
-			  'ph','फ'),
-			  'bh','भ'),
-			  'kgṅcjñṭḍṇtdnpbmyrlvśṣshṃḥ','कगङचजञटडणतदनपबमयरलवशषसह'),
-			  'ai','ऐ'),
-			  'au','औ'),
-			  'aāiīuūṛṝḷeo','अआइईउऊऋलृएओ'),
-			  '//',' ॥'),
-			  '/',' ।')"/>
+      <xsl:value-of select="replace(replace(
+			    translate(
+			    replace(replace(
+			    translate(
+			    replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(concat($addstring,.),
+			    '([kgṅcjñṭḍṇtdnpbmyrlvśṣsh]h?) *','$1्'),
+			    '् *ai','$1ै'),
+			    '् *au','$1ौ'),
+			    '् *a','$1'),
+			    '् *ā','$1ा'),
+			    '् *i','$1ि'),
+			    '् *ī','$1ी'),
+			    '् *u','$1ु'),
+			    '् *ū','$1ू'),
+			    '् *ṛ','$1ृ'),
+			    '् *ṝ','$1ॄ'),
+			    '् *ḷ','$1ॢ'),
+			    '् *ḹ','$1ॣ'),
+			    '् *e','$1े'),
+			    '् *o','$1ो'),
+			    '’', 'ऽ'),
+			    'ṃ', 'ं'),
+			    'ḥ', 'ः'),
+			    'kh','ख'),
+			    'gh','घ'),
+			    'ch','छ'),
+			    'jh','झ'),
+			    'ṭh','ठ'),
+			    'ḍh','ढ'),
+			    'th','थ'),
+			    'dh','ध'),
+			    'ph','फ'),
+			    'bh','भ'),
+			    'kgṅcjñṭḍṇtdnpbmyrlvśṣsh','कगङचजञटडणतदनपबमयरलवशषसह'),
+			    'ai','ऐ'),
+			    'au','औ'),
+			    'aāiīuūṛṝḷeo','अआइईउऊऋलृएओ'),
+			    '//',' ॥'),
+			    '/',' ।')"/>
+    </xsl:when>
+    <xsl:otherwise>
+      <xsl:value-of select="."/>
+    </xsl:otherwise>
+    </xsl:choose>
+    
     <xsl:apply-templates/>
   </xsl:template>
   

@@ -97,11 +97,29 @@
 % end additions
 
 \SetTEIxmlExport{autopar=false}
+
 \NewDocumentEnvironment{tlg}{O{}}{
-	\begin{ekdverse}}{
-	\end{ekdverse}
-	\vskip 0.75\baselineskip}
-\NewDocumentEnvironment{alttlg}{O{}}{}{}
+  \begin{ekdverse}}{
+  \end{ekdverse}
+  \vskip 0.75\baselineskip}
+
+% additions/changes 2022-08-22 mm:
+\NewDocumentEnvironment{alttlg}{O{}}{
+  %\stopvline
+  %\addtocounter{saved@poemline}{-1}
+  \setvnum{\hindsection.\arabic{saved@poemline}*\arabic{poemline}}
+  \selectlanguage{iast}
+  \begin{ekdverse}[type=altrecension]
+    \color{gray}
+  }{
+  \end{ekdverse}
+  \vskip 0.75\baselineskip
+  %\addtocounter{saved@poemline}{1}
+  %\startvline
+  %\setvnum{\hindsection.\arabic{poemline}}
+  %\selectlanguage{iast}
+}
+
 \NewDocumentCommand{\tl}{m}{#1}
 
 %%%%%%
@@ -109,21 +127,22 @@
 \def\startverse{\begin{ekdverse}} % übergangsweise
 \def\endverse{\end{ekdverse}\vskip 0.75\baselineskip} % übergangsweise
 
+% additions/changes 2022-08-22 mm:
 \def\startaltrecension{
-	\stopvline
-	\addtocounter{saved@poemline}{-1}
-	\setvnum{\hindsection.\arabic{saved@poemline}*\arabic{poemline}}
-	\selectlanguage{iast}
-	\begin{ekdverse}[type=altrecension]
-	\color{gray}
+  \stopvline
+  \addtocounter{saved@poemline}{-1}
+        %\setvnum{\hindsection.\arabic{saved@poemline}*\arabic{poemline}}
+	%\selectlanguage{iast}
+	%\begin{ekdverse}[type=altrecension]
+	%\color{gray}
 	}
 \def\endaltrecension{
-	\end{ekdverse}
-	\vskip 0.75\baselineskip
-	\addtocounter{saved@poemline}{1}
-	\startvline
-	\setvnum{\hindsection.\arabic{poemline}}
-	\selectlanguage{iast}
+	%\end{ekdverse}
+	%\vskip 0.75\baselineskip
+  \addtocounter{saved@poemline}{1}
+  \startvline
+  \setvnum{\hindsection.\arabic{poemline}}
+  \selectlanguage{iast}
 	}
 
 %%%%%%
