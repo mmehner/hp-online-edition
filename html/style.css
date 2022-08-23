@@ -16,13 +16,13 @@
     src: url(fonts/AdishilaBold.ttf);
 }
 
-.versdeva{
+.versdev{
     font-family: Adishila;
     font-size: 24px;
 }
 
 .versltn{
-    font-size: 20px;
+    font-size: 18px;
     display: none;
 }
 
@@ -45,7 +45,7 @@ h1 {
     color: #ecbc9c;
     font-weight: bold;
     font-size: 32px;
-    padding-bottom: 15px;
+    padding-bottom: 0px;
     padding-right: 9px;
 }
 
@@ -77,6 +77,18 @@ div {
 mark {
     color:  #b3b3b3;
     background-color: #313131;
+}
+
+.options {
+    color: #ecbc9c;
+    text-indent: 22px;
+    display: block;
+    text-align: left;
+    font-size: 14px;
+    padding-bottom: 15;
+    border-radius: 10px;
+    font-weight: bold;
+    color: ; 
 }
 
 .main {
@@ -276,6 +288,45 @@ mark {
 .fnsign:hover + div.showonhover{
     display:block;
 }
+
+.toggleon {
+    color: #313131;
+    background-color:  #ecbc9c;
+    border: 2px solid  #ecbc9c;
+    border-radius: 10px;
+    padding: 4px;
+    margin-left: 4px;
+    margin-right: 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.toggleon:hover {
+    background-color: #313131;
+    color: #ecbc9c;
+}
+
+.toggleoff {
+    background-color: #313131;
+    color:  #ecbc9c;
+    border: 2px solid  #ecbc9c;
+    border-radius: 10px;
+    padding: 4px;
+    margin-left: 4px;
+    margin-right: 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.toggleoff:hover {
+    color: #313131;
+    background-color: #ecbc9c;
+}
+
 
 @media screen and (max-width: 900px) {
     body {font-size: 14px;}

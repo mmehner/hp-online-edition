@@ -15,6 +15,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<title>Haṭhapradīpikā Online</title>
 	<link href="style.css?rnd=132" rel="stylesheet" type="text/css"/>
+	<script type="text/javascript" src="switch.js"></script>
       </head>
       <xsl:apply-templates select="TEI/text/body"/>
     </html>
@@ -34,6 +35,14 @@
     <body>
       <div id="content">
 	<h1>Haṭhapradīpikā Online</h1>
+	<div class="options">
+	  in
+	  <button class="button" id="switchdev">Nāgarī</button>
+	  <span id="altern">/</span>
+	  <button class="button" id="switchltn">Latin</button> 	script
+	</div>
+	<br/>
+	<br/>
 	<xsl:apply-templates/>
       </div>
       </body>
@@ -53,7 +62,7 @@
 	    <span class="number">
 	      <xsl:value-of select="replace(@xml:id, 'hp0*(\d+)_0*(\d+)', 'HP $1.$2')"/>
 	    </span>
-	    <div class="versdeva">
+	    <div class="versdev">
 	      <xsl:apply-templates select="//note[@type='avataranika' and @target=$correspkey]" mode="avataranika">
 		<xsl:with-param name="transc" select="true()" tunnel="yes"/>
 	      </xsl:apply-templates>
@@ -135,7 +144,7 @@
 	    <span class="number">
 	      <xsl:value-of select="replace(@xml:id, 'hp0*(\d+)_.*', 'HP $1 Colophon')"/>
 	    </span>
-	    <div class="versdeva">
+	    <div class="versdev">
 	      <xsl:apply-templates>
 		<xsl:with-param name="transc" select="true()" tunnel="yes"/>
 	      </xsl:apply-templates>
@@ -169,6 +178,7 @@
 
   <!-- skp and skm, here: deva-ignore and ltn-ignore  -->
   <xsl:template match="seg[@type='deva-ignore']"/>
+  
   <xsl:template match="seg[@type='deva-ignore']" mode="lemma">
     <xsl:value-of select="."/>
   </xsl:template>
@@ -177,7 +187,14 @@
     <xsl:value-of select="."/>
   </xsl:template>
   
-  <xsl:template match="seg[@type='ltn-ignore']"/>
+  <xsl:template match="seg[@type='ltn-ignore']">
+    <xsl:param name="transc" tunnel="yes"/>
+
+    <xsl:if test="not($transc)">
+      <xsl:value-of select="."/>
+    </xsl:if>
+  </xsl:template>
+  
   <xsl:template match="seg[@type='ltn-ignore']" mode="lemma"/>
   
   <!-- iast2nagari for text nodes of hp and avataranika -->
@@ -232,7 +249,7 @@
 			    '/',' ।')"/>
     </xsl:when>
     <xsl:otherwise>
-      <xsl:value-of select="."/>
+      <xsl:value-of select="replace(.,'\s*/(/)?',' /$1')"/>
     </xsl:otherwise>
     </xsl:choose>
     
