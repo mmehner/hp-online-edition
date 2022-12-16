@@ -2,10 +2,8 @@ Uncollated MSS per \sthana-command:
 
 #24a
  - Ba2 
- - Ba3 
  - Ba4 
  - Be1 
- - G1 
  - G2 
  - G3 
  - G4 
@@ -13,38 +11,19 @@ Uncollated MSS per \sthana-command:
  - G6 
  - G9 
  - G10 
- - G11 
  - J9 
  - K2 
  - K3 
  - M2 
  - N3 
  - N4b 
- - N14 
  - N15 
  - O1 
  - O2 
  - O3 
- - P10 
- - P11 
- - P12 
- - P13 
- - P14 
- - P15 
- - P16 
- - P17 
- - P18 
  - P19 
- - P20 
- - P21 
- - P22 
- - P23 
- - P25 
- - P26 
- - P27 
  - P28 
  - R1 
- - R4 
  - R6 
  - R7 
  - Jyot 
@@ -52,7 +31,6 @@ Uncollated MSS per \sthana-command:
  - R11 
  - R12 
  - R13 
- - T 
  - U1 
  - U2 
  - U3 
@@ -77,11 +55,9 @@ Uncollated MSS per \sthana-command:
 
 #27d
  - Ba2 
- - Ba3 
  - Ba4 
  - Be1 
  - C2 
- - G1 
  - G2 
  - G3 
  - G4 
@@ -89,38 +65,19 @@ Uncollated MSS per \sthana-command:
  - G6 
  - G9 
  - G10 
- - G11 
  - J9 
  - K2 
  - K3 
  - M2 
  - N3 
  - N4b 
- - N14 
  - N15 
  - O1 
  - O2 
  - O3 
- - P10 
- - P11 
- - P12 
- - P13 
- - P14 
- - P15 
- - P16 
- - P17 
- - P18 
  - P19 
- - P20 
- - P21 
- - P22 
- - P23 
- - P25 
- - P26 
- - P27 
  - P28 
  - R1 
- - R4 
  - R6 
  - R7 
  - Jyot 
@@ -128,7 +85,6 @@ Uncollated MSS per \sthana-command:
  - R11 
  - R12 
  - R13 
- - T 
  - U1 
  - U2 
  - U3 
@@ -153,10 +109,8 @@ Uncollated MSS per \sthana-command:
 
 #27d
  - Ba2 
- - Ba3 
  - Ba4 
  - Be1 
- - G1 
  - G2 
  - G3 
  - G4 
@@ -172,31 +126,13 @@ Uncollated MSS per \sthana-command:
  - M2 
  - N3 
  - N4b 
- - N14 
  - N15 
  - O1 
  - O2 
  - O3 
- - P10 
- - P11 
- - P12 
- - P13 
- - P14 
- - P15 
- - P16 
- - P17 
- - P18 
  - P19 
- - P20 
- - P21 
- - P22 
- - P23 
- - P25 
- - P26 
- - P27 
  - P28 
  - R1 
- - R4 
  - R6 
  - R7 
  - Jyot 
@@ -204,7 +140,6 @@ Uncollated MSS per \sthana-command:
  - R11 
  - R12 
  - R13 
- - T 
  - U1 
  - U2 
  - U3 
@@ -229,10 +164,8 @@ Uncollated MSS per \sthana-command:
 
 #1.28b
  - Ba2 
- - Ba3 
  - Ba4 
  - Be1 
- - G1 
  - G2 
  - G3 
  - G4 
@@ -240,38 +173,20 @@ Uncollated MSS per \sthana-command:
  - G6 
  - G9 
  - G10 
- - G11 
  - J9 
  - K2 
  - K3 
  - M2 
  - N3 
  - N4b 
- - N14 
  - N15 
  - O1 
  - O2 
  - O3 
- - P10 
- - P11 
- - P12 
- - P13 
- - P14 
  - P15 
- - P16 
- - P17 
- - P18 
  - P19 
- - P20 
- - P21 
- - P22 
- - P23 
- - P25 
- - P26 
- - P27 
  - P28 
  - R1 
- - R4 
  - R6 
  - R7 
  - Jyot 
@@ -279,7 +194,6 @@ Uncollated MSS per \sthana-command:
  - R11 
  - R12 
  - R13 
- - T 
  - U1 
  - U2 
  - U3 
@@ -304,12 +218,9 @@ Uncollated MSS per \sthana-command:
  - W4 
 
 #35b
- - B2 
  - Ba2 
- - Ba3 
  - Ba4 
  - Be1 
- - G1 
  - G2 
  - G3 
  - G4 
@@ -317,38 +228,18 @@ Uncollated MSS per \sthana-command:
  - G6 
  - G9 
  - G10 
- - G11 
  - J9 
  - K2 
  - K3 
  - M2 
  - N4b 
- - N6 
- - N14 
  - N15 
  - O1 
  - O2 
  - O3 
- - P10 
- - P11 
- - P12 
- - P13 
- - P14 
- - P15 
- - P16 
- - P17 
- - P18 
  - P19 
- - P20 
- - P21 
- - P22 
- - P23 
- - P25 
- - P26 
- - P27 
  - P28 
  - R1 
- - R4 
  - R6 
  - R7 
  - Jyot 
@@ -356,7 +247,6 @@ Uncollated MSS per \sthana-command:
  - R11 
  - R12 
  - R13 
- - T 
  - U1 
  - U2 
  - U3 
@@ -382,10 +272,8 @@ Uncollated MSS per \sthana-command:
 
 #38a
  - Ba2 
- - Ba3 
  - Ba4 
  - Be1 
- - G1 
  - G2 
  - G3 
  - G4 
@@ -393,38 +281,19 @@ Uncollated MSS per \sthana-command:
  - G6 
  - G9 
  - G10 
- - G11 
  - J9 
  - K2 
  - K3 
  - M2 
  - N3 
  - N4b 
- - N6 
  - N15 
  - O1 
  - O2 
  - O3 
- - P10 
- - P11 
- - P12 
- - P13 
- - P14 
- - P15 
- - P16 
- - P17 
- - P18 
  - P19 
- - P20 
- - P21 
- - P22 
- - P23 
- - P25 
- - P26 
- - P27 
  - P28 
  - R1 
- - R4 
  - R6 
  - R7 
  - Jyot 
@@ -432,7 +301,6 @@ Uncollated MSS per \sthana-command:
  - R11 
  - R12 
  - R13 
- - T 
  - U1 
  - U2 
  - U3 
@@ -458,11 +326,9 @@ Uncollated MSS per \sthana-command:
 
 #1.38b
  - Ba2 
- - Ba3 
  - Ba4 
  - Be1 
  - C1 
- - G1 
  - G2 
  - G3 
  - G4 
@@ -470,38 +336,19 @@ Uncollated MSS per \sthana-command:
  - G6 
  - G9 
  - G10 
- - G11 
  - J9 
  - K2 
  - K3 
  - M2 
  - N3 
  - N4b 
- - N6 
  - N15 
  - O1 
  - O2 
  - O3 
- - P10 
- - P11 
- - P12 
- - P13 
- - P14 
- - P15 
- - P16 
- - P17 
- - P18 
  - P19 
- - P20 
- - P21 
- - P22 
- - P23 
- - P25 
- - P26 
- - P27 
  - P28 
  - R1 
- - R4 
  - R6 
  - R7 
  - Jyot 
@@ -509,7 +356,6 @@ Uncollated MSS per \sthana-command:
  - R11 
  - R12 
  - R13 
- - T 
  - U1 
  - U2 
  - U3 
@@ -535,10 +381,8 @@ Uncollated MSS per \sthana-command:
 
 #39d
  - Ba2 
- - Ba3 
  - Ba4 
  - Be1 
- - G1 
  - G2 
  - G3 
  - G4 
@@ -546,7 +390,6 @@ Uncollated MSS per \sthana-command:
  - G6 
  - G9 
  - G10 
- - G11 
  - J9 
  - J10 
  - K2 
@@ -554,32 +397,13 @@ Uncollated MSS per \sthana-command:
  - M2 
  - N3 
  - N4b 
- - N6 
- - N11 
  - N15 
  - O1 
  - O2 
  - O3 
- - P10 
- - P11 
- - P12 
- - P13 
- - P14 
- - P15 
- - P16 
- - P17 
- - P18 
  - P19 
- - P20 
- - P21 
- - P22 
- - P23 
- - P25 
- - P26 
- - P27 
  - P28 
  - R1 
- - R4 
  - R6 
  - R7 
  - Jyot 
@@ -587,7 +411,6 @@ Uncollated MSS per \sthana-command:
  - R11 
  - R12 
  - R13 
- - T 
  - U1 
  - U2 
  - U3 
@@ -613,10 +436,8 @@ Uncollated MSS per \sthana-command:
 
 #1.40e
  - Ba2 
- - Ba3 
  - Ba4 
  - Be1 
- - G1 
  - G2 
  - G3 
  - G4 
@@ -624,39 +445,19 @@ Uncollated MSS per \sthana-command:
  - G6 
  - G9 
  - G10 
- - G11 
  - J9 
  - K2 
  - K3 
  - M2 
  - N3 
  - N4b 
- - N6 
- - N11 
  - N15 
  - O1 
  - O2 
  - O3 
- - P10 
- - P11 
- - P12 
- - P13 
- - P14 
- - P15 
- - P16 
- - P17 
- - P18 
  - P19 
- - P20 
- - P21 
- - P22 
- - P23 
- - P25 
- - P26 
- - P27 
  - P28 
  - R1 
- - R4 
  - R6 
  - R7 
  - Jyot 
@@ -664,7 +465,6 @@ Uncollated MSS per \sthana-command:
  - R11 
  - R12 
  - R13 
- - T 
  - U1 
  - U2 
  - U3 
@@ -690,10 +490,8 @@ Uncollated MSS per \sthana-command:
 
 #1.40f
  - Ba2 
- - Ba3 
  - Ba4 
  - Be1 
- - G1 
  - G2 
  - G3 
  - G4 
@@ -701,39 +499,19 @@ Uncollated MSS per \sthana-command:
  - G6 
  - G9 
  - G10 
- - G11 
  - J9 
  - K2 
  - K3 
  - M2 
  - N3 
  - N4b 
- - N6 
- - N11 
  - N15 
  - O1 
  - O2 
  - O3 
- - P10 
- - P11 
- - P12 
- - P13 
- - P14 
- - P15 
- - P16 
- - P17 
- - P18 
  - P19 
- - P20 
- - P21 
- - P22 
- - P23 
- - P25 
- - P26 
- - P27 
  - P28 
  - R1 
- - R4 
  - R6 
  - R7 
  - Jyot 
@@ -741,7 +519,6 @@ Uncollated MSS per \sthana-command:
  - R11 
  - R12 
  - R13 
- - T 
  - U1 
  - U2 
  - U3 
@@ -766,16 +543,10 @@ Uncollated MSS per \sthana-command:
  - W4 
 
 #1.46cd
- - A1 
- - B1 
- - B3 
  - Ba2 
- - Ba3 
  - Ba4 
- - Ba5 
  - Be1 
  - C7 
- - G1 
  - G2 
  - G3 
  - G4 
@@ -783,38 +554,19 @@ Uncollated MSS per \sthana-command:
  - G6 
  - G9 
  - G10 
- - G11 
  - J9 
  - K2 
  - K3 
  - M2 
  - N3 
  - N4b 
- - N6 
  - N15 
  - O1 
  - O2 
  - O3 
- - P10 
- - P11 
- - P12 
- - P13 
- - P14 
- - P15 
- - P16 
- - P17 
- - P18 
  - P19 
- - P20 
- - P21 
- - P22 
- - P23 
- - P25 
- - P26 
- - P27 
  - P28 
  - R1 
- - R4 
  - R6 
  - R7 
  - Jyot 
@@ -822,7 +574,6 @@ Uncollated MSS per \sthana-command:
  - R11 
  - R12 
  - R13 
- - T 
  - U1 
  - U2 
  - U3 
@@ -852,12 +603,9 @@ Uncollated MSS per \sthana-command:
  - W4 
 
 #1.48b
- - B1 
  - Ba2 
- - Ba3 
  - Ba4 
  - Be1 
- - G1 
  - G2 
  - G3 
  - G4 
@@ -865,37 +613,18 @@ Uncollated MSS per \sthana-command:
  - G6 
  - G9 
  - G10 
- - G11 
  - J9 
  - K2 
  - K3 
  - M2 
  - N4b 
- - N6 
  - N15 
  - O1 
  - O2 
  - O3 
- - P10 
- - P11 
- - P12 
- - P13 
- - P14 
- - P15 
- - P16 
- - P17 
- - P18 
  - P19 
- - P20 
- - P21 
- - P22 
- - P23 
- - P25 
- - P26 
- - P27 
  - P28 
  - R1 
- - R4 
  - R6 
  - R7 
  - Jyot 
@@ -903,7 +632,6 @@ Uncollated MSS per \sthana-command:
  - R11 
  - R12 
  - R13 
- - T 
  - U1 
  - U2 
  - U3 
@@ -932,13 +660,10 @@ Uncollated MSS per \sthana-command:
  - W4 
 
 #1.48c
- - B1 
  - Ba2 
- - Ba3 
  - Ba4 
  - Be1 
  - C5 
- - G1 
  - G2 
  - G3 
  - G4 
@@ -946,38 +671,19 @@ Uncollated MSS per \sthana-command:
  - G6 
  - G9 
  - G10 
- - G11 
  - J9 
  - J11 
  - K2 
  - K3 
  - M2 
  - N4b 
- - N6 
  - N15 
  - O1 
  - O2 
  - O3 
- - P10 
- - P11 
- - P12 
- - P13 
- - P14 
- - P15 
- - P16 
- - P17 
- - P18 
  - P19 
- - P20 
- - P21 
- - P22 
- - P23 
- - P25 
- - P26 
- - P27 
  - P28 
  - R1 
- - R4 
  - R6 
  - R7 
  - Jyot 
@@ -985,7 +691,6 @@ Uncollated MSS per \sthana-command:
  - R11 
  - R12 
  - R13 
- - T 
  - U1 
  - U2 
  - U3 
@@ -1014,12 +719,9 @@ Uncollated MSS per \sthana-command:
  - W4 
 
 #1.48d
- - B1 
  - Ba2 
- - Ba3 
  - Ba4 
  - Be1 
- - G1 
  - G2 
  - G3 
  - G4 
@@ -1027,37 +729,18 @@ Uncollated MSS per \sthana-command:
  - G6 
  - G9 
  - G10 
- - G11 
  - J9 
  - K2 
  - K3 
  - M2 
  - N4b 
- - N6 
  - N15 
  - O1 
  - O2 
  - O3 
- - P10 
- - P11 
- - P12 
- - P13 
- - P14 
- - P15 
- - P16 
- - P17 
- - P18 
  - P19 
- - P20 
- - P21 
- - P22 
- - P23 
- - P25 
- - P26 
- - P27 
  - P28 
  - R1 
- - R4 
  - R6 
  - R7 
  - Jyot 
@@ -1065,7 +748,6 @@ Uncollated MSS per \sthana-command:
  - R11 
  - R12 
  - R13 
- - T 
  - U1 
  - U2 
  - U3 
@@ -1094,12 +776,9 @@ Uncollated MSS per \sthana-command:
  - W4 
 
 #1.49c
- - B1 
  - Ba2 
- - Ba3 
  - Ba4 
  - Be1 
- - G1 
  - G2 
  - G3 
  - G4 
@@ -1107,37 +786,18 @@ Uncollated MSS per \sthana-command:
  - G6 
  - G9 
  - G10 
- - G11 
  - J8 
  - J9 
  - K2 
  - K3 
  - M2 
  - N4b 
- - N6 
  - N15 
  - O1 
  - O2 
  - O3 
- - P10 
- - P11 
- - P12 
- - P13 
- - P14 
- - P15 
- - P16 
- - P17 
- - P18 
  - P19 
- - P20 
- - P21 
- - P22 
- - P23 
- - P25 
- - P26 
- - P27 
  - P28 
- - R4 
  - R6 
  - R7 
  - Jyot 
@@ -1145,7 +805,6 @@ Uncollated MSS per \sthana-command:
  - R11 
  - R12 
  - R13 
- - T 
  - U1 
  - U2 
  - U3 
@@ -1174,12 +833,9 @@ Uncollated MSS per \sthana-command:
  - W4 
 
 #1.51d
- - B1 
  - Ba2 
- - Ba3 
  - Ba4 
  - Be1 
- - G1 
  - G2 
  - G3 
  - G4 
@@ -1187,40 +843,21 @@ Uncollated MSS per \sthana-command:
  - G6 
  - G9 
  - G10 
- - G11 
  - J9 
  - J12 
  - K2 
  - K3 
  - M2 
  - N4b 
- - N6 
  - N9 
  - N15 
  - O1 
  - O2 
  - O3 
  - P8 
- - P10 
- - P11 
- - P12 
- - P13 
- - P14 
- - P15 
- - P16 
- - P17 
- - P18 
  - P19 
- - P20 
- - P21 
- - P22 
- - P23 
- - P25 
- - P26 
- - P27 
  - P28 
  - R1 
- - R4 
  - R6 
  - R7 
  - Jyot 
@@ -1228,7 +865,6 @@ Uncollated MSS per \sthana-command:
  - R11 
  - R12 
  - R13 
- - T 
  - U1 
  - U2 
  - U3 
@@ -1257,12 +893,9 @@ Uncollated MSS per \sthana-command:
  - W4 
 
 #1.52d
- - B1 
  - Ba2 
- - Ba3 
  - Ba4 
  - Be1 
- - G1 
  - G2 
  - G3 
  - G4 
@@ -1270,38 +903,19 @@ Uncollated MSS per \sthana-command:
  - G6 
  - G9 
  - G10 
- - G11 
  - J9 
  - J10 
  - K2 
  - K3 
  - M2 
  - N4b 
- - N6 
  - N15 
  - O1 
  - O2 
  - O3 
- - P10 
- - P11 
- - P12 
- - P13 
- - P14 
- - P15 
- - P16 
- - P17 
- - P18 
  - P19 
- - P20 
- - P21 
- - P22 
- - P23 
- - P25 
- - P26 
- - P27 
  - P28 
  - R1 
- - R4 
  - R6 
  - R7 
  - Jyot 
@@ -1309,7 +923,6 @@ Uncollated MSS per \sthana-command:
  - R11 
  - R12 
  - R13 
- - T 
  - U1 
  - U2 
  - U3 
@@ -1338,12 +951,9 @@ Uncollated MSS per \sthana-command:
  - W4 
 
 #1.54b
- - B1 
  - Ba2 
- - Ba3 
  - Ba4 
  - Be1 
- - G1 
  - G2 
  - G3 
  - G4 
@@ -1351,36 +961,17 @@ Uncollated MSS per \sthana-command:
  - G6 
  - G9 
  - G10 
- - G11 
  - J9 
  - K2 
  - K3 
  - M2 
  - N4b 
- - N6 
  - N15 
  - O1 
  - O2 
  - O3 
- - P10 
- - P11 
- - P12 
- - P13 
- - P14 
- - P15 
- - P16 
- - P17 
- - P18 
  - P19 
- - P20 
- - P21 
- - P22 
- - P23 
- - P25 
- - P26 
- - P27 
  - P28 
- - R4 
  - R6 
  - R7 
  - Jyot 
@@ -1388,7 +979,6 @@ Uncollated MSS per \sthana-command:
  - R11 
  - R12 
  - R13 
- - T 
  - U1 
  - U2 
  - U3 
@@ -1420,10 +1010,8 @@ Uncollated MSS per \sthana-command:
 
 #1.55 additional verses
  - Ba2 
- - Ba3 
  - Ba4 
  - Be1 
- - G1 
  - G2 
  - G3 
  - G4 
@@ -1431,37 +1019,17 @@ Uncollated MSS per \sthana-command:
  - G6 
  - G9 
  - G10 
- - G11 
  - J9 
  - K2 
  - K3 
  - M2 
- - N2 
  - N4b 
- - N6 
  - N15 
  - O1 
  - O2 
  - O3 
- - P10 
- - P11 
- - P12 
- - P13 
- - P14 
- - P15 
- - P16 
- - P17 
- - P18 
  - P19 
- - P20 
- - P21 
- - P22 
- - P23 
- - P25 
- - P26 
- - P27 
  - P28 
- - R4 
  - R6 
  - R7 
  - Jyot 
@@ -1469,7 +1037,6 @@ Uncollated MSS per \sthana-command:
  - R11 
  - R12 
  - R13 
- - T 
  - U1 
  - U2 
  - U3 
@@ -1501,11 +1068,9 @@ Uncollated MSS per \sthana-command:
 
 #1.55 third additional verse
  - Ba2 
- - Ba3 
  - Ba4 
  - Bo1 
  - Be1 
- - G1 
  - G2 
  - G3 
  - G4 
@@ -1513,36 +1078,23 @@ Uncollated MSS per \sthana-command:
  - G6 
  - G9 
  - G10 
- - G11 
  - J9 
  - K2 
  - K3 
  - M2 
  - N4b 
- - N6 
+ - N8 
+ - N11 
+ - N13 
  - N15 
  - O1 
  - O2 
  - O3 
- - P10 
- - P11 
- - P12 
- - P13 
- - P14 
- - P15 
- - P16 
- - P17 
- - P18 
+ - P2 
+ - P3 
+ - P4 
  - P19 
- - P20 
- - P21 
- - P22 
- - P23 
- - P25 
- - P26 
- - P27 
  - P28 
- - R4 
  - R6 
  - R7 
  - Jyot 
@@ -1550,7 +1102,6 @@ Uncollated MSS per \sthana-command:
  - R11 
  - R12 
  - R13 
- - T 
  - U1 
  - U2 
  - U3 
@@ -1582,12 +1133,10 @@ Uncollated MSS per \sthana-command:
 
 #1.55 fourth additional verse
  - Ba2 
- - Ba3 
  - Ba4 
  - Ba5 
  - Bo1 
  - Be1 
- - G1 
  - G2 
  - G3 
  - G4 
@@ -1595,7 +1144,6 @@ Uncollated MSS per \sthana-command:
  - G6 
  - G9 
  - G10 
- - G11 
  - J9 
  - K2 
  - K3 
@@ -1603,25 +1151,12 @@ Uncollated MSS per \sthana-command:
  - M2 
  - N1 
  - N4b 
- - N6 
  - N15 
  - O1 
  - O2 
  - O3 
- - P10 
- - P11 
- - P12 
- - P13 
- - P14 
- - P15 
- - P16 
- - P17 
- - P18 
  - P19 
- - P20 
- - P21 
  - P22 
- - P23 
  - P25 
  - P26 
  - P27 
@@ -1634,7 +1169,6 @@ Uncollated MSS per \sthana-command:
  - R11 
  - R12 
  - R13 
- - T 
  - U1 
  - U2 
  - U3 
@@ -1666,10 +1200,8 @@ Uncollated MSS per \sthana-command:
 
 #1.56a
  - Ba2 
- - Ba3 
  - Ba4 
  - Be1 
- - G1 
  - G2 
  - G3 
  - G4 
@@ -1677,37 +1209,18 @@ Uncollated MSS per \sthana-command:
  - G6 
  - G9 
  - G10 
- - G11 
  - J8 
  - J9 
  - K2 
  - K3 
  - M2 
  - N4b 
- - N6 
  - N15 
  - O1 
  - O2 
  - O3 
- - P10 
- - P11 
- - P12 
- - P13 
- - P14 
- - P15 
- - P16 
- - P17 
- - P18 
  - P19 
- - P20 
- - P21 
- - P22 
- - P23 
- - P25 
- - P26 
- - P27 
  - P28 
- - R4 
  - R6 
  - R7 
  - Jyot 
@@ -1715,7 +1228,6 @@ Uncollated MSS per \sthana-command:
  - R11 
  - R12 
  - R13 
- - T 
  - U1 
  - U2 
  - U3 
@@ -1752,11 +1264,9 @@ Uncollated MSS per \sthana-command:
 
 #1.56b
  - Ba2 
- - Ba3 
  - Ba4 
  - Be1 
  - C4 
- - G1 
  - G2 
  - G3 
  - G4 
@@ -1764,37 +1274,18 @@ Uncollated MSS per \sthana-command:
  - G6 
  - G9 
  - G10 
- - G11 
  - J8 
  - J9 
  - K2 
  - K3 
  - M2 
  - N4b 
- - N6 
  - N15 
  - O1 
  - O2 
  - O3 
- - P10 
- - P11 
- - P12 
- - P13 
- - P14 
- - P15 
- - P16 
- - P17 
- - P18 
  - P19 
- - P20 
- - P21 
- - P22 
- - P23 
- - P25 
- - P26 
- - P27 
  - P28 
- - R4 
  - R6 
  - R7 
  - Jyot 
@@ -1802,7 +1293,6 @@ Uncollated MSS per \sthana-command:
  - R11 
  - R12 
  - R13 
- - T 
  - U1 
  - U2 
  - U3 
@@ -1839,10 +1329,8 @@ Uncollated MSS per \sthana-command:
 
 #1.60cd
  - Ba2 
- - Ba3 
  - Ba4 
  - Be1 
- - G1 
  - G2 
  - G3 
  - G4 
@@ -1850,34 +1338,16 @@ Uncollated MSS per \sthana-command:
  - G6 
  - G9 
  - G10 
- - G11 
  - J9 
  - K2 
  - K3 
  - M2 
  - N4b 
- - N6 
  - N15 
  - O1 
  - O2 
  - O3 
- - P10 
- - P11 
- - P12 
- - P13 
- - P14 
- - P15 
- - P16 
- - P17 
- - P18 
  - P19 
- - P20 
- - P21 
- - P22 
- - P23 
- - P25 
- - P26 
- - P27 
  - P28 
  - R6 
  - R7 
@@ -1886,7 +1356,6 @@ Uncollated MSS per \sthana-command:
  - R11 
  - R12 
  - R13 
- - T 
  - U1 
  - U2 
  - U3 
@@ -1921,10 +1390,8 @@ Uncollated MSS per \sthana-command:
 
 #1.62d
  - Ba2 
- - Ba3 
  - Ba4 
  - Be1 
- - G1 
  - G2 
  - G3 
  - G4 
@@ -1932,35 +1399,17 @@ Uncollated MSS per \sthana-command:
  - G6 
  - G9 
  - G10 
- - G11 
  - J9 
  - K2 
  - K3 
  - L1 
  - M2 
  - N4b 
- - N6 
  - N15 
  - O1 
  - O2 
  - O3 
- - P10 
- - P11 
- - P12 
- - P13 
- - P14 
- - P15 
- - P16 
- - P17 
- - P18 
  - P19 
- - P20 
- - P21 
- - P22 
- - P23 
- - P25 
- - P26 
- - P27 
  - P28 
  - R6 
  - R7 
@@ -1969,7 +1418,6 @@ Uncollated MSS per \sthana-command:
  - R11 
  - R12 
  - R13 
- - T 
  - U1 
  - U2 
  - U3 
@@ -2004,11 +1452,9 @@ Uncollated MSS per \sthana-command:
 
 #1.62d
  - Ba2 
- - Ba3 
  - Ba4 
  - Bo2 
  - Be1 
- - G1 
  - G2 
  - G3 
  - G4 
@@ -2016,34 +1462,16 @@ Uncollated MSS per \sthana-command:
  - G6 
  - G9 
  - G10 
- - G11 
  - J9 
  - K2 
  - K3 
  - M2 
  - N4b 
- - N6 
  - N15 
  - O1 
  - O2 
  - O3 
- - P10 
- - P11 
- - P12 
- - P13 
- - P14 
- - P15 
- - P16 
- - P17 
- - P18 
  - P19 
- - P20 
- - P21 
- - P22 
- - P23 
- - P25 
- - P26 
- - P27 
  - P28 
  - R6 
  - R7 
@@ -2052,7 +1480,6 @@ Uncollated MSS per \sthana-command:
  - R11 
  - R12 
  - R13 
- - T 
  - U1 
  - U2 
  - U3 
@@ -2087,10 +1514,8 @@ Uncollated MSS per \sthana-command:
 
 #1.63a
  - Ba2 
- - Ba3 
  - Ba4 
  - Be1 
- - G1 
  - G2 
  - G3 
  - G4 
@@ -2098,34 +1523,16 @@ Uncollated MSS per \sthana-command:
  - G6 
  - G9 
  - G10 
- - G11 
  - J9 
  - K2 
  - K3 
  - M2 
  - N4b 
- - N6 
  - N15 
  - O1 
  - O2 
  - O3 
- - P10 
- - P11 
- - P12 
- - P13 
- - P14 
- - P15 
- - P16 
- - P17 
- - P18 
  - P19 
- - P20 
- - P21 
- - P22 
- - P23 
- - P25 
- - P26 
- - P27 
  - P28 
  - R6 
  - R7 
@@ -2134,7 +1541,6 @@ Uncollated MSS per \sthana-command:
  - R11 
  - R12 
  - R13 
- - T 
  - U1 
  - U2 
  - U3 
@@ -2169,11 +1575,9 @@ Uncollated MSS per \sthana-command:
 
 #2.3b
  - Ba2 
- - Ba3 
  - Ba4 
  - Be1 
  - C7 
- - G1 
  - G2 
  - G3 
  - G4 
@@ -2181,7 +1585,6 @@ Uncollated MSS per \sthana-command:
  - G6 
  - G9 
  - G10 
- - G11 
  - J9 
  - K1 
  - K2 
@@ -2190,44 +1593,16 @@ Uncollated MSS per \sthana-command:
  - M1 
  - M2 
  - N4b 
- - N6 
  - N15 
  - O1 
  - O2 
  - O3 
- - P1 
- - P2 
  - P3 
  - P4 
- - P5 
- - P6 
- - P7 
- - P8 
- - P9 
- - P10 
- - P11 
- - P12 
- - P13 
- - P14 
- - P15 
- - P16 
- - P17 
- - P18 
  - P19 
- - P20 
- - P21 
- - P22 
- - P23 
- - P5 
- - P25 
- - P26 
- - P27 
  - P28 
- - R1 
  - R2 
- - R3 
  - R4 
- - R5 
  - R6 
  - R7 
  - Jyot 
@@ -2235,7 +1610,6 @@ Uncollated MSS per \sthana-command:
  - R11 
  - R12 
  - R13 
- - T 
  - U1 
  - U2 
  - U3 
@@ -2259,11 +1633,9 @@ Uncollated MSS per \sthana-command:
 
 #2.3d
  - Ba2 
- - Ba3 
  - Ba4 
  - Be1 
  - C7 
- - G1 
  - G2 
  - G3 
  - G4 
@@ -2271,7 +1643,6 @@ Uncollated MSS per \sthana-command:
  - G6 
  - G9 
  - G10 
- - G11 
  - J9 
  - K1 
  - K2 
@@ -2280,44 +1651,16 @@ Uncollated MSS per \sthana-command:
  - M1 
  - M2 
  - N4b 
- - N6 
  - N15 
  - O1 
  - O2 
  - O3 
- - P1 
- - P2 
  - P3 
  - P4 
- - P5 
- - P6 
- - P7 
- - P8 
- - P9 
- - P10 
- - P11 
- - P12 
- - P13 
- - P14 
- - P15 
- - P16 
- - P17 
- - P18 
  - P19 
- - P20 
- - P21 
- - P22 
- - P23 
- - P5 
- - P25 
- - P26 
- - P27 
  - P28 
- - R1 
  - R2 
- - R3 
  - R4 
- - R5 
  - R6 
  - R7 
  - Jyot 
@@ -2325,7 +1668,6 @@ Uncollated MSS per \sthana-command:
  - R11 
  - R12 
  - R13 
- - T 
  - U1 
  - U2 
  - U3 
@@ -2347,11 +1689,9 @@ Uncollated MSS per \sthana-command:
 
 #2.4d
  - Ba2 
- - Ba3 
  - Ba4 
  - Be1 
  - C7 
- - G1 
  - G2 
  - G3 
  - G4 
@@ -2359,7 +1699,6 @@ Uncollated MSS per \sthana-command:
  - G6 
  - G9 
  - G10 
- - G11 
  - J9 
  - K1 
  - K2 
@@ -2368,44 +1707,16 @@ Uncollated MSS per \sthana-command:
  - M1 
  - M2 
  - N4b 
- - N6 
  - N15 
  - O1 
  - O2 
  - O3 
- - P1 
- - P2 
  - P3 
  - P4 
- - P5 
- - P6 
- - P7 
- - P8 
- - P9 
- - P10 
- - P11 
- - P12 
- - P13 
- - P14 
- - P15 
- - P16 
- - P17 
- - P18 
  - P19 
- - P20 
- - P21 
- - P22 
- - P23 
- - P5 
- - P25 
- - P26 
- - P27 
  - P28 
- - R1 
  - R2 
- - R3 
  - R4 
- - R5 
  - R6 
  - R7 
  - Jyot 
@@ -2413,7 +1724,6 @@ Uncollated MSS per \sthana-command:
  - R11 
  - R12 
  - R13 
- - T 
  - U1 
  - U2 
  - U3 
@@ -2437,11 +1747,9 @@ Uncollated MSS per \sthana-command:
 
 #2.6c
  - Ba2 
- - Ba3 
  - Ba4 
  - Be1 
  - C7 
- - G1 
  - G2 
  - G3 
  - G4 
@@ -2449,7 +1757,6 @@ Uncollated MSS per \sthana-command:
  - G6 
  - G9 
  - G10 
- - G11 
  - J9 
  - K1 
  - K2 
@@ -2458,45 +1765,17 @@ Uncollated MSS per \sthana-command:
  - M1 
  - M2 
  - N4b 
- - N6 
  - N15 
- - N26 
  - O1 
  - O2 
  - O3 
- - P1 
- - P2 
  - P3 
  - P4 
- - P5 
- - P6 
- - P7 
- - P8 
- - P9 
- - P10 
- - P11 
- - P12 
- - P13 
- - P14 
- - P15 
- - P16 
- - P17 
- - P18 
  - P19 
- - P20 
- - P21 
- - P22 
- - P23 
- - P5 
- - P25 
- - P26 
- - P27 
  - P28 
- - R1 
  - R2 
  - R3 
  - R4 
- - R5 
  - R6 
  - R7 
  - Jyot 
@@ -2504,7 +1783,6 @@ Uncollated MSS per \sthana-command:
  - R11 
  - R12 
  - R13 
- - T 
  - U1 
  - U2 
  - U3 
@@ -2526,12 +1804,10 @@ Uncollated MSS per \sthana-command:
 
 #2.09 additional verses
  - Ba2 
- - Ba3 
  - Ba4 
  - Bo3 
  - Be1 
  - C7 
- - G1 
  - G2 
  - G3 
  - G4 
@@ -2539,7 +1815,6 @@ Uncollated MSS per \sthana-command:
  - G6 
  - G9 
  - G10 
- - G11 
  - J7 
  - J9 
  - K1 
@@ -2549,44 +1824,17 @@ Uncollated MSS per \sthana-command:
  - M1 
  - M2 
  - N4b 
- - N6 
  - N15 
  - O1 
  - O2 
  - O3 
- - P1 
- - P2 
  - P3 
  - P4 
- - P5 
- - P6 
- - P7 
- - P8 
- - P9 
- - P10 
- - P11 
- - P12 
- - P13 
- - P14 
- - P15 
- - P16 
- - P17 
- - P18 
  - P19 
- - P20 
- - P21 
- - P22 
- - P23 
- - P5 
- - P25 
- - P26 
- - P27 
  - P28 
- - R1 
  - R2 
  - R3 
  - R4 
- - R5 
  - R6 
  - R7 
  - Jyot 
@@ -2594,7 +1842,6 @@ Uncollated MSS per \sthana-command:
  - R11 
  - R12 
  - R13 
- - T 
  - U1 
  - U2 
  - U3 
@@ -2616,12 +1863,11 @@ Uncollated MSS per \sthana-command:
 
 #2.11 additional verses
  - Ba2 
- - Ba3 
  - Ba4 
  - Bo3 
  - Be1 
  - C7 
- - G1 
+ - C9 
  - G2 
  - G3 
  - G4 
@@ -2629,7 +1875,6 @@ Uncollated MSS per \sthana-command:
  - G6 
  - G9 
  - G10 
- - G11 
  - J9 
  - K1 
  - K2 
@@ -2638,44 +1883,17 @@ Uncollated MSS per \sthana-command:
  - M1 
  - M2 
  - N4b 
- - N6 
  - N15 
  - O1 
  - O2 
  - O3 
- - P1 
- - P2 
  - P3 
  - P4 
- - P5 
- - P6 
- - P7 
- - P8 
- - P9 
- - P10 
- - P11 
- - P12 
- - P13 
- - P14 
- - P15 
- - P16 
- - P17 
- - P18 
  - P19 
- - P20 
- - P21 
- - P22 
- - P23 
- - P5 
- - P25 
- - P26 
- - P27 
  - P28 
- - R1 
  - R2 
  - R3 
  - R4 
- - R5 
  - R6 
  - R7 
  - Jyot 
@@ -2683,7 +1901,6 @@ Uncollated MSS per \sthana-command:
  - R11 
  - R12 
  - R13 
- - T 
  - U1 
  - U2 
  - U3 
@@ -2705,11 +1922,9 @@ Uncollated MSS per \sthana-command:
 
 #2.12cd
  - Ba2 
- - Ba3 
  - Ba4 
  - Be1 
  - C7 
- - G1 
  - G2 
  - G3 
  - G4 
@@ -2717,7 +1932,6 @@ Uncollated MSS per \sthana-command:
  - G6 
  - G9 
  - G10 
- - G11 
  - J8 
  - J9 
  - K1 
@@ -2727,44 +1941,17 @@ Uncollated MSS per \sthana-command:
  - M1 
  - M2 
  - N4b 
- - N6 
  - N15 
  - O1 
  - O2 
  - O3 
- - P1 
- - P2 
  - P3 
  - P4 
- - P5 
- - P6 
- - P7 
- - P8 
- - P9 
- - P10 
- - P11 
- - P12 
- - P13 
- - P14 
- - P15 
- - P16 
- - P17 
- - P18 
  - P19 
- - P20 
- - P21 
- - P22 
- - P23 
- - P5 
- - P25 
- - P26 
- - P27 
  - P28 
- - R1 
  - R2 
  - R3 
  - R4 
- - R5 
  - R6 
  - R7 
  - Jyot 
@@ -2772,7 +1959,6 @@ Uncollated MSS per \sthana-command:
  - R11 
  - R12 
  - R13 
- - T 
  - U1 
  - U2 
  - U3 
@@ -2794,11 +1980,9 @@ Uncollated MSS per \sthana-command:
 
 #2.19c
  - Ba2 
- - Ba3 
  - Ba4 
  - Be1 
  - C7 
- - G1 
  - G2 
  - G3 
  - G4 
@@ -2806,7 +1990,6 @@ Uncollated MSS per \sthana-command:
  - G6 
  - G9 
  - G10 
- - G11 
  - J9 
  - K1 
  - K2 
@@ -2815,44 +1998,17 @@ Uncollated MSS per \sthana-command:
  - M1 
  - M2 
  - N4b 
- - N6 
  - N15 
  - O1 
  - O2 
  - O3 
- - P1 
- - P2 
  - P3 
  - P4 
- - P5 
- - P6 
- - P7 
- - P8 
- - P9 
- - P10 
- - P11 
- - P12 
- - P13 
- - P14 
- - P15 
- - P16 
- - P17 
- - P18 
  - P19 
- - P20 
- - P21 
- - P22 
- - P23 
- - P5 
- - P25 
- - P26 
- - P27 
  - P28 
- - R1 
  - R2 
  - R3 
  - R4 
- - R5 
  - R6 
  - R7 
  - Jyot 
@@ -2860,7 +2016,6 @@ Uncollated MSS per \sthana-command:
  - R11 
  - R12 
  - R13 
- - T 
  - U1 
  - U2 
  - U3 
@@ -2884,11 +2039,9 @@ Uncollated MSS per \sthana-command:
 
 #2.22a
  - Ba2 
- - Ba3 
  - Ba4 
  - Be1 
  - C7 
- - G1 
  - G2 
  - G3 
  - G4 
@@ -2896,7 +2049,6 @@ Uncollated MSS per \sthana-command:
  - G6 
  - G9 
  - G10 
- - G11 
  - J8 
  - J9 
  - K1 
@@ -2906,45 +2058,17 @@ Uncollated MSS per \sthana-command:
  - M1 
  - M2 
  - N4b 
- - N6 
  - N15 
- - N17 
  - O1 
  - O2 
  - O3 
- - P1 
- - P2 
  - P3 
  - P4 
- - P5 
- - P6 
- - P7 
- - P8 
- - P9 
- - P10 
- - P11 
- - P12 
- - P13 
- - P14 
- - P15 
- - P16 
- - P17 
- - P18 
  - P19 
- - P20 
- - P21 
- - P22 
- - P23 
- - P5 
- - P25 
- - P26 
- - P27 
  - P28 
- - R1 
  - R2 
  - R3 
  - R4 
- - R5 
  - R6 
  - R7 
  - Jyot 
@@ -2952,7 +2076,6 @@ Uncollated MSS per \sthana-command:
  - R11 
  - R12 
  - R13 
- - T 
  - U1 
  - U2 
  - U3 
@@ -2976,11 +2099,9 @@ Uncollated MSS per \sthana-command:
 
 #2.22d
  - Ba2 
- - Ba3 
  - Ba4 
  - Be1 
  - C7 
- - G1 
  - G2 
  - G3 
  - G4 
@@ -2988,7 +2109,6 @@ Uncollated MSS per \sthana-command:
  - G6 
  - G9 
  - G10 
- - G11 
  - J5 
  - J8 
  - J9 
@@ -2999,45 +2119,17 @@ Uncollated MSS per \sthana-command:
  - M1 
  - M2 
  - N4b 
- - N6 
  - N15 
- - N17 
  - O1 
  - O2 
  - O3 
- - P1 
- - P2 
  - P3 
  - P4 
- - P5 
- - P6 
- - P7 
- - P8 
- - P9 
- - P10 
- - P11 
- - P12 
- - P13 
- - P14 
- - P15 
- - P16 
- - P17 
- - P18 
  - P19 
- - P20 
- - P21 
- - P22 
- - P23 
- - P5 
- - P25 
- - P26 
- - P27 
  - P28 
- - R1 
  - R2 
  - R3 
  - R4 
- - R5 
  - R6 
  - R7 
  - Jyot 
@@ -3045,7 +2137,6 @@ Uncollated MSS per \sthana-command:
  - R11 
  - R12 
  - R13 
- - T 
  - U1 
  - U2 
  - U3 
@@ -3070,11 +2161,9 @@ Uncollated MSS per \sthana-command:
 
 #2.22c
  - Ba2 
- - Ba3 
  - Ba4 
  - Be1 
  - C7 
- - G1 
  - G2 
  - G3 
  - G4 
@@ -3082,7 +2171,6 @@ Uncollated MSS per \sthana-command:
  - G6 
  - G9 
  - G10 
- - G11 
  - J8 
  - J9 
  - K1 
@@ -3092,44 +2180,17 @@ Uncollated MSS per \sthana-command:
  - M1 
  - M2 
  - N4b 
- - N6 
  - N15 
  - O1 
  - O2 
  - O3 
- - P1 
- - P2 
  - P3 
  - P4 
- - P5 
- - P6 
- - P7 
- - P8 
- - P9 
- - P10 
- - P11 
- - P12 
- - P13 
- - P14 
- - P15 
- - P16 
- - P17 
- - P18 
  - P19 
- - P20 
- - P21 
- - P22 
- - P23 
- - P5 
- - P25 
- - P26 
- - P27 
  - P28 
- - R1 
  - R2 
  - R3 
  - R4 
- - R5 
  - R6 
  - R7 
  - Jyot 
@@ -3137,7 +2198,6 @@ Uncollated MSS per \sthana-command:
  - R11 
  - R12 
  - R13 
- - T 
  - U1 
  - U2 
  - U3 
@@ -3160,13 +2220,7 @@ Uncollated MSS per \sthana-command:
  - W3 
 
 #2.24c
- - A1 
- - B1 
- - B2 
- - B3 
- - Ba 
  - Ba2 
- - Ba3 
  - Ba4 
  - Ba5 
  - Bo1 
@@ -3182,7 +2236,6 @@ Uncollated MSS per \sthana-command:
  - C7 
  - C8 
  - C9 
- - G1 
  - G2 
  - G3 
  - G4 
@@ -3190,7 +2243,6 @@ Uncollated MSS per \sthana-command:
  - G6 
  - G9 
  - G10 
- - G11 
  - J1 
  - J2 
  - J3 
@@ -3217,62 +2269,17 @@ Uncollated MSS per \sthana-command:
  - N4a 
  - N4b 
  - N5 
- - N6 
- - N7 
- - N8 
- - N9 
- - N10 
- - N11 
- - N12 
- - N13 
- - N14 
  - N15 
- - N16 
- - N17 
- - N18 
- - N19 
- - N20 
- - N21 
- - N22 
- - N24 
- - N25 
- - N26 
  - O1 
  - O2 
  - O3 
- - P1 
- - P2 
  - P3 
  - P4 
- - P5 
- - P6 
- - P7 
- - P8 
- - P9 
- - P10 
- - P11 
- - P12 
- - P13 
- - P14 
- - P15 
- - P16 
- - P17 
- - P18 
  - P19 
- - P20 
- - P21 
- - P22 
- - P23 
- - P5 
- - P25 
- - P26 
- - P27 
  - P28 
- - R1 
  - R2 
  - R3 
  - R4 
- - R5 
  - R6 
  - R7 
  - Jyot 
@@ -3280,8 +2287,6 @@ Uncollated MSS per \sthana-command:
  - R11 
  - R12 
  - R13 
- - T 
- - Tue 
  - U1 
  - U2 
  - U3 
@@ -3329,7 +2334,6 @@ Uncollated MSS per \sthana-command:
  - Ba4 
  - Be1 
  - C7 
- - G1 
  - G2 
  - G3 
  - G4 
@@ -3337,7 +2341,6 @@ Uncollated MSS per \sthana-command:
  - G6 
  - G9 
  - G10 
- - G11 
  - J8 
  - J9 
  - J16 
@@ -3348,45 +2351,17 @@ Uncollated MSS per \sthana-command:
  - M1 
  - M2 
  - N4b 
- - N6 
  - N15 
- - N17 
  - O1 
  - O2 
  - O3 
- - P1 
- - P2 
  - P3 
  - P4 
- - P5 
- - P6 
- - P7 
- - P8 
- - P9 
- - P10 
- - P11 
- - P12 
- - P13 
- - P14 
- - P15 
- - P16 
- - P17 
- - P18 
  - P19 
- - P20 
- - P21 
- - P22 
- - P23 
- - P5 
- - P25 
- - P26 
- - P27 
  - P28 
- - R1 
  - R2 
  - R3 
  - R4 
- - R5 
  - R6 
  - R7 
  - Jyot 
@@ -3394,7 +2369,6 @@ Uncollated MSS per \sthana-command:
  - R11 
  - R12 
  - R13 
- - T 
  - U1 
  - U2 
  - U3 
@@ -3419,11 +2393,9 @@ Uncollated MSS per \sthana-command:
 
 #2.25d
  - Ba2 
- - Ba3 
  - Ba4 
  - Be1 
  - C7 
- - G1 
  - G2 
  - G3 
  - G4 
@@ -3431,7 +2403,6 @@ Uncollated MSS per \sthana-command:
  - G6 
  - G9 
  - G10 
- - G11 
  - J8 
  - J9 
  - K1 
@@ -3441,45 +2412,17 @@ Uncollated MSS per \sthana-command:
  - M1 
  - M2 
  - N4b 
- - N6 
  - N15 
- - N17 
  - O1 
  - O2 
  - O3 
- - P1 
- - P2 
  - P3 
  - P4 
- - P5 
- - P6 
- - P7 
- - P8 
- - P9 
- - P10 
- - P11 
- - P12 
- - P13 
- - P14 
- - P15 
- - P16 
- - P17 
- - P18 
  - P19 
- - P20 
- - P21 
- - P22 
- - P23 
- - P5 
- - P25 
- - P26 
- - P27 
  - P28 
- - R1 
  - R2 
  - R3 
  - R4 
- - R5 
  - R6 
  - R7 
  - Jyot 
@@ -3487,7 +2430,6 @@ Uncollated MSS per \sthana-command:
  - R11 
  - R12 
  - R13 
- - T 
  - U1 
  - U2 
  - U3 
@@ -3512,11 +2454,9 @@ Uncollated MSS per \sthana-command:
 
 #2.26a
  - Ba2 
- - Ba3 
  - Ba4 
  - Be1 
  - C7 
- - G1 
  - G2 
  - G3 
  - G4 
@@ -3524,7 +2464,6 @@ Uncollated MSS per \sthana-command:
  - G6 
  - G9 
  - G10 
- - G11 
  - J8 
  - J9 
  - K1 
@@ -3539,54 +2478,18 @@ Uncollated MSS per \sthana-command:
  - N4a 
  - N4b 
  - N5 
- - N6 
- - N7 
- - N8 
- - N9 
- - N10 
- - N11 
- - N12 
- - N13 
- - N14 
  - N15 
- - N16 
  - N17 
  - O1 
  - O2 
  - O3 
- - P1 
- - P2 
  - P3 
  - P4 
- - P5 
- - P6 
- - P7 
- - P8 
- - P9 
- - P10 
- - P11 
- - P12 
- - P13 
- - P14 
- - P15 
- - P16 
- - P17 
- - P18 
  - P19 
- - P20 
- - P21 
- - P22 
- - P23 
- - P5 
- - P25 
- - P26 
- - P27 
  - P28 
- - R1 
  - R2 
  - R3 
  - R4 
- - R5 
  - R6 
  - R7 
  - Jyot 
@@ -3594,7 +2497,6 @@ Uncollated MSS per \sthana-command:
  - R11 
  - R12 
  - R13 
- - T 
  - U1 
  - U2 
  - U3 
@@ -3619,12 +2521,10 @@ Uncollated MSS per \sthana-command:
 
 #2.26b
  - Ba2 
- - Ba3 
  - Ba4 
  - Be1 
  - C1 
  - C7 
- - G1 
  - G2 
  - G3 
  - G4 
@@ -3632,7 +2532,6 @@ Uncollated MSS per \sthana-command:
  - G6 
  - G9 
  - G10 
- - G11 
  - J9 
  - K1 
  - K2 
@@ -3646,53 +2545,17 @@ Uncollated MSS per \sthana-command:
  - N4a 
  - N4b 
  - N5 
- - N6 
- - N7 
- - N8 
- - N9 
- - N10 
- - N11 
- - N12 
- - N13 
- - N14 
  - N15 
- - N16 
  - O1 
  - O2 
  - O3 
- - P1 
- - P2 
  - P3 
  - P4 
- - P5 
- - P6 
- - P7 
- - P8 
- - P9 
- - P10 
- - P11 
- - P12 
- - P13 
- - P14 
- - P15 
- - P16 
- - P17 
- - P18 
  - P19 
- - P20 
- - P21 
- - P22 
- - P23 
- - P5 
- - P25 
- - P26 
- - P27 
  - P28 
- - R1 
  - R2 
  - R3 
  - R4 
- - R5 
  - R6 
  - R7 
  - Jyot 
@@ -3700,7 +2563,6 @@ Uncollated MSS per \sthana-command:
  - R11 
  - R12 
  - R13 
- - T 
  - U1 
  - U2 
  - U3 
@@ -3724,11 +2586,9 @@ Uncollated MSS per \sthana-command:
 
 #2.26c
  - Ba2 
- - Ba3 
  - Ba4 
  - Be1 
  - C7 
- - G1 
  - G2 
  - G3 
  - G4 
@@ -3736,7 +2596,6 @@ Uncollated MSS per \sthana-command:
  - G6 
  - G9 
  - G10 
- - G11 
  - J9 
  - K1 
  - K2 
@@ -3750,53 +2609,17 @@ Uncollated MSS per \sthana-command:
  - N4a 
  - N4b 
  - N5 
- - N6 
- - N7 
- - N8 
- - N9 
- - N10 
- - N11 
- - N12 
- - N13 
- - N14 
  - N15 
- - N16 
  - O1 
  - O2 
  - O3 
- - P1 
- - P2 
  - P3 
  - P4 
- - P5 
- - P6 
- - P7 
- - P8 
- - P9 
- - P10 
- - P11 
- - P12 
- - P13 
- - P14 
- - P15 
- - P16 
- - P17 
- - P18 
  - P19 
- - P20 
- - P21 
- - P22 
- - P23 
- - P5 
- - P25 
- - P26 
- - P27 
  - P28 
- - R1 
  - R2 
  - R3 
  - R4 
- - R5 
  - R6 
  - R7 
  - Jyot 
@@ -3804,7 +2627,6 @@ Uncollated MSS per \sthana-command:
  - R11 
  - R12 
  - R13 
- - T 
  - U1 
  - U2 
  - U3 
@@ -3829,11 +2651,9 @@ Uncollated MSS per \sthana-command:
 
 #2.26d
  - Ba2 
- - Ba3 
  - Ba4 
  - Be1 
  - C7 
- - G1 
  - G2 
  - G3 
  - G4 
@@ -3841,7 +2661,6 @@ Uncollated MSS per \sthana-command:
  - G6 
  - G9 
  - G10 
- - G11 
  - J9 
  - K1 
  - K2 
@@ -3855,53 +2674,17 @@ Uncollated MSS per \sthana-command:
  - N4a 
  - N4b 
  - N5 
- - N6 
- - N7 
- - N8 
- - N9 
- - N10 
- - N11 
- - N12 
- - N13 
- - N14 
  - N15 
- - N16 
  - O1 
  - O2 
  - O3 
- - P1 
- - P2 
  - P3 
  - P4 
- - P5 
- - P6 
- - P7 
- - P8 
- - P9 
- - P10 
- - P11 
- - P12 
- - P13 
- - P14 
- - P15 
- - P16 
- - P17 
- - P18 
  - P19 
- - P20 
- - P21 
- - P22 
- - P23 
- - P5 
- - P25 
- - P26 
- - P27 
  - P28 
- - R1 
  - R2 
  - R3 
  - R4 
- - R5 
  - R6 
  - R7 
  - Jyot 
@@ -3909,7 +2692,6 @@ Uncollated MSS per \sthana-command:
  - R11 
  - R12 
  - R13 
- - T 
  - U1 
  - U2 
  - U3 
@@ -3933,11 +2715,9 @@ Uncollated MSS per \sthana-command:
 
 #2.29c
  - Ba2 
- - Ba3 
  - Ba4 
  - Be1 
  - C7 
- - G1 
  - G2 
  - G3 
  - G4 
@@ -3945,7 +2725,6 @@ Uncollated MSS per \sthana-command:
  - G6 
  - G9 
  - G10 
- - G11 
  - J1 
  - J9 
  - K1 
@@ -3960,53 +2739,17 @@ Uncollated MSS per \sthana-command:
  - N4a 
  - N4b 
  - N5 
- - N6 
- - N7 
- - N8 
- - N9 
- - N10 
- - N11 
- - N12 
- - N13 
- - N14 
  - N15 
- - N16 
  - O1 
  - O2 
  - O3 
- - P1 
- - P2 
  - P3 
  - P4 
- - P5 
- - P6 
- - P7 
- - P8 
- - P9 
- - P10 
- - P11 
- - P12 
- - P13 
- - P14 
- - P15 
- - P16 
- - P17 
- - P18 
  - P19 
- - P20 
- - P21 
- - P22 
- - P23 
- - P5 
- - P25 
- - P26 
- - P27 
  - P28 
- - R1 
  - R2 
  - R3 
  - R4 
- - R5 
  - R6 
  - R7 
  - Jyot 
@@ -4014,7 +2757,6 @@ Uncollated MSS per \sthana-command:
  - R11 
  - R12 
  - R13 
- - T 
  - U1 
  - U2 
  - U3 
@@ -4039,11 +2781,9 @@ Uncollated MSS per \sthana-command:
 
 #2.29d
  - Ba2 
- - Ba3 
  - Ba4 
  - Be1 
  - C7 
- - G1 
  - G2 
  - G3 
  - G4 
@@ -4051,7 +2791,6 @@ Uncollated MSS per \sthana-command:
  - G6 
  - G9 
  - G10 
- - G11 
  - J9 
  - K1 
  - K2 
@@ -4065,53 +2804,17 @@ Uncollated MSS per \sthana-command:
  - N4a 
  - N4b 
  - N5 
- - N6 
- - N7 
- - N8 
- - N9 
- - N10 
- - N11 
- - N12 
- - N13 
- - N14 
  - N15 
- - N16 
  - O1 
  - O2 
  - O3 
- - P1 
- - P2 
  - P3 
  - P4 
- - P5 
- - P6 
- - P7 
- - P8 
- - P9 
- - P10 
- - P11 
- - P12 
- - P13 
- - P14 
- - P15 
- - P16 
- - P17 
- - P18 
  - P19 
- - P20 
- - P21 
- - P22 
- - P23 
- - P5 
- - P25 
- - P26 
- - P27 
  - P28 
- - R1 
  - R2 
  - R3 
  - R4 
- - R5 
  - R6 
  - R7 
  - Jyot 
@@ -4119,7 +2822,6 @@ Uncollated MSS per \sthana-command:
  - R11 
  - R12 
  - R13 
- - T 
  - U1 
  - U2 
  - U3 
@@ -4143,11 +2845,9 @@ Uncollated MSS per \sthana-command:
 
 #2.30
  - Ba2 
- - Ba3 
  - Ba4 
  - Be1 
  - C7 
- - G1 
  - G2 
  - G3 
  - G4 
@@ -4155,7 +2855,6 @@ Uncollated MSS per \sthana-command:
  - G6 
  - G9 
  - G10 
- - G11 
  - J9 
  - K1 
  - K2 
@@ -4169,53 +2868,17 @@ Uncollated MSS per \sthana-command:
  - N4a 
  - N4b 
  - N5 
- - N6 
- - N7 
- - N8 
- - N9 
- - N10 
- - N11 
- - N12 
- - N13 
- - N14 
  - N15 
- - N16 
  - O1 
  - O2 
  - O3 
- - P1 
- - P2 
  - P3 
  - P4 
- - P5 
- - P6 
- - P7 
- - P8 
- - P9 
- - P10 
- - P11 
- - P12 
- - P13 
- - P14 
- - P15 
- - P16 
- - P17 
- - P18 
  - P19 
- - P20 
- - P21 
- - P22 
- - P23 
- - P5 
- - P25 
- - P26 
- - P27 
  - P28 
- - R1 
  - R2 
  - R3 
  - R4 
- - R5 
  - R6 
  - R7 
  - Jyot 
@@ -4223,7 +2886,6 @@ Uncollated MSS per \sthana-command:
  - R11 
  - R12 
  - R13 
- - T 
  - U1 
  - U2 
  - U3 
@@ -4248,11 +2910,9 @@ Uncollated MSS per \sthana-command:
 
 #2.30c
  - Ba2 
- - Ba3 
  - Ba4 
  - Be1 
  - C7 
- - G1 
  - G2 
  - G3 
  - G4 
@@ -4260,7 +2920,6 @@ Uncollated MSS per \sthana-command:
  - G6 
  - G9 
  - G10 
- - G11 
  - J9 
  - K1 
  - K2 
@@ -4274,53 +2933,17 @@ Uncollated MSS per \sthana-command:
  - N4a 
  - N4b 
  - N5 
- - N6 
- - N7 
- - N8 
- - N9 
- - N10 
- - N11 
- - N12 
- - N13 
- - N14 
  - N15 
- - N16 
  - O1 
  - O2 
  - O3 
- - P1 
- - P2 
  - P3 
  - P4 
- - P5 
- - P6 
- - P7 
- - P8 
- - P9 
- - P10 
- - P11 
- - P12 
- - P13 
- - P14 
- - P15 
- - P16 
- - P17 
- - P18 
  - P19 
- - P20 
- - P21 
- - P22 
- - P23 
- - P5 
- - P25 
- - P26 
- - P27 
  - P28 
- - R1 
  - R2 
  - R3 
  - R4 
- - R5 
  - R6 
  - R7 
  - Jyot 
@@ -4328,7 +2951,6 @@ Uncollated MSS per \sthana-command:
  - R11 
  - R12 
  - R13 
- - T 
  - U1 
  - U2 
  - U3 
@@ -4350,823 +2972,7 @@ Uncollated MSS per \sthana-command:
  - W2 
  - W3 
 
-#2.33a
- - Ba2 
- - Ba3 
- - Ba4 
- - Be1 
- - C7 
- - G1 
- - G2 
- - G3 
- - G4 
- - G5 
- - G6 
- - G9 
- - G10 
- - G11 
- - J9 
- - K1 
- - K2 
- - K3 
- - L1 
- - M1 
- - M2 
- - N1 
- - N2 
- - N3 
- - N4a 
- - N4b 
- - N5 
- - N6 
- - N7 
- - N8 
- - N9 
- - N10 
- - N11 
- - N12 
- - N13 
- - N14 
- - N15 
- - N16 
- - O1 
- - O2 
- - O3 
- - P1 
- - P2 
- - P3 
- - P4 
- - P5 
- - P6 
- - P7 
- - P8 
- - P9 
- - P10 
- - P11 
- - P12 
- - P13 
- - P14 
- - P15 
- - P16 
- - P17 
- - P18 
- - P19 
- - P20 
- - P21 
- - P22 
- - P23 
- - P5 
- - P25 
- - P26 
- - P27 
- - P28 
- - R1 
- - R2 
- - R3 
- - R4 
- - R5 
- - R6 
- - R7 
- - Jyot 
- - R10 
- - R11 
- - R12 
- - R13 
- - T 
- - U1 
- - U2 
- - U3 
- - U4 
- - V4 
- - V8 
- - V9 
- - V11 
- - V23 
- - V24 
- - V25 
- - V26 
- - V27 
- - V29 
- - V30 
- - V31 
- - Mu1 
- - W1 
- - W2 
- - W3 
-
-#2.33b
- - Ba2 
- - Ba3 
- - Ba4 
- - Be1 
- - C7 
- - G1 
- - G2 
- - G3 
- - G4 
- - G5 
- - G6 
- - G9 
- - G10 
- - G11 
- - J9 
- - K1 
- - K2 
- - K3 
- - L1 
- - M1 
- - M2 
- - N1 
- - N2 
- - N3 
- - N4a 
- - N4b 
- - N5 
- - N6 
- - N7 
- - N8 
- - N9 
- - N10 
- - N11 
- - N12 
- - N13 
- - N14 
- - N15 
- - N16 
- - O1 
- - O2 
- - O3 
- - P1 
- - P2 
- - P3 
- - P4 
- - P5 
- - P6 
- - P7 
- - P8 
- - P9 
- - P10 
- - P11 
- - P12 
- - P13 
- - P14 
- - P15 
- - P16 
- - P17 
- - P18 
- - P19 
- - P20 
- - P21 
- - P22 
- - P23 
- - P5 
- - P25 
- - P26 
- - P27 
- - P28 
- - R1 
- - R2 
- - R3 
- - R4 
- - R5 
- - R6 
- - R7 
- - Jyot 
- - R10 
- - R11 
- - R12 
- - R13 
- - T 
- - U1 
- - U2 
- - U3 
- - U4 
- - V4 
- - V8 
- - V9 
- - V11 
- - V23 
- - V24 
- - V25 
- - V26 
- - V27 
- - V29 
- - V30 
- - V31 
- - Mu1 
- - W1 
- - W2 
- - W3 
-
-#2.34b
- - Ba2 
- - Ba3 
- - Ba4 
- - Be1 
- - C7 
- - G1 
- - G2 
- - G3 
- - G4 
- - G5 
- - G6 
- - G9 
- - G10 
- - G11 
- - J9 
- - K1 
- - K2 
- - K3 
- - L1 
- - M1 
- - M2 
- - N1 
- - N2 
- - N3 
- - N4a 
- - N4b 
- - N5 
- - N6 
- - N7 
- - N8 
- - N9 
- - N10 
- - N11 
- - N12 
- - N13 
- - N14 
- - N15 
- - N16 
- - O1 
- - O2 
- - O3 
- - P1 
- - P2 
- - P3 
- - P4 
- - P5 
- - P6 
- - P7 
- - P8 
- - P9 
- - P10 
- - P11 
- - P12 
- - P13 
- - P14 
- - P15 
- - P16 
- - P17 
- - P18 
- - P19 
- - P20 
- - P21 
- - P22 
- - P23 
- - P5 
- - P25 
- - P26 
- - P27 
- - P28 
- - R1 
- - R2 
- - R3 
- - R4 
- - R5 
- - R6 
- - R7 
- - Jyot 
- - R10 
- - R11 
- - R12 
- - R13 
- - T 
- - U1 
- - U2 
- - U3 
- - U4 
- - V4 
- - V8 
- - V9 
- - V11 
- - V23 
- - V24 
- - V25 
- - V26 
- - V27 
- - V29 
- - V30 
- - V31 
- - Mu1 
- - W1 
- - W2 
- - W3 
-
-#2.35a
- - Ba2 
- - Ba3 
- - Ba4 
- - Be1 
- - C1 
- - C4 
- - C7 
- - G1 
- - G2 
- - G3 
- - G4 
- - G5 
- - G6 
- - G9 
- - G10 
- - G11 
- - J1 
- - J9 
- - K1 
- - K2 
- - K3 
- - L1 
- - M1 
- - M2 
- - N1 
- - N2 
- - N3 
- - N4a 
- - N4b 
- - N5 
- - N6 
- - N7 
- - N8 
- - N9 
- - N10 
- - N11 
- - N12 
- - N13 
- - N14 
- - N15 
- - N16 
- - O1 
- - O2 
- - O3 
- - P1 
- - P2 
- - P3 
- - P4 
- - P5 
- - P6 
- - P7 
- - P8 
- - P9 
- - P10 
- - P11 
- - P12 
- - P13 
- - P14 
- - P15 
- - P16 
- - P17 
- - P18 
- - P19 
- - P20 
- - P21 
- - P22 
- - P23 
- - P5 
- - P25 
- - P26 
- - P27 
- - P28 
- - R1 
- - R2 
- - R3 
- - R4 
- - R5 
- - R6 
- - R7 
- - Jyot 
- - R10 
- - R11 
- - R12 
- - R13 
- - T 
- - U1 
- - U2 
- - U3 
- - U4 
- - V4 
- - V8 
- - V9 
- - V11 
- - V23 
- - V24 
- - V25 
- - V26 
- - V27 
- - V29 
- - V30 
- - V31 
- - Mu1 
- - W1 
- - W2 
- - W3 
-
-#2.35c
- - Ba2 
- - Ba3 
- - Ba4 
- - Be1 
- - C7 
- - G1 
- - G2 
- - G3 
- - G4 
- - G5 
- - G6 
- - G9 
- - G10 
- - G11 
- - J9 
- - K1 
- - K2 
- - K3 
- - L1 
- - M1 
- - M2 
- - N1 
- - N2 
- - N3 
- - N4a 
- - N4b 
- - N5 
- - N6 
- - N7 
- - N8 
- - N9 
- - N10 
- - N11 
- - N12 
- - N13 
- - N14 
- - N15 
- - N16 
- - O1 
- - O2 
- - O3 
- - P1 
- - P2 
- - P3 
- - P4 
- - P5 
- - P6 
- - P7 
- - P8 
- - P9 
- - P10 
- - P11 
- - P12 
- - P13 
- - P14 
- - P15 
- - P16 
- - P17 
- - P18 
- - P19 
- - P20 
- - P21 
- - P22 
- - P23 
- - P5 
- - P25 
- - P26 
- - P27 
- - P28 
- - R1 
- - R2 
- - R3 
- - R4 
- - R5 
- - R6 
- - R7 
- - Jyot 
- - R10 
- - R11 
- - R12 
- - R13 
- - T 
- - U1 
- - U2 
- - U3 
- - U4 
- - V4 
- - V8 
- - V9 
- - V11 
- - V23 
- - V24 
- - V25 
- - V26 
- - V27 
- - V29 
- - V30 
- - V31 
- - Mu1 
- - W1 
- - W2 
- - W3 
-
-#2.35d
- - Ba2 
- - Ba3 
- - Ba4 
- - Be1 
- - C7 
- - G1 
- - G2 
- - G3 
- - G4 
- - G5 
- - G6 
- - G9 
- - G10 
- - G11 
- - J9 
- - K1 
- - K2 
- - K3 
- - L1 
- - M1 
- - M2 
- - N1 
- - N2 
- - N3 
- - N4a 
- - N4b 
- - N5 
- - N6 
- - N7 
- - N8 
- - N9 
- - N10 
- - N11 
- - N12 
- - N13 
- - N14 
- - N15 
- - N16 
- - N25 
- - O1 
- - O2 
- - O3 
- - P1 
- - P2 
- - P3 
- - P4 
- - P5 
- - P6 
- - P7 
- - P8 
- - P9 
- - P10 
- - P11 
- - P12 
- - P13 
- - P14 
- - P15 
- - P16 
- - P17 
- - P18 
- - P19 
- - P20 
- - P21 
- - P22 
- - P23 
- - P5 
- - P25 
- - P26 
- - P27 
- - P28 
- - R1 
- - R2 
- - R3 
- - R4 
- - R5 
- - R6 
- - R7 
- - Jyot 
- - R10 
- - R11 
- - R12 
- - R13 
- - T 
- - U1 
- - U2 
- - U3 
- - U4 
- - V4 
- - V8 
- - V9 
- - V11 
- - V23 
- - V24 
- - V25 
- - V26 
- - V27 
- - V29 
- - V30 
- - V31 
- - Mu1 
- - W1 
- - W2 
- - W3 
-
-#2.38a
- - Ba2 
- - Ba3 
- - Ba4 
- - Be1 
- - C7 
- - G1 
- - G2 
- - G3 
- - G4 
- - G5 
- - G6 
- - G9 
- - G10 
- - G11 
- - J8 
- - J9 
- - K1 
- - K2 
- - K3 
- - L1 
- - M1 
- - M2 
- - N4b 
- - N6 
- - N15 
- - N17 
- - O1 
- - O2 
- - O3 
- - P1 
- - P2 
- - P3 
- - P4 
- - P5 
- - P6 
- - P7 
- - P8 
- - P9 
- - P10 
- - P11 
- - P12 
- - P13 
- - P14 
- - P15 
- - P16 
- - P17 
- - P18 
- - P19 
- - P20 
- - P21 
- - P22 
- - P23 
- - P5 
- - P25 
- - P26 
- - P27 
- - P28 
- - R1 
- - R2 
- - R3 
- - R4 
- - R5 
- - R6 
- - R7 
- - Jyot 
- - R10 
- - R11 
- - R12 
- - R13 
- - T 
- - U1 
- - U2 
- - U3 
- - U4 
- - V4 
- - V8 
- - V9 
- - V11 
- - V19 
- - V23 
- - V24 
- - V25 
- - V26 
- - V27 
- - V29 
- - V30 
- - V31 
- - Mu1 
- - W1 
- - W2 
- - W3 
- - W4 
-
-#2.38b
- - Ba2 
- - Ba3 
- - Ba4 
- - Be1 
- - C7 
- - G1 
- - G2 
- - G3 
- - G4 
- - G5 
- - G6 
- - G9 
- - G10 
- - G11 
- - J8 
- - J9 
- - K1 
- - K2 
- - K3 
- - L1 
- - M1 
- - M2 
- - N4b 
- - N6 
- - N15 
- - N17 
- - O1 
- - O2 
- - O3 
- - P1 
- - P2 
- - P3 
- - P4 
- - P5 
- - P6 
- - P7 
- - P8 
- - P9 
- - P10 
- - P11 
- - P12 
- - P13 
- - P14 
- - P15 
- - P16 
- - P17 
- - P18 
- - P19 
- - P20 
- - P21 
- - P22 
- - P23 
- - P5 
- - P25 
- - P26 
- - P27 
- - P28 
- - R1 
- - R2 
- - R3 
- - R4 
- - R5 
- - R6 
- - R7 
- - Jyot 
- - R10 
- - R11 
- - R12 
- - R13 
- - T 
- - U1 
- - U2 
- - U3 
- - U4 
- - V1 
- - V4 
- - V8 
- - V9 
- - V11 
- - V23 
- - V24 
- - V25 
- - V26 
- - V27 
- - V29 
- - V30 
- - V31 
- - Mu1 
- - W1 
- - W2 
- - W3 
- - W4 
-
-#2.39
+#2.30cd
  - A1 
  - B1 
  - B2 
@@ -5337,13 +3143,11 @@ Uncollated MSS per \sthana-command:
  - W3 
  - W4 
 
-#2.40b
+#2.33a
  - Ba2 
- - Ba3 
  - Ba4 
  - Be1 
  - C7 
- - G1 
  - G2 
  - G3 
  - G4 
@@ -5351,7 +3155,6 @@ Uncollated MSS per \sthana-command:
  - G6 
  - G9 
  - G10 
- - G11 
  - J9 
  - K1 
  - K2 
@@ -5359,45 +3162,23 @@ Uncollated MSS per \sthana-command:
  - L1 
  - M1 
  - M2 
+ - N1 
+ - N2 
+ - N3 
+ - N4a 
  - N4b 
- - N6 
+ - N5 
  - N15 
  - O1 
  - O2 
  - O3 
- - P1 
- - P2 
  - P3 
  - P4 
- - P5 
- - P6 
- - P7 
- - P8 
- - P9 
- - P10 
- - P11 
- - P12 
- - P13 
- - P14 
- - P15 
- - P16 
- - P17 
- - P18 
  - P19 
- - P20 
- - P21 
- - P22 
- - P23 
- - P5 
- - P25 
- - P26 
- - P27 
  - P28 
- - R1 
  - R2 
  - R3 
  - R4 
- - R5 
  - R6 
  - R7 
  - Jyot 
@@ -5405,375 +3186,6 @@ Uncollated MSS per \sthana-command:
  - R11 
  - R12 
  - R13 
- - T 
- - U1 
- - U2 
- - U3 
- - U4 
- - V4 
- - V9 
- - V11 
- - V23 
- - V24 
- - V25 
- - V26 
- - V27 
- - V29 
- - V30 
- - V31 
- - Mu1 
- - W1 
- - W2 
- - W3 
-
-#2.40c
- - Ba2 
- - Ba3 
- - Ba4 
- - Be1 
- - C7 
- - G1 
- - G2 
- - G3 
- - G4 
- - G5 
- - G6 
- - G9 
- - G10 
- - G11 
- - J9 
- - K1 
- - K2 
- - K3 
- - L1 
- - M1 
- - M2 
- - N4b 
- - N6 
- - N15 
- - O1 
- - O2 
- - O3 
- - P1 
- - P2 
- - P3 
- - P4 
- - P5 
- - P6 
- - P7 
- - P8 
- - P9 
- - P10 
- - P11 
- - P12 
- - P13 
- - P14 
- - P15 
- - P16 
- - P17 
- - P18 
- - P19 
- - P20 
- - P21 
- - P22 
- - P23 
- - P5 
- - P25 
- - P26 
- - P27 
- - P28 
- - R1 
- - R2 
- - R3 
- - R4 
- - R5 
- - R6 
- - R7 
- - Jyot 
- - R10 
- - R11 
- - R12 
- - R13 
- - T 
- - U1 
- - U2 
- - U3 
- - U4 
- - V4 
- - V9 
- - V11 
- - V23 
- - V24 
- - V25 
- - V26 
- - V27 
- - V29 
- - V30 
- - V31 
- - Mu1 
- - W1 
- - W2 
- - W3 
-
-#2.43a
- - Ba2 
- - Ba3 
- - Ba4 
- - Be1 
- - C7 
- - G1 
- - G2 
- - G3 
- - G4 
- - G5 
- - G6 
- - G9 
- - G10 
- - G11 
- - J8 
- - J9 
- - K1 
- - K2 
- - K3 
- - L1 
- - M1 
- - M2 
- - N4b 
- - N6 
- - N15 
- - N17 
- - O1 
- - O2 
- - O3 
- - P1 
- - P2 
- - P3 
- - P4 
- - P5 
- - P6 
- - P7 
- - P8 
- - P9 
- - P10 
- - P11 
- - P12 
- - P13 
- - P14 
- - P15 
- - P16 
- - P17 
- - P18 
- - P19 
- - P20 
- - P21 
- - P22 
- - P23 
- - P5 
- - P25 
- - P26 
- - P27 
- - P28 
- - R1 
- - R2 
- - R3 
- - R4 
- - R5 
- - R6 
- - R7 
- - Jyot 
- - R10 
- - R11 
- - R12 
- - R13 
- - T 
- - U1 
- - U2 
- - U3 
- - U4 
- - V4 
- - V9 
- - V11 
- - V19 
- - V23 
- - V24 
- - V25 
- - V26 
- - V27 
- - V29 
- - V30 
- - V31 
- - Mu1 
- - W1 
- - W2 
- - W3 
- - W4 
-
-#2.44cd
- - Ba2 
- - Ba3 
- - Ba4 
- - Be1 
- - C2 
- - C7 
- - G1 
- - G2 
- - G3 
- - G4 
- - G5 
- - G6 
- - G9 
- - G10 
- - G11 
- - J8 
- - J9 
- - K1 
- - K2 
- - K3 
- - L1 
- - M1 
- - M2 
- - N4b 
- - N6 
- - N15 
- - N17 
- - O1 
- - O2 
- - O3 
- - P1 
- - P2 
- - P3 
- - P4 
- - P5 
- - P6 
- - P7 
- - P8 
- - P9 
- - P10 
- - P11 
- - P12 
- - P13 
- - P14 
- - P15 
- - P16 
- - P17 
- - P18 
- - P19 
- - P20 
- - P21 
- - P22 
- - P23 
- - P5 
- - P25 
- - P26 
- - P27 
- - P28 
- - R1 
- - R2 
- - R3 
- - R4 
- - R5 
- - R6 
- - R7 
- - Jyot 
- - R10 
- - R11 
- - R12 
- - R13 
- - T 
- - U1 
- - U2 
- - U3 
- - U4 
- - V4 
- - V9 
- - V11 
- - V19 
- - V23 
- - V24 
- - V25 
- - V26 
- - V27 
- - V29 
- - V30 
- - V31 
- - Mu1 
- - W1 
- - W2 
- - W3 
- - W4 
-
-#2.46
- - Ba2 
- - Ba3 
- - Ba4 
- - Be1 
- - C7 
- - G1 
- - G2 
- - G3 
- - G4 
- - G5 
- - G6 
- - G9 
- - G10 
- - G11 
- - J8 
- - J9 
- - J13 
- - K1 
- - K2 
- - K3 
- - L1 
- - M1 
- - M2 
- - N4b 
- - N6 
- - N15 
- - N17 
- - O1 
- - O2 
- - O3 
- - P1 
- - P2 
- - P3 
- - P4 
- - P5 
- - P6 
- - P7 
- - P8 
- - P9 
- - P10 
- - P11 
- - P12 
- - P13 
- - P14 
- - P15 
- - P16 
- - P17 
- - P18 
- - P19 
- - P20 
- - P21 
- - P22 
- - P23 
- - P5 
- - P25 
- - P26 
- - P27 
- - P28 
- - R1 
- - R2 
- - R3 
- - R4 
- - R5 
- - R6 
- - R7 
- - Jyot 
- - R10 
- - R11 
- - R12 
- - R13 
- - T 
  - U1 
  - U2 
  - U3 
@@ -5794,15 +3206,12 @@ Uncollated MSS per \sthana-command:
  - W1 
  - W2 
  - W3 
- - W4 
 
-#2.48b
+#2.33b
  - Ba2 
- - Ba3 
  - Ba4 
  - Be1 
  - C7 
- - G1 
  - G2 
  - G3 
  - G4 
@@ -5810,7 +3219,6 @@ Uncollated MSS per \sthana-command:
  - G6 
  - G9 
  - G10 
- - G11 
  - J9 
  - K1 
  - K2 
@@ -5818,45 +3226,23 @@ Uncollated MSS per \sthana-command:
  - L1 
  - M1 
  - M2 
+ - N1 
+ - N2 
+ - N3 
+ - N4a 
  - N4b 
- - N6 
+ - N5 
  - N15 
  - O1 
  - O2 
  - O3 
- - P1 
- - P2 
  - P3 
  - P4 
- - P5 
- - P6 
- - P7 
- - P8 
- - P9 
- - P10 
- - P11 
- - P12 
- - P13 
- - P14 
- - P15 
- - P16 
- - P17 
- - P18 
  - P19 
- - P20 
- - P21 
- - P22 
- - P23 
- - P5 
- - P25 
- - P26 
- - P27 
  - P28 
- - R1 
  - R2 
  - R3 
  - R4 
- - R5 
  - R6 
  - R7 
  - Jyot 
@@ -5864,12 +3250,12 @@ Uncollated MSS per \sthana-command:
  - R11 
  - R12 
  - R13 
- - T 
  - U1 
  - U2 
  - U3 
  - U4 
  - V4 
+ - V8 
  - V9 
  - V11 
  - V23 
@@ -5885,12 +3271,391 @@ Uncollated MSS per \sthana-command:
  - W2 
  - W3 
 
-#2.49b
- - A1 
- - B1 
- - B2 
- - B3 
- - Ba 
+#2.34b
+ - Ba2 
+ - Ba4 
+ - Be1 
+ - C7 
+ - G2 
+ - G3 
+ - G4 
+ - G5 
+ - G6 
+ - G9 
+ - G10 
+ - J9 
+ - K1 
+ - K2 
+ - K3 
+ - L1 
+ - M1 
+ - M2 
+ - N1 
+ - N2 
+ - N3 
+ - N4a 
+ - N4b 
+ - N5 
+ - N15 
+ - O1 
+ - O2 
+ - O3 
+ - P3 
+ - P4 
+ - P19 
+ - P28 
+ - R2 
+ - R3 
+ - R4 
+ - R6 
+ - R7 
+ - Jyot 
+ - R10 
+ - R11 
+ - R12 
+ - R13 
+ - U1 
+ - U2 
+ - U3 
+ - U4 
+ - V4 
+ - V8 
+ - V9 
+ - V11 
+ - V23 
+ - V24 
+ - V25 
+ - V26 
+ - V27 
+ - V29 
+ - V30 
+ - V31 
+ - Mu1 
+ - W1 
+ - W2 
+ - W3 
+
+#2.35a
+ - Ba2 
+ - Ba4 
+ - Be1 
+ - C1 
+ - C4 
+ - C7 
+ - G2 
+ - G3 
+ - G4 
+ - G5 
+ - G6 
+ - G9 
+ - G10 
+ - J1 
+ - J9 
+ - K1 
+ - K2 
+ - K3 
+ - L1 
+ - M1 
+ - M2 
+ - N1 
+ - N2 
+ - N3 
+ - N4a 
+ - N4b 
+ - N5 
+ - N15 
+ - O1 
+ - O2 
+ - O3 
+ - P3 
+ - P4 
+ - P19 
+ - P26 
+ - P28 
+ - R2 
+ - R3 
+ - R4 
+ - R6 
+ - R7 
+ - Jyot 
+ - R10 
+ - R11 
+ - R12 
+ - R13 
+ - U1 
+ - U2 
+ - U3 
+ - U4 
+ - V4 
+ - V8 
+ - V9 
+ - V11 
+ - V23 
+ - V24 
+ - V25 
+ - V26 
+ - V27 
+ - V29 
+ - V30 
+ - V31 
+ - Mu1 
+ - W1 
+ - W2 
+ - W3 
+
+#2.35c
+ - Ba2 
+ - Ba4 
+ - Be1 
+ - C7 
+ - G2 
+ - G3 
+ - G4 
+ - G5 
+ - G6 
+ - G9 
+ - G10 
+ - J9 
+ - K1 
+ - K2 
+ - K3 
+ - L1 
+ - M1 
+ - M2 
+ - N1 
+ - N2 
+ - N3 
+ - N4a 
+ - N4b 
+ - N5 
+ - N15 
+ - O1 
+ - O2 
+ - O3 
+ - P3 
+ - P4 
+ - P19 
+ - P28 
+ - R2 
+ - R3 
+ - R4 
+ - R6 
+ - R7 
+ - Jyot 
+ - R10 
+ - R11 
+ - R12 
+ - R13 
+ - U1 
+ - U2 
+ - U3 
+ - U4 
+ - V4 
+ - V8 
+ - V9 
+ - V11 
+ - V23 
+ - V24 
+ - V25 
+ - V26 
+ - V27 
+ - V29 
+ - V30 
+ - V31 
+ - Mu1 
+ - W1 
+ - W2 
+ - W3 
+
+#2.35d
+ - Ba2 
+ - Ba4 
+ - Be1 
+ - C7 
+ - G2 
+ - G3 
+ - G4 
+ - G5 
+ - G6 
+ - G9 
+ - G10 
+ - J9 
+ - K1 
+ - K2 
+ - K3 
+ - L1 
+ - M1 
+ - M2 
+ - N1 
+ - N2 
+ - N3 
+ - N4a 
+ - N4b 
+ - N5 
+ - N15 
+ - O1 
+ - O2 
+ - O3 
+ - P3 
+ - P4 
+ - P19 
+ - P28 
+ - R2 
+ - R3 
+ - R4 
+ - R6 
+ - R7 
+ - Jyot 
+ - R10 
+ - R11 
+ - R12 
+ - R13 
+ - U1 
+ - U2 
+ - U3 
+ - U4 
+ - V4 
+ - V8 
+ - V9 
+ - V11 
+ - V23 
+ - V24 
+ - V25 
+ - V26 
+ - V27 
+ - V29 
+ - V30 
+ - V31 
+ - Mu1 
+ - W1 
+ - W2 
+ - W3 
+
+#2.38a
+ - Ba2 
+ - Ba4 
+ - Be1 
+ - C7 
+ - G2 
+ - G3 
+ - G4 
+ - G5 
+ - G6 
+ - G9 
+ - G10 
+ - J8 
+ - J9 
+ - K1 
+ - K2 
+ - K3 
+ - L1 
+ - M1 
+ - M2 
+ - N4b 
+ - N15 
+ - O1 
+ - O2 
+ - O3 
+ - P3 
+ - P4 
+ - P19 
+ - P28 
+ - R2 
+ - R3 
+ - R4 
+ - R6 
+ - R7 
+ - Jyot 
+ - R10 
+ - R11 
+ - R12 
+ - R13 
+ - U1 
+ - U2 
+ - U3 
+ - U4 
+ - V4 
+ - V8 
+ - V9 
+ - V11 
+ - V19 
+ - V23 
+ - V24 
+ - V25 
+ - V26 
+ - V27 
+ - V29 
+ - V30 
+ - V31 
+ - Mu1 
+ - W1 
+ - W2 
+ - W3 
+ - W4 
+
+#2.38b
+ - Ba2 
+ - Ba4 
+ - Be1 
+ - C7 
+ - G2 
+ - G3 
+ - G4 
+ - G5 
+ - G6 
+ - G9 
+ - G10 
+ - J8 
+ - J9 
+ - K1 
+ - K2 
+ - K3 
+ - L1 
+ - M1 
+ - M2 
+ - N4b 
+ - N15 
+ - O1 
+ - O2 
+ - O3 
+ - P3 
+ - P4 
+ - P19 
+ - P28 
+ - R2 
+ - R3 
+ - R4 
+ - R6 
+ - R7 
+ - Jyot 
+ - R10 
+ - R11 
+ - R12 
+ - R13 
+ - U1 
+ - U2 
+ - U3 
+ - U4 
+ - V1 
+ - V4 
+ - V8 
+ - V9 
+ - V11 
+ - V23 
+ - V24 
+ - V25 
+ - V26 
+ - V27 
+ - V29 
+ - V30 
+ - V31 
+ - Mu1 
+ - W1 
+ - W2 
+ - W3 
+ - W4 
+
+#2.39ab
  - Ba2 
  - Ba3 
  - Ba4 
@@ -5908,7 +3673,6 @@ Uncollated MSS per \sthana-command:
  - C7 
  - C8 
  - C9 
- - G1 
  - G2 
  - G3 
  - G4 
@@ -5929,6 +3693,11 @@ Uncollated MSS per \sthana-command:
  - J10 
  - J11 
  - J12 
+ - J13 
+ - J14 
+ - J15 
+ - J16 
+ - J17 
  - K1 
  - K2 
  - K3 
@@ -5978,29 +3747,12 @@ Uncollated MSS per \sthana-command:
  - P8 
  - P9 
  - P10 
- - P11 
- - P12 
- - P13 
- - P14 
- - P15 
- - P16 
- - P17 
- - P18 
  - P19 
- - P20 
- - P21 
- - P22 
- - P23 
  - P5 
- - P25 
- - P26 
- - P27 
  - P28 
- - R1 
  - R2 
  - R3 
  - R4 
- - R5 
  - R6 
  - R7 
  - Jyot 
@@ -6008,8 +3760,618 @@ Uncollated MSS per \sthana-command:
  - R11 
  - R12 
  - R13 
- - T 
  - Tue 
+ - U1 
+ - U2 
+ - U3 
+ - U4 
+ - V1 
+ - V2 
+ - V3 
+ - V4 
+ - V5 
+ - V6 
+ - V7 
+ - V8 
+ - V9 
+ - V10 
+ - V11 
+ - V12 
+ - V13 
+ - V14 
+ - V15 
+ - V16 
+ - V17 
+ - V18 
+ - V19 
+ - V20 
+ - V21 
+ - V22 
+ - V23 
+ - V24 
+ - V25 
+ - V26 
+ - V27 
+ - V28 
+ - V29 
+ - V30 
+ - V31 
+ - Mu1 
+ - W1 
+ - W2 
+ - W3 
+ - W4 
+
+#2.39cd
+ - Ba2 
+ - Ba3 
+ - Ba4 
+ - Ba5 
+ - Bo1 
+ - Bo2 
+ - Bo3 
+ - Be1 
+ - C1 
+ - C2 
+ - C3 
+ - C4 
+ - C5 
+ - C6 
+ - C7 
+ - C8 
+ - C9 
+ - G2 
+ - G3 
+ - G4 
+ - G5 
+ - G6 
+ - G9 
+ - G10 
+ - G11 
+ - J1 
+ - J2 
+ - J3 
+ - J4 
+ - J5 
+ - J6 
+ - J7 
+ - J8 
+ - J9 
+ - J10 
+ - J11 
+ - J12 
+ - J13 
+ - J14 
+ - J15 
+ - J16 
+ - J17 
+ - K1 
+ - K2 
+ - K3 
+ - Ko 
+ - L1 
+ - LD1 
+ - LD2 
+ - M1 
+ - M2 
+ - N1 
+ - N2 
+ - N3 
+ - N4a 
+ - N4b 
+ - N5 
+ - N6 
+ - N7 
+ - N8 
+ - N9 
+ - N10 
+ - N11 
+ - N12 
+ - N13 
+ - N14 
+ - N15 
+ - N16 
+ - N17 
+ - N18 
+ - N19 
+ - N20 
+ - N21 
+ - N22 
+ - N23 
+ - N24 
+ - N25 
+ - N26 
+ - O1 
+ - O2 
+ - O3 
+ - P1 
+ - P2 
+ - P3 
+ - P4 
+ - P5 
+ - P6 
+ - P7 
+ - P8 
+ - P9 
+ - P10 
+ - P19 
+ - P5 
+ - P28 
+ - R2 
+ - R3 
+ - R4 
+ - R6 
+ - R7 
+ - Jyot 
+ - R10 
+ - R11 
+ - R12 
+ - R13 
+ - Tue 
+ - U1 
+ - U2 
+ - U3 
+ - U4 
+ - V1 
+ - V2 
+ - V3 
+ - V4 
+ - V5 
+ - V6 
+ - V7 
+ - V8 
+ - V9 
+ - V10 
+ - V11 
+ - V12 
+ - V13 
+ - V14 
+ - V15 
+ - V16 
+ - V17 
+ - V18 
+ - V19 
+ - V20 
+ - V21 
+ - V22 
+ - V23 
+ - V24 
+ - V25 
+ - V26 
+ - V27 
+ - V28 
+ - V29 
+ - V30 
+ - V31 
+ - Mu1 
+ - W1 
+ - W2 
+ - W3 
+ - W4 
+
+#2.40b
+ - Ba2 
+ - Ba4 
+ - Be1 
+ - C7 
+ - G2 
+ - G3 
+ - G4 
+ - G5 
+ - G6 
+ - G9 
+ - G10 
+ - J9 
+ - K1 
+ - K2 
+ - K3 
+ - L1 
+ - M1 
+ - M2 
+ - N4b 
+ - N15 
+ - O1 
+ - O2 
+ - O3 
+ - P3 
+ - P4 
+ - P19 
+ - P28 
+ - R2 
+ - R3 
+ - R4 
+ - R6 
+ - R7 
+ - Jyot 
+ - R10 
+ - R11 
+ - R12 
+ - R13 
+ - U1 
+ - U2 
+ - U3 
+ - U4 
+ - V4 
+ - V9 
+ - V11 
+ - V23 
+ - V24 
+ - V25 
+ - V26 
+ - V27 
+ - V29 
+ - V30 
+ - V31 
+ - Mu1 
+ - W1 
+ - W2 
+ - W3 
+
+#2.40c
+ - Ba2 
+ - Ba4 
+ - Be1 
+ - C7 
+ - G2 
+ - G3 
+ - G4 
+ - G5 
+ - G6 
+ - G9 
+ - G10 
+ - J9 
+ - K1 
+ - K2 
+ - K3 
+ - L1 
+ - M1 
+ - M2 
+ - N4b 
+ - N15 
+ - O1 
+ - O2 
+ - O3 
+ - P3 
+ - P4 
+ - P19 
+ - P28 
+ - R2 
+ - R3 
+ - R4 
+ - R6 
+ - R7 
+ - Jyot 
+ - R10 
+ - R11 
+ - R12 
+ - R13 
+ - U1 
+ - U2 
+ - U3 
+ - U4 
+ - V4 
+ - V9 
+ - V11 
+ - V23 
+ - V24 
+ - V25 
+ - V26 
+ - V27 
+ - V29 
+ - V30 
+ - V31 
+ - Mu1 
+ - W1 
+ - W2 
+ - W3 
+
+#2.43a
+ - Ba2 
+ - Ba4 
+ - Be1 
+ - C7 
+ - G2 
+ - G3 
+ - G4 
+ - G5 
+ - G6 
+ - G9 
+ - G10 
+ - J8 
+ - J9 
+ - K1 
+ - K2 
+ - K3 
+ - L1 
+ - M1 
+ - M2 
+ - N4b 
+ - N15 
+ - O1 
+ - O2 
+ - O3 
+ - P3 
+ - P4 
+ - P19 
+ - P28 
+ - R2 
+ - R3 
+ - R4 
+ - R6 
+ - R7 
+ - Jyot 
+ - R10 
+ - R11 
+ - R12 
+ - R13 
+ - U1 
+ - U2 
+ - U3 
+ - U4 
+ - V4 
+ - V9 
+ - V11 
+ - V19 
+ - V23 
+ - V24 
+ - V25 
+ - V26 
+ - V27 
+ - V29 
+ - V30 
+ - V31 
+ - Mu1 
+ - W1 
+ - W2 
+ - W3 
+ - W4 
+
+#2.44cd
+ - Ba2 
+ - Ba4 
+ - Be1 
+ - C2 
+ - C7 
+ - G2 
+ - G3 
+ - G4 
+ - G5 
+ - G6 
+ - G9 
+ - G10 
+ - J8 
+ - J9 
+ - K1 
+ - K2 
+ - K3 
+ - L1 
+ - M1 
+ - M2 
+ - N4b 
+ - N15 
+ - O1 
+ - O2 
+ - O3 
+ - P3 
+ - P4 
+ - P19 
+ - P28 
+ - R2 
+ - R3 
+ - R4 
+ - R6 
+ - R7 
+ - Jyot 
+ - R10 
+ - R11 
+ - R12 
+ - R13 
+ - U1 
+ - U2 
+ - U3 
+ - U4 
+ - V4 
+ - V9 
+ - V11 
+ - V19 
+ - V23 
+ - V24 
+ - V25 
+ - V26 
+ - V27 
+ - V29 
+ - V30 
+ - V31 
+ - Mu1 
+ - W1 
+ - W2 
+ - W3 
+ - W4 
+
+#2.46
+ - Ba2 
+ - Ba4 
+ - Be1 
+ - C7 
+ - G2 
+ - G3 
+ - G4 
+ - G5 
+ - G6 
+ - G9 
+ - G10 
+ - J8 
+ - J9 
+ - J13 
+ - K1 
+ - K2 
+ - K3 
+ - L1 
+ - M1 
+ - M2 
+ - N4b 
+ - N15 
+ - O1 
+ - O2 
+ - O3 
+ - P3 
+ - P4 
+ - P19 
+ - P28 
+ - R2 
+ - R3 
+ - R4 
+ - R6 
+ - R7 
+ - Jyot 
+ - R10 
+ - R11 
+ - R12 
+ - R13 
+ - U1 
+ - U2 
+ - U3 
+ - U4 
+ - V4 
+ - V8 
+ - V9 
+ - V11 
+ - V23 
+ - V24 
+ - V25 
+ - V26 
+ - V27 
+ - V29 
+ - V30 
+ - V31 
+ - Mu1 
+ - W1 
+ - W2 
+ - W3 
+ - W4 
+
+#2.48b
+ - Ba2 
+ - Ba4 
+ - Be1 
+ - C7 
+ - G2 
+ - G3 
+ - G4 
+ - G5 
+ - G6 
+ - G9 
+ - G10 
+ - J9 
+ - K1 
+ - K2 
+ - K3 
+ - L1 
+ - M1 
+ - M2 
+ - N4b 
+ - N15 
+ - O1 
+ - O2 
+ - O3 
+ - P3 
+ - P4 
+ - P19 
+ - P28 
+ - R2 
+ - R3 
+ - R4 
+ - R6 
+ - R7 
+ - Jyot 
+ - R10 
+ - R11 
+ - R12 
+ - R13 
+ - U1 
+ - U2 
+ - U3 
+ - U4 
+ - V4 
+ - V9 
+ - V11 
+ - V23 
+ - V24 
+ - V25 
+ - V26 
+ - V27 
+ - V29 
+ - V30 
+ - V31 
+ - Mu1 
+ - W1 
+ - W2 
+ - W3 
+
+#2.49b
+ - Ba2 
+ - Ba4 
+ - Ba5 
+ - Bo1 
+ - Bo2 
+ - Bo3 
+ - Be1 
+ - C1 
+ - C2 
+ - C3 
+ - C4 
+ - C5 
+ - C6 
+ - C7 
+ - C8 
+ - C9 
+ - G2 
+ - G3 
+ - G4 
+ - G5 
+ - G6 
+ - G9 
+ - G10 
+ - J1 
+ - J2 
+ - J3 
+ - J4 
+ - J5 
+ - J6 
+ - J7 
+ - J8 
+ - J9 
+ - J10 
+ - J11 
+ - J12 
+ - K1 
+ - K2 
+ - K3 
+ - Ko 
+ - L1 
+ - LD1 
+ - LD2 
+ - M1 
+ - M2 
+ - N4b 
+ - N15 
+ - O1 
+ - O2 
+ - O3 
+ - P3 
+ - P4 
+ - P19 
+ - P28 
+ - R2 
+ - R3 
+ - R4 
+ - R6 
+ - R7 
+ - Jyot 
+ - R10 
+ - R11 
+ - R12 
+ - R13 
  - U1 
  - U2 
  - U3 
@@ -6049,1139 +4411,7 @@ Uncollated MSS per \sthana-command:
  - W3 
  - W4 
 
-#2.54a
- - Ba2 
- - Ba3 
- - Ba4 
- - Be1 
- - C7 
- - G1 
- - G2 
- - G3 
- - G4 
- - G5 
- - G6 
- - G9 
- - G10 
- - G11 
- - J9 
- - K1 
- - K2 
- - K3 
- - L1 
- - M1 
- - M2 
- - N1 
- - N2 
- - N3 
- - N4a 
- - N4b 
- - N5 
- - N6 
- - N7 
- - N8 
- - N9 
- - N10 
- - N11 
- - N12 
- - N13 
- - N14 
- - N15 
- - N16 
- - N17 
- - O1 
- - O2 
- - O3 
- - P1 
- - P2 
- - P3 
- - P4 
- - P5 
- - P6 
- - P7 
- - P8 
- - P9 
- - P10 
- - P11 
- - P12 
- - P13 
- - P14 
- - P15 
- - P16 
- - P17 
- - P18 
- - P19 
- - P20 
- - P21 
- - P22 
- - P23 
- - P5 
- - P25 
- - P26 
- - P27 
- - P28 
- - R1 
- - R2 
- - R3 
- - R4 
- - R5 
- - R6 
- - R7 
- - Jyot 
- - R10 
- - R11 
- - R12 
- - R13 
- - T 
- - U1 
- - U2 
- - U3 
- - U4 
- - V4 
- - V8 
- - V9 
- - V11 
- - V23 
- - V24 
- - V25 
- - V26 
- - V27 
- - V29 
- - V30 
- - V31 
- - Mu1 
- - W1 
- - W2 
- - W3 
- - W4 
-
-#2.55a
- - B2 
- - Ba2 
- - Ba3 
- - Ba4 
- - Be1 
- - C7 
- - G1 
- - G2 
- - G3 
- - G4 
- - G5 
- - G6 
- - G9 
- - G10 
- - G11 
- - J8 
- - J9 
- - K1 
- - K2 
- - K3 
- - L1 
- - M1 
- - M2 
- - N1 
- - N2 
- - N3 
- - N4a 
- - N4b 
- - N5 
- - N6 
- - N7 
- - N8 
- - N9 
- - N10 
- - N11 
- - N12 
- - N13 
- - N14 
- - N15 
- - N16 
- - O1 
- - O2 
- - O3 
- - P1 
- - P2 
- - P3 
- - P4 
- - P5 
- - P6 
- - P7 
- - P8 
- - P9 
- - P10 
- - P11 
- - P12 
- - P13 
- - P14 
- - P15 
- - P16 
- - P17 
- - P18 
- - P19 
- - P20 
- - P21 
- - P22 
- - P23 
- - P5 
- - P25 
- - P26 
- - P27 
- - R1 
- - R2 
- - R3 
- - R4 
- - R5 
- - R6 
- - R7 
- - Jyot 
- - R10 
- - R11 
- - R12 
- - R13 
- - T 
- - U1 
- - U2 
- - U3 
- - U4 
- - V4 
- - V7 
- - V8 
- - V9 
- - V11 
- - V23 
- - V24 
- - V25 
- - V26 
- - V27 
- - V29 
- - V30 
- - V31 
- - Mu1 
- - W1 
- - W2 
- - W3 
-
-#2.55*1[c][d]
- - Ba2 
- - Ba3 
- - Ba4 
- - Be1 
- - C7 
- - G1 
- - G2 
- - G3 
- - G4 
- - G5 
- - G6 
- - G9 
- - G10 
- - G11 
- - J8 
- - J9 
- - K1 
- - K2 
- - K3 
- - L1 
- - M1 
- - M2 
- - N1 
- - N2 
- - N3 
- - N4a 
- - N4b 
- - N5 
- - N6 
- - N7 
- - N8 
- - N9 
- - N10 
- - N11 
- - N12 
- - N13 
- - N14 
- - N15 
- - N16 
- - N18 
- - N19 
- - N20 
- - N21 
- - N22 
- - N23 
- - N24 
- - O1 
- - O2 
- - O3 
- - P1 
- - P2 
- - P3 
- - P4 
- - P5 
- - P6 
- - P7 
- - P8 
- - P9 
- - P10 
- - P11 
- - P12 
- - P13 
- - P14 
- - P15 
- - P16 
- - P17 
- - P18 
- - P19 
- - P20 
- - P21 
- - P22 
- - P23 
- - P5 
- - P25 
- - P26 
- - P27 
- - R1 
- - R2 
- - R3 
- - R4 
- - R5 
- - R6 
- - R7 
- - Jyot 
- - R10 
- - R11 
- - R12 
- - R13 
- - T 
- - Tue 
- - U1 
- - U2 
- - U3 
- - U4 
- - V1 
- - V4 
- - V7 
- - V8 
- - V9 
- - V11 
- - V19 
- - V23 
- - V24 
- - V25 
- - V26 
- - V27 
- - V29 
- - V30 
- - V31 
- - Mu1 
- - W1 
- - W2 
- - W3 
-
-#2.57a
- - Ba2 
- - Ba3 
- - Ba4 
- - Be1 
- - C1 
- - C7 
- - G1 
- - G2 
- - G3 
- - G4 
- - G5 
- - G6 
- - G9 
- - G10 
- - G11 
- - J8 
- - J9 
- - K1 
- - K2 
- - K3 
- - L1 
- - M1 
- - M2 
- - N1 
- - N2 
- - N3 
- - N4a 
- - N4b 
- - N5 
- - N6 
- - N7 
- - N8 
- - N9 
- - N10 
- - N11 
- - N12 
- - N13 
- - N14 
- - N15 
- - N16 
- - N17 
- - O1 
- - O2 
- - O3 
- - P1 
- - P2 
- - P3 
- - P4 
- - P5 
- - P6 
- - P7 
- - P8 
- - P9 
- - P10 
- - P11 
- - P12 
- - P13 
- - P14 
- - P15 
- - P16 
- - P17 
- - P18 
- - P19 
- - P20 
- - P21 
- - P22 
- - P23 
- - P5 
- - P25 
- - P26 
- - P27 
- - P28 
- - R1 
- - R2 
- - R3 
- - R4 
- - R5 
- - R6 
- - R7 
- - Jyot 
- - R10 
- - R11 
- - R12 
- - R13 
- - T 
- - U1 
- - U2 
- - U3 
- - U4 
- - V4 
- - V7 
- - V8 
- - V9 
- - V11 
- - V19 
- - V23 
- - V24 
- - V25 
- - V26 
- - V27 
- - V29 
- - V30 
- - V31 
- - Mu1 
- - W1 
- - W2 
- - W3 
- - W4 
-
-#2.58b
- - Ba2 
- - Ba3 
- - Ba4 
- - Be1 
- - C7 
- - G1 
- - G2 
- - G3 
- - G4 
- - G5 
- - G6 
- - G9 
- - G10 
- - G11 
- - J8 
- - J9 
- - K1 
- - K2 
- - K3 
- - L1 
- - M1 
- - M2 
- - N1 
- - N2 
- - N3 
- - N4a 
- - N4b 
- - N5 
- - N6 
- - N7 
- - N8 
- - N9 
- - N10 
- - N11 
- - N12 
- - N13 
- - N14 
- - N15 
- - N16 
- - N17 
- - O1 
- - O2 
- - O3 
- - P1 
- - P2 
- - P3 
- - P4 
- - P5 
- - P6 
- - P7 
- - P8 
- - P9 
- - P10 
- - P11 
- - P12 
- - P13 
- - P14 
- - P15 
- - P16 
- - P17 
- - P18 
- - P19 
- - P20 
- - P21 
- - P22 
- - P23 
- - P5 
- - P25 
- - P26 
- - P27 
- - P28 
- - R1 
- - R2 
- - R3 
- - R4 
- - R5 
- - R6 
- - R7 
- - Jyot 
- - R10 
- - R11 
- - R12 
- - R13 
- - T 
- - U1 
- - U2 
- - U3 
- - U4 
- - V1 
- - V4 
- - V8 
- - V9 
- - V11 
- - V23 
- - V24 
- - V25 
- - V26 
- - V27 
- - V29 
- - V30 
- - V31 
- - Mu1 
- - W1 
- - W2 
- - W3 
- - W4 
-
-#2.62b
- - Ba2 
- - Ba3 
- - Ba4 
- - Be1 
- - C7 
- - G1 
- - G2 
- - G3 
- - G4 
- - G5 
- - G6 
- - G9 
- - G10 
- - G11 
- - J8 
- - J9 
- - K1 
- - K2 
- - K3 
- - L1 
- - M1 
- - M2 
- - N1 
- - N2 
- - N3 
- - N4a 
- - N4b 
- - N5 
- - N6 
- - N7 
- - N8 
- - N9 
- - N10 
- - N11 
- - N12 
- - N13 
- - N14 
- - N15 
- - N16 
- - N17 
- - N18 
- - N19 
- - N20 
- - N22 
- - O1 
- - O2 
- - O3 
- - P1 
- - P2 
- - P3 
- - P4 
- - P5 
- - P6 
- - P7 
- - P8 
- - P9 
- - P10 
- - P11 
- - P12 
- - P13 
- - P14 
- - P15 
- - P16 
- - P17 
- - P18 
- - P19 
- - P20 
- - P21 
- - P22 
- - P23 
- - P5 
- - P25 
- - P26 
- - P27 
- - P28 
- - R1 
- - R2 
- - R3 
- - R4 
- - R5 
- - R6 
- - R7 
- - Jyot 
- - R10 
- - R11 
- - R12 
- - R13 
- - T 
- - U1 
- - U2 
- - U3 
- - U4 
- - V4 
- - V8 
- - V9 
- - V11 
- - V19 
- - V23 
- - V24 
- - V25 
- - V26 
- - V27 
- - V29 
- - V30 
- - V31 
- - Mu1 
- - W1 
- - W2 
- - W3 
- - W4 
-
-#2.65cd
- - Ba2 
- - Ba3 
- - Ba4 
- - Be1 
- - C7 
- - G1 
- - G2 
- - G3 
- - G4 
- - G5 
- - G6 
- - G9 
- - G10 
- - G11 
- - J8 
- - J9 
- - K1 
- - K2 
- - K3 
- - L1 
- - M1 
- - M2 
- - N1 
- - N2 
- - N3 
- - N4a 
- - N4b 
- - N5 
- - N6 
- - N7 
- - N8 
- - N9 
- - N10 
- - N11 
- - N12 
- - N13 
- - N14 
- - N15 
- - N16 
- - N17 
- - N18 
- - N19 
- - N20 
- - N21 
- - N22 
- - O1 
- - O2 
- - O3 
- - P1 
- - P2 
- - P3 
- - P4 
- - P5 
- - P6 
- - P7 
- - P8 
- - P9 
- - P10 
- - P11 
- - P12 
- - P13 
- - P14 
- - P15 
- - P16 
- - P17 
- - P18 
- - P19 
- - P20 
- - P21 
- - P22 
- - P23 
- - P5 
- - P25 
- - P26 
- - P27 
- - P28 
- - R1 
- - R2 
- - R3 
- - R4 
- - R5 
- - R6 
- - R7 
- - Jyot 
- - R10 
- - R11 
- - R12 
- - R13 
- - T 
- - U1 
- - U2 
- - U3 
- - U4 
- - V4 
- - V8 
- - V9 
- - V11 
- - V19 
- - V23 
- - V24 
- - V25 
- - V26 
- - V27 
- - V29 
- - V30 
- - V31 
- - Mu1 
- - W1 
- - W2 
- - W3 
- - W4 
-
-#2.67ab
- - Ba2 
- - Ba3 
- - Ba4 
- - Be1 
- - C7 
- - G1 
- - G2 
- - G3 
- - G4 
- - G5 
- - G6 
- - G9 
- - G10 
- - G11 
- - J1 
- - J8 
- - J9 
- - K1 
- - K2 
- - K3 
- - L1 
- - M1 
- - M2 
- - N1 
- - N2 
- - N3 
- - N4a 
- - N4b 
- - N5 
- - N6 
- - N7 
- - N8 
- - N9 
- - N10 
- - N11 
- - N12 
- - N13 
- - N14 
- - N15 
- - N16 
- - N17 
- - N18 
- - N19 
- - N20 
- - N21 
- - N22 
- - N23 
- - N24 
- - N25 
- - N26 
- - O1 
- - O2 
- - O3 
- - P1 
- - P2 
- - P3 
- - P4 
- - P5 
- - P6 
- - P7 
- - P8 
- - P9 
- - P10 
- - P11 
- - P12 
- - P13 
- - P14 
- - P15 
- - P16 
- - P17 
- - P18 
- - P19 
- - P20 
- - P21 
- - P22 
- - P23 
- - P5 
- - P25 
- - P26 
- - P27 
- - P28 
- - R1 
- - R2 
- - R3 
- - R4 
- - R5 
- - R6 
- - R7 
- - Jyot 
- - R10 
- - R11 
- - R12 
- - R13 
- - T 
- - Tue 
- - U1 
- - U2 
- - U3 
- - U4 
- - V4 
- - V8 
- - V9 
- - V11 
- - V19 
- - V23 
- - V24 
- - V25 
- - V26 
- - V27 
- - V29 
- - V30 
- - V31 
- - Mu1 
- - W1 
- - W2 
- - W3 
- - W4 
-
-#2.68a
- - Ba2 
- - Ba3 
- - Ba4 
- - Be1 
- - C7 
- - G1 
- - G2 
- - G3 
- - G4 
- - G5 
- - G6 
- - G9 
- - G10 
- - G11 
- - J8 
- - J9 
- - K1 
- - K2 
- - K3 
- - L1 
- - M1 
- - M2 
- - N1 
- - N2 
- - N3 
- - N4a 
- - N4b 
- - N5 
- - N6 
- - N7 
- - N8 
- - N9 
- - N10 
- - N11 
- - N12 
- - N13 
- - N14 
- - N15 
- - N16 
- - N17 
- - N18 
- - N19 
- - N20 
- - N21 
- - N22 
- - N23 
- - N24 
- - N25 
- - N26 
- - O1 
- - O2 
- - O3 
- - P1 
- - P2 
- - P3 
- - P4 
- - P5 
- - P6 
- - P7 
- - P8 
- - P9 
- - P10 
- - P11 
- - P12 
- - P13 
- - P14 
- - P15 
- - P16 
- - P17 
- - P18 
- - P19 
- - P20 
- - P21 
- - P22 
- - P23 
- - P5 
- - P25 
- - P26 
- - P27 
- - P28 
- - R1 
- - R2 
- - R3 
- - R4 
- - R5 
- - R6 
- - R7 
- - Jyot 
- - R10 
- - R11 
- - R12 
- - R13 
- - T 
- - Tue 
- - U1 
- - U2 
- - U3 
- - U4 
- - V4 
- - V8 
- - V9 
- - V11 
- - V19 
- - V23 
- - V24 
- - V25 
- - V26 
- - V27 
- - V29 
- - V30 
- - V31 
- - Mu1 
- - W1 
- - W2 
- - W3 
- - W4 
-
-#2.69a
- - Ba2 
- - Ba3 
- - Ba4 
- - Be1 
- - C7 
- - C8 
- - G1 
- - G2 
- - G3 
- - G4 
- - G5 
- - G6 
- - G9 
- - G10 
- - G11 
- - J8 
- - J9 
- - K1 
- - K2 
- - K3 
- - L1 
- - LD2 
- - M1 
- - M2 
- - N1 
- - N2 
- - N3 
- - N4a 
- - N4b 
- - N5 
- - N6 
- - N7 
- - N8 
- - N9 
- - N10 
- - N11 
- - N12 
- - N13 
- - N14 
- - N15 
- - N16 
- - N17 
- - N18 
- - N19 
- - N20 
- - N21 
- - N22 
- - N23 
- - N24 
- - N25 
- - N26 
- - O1 
- - O2 
- - O3 
- - P1 
- - P2 
- - P3 
- - P4 
- - P5 
- - P6 
- - P7 
- - P8 
- - P9 
- - P10 
- - P11 
- - P12 
- - P13 
- - P14 
- - P15 
- - P16 
- - P17 
- - P18 
- - P19 
- - P20 
- - P21 
- - P22 
- - P23 
- - P5 
- - P25 
- - P26 
- - P27 
- - P28 
- - R1 
- - R2 
- - R3 
- - R4 
- - R5 
- - R6 
- - R7 
- - Jyot 
- - R10 
- - R11 
- - R12 
- - R13 
- - T 
- - Tue 
- - U1 
- - U2 
- - U3 
- - U4 
- - V4 
- - V8 
- - V9 
- - V11 
- - V19 
- - V23 
- - V24 
- - V25 
- - V26 
- - V27 
- - V29 
- - V30 
- - V31 
- - Mu1 
- - W1 
- - W2 
- - W3 
- - W4 
-
-#2.73a
- - A1 
- - B1 
- - B2 
- - B3 
- - Ba 
+#2.53a
  - Ba2 
  - Ba3 
  - Ba4 
@@ -7218,6 +4448,13 @@ Uncollated MSS per \sthana-command:
  - J8 
  - J9 
  - J10 
+ - J11 
+ - J12 
+ - J13 
+ - J14 
+ - J15 
+ - J16 
+ - J17 
  - K1 
  - K2 
  - K3 
@@ -7269,27 +4506,12 @@ Uncollated MSS per \sthana-command:
  - P10 
  - P11 
  - P12 
- - P13 
- - P14 
- - P15 
- - P16 
- - P17 
- - P18 
  - P19 
- - P20 
- - P21 
- - P22 
- - P23 
  - P5 
- - P25 
- - P26 
- - P27 
  - P28 
- - R1 
  - R2 
  - R3 
  - R4 
- - R5 
  - R6 
  - R7 
  - Jyot 
@@ -7299,6 +4521,883 @@ Uncollated MSS per \sthana-command:
  - R13 
  - T 
  - Tue 
+ - U1 
+ - U2 
+ - U3 
+ - U4 
+ - V1 
+ - V2 
+ - V3 
+ - V4 
+ - V5 
+ - V6 
+ - V7 
+ - V8 
+ - V9 
+ - V10 
+ - V11 
+ - V12 
+ - V13 
+ - V14 
+ - V15 
+ - V16 
+ - V17 
+ - V18 
+ - V19 
+ - V20 
+ - V21 
+ - V22 
+ - V23 
+ - V24 
+ - V25 
+ - V26 
+ - V27 
+ - V28 
+ - V29 
+ - V30 
+ - V31 
+ - Mu1 
+ - W1 
+ - W2 
+ - W3 
+ - W4 
+
+#2.55ab
+ - Ba2 
+ - Ba3 
+ - Ba4 
+ - Ba5 
+ - Bo1 
+ - Bo2 
+ - Bo3 
+ - Be1 
+ - C1 
+ - C2 
+ - C3 
+ - C4 
+ - C5 
+ - C6 
+ - C7 
+ - C8 
+ - C9 
+ - G1 
+ - G2 
+ - G3 
+ - G4 
+ - G5 
+ - G6 
+ - G9 
+ - G10 
+ - G11 
+ - J1 
+ - J2 
+ - J3 
+ - J4 
+ - J5 
+ - J6 
+ - J7 
+ - J8 
+ - J9 
+ - J10 
+ - J11 
+ - J12 
+ - J13 
+ - J14 
+ - J15 
+ - J16 
+ - J17 
+ - K1 
+ - K2 
+ - K3 
+ - Ko 
+ - L1 
+ - LD1 
+ - LD2 
+ - M1 
+ - M2 
+ - N1 
+ - N2 
+ - N3 
+ - N4a 
+ - N4b 
+ - N5 
+ - N6 
+ - N7 
+ - N8 
+ - N9 
+ - N10 
+ - N11 
+ - N12 
+ - N13 
+ - N14 
+ - N15 
+ - N16 
+ - N17 
+ - N18 
+ - N19 
+ - N20 
+ - N21 
+ - N22 
+ - N23 
+ - N24 
+ - N25 
+ - N26 
+ - O1 
+ - O2 
+ - O3 
+ - P1 
+ - P2 
+ - P3 
+ - P4 
+ - P5 
+ - P6 
+ - P7 
+ - P8 
+ - P9 
+ - P10 
+ - P11 
+ - P12 
+ - P17 
+ - P19 
+ - P5 
+ - P28 
+ - R2 
+ - R3 
+ - R4 
+ - R6 
+ - R7 
+ - Jyot 
+ - R10 
+ - R11 
+ - R12 
+ - R13 
+ - T 
+ - Tue 
+ - U1 
+ - U2 
+ - U3 
+ - U4 
+ - V1 
+ - V2 
+ - V3 
+ - V4 
+ - V5 
+ - V6 
+ - V7 
+ - V8 
+ - V9 
+ - V10 
+ - V11 
+ - V12 
+ - V13 
+ - V14 
+ - V15 
+ - V16 
+ - V17 
+ - V18 
+ - V19 
+ - V20 
+ - V21 
+ - V22 
+ - V23 
+ - V24 
+ - V25 
+ - V26 
+ - V27 
+ - V28 
+ - V29 
+ - V30 
+ - V31 
+ - Mu1 
+ - W1 
+ - W2 
+ - W3 
+ - W4 
+
+#2.54a
+ - Ba2 
+ - Ba4 
+ - Be1 
+ - C7 
+ - G2 
+ - G3 
+ - G4 
+ - G5 
+ - G6 
+ - G9 
+ - G10 
+ - J9 
+ - K1 
+ - K2 
+ - K3 
+ - L1 
+ - M1 
+ - M2 
+ - N4b 
+ - N15 
+ - O1 
+ - O2 
+ - O3 
+ - P3 
+ - P4 
+ - P19 
+ - P28 
+ - R2 
+ - R3 
+ - R4 
+ - R6 
+ - R7 
+ - Jyot 
+ - R10 
+ - R11 
+ - R12 
+ - R13 
+ - U1 
+ - U2 
+ - U3 
+ - U4 
+ - V4 
+ - V8 
+ - V9 
+ - V11 
+ - V23 
+ - V24 
+ - V25 
+ - V26 
+ - V27 
+ - V29 
+ - V30 
+ - V31 
+ - Mu1 
+ - W1 
+ - W2 
+ - W3 
+ - W4 
+
+#2.55a
+ - Ba2 
+ - Ba4 
+ - Be1 
+ - C7 
+ - G2 
+ - G3 
+ - G4 
+ - G5 
+ - G6 
+ - G9 
+ - G10 
+ - J8 
+ - J9 
+ - K1 
+ - K2 
+ - K3 
+ - L1 
+ - M1 
+ - M2 
+ - N4b 
+ - N15 
+ - O1 
+ - O2 
+ - O3 
+ - P3 
+ - P4 
+ - P19 
+ - P28 
+ - R2 
+ - R3 
+ - R4 
+ - R6 
+ - R7 
+ - Jyot 
+ - R10 
+ - R11 
+ - R12 
+ - R13 
+ - U1 
+ - U2 
+ - U3 
+ - U4 
+ - V4 
+ - V7 
+ - V8 
+ - V9 
+ - V11 
+ - V23 
+ - V24 
+ - V25 
+ - V26 
+ - V27 
+ - V29 
+ - V30 
+ - V31 
+ - Mu1 
+ - W1 
+ - W2 
+ - W3 
+
+#2.55*1
+ - Ba2 
+ - Ba4 
+ - Be1 
+ - C7 
+ - G2 
+ - G3 
+ - G4 
+ - G5 
+ - G6 
+ - G9 
+ - G10 
+ - J8 
+ - J9 
+ - K1 
+ - K2 
+ - K3 
+ - L1 
+ - M1 
+ - M2 
+ - N4b 
+ - N15 
+ - O1 
+ - O2 
+ - O3 
+ - P3 
+ - P4 
+ - P19 
+ - R2 
+ - R3 
+ - R4 
+ - R6 
+ - R7 
+ - Jyot 
+ - R10 
+ - R11 
+ - R12 
+ - R13 
+ - U1 
+ - U2 
+ - U3 
+ - U4 
+ - V1 
+ - V4 
+ - V7 
+ - V8 
+ - V9 
+ - V11 
+ - V19 
+ - V23 
+ - V24 
+ - V25 
+ - V26 
+ - V27 
+ - V29 
+ - V30 
+ - V31 
+ - Mu1 
+ - W1 
+ - W2 
+ - W3 
+
+#2.57a
+ - Ba2 
+ - Ba4 
+ - Be1 
+ - C1 
+ - C7 
+ - G2 
+ - G3 
+ - G4 
+ - G5 
+ - G6 
+ - G9 
+ - G10 
+ - J8 
+ - J9 
+ - K1 
+ - K2 
+ - K3 
+ - L1 
+ - M1 
+ - M2 
+ - N4b 
+ - N15 
+ - O1 
+ - O2 
+ - O3 
+ - P3 
+ - P4 
+ - P19 
+ - P28 
+ - R2 
+ - R3 
+ - R4 
+ - R6 
+ - R7 
+ - Jyot 
+ - R10 
+ - R11 
+ - R12 
+ - R13 
+ - U1 
+ - U2 
+ - U3 
+ - U4 
+ - V4 
+ - V7 
+ - V8 
+ - V9 
+ - V11 
+ - V19 
+ - V23 
+ - V24 
+ - V25 
+ - V26 
+ - V27 
+ - V29 
+ - V30 
+ - V31 
+ - Mu1 
+ - W1 
+ - W2 
+ - W3 
+ - W4 
+
+#2.58b
+ - Ba2 
+ - Ba4 
+ - Be1 
+ - C7 
+ - G2 
+ - G3 
+ - G4 
+ - G5 
+ - G6 
+ - G9 
+ - G10 
+ - J8 
+ - J9 
+ - K1 
+ - K2 
+ - K3 
+ - L1 
+ - M1 
+ - M2 
+ - N4b 
+ - N15 
+ - O1 
+ - O2 
+ - O3 
+ - P3 
+ - P4 
+ - P19 
+ - P28 
+ - R2 
+ - R3 
+ - R4 
+ - R6 
+ - R7 
+ - Jyot 
+ - R10 
+ - R11 
+ - R12 
+ - R13 
+ - U1 
+ - U2 
+ - U3 
+ - U4 
+ - V1 
+ - V4 
+ - V8 
+ - V9 
+ - V11 
+ - V23 
+ - V24 
+ - V25 
+ - V26 
+ - V27 
+ - V29 
+ - V30 
+ - V31 
+ - Mu1 
+ - W1 
+ - W2 
+ - W3 
+ - W4 
+
+#2.62b
+ - Ba2 
+ - Ba4 
+ - Be1 
+ - C7 
+ - G2 
+ - G3 
+ - G4 
+ - G5 
+ - G6 
+ - G9 
+ - G10 
+ - J8 
+ - J9 
+ - K1 
+ - K2 
+ - K3 
+ - L1 
+ - M1 
+ - M2 
+ - N4b 
+ - N15 
+ - O1 
+ - O2 
+ - O3 
+ - P3 
+ - P4 
+ - P19 
+ - P28 
+ - R2 
+ - R3 
+ - R4 
+ - R6 
+ - R7 
+ - Jyot 
+ - R10 
+ - R11 
+ - R12 
+ - R13 
+ - U1 
+ - U2 
+ - U3 
+ - U4 
+ - V4 
+ - V8 
+ - V9 
+ - V11 
+ - V19 
+ - V23 
+ - V24 
+ - V25 
+ - V26 
+ - V27 
+ - V29 
+ - V30 
+ - V31 
+ - Mu1 
+ - W1 
+ - W2 
+ - W3 
+ - W4 
+
+#2.65cd
+ - Ba2 
+ - Ba4 
+ - Be1 
+ - C7 
+ - G2 
+ - G3 
+ - G4 
+ - G5 
+ - G6 
+ - G9 
+ - G10 
+ - J8 
+ - J9 
+ - K1 
+ - K2 
+ - K3 
+ - L1 
+ - M1 
+ - M2 
+ - N4b 
+ - N15 
+ - O1 
+ - O2 
+ - O3 
+ - P3 
+ - P4 
+ - P19 
+ - P28 
+ - R2 
+ - R3 
+ - R4 
+ - R6 
+ - R7 
+ - Jyot 
+ - R10 
+ - R11 
+ - R12 
+ - R13 
+ - U1 
+ - U2 
+ - U3 
+ - U4 
+ - V4 
+ - V8 
+ - V9 
+ - V11 
+ - V19 
+ - V23 
+ - V24 
+ - V25 
+ - V26 
+ - V27 
+ - V29 
+ - V30 
+ - V31 
+ - Mu1 
+ - W1 
+ - W2 
+ - W3 
+ - W4 
+
+#2.67ab
+ - Ba2 
+ - Ba4 
+ - Be1 
+ - C7 
+ - G2 
+ - G3 
+ - G4 
+ - G5 
+ - G6 
+ - G9 
+ - G10 
+ - J1 
+ - J8 
+ - J9 
+ - K1 
+ - K2 
+ - K3 
+ - L1 
+ - M1 
+ - M2 
+ - N4b 
+ - N15 
+ - O1 
+ - O2 
+ - O3 
+ - P3 
+ - P4 
+ - P19 
+ - P28 
+ - R2 
+ - R3 
+ - R4 
+ - R6 
+ - R7 
+ - Jyot 
+ - R10 
+ - R11 
+ - R12 
+ - R13 
+ - U1 
+ - U2 
+ - U3 
+ - U4 
+ - V4 
+ - V8 
+ - V9 
+ - V11 
+ - V19 
+ - V23 
+ - V24 
+ - V25 
+ - V26 
+ - V27 
+ - V29 
+ - V30 
+ - V31 
+ - Mu1 
+ - W1 
+ - W2 
+ - W3 
+ - W4 
+
+#2.68a
+ - Ba2 
+ - Ba4 
+ - Be1 
+ - C7 
+ - G2 
+ - G3 
+ - G4 
+ - G5 
+ - G6 
+ - G9 
+ - G10 
+ - J8 
+ - J9 
+ - K1 
+ - K2 
+ - K3 
+ - L1 
+ - M1 
+ - M2 
+ - N4b 
+ - N15 
+ - O1 
+ - O2 
+ - O3 
+ - P3 
+ - P4 
+ - P19 
+ - P28 
+ - R2 
+ - R3 
+ - R4 
+ - R6 
+ - R7 
+ - Jyot 
+ - R10 
+ - R11 
+ - R12 
+ - R13 
+ - U1 
+ - U2 
+ - U3 
+ - U4 
+ - V4 
+ - V8 
+ - V9 
+ - V11 
+ - V19 
+ - V23 
+ - V24 
+ - V25 
+ - V26 
+ - V27 
+ - V29 
+ - V30 
+ - V31 
+ - Mu1 
+ - W1 
+ - W2 
+ - W3 
+ - W4 
+
+#2.69a
+ - Ba2 
+ - Ba4 
+ - Be1 
+ - C7 
+ - C8 
+ - G2 
+ - G3 
+ - G4 
+ - G5 
+ - G6 
+ - G9 
+ - G10 
+ - J8 
+ - J9 
+ - K1 
+ - K2 
+ - K3 
+ - L1 
+ - LD2 
+ - M1 
+ - M2 
+ - N4b 
+ - N15 
+ - O1 
+ - O2 
+ - O3 
+ - P3 
+ - P4 
+ - P19 
+ - P28 
+ - R2 
+ - R3 
+ - R4 
+ - R6 
+ - R7 
+ - Jyot 
+ - R10 
+ - R11 
+ - R12 
+ - R13 
+ - U1 
+ - U2 
+ - U3 
+ - U4 
+ - V4 
+ - V8 
+ - V9 
+ - V11 
+ - V19 
+ - V23 
+ - V24 
+ - V25 
+ - V26 
+ - V27 
+ - V29 
+ - V30 
+ - V31 
+ - Mu1 
+ - W1 
+ - W2 
+ - W3 
+ - W4 
+
+#2.73a
+ - Ba2 
+ - Ba4 
+ - Ba5 
+ - Bo1 
+ - Bo2 
+ - Bo3 
+ - Be1 
+ - C1 
+ - C2 
+ - C3 
+ - C4 
+ - C5 
+ - C6 
+ - C7 
+ - C8 
+ - C9 
+ - G2 
+ - G3 
+ - G4 
+ - G5 
+ - G6 
+ - G9 
+ - G10 
+ - J1 
+ - J2 
+ - J3 
+ - J4 
+ - J5 
+ - J6 
+ - J7 
+ - J8 
+ - J9 
+ - J10 
+ - K1 
+ - K2 
+ - K3 
+ - Ko 
+ - L1 
+ - LD1 
+ - LD2 
+ - M1 
+ - M2 
+ - N4b 
+ - N15 
+ - O1 
+ - O2 
+ - O3 
+ - P3 
+ - P4 
+ - P19 
+ - P28 
+ - R2 
+ - R3 
+ - R4 
+ - R6 
+ - R7 
+ - Jyot 
+ - R10 
+ - R11 
+ - R12 
+ - R13 
  - U1 
  - U2 
  - U3 
@@ -7336,13 +5435,7 @@ Uncollated MSS per \sthana-command:
  - W4 
 
 #2.73b
- - A1 
- - B1 
- - B2 
- - B3 
- - Ba 
  - Ba2 
- - Ba3 
  - Ba4 
  - Ba5 
  - Bo1 
@@ -7358,7 +5451,6 @@ Uncollated MSS per \sthana-command:
  - C7 
  - C8 
  - C9 
- - G1 
  - G2 
  - G3 
  - G4 
@@ -7366,7 +5458,6 @@ Uncollated MSS per \sthana-command:
  - G6 
  - G9 
  - G10 
- - G11 
  - J1 
  - J2 
  - J3 
@@ -7386,69 +5477,18 @@ Uncollated MSS per \sthana-command:
  - LD2 
  - M1 
  - M2 
- - N1 
- - N2 
- - N3 
- - N4a 
  - N4b 
- - N5 
- - N6 
- - N7 
- - N8 
- - N9 
- - N10 
- - N11 
- - N12 
- - N13 
- - N14 
  - N15 
- - N16 
- - N17 
- - N18 
- - N19 
- - N20 
- - N21 
- - N22 
- - N23 
- - N24 
- - N25 
- - N26 
  - O1 
  - O2 
  - O3 
- - P1 
- - P2 
  - P3 
  - P4 
- - P5 
- - P6 
- - P7 
- - P8 
- - P9 
- - P10 
- - P11 
- - P12 
- - P13 
- - P14 
- - P15 
- - P16 
- - P17 
- - P18 
  - P19 
- - P20 
- - P21 
- - P22 
- - P23 
- - P5 
- - P25 
- - P26 
- - P27 
  - P28 
- - R1 
  - R2 
  - R3 
  - R4 
- - R5 
  - R6 
  - R7 
  - Jyot 
@@ -7456,8 +5496,6 @@ Uncollated MSS per \sthana-command:
  - R11 
  - R12 
  - R13 
- - T 
- - Tue 
  - U1 
  - U2 
  - U3 
@@ -7524,7 +5562,6 @@ Uncollated MSS per \sthana-command:
  - G6 
  - G9 
  - G10 
- - G11 
  - J1 
  - J4 
  - J5 
@@ -7556,20 +5593,16 @@ Uncollated MSS per \sthana-command:
  - N5 
  - N6 
  - N7 
- - N8 
  - N9 
  - N10 
- - N11 
  - N12 
  - N13 
  - N14 
  - N15 
- - N16 
  - N17 
  - N18 
  - N19 
  - N20 
- - N21 
  - N22 
  - N23 
  - N24 
@@ -7582,7 +5615,6 @@ Uncollated MSS per \sthana-command:
  - P2 
  - P3 
  - P4 
- - P5 
  - P6 
  - P7 
  - P8 
@@ -7601,7 +5633,6 @@ Uncollated MSS per \sthana-command:
  - P21 
  - P22 
  - P23 
- - P5 
  - P25 
  - P26 
  - P27 
@@ -7658,13 +5689,11 @@ Uncollated MSS per \sthana-command:
 
 #kumbhakāt prāṇarecānte
  - Ba2 
- - Ba3 
  - Ba4 
  - Be1 
  - C2 
  - C3 
  - C7 
- - G1 
  - G2 
  - G3 
  - G4 
@@ -7684,69 +5713,24 @@ Uncollated MSS per \sthana-command:
  - L1 
  - M1 
  - M2 
- - N1 
- - N2 
- - N3 
- - N4a 
  - N4b 
- - N5 
- - N6 
- - N7 
  - N8 
- - N9 
- - N10 
  - N11 
- - N12 
- - N13 
- - N14 
  - N15 
  - N16 
- - N17 
- - N18 
- - N19 
- - N20 
  - N21 
- - N22 
- - N23 
- - N24 
- - N25 
- - N26 
  - O1 
  - O2 
  - O3 
- - P1 
- - P2 
  - P3 
  - P4 
  - P5 
- - P6 
- - P7 
- - P8 
- - P9 
- - P10 
- - P11 
- - P12 
- - P13 
- - P14 
- - P15 
- - P16 
- - P17 
- - P18 
  - P19 
- - P20 
- - P21 
- - P22 
- - P23 
  - P5 
- - P25 
- - P26 
- - P27 
  - P28 
- - R1 
  - R2 
  - R3 
  - R4 
- - R5 
  - R6 
  - R7 
  - Jyot 
@@ -7754,8 +5738,6 @@ Uncollated MSS per \sthana-command:
  - R11 
  - R12 
  - R13 
- - T 
- - Tue 
  - U1 
  - U2 
  - U3 
