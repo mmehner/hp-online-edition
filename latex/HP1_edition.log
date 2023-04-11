@@ -1,14 +1,14 @@
-This is LuaHBTeX, Version 1.15.0 (TeX Live 2022/Arch Linux)  (format=lualatex 2022.5.26)  22 AUG 2022 13:14
+This is LuaHBTeX, Version 1.15.0 (TeX Live 2022/Arch Linux)  (format=lualatex 2023.4.5)  11 APR 2023 13:39
  restricted system commands enabled.
-**HP1_OldMss.tex
-(./HP1_OldMss.tex
+**HP1_edition.tex
+(./HP1_edition.tex
 LaTeX2e <2021-11-15> patch level 1
 Lua module: luaotfload 2022-03-18 3.21 Lua based OpenType font support
 Lua module: lualibs 2021-05-20 2.74 ConTeXt Lua standard libraries.
 Lua module: lualibs-extended 2021-05-20 2.74 ConTeXt Lua libraries -- extended c
 ollection.
-luaotfload | conf : Root cache directory is "/home/sahibram/.texlive/texmf-var/l
-uatex-cache/generic/names".
+luaotfload | conf : Root cache directory is "/home/max/.texlive/texmf-var/luatex
+-cache/generic/names".
 luaotfload | init : Loading fontloader "fontloader-2022-02-24.lua" from kpse-res
 olved path "/usr/share/texmf-dist/tex/luatex/luaotfload/fontloader-2022-02-24.lu
 a".
@@ -19,8 +19,8 @@ Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
 Inserting `luaotfload.glyph_stream' at position 1 in `glyph_stream_provider'.
 Inserting `luaotfload.define_font' at position 1 in `define_font'.
 Lua-only attribute luaotfload_color_attribute = 2
-luaotfload | conf : Root cache directory is "/home/sahibram/.texlive/texmf-var/l
-uatex-cache/generic/names".
+luaotfload | conf : Root cache directory is "/home/max/.texlive/texmf-var/luatex
+-cache/generic/names".
 Inserting `luaotfload.harf.strip_prefix' at position 1 in `find_opentype_file'.
 Inserting `luaotfload.harf.strip_prefix' at position 1 in `find_truetype_file'.
 Removing  `luaotfload.glyph_stream' from `glyph_stream_provider'.
@@ -71,8 +71,8 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 
 (/usr/share/texmf-dist/tex/latex/memoir/mem10.clo
 File: mem10.clo 2008/01/30 v0.3 memoir class 10pt size option
-luaotfload | db : Font names database loaded from /home/sahibram/.texlive/texmf-
-var/luatex-cache/generic/names/luaotfload-names.luc.gz)
+luaotfload | db : Font names database loaded from /home/max/.texlive/texmf-var/l
+uatex-cache/generic/names/luaotfload-names.luc.gz)
 \binding=\skip54
 \spinemargin=\skip55
 \foremargin=\skip56
@@ -746,8 +746,7 @@ Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 Package babel Info: Importing font and identification data for english
 (babel)             from babel-en.ini. Reported on input line 11.
 )
-(./Manuscript-Sigla.tex) (./Abbreviations.tex) (./TeX2Tei-Commands.tex))
-(./HP1_OldMss.aux
+(./Manuscript-Sigla.tex) (./TeX2Tei-Commands.tex)) (./HP1_edition.aux
 
 Package babel Info: The following font families will use the default
 (babel)             settings for all or some languages:
@@ -763,8 +762,8 @@ Package babel Info: The following font families will use the default
 (babel)             these families, consider redefining them with \babelfont.
 (babel)             Reported on input line 5.
 
-luaotfload | cache : Lookup cache loaded from /home/sahibram/.texlive/texmf-var/
-luatex-cache/generic/names/luaotfload-lookup-cache.luc.
+luaotfload | cache : Lookup cache loaded from /home/max/.texlive/texmf-var/luate
+x-cache/generic/names/luaotfload-lookup-cache.luc.
 luaotfload | aux : font no 22 (nil) defines no feature for script latn with lang
 uage eng
 
@@ -848,30 +847,30 @@ LaTeX Font Info:    Font shape `TU/AdishilaSan(0)/m/n' will be
 (/usr/share/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-sa.tex
 UTF-8 Sanskrit hyphenation patterns
 (/usr/share/texmf-dist/tex/generic/hyph-utf8/patterns/tex/hyph-sa.tex)))
-\openout1 = HP1_OldMss.aux
+\openout1 = HP1_edition.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 8
-.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
+2.
 
 (/usr/share/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
 \c@ekdapparatus=\count349
 \c@loadepth=\count350
 \cftbeforeekdapparatusskip=\skip195
@@ -898,66 +897,66 @@ Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 8.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 8.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 8.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 8.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 8.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 8.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 8.
-LaTeX Font Info:    Redeclaring math accent \check on input line 8.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 8.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 8.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 8.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 8.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 8.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 8.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 8.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 8.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 8.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 8.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 8.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 8.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 8.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 8.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 8.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 8.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 8.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 22.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 22.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 22.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 22.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 22.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 22.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 22.
+LaTeX Font Info:    Redeclaring math accent \check on input line 22.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 22.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 22.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 22.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 22.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 22.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 22.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 22.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 22.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 22.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 22.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 22.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 22.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 22.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 22.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 22.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 22.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 22.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 8.
+(Font)              `operators' in the math version `normal' on input line 22.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/AdobeTextPro(0)/m/n on input line 8.
-
-LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 8.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/AdobeTextPro(0)/m/n on input line 8
+(Font)                  OT1/cmr/m/n --> TU/AdobeTextPro(0)/m/n on input line 22
 .
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 22.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/AdobeTextPro(0)/m/n on input line 2
+2.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  TU/AdobeTextPro(0)/m/n --> TU/AdobeTextPro(0)/m/n on in
-put line 8.
+put line 22.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> TU/AdobeTextPro(0)/m/it on input line 
-8.
+22.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/AdobeTextPro(0)/b/n on input line 8
-.
+(Font)                  OT1/cmr/bx/n --> TU/AdobeTextPro(0)/b/n on input line 2
+2.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 8.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 22.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 8.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 22.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  TU/AdobeTextPro(0)/m/n --> TU/AdobeTextPro(0)/b/n on in
-put line 8.
+put line 22.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> TU/AdobeTextPro(0)/b/it on input line
- 8.
+ 22.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 8.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 22.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 8.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 22.
 LaTeX Font Info:    Font shape `TU/AdishilaSan(0)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 2179.
+(Font)              scaled to size 12.0pt on input line 2116.
 LaTeX Font Info:    Font shape `TU/AdobeTextPro(0)/m/n' will be
 (Font)              scaled to size 7.19995pt on input line 1.
 LaTeX Font Info:    Font shape `TU/AdobeTextPro(0)/bx/n' in size <8> not availa
@@ -984,98 +983,77 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 1.
 LaTeX Font Info:    Font shape `TU/AdobeTextPro(0)/m/it' will be
 (Font)              scaled to size 7.19995pt on input line 1.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 LaTeX Font Info:    Font shape `TU/AdishilaSan(0)/m/n' will be
-(Font)              scaled to size 13.5pt on input line 2179.
+(Font)              scaled to size 13.5pt on input line 2116.
 LaTeX Font Info:    Font shape `TU/AdobeTextPro(0)/m/n' will be
-(Font)              scaled to size 8.09995pt on input line 2179.
+(Font)              scaled to size 8.09995pt on input line 2116.
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
+LaTeX Font Info:    Font shape `TU/AdobeTextPro(0)/m/n' will be
+(Font)              scaled to size 6.29996pt on input line 2116.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 2116.
+LaTeX Font Info:    Font shape `TU/AdishilaSan(0)/m/n' will be
+(Font)              scaled to size 10.5pt on input line 2116.
+LaTeX Font Info:    Font shape `TU/AdishilaSan(0)/m/n' will be
+(Font)              scaled to size 9.0pt on input line 2116.
  [2]
+Underfull \hbox (badness 2150) in paragraph at lines 1--2116
+[]\TU/AdobeTextPro(0)/m/n/8 tat-va-jñānād viniś-cayāt[] []Gr$[][]$  [][]\T
+U/AdobeTextPro(0)/b/n/8 16c [][][]jana[] []\TU/AdobeTextPro(0)/m/n/8 cett.] []ni
+ja[] []N$[][]$  [][]\TU/AdobeTextPro(0)/b/n/8 16d [][][]yo-gas tu sid-hy-ati[] 
+[]\TU/AdobeTextPro(0)/m/n/8 V$[][]$[]J$[][]$] []yo-gaḥ prasid-hy-ati[]
+ []
+
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <9> on input line 1.
-LaTeX Font Info:    Font shape `TU/AdobeTextPro(0)/m/n' will be
-(Font)              scaled to size 6.29996pt on input line 2179.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 2179.
-LaTeX Font Info:    Font shape `TU/AdishilaSan(0)/m/n' will be
-(Font)              scaled to size 10.5pt on input line 2179.
-LaTeX Font Info:    Font shape `TU/AdishilaSan(0)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 2179.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [3]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [4]
-[5]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [6]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [7]
-Underfull \vbox (badness 5832) has occurred while \output is active []
-
- [8]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [9]
-Underfull \hbox (badness 1107) in paragraph at lines 1--2179
-[][][]\TU/AdobeTextPro(0)/b/n/8 48 [][][]mat-sya-matam[] []\TU/AdobeTextPro(0)/
-m/n/8 V$[][]$[]V$[][]$[]J$[][]$[]J$[][]$[]J$[][]$[]P$[][]$] []mat-sya-mate[] []
-W$[][]$ []mat-syakṛ-tam[] []N$[][]$ []mat-syen-dra-matam[] []V$[][]$  [][]\TU
-/AdobeTextPro(0)/b/n/8 48a [][][]kṛtvā[]
+[3]
+Underfull \hbox (badness 2111) in paragraph at lines 1--2116
+[][][]\TU/AdobeTextPro(0)/b/n/8 3 [][][]athāsanāni[] []\TU/AdobeTextPro(0)/m/
+n/8 P$[][]$] []<<atha>> āsanāni[] []V$[][]$  [][]\TU/AdobeTextPro(0)/b/n/8 17c
+ [][][]tat kuryād[] []\TU/AdobeTextPro(0)/m/n/8 cett.] []kuryāt tad[] []J$[][
+]$[]J$[][]$  [][][][][]\TU/AdobeTextPro(0)/b/n/8 āsanaṃ sthairyam[]
  []
 
+[4]
+Underfull \vbox (badness 1308) has occurred while \output is active []
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [10]
-Underfull \vbox (badness 5475) has occurred while \output is active []
-
- [11]
-Underfull \vbox (badness 4168) has occurred while \output is active []
-
- [12]
-Underfull \vbox (badness 7451) has occurred while \output is active []
-
- [13]
-Underfull \hbox (badness 4872) in paragraph at lines 1--2179
-[][][]\TU/AdobeTextPro(0)/b/n/8 63a [][][]mṛṣṭaṃ[] []\TU/AdobeTextPro(0
-)/m/n/8 V$[][]$] []miṣṭaṃ[] []V$[][]$[]J$[][]$ []iṣṭaṃ[] []V$[][]$[
-]J$[][]$[]J$[][]$[]N$[][]$[]W$[][]$ []uṣṇaṃ[] []P$[][]$  [][][][][]\TU/Ad
-obeTextPro(0)/b/n/8 sumad-hu-raṃ[] []\TU/AdobeTextPro(0)/m/n/8 V$[][]$[]J$[][
-]$] []samad-hu-raṃ[]
+ [5]
+[6] [7] [8]
+Underfull \hbox (badness 1688) in paragraph at lines 1--2116
+[][][]\TU/AdobeTextPro(0)/b/n/8 44 [][][]atha[] []\TU/AdobeTextPro(0)/m/n/8 N$[
+][]$[]C$[][]$[]V$[][]$[]V$[][]$[]J$[][]$[]J$[][]$] []tathā[] []V$[][]$ []\TU/A
+dobeTextPro(0)/m/it/8 om.[] []\TU/AdobeTextPro(0)/m/n/8 V$[][]$[]P$[][]$  [][][
+][][]\TU/AdobeTextPro(0)/b/n/8 pad-māsanam[] []\TU/AdobeTextPro(0)/m/n/8 cett.]
+ []\TU/AdobeTextPro(0)/m/it/8 om.[] []\TU/AdobeTextPro(0)/m/n/8 V$[][]$[]P$[][]
+$  [][]\TU/AdobeTextPro(0)/b/n/8 44a [][][]dakṣiṇaṃ[]
  []
 
-[14] (./HP1_OldMss.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-)
+[9] [10] [11] [12] [13]
+LaTeX Font Info:    Font shape `TU/AdobeTextPro(0)/bx/n' in size <9> not availa
+ble
+(Font)              Font shape `TU/AdobeTextPro(0)/b/n' tried instead on input 
+line 2130.
+LaTeX Font Info:    Font shape `TU/AdobeTextPro(0)/b/n' will be
+(Font)              scaled to size 8.09995pt on input line 2130.
+ [14] (./HP1_edition.aux))
 
 Here is how much of LuaTeX's memory you used:
- 14102 strings out of 477762
- 156259,1373583 words of node,token memory allocated
- 58047 words of node memory still in use:
-   3 hlist, 1 vlist, 1 rule, 89 glue, 3 kern, 7361 glyph, 1606 attribute, 189 gl
-ue_spec, 804 attribute_list, 2 write nodes
-   avail lists: 1:1,2:6643,3:2587,4:212,5:1517,6:48,7:6153,8:2,9:1278,10:27,11:4
-46
- 34404 multiletter control sequences out of 65536+600000
- 73 fonts using 13717495 bytes
- 78i,13n,99p,11689b,1292s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 14169 strings out of 477762
+ 156265,1648299 words of node,token memory allocated
+ 62195 words of node memory still in use:
+   3 hlist, 1 vlist, 1 rule, 165 glue, 3 kern, 7843 glyph, 1687 attribute, 189 g
+lue_spec, 844 attribute_list, 2 write nodes
+   avail lists: 1:1,2:6211,3:2393,4:215,5:1590,6:48,7:6135,8:2,9:1066,10:30,11:4
+30
+ 34476 multiletter control sequences out of 65536+600000
+ 74 fonts using 14145823 bytes
+ 78i,12n,99p,11315b,1245s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/fonts/eigene/Adobe-Text-Pro-Italic_2047.ttf></usr/share/fonts/eigene
 /Adobe-Text-Pro-Bold_2046.ttf></usr/share/fonts/eigene/Adishila San/AdishilaSan.
 ttf></usr/share/fonts/eigene/Adobe-Text-Pro_2050.ttf>
-Output written on HP1_OldMss.pdf (14 pages, 160892 bytes).
+Output written on HP1_edition.pdf (14 pages, 164799 bytes).
 
 PDF statistics: 80 PDF objects out of 1000 (max. 8388607)
  48 compressed objects within 1 object stream

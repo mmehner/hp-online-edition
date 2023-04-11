@@ -1,4 +1,19 @@
-﻿%%% modify environments and commands
+﻿% additions 2023-04-05 MD:
+\TeXtoTEIPat{\begin {testimonia}[#1]}{<note type="testimonia" target="##1">}
+\TeXtoTEIPat{\end {testimonia}}{</note>}
+\TeXtoTEI{devnote}{s}[xml:lang="sa-deva"]
+% \TeXtoTEIPat{\lineom {#1}}{<note type="omission">(line om. <ref target="##1">#1</ref>)</note>}
+\TeXtoTEIPat{\lineom {#1}}{<note type="omission">(line om. #1)</note>}
+ %%% change 2023-04-11 mm
+\TeXtoTEIPat{\anm {#1}}{<note type="memo">(#1)</note>}
+\TeXtoTEIPat{\Anm {#1}}{<note type="memo">(#1)</note>} % only in HP4-edition.tex
+\TeXtoTEIPat{\startverse}{}
+\TeXtoTEIPat{\endverse}{}
+\TeXtoTEIPat{\newpage}{}
+\TeXtoTEIPat{\marma}{}
+\TeXtoTEIPat{\marmas}{ }
+
+%%% modify environments and commands
 %%% TEI mapping
 % additions/changes 2022-06-07 mm:
 \TeXtoTEI{grau}{hi}[rend="grey"]
@@ -17,7 +32,8 @@
 \TeXtoTEIPat{\end {col}}{</p></div>}
 \TeXtoTEIPat{\begin {ava}[#1]}{<note type="avataranika" target="##1">}
 \TeXtoTEIPat{\end {ava}}{</note>}
-\TeXtoTEIPat{\NotIn {#1}}{<note type="omission"><ref target="##1">#1</ref></note>}
+%\TeXtoTEIPat{\NotIn {#1}}{<note type="omission"><ref target="##1">#1</ref></note>}
+\TeXtoTEIPat{\NotIn {#1}}{<note type="omission">(om. <ref target="##1">#1</ref>)</note>} % mod. by MD 2023-04-05
 \TeXtoTEIPat{\outdent}{}
 \TeXtoTEIPat{\startaltrecension}{<note type="altrecension">}
 \TeXtoTEIPat{\endaltrecension}{</note>}
@@ -76,55 +92,55 @@
 \TeXtoTEIPat{°}{}
 \TeXtoTEIPat{\textcolor {#1}{#2}}{<hi rend="#1">#2</hi>}
 
-\TeXtoTEIPat{\eyeskip}{}
-\TeXtoTEIPat{\aberratio}{}
-\TeXtoTEIPat{\ad}{}
+% \TeXtoTEIPat{\eyeskip}{}
+% \TeXtoTEIPat{\aberratio}{}
+% \TeXtoTEIPat{\ad}{}
 \TeXtoTEIPat{\add}{}
-\TeXtoTEIPat{\ann}{}
+% \TeXtoTEIPat{\ann}{}
 \TeXtoTEIPat{\ante}{}
 \TeXtoTEIPat{\post}{}
-\TeXtoTEIPat{\codd}{}
-\TeXtoTEIPat{\conj }{}
-\TeXtoTEIPat{\contin}{}
-\TeXtoTEIPat{\corr}{}
-\TeXtoTEIPat{\del}{}
-\TeXtoTEIPat{\dub}{}
-\TeXtoTEIPat{\emend }{}
-\TeXtoTEIPat{\expl}{}
-\TeXtoTEIPat{\ȩxplicat}{}
-\TeXtoTEIPat{\fol}{}
-\TeXtoTEIPat{\gloss}{}
-\TeXtoTEIPat{\ins}{}
-\TeXtoTEIPat{\im}{}
-\TeXtoTEIPat{\inmargine}{}
-\TeXtoTEIPat{\intextu}{}
-\TeXtoTEIPat{\indist}{}
-\TeXtoTEIPat{\iteravit}{}
-\TeXtoTEIPat{\lectio}{}
-\TeXtoTEIPat{\leginequit}{}
-\TeXtoTEIPat{\legn}{}
-\TeXtoTEIPat{\illeg}{illeg.}
-\TeXtoTEIPat{\om }{om.}
-\TeXtoTEIPat{\primman}{}
-\TeXtoTEIPat{\prob}{}
-\TeXtoTEIPat{\rep}{}
-\TeXtoTEIPat{\sequentia}{}
-\TeXtoTEIPat{\supralineam}{}
-\TeXtoTEIPat{\interlineam}{}
-\TeXtoTEIPat{\vl}{}
-\TeXtoTEIPat{\vide}{}
-\TeXtoTEIPat{\videtur}{}
-\TeXtoTEIPat{\crux}{}
-\TeXtoTEIPat{\cruxxx}{}
-\TeXtoTEIPat{\unm }{}
+% \TeXtoTEIPat{\codd}{}
+% \TeXtoTEIPat{\conj }{}
+% \TeXtoTEIPat{\contin}{}
+% \TeXtoTEIPat{\corr}{}
+% \TeXtoTEIPat{\del}{}
+% \TeXtoTEIPat{\dub}{}
+% \TeXtoTEIPat{\emend }{}
+% \TeXtoTEIPat{\expl}{}
+% \TeXtoTEIPat{\ȩxplicat}{}
+% \TeXtoTEIPat{\fol}{}
+% \TeXtoTEIPat{\gloss}{}
+% \TeXtoTEIPat{\ins}{}
+% \TeXtoTEIPat{\im}{}
+% \TeXtoTEIPat{\inmargine}{}
+% \TeXtoTEIPat{\intextu}{}
+% \TeXtoTEIPat{\indist}{}
+% \TeXtoTEIPat{\iteravit}{}
+% \TeXtoTEIPat{\lectio}{}
+% \TeXtoTEIPat{\leginequit}{}
+% \TeXtoTEIPat{\legn}{}
+%\TeXtoTEIPat{\illeg}{<hi rend="italic">illeg.</hi>}
+\TeXtoTEIPat{\illeg}{<gap reason="illeg."/>} %%% change 2023-04-11 mm
+%\TeXtoTEIPat{\om}{<hi rend="italic">om.</hi>}
+\TeXtoTEIPat{\om}{<gap reason="om."/>} %%% change 2023-04-11 mm
+% \TeXtoTEIPat{\primman}{}
+% \TeXtoTEIPat{\prob}{}
+% \TeXtoTEIPat{\rep}{}
+% \TeXtoTEIPat{\sequentia}{}
+% \TeXtoTEIPat{\supralineam}{}
+% \TeXtoTEIPat{\interlineam}{}
+\TeXtoTEIPat{\vl}{<hi rend="italic">v.l.</hi>}
+% \TeXtoTEIPat{\vide}{}
+% \TeXtoTEIPat{\videtur}{}
+% \TeXtoTEIPat{\crux}{}
+% \TeXtoTEIPat{\cruxxx}{}
+\TeXtoTEIPat{\unm}{<hi rend="italic">unm.</hi>}
 
 
 % List of Scholars
 \DeclareScholar{nos}{nos}[
 forename=HPP,
 surname=Team]
-
-
 
 
 % Nullify \selectlanguage in TEI as it has been used in

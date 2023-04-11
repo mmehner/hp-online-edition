@@ -244,7 +244,7 @@
 			    'kgṅcjñṭḍṇtdnpbmyrlvśṣsh','कगङचजञटडणतदनपबमयरलवशषसह'),
 			    'ai','ऐ'),
 			    'au','औ'),
-			    'aāiīuūṛṝḷeo','अआइईउऊऋलृएओ'),
+			    'aāiīuūṛṝeo','अआइईउऊऋॠएओ'),
 			    '//',' ॥'),
 			    '/',' ।')"/>
     </xsl:when>
@@ -371,9 +371,7 @@
   
   <xsl:template match="note[@type='omission']">
     <span class="omission">
-    <xsl:text>(om. </xsl:text>
     <xsl:apply-templates/>
-    <xsl:text>)</xsl:text>
     </span>
   </xsl:template>
   

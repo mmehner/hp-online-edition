@@ -1,94 +1,86 @@
-This is LuaHBTeX, Version 1.15.0 (TeX Live 2022/Arch Linux)  (format=lualatex 2022.5.26)  7 JUN 2022 10:59
+This is LuaHBTeX, Version 1.15.1 (MiKTeX 22.12) (format=lualatex 2023.1.16)  5 APR 2023 15:36
  restricted system commands enabled.
 **HP1_TranslComm.tex
 (./HP1_TranslComm.tex
-LaTeX2e <2021-11-15> patch level 1
-Lua module: luaotfload 2022-03-18 3.21 Lua based OpenType font support
-Lua module: lualibs 2021-05-20 2.74 ConTeXt Lua standard libraries.
-Lua module: lualibs-extended 2021-05-20 2.74 ConTeXt Lua libraries -- extended c
+LaTeX2e <2022-11-01> patch level 1
+Lua module: luaotfload 2022-10-03 3.23 Lua based OpenType font support
+Lua module: lualibs 2022-10-04 2.75 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2022-10-04 2.75 ConTeXt Lua libraries -- extended c
 ollection.
-luaotfload | conf : Root cache directory is "/home/sahibram/.texlive/texmf-var/l
-uatex-cache/generic/names".
-luaotfload | init : Loading fontloader "fontloader-2022-02-24.lua" from kpse-res
-olved path "/usr/share/texmf-dist/tex/luatex/luaotfload/fontloader-2022-02-24.lu
-a".
+luaotfload | conf : Root cache directory is "C:/Users/demoto/AppData/Local/MiKTe
+X/2.9/luatex-cache/generic/names".
+luaotfload | init : Loading fontloader "fontloader-2022-10-03.lua" from kpse-res
+olved path "C:/Program Files MD/MiKTeX 2.9/tex/luatex/luaotfload/fontloader-2022
+-10-03.lua".
 Lua-only attribute luaotfload@noligature = 1
-luaotfload | init : Context OpenType loader version 3.119
-Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
-Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
-Inserting `luaotfload.glyph_stream' at position 1 in `glyph_stream_provider'.
-Inserting `luaotfload.define_font' at position 1 in `define_font'.
+luaotfload | init : Context OpenType loader version 3.120
+Inserting `luaotfload.node_processor' in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' in `hpack_filter'.
+Inserting `luaotfload.glyph_stream' in `glyph_stream_provider'.
+Inserting `luaotfload.define_font' in `define_font'.
 Lua-only attribute luaotfload_color_attribute = 2
-luaotfload | conf : Root cache directory is "/home/sahibram/.texlive/texmf-var/l
-uatex-cache/generic/names".
-Inserting `luaotfload.harf.strip_prefix' at position 1 in `find_opentype_file'.
-Inserting `luaotfload.harf.strip_prefix' at position 1 in `find_truetype_file'.
+luaotfload | conf : Root cache directory is "C:/Users/demoto/AppData/Local/MiKTe
+X/2.9/luatex-cache/generic/names".
+Inserting `luaotfload.harf.strip_prefix' in `find_opentype_file'.
+Inserting `luaotfload.harf.strip_prefix' in `find_truetype_file'.
 Removing  `luaotfload.glyph_stream' from `glyph_stream_provider'.
-Inserting `luaotfload.harf.glyphstream' at position 1 in `glyph_stream_provider'
-.
-Inserting `luaotfload.harf.finalize_vlist' at position 1 in `post_linebreak_filt
-er'.
-Inserting `luaotfload.harf.finalize_hlist' at position 2 in `hpack_filter'.
-Inserting `luaotfload.cleanup_files' at position 1 in `wrapup_run'.
-Inserting `luaotfload.harf.finalize_unicode' at position 1 in `finish_pdffile'.
-Inserting `luaotfload.glyphinfo' at position 1 in `glyph_info'.
+Inserting `luaotfload.harf.glyphstream' in `glyph_stream_provider'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_hlist' in `hpack_filter'.
+Inserting `luaotfload.cleanup_files' in `wrapup_run'.
+Inserting `luaotfload.harf.finalize_unicode' in `finish_pdffile'.
+Inserting `luaotfload.glyphinfo' in `glyph_info'.
 Lua-only attribute luaotfload.letterspace_done = 3
-Inserting `luaotfload.aux.set_sscale_dimens' at position 1 in `luaotfload.patch_
-font'.
-Inserting `luaotfload.aux.set_font_index' at position 2 in `luaotfload.patch_fon
-t'.
-Inserting `luaotfload.aux.patch_cambria_domh' at position 3 in `luaotfload.patch
-_font'.
-Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_fon
-t_unsafe'.
-Inserting `luaotfload.aux.set_capheight' at position 4 in `luaotfload.patch_font
-'.
-Inserting `luaotfload.aux.set_xheight' at position 5 in `luaotfload.patch_font'.
-Inserting `luaotfload.rewrite_fontname' at position 6 in `luaotfload.patch_font'
-. L3 programming layer <2022-04-10>
-Inserting `tracingstacklevels' at position 1 in `input_level_string'. (./Preamb
-le-Print.tex
-(/usr/share/texmf-dist/tex/latex/memoir/memoir.cls
-Document Class: memoir 2022/02/20 v3.7q configurable book, report, article docu
-ment class
-(/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Inserting `luaotfload.aux.set_sscale_dimens' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_font_index' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.patch_cambria_domh' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.fixup_fontdata' in `luaotfload.patch_font_unsafe'.
+Inserting `luaotfload.aux.set_capheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_xheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.rewrite_fontname' in `luaotfload.patch_font'. L3 programm
+ing layer <2022-12-17>
+Inserting `tracingstacklevels' in `input_level_string'. (./Preamble-Print.tex
+("C:/Program Files MD/MiKTeX 2.9/tex/latex/memoir/memoir.cls"
+Document Class: memoir 2022/11/17 v3.7.19 configurable book, report, article do
+cument class
+("C:/Program Files MD/MiKTeX 2.9/tex/latex/etoolbox/etoolbox.sty"
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count183
 )
-\onelineskip=\skip47
-\lxvchars=\skip48
-\xlvchars=\skip49
+\onelineskip=\skip48
+\lxvchars=\skip49
+\xlvchars=\skip50
 \@memcnta=\count184
 \c@@memmarkcntra=\count185
 
-(/usr/share/texmf-dist/tex/generic/iftex/iftex.sty
+("C:/Program Files MD/MiKTeX 2.9/tex/generic/iftex/iftex.sty"
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 )
-\stockheight=\skip50
-\stockwidth=\skip51
-\trimtop=\skip52
-\trimedge=\skip53
+\stockheight=\dimen139
+\stockwidth=\dimen140
+\trimtop=\skip51
+\trimedge=\skip52
 
-(/usr/share/texmf-dist/tex/latex/memoir/mem10.clo
-File: mem10.clo 2008/01/30 v0.3 memoir class 10pt size option
-luaotfload | db : Font names database loaded from /home/sahibram/.texlive/texmf-
-var/luatex-cache/generic/names/luaotfload-names.luc.gz)
-\binding=\skip54
-\spinemargin=\skip55
-\foremargin=\skip56
-\uppermargin=\skip57
-\lowermargin=\skip58
-\headdrop=\skip59
-\normalrulethickness=\skip60
-\mem@maxheadheight=\skip61
-\mem@maxfootheight=\skip62
-\headwidth=\skip63
+("C:/Program Files MD/MiKTeX 2.9/tex/latex/memoir/mem10.clo"
+File: mem10.clo 2022/07/29 v0.5 memoir class 10pt size option
+luaotfload | db : Font names database loaded from C:/Users/demoto/AppData/Local/
+MiKTeX/2.9/luatex-cache/generic/names/luaotfload-names.luc.gz)
+\binding=\skip53
+\spinemargin=\skip54
+\foremargin=\skip55
+\uppermargin=\skip56
+\lowermargin=\skip57
+\headdrop=\skip58
+\normalrulethickness=\skip59
+\mem@maxheadheight=\skip60
+\mem@maxfootheight=\skip61
+\headwidth=\skip62
 \c@storedpagenumber=\count186
-\memPD=\dimen137
-\m@mabparskip=\skip64
-\thanksmarkwidth=\skip65
-\thanksmarksep=\skip66
-\droptitle=\skip67
+\memPD=\dimen141
+\m@mabparskip=\skip63
+\thanksmarkwidth=\skip64
+\thanksmarksep=\skip65
+\droptitle=\skip66
 \c@book=\count187
 \c@part=\count188
 \c@chapter=\count189
@@ -97,230 +89,230 @@ var/luatex-cache/generic/names/luaotfload-names.luc.gz)
 \c@subsubsection=\count192
 \c@paragraph=\count193
 \c@subparagraph=\count194
-\beforechapskip=\skip68
-\midchapskip=\skip69
-\afterchapskip=\skip70
-\chapindent=\skip71
-\bottomsectionskip=\skip72
-\secindent=\skip73
-\beforesecskip=\skip74
-\aftersecskip=\skip75
-\subsecindent=\skip76
-\beforesubsecskip=\skip77
-\aftersubsecskip=\skip78
-\subsubsecindent=\skip79
-\beforesubsubsecskip=\skip80
-\aftersubsubsecskip=\skip81
-\paraindent=\skip82
-\beforeparaskip=\skip83
-\afterparaskip=\skip84
-\subparaindent=\skip85
-\beforesubparaskip=\skip86
-\aftersubparaskip=\skip87
-\pfbreakskip=\skip88
+\beforechapskip=\skip67
+\midchapskip=\skip68
+\afterchapskip=\skip69
+\chapindent=\skip70
+\bottomsectionskip=\skip71
+\secindent=\skip72
+\beforesecskip=\skip73
+\aftersecskip=\skip74
+\subsecindent=\skip75
+\beforesubsecskip=\skip76
+\aftersubsecskip=\skip77
+\subsubsecindent=\skip78
+\beforesubsubsecskip=\skip79
+\aftersubsubsecskip=\skip80
+\paraindent=\skip81
+\beforeparaskip=\skip82
+\afterparaskip=\skip83
+\subparaindent=\skip84
+\beforesubparaskip=\skip85
+\aftersubparaskip=\skip86
+\pfbreakskip=\skip87
 \c@@ppsavesec=\count195
 \c@@ppsaveapp=\count196
-\ragrparindent=\dimen138
-\everylistparindent=\dimen139
-\parsepi=\skip89
-\topsepi=\skip90
-\itemsepi=\skip91
-\parsepii=\skip92
-\topsepii=\skip93
-\topsepiii=\skip94
-\itemsepii=\skip95
-\itemsepiii=\skip96
-\partopsepii=\skip97
-\partopsepiii=\skip98
-\m@msavetopsep=\skip99
-\m@msavepartopsep=\skip100
+\ragrparindent=\dimen142
+\everylistparindent=\dimen143
+\parsepi=\skip88
+\topsepi=\skip89
+\itemsepi=\skip90
+\parsepii=\skip91
+\topsepii=\skip92
+\topsepiii=\skip93
+\itemsepii=\skip94
+\itemsepiii=\skip95
+\partopsepii=\skip96
+\partopsepiii=\skip97
+\m@msavetopsep=\skip98
+\m@msavepartopsep=\skip99
 \@enLab=\toks16
-\abstitleskip=\skip101
-\absleftindent=\skip102
-\abs@leftindent=\dimen140
-\absrightindent=\skip103
-\absparindent=\skip104
-\absparsep=\skip105
+\abstitleskip=\skip100
+\absleftindent=\skip101
+\abs@leftindent=\dimen144
+\absrightindent=\skip102
+\absparindent=\skip103
+\absparsep=\skip104
 \c@vslineno=\count197
 \c@poemline=\count198
 \c@modulo@vs=\count199
 \c@memfvsline=\count266
-\vleftskip=\skip106
-\vrightskip=\skip107
-\stanzaskip=\skip108
-\versewidth=\skip109
-\vgap=\skip110
-\vindent=\skip111
-\vleftmargin=\dimen141
+\vleftskip=\skip105
+\vrightskip=\skip106
+\stanzaskip=\skip107
+\versewidth=\skip108
+\vgap=\skip109
+\vindent=\skip110
+\vleftmargin=\dimen145
 \c@verse=\count267
 \c@chrsinstr=\count268
-\beforepoemtitleskip=\skip112
-\afterpoemtitleskip=\skip113
+\beforepoemtitleskip=\skip111
+\afterpoemtitleskip=\skip112
 \c@poem=\count269
-\beforePoemTitleskip=\skip114
-\midPoemTitleskip=\skip115
-\afterPoemTitleskip=\skip116
+\beforePoemTitleskip=\skip113
+\midPoemTitleskip=\skip114
+\afterPoemTitleskip=\skip115
 
-(/usr/share/texmf-dist/tex/latex/tools/array.sty
-Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
-\col@sep=\dimen142
-\ar@mcellbox=\box50
-\extrarowheight=\dimen143
+("C:/Program Files MD/MiKTeX 2.9/tex/latex/tools/array.sty"
+Package: array 2022/03/10 v2.5f Tabular extension package (FMi)
+\col@sep=\dimen146
+\ar@mcellbox=\box51
+\extrarowheight=\dimen147
 \NC@list=\toks17
-\extratabsurround=\skip117
-\backup@length=\skip118
-\ar@cellbox=\box51
+\extratabsurround=\skip116
+\backup@length=\skip117
+\ar@cellbox=\box52
 )
-(/usr/share/texmf-dist/tex/latex/tools/dcolumn.sty
+("C:/Program Files MD/MiKTeX 2.9/tex/latex/tools/dcolumn.sty"
 Package: dcolumn 2014/10/28 v1.06 decimal alignment package (DPC)
 )
-(/usr/share/texmf-dist/tex/latex/tools/delarray.sty
+("C:/Program Files MD/MiKTeX 2.9/tex/latex/tools/delarray.sty"
 Package: delarray 2014/10/28 v1.01 array delimiter package (DPC)
 )
-(/usr/share/texmf-dist/tex/latex/tools/tabularx.sty
+("C:/Program Files MD/MiKTeX 2.9/tex/latex/tools/tabularx.sty"
 Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
-\TX@col@width=\dimen144
-\TX@old@table=\dimen145
-\TX@old@col=\dimen146
-\TX@target=\dimen147
-\TX@delta=\dimen148
+\TX@col@width=\dimen148
+\TX@old@table=\dimen149
+\TX@old@col=\dimen150
+\TX@target=\dimen151
+\TX@delta=\dimen152
 \TX@cols=\count270
 \TX@ftn=\toks18
 )
-\heavyrulewidth=\dimen149
-\lightrulewidth=\dimen150
-\cmidrulewidth=\dimen151
-\belowrulesep=\dimen152
-\belowbottomsep=\dimen153
-\aboverulesep=\dimen154
-\abovetopsep=\dimen155
-\cmidrulesep=\dimen156
-\cmidrulekern=\dimen157
-\defaultaddspace=\dimen158
+\heavyrulewidth=\dimen153
+\lightrulewidth=\dimen154
+\cmidrulewidth=\dimen155
+\belowrulesep=\dimen156
+\belowbottomsep=\dimen157
+\aboverulesep=\dimen158
+\abovetopsep=\dimen159
+\cmidrulesep=\dimen160
+\cmidrulekern=\dimen161
+\defaultaddspace=\dimen162
 \@cmidla=\count271
 \@cmidlb=\count272
-\@aboverulesep=\dimen159
-\@belowrulesep=\dimen160
+\@aboverulesep=\dimen163
+\@belowrulesep=\dimen164
 \@thisruleclass=\count273
 \@lastruleclass=\count274
-\@thisrulewidth=\dimen161
-\ctableftskip=\skip119
-\ctabrightskip=\skip120
+\@thisrulewidth=\dimen165
+\ctableftskip=\skip118
+\ctabrightskip=\skip119
 \abovecolumnspenalty=\count275
 \@linestogo=\count276
 \@cellstogo=\count277
 \@cellsincolumn=\count278
 \crtok=\toks19
-\@mincolumnwidth=\dimen162
+\@mincolumnwidth=\dimen166
 \c@newflo@tctr=\count279
-\mem@margin@floatbox=\box52
-\@contcwidth=\skip121
-\@contindw=\skip122
-\abovecaptionskip=\skip123
-\belowcaptionskip=\skip124
-\subfloattopskip=\skip125
-\subfloatcapskip=\skip126
-\subfloatcaptopadj=\skip127
-\subfloatbottomskip=\skip128
-\subfloatlabelskip=\skip129
-\subfloatcapmargin=\dimen163
+\mem@margin@floatbox=\box53
+\@contcwidth=\skip120
+\@contindw=\skip121
+\abovecaptionskip=\skip122
+\belowcaptionskip=\skip123
+\subfloattopskip=\skip124
+\subfloatcapskip=\skip125
+\subfloatcaptopadj=\skip126
+\subfloatbottomskip=\skip127
+\subfloatlabelskip=\skip128
+\subfloatcapmargin=\dimen167
 \c@@contsubnum=\count280
-\m@mscap@capbox=\box53
-\m@mscap@fbox=\box54
-\sidecapsep=\dimen164
-\sidecapwidth=\dimen165
-\m@m@tempdima=\dimen166
-\m@mscapraise=\dimen167
-\sidecapraise=\dimen168
-\m@mscapmainwidth=\dimen169
-\m@mscaplkern=\dimen170
-\beforeepigraphskip=\skip130
-\afterepigraphskip=\skip131
-\epigraphwidth=\skip132
-\epigraphrule=\skip133
+\m@mscap@capbox=\box54
+\m@mscap@fbox=\box55
+\sidecapsep=\dimen168
+\sidecapwidth=\dimen169
+\m@m@tempdima=\dimen170
+\m@mscapraise=\dimen171
+\sidecapraise=\dimen172
+\m@mscapmainwidth=\dimen173
+\m@mscaplkern=\dimen174
+\beforeepigraphskip=\skip129
+\afterepigraphskip=\skip130
+\epigraphwidth=\skip131
+\epigraphrule=\skip132
 LaTeX Info: Redefining \em on input line 7655.
 LaTeX Info: Redefining \emph on input line 7663.
-\tocentryskip=\skip134
-\tocbaseline=\skip135
-\cftparskip=\skip136
-\cftbeforebookskip=\skip137
-\cftbookindent=\dimen171
-\cftbooknumwidth=\dimen172
-\cftbeforepartskip=\skip138
-\cftpartindent=\skip139
-\cftpartnumwidth=\skip140
-\cftbeforechapterskip=\skip141
-\cftchapterindent=\skip142
-\cftchapternumwidth=\skip143
-\cftbeforesectionskip=\skip144
-\cftsectionindent=\skip145
-\cftsectionnumwidth=\skip146
-\cftbeforesubsectionskip=\skip147
-\cftsubsectionindent=\skip148
-\cftsubsectionnumwidth=\skip149
-\cftbeforesubsubsectionskip=\skip150
-\cftsubsubsectionindent=\skip151
-\cftsubsubsectionnumwidth=\skip152
-\cftbeforeparagraphskip=\skip153
-\cftparagraphindent=\skip154
-\cftparagraphnumwidth=\skip155
-\cftbeforesubparagraphskip=\skip156
-\cftsubparagraphindent=\skip157
-\cftsubparagraphnumwidth=\skip158
-\prechapterprecisshift=\dimen173
+\tocentryskip=\skip133
+\tocbaseline=\skip134
+\cftparskip=\skip135
+\cftbeforebookskip=\skip136
+\cftbookindent=\dimen175
+\cftbooknumwidth=\dimen176
+\cftbeforepartskip=\skip137
+\cftpartindent=\skip138
+\cftpartnumwidth=\skip139
+\cftbeforechapterskip=\skip140
+\cftchapterindent=\skip141
+\cftchapternumwidth=\skip142
+\cftbeforesectionskip=\skip143
+\cftsectionindent=\skip144
+\cftsectionnumwidth=\skip145
+\cftbeforesubsectionskip=\skip146
+\cftsubsectionindent=\skip147
+\cftsubsectionnumwidth=\skip148
+\cftbeforesubsubsectionskip=\skip149
+\cftsubsubsectionindent=\skip150
+\cftsubsubsectionnumwidth=\skip151
+\cftbeforeparagraphskip=\skip152
+\cftparagraphindent=\skip153
+\cftparagraphnumwidth=\skip154
+\cftbeforesubparagraphskip=\skip155
+\cftsubparagraphindent=\skip156
+\cftsubparagraphnumwidth=\skip157
+\prechapterprecisshift=\dimen177
 \c@maxsecnumdepth=\count281
-\bibindent=\dimen174
-\bibitemsep=\skip159
-\indexcolsep=\skip160
-\indexrule=\skip161
+\bibindent=\dimen178
+\bibitemsep=\skip158
+\indexcolsep=\skip159
+\indexrule=\skip160
 \indexmarkstyle=\toks20
 \@indexbox=\insert252
-\glossarycolsep=\dimen175
-\glossaryrule=\dimen176
-\sideparvshift=\skip162
+\glossarycolsep=\dimen179
+\glossaryrule=\dimen180
+\sideparvshift=\skip161
 \sideins=\insert251
-\sidebartopsep=\skip163
-\sidebarhsep=\skip164
-\sidebarvsep=\skip165
-\sidebarwidth=\skip166
-\footmarkwidth=\skip167
-\footmarksep=\skip168
-\footparindent=\skip169
-\footinsdim=\skip170
+\sidebartopsep=\skip162
+\sidebarhsep=\skip163
+\sidebarvsep=\skip164
+\sidebarwidth=\skip165
+\footmarkwidth=\skip166
+\footmarksep=\skip167
+\footparindent=\skip168
+\footinsdim=\skip169
 \footinsv@r=\insert250
 \@mpfootinsv@r=\insert249
 \m@m@k=\count282
-\m@m@h=\dimen177
-\m@mipn@skip=\skip171
+\m@m@h=\dimen181
+\m@mipn@skip=\skip170
 \sidefootins=\insert248
-\sidefootadjust=\skip172
-\sidefootheight=\skip173
-\sidefoothsep=\skip174
-\sidefootvsep=\skip175
-\sidefootwidth=\skip176
-\m@mdownsf=\skip177
+\sidefootadjust=\skip171
+\sidefootheight=\skip172
+\sidefoothsep=\skip173
+\sidefootvsep=\skip174
+\sidefootwidth=\skip175
+\m@mdownsf=\skip176
 \c@sidefootnote=\count283
-\sidefootmarkwidth=\skip178
-\sidefootmarksep=\skip179
-\sidefootparindent=\skip180
+\sidefootmarkwidth=\skip177
+\sidefootmarksep=\skip178
+\sidefootparindent=\skip179
 \c@pagenote=\count284
 \c@pagenoteshadow=\count285
-\mem@pn@lastkern=\skip181
+\mem@pn@lastkern=\skip180
 \every@verbatim=\toks21
 \afterevery@verbatim=\toks22
 \verbatim@line=\toks23
 \tab@position=\count286
 \verbatim@in@stream=\read2
-\verbatimindent=\skip182
+\verbatimindent=\skip181
 \verbatim@out=\write3
-\bvboxsep=\skip183
+\bvboxsep=\skip182
 \c@memfbvline=\count287
 \c@bvlinectr=\count288
-\bvnumlength=\skip184
-\fb@frw=\dimen178
-\fb@frh=\dimen179
-\FrameRule=\dimen180
-\FrameSep=\dimen181
+\bvnumlength=\skip183
+\fb@frw=\dimen182
+\fb@frh=\dimen183
+\FrameRule=\dimen184
+\FrameSep=\dimen185
 \c@cp@cntr=\count289
 \c@ism@mctr=\count290
 \c@xsm@mctr=\count291
@@ -337,19 +329,20 @@ LaTeX Info: Redefining \emph on input line 7663.
 \c@lastsheet=\count302
 \c@lastpage=\count303
 
-(/usr/share/texmf-dist/tex/latex/textcase/textcase.sty
-Package: textcase 2019/09/14 v1.00 Text only upper/lower case changing (DPC)
+("C:/Program Files MD/MiKTeX 2.9/tex/latex/textcase/textcase.sty"
+Package: textcase 2022/07/10 v1.03 Text only upper/lower case changing (DPC)
+Package textcase Info: Defining Legacy names on input line 20.
 )
 \c@figure=\count304
 \c@lofdepth=\count305
-\cftbeforefigureskip=\skip185
-\cftfigureindent=\skip186
-\cftfigurenumwidth=\skip187
+\cftbeforefigureskip=\skip184
+\cftfigureindent=\skip185
+\cftfigurenumwidth=\skip186
 \c@table=\count306
 \c@lotdepth=\count307
-\cftbeforetableskip=\skip188
-\cfttableindent=\skip189
-\cfttablenumwidth=\skip190
+\cftbeforetableskip=\skip187
+\cfttableindent=\skip188
+\cfttablenumwidth=\skip189
 Package abstract [2008/07/23] emulated by memoir.
 Package appendix [2008/07/23] emulated by memoir.
 Package booktabs [2016/05/16] emulated by memoir.
@@ -401,38 +394,38 @@ Sidefoothsep and sidefootwidth: 7pt and 128pt
 Sidefootvsep and sidefootheight: 12pt and 548.39996pt
 ******************************************************
 
-(/usr/share/texmf-dist/tex/latex/yafoot/fnpos.sty
+("C:/Program Files MD/MiKTeX 2.9/tex/latex/yafoot/fnpos.sty"
 Package: fnpos 2018/09/03 v1.1 
 ) (./ekdosis.sty
 Package: ekdosis 2022/01/17 v1.5-dev Typesetting TEI xml-compliant critical edi
 tions
 
-(/usr/share/texmf-dist/tex/generic/expkv-opt/expkv-opt.sty
+("C:/Program Files MD/MiKTeX 2.9/tex/generic/expkv-opt/expkv-opt.sty"
 Package: expkv-opt 2021-04-04 v0.2 parse class and package options with expkv
 
-(/usr/share/texmf-dist/tex/latex/expkv/expkv.sty
-(/usr/share/texmf-dist/tex/generic/expkv/expkv.tex
+("C:/Program Files MD/MiKTeX 2.9/tex/latex/expkv/expkv.sty"
+("C:/Program Files MD/MiKTeX 2.9/tex/generic/expkv/expkv.tex"
 File: expkv.tex 2021-09-20 v1.9a an expandable key=val implementation
 )
 Package: expkv 2021-09-20 v1.9a an expandable key=val implementation
 ))
-(/usr/share/texmf-dist/tex/latex/expkv-def/expkv-def.sty
-(/usr/share/texmf-dist/tex/generic/expkv-def/expkv-def.tex
-(/usr/share/texmf-dist/tex/generic/expkv/expkv.tex)
+("C:/Program Files MD/MiKTeX 2.9/tex/latex/expkv-def/expkv-def.sty"
+("C:/Program Files MD/MiKTeX 2.9/tex/generic/expkv-def/expkv-def.tex"
+("C:/Program Files MD/MiKTeX 2.9/tex/generic/expkv/expkv.tex")
 File: expkv-def.tex 2022-01-29 v0.9 a key-defining frontend for expkv
 )
 Package: expkv-def 2022-01-29 v0.9 a key-defining frontend for expkv
 )
-(/usr/share/texmf-dist/tex/lualatex/luacode/luacode.sty
+("C:/Program Files MD/MiKTeX 2.9/tex/lualatex/luacode/luacode.sty"
 Package: luacode 2012/01/23 v1.2a lua-in-tex helpers (mpg)
 
-(/usr/share/texmf-dist/tex/generic/iftex/ifluatex.sty
+("C:/Program Files MD/MiKTeX 2.9/tex/generic/iftex/ifluatex.sty"
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 )
-(/usr/share/texmf-dist/tex/luatex/luatexbase/luatexbase.sty
+("C:/Program Files MD/MiKTeX 2.9/tex/luatex/luatexbase/luatexbase.sty"
 Package: luatexbase 2015/10/04 v1.3 luatexbase interface to LuaTeX 
 
-(/usr/share/texmf-dist/tex/luatex/ctablestack/ctablestack.sty
+("C:/Program Files MD/MiKTeX 2.9/tex/luatex/ctablestack/ctablestack.sty"
 Package: ctablestack 2015/10/01 v1.0 Catcode table stable support
 \@catcodetablestackcnt=\count308
 )
@@ -442,7 +435,7 @@ Package: ctablestack 2015/10/01 v1.0 Catcode table stable support
 \luacode@lines=\toks24
 \luacode@table@soft=\catcodetable14
 )
-(/usr/share/texmf-dist/tex/latex/paracol/paracol.sty
+("C:/Program Files MD/MiKTeX 2.9/tex/latex/paracol/paracol.sty"
 Package: paracol 2018/12/31 v1.35 
 \pcol@currcol=\count309
 \pcol@nextcol=\count310
@@ -454,67 +447,68 @@ Package: paracol 2018/12/31 v1.35
 \pcol@footnotebase=\count316
 \pcol@nfootnotes=\count317
 \pcol@mcid=\count318
-\pcol@prevdepth=\dimen182
-\pcol@colht=\dimen183
-\pcol@textfloatsep=\dimen184
-\pcol@lrmargin=\dimen185
-\pagerim=\dimen186
-\pcol@topskip=\skip191
-\belowfootnoteskip=\skip192
-\pcol@topfnotes=\box55
-\pcol@prespan=\box56
-\pcol@rightpage=\box57
-\pcol@colorstack@saved=\box58
-\pcol@tempboxa=\box59
-\pcol@tempboxb=\box60
+\pcol@prevdepth=\dimen186
+\pcol@colht=\dimen187
+\pcol@textfloatsep=\dimen188
+\pcol@lrmargin=\dimen189
+\pagerim=\dimen190
+\pcol@topskip=\skip190
+\belowfootnoteskip=\skip191
+\pcol@topfnotes=\box56
+\pcol@prespan=\box57
+\pcol@rightpage=\box58
+\pcol@colorstack@saved=\box59
+\pcol@tempboxa=\box60
+\pcol@tempboxb=\box61
 \pcol@colorins=\insert247
 \pcol@everyvbox=\toks25
 )
-(/usr/share/texmf-dist/tex/latex/lineno/lineno.sty
-Package: lineno 2005/11/02 line numbers on paragraphs v4.41
+("C:/Program Files MD/MiKTeX 2.9/tex/latex/lineno/lineno.sty"
+Package: lineno 2022/07/30 line numbers on paragraphs v5.0
 \linenopenalty=\count319
 \output=\toks26
 \linenoprevgraf=\count320
-\linenumbersep=\dimen187
-\linenumberwidth=\dimen188
+\linenumbersep=\dimen191
+\linenumberwidth=\dimen192
 \c@linenumber=\count321
 \c@pagewiselinenumber=\count322
 \c@LN@truepage=\count323
 \c@internallinenumber=\count324
 \c@internallinenumbers=\count325
-\quotelinenumbersep=\dimen189
-\bframerule=\dimen190
-\bframesep=\dimen191
-\bframebox=\box61
-LaTeX Info: Redefining \\ on input line 3056.
+\quotelinenumbersep=\dimen193
+\bframerule=\dimen194
+\bframesep=\dimen195
+\bframebox=\box62
+\linenoamsmath@ams@eqpen=\count326
+LaTeX Info: Redefining \\ on input line 3114.
 )
-(/usr/share/texmf-dist/tex/latex/trivfloat/trivfloat.sty
+("C:/Program Files MD/MiKTeX 2.9/tex/latex/trivfloat/trivfloat.sty"
 Package: trivfloat 2009/04/23 v1.4 Quick floats in LaTeX
-\c@tfl@float@cnt=\count326
+\c@tfl@float@cnt=\count327
 LaTeX Info: Redefining \tfl@uppercase on input line 223.
 )
-(/usr/share/texmf-dist/tex/latex/refcount/refcount.sty
+("C:/Program Files MD/MiKTeX 2.9/tex/latex/refcount/refcount.sty"
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 
-(/usr/share/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+("C:/Program Files MD/MiKTeX 2.9/tex/generic/ltxcmds/ltxcmds.sty"
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 )
-(/usr/share/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+("C:/Program Files MD/MiKTeX 2.9/tex/generic/infwarerr/infwarerr.sty"
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 ))
-(/usr/share/texmf-dist/tex/latex/zref/zref-user.sty
+("C:/Program Files MD/MiKTeX 2.9/tex/latex/zref/zref-user.sty"
 Package: zref-user 2022-04-07 v2.34 Module user for zref (HO)
 
-(/usr/share/texmf-dist/tex/latex/zref/zref-base.sty
+("C:/Program Files MD/MiKTeX 2.9/tex/latex/zref/zref-base.sty"
 Package: zref-base 2022-04-07 v2.34 Module base for zref (HO)
 
-(/usr/share/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
-Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+("C:/Program Files MD/MiKTeX 2.9/tex/latex/kvsetkeys/kvsetkeys.sty"
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 )
-(/usr/share/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+("C:/Program Files MD/MiKTeX 2.9/tex/generic/kvdefinekeys/kvdefinekeys.sty"
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 )
-(/usr/share/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+("C:/Program Files MD/MiKTeX 2.9/tex/generic/pdftexcmds/pdftexcmds.sty"
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -522,231 +516,160 @@ Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 \pdftexcmds@toks=\toks27
 )
-(/usr/share/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+("C:/Program Files MD/MiKTeX 2.9/tex/generic/etexcmds/etexcmds.sty"
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-(/usr/share/texmf-dist/tex/latex/auxhook/auxhook.sty
+("C:/Program Files MD/MiKTeX 2.9/tex/latex/auxhook/auxhook.sty"
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
 Package zref Info: New property list: main on input line 767.
 Package zref Info: New property: default on input line 768.
 Package zref Info: New property: page on input line 769.
 ))
-(/usr/share/texmf-dist/tex/latex/zref/zref-abspage.sty
+("C:/Program Files MD/MiKTeX 2.9/tex/latex/zref/zref-abspage.sty"
 Package: zref-abspage 2022-04-07 v2.34 Module abspage for zref (HO)
 
-(/usr/share/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+("C:/Program Files MD/MiKTeX 2.9/tex/latex/base/atbegshi-ltx.sty"
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\c@abspage=\count327
+\c@abspage=\count328
 Package zref Info: New property: abspage on input line 65.
 )
-(/usr/share/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
-Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
-\c@checkoddpage=\count328
+("C:/Program Files MD/MiKTeX 2.9/tex/latex/ifoddpage/ifoddpage.sty"
+Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
+\c@checkoddpage=\count329
 LaTeX Info: Redefining \checkoddpage on input line 45.
 )
-\ekd@app@height=\dimen192
-\c@ekd@pb=\count329
-\c@ekd@lab=\count330
-\c@ekd@vpnum=\count331
-\vwidth@val=\dimen193
-\ekdspace=\skip193
+\ekd@app@height=\dimen196
+\c@ekd@pb=\count330
+\c@ekd@lab=\count331
+\c@ekd@vpnum=\count332
+\vwidth@val=\dimen197
+\ekdspace=\skip192
 )
 (./sanskrit-poetry.sty
 Package: sanskrit-poetry 2021/09/03 v0.3 sanskrit verse typesetting
- (/usr/share/texmf-dist/tex/generic/xstring/xstring.sty
-(/usr/share/texmf-dist/tex/generic/xstring/xstring.tex
-\integerpart=\count332
-\decimalpart=\count333
+
+("C:/Program Files MD/MiKTeX 2.9/tex/latex/xstring/xstring.sty"
+("C:/Program Files MD/MiKTeX 2.9/tex/generic/xstring/xstring.tex"
+\integerpart=\count333
+\decimalpart=\count334
 )
 Package: xstring 2021/07/21 v1.84 String manipulations (CT)
 )
-\c@ekd@padanum=\count334
-\vnumskip=\skip194
-\c@saved@poemline=\count335
+\c@ekd@padanum=\count335
+\vnumskip=\skip193
+\c@saved@poemline=\count336
 )
-(/usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty
-Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
+("C:/Program Files MD/MiKTeX 2.9/tex/latex/xcolor/xcolor.sty"
+Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
 
-(/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
+("C:/Program Files MD/MiKTeX 2.9/tex/latex/graphics-cfg/color.cfg"
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: luatex.def on input line 227.
 
-(/usr/share/texmf-dist/tex/latex/graphics-def/luatex.def
-File: luatex.def 2021/06/01 v1.2c Graphics/color driver for luatex
+("C:/Program Files MD/MiKTeX 2.9/tex/latex/graphics-def/luatex.def"
+File: luatex.def 2022/09/22 v1.2d Graphics/color driver for luatex
 )
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1356.
-Package xcolor Info: Model `RGB' extended on input line 1368.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
+("C:/Program Files MD/MiKTeX 2.9/tex/latex/graphics/mathcolor.ltx")
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
+Package xcolor Info: Model `RGB' extended on input line 1369.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
 )
-(/usr/share/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2022/02/26 3.73 The Babel package
+("C:/Program Files MD/MiKTeX 2.9/tex/generic/babel/babel.sty"
+Package: babel 2022/12/26 3.84 The Babel package
 
-(/usr/share/texmf-dist/tex/generic/babel/luababel.def
+("C:/Program Files MD/MiKTeX 2.9/tex/generic/babel/luababel.def"
 \bbl@readstream=\read3
-\l@dumylang=\language2
+\l@french=\language2
 Package babel Info: Non-standard hyphenation setup on input line 118.
-\l@nohyphenation=\language3
-\l@german-x-2022-03-16=\language4
-\l@ngerman-x-2022-03-16=\language5
-\l@afrikaans=\language6
-\l@ancientgreek=\language7
-\l@ibycus=\language8
-\l@arabic=\language9
-\l@armenian=\language10
-\l@basque=\language11
-\l@belarusian=\language12
-\l@bulgarian=\language13
-\l@catalan=\language14
-\l@pinyin=\language15
-\l@churchslavonic=\language16
-\l@coptic=\language17
-\l@croatian=\language18
-\l@czech=\language19
-\l@danish=\language20
-\l@dutch=\language21
-\l@ukenglish=\language22
-\l@usenglishmax=\language23
-\l@esperanto=\language24
-\l@estonian=\language25
-\l@ethiopic=\language26
-\l@farsi=\language27
-\l@finnish=\language28
-\l@schoolfinnish=\language29
-\l@french=\language30
-\l@friulan=\language31
-\l@galician=\language32
-\l@georgian=\language33
-\l@german=\language34
-\l@ngerman=\language35
-\l@swissgerman=\language36
-\l@greek=\language37
-\l@monogreek=\language38
-\l@hungarian=\language39
-\l@icelandic=\language40
-\l@assamese=\language41
-\l@bengali=\language42
-\l@gujarati=\language43
-\l@hindi=\language44
-\l@kannada=\language45
-\l@malayalam=\language46
-\l@marathi=\language47
-\l@oriya=\language48
-\l@pali=\language49
-\l@panjabi=\language50
-\l@tamil=\language51
-\l@telugu=\language52
-\l@indonesian=\language53
-\l@interlingua=\language54
-\l@irish=\language55
-\l@italian=\language56
-\l@kurmanji=\language57
-\l@classiclatin=\language58
-\l@latin=\language59
-\l@liturgicallatin=\language60
-\l@latvian=\language61
-\l@lithuanian=\language62
-\l@macedonian=\language63
-\l@mongolian=\language64
-\l@mongolianlmc=\language65
-\l@bokmal=\language66
-\l@nynorsk=\language67
-\l@occitan=\language68
-\l@piedmontese=\language69
-\l@polish=\language70
-\l@portuguese=\language71
-\l@romanian=\language72
-\l@romansh=\language73
-\l@russian=\language74
-\l@sanskrit=\language75
-\l@serbian=\language76
-\l@serbianc=\language77
-\l@slovak=\language78
-\l@slovenian=\language79
-\l@spanish=\language80
-\l@swedish=\language81
-\l@thai=\language82
-\l@turkish=\language83
-\l@turkmen=\language84
-\l@ukrainian=\language85
-\l@uppersorbian=\language86
-\l@welsh=\language87
+\l@german=\language3
+\l@sanskrit=\language4
 \babelcatcodetablenum=\catcodetable15
 \bbl@pattcodes=\catcodetable16
 )
-\babel@savecnt=\count336
-\U@D=\dimen194
-\l@unhyphenated=\language88
+\babel@savecnt=\count337
+\U@D=\dimen198
+\l@unhyphenated=\language5
 
-(/usr/share/texmf-dist/tex/generic/babel/luababel.def
+("C:/Program Files MD/MiKTeX 2.9/tex/generic/babel/luababel.def"
 \bbl@attr@locale=\attribute4
 )
-(/usr/share/texmf-dist/tex/generic/babel-english/english.ldf
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:/Program Files MD/MiKTeX 2.9/tex/latex/arabi/bblopts.cfg"
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+("C:/Program Files MD/MiKTeX 2.9/tex/latex/babel-english/english.ldf"
 Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'british' set to \l@english
+(babel)             (\language0). Reported on input line 82.
+Package babel Info: Hyphen rules for 'UKenglish' set to \l@english
+(babel)             (\language0). Reported on input line 83.
 Package babel Info: Hyphen rules for 'canadian' set to \l@english
 (babel)             (\language0). Reported on input line 102.
-Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
-(babel)             (\language22). Reported on input line 105.
-Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
-(babel)             (\language22). Reported on input line 108.
+Package babel Info: Hyphen rules for 'australian' set to \l@english
+(babel)             (\language0). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@english
+(babel)             (\language0). Reported on input line 108.
 ))
-(./babel-iast.sty
+("C:/Program Files MD/MiKTeX 2.9/tex/generic/babel/locale/en/babel-english.tex"
+Package babel Info: Importing font and identification data for english
+(babel)             from babel-en.ini. Reported on input line 11.
+) (./babel-iast.sty
 Package: babel-iast 
 Package babel Info: Importing data for iast
 (babel)             from babel-sa-Deva.ini. Reported on input line 2.
 Package babel Info: Hyphen rules for 'iast' set to \l@sanskrit
-(babel)             (\language75). Reported on input line 2.
-Inserting `Babel.hyphenate' at position 1 in `hyphenate'.)
-(/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-(/usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2022-04-10 L3 programming layer (loader) 
+(babel)             (\language4). Reported on input line 2.
+Inserting `Babel.hyphenate' in `hyphenate'.)
+("C:/Program Files MD/MiKTeX 2.9/tex/latex/l3packages/xparse/xparse.sty"
+("C:/Program Files MD/MiKTeX 2.9/tex/latex/l3kernel/expl3.sty"
+Package: expl3 2022-12-17 L3 programming layer (loader) 
 
-(/usr/share/texmf-dist/tex/latex/l3backend/l3backend-luatex.def
-File: l3backend-luatex.def 2022-04-14 L3 backend support: PDF output (LuaTeX)
-\l__color_backend_stack_int=\count337
-\l__pdf_internal_box=\box62
+("C:/Program Files MD/MiKTeX 2.9/tex/latex/l3backend/l3backend-luatex.def"
+File: l3backend-luatex.def 2022-10-26 L3 backend support: PDF output (LuaTeX)
+\l__color_backend_stack_int=\count338
+\l__pdf_internal_box=\box63
 ))
-Package: xparse 2022-01-12 L3 Experimental document command parser
+Package: xparse 2022-12-17 L3 Experimental document command parser
 )
-(/usr/share/texmf-dist/tex/latex/fontspec/fontspec.sty
+("C:/Program Files MD/MiKTeX 2.9/tex/latex/fontspec/fontspec.sty"
 Package: fontspec 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
 Lua module: fontspec 2022/01/15 2.8a Font selection for XeLaTeX and LuaLaTeX
-(/usr/share/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
+("C:/Program Files MD/MiKTeX 2.9/tex/latex/fontspec/fontspec-luatex.sty"
 Package: fontspec-luatex 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaT
 eX
-\l__fontspec_script_int=\count338
-\l__fontspec_language_int=\count339
-\l__fontspec_strnum_int=\count340
-\l__fontspec_tmp_int=\count341
-\l__fontspec_tmpa_int=\count342
-\l__fontspec_tmpb_int=\count343
-\l__fontspec_tmpc_int=\count344
-\l__fontspec_em_int=\count345
-\l__fontspec_emdef_int=\count346
-\l__fontspec_strong_int=\count347
-\l__fontspec_strongdef_int=\count348
-\l__fontspec_tmpa_dim=\dimen195
-\l__fontspec_tmpb_dim=\dimen196
-\l__fontspec_tmpc_dim=\dimen197
+\l__fontspec_script_int=\count339
+\l__fontspec_language_int=\count340
+\l__fontspec_strnum_int=\count341
+\l__fontspec_tmp_int=\count342
+\l__fontspec_tmpa_int=\count343
+\l__fontspec_tmpb_int=\count344
+\l__fontspec_tmpc_int=\count345
+\l__fontspec_em_int=\count346
+\l__fontspec_emdef_int=\count347
+\l__fontspec_strong_int=\count348
+\l__fontspec_strongdef_int=\count349
+\l__fontspec_tmpa_dim=\dimen199
+\l__fontspec_tmpb_dim=\dimen256
+\l__fontspec_tmpc_dim=\dimen257
 
-(/usr/share/texmf-dist/tex/latex/base/fontenc.sty
+("C:/Program Files MD/MiKTeX 2.9/tex/latex/base/fontenc.sty"
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 )
-(/usr/share/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
-(/usr/share/texmf-dist/tex/generic/babel/locale/en/babel-english.tex
-Package babel Info: Importing font and identification data for english
-(babel)             from babel-en.ini. Reported on input line 11.
-)
-(./Manuscript-Sigla.tex) (./Abbreviations.tex) (./TeX2Tei-Commands.tex))
+("C:/Program Files MD/MiKTeX 2.9/tex/latex/fontspec/fontspec.cfg")))
+(./Manuscript-Sigla.tex) (./TeX2Tei-Commands.tex)) (./CommStyle.tex)
 (./HP1_TranslComm.aux
 
 Package babel Info: The following font families will use the default
@@ -763,17 +686,10 @@ Package babel Info: The following font families will use the default
 (babel)             these families, consider redefining them with \babelfont.
 (babel)             Reported on input line 5.
 
-luaotfload | cache : Lookup cache loaded from /home/sahibram/.texlive/texmf-var/
-luatex-cache/generic/names/luaotfload-lookup-cache.luc.
+luaotfload | cache : Lookup cache loaded from C:/Users/demoto/AppData/Local/MiKT
+eX/2.9/luatex-cache/generic/names/luaotfload-lookup-cache.luc.
 luaotfload | aux : font no 22 (nil) defines no feature for script latn with lang
 uage eng
-
-Package fontspec Warning: Font 'AdobeTextPro' is using the
-(fontspec)                default features for language 'English'.
-(fontspec)                That's usually fine, because many languages
-(fontspec)                require no specific features, but if the output is
-(fontspec)                not as expected, consider selecting another font.
-
 luaotfload | aux : font no 29 (nil) does not define feature smcp for script latn
  with language dflt
 luaotfload | aux : font no 30 (nil) does not define feature smcp for script latn
@@ -813,45 +729,45 @@ LaTeX Font Info:    Font shape `TU/AdobeTextPro(0)/m/n' will be
 )
 \openout1 = HP1_TranslComm.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
-2.
- (/usr/share/texmf-dist/tex/latex/base/ts1cmr.fd
-File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 3.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 3
+.
+ ("C:/Program Files MD/MiKTeX 2.9/tex/latex/base/ts1cmr.fd"
+File: ts1cmr.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-\c@ekdapparatus=\count349
-\c@loadepth=\count350
-\cftbeforeekdapparatusskip=\skip195
-\cftekdapparatusindent=\skip196
-\cftekdapparatusnumwidth=\skip197
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+\c@ekdapparatus=\count350
+\c@loadepth=\count351
+\cftbeforeekdapparatusskip=\skip194
+\cftekdapparatusindent=\skip195
+\cftekdapparatusnumwidth=\skip196
 
-(/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+("C:/Program Files MD/MiKTeX 2.9/tex/context/base/mkii/supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count351
-\scratchdimen=\dimen198
-\scratchbox=\box63
-\nofMPsegments=\count352
-\nofMParguments=\count353
+\scratchcounter=\count352
+\scratchdimen=\dimen258
+\scratchbox=\box64
+\nofMPsegments=\count353
+\nofMParguments=\count354
 \everyMPshowfont=\toks28
-\MPscratchCnt=\count354
-\MPscratchDim=\dimen199
-\MPnumerator=\count355
-\makeMPintoPDFobject=\count356
+\MPscratchCnt=\count355
+\MPscratchDim=\dimen259
+\MPnumerator=\count356
+\makeMPintoPDFobject=\count357
 \everyMPtoPDFconversion=\toks29
 )
 
@@ -860,170 +776,833 @@ Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 22.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 22.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 22.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 22.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 22.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 22.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 22.
-LaTeX Font Info:    Redeclaring math accent \check on input line 22.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 22.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 22.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 22.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 22.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 22.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 22.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 22.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 22.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 22.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 22.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 22.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 22.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 22.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 22.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 22.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 22.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 22.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 3.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 3.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 3.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 3.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 3.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 3.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 3.
+LaTeX Font Info:    Redeclaring math accent \check on input line 3.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 3.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 3.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 3.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 3.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 3.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 3.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 3.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 3.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 3.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 3.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 3.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 3.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 3.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 3.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 3.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 3.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 3.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 22.
+(Font)              `operators' in the math version `normal' on input line 3.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/AdobeTextPro(0)/m/n on input line 22
-.
+(Font)                  OT1/cmr/m/n --> TU/AdobeTextPro(0)/m/n on input line 3.
+
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 22.
+(Font)              `operators' in the math version `bold' on input line 3.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/AdobeTextPro(0)/m/n on input line 2
-2.
+(Font)                  OT1/cmr/bx/n --> TU/AdobeTextPro(0)/m/n on input line 3
+.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  TU/AdobeTextPro(0)/m/n --> TU/AdobeTextPro(0)/m/n on in
-put line 22.
+put line 3.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> TU/AdobeTextPro(0)/m/it on input line 
-22.
+3.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/AdobeTextPro(0)/b/n on input line 2
-2.
+(Font)                  OT1/cmr/bx/n --> TU/AdobeTextPro(0)/b/n on input line 3
+.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 22.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 3.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 22.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 3.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  TU/AdobeTextPro(0)/m/n --> TU/AdobeTextPro(0)/b/n on in
-put line 22.
+put line 3.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> TU/AdobeTextPro(0)/b/it on input line
- 22.
+ 3.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 22.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 3.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 22.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 3.
 LaTeX Font Info:    Font shape `TU/AdobeTextPro(0)/m/n' will be
-(Font)              scaled to size 18.66588pt on input line 872.
+(Font)              scaled to size 18.66588pt on input line 2394.
 LaTeX Font Info:    Font shape `TU/AdobeTextPro(0)/bx/n' in size <20.74> not av
 ailable
 (Font)              Font shape `TU/AdobeTextPro(0)/b/n' tried instead on input 
-line 872.
+line 2394.
 LaTeX Font Info:    Font shape `TU/AdobeTextPro(0)/b/n' will be
-(Font)              scaled to size 18.66588pt on input line 872.
+(Font)              scaled to size 18.66588pt on input line 2394.
 LaTeX Font Info:    Font shape `TU/AdobeTextPro(0)/m/n' will be
-(Font)              scaled to size 7.19995pt on input line 872.
+(Font)              scaled to size 7.19995pt on input line 2394.
 LaTeX Font Info:    Font shape `TU/AdobeTextPro(0)/m/n' will be
-(Font)              scaled to size 9.85492pt on input line 872.
+(Font)              scaled to size 9.85492pt on input line 2394.
 LaTeX Font Info:    Font shape `TU/AdobeTextPro(0)/bx/n' in size <10.95> not av
 ailable
 (Font)              Font shape `TU/AdobeTextPro(0)/b/n' tried instead on input 
-line 872.
+line 2394.
 LaTeX Font Info:    Font shape `TU/AdobeTextPro(0)/b/n' will be
-(Font)              scaled to size 9.85492pt on input line 872.
+(Font)              scaled to size 9.85492pt on input line 2394.
 LaTeX Font Info:    Font shape `TU/AdobeTextPro(0)/bx/n' in size <10> not avail
 able
 (Font)              Font shape `TU/AdobeTextPro(0)/b/n' tried instead on input 
-line 872.
+line 2394.
 LaTeX Font Info:    Font shape `TU/AdobeTextPro(0)/b/n' will be
-(Font)              scaled to size 8.99994pt on input line 872.
+(Font)              scaled to size 8.99994pt on input line 2394.
 
-Overfull \hbox (3.60559pt too wide) in paragraph at lines 872--872
-[]\TU/AdobeTextPro(0)/b/n/10 Transl.:[] \TU/AdobeTextPro(0)/m/n/10 Homage to the
- glo-ri-ous Ād-inātha by whom the knowl-edge of Haṭhayoga was taught.
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
  []
 
-[1
+LaTeX Font Info:    Font shape `TU/AdobeTextPro(0)/m/it' will be
+(Font)              scaled to size 8.99994pt on input line 2394.
+LaTeX Font Info:    Font shape `TU/AdobeTextPro(0)/m/it' will be
+(Font)              scaled to size 7.19995pt on input line 2394.
+
+Overfull \hbox (1.51027pt too wide) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Comm.:[] \TU/AdobeTextPro(0)/m/n/10 The read-ing \TU/AdobeTextPro(0)/m/it/10 r
+ā-jasaudha \TU/AdobeTextPro(0)/m/n/10 is prefer-able for po-et-i-cal rea-sons, as ex-plained in Hanneder
+ []
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (0.72734pt too wide) in paragraph at lines 872--872
+Overfull \hbox (12.24063pt too wide) in paragraph at lines 2394--2394
+\TU/AdobeTextPro(0)/m/it/10 natasaud-ham āroḍhum ic-chor ad-hi-ro-hiṇy an
+āyāsena saud-haprāpikā bha-vati evaṃ haṭhadīpikāpi
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1
+
+
+{C:/Users/demoto/AppData/Local/MiKTeX/2.9/fonts/map/pdftex/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
+ []
+
+
+Overfull \hbox (9.99394pt too wide) in paragraph at lines 2394--2394
+\TU/AdobeTextPro(0)/m/n/10 1.3b. While this read-ing is well at-tested by the ma
+nuscripts trans-mis-sion of the \TU/AdobeTextPro(0)/m/it/10 Haṭhapradīpikā
+ []
+
+
+Overfull \hbox (2.18799pt too wide) in paragraph at lines 2394--2394
+\TU/AdobeTextPro(0)/m/n/10 and some manuscripts of the \TU/AdobeTextPro(0)/m/it
+/10 Haṭharat-nā-valī \TU/AdobeTextPro(0)/m/n/10 (note that P,T,t1 of the cri
+t-i-cal edi-tion [Gharote
+ []
+
+LaTeX Font Info:    Font shape `TU/AdobeTextPro(0)/m/n' will be
+(Font)              scaled to size 8.09995pt on input line 2394.
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
+ []
+
+[3]
+Overfull \hbox (0.72734pt too wide) in paragraph at lines 2394--2394
 []\TU/AdobeTextPro(0)/b/n/10 Transl.:[] \TU/AdobeTextPro(0)/m/n/10 Kān-erī, P
 ūjyapāda, Nityanātha, Ni-rañ-jana, Kapālī, Bindunātha, and the one named
  []
 
-LaTeX Font Info:    Font shape `TU/AdobeTextPro(0)/m/n' will be
-(Font)              scaled to size 8.09995pt on input line 872.
-[2]
-LaTeX Font Info:    Font shape `TU/AdobeTextPro(0)/m/it' will be
-(Font)              scaled to size 8.99994pt on input line 872.
- [3]
-Overfull \hbox (3.77055pt too wide) in paragraph at lines 872--872
-[]\TU/AdobeTextPro(0)/b/n/10 Transl.:[] \TU/AdobeTextPro(0)/m/n/10 Hav-ing place
-d one foot on one thigh and the seated thigh on the other foot. Vīrāsana
+
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
  []
 
 
-Overfull \hbox (0.92534pt too wide) in paragraph at lines 872--872
-[]\TU/AdobeTextPro(0)/b/n/10 Transl.:[] \TU/AdobeTextPro(0)/m/n/10 Hav-ing block
-ed the anus with the crossed an-kles, fo-cused [the yogi] re-mains [thus].
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
  []
 
-LaTeX Font Info:    Font shape `TU/AdobeTextPro(0)/m/n' will be
-(Font)              scaled to size 6.29996pt on input line 1.
-LaTeX Font Info:    Font shape `TU/AdobeTextPro(0)/m/n' will be
-(Font)              scaled to size 4.49997pt on input line 1.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 1.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 1.
 [4]
-LaTeX Font Info:    Font shape `TU/AdobeTextPro(0)/m/it' will be
-(Font)              scaled to size 7.19995pt on input line 872.
- [5] [6] [7]
-Overfull \hbox (1.78033pt too wide) in paragraph at lines 872--872
+Overfull \hbox (16.25652pt too wide) in paragraph at lines 2394--2394
+\TU/AdobeTextPro(0)/m/n/10 10.45 (check) and Va-jrapāṇi’s \TU/AdobeTextPro
+(0)/m/it/10 Laghutantraṭīkā\TU/AdobeTextPro(0)/m/n/10 , p.45 (\TU/AdobeText
+Pro(0)/m/it/10 vīrāḥ khaṇḍakāpā-likā-dayaś caturviṃśatiḥ\TU/Ad
+obeTextPro(0)/m/n/10 ).
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
+ []
+
+[5]
+Overfull \hbox (7.42325pt too wide) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Comm.:[] \TU/AdobeTextPro(0)/m/n/10 The com-pound
+ \TU/AdobeTextPro(0)/m/it/10 saṃsāratāpa° \TU/AdobeTextPro(0)/m/n/10 is wel
+l at-tested and found else-where (e.g., \TU/AdobeTextPro(0)/m/it/10 Viṣṇupur
+āṇa
+ []
+
+
+Overfull \hbox (10.37714pt too wide) in paragraph at lines 2394--2394
+\TU/AdobeTextPro(0)/m/n/10 6.7.62, \TU/AdobeTextPro(0)/m/it/10 Ag-nipurāṇa \
+TU/AdobeTextPro(0)/m/n/10 371.1, \TU/AdobeTextPro(0)/m/it/10 Haṭhatattvakau-mu
+dī \TU/AdobeTextPro(0)/m/n/10 38.92, em-ph-Haṭhāb-hyās-apad-dhati ms. 46/44
+0,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
+ []
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
+ []
+
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
+ []
+
+
+Underfull \vbox (badness 1946) has occurred while \output is active []
+
+ [8]
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
+ []
+
+
+Overfull \hbox (13.71295pt too wide) in paragraph at lines 2394--2394
+[]\TU/AdobeTextPro(0)/m/it/10 śī-to-dak-ena prā-taḥs-nā-nanak-tab-ho-janap
+halāhārādirū-paniya-masya gra-haṇaṃ niya-
+ []
+
+
+Overfull \hbox (1.81625pt too wide) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Comm.:[] \TU/AdobeTextPro(0)/m/n/10 It is im-pos-
+si-ble to be cer-tain about the mean-ing of \TU/AdobeTextPro(0)/m/it/10 niya-m-a
+-graha\TU/AdobeTextPro(0)/m/n/10 , as the manuscripts
+ []
+
+
+Overfull \hbox (3.80978pt too wide) in paragraph at lines 2394--2394
+\TU/AdobeTextPro(0)/m/it/10 graha \TU/AdobeTextPro(0)/m/n/10 and takes it as tho
+ugh \TU/AdobeTextPro(0)/m/it/10 āgraha \TU/AdobeTextPro(0)/m/n/10 was im-plied,
+ which yields the mean-ing of ‘over-insistence
+ []
+
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
+ []
+
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
+ []
+
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
+ []
+
+
+Overfull \hbox (29.65561pt too wide) in paragraph at lines 2394--2394
+\TU/AdobeTextPro(0)/m/it/10 pādāṅguṣṭhaṃ savyenoru-jaṅghena parig
+ṛhyādṛśyaṃ kṛtvā tathā savyaṃ pādāṅguṣṭhuṃ dakṣiṇeno
+ru-
+ []
+
+
+Overfull \hbox (15.82275pt too wide) in paragraph at lines 2394--2394
+\TU/AdobeTextPro(0)/m/it/10 jaṅk-genādṛśyaṃ par-i-hṛhya yathā ca p
+ārṣṇib-hyāṃ vṛṣaṇayor apīḍanaṃ tathā yenāste tat svastikam
+ []
+
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
+ []
+
+
+Overfull \hbox (11.39938pt too wide) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Comm.:[] \TU/AdobeTextPro(0)/m/n/10 This pos-ture
+ first ap-pears in some Vaiṣṇava \TU/AdobeTextPro(0)/m/it/10 Saṃhitā\TU/
+AdobeTextPro(0)/m/n/10 s that pre-date the \TU/AdobeTextPro(0)/m/it/10 Haṭhapr
+adīpikā\TU/AdobeTextPro(0)/m/n/10 ,
+ []
+
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [14]
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
+ []
+
+
+Overfull \hbox (8.4284pt too wide) in paragraph at lines 2394--2394
+\TU/AdobeTextPro(0)/m/n/10 The source, the \TU/AdobeTextPro(0)/m/it/10 Vasiṣ
+ṭhasaṃhitā\TU/AdobeTextPro(0)/m/n/10 , sup-ports \TU/AdobeTextPro(0)/m/it/
+10 nirud-hya \TU/AdobeTextPro(0)/m/n/10 whereas the tes-ti-mo-nia sup-ports \TU
+/AdobeTextPro(0)/m/it/10 niyamya\TU/AdobeTextPro(0)/m/n/10 .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
+ []
+
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [16]
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
+ []
+
+[17]
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
+ []
+
+[18]
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
+ []
+
+
+Underfull \vbox (badness 1946) has occurred while \output is active []
+
+ [19]
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
+ []
+
+[20]
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
+ []
+
+[21]
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
+ []
+
+
+Underfull \vbox (badness 1946) has occurred while \output is active []
+
+ [22]
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
+ []
+
+[23]
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
+ []
+
+[24]
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
+ []
+
+[25]
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
+ []
+
+[26]
+Overfull \hbox (1.78033pt too wide) in paragraph at lines 2394--2394
 []\TU/AdobeTextPro(0)/b/n/10 Transl.:[] \TU/AdobeTextPro(0)/m/n/10 By med-i-tat-
 ing upon the self, re-strict-ing the diet and reg-u-larly prac-tis-ing Sid-dh
 āsana
  []
 
-[8] [9]
-LaTeX Font Info:    Font shape `TU/AdobeTextPro(0)/m/n' will be
-(Font)              scaled to size 5.39996pt on input line 872.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 872.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 872.
 
-Overfull \hbox (5.3184pt too wide) in paragraph at lines 872--872
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [27]
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
+ []
+
+[28]
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
+ []
+
+LaTeX Font Info:    Font shape `TU/AdobeTextPro(0)/m/n' will be
+(Font)              scaled to size 6.29996pt on input line 2394.
+LaTeX Font Info:    Font shape `TU/AdobeTextPro(0)/m/n' will be
+(Font)              scaled to size 4.49997pt on input line 2394.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 2394.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 2394.
+LaTeX Font Info:    Font shape `TU/AdobeTextPro(0)/m/n' will be
+(Font)              scaled to size 5.39996pt on input line 2394.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 2394.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 2394.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [29]
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
+ []
+
+
+Overfull \hbox (5.3184pt too wide) in paragraph at lines 2394--2394
 [][]\TU/AdobeTextPro(0)/b/n/10 Comm.:[] \TU/AdobeTextPro(0)/m/it/10 ut-tab-hya 
 \TU/AdobeTextPro(0)/m/n/10 vs \TU/AdobeTextPro(0)/m/it/10 ut-tamb-hya\TU/AdobeT
 extPro(0)/m/n/10 . The wit-nesses split pre-dictably along the two main branches
 
  []
 
-[10]
-Underfull \vbox (badness 3601) has occurred while \output is active []
+[30]
+Underfull \vbox (badness 1005) has occurred while \output is active []
 
- [11]
-Overfull \hbox (6.69304pt too wide) in paragraph at lines 872--872
+ [31]
+Overfull \hbox (6.69304pt too wide) in paragraph at lines 2394--2394
 []\TU/AdobeTextPro(0)/m/it/10 rā-jadan-tānāṃ daṃṣṭrāṇāṃ savyada
 kṣiṇab-hāge sthitānāṃ mūle ubhe mūlasthāne
  []
 
-[12] [13] [14] [15]
-Overfull \hbox (5.24802pt too wide) in paragraph at lines 872--872
+
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
+ []
+
+[32]
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
+ []
+
+[33]
+Overfull \hbox (18.2054pt too wide) in paragraph at lines 2394--2394
+\TU/AdobeTextPro(0)/m/n/10 syen-dra. How-ever, in the ex-tended re-cen-sion of 
+it known as the \TU/AdobeTextPro(0)/m/it/10 Gorakṣaśataka\TU/AdobeTextPro(0)
+/m/n/10 , \TU/AdobeTextPro(0)/m/it/10 Gorakṣasaṃhitā\TU/AdobeTextPro(0)/m/
+n/10 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
+ []
+
+
+Underfull \vbox (badness 1946) has occurred while \output is active []
+
+ [34]
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
+ []
+
+
+Overfull \hbox (8.61848pt too wide) in paragraph at lines 2394--2394
+[]\TU/AdobeTextPro(0)/m/n/10 [Note: The Yo-gac-in-tā-maṇi at-tributes its ci-
+ta-tion of verses on siṃhāsana to the Yo-gayājñavalkya
+ []
+
+[35]
+Overfull \hbox (56.18048pt too wide) in paragraph at lines 2394--2394
+\TU/AdobeTextPro(0)/m/n/10 berg, 1998, Ac-ces-sion Num-ber: 2000.284.4. https://
+www.met-mu-seum.org/art/col-lec-tion/search/39251).
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+
+ []
+
+
+Overfull \hbox (2.52722pt too wide) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Comm.:[] \TU/AdobeTextPro(0)/m/n/10 We have un-de
+r-stood \TU/AdobeTextPro(0)/m/it/10 pārś-vapāda \TU/AdobeTextPro(0)/m/n/10 (i
+.e., side of the foot) like the com-pound \TU/AdobeTextPro(0)/m/it/10 agrapāda
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
+ []
+
+[36]
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [37]
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
+ []
+
+
+Overfull \hbox (4.20912pt too wide) in paragraph at lines 2394--2394
+[]\TU/AdobeTextPro(0)/m/it/10 “śiśn-odararatāyai-tan na deya” etat yo-ga-
+jñā-nam etena śiśn-odararatas tyājyo nanv
+ []
+
+[38]
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
+ []
+
+[39]
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
+ []
+
+
+Overfull \hbox (5.24802pt too wide) in paragraph at lines 2394--2394
 []\TU/AdobeTextPro(0)/m/n/10 It seems that the four aṅ-gas of Haṭhayoga are be-ing re-ferred to in the sin-gu-lar (hence \TU/AdobeTextPro(0)/m/it/10 
 āsanaṃ\TU/AdobeTextPro(0)/m/n/10 ),
  []
 
-[16]
-Overfull \hbox (2.7206pt too wide) in paragraph at lines 872--872
+
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
+ []
+
+[40]
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
+ []
+
+[41]
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [42]
+Overfull \hbox (2.7206pt too wide) in paragraph at lines 2394--2394
 []\TU/AdobeTextPro(0)/m/n/10 ‘Roots of trivṛt etc., the first group (\TU/Ad
 obeTextPro(0)/m/it/10 vidāri-g-and-hādi\TU/AdobeTextPro(0)/m/n/10 ), \TU/Adob
 eTextPro(0)/m/it/10 ma-hat pañ-camūla\TU/AdobeTextPro(0)/m/n/10 , \TU/AdobeTe
@@ -1031,43 +1610,117 @@ xtPro(0)/m/it/10 mūrvā
  []
 
 
-Overfull \hbox (2.18315pt too wide) in paragraph at lines 872--872
+Overfull \hbox (2.18315pt too wide) in paragraph at lines 2394--2394
 \TU/AdobeTextPro(0)/m/n/10 other is pow-dered; now, crushed bar-ley grains are 
 im-preg-nated with the above
  []
 
-[17]
-Overfull \hbox (1.16643pt too wide) in paragraph at lines 872--872
+[43]
+Overfull \hbox (1.16643pt too wide) in paragraph at lines 2394--2394
 []\TU/AdobeTextPro(0)/m/it/10 hiṅgu\TU/AdobeTextPro(0)/m/n/10 : Asafoetida (Na
 d-karni 1926: pp 360–361): ‘If long con-tin-ued even in mod-er-ate doses,
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
+ []
 
- [18]
-[19]
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [20]
-[21] (./HP1_TranslComm.aux))
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
+ []
+
+
+Underfull \vbox (badness 1946) has occurred while \output is active []
+
+ [44]
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
+ []
+
+[45] [46]
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
+ []
+
+[47]
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2394--2394
+[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
+ []
+
+[48] [49] (./HP1_TranslComm.aux))
 
 Here is how much of LuaTeX's memory you used:
- 12823 strings out of 477762
- 100000,1144653 words of node,token memory allocated
- 1228 words of node memory still in use:
-   3 hlist, 1 vlist, 1 rule, 10 glue, 3 kern, 1 glyph, 24 attribute, 189 glue_sp
+ 12896 strings out of 478381
+ 100000,1977958 words of node,token memory allocated
+ 1218 words of node memory still in use:
+   3 hlist, 1 vlist, 1 rule, 10 glue, 3 kern, 1 glyph, 24 attribute, 187 glue_sp
 ec, 13 attribute_list, 2 write nodes
-   avail lists: 1:1,2:992,3:178,4:148,5:2033,6:61,7:6247,8:2,9:425,10:11,11:321
- 33135 multiletter control sequences out of 65536+600000
+   avail lists: 2:993,3:250,4:152,5:2326,6:75,7:6999,8:2,9:427,10:12,11:408
+ 32573 multiletter control sequences out of 65536+600000
  59 fonts using 11198111 bytes
- 78i,12n,99p,679b,801s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/fonts/eigene/Adobe-Text-Pro-Italic_2047.ttf></usr/share/fonts/eigene
-/Adobe-Text-Pro_2050.ttf></usr/share/fonts/eigene/Adobe-Text-Pro-Bold_2046.ttf>
-Output written on HP1_TranslComm.pdf (21 pages, 87898 bytes).
+ 78i,13n,98p,1545b,839s stack positions out of 10000i,1000n,20000p,200000b,80000s
+<C:/WINDOWS/Fonts/adobetextpro-it.otf><C:/WINDOWS/Fonts/adobetextpro-regular.otf
+><C:/WINDOWS/Fonts/adobetextpro-bold.otf>
+Output written on HP1_TranslComm.pdf (49 pages, 176793 bytes).
 
-PDF statistics: 92 PDF objects out of 1000 (max. 8388607)
- 59 compressed objects within 1 object stream
+PDF statistics: 176 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 

@@ -1,24 +1,5 @@
 \input{Preamble-Print}
-\makepagestyle{HPed}
-\makeoddhead{HPed}{\small\texteng{HP Transl. \& Comm.}}{}{\small\texteng{\today}}
-\makeevenhead{HPed}{\small\texteng{HP Transl. \& Comm.}}{}{\small\texteng{\today}}
-\makeoddfoot{HPed}{}{\small\texteng{\thepage}}{}
-\makeevenfoot{HPed}{}{\small\texteng{\thepage}}{}
-
-% additions/changes 2022-03-12 mm; 2022-6-1 MD:
-\SetTEIxmlExport{autopar=false}
-\NewDocumentEnvironment{translation}{O{}}{\textcolor{blue}{\textbf{Transl.:}}}{}
-\NewDocumentEnvironment{philcomm}{O{}}{
-	\textcolor{blue}{\textbf{Comm.:}}}{}
-\NewDocumentEnvironment{sources}{O{}}{
-	\textcolor{blue}{\textbf{Testimonia:}}}{}
-
-\setlength{\parskip}{0.3em}
-\setlength\parindent{0pt}
-\def\startverse{\begin{ekdverse}\begin{itshape}}
-\def\endverse{\end{itshape}\end{ekdverse}}
-\setvnum{}
-
+\input{CommStyle}
 \begin{document}
 \pagestyle{HPed}
 \begin{ekdosis}
@@ -27,273 +8,866 @@
 \chapter*{Translation \& philological commentary}
 \subsection*{1.1}
 \begin{translation}[hp01_001]
-Homage to the glorious Ādinātha by whom the knowledge of Haṭhayoga was taught. It shines forth like a ladder for one desirous of climbing to the lofty terrace of the royal palace.
+Homage to the glorious Ādinātha by whom the system of Haṭhayoga was taught. It shines forth like a ladder for one desirous of climbing to the lofty terrace of the royal palace.
 \end{translation}
 
-\begin{sources}[hp01_001]
-Yogasārasaṃgraha (line 3090), Gheraṇḍasaṃhitā
-\end{sources}
+\begin{testimonia}[hp01_001]
+Cf. Yogasārasaṃgraha, p. 54.
+\startverse
+sadādināthāya namo'stu tubhyaṃ yenopadiṣṭā haṭhayogavidyā | \\
+virājate pronnatarājayogam āroḍhum icchoradhirohiṇīva ||
+\endverse
 
-%\begin{philcomm}[hp01_001]
-%\end{philcomm}
+Gheraṇḍasaṃhitā 1.1
+\startverse
+ādīśvarāya praṇamāmi tasmai yenopadiṣṭā haṭhayogavidyā | \\
+virājate pronnatarājayogam āroḍhum icchor adhirohiṇīva ||
+\endverse
+\end{testimonia}
+
+\begin{philcomm}[hp01_001]
+The reading \emph{rājasaudha} is preferable for poetical reasons, as explained in Hanneder 2020, p. 128–130. Also, the \emph{Jyotsnā} explains that the \emph{alaṃkāra} here is a comparison (\emph{upamā}), which consists of four elements: (1) a particle expressing the comparison
+(\emph{iva}), (2) the object compared (\emph{upameya}), i.e., the \emph{haṭhayogavidyā} leading to Rājayoga (\emph{rājayogaprāpikā}), (3) the property compared, that is, effortlessness (\emph{anāyāsena}) and, most importantly, (4) an image to compare with, which in this case is \emph{rājasaudha}. This idea is confirmed by Brahmānanda, when he sums up and completes the poetical details as: \emph{yathā pronnatasaudham āroḍhum icchor adhirohiṇy anāyāsena saudhaprāpikā bhavati evaṃ haṭhadīpikāpi pronnatarājayogam āroḍhum icchor anāyāsena rājayogaprāpikā bhavatīti upamālaṅkāraḥ}.
+
+The Sanskrit poeticians explain that when some elements of a comparison remains unexpressed we get an incomplete (\emph{lupta}) comparison. Often words like \emph{iva} or \emph{yathā} are missing or the common property, but if we read \emph{rājayoga} we lose the \emph{upamāna} (i.e., \emph{rājasaudha}). One part of the comparison should not be missing. But from the perspective of \emph{alaṃkāraśāstra} the verse has a problem that has surely caused the dilemma: it either leaves the \emph{upameya} or the \emph{upamāna} incomplete. Brahmānanda has mentioned both \emph{yathā adhirohiṇī saudhaprāpikā bhavati evaṃ haṭhadīpikā rājayogaprāpikā bhavati}, but had to supply \emph{rājasaudha}, while his text reads \emph{rājayoga}. But to have the \emph{upameya} in the text is odd. Even Brahmānanda could only know of the image (\emph{rājasaudha}) from the alternative reading he did not accept. However, it seems likely that the author would have included the \emph{upamāna} in the text, as in our critical text, so that the reader would know that the upper terrace of the palace is an image for \emph{rājayoga}. It is further likely that the substitution of \emph{rājayoga} for \emph{rājasaudha} was the result of the tendency to insert the word \emph{yoga} in the opening verses of the text wherever possible, even where it does not fit, as can be seen in 1.2d (\emph{haṭhayogopadiśyate}) and 1.3b (\emph{rājayogam ajānatām}). In the latter case the poetical image has also been lost.
+
+The metre of 1.1 is Indravajrā
+\end{philcomm}
 
 \subsection*{1.2}
 \begin{translation}[hp01_002]
-Having bowed to the glorious guru, the Lord, the yogi Svātmārāma has taught the doctrine of Haṭhayoga solely for [attaining] Rājayoga.
+Having bowed to the glorious guru, the Lord, the yogi Svātmārāma has taught the system of Haṭhayoga solely for [attaining] Rājayoga.
 \end{translation}
 
-%\begin{philcomm}[hp01_002]
-%\end{philcomm}
+\begin{philcomm}[hp01_002]
+The reading \emph{yogopadiśyate} (J7,J10,N17,W4, etc.) is only possible if one accepts that double \emph{sandhi} is a feature of the style of composition, which it is not. Moreover, this reading appears to have resulted from an attempt to replace the word \emph{vidyā} with \emph{yoga} in the opening verses of the text.
+\end{philcomm}
 
 \subsection*{1.3}
 \begin{translation}[hp01_003]
-For those who are ignorant of Rājayoga because of confusion in the darkness of many opinions the compassionate Svātmārāma composes the Lamp on Haṭha.
+The compassionate Svātmārāma holds the Lamp on Haṭha for those who are ignorant of the royal path because of wandering in the darkness of many opinions.
 \end{translation}
 
-%\begin{philcomm}[hp01_003]          
-%\end{philcomm}
+\begin{testimonia}[hp01_003]
+Haṭharatnāvalī 1.4
+\startverse
+bhrāntyā bahumatadhvānte rājayogam ajānatām |\\
+kevalaṃ rājayogāya haṭhavidyopadiśyate || 
+\endverse
+\end{testimonia}
+
+\begin{philcomm}[hp01_003] 
+Most witnesses have \emph{rājayogam ajānatām} (`for those ignorant of Rājayoga') in 1.3b. While this reading is well attested by the manuscripts transmission of the \emph{Haṭhapradīpikā} and some manuscripts of the \emph{Haṭharatnāvalī} (note that P,T,t1 of the critical edition [Gharote 2009: 5 n. 2] have \emph{rājamārgam ajānataḥ}), the reading of a royal path (\emph{rājamārgam}) is consistent with the metaphor of people wandering from a path in the darkness and, therefore, most probably authorial. 
+
+In 1.1d both \emph{kṛpākaraḥ} and \emph{kṣamākaraḥ} are attested. The former is preserved by the V1 and group 2 whereas the latter by some manuscripts of the delta group. Since the context is the author helping yogis who have strayed from the royal path, \emph{kṛpākara} makes better sense. As Brahmānanda notes, this compound can be understood as one who is compassionate (\emph{kṛpā} + \emph{kara}) or one who is a mine (i.e., a rich source) of compassion (\emph{kṛpā} + \emph{ākara}). In the Devanagari transmission, the \emph{kṣa} of \emph{kṣamākaraḥ} may have arisen as a mistake for \emph{kṛ}.       
+\end{philcomm}
 
 \subsection*{1.4}
 \begin{translation}[hp01_004]
-In fact, Matsyendra, Gorakṣa and other [siddhas] knew the doctrine of Haṭha, and the yogi Svātmārāma knows it owing to their favour.
+In fact, Matsyendra, Gorakṣa and other [perfected yogis] knew the system of Haṭha, and the yogi Svātmārāma knows it owing to their favour.
 \end{translation}
 
-%\begin{philcomm}[hp01_004]          
-%\end{philcomm}
+\begin{testimonia}[hp01_004]
+Post-15th Century\\
+Haṭharatnāvali 1.3
+\startverse
+haṭhavidyāṃ hi gorakṣamatsyendrādyā vijānate |\\
+ātmārāmo 'pi jānīte śrīnivāsas tathā svayam || 
+\endverse
+\end{testimonia}
+
+\begin{philcomm}[hp01_004]   
+The word \emph{athavā} (‘or’) is difficult to construe here. Brahmānanda understands it as conjunction (\emph{athavāśabdaḥ samuccaye}), and this is how we have interpreted it. The variant \emph{mahāyogī} in group 4c (G5, J4, J11, Ko, P15) avoids this difficulty, but is probably an attempt to remove the difficulty of understanding \emph{athavā}. One could emend to \emph{tathā} but this would be a bold intervention given the weight of evidence supporting \emph{’thavā}.   
+\end{philcomm}
 
 \subsection*{1.5}
 \begin{translation}[hp01_005]
 The glorious Ādinātha, Matysendra, Śābara, Ānandabhairava, Cauraṅgī, Mīna, Gorakṣa, Virūpākṣa, Bileśaya,
 \end{translation}
 
-%\begin{philcomm}[hp01_005]          
-%\end{philcomm}
+\begin{testimonia}[hp01_005]
+Haṭharatnāvalī 1.80
+\startverse
+śrīādināthamatsyendraśābarānandabhairavāḥ |\\
+śāraṅgīmīnagorakṣavirūpākṣabileśayāḥ || 
+\endverse
+\end{testimonia}
+
+\begin{philcomm}[hp01_005]     
+In Śaiva texts which predate the haṭha corpus, Mīnanātha and Matsyendra are one and the same, but they are differentiated in later Tibetan and Indian lists of siddhas (Mallinson 2019:273 n.35).   
+\end{philcomm}
 
 \subsection*{1.6}
 \begin{translation}[hp01_006]
-Manthānabhairava, Siddhabuddha, and Kanthaḍi, Pauraṇṭaka, Surānanda, Siddhapāda, Carpaṭi.
+Manthānabhairava, Siddhabuddha, and Kanthaḍi, Koraṇṭaka, Surānanda, Siddhapāda, Carpaṭi.
 \end{translation}
 
-%\begin{philcomm}[hp01_006]          
-%\end{philcomm}
+\begin{testimonia}[hp01_006]
+Haṭharatnāvalī 1.81
+\startverse
+manthānabhairavo yogī siddhabuddhaś ca kandalī |\\
+korandakaḥ surānandaḥ siddhipādaś ca carpaṭī ||
+\endverse
+
+Caturbhuja Misra's Mugdhāvabodhinī (1.7.8) on the Rasahṛdayatantra
+\startverse
+manthānabhairavo yogī siddhabuddhaś ca kanthaḍī |\\
+koraṇṭakaḥ surānandaḥ siddhapādaś ca carpaṭī ||
+\endverse
+\end{testimonia}
+
+\begin{philcomm}[hp01_006]        
+Many manuscripts preserve the reading \emph{pauraṇṭaka}. We have accepted \emph{koraṇṭaka} because this name is associated with the \emph{Haṭhābhyāsapaddhati}. This reading is well attested by various manuscripts of the \emph{Haṭhapradīpikā}, including those of group 2, as well as those of the \emph{Haṭharatnāvalī} (Gharote 2009: 35 n. 3), which also attest \emph{gonandaka}. Also, \emph{Goraṇṭakuḍu} is the name of a disciple of Gorakṣanātha in the \emph{Navanāthacaritramu} (Jones 2017:194 n.3). The compound \emph{siddhapāda} could be a respectful affix. However, it seems unlikely here because it would cross the \emph{pāda} break.  
+\end{philcomm}
 
 \subsection*{1.7}
 \begin{translation}[hp01_007]
 Kānerī, Pūjyapāda, Nityanātha, Nirañjana, Kapālī, Bindunātha, and the one named Kākacaṇḍīśvara.
 \end{translation}
 
-%\begin{philcomm}[hp01_007]          
-%\end{philcomm}
+\begin{testimonia}[hp01_007]
+Haṭharatnāvalī 1.82
+\startverse
+karoṭiḥ pūjyapādaś ca nityanātho nirañjanaḥ |\\
+kapālī bindunāthaś ca kākacaṇḍīśvarāhvayaḥ || 
+\endverse
+
+Caturbhuja Misra's Mugdhāvabodhinī on the Rasahṛdayatantra
+​​\startverse
+kaṇerī pūjyapādaśca nityanātho nirañjanaḥ |\\
+kapālī bindunāthaśca kākacaṇḍīśvaro gajaḥ |
+\endverse
+\end{testimonia}
+
+\begin{philcomm}[hp01_007]   
+It is possible that \emph{pūjyapāda} could be a respectful affix to the name Kāṇerī. The variant \emph{dhvaninātha} may have resulted from a transposition of the first two syllables of \emph{nityanātha}.    
+\end{philcomm}
 
 \subsection*{1.8}
 \begin{translation}[hp01_008]
 Allamaprabhudeva, Ghoḍācolī, Ṭiṇṭiṇī, Bhālukī and Nāgabodha and Khaṇḍakāpālika.
 \end{translation}
 
-%\begin{philcomm}[hp01_008]          
-%\end{philcomm}
+\begin{testimonia}[hp01_008]
+Haṭharatnāvalī 1.83
+\startverse
+allamaḥ prabhudevaś ca naiṭacūṭiś ca ṭiṇṭiṇiḥ |\\
+bhālukir nāgabodhaś ca khaṇḍakāpālikas tathā || 
+\endverse
+
+Caturbhuja Misra's Mugdhāvabodhinī on the Rasahṛdayatantra
+\startverse
+āllamaḥ prabhudevaś ca ghoḍācolī ca ṭhiṇṭhinī |\\
+bhālukir nāgadevaś ca khaṇḍī kāpālikas tathā ||
+\endverse
+\end{testimonia}
+
+\begin{philcomm}[hp01_008]  
+The name Allamaprabhudeva (sometimes Allama Prabhu Deva or Allama Prabhudeva in secondary literaure) is largely transmitted as allamaḥ prabhudevaḥ, as though it were two names, although some manuscripts of the \emph{Haṭhapradīpikā} have \emph{allamaprabhudevaś ca} (i.e., Tue,V3,V8,V13,V16,V22,Vu,N24,N26) and so do some of the \emph{Haṭharatnāvalī} (i.e., P,T,t1 in Gharote 2009: 35 n. 8).
+
+The names Nāgabodha, Nāgabodhi, Naradeva, Nāgadeva all seem possible in 1.8c. 
+
+Many witnesses have khaṇḍa and kāpālika as separate names. However, khaṇḍakāpālika is well attested. Examples include \emph{Kathāsaritsāgara} 121.5 ff. (check), \emph{Bṛhatkathāmañjarī} 10.45 (check) and Vajrapāṇi’s \emph{Laghutantraṭīkā}, p.45 (\emph{vīrāḥ khaṇḍakāpālikādayaś caturviṃśatiḥ}). It may be a derogatory name for a Kāpālika, coined perhaps by an outsider and connoting something like a defective Kāpālika in the sense of a `part-time' Kāpālika. Alternatively, it could simply refer to one who used a broken skull as a bowl.
+\end{philcomm}
 
 \subsection*{1.9}
 \begin{translation}[hp01_009]
-These great siddhas and others have destroyed the rod of death through the power of Haṭhayoga and wander in the universe.
+Having destroyed the rod of death through the power of Haṭhayoga, these great perfected yogis and others wander in the world.
 \end{translation}
 
-%\begin{philcomm}[hp01_009]          
-%\end{philcomm}
+\begin{testimonia}[hp01_009]
+Haṭharatnāvalī 1.84
+\startverse
+ityādayo mahāsiddhāḥ haṭhayogaprasādataḥ |\\
+khaṇḍayitvā kāladaṇḍaṃ brahmāṇḍe vicaranti te ||
+\endverse
+
+Caturbhuja Misra's Mugdhāvabodhinī on the Rasahṛdayatantra
+\startverse
+ityādayo mahāsiddhā rasabhogaprasādataḥ |\\
+khaṇḍayitvā kāladaṇḍaṃ trilokyāṃ vicaranti te |
+\endverse
+
+Haṭhatattvakaumudī 17.24
+\startverse
+ūrdhvaṃretaḥprabhāvena sanakādyā maharṣayaḥ |\\
+khaṇḍayitvā kāladaṇḍaṃ yathecchaṃ viharanti te || 24 ||
+\endverse
+\end{testimonia}
+
+\begin{philcomm}[hp01_009]        
+The reference to \emph{brahmāṇḍa} (‘the world’) implies liberation-in-life (\emph{jīvanmukti}) and physical immortality.  
+\end{philcomm}
 
 \subsection*{1.10}
 \begin{translation}[hp01_010]
-Haṭha is considered a refuge for those who are burnt by the pains of transmigration. Haṭha is the foundational tortoise for the worlds of all yogas.
+Haṭha is considered a refuge for those who are burnt by the scorching torment of transmigration. Haṭha is the tortoise that supports the worlds of all yogas.
 \end{translation}
 
-%\begin{philcomm}[hp01_010]          
-%\end{philcomm}
+\begin{testimonia}[hp01_010]
+Yogasārasaṃgraha (YSS), p.53.
+\startverse
+saṃsāratāpataptānāṃ samāśrayahaṭho haṭhaḥ |\\
+aśeṣayogajagatām ādhārakamaṭho haṭhaḥ ||
+\endverse
+\end{testimonia}
+
+\begin{philcomm}[hp01_010] 
+The compound \emph{saṃsāratāpa°} is well attested and found elsewhere (e.g., \emph{Viṣṇupurāṇa} 6.7.62, \emph{Agnipurāṇa} 371.1, \emph{Haṭhatattvakaumudī} 38.92, emph{Haṭhābhyāsapaddhati} ms. 46/440, f. 1v). The reading of \emph{samāśrayo} in V1 is metrically faulty. The accepted reading \emph{āśrayo [']yam} is better metically and well attested. N23 preserves the reading \emph{samāśrayamaṭho haṭhaḥ} (similar to the \emph{Yogasārasaṃgraha}), which is similar to the fourth \emph{pāda}. Though this reading is possible, it seems more likely that it came about through dittography. The word \emph{°jagatāṃ} is probably authorial because it makes good sense with  \emph{ādhārakamaṭha} in light of the cosmological notion that the tortoise supports all the worlds. However, this reading may not have been understood by some and was changed in the vulgate and other witnesses to \emph{°yuktānāṃ} instead.      
+\end{philcomm}
 
 \subsection*{1.11}
 \begin{translation}[hp01_011]
-The doctrine of Haṭha should be kept very secret by those yogis who are desiring success. When it is secret it becomes potent. However, when it has been revealed, it becomes impotent.
+The doctrine of Haṭha should be kept completely secret by those yogis who are desiring success. When it is secret it becomes potent. However, when it has been revealed, it becomes impotent.
 \end{translation}
 
 \begin{sources}[hp01_011]
-ŚS 5.254; BKhP 10v4, YCM
+Śivasaṃhitā
+\startverse
+haṭhavidyā paraṃ gopyā yoginā siddhim icchatā |\\% (ab missing in some ŚS witnesses)
+bhaved vīryavatī guptā nirvīryā ca prakāśitā || 5.254
+\endverse
 \end{sources}
- 
-%\begin{philcomm}[hp01_011]          
-%\end{philcomm}
+
+\begin{testimonia}[hp01_011]
+Yogacintāmaṇi
+\startverse
+tathā haṭhapradīpikāyām—\\
+haṭhavidyā paraṃ gopyā yoginā siddhim icchatā |\\
+bhaved vīryavatī guptā nirvīryā tu prakāśiteti ||
+\endverse
+
+BKhP 10v4
+\end{testimonia}
+
+\begin{philcomm}[hp01_011]        
+Either the singular or plural of yogin could be read here. The singular is well attested among the testimonia. However, the weight of the manuscript evidence favours the plural.  
+\end{philcomm}
 
 \subsection*{1.12}
 \begin{translation}[hp01_012]
-In well-ruled, righteous region, with plenty of food and free of disturbances, the Haṭhayogi should live remotely in a small hut.
+In a well-ruled, righteous region, with plenty of food and free of disturbances, the Haṭhayogi should live remotely in a small hut.
 \end{translation}
 
 \begin{sources}[hp01_012]
-GŚ 32cd; BKhP 107v1, YCM
+References to maṭhikā here.
 \end{sources}
 
-%\begin{philcomm}[hp01_012]          
-%\end{philcomm}
+\begin{testimonia}[hp01_012]
+Haṭharatnāvalī 1.66
+\startverse
+surāṣṭre dhārmike deśe subhikṣe nirupadrave |\\
+ekāntamaṭhikāmadhye sthātavyaṃ haṭhayoginā ||
+\endverse
+
+Yogacintāmaṇi
+\startverse
+haṭhapradīpikāyām—\\
+surājye dhārmike deśe subhikṣe nirupadrave |\\
+ekānte maṭhikāmadhye sthātavyaṃ haṭhayoginā ||
+\endverse
+
+BKhP 107v1
+\end{testimonia}
+
+\begin{philcomm}[hp01_012]        
+In the \emph{Jyotsnā} and printed editions of the \emph{Haṭhapradīpikā}, including one by Digambara and Kokaje (1970: 6), this verse has the additional hemistich, \emph{dhanuḥpramāṇaparyantaṃ śilāgnijalavarjite}. This hemistich derives from the \emph{Gorakṣaśataka} (32cd), which has \emph{°paryante} instead of \emph{°paryantaṃ}. It stipulates that the hut should be built in a place measuring up to a bow length and free from rocks, fire and water. None of the early manuscripts have this hemistich which suggests that it was added at a later time. Nonetheless, it appears in over a dozen manuscripts that were consulted for this edition. These manuscripts are not close to an early hyparchetype of the text.
+\end{philcomm}
 
 \subsection*{1.13}
 \begin{translation}[hp01_013]
-It has a small door, without cracks and holes, its length is not too high or low, thickly smeared with cow dung in the proper way, clean, free from everything that annoys, adorned with a pavilion, altar and well, surrounded by a wall: these are the characteristics of the yoga hut as taught by the adept practitioners of haṭha.
+It has a small door and is without cracks, holes and potsherds. It extends not too high or low, and is thickly smeared with cow dung in the proper way. It is clean, free from everything that annoys, furnished on the outside with a verandah, altar and well, surrounded by a wall: these are the characteristics of the yoga hut as taught by the adept practitioners of haṭha.
 \end{translation}
 
 \begin{sources}[hp01_013]
-BKhP 107v3, YCM
- \end{sources}
+Cf. Dattātreyayogaśāstra
+\startverse
+suśobhanaṃ maṭhaṃ kuryāt sūkṣmadvāraṃ tu nirvraṇaṃ || 54 ||\\
+suṣṭhu liptaṃ gomayena sudhayā vā prayatnataḥ |\\
+matkuṇair maśakair bhūtair varjitaṃ ca prayatnataḥ || 55 ||\\
+dine dine susammṛṣṭaṃ sammārjanyā hy atandritaḥ |\\
+vāsitaṃ ca sugandhena dhūpitaṃ guggulādibhiḥ || 56 ||\\
+malamūtrādibhir vargair aṣṭādaśabhir eva ca |\\
+varjitaṃ dvārasampannaṃ vastrāvaraṇam eva vā || 57 ||
+\endverse
 
-\begin{philcomm}[hp01_013]          
-\emph{piṭharaṃ} good
+\end{sources}
+
+\begin{testimonia}[hp01_013]
+Suśruta 6.17.67:
+\emph{gṛhe nirābādhe}
+
+Yogacintāmaṇi
+\startverse
+alpadvāram arandhragartaghaṭitaṃ nāpy uccanīcāyitam |\\
+samyaggomayasāndraliptavimalaṃ niḥśeṣajantūjjhitam |\\
+bāhye maṇḍapakūpavediracitaṃ prākārasaṃveṣṭitam |\\
+proktaṃ yogamaṭhasya lakṣaṇam idaṃ siddhair haṭhābhyāsibhiḥ ||
+\endverse
+
+Haṭharatnāvalī 1.67
+\startverse
+alpadvāram arandhragartapiṭharaṃ nātyuccanīcāyataṃ\\
+samyaggomayasāndraliptavimalaṃ niḥśeṣabādhojjhitaṃ |\\
+bāhye maṇḍapavedikūparuciraṃ prākārasaṃveṣṭitam\\
+proktaṃ yogamaṭhasya lakṣaṇam idaṃ siddhair haṭhābhyāsibhiḥ ||
+\endverse
+
+BKhP 107v3
+\end{testimonia}
+
+\begin{philcomm}[hp01_013]  
+The syntax of this verse is rather problematic. One would expect the features of the hut, which are listed in the first three pādas of the verse, to be in the nominative case, with the words \emph{idaṃ lakṣaṇaṃ} in the fourth pāda referring back to them. However, the compounds in the first three pādas appear to qualify \emph{lakṣaṇa} as though they were adjectives, and this appears to have been the way the verse was composed.     
+
+The manuscripts preserve many different readings at the end of the compound beginning with \emph{arandhragarta°}. The reading \emph{°piṭharaṃ} has been suggested by Dominic Goodall, who understands it as potsherds (ask ref from Dominic?). The sense is that the hut should be free of rubbish, such as potsherds. One would expect a word for a defect in a hut that is similar to, but not the same as, cracks (\emph{randhra}) and holes (\emph{garta}). For this reason, the reading \emph{°vivaraṃ} looks like a patch, as its meaning does not add anything to \emph{°randhragarta°}. The reading \emph{viṭapaṃ} is well attested among the witnesses of the \emph{Haṭhapradīpikā} and \emph{Haṭharatnāvalī}. However, it is difficult to construe in this context unless it was intended to refer to creepers or branches that might invade or encroach upon the hut.
+
+Nearly all the early mss. have \emph{°bādhojjitaṃ}, whereas the Yogacintāmaṇi and V19 have the more easily understood reading of \emph{°jantūjjhitaṃ} (‘free from creatures’). However, \emph{°bādhojjitaṃ} may have been original because it is so well attested and a hut is described similarly in \emph{Suśrutasaṃhitā} 6.17.67 (\emph{gṛhe nirābādhe}).
 \end{philcomm}
 
 \subsection*{1.14}
 \begin{translation}[hp01_014]
-Locating oneself in a hut of such a kind, free from all worry, one should constantly practise yoga in the way taught by one's guru.
+Locating oneself in a hut of such a kind, free from all worry, [the yogi] should practise only yoga, in the way taught by his guru.
 \end{translation}
 
-%\begin{philcomm}[hp01_014]          
+\begin{sources}[hp01_014]
+Cf. Amanaska 2.15
+\startverse
+evaṃvidhaṃ guruṃ labdhvā sarvacintāvivarjitaḥ\\
+sthitvā manohare deśe yogam eva samabhyaset
+\endverse
+\end{sources}
+
+\begin{testimonia}[hp01_014]
+Yogacintāmaṇi
+\startverse
+evaṃvidhe maṭhe sthitvā sarvacintāvivarjitaḥ |\\
+gurūpadiṣṭamārgeṇa yogam eva sadābhyased iti ||
+\endverse
+
+Haṭharatnāvalī 1.68
+\startverse
+evaṃvidhe maṭhe sthitvā sarvacintāvivarjitaḥ |\\
+gurūpadiṣṭamārgeṇa yogam eva sadābhyaset ||
+\endverse
+\end{testimonia}
+
+%\begin{philcomm}[hp01_014]        
 %\end{philcomm}
 
 \subsection*{1.15}
 \begin{translation}[hp01_015]
-Overeating, exertion, chatter (gossiping/bickering?), sticking to rules, associating with people, inconstancy: through [these] six, yoga will be abandoned.
+Overeating, exertion, idle chatter, not sticking to rules, socialising, sensuality: through [these] six, yoga is lost.
 \end{translation}
 
-\begin{philcomm}[hp01_015]          
-Impossible to decide on meaning of \emph{niyamāgraha}, avagraha invisible, Jyotsnā takes it as over-insistence (as if \emph{āgraha} was implied) as he relates it to extreme ascetic practice; will be abandoned if \emph{prahāsyate} is adopted.
+\begin{testimonia}[hp01_015]
+Yogacintāmaṇi
+\startverse
+atyāhāraḥ prayāsaś ca prajalpo niyamagrahaḥ |\\
+janasaṅgaś ca laulyaṃ ca ṣaḍbhir yogaḥ praṇaśyati ||
+\endverse
+
+Haṭharatnāvalī 1.77
+\startverse
+atyāhāraḥ prayāsaś ca prajalpo niyamagrahaḥ |\\
+janasaṅgaṃ ca laulyaṃ ca ṣaḍbhir yogo vinaśyati ||
+\endverse
+
+Yuktabhavadeva 4.25 (attributed to the śivayoga)
+\startverse
+atyāhāraḥ prayāsaśca prajalpo niyamāgrahaḥ |\\
+janasaṃgaś ca laulyaṃ ca ṣaḍbhir yogo vinaśyati ||
+\endverse
+
+Jyotsnā
+\startverse
+śītodakena prātaḥsnānanaktabhojanaphalāhārādirūpaniyamasya grahaṇaṃ niyamagrahaḥ |
+\endverse
+
+Yogaprakāśikā
+\startverse
+niyamāgrahaḥ vakṣyamāṇaniyamāparipālanaṃ
+\endverse
+\end{testimonia}
+
+\begin{philcomm}[hp01_015]        
+It is impossible to be certain about the meaning of \emph{niyamagraha}, as the manuscripts do not indicate whether an \emph{avagraha} (i.e., \emph{prajalpo ’niyamagraha}) was intended. Although \emph{yama} and \emph{niyama} are not included in the \emph{Haṭhapradīpikā} as auxiliaries of Haṭhayoga, verse 2.14 implies that \emph{niyama} is necessary at least in the early stages of establishing a practice. Furthermore, verse 3.82 suggests that a yogi who does not practice \emph{niyama} might obtain success in yoga through the practice of \textit{vajroli}. Ambiguity over the role of \emph{yama} and \emph{niyama} in Haṭhayoga appears to have prompted some to insert verses on ten \emph{yama}s and ten \emph{niyama}s after the next verse (1.16). The additional verses may derive from the \emph{Śāradātilakatantra} (25.7–8) or the  \emph{Vasiṣṭhasaṃhitā} (1.38, 1.53). In the \emph{Jyotsnā}, Brahmānanda reads \emph{niyamāgraha} and takes it as though \emph{āgraha} was implied, which yields the meaning of ‘over-insistence on rules’, and he relates it to extreme ascetic practice.
 \end{philcomm}
 
 \subsection*{1.16}
 \begin{translation}[hp01_016]
-From zeal, conviction, resolve, understanding of the truth [of yoga], discernment, abandonment of associating with people: by [these] six, on the other hand, yoga is successful.
+However, from zeal, conviction, resolve, contentment, understanding of the truth, and avoiding contact with people, yoga is successful because of [these] six.
 \end{translation}
 
-\begin{philcomm}[hp01_016]          
-\emph{tattva} can sometimes refer to the practices of yoga: e.g., \emph{tritattva} in AS 13.12, 14.2--3.
+\begin{sources}[hp01_016]
+Dharmaputrikā 137cd–38ab%Narharināth ed.?
+\startverse
+utsāho niścayo dhairyaṃ santoṣas tattvadarśanam | \\
+kratūnāṃ copasaṃhāraḥ ṣaṭsādhanam iti smṛtam |
+\endverse
+
+Śivadharmottara 10 (W 122r):%JM: what ed or ms is this?
+\startverse
+utsāhān niścayād dhairyāt santoṣāt tattvadarśanāt |\\
+muner janapadatyāgād ṣaḍbhir yogaḥ prasiddhyati |
+\endverse
+
+Jñānārṇava 20.1
+\startverse
+utsāhān niścayād dhairyāt saṃtoṣāt tattvaniścayāt |\\
+muner janapadatyāgāt ṣaḍbhir yogaḥ prasidhyati || 1 ||
+\endverse
+
+Yogabindu by Haribhadra
+\startverse
+utsāhān niścayād dhairyāt saṃtopāt tattvadarśanāt |\\
+muner janapadatyāgāt ṣaḍbhir yogaḥ prasidhyati || 411 ||
+\endverse
+\end{sources}
+
+\begin{testimonia}[hp01_016]
+Yogacintāmaṇi
+\startverse
+utsāhāt sāhasād dhairyāt tatvajñānād viniścayāt |\\
+janasaṅgaparityāgāt ṣaḍbhir yogaḥ prasidhyati ||
+\endverse
+
+Haṭharatnāvalī 1.78:
+\startverse
+utsāhān niścayād dhairyāt tattvajñānārthadarśanāt
+[utsāhān niścalād- P,T]\\
+bindusthairyān mitāhārāj janasaṅgavivarjanāt |\\
+nidrātyāgāj jitaśvāsāt pīṭhasthairyād anālasāt\\
+gurvācāryaprasādāc ca ebhir yogas tu sidhyati || 
+\endverse
+\end{testimonia}
+
+\begin{philcomm}[hp01_016]    
+For the second \emph{pāda}, the north-Indian manuscripts have something along the lines of \emph{tattvajñānāc ca darśanāt}. The problem with this reading is the meaning of \emph{darśana} by itself (i.e., discernment of what?). The early sources of this verse, in particular the \emph{Śivadharmottara}, indicate that the second pāda read as \emph{santoṣāt tattvadarśanāt}, which makes much better sense of the word \emph{darśana} (i.e., ‘seeing the truth’). It seems that this reading may have been adopted by Svātmārāma because the word \emph{santoṣāt} is present in the south-Indian manuscripts. At some point in the transmission, \emph{tattvadarśanāt} became \emph{tattvajñānāt} and \emph{santoṣāt} was dropped. The word \emph{darśanāt} was changed to \emph{viniścayāt} in V19 and the \emph{Yogacintāmaṇi}, which indicates that we are not alone in questioning its meaning. The problem with \emph{viniścayāt} in \emph{pāda} two is that \emph{niścayāt} is widely attested in \emph{pāda} one. It should also be noted that the word \emph{tattva} could have a more specific meaning in the \emph{Haṭhapradīpikā} (4.3) as Svātmārāma states that it is a synonym of \emph{samādhi}. In other yoga texts, it can sometimes refer to the practices of yoga (e.g., \emph{tritattva} in \emph{Amṛtasiddhi} 13.12, 14.2--3). 
 \end{philcomm}
 
 \subsection*{1.17}
 \begin{translation}[hp01_017]
-Because it is the first auxiliary of haṭha, āsana is taught first. This (\emph{tad}) āsana brings about steadiness, good health and dexterity.
+Because it is the first auxiliary of haṭha, \emph{āsana} is taught first. This type of (\emph{tad}) \emph{āsana} brings about steadiness, good health and physical fitness.
 \end{translation}
 
-%\begin{philcomm}[hp01_017]          
-%\end{philcomm}
+\begin{testimonia}[hp01_017]
+Yogacintāmaṇi
+\startverse
+haṭhasya prathamāṅgatvād āsanaṃ pūrvam ucyate |\\
+tat kuryād āsanasthairyam ārogyaṃ cāṅgalāghavaṃ ||
+\endverse
+
+Haṭharatnāvalī 3.5
+\startverse
+haṭhasya prathamāṅgatvād āsanaṃ dārśyate mayā |\\
+tat kuryād āsanaṃ sthairyam ārogyaṃ cāṅgapāṭavam || 
+\endverse
+\end{testimonia}
+
+\begin{philcomm}[hp01_017]        
+The reading of \emph{aṅgapāṭavam} is attested among most of the early manuscripts. Although this compound rarely appears in other yoga texts, a similar term \emph{śarīrapāṭava} occurs in the \emph{Śivasaṃhitā} (2.35) as one of the benefits bestowed by digestive fire (\emph{vaiśvānarāgni}), which indicates that the word \emph{pāṭava} was used in relation to the body and the benefits of yoga. The compound \emph{aṅgapāṭava} seems to imply the optimal functioning of the body. However, the alternative reading, \emph{aṅgalāghava} (‘lightness of the limbs’ or ‘dexterity’) is more common in yoga texts, even in works known to Svātmārāma, such as the \emph{Dattātreyayogaśāstra} (\emph{śarīralaghutā}) and the \textit{Amanaska} ([...] \emph{laghutvaṃ ca śarīrasyopajāyate}). Therefore, it is likely that the less common term \emph{aṅgapāṭavam} was changed to the more widely used notion of \emph{aṅgalāghava}, perhaps early on in the transmission, as the latter is attested by group two (i.e., N23, V19, etc.) 
+\end{philcomm}
 
 \subsection*{1.18}
 \begin{translation}[hp01_018]
-I shall now teach some of the postures which have been accepted by sages (\emph{munis}) such as Vasiṣṭha and yogis such as Matsyendra.
+I shall now teach some of the postures which have been accepted by both sages (\emph{muni}), such as Vasiṣṭha, and yogis, such as Matsyendra.
 \end{translation}
 
-%\begin{philcomm}[hp01_018]          
-%\end{philcomm}
+\begin{testimonia}[hp01_018]
+Yogacintāmaṇi
+\startverse
+haṭhapradīpikāyām—\\
+vasiṣṭhādyaiś ca munibhir matsyendrādyaiś ca yogibhiḥ |\\
+aṅgīkṛtāny āsanāni vakṣyante kānicin mayā ||
+\endverse
+
+Haṭharatnāvalī 3.6
+\startverse
+vasiṣṭhādyaiś ca munibhir matsyendrādyaiś ca yogibhiḥ ||\\
+aṃgīkṛtāny āsanāni lakṣyante kāni cin mayā ||
+\endverse
+\end{testimonia}
+
+\begin{philcomm}[hp01_018]        
+On the historical implications of these two traditions of postural practice in early Haṭhayoga, see Mallinson 2016 (119–122) and Birch 2018 (45–46).
+\end{philcomm}
 
 \subsection*{1.19}
 \begin{translation}[hp01_019]
-Correctly placing the soles of both feet between the knees and thighs [and] sitting up with the body straight: they call that the auspicious [pose].
+Correctly placing the soles of both feet between the knees and thighs [and] sitting up with the body straight: they call that \emph{svastikāsana}.
 \end{translation}
 
 \begin{sources}[hp01_019]
-VS 1.68 etc
+Śāradātilaka 25.12
+\startverse
+jānūrvor antare  samyak  kṛtvā  pādatale ubhe |\\
+ṛjukāyo viśed yogī svastikaṃ tat pracakṣate ||
+\endverse
+
+Vasiṣṭhasaṃhitā 1.68
+\startverse
+jānūrvor antaraṃ samyak kṛtvā pādatale ubhe |\\
+ṛjukāyas tathāsīnaḥ svastikaṃ tat pracakṣate ||
+\endverse
+
+Yogayājñavalkya 3.3
+\startverse
+jānūrvor antare samyak kṛtvā pādatale ubhe\\
+ṛjukāyaḥ sukhāsīnaḥ svastikaṃ tat pracakṣate
+\endverse
 \end{sources}
 
-%\begin{philcomm}[hp01_019]          
-%\end{philcomm}
+\begin{testimonia}[hp01_019]
+Yogacintāmaṇi
+\startverse
+Yājñavalkyaḥ—\\
+jānūrvor antare samyak kṛtvā pādatale ubhe |\\
+ṛjukāyaḥ samāsīnaḥ svastikaṃ tat pracakṣate ||
+\endverse
+
+Haṭharatnāvalī 3.52
+\startverse
+atha svastikāsanam---\\
+jānūrvor antaraṃ samyak kṛtvā padatale ubhe ||\\
+ṛjukāyasamāsīnaḥ svastikaṃ tat pracakṣate || 
+\endverse
+
+\end{testimonia}
+
+\begin{philcomm}[hp01_019]        
+One might wonder how the soles of the feet could be placed between the knees and thighs. Brahmānanda explains that the region of the shank near the knee should be understood by the word ‘knee’ in this verse (\emph{atra jānuśabdena jānusaṃnihito jaṅghāpradeśo grāhyaḥ jānusaṃnihito jaṅghāpradeśaḥ}). This is consistent with the earliest known description of \emph{svastikāsana} in the \emph{Pātañjalayogaśāstravivaraṇa} (2.46), which states that the big toes of one foot are tucked in between the shank and thigh of the other so it is not seen (\emph{dakṣiṇaṃ pādāṅguṣṭhaṃ savyenorujaṅghena parigṛhyādṛśyaṃ kṛtvā tathā savyaṃ pādāṅguṣṭhuṃ dakṣiṇenorujaṅkgenādṛśyaṃ parihṛhya yathā ca pārṣṇibhyāṃ vṛṣaṇayor apīḍanaṃ tathā yenāste tat svastikam āsanam}). For a discussion of \emph{svastikāsana} in the Pātañjalayoga tradition, see Maas 2018: 68–69. The descriptions of \emph{svastikāsana} in early Śaiva Tantras do not mention the inserting of the toes between the knees and thighs (see Goodall 2004: 348–350, fn. 371).
+\end{philcomm}
 
 \subsection*{1.20}
 \begin{translation}[hp01_020]
-One should place one's right heel on the left, at the side of the [lower] back, and on the right the left in the same way. This is the Cow's Mouth [posture]; it is like a cow's mouth.
+[The yogi] should place his right heel on the left side of the [lower] back, and the left [heel] on the right [side], in the same way. This is \emph{gomukhāsana}, which [looks] like a cow's face.
 \end{translation}
 
 \begin{sources}[hp01_020]
-VS 1.70, YY? 3.5; BKhP 93v7
+Cf. Ahirbudhnyasaṃhitā 31.45cd–46
+\startverse
+ubhayor gulphayoḥ kṛtvā pṛṣṭhapārśvāv ubhāv api ||\\
+vyutkrameṇātha pāṇibhyāṃ vinyastābhyāṃ vigṛhya ca |\\
+prṣṭhagābhyāṃ padāṅguṣṭhāv etad gomukham ucyate || 
+\endverse
+
+Vasiṣṭhasaṃhitā 1.70
+\startverse
+savye dakṣiṇagulphaṃ tu pṛṣṭhapārśve niveśayet |\\
+dakṣiṇe 'pi tathā savyaṃ gomukhaṃ tat pracakṣate ||
+\endverse
+
+Yogayājñavalkya 3.5cd–3.6ab
+\startverse
+savye dakṣiṇagulphaṃ tu pṛṣṭhapārśve niveśayet\\
+dakṣiṇe ‘pi tathā savyaṃ gomukhaṃ gomukhaṃ yathā
+\endverse
 \end{sources}
 
-%\begin{philcomm}[hp01_020]          
-%\end{philcomm}
+\begin{testimonia}[hp01_020]
+Yogacintāmaṇi
+\startverse
+savye dakṣiṇagulphaṃ tu pṛṣthapārśve niveśayet |\\
+dakṣiṇe'pi tathā savyaṃ gomukhaṃ gomukhaṃ yathā ||
+\endverse
+
+Haṭharatnāvalī 3.53
+\startverse
+atha gomukhāsanam---\\
+savye dakṣiṇagulphaṃ tu pṛṣṭhapārśve niyojayet ||\\
+dakṣiṇe 'pi tathā savyaṃ gomukhaṃ gomukhāsanam ||
+\endverse
+\end{testimonia}
+
+\begin{philcomm}[hp01_020]        
+This posture first appears in some Vaiṣṇava \emph{Saṃhitā}s that predate the \emph{Haṭhapradīpikā}, namely, the \emph{Ahirbudhnyasaṃhitā} and the \emph{Vasiṣṭhasaṃhitā}. The position of the ankles is the same in all the source texts. However, an interesting feature of the description in the \emph{Ahirbudhnyasaṃhitā} is the position of the hands, which are crossed behind the back and hold the big toes. The \emph{Haṭhapradīpikā}’s description, which derives from the \emph{Vasiṣṭhasaṃhitā}, does not mention the position of the hands. For illustrations of six possible positions of the arms and hands, see Gharote, Jha, Devnath, Sakhalkar 2006: 111–113.
+\end{philcomm}
 
 \subsection*{1.21}
 \begin{translation}[hp01_021]
-Having placed one foot on one thigh and the seated thigh on the other foot. Vīrāsana is taught [thus]. 
+By fixing one foot on one thigh and placing the [other] thigh on the other foot, vīrāsana is taught [to arise].
 \end{translation}
+
+\begin{sources}[hp01_021]
+Vasiṣṭhasaṃhitā 1.72
+\startverse
+ekaṃ pādam athaikasmin vinyasyorau ca saṃsthitam |\\
+itarasmiṃs tathaivoruṃ vīrāsanam itīritam ||
+\endverse
+
+Cf. Śāradātilakatantra 25.15cd–16ab
+\startverse
+ekaṃ pādam adhaḥ kṛtvā vinyasyorau tathetaram ||\\
+ṛjukāyo viśed yogī vīrāsanam itīritam |
+\endverse
+
+Yogayājñavalkya 3.8
+\startverse
+ekaṃ pādam athaikasmin vinyasyoruṇi saṃsthitam |\\
+itarasmiṃs tathā coruṃ vīrāsanam udāhṛtam ||
+\endverse
+\end{sources}
+
+\begin{testimonia}[hp01_021]
+Yogacintāmaṇi
+\startverse
+ekaṃ pādam athaikasmin vinyasyoruṇi saṃsthitaḥ |\\
+itarasmiṃs tathā coruṃ vīrāsanam udāhṛtam ||
+\endverse
+
+Haṭharatnāvalī 3.54
+\startverse
+atha vīrāsanam---\\
+ekaṃ pādam athaikasmin vinyased ūruṇi sthiram ||\\
+itarasmiṃs tathā coruṃ vīrāsanam īritam || 
+\endverse
+\end{testimonia}
+
+\begin{philcomm}[hp01_021]   
+Although most witnesses have \emph{tathā} in 1.21a, the word \emph{atha} has been accepted because it is attested by V1, the sources and the testimonia. It appears to be verse filler here rather than indicating a temporal sequence of actions. Svātmārāma borrowed the verse on \emph{vīrāsana} from the \emph{Vasiṣṭhasaṃhitā}, the redactor of which appears to have adapted its first hemistich from a description of this posture in the \emph{Śāradātilakatantra}. This would explain the rather strange syntax of the \emph{Vasiṣṭhasaṃhitā}’s version, in which \emph{adhaḥ kṛtvā} was changed to \emph{athaikasmin}, and \emph{tathetaram} became \emph{ca saṃsthitam}. It seems that \emph{saṃsthitaṃ} must be understood with \emph{ūruṃ} in the third \emph{pāda} in the sense of \emph{saṃsthāpya} (i.e., ‘having placed’).
+
+Different versions of \emph{vīrāsana} are found in earlier Tantras, such as the Kiraṇatantra (58.9), Hemacandra’s \emph{Yogaśāstra} and commentaries on the \emph{Pātañjalayogaśāstra}. For a discussion of some of these sources, see Maas 2018: 66–68.
+\end{philcomm}
 
 \subsection*{1.22}
 \begin{translation}[hp01_022]
-Having blocked the anus with the crossed ankles, focused [the yogi] remains [thus]. Adepts of yoga know that this is kūrmāsana.
-
-Or: While focused, [the yogi] should bind the anus with crossed ankles. This is kūrmāsana. Experts in yoga know this.
+Knowers of yoga know that \emph{kūrmāsana} arises by attentively blocking the anus with turned-out ankles.
 \end{translation}
+
+\begin{sources}[hp01_022]
+Vasiṣṭhasaṃhitā 1.80
+\startverse
+gudaṃ nirudhya gulphābhyāṃ vyutkrameṇa samāhitaḥ |\\
+kūrmāsanaṃ bhaved etad iti yogavido viduḥ ||
+\endverse
+
+Cf. Ahirbudhnyasaṃhitā 31.35
+\startverse
+gudaṃ nipīḍya gulphābhyāṃ vyutkrameṇa samāhitaḥ |\\
+etat kūrmāsanaṃ proktaṃ yogasiddhikaraṃ param || 
+\endverse
+\end{sources}
+
+\begin{testimonia}[hp01_022]
+Yogacintāmaṇi
+\startverse
+gudaṃ niyamya gulphābhyaṃ vyutkrameṇa samāhitaḥ |\\
+kūrmāsanaṃ bhaved etad iti yogavido viduḥ ||
+\endverse
+
+Yuktabhavadeva 6.15
+\startverse
+haṭhapradīpikāyām\\
+gudaṃ niyamya gulphābhyāṃ vyutkrameṇa samāhitaḥ |\\
+kūrmāsanaṃ bhavedetaditi yogavido viduḥ ||
+\endverse
+
+\end{testimonia}
+
+\begin{philcomm}[hp01_022]   
+In the first \emph{pāda}, the witnesses are split between \emph{nirudhya} (‘having blocked’), \emph{nibadhya} (‘having bound’), \emph{niyamya} (‘having restrained’) and \emph{niṣpīḍya} (‘having pressed’). The source, the \emph{Vasiṣṭhasaṃhitā}, supports \emph{nirudhya} whereas the testimonia supports \emph{niyamya}. In terms of closing the anus by sitting on the ankles, \emph{nirudhya} makes better sense and has been adopted because it is supported by N23 (an important witness of group 2) and the manuscripts reported in the critical edition of the \emph{Vasiṣṭhasaṃhitā}. The word \emph{vyutkrameṇa} appears to describe the position of the ankles. Its basic meaning is ‘against the normal direction’, which would suggest that the ankles are turned out or crossed rather than placed together naturally. If the yogi is in a kneeling-type position, turning the feet out would bring the ankles together, blocking the perineal area. See \emph{Yoga Mīmāṃsā}, vol 8, no. 2, pp. 29–30 for a discussion of \emph{vyutkramena} and the position of the ankles in \emph{kūrmāsana}, and vol 8, no.2, Figures 3–6 for photographs of a practitioner performing this \emph{āsana}. 
+\end{philcomm}
 
 \subsection*{1.23}
 \begin{translation}[hp01_023]
-Having assumed padmāsana, inserted the hands between the knees and thighs, and placed [the hands] on the ground, [the yogi] remains in the air. This is kurkuṭāsana
-
-Or: [The yogi] should assume padmāsana, insert his hands between the knees and thighs onto the ground and place himself in the air. This is kurkuṭāsana.
+[The yogi] adeptly assumes \emph{padmāsana}, inserts the hands between the knees and thighs, places [the hands] on the ground, and remains in the air. This is \emph{kurkuṭāsana}.
 \end{translation}
 
+\begin{sources}[hp01_023]
+Vasiṣṭhasaṃhitā 1.78
+\startverse
+padmāsanaṃ samāsthāya jānūrvor antare karau |\\
+bhūmau niveśya saṃsthāpya vyomasthaṃ kukkuṭāsanam ||\\
+{[}niveśya bhūmau – mss. la, va, śa]
+\endverse
+
+Cf. Ahirbudhnyasaṃhitā 31.38
+\startverse
+kukkuṭāsanam\\
+padmāsanam adhiṣṭhāya jānvantaraviniḥsṛtau |\\
+karau bhūmau niveśyaitad vyomasthaṃ kukkuṭāsanam || 
+\endverse
+\end{sources}
+
+\begin{testimonia}[hp01_023]
+Yogacintāmaṇi
+\startverse
+padmāsanaṃ tu saṃyojya jānūrvor antare karau | \\
+niveśya bhūmau saṃsthāpya vyomasthaṃ kukkuṭāsanam ||
+\endverse
+
+Haṭharatnāvalī 3.73
+\startverse
+atha kukkuṭāsanam---\\
+padmāsanaṃ susaṃsthāpya jānūrvor antare karau ||\\
+niveśya bhūmau saṃsthāpya vyomasthaḥ kukkuṭāsanam ||
+\endverse
+\end{testimonia}
+
 \begin{philcomm}[hp01_023]
-Kurkuṭa/kurkkuṭa variant in \getsiglum{V1,J10ac,V3} is attested in Pañcatantra (M-W).
+\emph{Kurkuṭa} and \emph{kurkkuṭa} in V1, J10ac, V3 are variant spellings attested in the \emph{Pañcatantra} (M-W).
 \end{philcomm}
 
 \subsection*{1.24}
 \begin{translation}[hp01_024]
-Bound in kurkuṭāsana, [the yogi] binds the neck with the hands and lies supine like a tortoise. This is uttānakūrmāsana. 
+While maintaining kurkuṭāsana, [the yogi] binds the neck with the hands and lies like a tortoise on his back. This is uttānakūrmāsana.
 \end{translation}
 
-\begin{philcomm}[hp01_024]
-\emph{°bandhasthaḥ} or \emph{°vat kṛtvā}? Only V1 has latter, which is simpler. Are the others trying to improve it? Stemmatically ambiguous as \emph{°bandha°} is on one branch (V3/J8, V19) and \emph{°madhya°} the other (J10, J17, N17). V1 looks like an outlier. 
+\begin{testimonia}[hp01_024]
+Yogacintāmaṇi
+\startverse
+kukkuṭāsanabandhastho dorbhyāṃ saṃbadhya kandharam |\\
+bhavet kūrmavad uttānam etad uttānakūrmakam ||
+\endverse
 
-Adopt \emph{bandhastho} with note. \emph{°bandhastha} not found in any other texts. \emph{°vat kṛtvā} is not good.
+Haṭharatnāvalī 3.74
+\startverse
+kukkuṭāsanabandhastho dorbhyāṃ sambadhya kandharām ||\\
+śete kūrmavad uttānam etad uttānakūrmakam || 74 ||
+\endverse
+\end{testimonia}
+
+\begin{philcomm}[hp01_024]
+\emph{°bandhasthaḥ} or \emph{°vat kṛtvā}? Only V1 has the latter, which is simpler. Are the others trying to improve it? Stemmatically ambiguous as \emph{°bandha°} is on one branch (V3/J8, V19) and \emph{°madhya°} the other (J10, J17, N17). V1 looks like an outlier.
+
+Adopt \emph{bandhastho} with note. \emph{°bandhastha} not found in any other texts. While \emph{°vat kṛtvā} is possible, it is a singular reading that appears to be unrelated to the other variants.
 \end{philcomm}
 
 \subsection*{1.25}
 \begin{translation}[hp01_025]
-Having clasped the big toes with hands, [the yogi] should perform a bow drawing action as far as the ear. This is called dhanurāsana.
+Clasping the big toes with hands and performing the action of drawing a bow as far as the ear is called dhanurāsana.
 \end{translation}
 
-\begin{philcomm}[hp01_025]
-At a stretch (!), this could mean drawing a crossbow, with both hands taken back to the ears, but probably just means like a normal bow.
-
-Gheraṇḍasaṃhitā:
+\begin{testimonia}[hp01_025]
+Yogacintāmaṇi
 \startverse
- prasārya pādau bhuvi daṇḍarūpau |
- karau ca pṛṣṭhaṃ dhṛtapādayugmam |\\
- kṛtvā dhanustulyavivartitāṅgaṃ |
- nigadyate vai dhanurāsanaṃ tat || 2.18 ||
+pādāṅguṣṭhau ca pāṇibhyāṃ gṛhītvā śravaṇāvadhi |\\
+dhanurākarṣaṇaṃ kṛtvā dhanurāsanam īritam |
 \endverse
+
+Haṭharatnāvalī 3.51
+\startverse
+atha dhanurāsanam---\\
+pādāṅguṣṭhau tu pāṇibhyāṃ gṛhītvā śravaṇāvadhi ||\\
+dhanurākarṣaṇaṃ kṛtvā dhanurāsanam ucyate ||
+\endverse
+
+Cf. Haṭhayogasaṃhitā
+\startverse
+dhanurāsanam |\\
+prasārya pādau bhuvi daṇḍarūpau \\
+karau ca pṛṣṭhe dhṛtapādayugmau |\\
+kṛtvā dhanustulyavivarttitāṅgaṃ \\
+nigadyate vai dhanurāsanaṃ tat || 25 ||
+\endverse
+\end{testimonia}
+
+\begin{philcomm}[hp01_025]
+Comment on kṛtvā, which is the reading of V19, Yogacintāmaṇi and Haṭharatnāvalī.
 \end{philcomm}
 
 \subsection*{1.26}
 \begin{translation}[hp01_026]
-Having grasped the right foot, which is placed at the base of the left thigh, and the left foot, which is wrapped around the outside of the knee, [the yogi] remains with his body twisted. This āsana was taught by Matsyendranātha.
+Having grasped the right foot, which is placed at the base of the left thigh, [the yogi’s] left foot is wrapped around the outside of the knee and he remains with his body twisted. This āsana was taught by Matsyendranātha.
 \end{translation}
+
+\begin{testimonia}[hp01_026]
+Yogacintāmaṇi
+\startverse
+vāmorumūlārpitadakṣapādaṃ
+jānvor bahir veṣṭitadakṣadoṣṇā |\\
+pragṛhya tiṣṭhet parivartitāṅgaḥ
+śrīmatsyanāthoditam āsanaṃ syāt ||
+\endverse
+
+Haṭharatnāvalī
+\startverse
+atha matsyendrāsanam---\\
+vāmorumūlārpitā dakṣapādo jānvor bahir veṣṭitadakṣadoṣṇā ||\\
+pragṛhya tiṣṭhet partivartitāṅgaḥ śrīmatsyanāthoditam āsanaṃ syāt || 3.57 ||
+\endverse
+\end{testimonia}
 
 \subsection*{1.27}
 \begin{translation}[hp01_027]
-Through practice, Matsyendra's seat gives people a torch for the abdomen, a destructive weapon for a range of terrible diseases, the awakening of K and steadiness of the spine.
+Matsyendra's seat, by which the digestive fire is kindled, is a destructive weapon for a range of terrible diseases; through practice it brings about in people the awakening of Kuṇḍalinī and steadiness of the spine.
 \end{translation}
 
+\begin{testimonia}[hp01_027]
+Yogacintāmaṇi
+\startverse
+matsyendrapīṭhaṃ jaṭharapravṛddhiṃ\\
+pracaṇḍaruṅmaṇḍalakhaṇḍanāstram |\\
+abhyāsataḥ kuṇḍalinīprabodhaṃ\\
+daṇḍe sthiratvaṃ pradadāti puṃsām ||
+\endverse
+
+Haṭharatnāvalī 3.58
+\startverse
+matsyendrapīṭhaṃ jaṭharapradīptaṃ \\
+pracaṇḍarugmaṇḍalakhaṇḍanāstram ||\\
+abhyāsataḥ kuṇḍalinīprabodhaṃ \\
+daṇḍasthiratvaṃ ca dadāti puṃsām ||
+\endverse
+
+HTK
+\startverse
+matsyendrapīṭhaṃ jaṭharapracaṇḍa-\\
+ruṅmaṇḍalakhaṇḍanakhaṇḍanāstram |\\
+abhyāsataḥ kuṇḍalinīprabodhaṃ \\
+daṇḍasthiratvaṃ ca dadāti puṃsām || 8 ||
+\endverse
+
+YBD
+\startverse
+matsyendrapīṭhaṃ jaṭharaprabuddhaṃ\\
+pracaṇḍaruṅmaṇḍalakhaṇḍanāstram |\\
+abhyasataṃ kuṇḍalinīprabodhaṃ\\
+daṇḍasthiratvaṃ ca dadāti puṃsām ||
+\endverse
+\end{testimonia}
+
 \begin{philcomm}[hp01_027]
-Difficult to construe first half of verse: \emph{jaṭhara} compound needs to be in apposition to \emph{matsyendrapīṭhaṃ}. KDham ed has variant \emph{jaṭharapradīpaṃ} but \emph{pradīpa} is masculine. Perhaps we have to accept \emph{jaṭharapradīptiṃ}, but that crosses stemmatic lines, so \emph{jvalanapradīptiṃ}; or \emph{jaṭharapravṛddhiṃ}. \emph{jvalana} is found at 3.66 to refer to the fire in the body but \emph{jaṭhara}, stomach, is not found without \emph{agni} elsewhere.
+Difficult to construe first half of verse:
+We have not found an instance in another verse where \emph{jaṭhara} means \emph{jaṭharāgni}. So, the reading \emph{jvalana}° is better and most of the witnesses that have it attest \emph{jvalanapradīptam}. This compound has been accepted and understood as a reverse \emph{bahuvrīhi} (i.e., ‘the āsana by which the digestive fire is kindled). J10 and J17 have \emph{jaṭharapravṛddha}, which would qualify \emph{pracaṇḍaruṅmaṇḍala}°, but it seems rather to strange to say that a range of terrible diseases have increased in the stomach, rather than arisen in the stomach. KDham ed has variant \emph{jaṭharapradīpaṃ} but this is not attested among the oldest dated manuscripts.
 
-YCM has \emph{jaṭharapravṛddhiḥ}.
-
-Adopt \emph{jaṭharapradīptiṃ} (\emph{°dīptiṃ} is an emendation), understood as object of \emph{dadāti}.
-
-Pāda d, J10ac and J17 have \emph{candra} for \emph{daṇḍa}, also in YCM and 6-chapter HP.
+Pāda d, J10ac and J17 have \emph{candra} for \emph{daṇḍa}; However,  also in Yogacintāmaṇi and 6-chapter HP.
 \end{philcomm}
 
 \subsection*{1.28}
 \begin{translation}[hp01_028]
-[The yogi] should stretch out both feet on the ground like staffs, hold the ends of both feet with the hands, place the forehead upon the knees and remain thus. They call this the back-stretch (paścimatānam).
+[The yogi] should stretch out both feet on the ground like staffs, hold the ends of both feet with the hands, place the forehead upon the knees and remain thus. They call this the back-stretch (\emph{paścimatānam}).
 \end{translation}
 
+\begin{sources}[hp01_028]
+Cf. Śivasaṃhitā
+\startverse
+prasārya caraṇadvandvaṃ parasparasusaṃyutam |\\
+svapāṇibhyāṃ dṛḍhaṃ dhṛtvā jānūpari śiro nyaset || 3.108 ||
+\endverse
+\end{sources}
+
+\begin{testimonia}[hp01_028]
+Yogacintāmaṇi
+\startverse
+prasārya pādau bhuvi daṇḍarūpau \\
+dvābhyāṃ ca pādadvitayaṃ gṛhītvā |\\
+jānūpari nyastalalāṭadeśo \\
+'bhyased idaṃ paścimatānam āhuḥ ||
+\endverse
+
+Haṭharatnāvalī
+\startverse
+atha paścimatānāsanam---\\
+prasārya pādau bhuvi daṇḍarūpau \\
+dorbhyāṃ padāgradvitayaṃ gṛhītvā ||\\
+jānūpari nyastalalāṭadeśo \\
+vased idaṃ paścimatānam āhuḥ || 3.66 ||
+\endverse
+\end{testimonia}
+
 \begin{philcomm}[hp01_028]
-Only V1 has \emph{dorbhyāṃ padāgra}, others have variations on the much inferior \emph{dvābhyāṃ karābhyāṃ}. Vulgate has same as V1, which is a surprise.
-
-V1 reading \emph{dorbhyāṃ pādāgradvitayaṃ} is best, adopt.
-
-V1’s \emph{tāṇabandhaḥ} doesn’t work with \emph{idaṃ}.
+Only V1 has \emph{dorbhyāṃ padāgra}, others have variations on the much inferior \emph{dvābhyāṃ karābhyāṃ}. The karābhyaṃ reading was probably introduced to remove dorbhyāṃ, which usually means arms.The reading \emph{tāṇabandhaḥ} in V1 doesn’t work with \emph{idaṃ}.
 \end{philcomm}
 
 \subsection*{1.29}
@@ -301,8 +875,32 @@ V1’s \emph{tāṇabandhaḥ} doesn’t work with \emph{idaṃ}.
 This back-stretch is the foremost among āsanas. It makes the breath flow in the back [i.e. Central channel], increases the digestive fire, makes the belly thin and prevents diseases in men.
 \end{translation}
 
+\begin{sources}[hp01_029]
+Cf. Śivasaṃhitā
+\startverse
+Āsanāgryam idaṃ proktaṃ jaṭharānaladīpanam |\\
+dehāvasādaharaṇaṃ paścimottānasaṃjñakam || 3.109 ||
+\endverse
+\end{sources}
+
+\begin{testimonia}[hp01_029]
+Yogacintāmaṇi
+\startverse
+iti paścimatānam āsanāgryaṃ
+pavanaṃ paścimavāhinaṃ karoti |\\
+udayaṃ jaṭharānalasya kuryād
+udare kārśyam arogitāṃ ca puṃsām ||
+\endverse
+
+Haṭharatnāvalī
+\startverse
+iti paścimatānam āsanāgryaṃ pavanaṃ paścimavāhinaṃ karoti ||\\
+udayaṃ jaṭharānalasya kuryād udare kārśyam arogatāṃ ca puṃsām || 3.67 ||
+\endverse
+\end{testimonia}
+
 \begin{philcomm}[hp01_029]
-Adopt \emph{arogitāṃ}.
+Adopt \emph{arogitāṃ} (which is well attested), despite the fact that \emph{arogatāṃ} is much more common. The use of the word \emph{paścima} to mean the central channel is found in \emph{Yogabīja} 121. The  \emph{Yogabīja} (95) also refers to the path of the central channel (\emph{paścimamārga}), and this understanding of \emph{paścima} is found in the \emph{Jyotsnā 1.29}: \emph{paścimavāhinaṃ paścimena paścimamārgeṇa suṣumnāmārgeṇa vahatīti paścimavāhī}.
 \end{philcomm}
 
 \subsection*{1.30}
@@ -310,17 +908,89 @@ Adopt \emph{arogitāṃ}.
 Supporting oneself on the ground with both hands, their elbows placed on either side of the navel, with a raised position (? uccāsanaḥ) one is placed up into the air [as straight] as a stick. They call this posture the peacock.
 \end{translation}
 
+\begin{sources}[hp01_030]
+Vimānārcanākalpa 96
+\startverse
+karatale bhūmau saṃsthāpya kūrparau nābhipārśvayor nyasya nataśirāḥ (unnataśirāḥ) pādau ḍaṇḍavad vyomni saṃsthito mayūrāsanam iti |
+\endverse
+
+Pādmasaṃhitā yogapāda 1.21c–22d:
+\startverse
+avaṣṭabhya dharāṃ samyak talābhyāṃ hastayor dvayoḥ ||\\
+kūrparau nābhipārśve ca sthāpayitvā mayūravat |\\
+samunnamya śiraḥpādau mayūrāsanam iṣyate ||
+\endverse
+
+Ahirbudhnyasaṃhitā 31.36–37
+\startverse
+mayūrāsanam\\
+niveśya kūrparau samyaṅ nābhimaṇḍalapārśvayoḥ |\\
+avaṣṭabhya bhuvaṃ pāṇitalābhyāṃ vyomni daṇḍavat || 31--36 ||
+\endverse
+
+Vasiṣṭhasaṃhitā 1.76–77
+\startverse
+avaṣṭabhya dharāṃ samyak talābhyāṃ ca karadvayam |\\
+hastayoḥ kūrparau cāpi sthāpayan nābhipārśvayoḥ ||\\
+samunnataśiraḥpādo daṇḍavad vyomni saṃsthitaḥ |\\
+mayūrāsanam etad dhi sarvapāpavināśanam ||
+\endverse
+
+Yogayājñavalkya 3.15–16
+\startverse
+avaṣṭabhya dharāṃ samyak talābhyāṃ tu karadvayoḥ\\
+hastayoḥ kūrparau cāpi sthāpayan nābhipārśvayoḥ\\
+samunnataśiraḥpādo daṇḍavad vyomni saṃsthitaḥ |\\
+mayūrāsanam etat tu sarvapāpapraṇāśanam ||
+\endverse
+\end{sources}
+
+\begin{testimonia}[hp01_030]
+Yogacintāmaṇi
+\startverse
+dharām avaṣṭabhya punaḥ karābhyāṃ
+tat kūrpare sthāpitanābhipārśvaḥ | \\
+tadāsane daṇḍavad utthitaḥ khe
+mayūram etat pravadanti santaḥ ||
+\endverse
+
+Haṭharatnāvalī 3.42
+\startverse
+atha mayūram\\
+dharām avaṣṭabhya karadvayena tatkūrpare sthāpitanābhipārśvaḥ ||\\
+uccāsano daṇḍavad utthitaḥ khe mayūram etat pravadanti pīṭham ||
+\endverse
+\end{testimonia}
+
 \begin{philcomm}[hp01_030]
-1.30 b tat refers to \emph{karadvaya} (cf. VS).
-\emph{uccāsano} to be adopted; \emph{samunnataśiraḥpādo} is reading of VS. which is derived from Vimānārcanākalpa 96: 
-\emph{karatale bhūmau samsthāpya kūrparau nābhipārśvayor nyasya na(unnata)
-̇ taśira ̄hpādau dandavad vyomni samsthito mayūrāsanam iti}.
+The source of this verse is unknown, but it has the same elements as the two verses in the \emph{Vasiṣṭhasaṃhitā} (1.76–77). The compound \emph{uccāsano} seems to approximate in a somewhat vague way the \emph{Vasiṣṭhasaṃhitā}’s reading \emph{samunnataśiraḥpādaḥ}, which may be derived from earlier Vaiṣṇava sources, such as the \textit{Pādmasaṃhitā}. 
+ 
+
+1.30b tat refers to \emph{karadvaya} (cf. Vasiṣṭhasaṃhitā).
 \end{philcomm}
 
 \subsection*{1.31}
 \begin{translation}[hp01_031]
-The glorious mayūra posture gets rid of all diseases of the abdomen such as bloating and overcomes [imbalances of] the doṣas. It completely incinerates food which is bad or has been eaten to excess, it generates digestive fire and it digests strong poison.
+The glorious mayūra posture gets rid of all diseases of the abdomen such as bloating and overcomes humoral imbalances. It completely incinerates food which is bad or has been eaten to excess, it generates digestive fire and it digests strong poison.
 \end{translation}
+
+\begin{testimonia}[hp01_031]
+Yogacintāmaṇi
+\startverse
+harati sakalarogān āśu gulmodarādīn\\
+abhibhavati ca doṣān āsanaṃ śrīmayūram |\\
+bahukadaśanabhuktaṃ bhasma kuryād aśeṣam\\
+janayati jaṭharāgniṃ jārayet kālakūṭam ||
+\endverse
+
+Haṭharatnāvalī 3.43
+\startverse
+harati sakalarogān āśu gulmodarādīn\\
+abhibhavati ca doṣān āsanaṃ śrīmayūram ||\\
+bahukadaśanabhuktaṃ bhasma kuryād vicitram\\
+janayati jaṭharāgniṃ jīryate kālakūṭam ||
+\endverse
+\end{testimonia}
 
 \begin{philcomm}[hp01_031]
 \emph{aśeṣaṃ} better
@@ -328,23 +998,154 @@ The glorious mayūra posture gets rid of all diseases of the abdomen such as blo
 
 \subsection*{1.32}
 \begin{translation}[hp01_032]
-Lying on one’s back on the ground like a corpse is the corpse posture. It removes the fatigue [caused by practising] all [other] āsanas and relaxes the mind.
+Lying on one’s back on the ground like a corpse is the corpse posture. It removes the fatigue [caused by practising] any āsana and relaxes the mind.
 \end{translation}
+
+\begin{sources}[hp01_032]
+Cf. Dattātreyayogaśāstra 24cd
+\startverse
+uttānaśavavad bhūmau śayanaṃ coktam uttamam ||
+\endverse
+\end{sources}
+
+\begin{testimonia}[hp01_032]
+Yogacintāmaṇi
+\startverse
+uttānaṃ śavavad bhūmau śavāsanam idaṃ smṛtam |\\
+śavāsanaṃ śrāntiharaṃ cittaviśrāntisādhanam ||
+\endverse
+
+Haṭharatnāvalī 3.76
+\startverse
+athāntimaṃ śavāsanam\\
+prasārya hastapādau ca viśrāntyā śayanaṃ tathā ||\\
+sarvāsanaśramaharaṃ śayitaṃ tu śavāsanam || 3.76 ||
+\endverse
+
+Cf. HTK
+\startverse
+śavāsanaṃ hṛtkupitavātagranthivibhedakam |\\
+sarvāsanaśrāntijit hṛtśramaghnaṃ yogi saukhyadam || 12 ||
+\endverse
+
+YBD
+\startverse
+uttānaṃ śavavad bhūmau śayanaṃ tu śavāsanam ||\\
+śavāsanaṃ śrāntiharaṃ cittaviśrāntikārakam ||\\
+iti śavāsanam || 21 ||
+\endverse
+\end{testimonia}
 
 \subsection*{1.33}
 \begin{translation}[hp01_033]
-However, Śiva taught eight-four āsanas. I shall take the four essential ones from them and teach them. 
+Śiva taught eighty-four āsanas. I shall take the four best and teach them.
 \end{translation}
+
+\begin{sources}[hp01_033]
+Śivasaṃhitā 3.96
+\startverse
+caturaśīty āsanāni santi nānāvidhāni ca |\\
+tebhyaś catuṣkam ādāya mayoktāni bravīmy aham ||
+\endverse
+
+Cf. Dattātreyayogaśāstra 5
+\startverse
+caturāśītilakṣānām ekaikaṃ samudāhṛtaṃ |\\
+ataḥ śivena pīṭhānāṃ ṣoḍaśonaṃ śataṃ kṛtaṃ ||
+\endverse
+
+Cf. Vivekamārtaṇḍa 5
+\startverse
+caturāśītilakṣānām ekaikaṃ samudāhṛtaṃ |\\
+ataḥ śivena pīṭhānāṃ ṣoḍaśonaṃ śataṃ kṛtaṃ ||
+\endverse
+\end{sources}
+
+\begin{testimonia}[hp01_033]
+Yogacintāmaṇi
+\startverse
+haṭhapradīpikāyām—\\
+caturaśīty āsanāni śivena kathitāni vai |\\
+tebhyaś catuṣkam ādāya sārabhūtaṃ bravīmy aham ||
+\endverse
+
+Haṭharatnāvalī
+\startverse
+caturaśīty āsanāni śivena kathitāni tu |\\
+tebhyaś catuṣkam ādāya sārabhūtaṃ bravīmy aham || 3.23 ||
+\endverse
+\end{testimonia}
+
+\begin{philcomm}[hp01_033]
+In Pādas ac Svātmārāma may have rewritten Śivasaṃhitā 3.96 to include the information that it was Śiva (\emph{śivena}) who taught the 84 āsanas, whereas in the source Śiva is himself speaking. With this
+Svātmārāma confuses the verse, since one would have to understand Pādas cd to be direct speech by Śiva in order to understand \emph{bravīmi} correctly (but cf. 4.2 which is a verse from the Gorakṣaśataka which includes pravakṣyāmi).
+
+The Śivasaṃhitā follows 3.96 with teachings on siddha, padma, paścimottāna and svastika āsanas, but the HP teaches siddha, padma, siṃha and bhadra.
+
+The word \emph{tu} is often used to introduce a new posture, but in this verse seems to be a verse filler.
+\end{philcomm}
 
 \subsection*{1.34}
 \begin{translation}[hp01_034]
-The adept, lotus, lion and auspicious pose are the best tetrad and, among those, one should always sit in a comfortable adept’s pose. 
+The adept, lotus, lion and auspicious pose are the best tetrad and, among those, always sit in the adept’s pose, my dear.
 \end{translation}
+
+\begin{sources}[hp01_034]
+--
+\end{sources}
+
+\begin{testimonia}[hp01_034]
+Yogacintāmaṇi
+\startverse
+siddhaṃ padmaṃ tathā bhadraṃ siṃhaṃ ceti catuṣṭayam |\\
+śreṣṭhaṃ tatrāpi vai padmaṃ tiṣṭhet siddhāsane sadā ||
+\endverse
+
+Haṭharatnāvalī 3.24
+\startverse
+siddhaṃ padmaṃ tathā siṃhaṃ bhadraṃ ceti catuṣṭayam |\\
+śreṣṭhaṃ tatrāpi ca tathā tiṣṭhet siddhāsane sadā ||
+\endverse
+\end{testimonia}
+
+\begin{philcomm}[hp01_034]
+It is likely that the original version of this verse contained the vocative with the imperative form of the verb. There is another instance where Svātmārāma included a verse with the vocative (4.58?) or the subject in the first person (4.2), as though the text were a dialogue. In this case, it seems that efforts have been made to write out the vocative and imperative verb. However, the \emph{sukhe} and \emph{sukham} is difficult to construe in this context, because the context suggests that the intended meaning was that one should always sit in Siddhāsana (as opposed to the other three), rather than the prescription to always sit in a comfortable Siddhāsana.   
+\end{philcomm}
 
 \subsection*{1.35}
 \begin{translation}[hp01_035]
 Having joined the place of the perineum with the heel of the foot, the yogi should firmly fix the [other] foot on the penis. Having held the face and chest together and the body erect, [the yogi] remains still, his senses restrained, gazing between the brows with his eyes unmoving. This breaks open the door to liberation and is called the adept’s pose.
 \end{translation}
+
+\begin{sources}[hp01_035]
+Vivekamārtaṇḍa 7
+\startverse
+yonisthānakam aṅghrimūlaghaṭitaṃ kṛtvā dṛḍhaṃ vinyase[n] \\
+meḍhre pādam athaikam āsyahṛdaye dhṛtvā samaṃ vigraham |\\
+sthāṇuḥ saṃyamitendriyo 'caladṛśā paśyan bhruvor antaraṃ\\
+etan  mokṣakapāṭabhedajanakaṃ siddhāsanaṃ procyate ||
+\endverse
+\end{sources}
+
+\begin{testimonia}[hp01_035]
+Yogacintāmaṇi
+\startverse
+pavanayogasaṃgrahe—\\
+yonisthānakam aṅghrimūlaghaṭitaṃ kṛtvā dṛḍhaṃ vinyasen\\
+meḍhre pādam athaikam ekahṛdaye kṛtvā samaṃ vigraham |\\
+sthāṇuḥ saṃyamitendriyo 'caladṛśā paśyed bhruvor antaraṃ tv\\
+etan mokṣakapāṭabhedanakaraṃ siddhāsanaṃ procyate ||
+\endverse
+
+Haṭharatnāvalī 3.25
+\startverse
+tatra siddhāsanam\\
+yonisthānakam aṅghrimūlaghaṭitaṃ kṛtvā dṛḍhaṃ vinyasen\\
+meḍhre pādam athaikam eva niyataṃ kṛtvā samaṃ vigraham |\\
+sthāṇuḥ saṃyamitendriyo 'caladṛśā paśyan bhruvor antaraṃ\\
+caitan mokṣakapāṭabhedajanakaṃ siddhāsanaṃ procyate ||
+\endverse
+\end{testimonia}
 
 \begin{philcomm}[hp01_035]
 KDh ed has \emph{āsya}, variant in mss kh and gha, both BORI.
@@ -353,19 +1154,97 @@ Jürgen suggests we might take \emph{āsyahṛdaye} and \emph{vigraham} as the o
 
 \subsection*{1.36}
 \begin{translation}[hp01_036]
-Having fixed the left heel on the penis, and put the other heel on that, this is siddhāsana. 
+Having fixed the left heel on the penis, and put the other heel on that, this is siddhāsana.
 \end{translation}
+
+\begin{sources}[hp01_036]
+Vasiṣṭhasaṃhitā 1.81
+\startverse
+meḍhrād upari nikṣipya gulphaṃ tathopari |\\
+gulphāntaraṃ vinikṣipya muktāsanam idaṃ smṛtam ||
+\endverse
+
+Yogayājñavalkya 3.15
+\startverse
+meḍhrād upari nikṣipya savyaṃ gulphaṃ tathopari |\\
+gulphāntaraṃ ca nikṣipya muktāsanam idaṃ tu vā ||
+\endverse
+\end{sources}
+
+\begin{testimonia}[hp01_036]
+Yogacintāmaṇi
+\startverse
+tathā |\\
+meḍhrād upari vinyasya savyaṃ gulphaṃ tathopari |\\
+gulphāntaraṃ tu vinyasya siddhāsanam idaṃ bhavet ||
+\endverse
+
+Haṭharatnāvalī 3.26
+\startverse
+matāntare tu\\
+meḍhrād upari niḥkṣipya savyaṃ gulphaṃ tathopari |\\
+gulphāntaraṃ ca niḥkṣipya siddhāḥ siddhāsanaṃ viduḥ ||
+\endverse
+\end{testimonia}
 
 \subsection*{1.37}
 \begin{translation}[hp01_037]
 Some proclaim this is siddhāsana, others know it as vajrāsana, a few say it is muktāsana and some guptāsana.
 \end{translation}
 
+\begin{sources}[hp01_037]
+--
+\end{sources}
+
+\begin{testimonia}[hp01_037]
+Yogacintāmaṇi
+\startverse
+siddhaṃ padmaṃ tathā bhadraṃ siṃhaṃ ceti catuṣṭayam |\\
+śreṣṭhaṃ tatrāpi vai padmaṃ tiṣṭhet siddhāsane sadā ||
+\endverse
+
+Haṭharatnāvalī
+\startverse
+siddhaṃ padmaṃ tathā siṃhaṃ bhadraṃ ceti catuṣṭayam |\\
+śreṣṭhaṃ tatrāpi ca tathā tiṣṭhet siddhāsane sadā || 3.24 ||
+\endverse
+
+Cf. Śivayogasāram by Kolani Ganapatideva (date 14th c.)
+\startverse
+siddāsanambunu, gondaru vajrāsanambaniyu | \\
+gondaru muktāsanambaniyu, gondadu  gulbāsanam ||
+\endverse
+
+Cf. A verse by the poet Pingali Surana (active 16th c.)
+\startverse
+kondaru siddāsanamani \\
+kondaru vajrāsanamani koniyādudurī \\
+pondaga dīnini mariyoka \\
+kondaru guptāsamanu kondru mahātmā
+\endverse
+\end{testimonia}
+
 \subsection*{1.38}
 \begin{translation}[hp01_038]
 The Siddhas know Siddhasana as the single most important amongst
-all postures, in the same way as measured diet amongst rules and non-violence amongst observances. 
+all postures, in the same way as measured diet amongst rules and non-violence amongst observances.
 \end{translation}
+
+\begin{sources}[hp01_038]
+Cf. Dattātreyayogaśāstra 33
+\startverse
+laghvāhāras tu teṣv eko mukhyo bhavati nāpare |\\
+ahiṃsā niyameṣv eko mukhyo bhavati nāpare || 33 ||
+\endverse
+\end{sources}
+
+\begin{testimonia}[hp01_038]
+Yogacintāmaṇi
+\startverse
+niyameṣu mitāharo yathāhịmsā yameṣv iva |\\
+mukhyaṃ sarvāsaneṣv evaṃ siddhāsanaṃ idaṃ viduḥ |
+\endverse
+\end{testimonia}
 
 \begin{philcomm}[hp01_038]
 \emph{iva} or \emph{eva}? \emph{iva} does work — like \emph{siddhāsana}, \emph{mitāhāra} and \emph{ahiṃsā} are the best, but for it to work properly \emph{mitāhāra} and \emph{ahiṃsā} should be accusative. V19 has acc + \emph{iva}, which seems best, especially with \emph{siddhāḥ viduḥ}, but this might be a correction as V19 often corrects. However, one old KDham BORI (?) ms (pha, 1695 CE) has it, as does Jyotsnā, so adopt.
@@ -380,14 +1259,43 @@ Clearly based on DYŚ 33, which includes \emph{ekaṃ} and \emph{mukhya}.
 Among the eighty-four postures, one should regularly practise just Siddha; in the same way one should practise Suṣumnā among the 72,000 channels.
 \end{translation}
 
+\begin{sources}[hp01_039]
+\end{sources}
+
+\begin{testimonia}[hp01_039]
+Yogacintāmaṇi
+\startverse
+caturaśītipīṭheṣu siddhāsanaṃ samabhyaset | \\
+dvāsaptatisahasreṣu suṣumṇām iva nāḍiṣu ||
+\endverse
+
+YSS
+\startverse
+caturāśītapīṭheṣu siddham eva samabhyaset |\\
+dvisaptatisahasreṣu suṣumnām iva nāḍiṣu ||
+\endverse
+
+Yogacintāmaṇi (in a different passage)
+​​\startverse
+maṇḍalā dṛśyate siddhiḥ kuṇḍalyabhyāsayoginaḥ |\\
+dvisaptatisahasrāṇāṃ nāḍīnāṃ malaśodhanam ||
+\endverse
+
+Cf. Kumbhakapaddhati (effects of practising kumbhaka)
+\startverse
+dvāsaptati sahāsrāṇāṃ nāḍīnāṃ malaśodhanam |\\
+yatheṣṭaṃ dhāraṇaṃ vāyor vikārābhāva eva ca || 120 ||
+\endverse
+\end{testimonia}
+
 \begin{philcomm}[hp01_039]
-Odd to have \emph{suṣumnām} as object of \emph{abhyaset}. YCM has this reading though. Perhaps cd were added somewhat indiscriminately by Svātmārāma (with nominative \emph{suṣumnā}) and then others tried to make sense of it.
+Odd to have \emph{suṣumnām} as object of \emph{abhyaset}. Yogacintāmaṇi has this reading though. Perhaps cd were added somewhat indiscriminately by Svātmārāma (with nominative \emph{suṣumnā}) and then others tried to make sense of it.
 
 Some witnesses, including Jyotsnā, have \emph{nāḍīnāṃ malaśodhanam/e} for pāda d, which is probably a patch (no other texts say siddhāsana clears the channels), but cf. Amṛtasiddhi in which the practices are said to bring about cālana of the nāḍīs (e.g. 11.6).
 
 Good example of early contamination.
 
-[\emph{nāḍiṣu} is better supported \getsiglum{J10ac,V19,J17}.]
+[\emph{nāḍiṣu} is better supported (J10ac,V19,J17).]
 \end{philcomm}
 
 \subsection*{1.40}
@@ -396,46 +1304,120 @@ By meditating upon the self, restricting the diet and regularly practising Siddh
 What’s the point of lots of exhausting postures when there is Siddhāsana?
 \end{translation}
 
+\begin{sources}[hp01_040]
+--
+\end{sources}
+
+\begin{testimonia}[hp01_040]
+Yogacintāmaṇi
+\startverse
+ātmadhyāyī mitāhārī yāvad dvādaśavatsaram |\\
+sadā siddhāsanābhyāsād yogī niṣpattim āpnuyāt |\\
+śramadair bahubhiḥ pīṭhaiḥ kiṃ syāt siddhāsane sati ||
+\endverse
+
+YSS
+\startverse
+ātmadhyāyo mitāhārī yāvad dvādaśavatsaram |\\
+sadā siddhāsanābhyāsād yoganiṣpattim āpnuyāt ||\\
+śramadair bahubhiḥ pīṭhair alaṃ siddhāsane sati |
+\endverse
+\end{testimonia}
+
 \begin{philcomm}[hp01_040]
 Only possible variant is \emph{mitāhāro} in V19.
-
 J8 might be correction of J10’s unmetrical reading.
 
 [\emph{sadāsiddhāsanābhyāsād}? Or maybe read \emph{sadā} with \emph{avāpnuyāt}]
 
-V19 is found in YCM: \emph{śramadair bahubhịh pīṭhaiḥ kiṃ syāt siddhāsane sati}; JM this seems best to me.
+V1 has
+\startverse
+śramādau bahubhiḥ pīṭhais sadā siddhāsane sati |\\
+prāṇānile sāvadhānaṃ baddhe kevalakumbhake || 1.41 ||
+\endverse
+
+Mixing up both versions of the verse — contamination already?
+
+V19 is found in Yogacintāmaṇi: \emph{śramadair bahubhịh pīṭhaiḥ kiṃ syāt siddhāsane sati}; JM this seems best to me.
 
 Is this notion of āsanas causing \emph{śrama} already current in HY texts?
-[It is mentioned in the verse on śavāsana]
+[Yes, it is mentioned above in the verse on śavāsana]
 \end{philcomm}
+
 
 \subsection*{1.41}
 \begin{translation}[hp01_041]
-When the Prāṇa breath has been carefully stopped in kevala kumbhaka, the Unmanī [state] arises automatically, without effort, in the same way that
+Just as the Unmanī [state] arises automatically, without effort, when the prāṇa breath has been carefully stopped in kevala kumbhaka, [...]
 \end{translation}
 
-\begin{philcomm}[hp01_041]
-V1 has 
+\begin{sources}[hp01_041]
+\end{sources}
+
+\begin{testimonia}[hp01_041]
+Yogacintāmaṇi
 \startverse
-śramādau bahubhiḥ pīṭhais sadā siddhāsane sati  |\\
-prāṇānile sāvadhānaṃ baddhe kevalakumbhake  || 1.41 ||
+prāṇānile sāvadhāne baddhe kevalakumbhake |\\
+utpatsyate nirāyāsāt svayam evonmanī yathā ||
 \endverse
-Mixing up both versions of the verse — contamination already?
+\end{testimonia}
+
+\begin{philcomm}[hp01_041]
+--
 \end{philcomm}
 
 \subsection*{1.42}
 \begin{translation}[hp01_042]
-when just Siddhāsana alone is always firmly bound, the three bandhas arise automatically, without effort.
+So too the three bandhas arise automatically, without effort, when Siddhāsana alone is always firmly adopted,
 \end{translation}
 
+\begin{sources}[hp01_042]
+--
+\end{sources}
+
+\begin{testimonia}[hp01_042]
+Yogacintāmaṇi
+\startverse
+athaikasminn eva dṛḍhaṃ baddhe siddhāsane sadā |\\
+bandhatrayam anāyāsāt svayam evopajāyate |
+\endverse
+
+YSS
+\startverse
+tathaikasminn eva baddhe siddhāsane sadā |\\
+granthitrayam anāyāsāt svayamevopabhidyate |
+\endverse
+\end{testimonia}
+
 \begin{philcomm}[hp01_042]
-\emph{dṛḍhe} goes across stemma, although \emph{ṃ} vs \emph{e} is moot.
+\emph{dṛḍhe} goes across stemma. It is likely that the adverb (\emph{dṛdhaṃ}) was intended because \emph{dṛdhataraṃ}, which is not ambiguous, is used in 1.48a to qualify how \emph{padmāsana} should be adopted.
 \end{philcomm}
 
 \subsection*{1.43}
 \begin{translation}[hp01_043]
 There is no posture like siddhāsana, no breath like the restrained breath, no mudrā like khecarī, no dissolution like nāda.
 \end{translation}
+
+\begin{sources}[hp01_043]
+Śivasaṃhitā 5.47
+\startverse
+nāsanaṃ siddhasadṛśaṃ na kumbhasadṛśaṃ balam |\\
+na khecarīsamā mudrā na nādasadṛśo layaḥ || 5.47 ||
+\endverse
+\end{sources}
+
+\begin{testimonia}[hp01_043]
+Yogacintāmaṇi
+\startverse
+nāsanaṃ siddhasadṛśaṃ na kumbhaḥ kevalopamaḥ |\\
+na khecarīsamā mudrā na nādasadṛśo layaḥ ||
+\endverse
+
+Haṭharatnāvalī
+\startverse
+nāsanaṃ siddhasadṛśaṃ na kumbhaḥ kevalopamaḥ ||\\
+na khecarīsamā mudrā na nādasadṛśo layaḥ || 3.29 ||
+\endverse
+\end{testimonia}
 
 \begin{philcomm}[hp01_043]
 \emph{na kumbhasadṛśo nilaḥ} is difficilior lectio and attested by all early witnesses except V19: (almost?) all testimonia have \emph{kumbhaḥ kevalopamaḥ}; Śivasaṃhitā has \emph{kumbhasadṛśaṃ balam}.
@@ -444,24 +1426,94 @@ There is no posture like siddhāsana, no breath like the restrained breath, no m
 \subsection*{1.44}
 \begin{translation}[hp01_044]
 Now lotus pose.
-One should place the right foot on the left thigh, and the left on the right though, hold firmly the big toes with the hands behind the back, place the chin on the chest and gaze at the tip of the nose. This is called lotus pose, which destroys diseases for those who undertake the yamas. 
+One should place the right foot on the left thigh, and the left on the right though, hold firmly the big toes with the hands behind the back, place the chin on the chest and gaze at the tip of the nose. This is called lotus pose, which destroys diseases for those who undertake the yamas.
 \end{translation}
 
-\subsection*{1.45–47}
+\begin{sources}[hp01_044]
+Vivekamārtaṇḍa 8
+\startverse
+vāmorūpari dakṣiṇañ ca caraṇaṃ saṃsthāpya vāmaṃ tathā\\
+yāmyorūpari paścimena vidhinā dhṛtvā karābhyāṃ dṛḍham |\\
+aṅguṣṭhau hṛdaye nidhāya cibukaṃ nāsāgram ālokayed\\
+etad vyādhivikārahāri yamināṃ padmāsanaṃ procyate || 8 ||
+\endverse
+\end{sources}
+
+\begin{testimonia}[hp01_044]
+Yogacintāmaṇi
+\startverse
+haṭhayoge—\\
+vāmorūpari dakṣiṇaṃ hi caraṇaṃ saṃsthāpya vāmaṃ tathā\\
+dakṣorūpari paścimena vidhinā dhṛtvā karābhyāṃ dṛḍham | \\
+aṅguṣṭhau hṛdaye nidhāya civukaṃ nāsāgram ālokayet\\
+ekad vyādhivikāranāśanakaraṃ padmāsanaṃ procyate ||
+\endverse
+
+Haṭharatnāvalī
+\startverse
+vāmorūpari dakṣiṇaṃ ca caraṇaṃ saṃsthāpya vāmaṃ tathā\\
+yāmyorūpari paścimena vidhinā dhṛtvā karābhyāṃ dṛḍham |\\
+aṅguṣṭhau hṛdaye nidhāya cibukaṃ nāsāgram ālokayed\\
+etad vyādhivināśakāri yamināṃ padmāsanaṃ procyate || 3.34 ||
+\endverse
+\end{testimonia}
+
+\subsection*{1.45--47}
 \begin{translation}[hp01_045]
 However, in another view,
-Having put the upturned feet carefully on the thighs and the upturned hands in the middle of the thighs, one should fix the eyes on the tip of the nose. Having raised the root of the uvula with the tongue, one should place the chin on the chest and gradually [draw in\footnote{The verb \emph{ākṛśya} follows in the next verse in the \emph{Dattātreyayogaśāstra}.}] the breath [...]. This is taught as lotus pose, which cures all diseases. 
+Having put the upturned feet carefully on the thighs and the upturned hands in the middle of the thighs, one should fix the eyes on the tip of the nose. Having raised the root of the uvula with the tongue, one should place the chin on the chest and gradually [draw in\footnote{The verb \emph{ākṛśya} follows in the next verse in the \emph{Dattātreyayogaśāstra}.}] the breath [...].
 \end{translation}
+
+\begin{sources}[hp01_045]
+Dattātreyayogaśāstra 35–37
+\startverse
+uttānau caraṇau kṛtvā ūrusaṃsthau prayatnataḥ |\\
+ūrumadhye tathottānau pāṇī kṛtvā tato dṛśau || 35 ||\\
+nāsāgre vinyased rājadantamūlaṃ ca jihvayā |\\
+uttabhya cibukaṃ vakṣasy āsthāpya pavanaṃ śanaiḥ || 36 ||\\
+yathāśaktyā samākṛṣya pūrayed udaraṃ śanaiḥ |\\
+yathāśaktyaiva paścāt tu recayet pavanaṃ śanaiḥ || 37 ||
+\endverse
+
+Śivasaṃhitā 3.102–104
+\startverse
+uttānau caraṇau kṛtvā ūrusaṃsthau prayatnataḥ\\
+ūrumadhye tathottānau pāṇī kṛtvā tu tādṛśau 3.102\\
+nāsāgre vinyased dṛṣṭiṃ rājadantaṃ ca jihvayā\\
+uttambhya cibukaṃ vakṣe saṃsthāpya pavanaṃ śanaiḥ 3.103\\
+yathāśaktyā samākṛṣya pūrayed udaraṃ śanaiḥ\\
+yathāśaktyaiva paścāt tu recayed anirodhataḥ 3.104
+\endverse
+\end{sources}
+
+\begin{testimonia}[hp01_045]
+Yogacintāmaṇi
+\startverse
+dattātreyaḥ—\\
+uttānau caraṇau kṛtvā ūrusaṃsthau prayatnataḥ |\\
+ūrumadhye tathottānau pāṇī kṛtvā tato dṛśau || = 1.45\\
+nāsāgre vinyased rājadantamūlaṃ tu jihvayā |\\
+uttabhya civukaṃ vakṣasy utthāpya pavanaṃ śanaiḥ || = 1.46\\
+yathāśaktyā samākṛṣya pūrayed udaraṃ śanaiḥ |\\
+yathāśaktyaiva paścāt tu recayet pavanaṃ śanaiḥ ||
+\endverse
+
+Haṭharatnāvalī
+\startverse
+dattātreyo 'pi\\
+uttānau caraṇau kṛtvā ūrvoḥ saṃsthāpya yatnataḥ |\\
+ūrumadhye tathottānau pāṇī kṛtvā tato dṛśau || 3.36 ||\\
+nāsāgre vinyased rājadantamūlaṃ ca jihvayā |\\
+uttabhya cibukaṃ vakṣaḥ saṃsthāpya pavanaṃ śanaiḥ || 3.37 ||
+\endverse
+\end{testimonia}
 
 \begin{philcomm}[hp01_045]
 \emph{uttabhya} vs \emph{uttambhya}.
 The witnesses split predictably along the two main branches of the stemma. The evidence of the DYŚ is important here.
+%\emph{vakṣasyāsthāpya} is a marmasthāna
 
-\emph{vakṣasyāsthāpya} is a marmasthāna
-
-%\emph{pavanaṃ śanaiḥ} is left hanging. The readings with \emph{vakṣa sthāpayet} do not offer a solution nor indicate how Svātmārāma may have redacted this to make the syntax complete. Instead, it seems that he quoted these two verses (1.45–46) from the Dattātreyayogaśāstra and simply omitted the next verse that made sense of \emph{pavanaṃ śanaiḥ} because it was not relevant to the posture itself. 
-
-\emph{pavanaṃ śanaiḥ} is left hanging, perhaps, because of an eyeskip that happened early in the transmission. The following verse in the DYŚ ends with \emph{pavanaṃ śanaiḥ}.
+The statement ending with \emph{pavanaṃ śanaiḥ} is left hanging, perhaps, because of an eyeskip that happened early in the transmission. The subsequent verse in the DYŚ ends with \emph{pavanaṃ śanaiḥ}.
 
 \startverse
 nāsāgre vinyased rājadantamūlaṃ ca jihvayā |\\
@@ -471,21 +1523,23 @@ yathāśaktyaiva paścāt tu recayet pavanaṃ śanaiḥ || 37 ||\\
 idaṃ padmāsanaṃ proktaṃ sarvavyādhivināśanam |
 \endverse
 
+The manuscript readings with \emph{vakṣa sthāpayet} (J7, V3, J8, J10, J17, N17) or something similar (V1, W4) do not offer a solution nor indicate how Svātmārāma may have redacted this to make the syntax complete. Instead, it seems that he quoted these two verses (1.45–46) from the Dattātreyayogaśāstra and simply omitted the next verse that made sense of \emph{pavanaṃ śanaiḥ} because it was not relevant to the posture itself.
+
 % Jü:
 [JH] The background of the passage \emph{rājadantamūlaṃ ca jihvayā uttambhya} in 1.46 is more complex
 than it may appear. Here it is a literal quotation from the DYŚ, but many other Haṭhayogic texts
 teach a particular position of the tongue, in which it is in one or the other way turned back in
 the direction of the uvula, as we read explicitly in the \emph{Vivekamārtāṇḍa} (REF):
 \emph{kapālakuhare jihvā praviṣṭā viparītagā}. Brief references to this practice can become
-ambiguous for various reasons, and this has possibly confused Brahmānanda. 
+ambiguous for various reasons, and this has possibly confused Brahmānanda.
 
 One reason is that there is a, probably older, rule for meditation postures according to which the
 tongue rests near the teeth. One instance would be \emph{Svacchandatantra}, which teaches a
 meditation pose called \emph{divyaṃ karaṇam} (4.365f.), in which the tongue is to rest at the tip
 of the teeth (\emph{dantāgre jihvām ādāya}). Other Tantric texts have this or similar rules, in
 which the tongue is supposed to rest either on the teeth or the palate,\footnote{This rule is
-  found in \emph{Iśānaśivapaddhati}: \emph{tāluke jihvāṃ saṃyojya kiñcidvivṛtavaktro dantair dantān
-    asaṃspṛśan ṛjukāyaḥ}. REF} the earliest instance being perhaps \emph{Mrgendrāgama} ?.18.
+found in \emph{Iśānaśivapaddhati}: \emph{tāluke jihvāṃ saṃyojya kiñcidvivṛtavaktro dantair dantān
+  asaṃspṛśan ṛjukāyaḥ}. REF} the earliest instance being perhaps \emph{Mrgendrāgama} ?.18.
 Placing the tongue where it does not disturb the meditation seems quite appropriate for a
 ``normal'' meditative practice.
 
@@ -506,11 +1560,11 @@ palate''\footnote{\emph{tālumūlatalālagnajihvā} MU V.55.14c.} and the commen
 \emph{tālumūlāntarālagnajihva-}, explains that this means that the tongue is to be placed in the
 middle of the two regions of the palate, and that this is the \emph{nabhomudrā}, alias
 ``\emph{khecarī}''.\footnote{\emph{tālumūlāntarālagnajihvamūlah. tālumūlayoh. kākudamūladeśayoh. āntare
-    lagnam ālagnam jihvāmūlam yasyety anena nabhomudrā darśitā / yā hi khecarı̄ty ucyate.}}
+  lagnam ālagnam jihvāmūlam yasyety anena nabhomudrā darśitā | yā hi khecarı̄ty ucyate.}}
 
 A little later in the \emph{Mokṣopāya} it is made clear that one should reach the uvula, ``placed a
 the root of the palate''.\footnote{\emph{tālumūlagatāṃ yatnāj jihvayākramya ghaṇṭikām}
-  (V.78.24ab)}
+(V.78.24ab)}
 
 In view of this background we must conclude that the author of the \emph{Jyotsnā} was probably not
 aware of the Yogic meaning of \emph{rājadanta} and has tried his best to make sense of the passage,
@@ -519,8 +1573,8 @@ palate), but then wisely refers to the instruction of the teacher for practical 
 noticing that his literal interpretation is somewhat opaque (I omit the synonyms for clarity):
 
 \begin{quote}
-Pressing both roots of the front teeth on the left and right with the tongue [\ldots] — this fixation of the tongue has to be understood from the mouth of the teacher. 
-  
+Pressing both roots of the front teeth on the left and right with the tongue [\ldots] — this fixation of the tongue has to be understood from the mouth of the teacher.
+
 \emph{rājadantānāṃ daṃṣṭrāṇāṃ savyadakṣiṇabhāge sthitānāṃ mūle ubhe mūlasthāne jihvayā uttambhya ūrdhvaṃ stambhayitvā | guru-mukhād avagantavyo 'yaṃ jihvā-bandhaḥ |}
 \end{quote}
 
@@ -529,11 +1583,40 @@ Pressing both roots of the front teeth on the left and right with the tongue [\l
 
 \subsection*{1.47}
 \begin{translation}[hp01_047]
-It is difficult for just anyone to accomplish; it is accomplished by a wise person [here] on earth.
+This is taught as lotus pose, which cures all diseases. It is difficult for just anyone to accomplish; it is accomplished by a wise person [here] on earth.
 \end{translation}
 
+\begin{sources}[hp01_047]
+DYŚ
+\startverse
+idaṃ padmāsanaṃ proktaṃ sarvavyādhivināśanam |\\
+durlabhaṃ yena kenāpi dhīmatā labhyate bhuvi || 38 ||
+\endverse
+
+Śivasaṃhitā
+\startverse
+idaṃ padmāsanaṃ proktaṃ sarvavyādhivināśanam\\
+durlabhaṃ yena kenāpi dhīmatā labhyate param 3.105
+\endverse
+\end{sources}
+
+\begin{testimonia}[hp01_047]
+Yogacintāmaṇi
+\startverse
+idaṃ padmāsanaṃ proktaṃ sarvavyādhivināśanam |\\
+durlabhaṃ yena kenāpi dhīmatā labhyate bhuvi ||
+\endverse
+
+Haṭharatnāvalī
+\startverse
+idaṃ padmāsanaṃ proktaṃ sarvavyādhivināśanam |\\
+durlabhaṃ yena kenāpi dhīmatā labhyate bhuvi || 3.38 ||
+\endverse
+\end{testimonia}
+
 \begin{philcomm}[hp01_047]
-Durlabham is ambiguous as to whether the posture is hard to perform or hard to acquire. The latter is the usual reading.
+In this context, the word \emph{durlabham} is ambiguous as to whether the posture is hard to perform or hard to acquire. The latter is the usual reading.
+% Maybe add some remarks by commentators on how they understand it.
 \end{philcomm}
 
 \subsection*{1.48}
@@ -543,10 +1626,39 @@ Next is taught the doctrine of Matsya.
 [The yogi] should put the hands together in a bowl shape, very firmly assume padmāsana, firmly place the chin on the chest and meditation in the mind, [and] raising the Apāna breath over and over again, releasing the held Prāṇa, a man attains unequalled knowledge through the power of the goddess [Kuṇḍalinī].
 \end{translation}
 
-\begin{philcomm}[hp01_048]
-It is unusual to find Matsyendra referred to as simply Matsya as in the subheading here. This verse is Vivekamārtaṇḍa 36. The teachings of the VM are attributed to Gorakṣa, not Matsyendra, although in the extended recension of it known as Gorakṣaśataka etc. the second verse includes homage to Mīna, i.e. Matsyendra.
+\begin{sources}[hp01_048]
+VM 36
+\startverse
+kṛtvā saṃpuṭitau karau dṛḍhataraṃ baddhvātha padmāsanaṃ\\
+gāḍhaṃ vakṣasi sannidhāya cibukaṃ dhyānaṃś ca tac cetasi |\\
+vāraṃ vāram apānam ūrdhvam anilaṃ proccālayan pūritaṃ\\
+muṇcan prāṇam upaiti bodham atulaṃ śaktiprabhāvān naraḥ ||
+\endverse
+\end{sources}
 
-The end of pāda b is uncertain. Later witnesses including Brahmānanda have \emph{dhyāyaṃś ca} but none of the early ones does. So we have to take \emph{dhyānaṃ} with \emph{sannidhāya}. That makes tat problematic though: what does it refer to?
+\begin{testimonia}[hp01_048]
+Yogacintāmaṇi
+\startverse
+tathāca granthāntare—\\
+kṛtvā saṃpuṭitau karau dṛḍhataraṃ badhvā ca padmāsanam\\
+gāḍhaṃ vakṣasi saṃnidhāya civukaṃ dhyānaṃ ca tac cetasi |\\
+vāraṃ vāram apānam ūrdhvam anilaṃ protsārayet pūrayet\\
+prāṇaṃ muñcati bodham eti niyataṃ śaktiprabodhodayāt ||
+\endverse
+
+Haṭharatnāvalī
+\startverse
+kṛtvā saṃpuṭitau karau dṛḍhataraṃ baddhvā tu padmāsanam\\
+gāḍhaṃ vakṣasi sannidhāya cibukaṃ dhyānaṃ ca tac cetasi |\\
+vāraṃ vāram apānam ūrdhvam anilaṃ proccārayet pūritam\\
+muñcat prāṇam upaiti bodham atulaṃ śakteḥ prabhāvān naraḥ || 3.39 ||
+\endverse
+\end{testimonia}
+
+\begin{philcomm}[hp01_048]
+The reading of \emph{matsyamataṃ} in the subheading is unusual because elsewhere Matsyendra is not referred to as simply Matsya. Furthermore, this verse is from the \emph{Vivekamārtaṇḍa} (36), and the teachings of the \emph{Vivekamārtaṇḍa} are attributed to Gorakṣa, not Matsyendra. However, in the extended recension of it known as the  \emph{Gorakṣaśataka},  \emph{Gorakṣasaṃhitā}, etc. the second verse includes homage to Mīna, i.e. Matsyendra.
+
+The end of pāda b is uncertain. Later witnesses including Brahmānanda have \emph{dhyāyaṃś ca} but none of the early ones has this reading. So, we have to take \emph{dhyānaṃ} with \emph{sannidhāya}. However, \emph{tat} is problematic because here it has no clear referent. In the \emph{Vivekamārtaṇḍa tat} appears to refer to the \emph{mokṣadvāra} broken by Kuṇḍalinī, which is mentioned in the previous verse.
 
 The two participles \emph{proccālayan} and \emph{muñcan} imply that the two things are happening at the same time, which is surprising but perhaps possible. Or perhaps one can understand them as sequential.
 
@@ -555,53 +1667,231 @@ In the VM this verse comes in the passage on raising Kuṇḍalinī, so tat coul
 
 \subsection*{1.49}
 \begin{translation}[hp01_049]
-While in padmāsana the yogi should fill himself up [with Prāṇa] through [all] the channels.  He who takes in breath [in this way] is sure to be liberated.
+While in padmāsana the yogi should inhale through the opening to the central channel. He who holds the breath is sure to be liberated.
 \end{translation}
+
+\begin{sources}[hp01_049]
+--
+\end{sources}
+
+\begin{testimonia}[hp01_049]
+Yogacintāmaṇi
+\startverse
+padmāsanasthito yogī nāḍīdvāreṣu pūrayan |\\
+mārutaṃ dhārayed yas tu sa mukto nātra saṃśayaḥ ||
+\endverse
+
+Haṭharatnāvalī 3.40
+\startverse
+padmāsane sthito yogī nāḍīdvāreṣu pūrayet |\\
+pūritaṃ dhrīyate yas tu sa mukto nātra saṃśayaḥ || 3.40 ||
+\endverse
+
+Dhyānabindu Up
+\startverse
+padmāsanasthito yogī nāḍīdvāreṣu pūrayan |\\
+mārutaṃ kumbhayan yas tu sa mukto nātra saṃśayaḥ || 70 ||
+\endverse
+\end{testimonia}
+
+%\begin{philcomm}[hp01_049]
+% comment on \emph{dvāreṣu} and \emph{dvāreṇa} and explain how the reading with \emph{pibati} in the third pāda might have been understood (i.e., by supplying evam).
+%\end{philcomm}
 
 \subsection*{1.50--52}
 \begin{translation}[hp01_050]
 Now the lion’s pose
-[The yogi] should put both ankles at the sides of the perineal seam below the scrotum. Left ankle is on right, and the right ankle on the left. 
-
-Having placed both hands on the knees and spread his fingers, his mouth open, he gazes with his eyes fixed on the tip of the nose. This is the lion’s pose, which is always worshipped by yogis. It unites the three locks and is the best of all postures.
+[The yogi] should put both ankles at the sides of the perineal seam below the scrotum. Having placed the left ankle on right, the right ankle on the left and both hands on the knees and spread his fingers, with his mouth open, he stares at the tip of the nose. This is the lion’s pose, which is always worshipped by yogis. It causes the three locks to arise together and is the best of [all] postures.
 \end{translation}
+
+\begin{sources}[hp01_050]
+Vasiṣṭhasaṃhitā 1.73
+\startverse
+gulphau ca vṛṣaṇasyādhaḥ sīvanyāḥ pārśvayoḥ kṣipet |\\
+dakṣiṇaṃ savyagulphena dakṣiṇenetaretaram ||\\
+hastau jānau ca saṃsthāpya svāṅgulīś ca prasārya ca |\\
+vyāttavaktro nirīkṣeta nāsāgraṃ susamāhitaḥ ||\\
+siṃhāsanaṃ bhaved etat pūjitaṃ yogibhiḥ sadā ||
+\endverse
+
+Yogayājñavalkya 3.9
+\startverse
+gulpau ca vṛṣaṇasyādhaḥ sīvanyāḥ pārśvayoḥ kṣipet\\
+dakṣiṇaṃ savyagulphena dakṣiṇena tathetaram ||\\
+hastau ca jānvoḥ saṃsthāpya svāṅgulīś ca prasārya ca\\
+vyāttavaktro nirīkṣet nāsagraṃ susamāhitaḥ ||\\
+siṃhāsanaṃ bhaved etat pūjitaṃ yogibhiḥ sadā
+\endverse
+
+Sūtasaṃhitā 15.7
+\startverse
+gulphau ca vṛṣaṇasyādhaḥ sīvanyāḥ pārśvayoḥ kṣipet |\\
+dakṣiṇaṃ savyagulphena vāmaṃ dakṣiṇagulphataḥ || 7 ||\\
+hastau ca jānvoḥ saṃsthāpya svāṅgulīś ca prasārya ca |\\
+nāsāgraṃ ca nirīkṣeta bhavet siṃhāsanaṃ hi tat || 8 ||
+\endverse
+\end{sources}
+
+\begin{testimonia}[hp01_050]
+Yogacintāmaṇi (citing Yogayājñavalkya)
+\startverse
+gulphau ca vṛṣaṇasyādhaḥ sīvanyāḥ pārśvayoḥ kṣipet |\\
+dakṣiṇaṃ savyagulphena dakṣiṇena tathetaram || \\
+hastau jānūpari sthāpya svāṅgulīḥ saṃprasārya ca |\\
+vyāttavaktro nirīkṣeta nāsāgraṃ susamāhitaḥ | \\
+siṃhāsanaṃ bhaved etat pūjitaṃ yogibhiḥ sadā |
+\endverse
+
+[Note: The Yogacintāmaṇi attributes its citation of verses on siṃhāsana to the Yogayājñavalkya and does not include HP 1.52cd, which affirms that 1.52cd is not from the Yogayājñavalkya (or Vasiṣṭhasaṃhitā)].
+
+Haṭharatnāvalī
+\startverse
+atha siṃhāsanam\\
+gulphau ca vṛṣaṇasyādhaḥ sīvanyāḥ pārśvayoḥ kṣipet |\\
+dakṣiṇe savyagulphaṃ ca dakṣiṇe tu tathetaram || 3.31 ||\\
+hastau tu jānvoḥ saṃsthāpya svāṅgulīḥ samprasārya ca ||\\
+vyāttavaktro nirīkṣeta nāsāgraṃ tu samāhitaḥ || 3.32 ||\\
+siṃhāsanaṃ bhaved etat sevitaṃ yogibhiḥ sadā ||\\
+bandhatritayasaṃsthānaṃ kurute cāsanottamam || 3.33 ||
+\endverse
+\end{testimonia}
+
+\begin{philcomm}[hp01_050--052]
+% comment on nyastalocanaḥ and susamāhitaḥ. The latter is well attested by the sources and testimonia, and is in the V19 and N23 branch. However, most of the old mss. have nyastalocanaḥ. Maybe comment on the meaning of sandhāna, which seems to mean simply that the three locks arise together (cf. a similar comment on siddhāsana in 1.42). 
+Spreading the fingers and keeping the mouth open seem to be imitating the lion, and this is depicted in some iconography of yoganarasiṃha (for example, Yoga Narasimha, Vishnu's Man-Lion Incarnation, Samuel Eilenberg Collection, Bequest of Samuel Eilenberg, 1998, Accession Number: 2000.284.4. https://www.metmuseum.org/art/collection/search/39251).  
+\end{philcomm}
 
 \subsection*{1.53--54}
 \begin{translation}[hp01_053]
 Now, the friendly pose.
-[The yogi] should put both ankles at the sides of the perineal seam below the scrotum.  Having firmly and motionlessly held the sides of the feet with the hands, this is bhadrāsana, which cures all diseases and poisons. Yogis of the siddha tradition call it Gorakṣāsana. 
+[The yogi] should put both ankles at the sides of the perineal seam below the scrotum.  Having firmly and motionlessly held the sides of the feet with the hands, this is bhadrāsana, which cures all diseases and poisons. Yogis of the siddha tradition call it Gorakṣāsana.
 \end{translation}
+
+\begin{philcomm}[hp01_054]
+We have understood \emph{pārśvapāda} (i.e., side of the foot) like the compound \emph{agrapāda} (i.e., front of the foot), which can be classified as a \emph{ekadeśitatpuruṣa}. See Sanskrit Vademecum, p.84 (ed.\ Maximilian Mehner and Jürgen Hanneder, Marburg 2019).
+\end{philcomm}
+
+\begin{sources}[hp01_053]
+Vasiṣṭhasaṃhitā 1.79
+\startverse
+gulphau ca vṛṣaṇasyādhaḥ sīvanyāḥ pārśvayoḥ kṣipan | \\
+pārśvapādau ca pāṇibhyāṃ dṛḍhaṃ baddhvā suniścalam |\\
+bhadrāsanaṃ bhaved etat sarvavyādhiviṣāpaham ||
+\endverse
+
+Yogayājñavalkya 3.11cd--3.12ab
+\startverse
+gulphau ca vṛṣaṇasyādhaḥ sīvanyāḥ pārśvayoḥ kṣipet\\
+pārśvapādau ca pāṇibhyāṃ dṛḍhaṃ baddhvā suniścalam\\
+bhadrāsanaṃ bhaved etat sarvavyādhiviṣāpaham
+\endverse
+\end{sources}
+
+\begin{testimonia}[hp01_053]
+Yogacintāmaṇi (citing Yājñavalkya)
+\startverse
+gulphau ca vṛṣaṇasyādhaḥ sīvanyāḥ pārśvayoḥ kṣipet |\\
+pārśvapādau ca pāṇibhyāṃ dṛḍhaṃ badhvā suniścalaḥ |\\
+bhadrāsanaṃ bhaved etat sarvavyādhiviṣāpaham |
+\endverse
+
+Haṭharatnāvalī
+\startverse
+atha bhadrāsanam\\
+gulphau ca vṛṣaṇasyādhaḥ sīvanyāḥ pārśvayoḥ kṣipet ||\\
+pārśvapādau ca pāṇibhyāṃ dṛḍhaṃ baddhvā suniścalam ||\\
+bhadrāsanaṃ bhaved etat sarvavyādhiviṣāpaham || 3.30 ||
+\endverse
+
+YSS
+\startverse
+gulphau ca vṛṣaṇasyāyasvīvinyāḥ pārśvayoḥ kṣipet |\\
+pārśvapāde ca pāṇibhyāṃ dṛḍhaṃ badhvāsu niścalaḥ ||\\
+bhadrāsanaṃ bhaved etat sarvavyādhivināśanam |\\
+gorakṣāsanam ity āhur idaṃ vai siddhayoginaḥ ||
+\endverse
+\end{testimonia}
 
 \subsection*{1.55}
 \begin{translation}[hp01_055]
-When the great yogi does not become tired [while engaged] in these āsanas and bandhas, he should now practise the breath techniques of mudrā and so forth in order to purify the channels.
+When the great yogi does not become tired from adopting the āsanas in this way, he should now practise the breath techniques with mudrās and so forth from which purification of the channels arise.
 \end{translation}
 
-\begin{philcomm}[hp01_055]
-55d is ra-vipulā with \emph{nāḍi}
+\begin{sources}[hp01_055]
+\end{sources}
 
-\emph{nāḍiśuddhiṃ} is difficult to construe. Jim thinks it is a second accusative of the \emph{abhyaset} and reads it as \emph{nāḍiśuddhyartha}. I wonder if it is not better understood as a bahuvrīhī qualifying \emph{°pavanakriyām} (i.e., the yogi should practise a breath technique that is channel-purifying. In other words, he does not practise just any breath technique). As a bahuvṛīhi, it may also be understood as a \emph{hetuviśeṣaṇa} (i.e., why should the yogi practice a breath-technique such as mudrā? Because it is channel-purifying).
+\begin{testimonia}[hp01_055]
+Yogacintāmaṇi
+\startverse
+evam āsanabandheṣu yogīndro vijitaśramaḥ |\\
+abhyasen nāḍiśuddhiṃ ca mudrayā pavanakriyām || iti ||
+\endverse
+
+HSC
+\startverse
+evam āsanabandhastho yogīndro vigataśramaḥ |\\
+athābhyasen nāḍiśuddhiṃ mudrādipavanakriyām || 73 ||
+\endverse
+\end{testimonia}
+
+\begin{philcomm}[hp01_055]
+55c is ra-vipulā with \emph{nāḍi}
+The second hemistich can be interpreted in different ways. One possibility is to understand \emph{nāḍiśuddhiṃ} as a bahuvrīhi qualifying \emph{mudrādipavanakriyām} in the sense that one should practise a breathing technique with mudrās from which purification of the channels arise. Alternatively, one could separate \emph{mudrādi} from \emph{pavanakriyām} and understand three different techniques here, namely, the practice of purifying the channels (perhaps by the alternative nostril method mentioned at the beginning of the second chapter), the \emph{mudrā}s and the breathing techniques of prāṇāyāma.  
 \end{philcomm}
 
-\subsection*{1.55*1}
+\subsection*{1.55*1--2}
 \begin{translation}[hp01_055_1]
 Success arises for one engaged in practice. How can it arise for one who has no practice? Success in yoga does not arise by merely reading scriptures.
 
 Wearing a robe does not bring about success, nor does talking [about yoga]. Practice alone is the cause of success. This is true, there is no doubt. In this tradition, it should not be given to one who wears robes and is devoted to his genitals and stomach.
 \end{translation}
 
+\begin{sources}[hp01_055_1]
+Dattātreyayogaśāstra 42cd--47
+\startverse
+kriyāyuktasya siddhiḥ syād akriyasya kathaṃ bhavet |\\
+na śāstrapāṭhamātreṇa kā cit siddhiḥ prajāyate |\\
+na veṣadhāraṇaṃ siddheḥ kāraṇaṃ na ca tatkathā |\\
+kriyaivakāraṇaṃ siddheḥ satyam eva tu sāṃkṛte || 46 ||\\
+śiśnodarārthaṃ yogasya kathayā veṣadhāriṇaḥ |\\
+anuṣṭhānavihīnās tu vañcayanti janān kila || 47 ||
+\endverse
+\end{sources}
+
+\begin{testimonia}[hp01_055_1]
+\end{testimonia}
+
 \begin{philcomm}[hp01_055_1]
 1.55*1–2 are omitted from V1 and V19, so may not have been included in the earliest version of the text. In fact, it is possible that both were added (perhaps initially as marginal notes) to elaborate on kriyā in 1.55d. Both verses are similar to verses from the Dattātreyayogaśāstra, and these verses (except 1.55.2ef) appear in the vulgate, but towards the end of chapter 1 (1.65–66).
 
 And then just half of DYŚ 47 is given, resulting in a near-nonsensical hemistich.
 
-The syntax of 1.55.2ef is corrupt. One has to emend to \emph{deyā} to make sense of it. 
+The syntax of 1.55.2ef is corrupt. One has to emend to \emph{deyā} to make sense of it.
 \end{philcomm}
 
 \subsection*{1.55*3}
 \begin{translation}[hp01_055_3]
 In me, the pure ocean of awakening, is this empty bubble we call the universe dissolved or does it arise? Where does this veil of doubt about this come from?
 \end{translation}
+
+\begin{testimonia}[hp01_055_3]
+Vārāhītantra
+\startverse
+mayi bodhībudho svasthe tucho yaṃ viśvabudbudaḥ |\\
+malīna udito vetti vikalpāvasaraḥ kutaḥ |
+\endverse
+
+Siddhāntamuktāvalī
+\startverse
+śiśnodararatāya hi na deyaṃ veṣadhāriṇe ||\\
+mayi bodhyaṃ buddhau svacche tad dheyaṃ viśvabudbudam || 7 ||
+\endverse
+
+Yogaprakāśikā
+\startverse
+“śiśnodararatāyaitan na deya" etat yogajñānam etena śiśnodararatas tyājyo nanv etanmate tyājyapadārtho 'prasiddha iti śaṃkāṃ nirasyati mayi iti svacche bodhasvarūpasamudre budbudatulyasya viśvasya heyatvād iti bhāvaḥ
+\endverse
+\end{testimonia}
 
 \begin{philcomm}[hp01_055_3]
 It is very difficult to find a reason why this verse should be inserted here. It is apparently a
@@ -622,26 +1912,50 @@ original except through the fact that it is not transmitted in all manuscripts. 
 further investigation of the matter is the lack of Kashmirian mss.\ for the \emph{Śāntiśataka} and
 its compilatory character: one quarter of the material is identical with Bhartṛhari's
 \emph{Vairāgyaśataka}. A still superficial glance at Sillana's \emph{Svātmopalabdhiśataka} gives
-the impression that our verse would fit there, but not so much in the \emph{Śāntiśataka}.  While
+the impression that our verse would fit there, but not so much in the \emph{Śāntiśataka}. Perhaps its first citation is in Advayavajra’s \emph{Tattva\-ratnāvalī} (ref??),  While
 these are only preliminary observations the verse is probably not original in any stage of
 development of the HYP, but limited to V19 (and N17).
 \end{philcomm}
 
 \subsection*{1.55*4}
 \begin{translation}[hp01_055_4]
-Realisation from scripture, one's own guru or oneself and the cessation of mind; all these are methods that have been systematised and taught by the wise in this tradition.
+Realisation from scripture, one's own guru or oneself and the cessation of mind; all these methods have been combined and taught by the wise in this tradition.
 \end{translation}
+
+\begin{sources}[hp01_055_4]
+\end{sources}
+
+\begin{testimonia}[hp01_055_4]
+Yogacintāmaṇi
+\startverse
+haṭhapradīpikāyām--\\
+śrutapratītiḥ svagurupratītiḥ, svātmapratītir manaso nirodhaḥ |\\
+etāni sarvāṇi samuccitāni, matāni dhīrair iha sādhanāni ||
+\endverse
+\end{testimonia}
 
 \begin{philcomm}[hp01_055_4]
 last greyscale verse (\emph{śrutipratītiḥ…}) is only in V19 of old mss (but some other later ones) and is quoted in Yogacintāmaṇi.
 
-The reading in the YCM (\emph{manaso nirodhaḥ}) is better in a yogic context.
+The reading in the Yogacintāmaṇi (\emph{manaso nirodhaḥ}) is better in a yogic context.
 \end{philcomm}
 
 \subsection*{1.56}
 \begin{translation}[hp01_056]
 The various āsana, breath retention, bodily technique (karaṇa) called seals (mudrā), and then the fusion of the mind with the internal resonance are the sequence of practice in Haṭha.
 \end{translation}
+
+\begin{sources}[hp01_056]
+\end{sources}
+
+\begin{testimonia}[hp01_056]
+Yogacintāmaṇi
+\startverse
+haṭhapradīpikāyām--\\
+āsanaṃ kumbhakaṃ citraṃ mudrākhyaṃ karaṇaṃ tathā |\\
+atha nādānusandhānam abhyāsānukrameṇa ca ||
+\endverse
+\end{testimonia}
 
 \begin{philcomm}[hp01_056]
 Verse is omitted from V1, probably deliberately as it doesn’t have chapter 4, which teaches nādānusandhāna. The numbering in V1 suggests that its exemplar had this verse.
@@ -663,35 +1977,115 @@ It seems that the four aṅgas of Haṭhayoga are being referred to in the singu
 
 \subsection*{1.57}
 \begin{translation}[hp01_057]
-Celibate, restricted in diet and devoted to yoga, a yogi succeeds in upwards of a year. No doubt about this should be entertained.
+Celibate, restricted in diet and devoted to yoga, the renunciant succeeds in upwards of a year. No doubt about this should be entertained.
 \end{translation}
 
-%\begin{philcomm}[hp01_057]
-%\end{philcomm}
+\begin{sources}[hp01_057]
+Vivekamārtaṇḍa 37
+\startverse
+brahmacārī mitāhārī yogī yogaparāyaṇaḥ |\\
+abdād ūrdhvaṃ bhavet siddho nātra kāryā vicāraṇā ||
+\endverse
+\end{sources}
+
+\begin{testimonia}[hp01_057]
+Yogacintāmaṇi
+\startverse
+brahmacārī mitāhārī tyāgī yogaparāyaṇaḥ |\\
+abdād ūrdhvaṃ bhavet siddho nātra kāryā vicāraṇā ||
+\endverse
+
+Haṭharatnāvalī
+\startverse
+brahmacārī mitāhārī tyāgī yogaparāyaṇaḥ ||\\
+abdād ūrdhvaṃ bhavet siddho nātra kāryā vicāraṇā || 3.28 ||
+\endverse
+\end{testimonia}
+
+\begin{philcomm}[hp01_057]
+Comment on tyāgī and yogī, and the reading of this verse in the Vivekamārtaṇḍa. It seems likely that Svātmārāma was using a version of the VM with tyāgī (as it’s unlikely that yogī would be emended to tyāgī), but whether this was the original reading in the VM is more complicated because there tyāgī may be a dittographical-type mistake. 
+\end{philcomm}
 
 \subsection*{1.58}
 \begin{translation}[hp01_058]
-When very unctuous and sweet food that is without a quarter portion [of the stomach] is eaten for love of śiva, it is called a restricted diet (\emph{mitāhāra}).
+When very unctuous and sweet food that is without a quarter portion is eaten for love of śiva, it is called a restricted diet. (\emph{mitāhāra}).
 \end{translation}
 
+\begin{sources}[hp01_058]
+Gorakṣaśataka (original)
+\startverse
+susnigdhamadhurāhāraś caturthāṃśavivarjitaḥ |\\
+bhujyate śivasaṃprītyai mitāhāraḥ sa ucyate ||
+\endverse
+\end{sources}
+
+\begin{testimonia}[hp01_058]
+Yuktabhavadeva
+\startverse
+tad uktaṃ haṭhapradīpikāyām-\\
+susnigdhamadhurāhārāś caturthāṃśavivarjitaḥ ||\\
+bhujyate śivasamprītyai mitāhāraḥ sa ucyate || 16 ||
+\endverse
+
+Yogacūḍāmaṇyupaniṣat
+\startverse
+susnigdhamadhurāhāraścaturthāṃśavivarjitaḥ |\\
+bhuñjate śivasaṃprītyā mitāhārī sa ucyate || 43 ||
+\endverse
+\end{testimonia}
+
 \begin{philcomm}[hp01_058]
-This verse probably derives from the ‘original’ GŚ (12c–13b). It is also found, but reworked to be about the \emph{mitāhārī}, in Nowotny’s GŚ (extended recension of VM) at 55.
+This verse probably derives from the ‘original’ GŚ (12c–13b). It is also found, but reworked to be about the \emph{mitāhārī}, in Nowotny’s GŚ (extended recension of VM) at 55. The idea of not eating the fourth portion of one’s food (\emph{caturthāṃśavivarjitaḥ}) can be found in older sources, such as Dharmaputrikā 1.51-52 (ṣaḍrasopetasuṣnigdhasvādusāndrasugandhinā |
+udarasyārdhabhāgan tu bhojanena prapūrayet || pānīyena caturbhāgaṃ taccheṣaṃ śūnyam iṣyate | vāyos sañcāraṇānārtham āhāraniyamaḥ smṛtaḥ) and Aṣṭāṅgahṛdayasaṃhitā Sūtrasthāna 8.46c-47b ( annena kukṣer dvāv aṃśau pānenaikaṃ prapūrayet ||āśrayaṃ pavanādīnāṃ caturtham avaśeṣayet). As noted in the Jy
+
 \end{philcomm}
 
 \subsection*{1.59}
 \begin{translation}[hp01_059]
-[Adepts] say the [following] is unwholesome: pungent, sour, bitter, salty and hot foods, horseradish, sour gruel, [sesame] oil, sesame and mustard seeds, fish and intoxicating drink. Flesh of goats and sheep, curds, diluted buttermilk, poor man's pulse, Jujube fruit, the leftover paste of oily seeds, asafoetida, garlic and the like. 
+[Adepts] say the [following] is unwholesome: pungent, sour, bitter, salty and hot foods, horseradish, sour gruel, [sesame] oil, sesame and mustard seeds, fish and intoxicating drink. Flesh of goats and so forth, curds, diluted buttermilk, poor man's pulse, Jujube fruit, the leftover paste of oily seeds, asafoetida, garlic and the like.
 \end{translation}
+
+\begin{sources}[hp01_059]
+\end{sources}
+
+\begin{testimonia}[hp01_059]
+Yogacintāmaṇi
+\startverse
+haṭhapradīpikāyām--\\
+kaṭvamlatīkṣṇalavaṇoṣṇaharītaśāka-\\
+sauvīratailatilasarṣapamatsyamadyam |\\
+ajādimāṃsadadhitakrakulatthakola-\\
+piṇyākahiṅgulaśunādyam apathyam āhuḥ ||
+\endverse
+
+Haṭharatnāvalī
+\startverse
+kaṭvamlatīkṣṇalavaṇoṣṇaharītaśākaṃ \\
+sauvīratailatilasarṣapamatsyamadyam |\\
+ajādimāṃsadadhitakrakulatthakodra-\\
+piṇyākahiṅgulaśunādyam apathyam āhuḥ || 1.72 ||
+\endverse
+
+HTK
+\startverse
+atha varjyāni –\\
+kaṭvamlatīkṣṇalavaṇoṣṇa haritaśāka-\\
+sauvīratailatilasarṣapamatsyamadyam ||\\
+ajāvimāṃsadadhitakrakulatthakola-\\
+piṇyākahiṃgulaśunādyam apathyam āhuḥ || 28 ||
+\endverse
+\end{testimonia}
 
 \begin{philcomm}[hp01_059]
 59a \emph{kaṭvamla°} is better than \emph{kaṭvāmla°} and well attested elsewhere in lists of tastes and types of foods.
 On the meaning of \emph{uṣṇa} (in relation to food) see Meulenbeld 1974: 254 fn. 13: ‘Cakra mentions as a variant: \emph{katvamlalavaṇakṣāra} (pungent. acid, saline and caustic). Cakra remarks that the term `hot' (\emph{uṣṇa}) denotes hot on touch when it occurs the first time, and hot with regard to potency when it occurs for the second time.’
 
-\emph{°hari}(\emph{ī} here for metre?)\emph{taśāka°} in some nighaṇṭus is horseradish, which makes better sense here.
+\emph{°hari}(\emph{ī} here for metre?)\emph{taśāka°} in some nighaṇṭus is horseradish, which makes better sense here than Brahmānanda’s gloss.
 \startverse
 śigrur haritaśākaś ca śākapattraḥ supattrakaḥ | \textup{Rājanighaṇṭu 7.26}\\
 śigruko haritaśākaś ca mato vai mūlapatrakaḥ | \textup{Sauśrutanighaṇṭu 75ab}\\
 \endverse
+
 Brahmānanda’s understanding of \emph{harītaśāka} as \emph{patraśāka} is probably wrong if \emph{patraśāka} was intended as ‘leafy vegetables’. But perhaps \emph{patraśāka} can also mean \emph{śigru} (note \emph{śākapattraḥ} above).
 
 Anusvāra at end of \emph{śāka}?
@@ -709,30 +2103,33 @@ Meulenbeld, madhavanidāna pp. 516–517
 But according to some nighaṇṭus, \emph{sauvīra} can also mean stibnite (an ingredient in some añjana’s and medicines):
 \startverse
 añjanaṃ yāmunaṃ kṛṣṇaṃ nādeyaṃ mecakaṃ tathā \\
-srotojaṃ dṛkpradaṃ nīlaṃ sauvīraṃ ca suvīrajam //  \textup{Rājanighaṇṭu 13.86}
+srotojaṃ dṛkpradaṃ nīlaṃ sauvīraṃ ca suvīrajam ||  \textup{Rājanighaṇṭu 13.86}
 \endverse
+
 Note also that the Yogaprakāśikā takes \emph{sauvīra} with \emph{taila}, perhaps to solve the problem of \emph{taila} on its own (see below for more on this): \emph{sauvīrataila} -- oil produced in the place Suvīra (\emph{suvīradeśodbhavatailam}).
 
 Suvīra , a country the people of which, also called Suvira (V.79), Sauvira (XVI.21) and Sauvīraka (IV.23) ... S.M. Ali identifies it with the Rohri - Khairpur region of Sind (Geography of the Purānas, Delhi, 1966, p. 144).
 
-\emph{taila} could refer to \emph{tilataila}: 
-Śārṅgadharasaṃhitā: 
+\emph{taila} could refer to \emph{tilataila}:
+Śārṅgadharasaṃhitā:
 \emph{anuktāvasthāyāṃ paribhāṣāvidhiḥ [...] taile ’nukte tilodbhavam} 48
 
 Dominik Wujastyk supplied this reference and may be able to comment more on taila in this list.
 
 On the translation of \emph{madya}, see Mchugh (An Unholy Brew) 2021: 8.
 
-\emph{ajāvimāṃsa}: note the variant \emph{ajādimāṃsa}, which makes better sense to me as \emph{aja} might simply indicate that the flesh of animals is meant (as opposed to humans). 
-\emph{ājāvi°} is needed for the metre.
+\emph{ājādimāṃsa}: āja° is required for the metre, so only ājādi makes sense, not ājāvi because there is no adjective āvi.
+
+Diwakar Acharya: prohibition of goat flesh and fish is aimed at north/east India.
 
 \emph{kulattha} is a kind of pulse, translated by Dominik Wujastyk as `poor man's pulse' (see Roots of Ayurveda).
 
-\emph{kola}: Zizyphus Jujuba (Nadkarni 1926: pp. 919-920). Also known as \emph{badara}. This is how Brahmānanda takes it (\emph{kolaṃ kolyāḥ phalaṃ badaram}). According to Nadkarni, the fruit of the wild variety is very acid and astringent. It is believed to purify the blood and assist digestion. The bark is astringent and a simple remedy for diarrhoea. Root is useful as a decoction in fever and delirium. 
+\emph{kola}: Zizyphus Jujuba (Nadkarni 1926: pp. 919--920). Also known as \emph{badara}. This is how Brahmānanda takes it (\emph{kolaṃ kolyāḥ phalaṃ badaram}). According to Nadkarni, the fruit of the wild variety is very acid and astringent. It is believed to purify the blood and assist digestion. The bark is astringent and a simple remedy for diarrhoea. Root is useful as a decoction in fever and delirium.
+kola can mean banana in some parts of India (Diwakar)
 
 There are references to \emph{kola} being pungent, though this does not seem to indicate sufficiently why \emph{kola} is mentioned separately as an \emph{apathya} food.
 
-\emph{piṇyāka}: Sharma (Ḍalhaṇa and his commentary on drugs: 1982: 69) says, ‘The remnant paste of oily seeds after pressing out the oil content is called \emph{piṇyāka}.’ 
+\emph{piṇyāka}: Sharma (Ḍalhaṇa and his commentary on drugs: 1982: 69) says, ‘The remnant paste of oily seeds after pressing out the oil content is called \emph{piṇyāka}.’ Diwakar says it is an oil cake that has a strong flavour.
 
 \emph{hiṅgu}: Asafoetida (Nadkarni 1926: pp 360–361): `If long continued even in moderate doses, it gives rise to alliaceous eructations, acrid irritation in the throat, flatulence, diarrhoea and burning in the urine.'
 
@@ -741,15 +2138,33 @@ There are references to \emph{kola} being pungent, though this does not seem to 
 
 \subsection*{1.60}
 \begin{translation}[hp01_060]
-One should know as unwholesome food that has been reheated and is dry. [Food that is] too salty, the leftover paste of crushed sesame seeds (tilapiṇḍa), spoiled food, [prohibited] vegetables (?), and pepper (?) are to be omitted. 
+One should know food that has been reheated, is dry, is too salty, the leftover paste of crushed sesame seeds (tilapiṇḍa), spoiled [or] contains an excess of leafy vegetables to be unwholesome. It is to be avoided.
 \end{translation}
 
+\begin{sources}[hp01_060]
+\end{sources}
+
+\begin{testimonia}[hp01_060]
+Yogacintāmaṇi
+\startverse
+bhojanam ahitaṃ vidyāt punar <apy> uṣṇīkṛtaṃ tathā rukṣam |\\
+atilavaṇaṃ sapalaṃ vā prasitaṃ śākotkaṭaṃ varjyam ||
+\endverse
+
+HSC
+\startverse
+bhojanam ahitaṃ vidyāt punar uṣṇīkṛtaṃ rūkṣaṃ | \\
+atilavaṇādikayuktaṃ kadaśanaśākotkaṭaṃ duṣṭaṃ ||
+\endverse
+\end{testimonia}
+
 \begin{philcomm}[hp01_060]
-We have not found any conclusive evidence for the meaning of \emph{tilapiṇḍa}. Brahmānanda glosses it as \emph{piṇyāka} (on which see the notes for the previous verse). 
+We have understood the compound \emph{kadaśanaśākotkaṭa} as a dvandva referring to spoiled food (\emph{kadaśana}) and an excess of leafy vegetables (\emph{śākotkaṭa}).
+We have not found any conclusive evidence for the meaning of \emph{tilapiṇḍa}. Brahmānanda glosses it as \emph{piṇyāka} (on which see the notes for the previous verse).
 
-Not sure how to take \emph{kadaśanaśākotkaṭaṃ}. Brahmānanda understands it as a dvandva (i.e., \emph{kadaśana}, \emph{śāka}, \emph{utkaṭa}), where \emph{śāka} is prohibited vegetables and \emph{utkaṭa} is pepper. 
+Not sure how to take \emph{kadaśanaśākotkaṭaṃ}. Brahmānanda understands it as a dvandva (i.e., \emph{kadaśana}, \emph{śāka}, \emph{utkaṭa}), where \emph{śāka} is prohibited vegetables and \emph{utkaṭa} is pepper.
 
-The meaning of \emph{utkaṭa} is not clear. The word \emph{utkaṭā} can mean pepper according to some nighaṇṭus (e.g., Rājanighaṇṭu 5.16 \emph{pārvatī śailajā tāmrā lambabījā tathotkaṭā}). But \emph{utkaṭa} can refer to Saccharum Sara and \emph{utkaṭā} also to Laurus Cassia (cinnamon). 
+The meaning of \emph{utkaṭa} is not clear. The word \emph{utkaṭā} can mean pepper according to some nighaṇṭus (e.g., Rājanighaṇṭu 5.16 \emph{pārvatī śailajā tāmrā lambabījā tathotkaṭā}). But \emph{utkaṭa} can refer to Saccharum Sara and \emph{utkaṭā} also to Laurus Cassia (cinnamon).
 
 Also, \emph{utkaṭa} can be an adjective that means ‘abounding in’ at the end of a compound. So could \emph{kadaśanaśākotkaṭaṃ} have been intended as an adjectival tatpuruṣa along the lines of ‘[food] full of spoiled vegetables’?
 \end{philcomm}
@@ -757,17 +2172,71 @@ Also, \emph{utkaṭa} can be an adjective that means ‘abounding in’ at the e
 \subsection*{1.61}
 \begin{translation}[hp01_061]
 Similarly a saying by Goraksa:
-One should avoid a liking for bad people, frequenting fire, women and roads, early morning bathing, fasting and the like, as well as such things as harming the body.
+One should avoid a liking for bad people, frequenting fire, women and roads, and observances which harm the body such as early morning bathing and fasting.
 \end{translation}
 
+\begin{sources}[hp01_061]
+Amṛtasiddhi 19.7
+\startverse
+agnisevābalāsevā pathasevā ca sarvadā |\\
+prathamābhyāsakāle tu saṃtyājyā yoginā sadā || 19.7 ||
+\endverse
+\end{sources}
+
+\begin{testimonia}[hp01_061]
+Yogacintāmaṇi
+\startverse
+haṭhadīpikāyām—\\
+varjayed durjanaprītiṃ vahnistrīpathasevanam |\\
+prātaḥsnānopavāsādi kāyakleśādikaṃ tathā ||
+\endverse
+
+Haṭharatnāvalī
+\startverse
+tathā ca gorakṣavacanam---\\
+varjayed durjanaprītivahnistrīpathasevanam |\\
+prātaḥsnānopavāsādi kāyakleśādikaṃ tathā || 1.73 ||
+\endverse
+\end{testimonia}
+
 \begin{philcomm}[hp01_061]
-The vulgate has a parallel from the Amaraugha added. Also, the vulgate reads \emph{kāyakleśavidhiṃ tathā}.
+The vulgate has a parallel from the Amaraugha added. 
 \end{philcomm}
 
 \subsection*{1.62}
 \begin{translation}[hp01_062]
-Pure food with wheat, rice, śāli rice, barley, sixty-day śāli rice, milk, ghee, candied sugar, unclarified fermented butter, ground sugar and honey. Dried ginger, fruit of the snake gourd and five vegetables, mung beans and so on, and rain water are wholesome for the best of sages.
+Pure food with wheat, rice, śāli rice, barley, sixty-day śāli rice, milk, ghee, candied sugar, unclarified fermented butter, ground sugar and honey. Dried ginger, fruit of the snake gourd and so forth, the five vegetables, mung beans and so on, and rain water are wholesome for the best of sages.
 \end{translation}
+
+\begin{sources}[hp01_062]
+\end{sources}
+
+\begin{testimonia}[hp01_062]
+Yogacintāmaṇi
+\startverse
+godhūmaśāliyavaṣāṣṭikaśobhanānnaṃ\\
+kṣīrājyamaṇḍanavanītasitāmadhūni |\\
+śuṇṭhīpaṭolakaphalādikapañcaśākaṃ\\
+mudgādi cālpam udakaṃ ca munīndrapathyam ||
+\endverse
+
+Haṭharatnāvalī
+\startverse
+godhūmaśāliyavaṣaṣṭikaśobhanānnaṃ \\
+kṣīrājyamaṇḍanavanītasitāmadhūni |\\
+śuṇṭhīpaṭolaphalapatrajapañcaśākaṃ \\
+mudgādidivyam udakaṃ ca yamīndrapathyam || 1.71 ||
+\endverse
+
+YBD
+\startverse
+tathā ca śivayoge-\\
+godhūmaśāliyavaṣāṣṭikaśobhanānnaṃ \\
+kṣīrājyakhaṇḍanavanītasitāmadhūni ||\\
+śuṇṭhīpaṭolakaphalādi ca pañcaśāka-\\
+mudgādidivyam udakaṃ ca munīndrapathyam || 21 ||
+\endverse
+\end{testimonia}
 
 \begin{philcomm}[hp01_062]
 \emph{khaṇḍa} -- candied sugar (Meul 507, different types of sugar).
@@ -782,7 +2251,7 @@ Pure food with wheat, rice, śāli rice, barley, sixty-day śāli rice, milk, gh
 
 Nadkarni has two entries on \emph{paṭola}:
 \begin{enumerate}
-\item snake gourd (Nadkarni p. 863) is common in Bengal and cultivated in Northern India and Punjab. The unripe fruit of this climbing plant is generally used as a culinary vegetable and is very wholesome, specially suited for the convalescent. 
+\item snake gourd (Nadkarni p. 863) is common in Bengal and cultivated in Northern India and Punjab. The unripe fruit of this climbing plant is generally used as a culinary vegetable and is very wholesome, specially suited for the convalescent.
 
 \item smooth luffa (Nadkarni p. 518) is a hairy climbing herb extensively cultivated in several parts of India. The fruit is edible. Medicinally it is described as `cool, costive, demulcent, producive of loss of appetite and excitive of wind, bile and phlegm")
 \end{enumerate}
@@ -794,7 +2263,7 @@ Brahmānanda glosses it as \emph{kośātakī} (Meul p. 586 LUFFA ACUTANGULA ROXB
 
 Brahmānanda also mentions the vernacular term \emph{paravara} for \emph{paṭola}, which the Lonavla ed. states is a kind of cucumber. However, Paras remarked that \emph{paravara} is more like a gourd (hard shell, etc.).
 
-On \emph{pañcaśāka}, see GhS  
+On \emph{pañcaśāka}, see GhS
 \startverse
 bālaśākaṃ kālaśākaṃ tathā paṭolapatrakam |\\
 pañcaśākaṃ praśaṃsīyād vāstūkaṃ hilamocikāṃ || 5.20 ||
@@ -807,13 +2276,13 @@ kṣīraparṇī ca jīvantī matsyākṣī ca punarnavā \\
 meghanādaś ceti budhaiḥ pañcaśākaḥ prakīrtitaḥ || iti || 26
 \endverse
 
-Jyotsnā
+Jyotsnā and Yuktabhavadeva 4.22
 \startverse
 sarvaśākam acākṣuṣyaṃ cākṣuṣyaṃ śākapañcakam |\\
 jīvantī-vāstu-matsyākṣī-meghanāda- punarnavāḥ || iti ||
 \endverse
 
-It is not entirely clear how we should understand \emph{divya}. Brahmānanda glosses it a \emph{nirdoṣa} and takes it with \emph{udaka}. But could it refer more specifically to \emph{gaṅgāmbu} (as suggested by Paras) or rain water? MW has \emph{divyodaka} n. `divine water' i.e. rainwater L.
+It is not entirely clear how we should understand \emph{divya}. Brahmānanda glosses it with \emph{nirdoṣa} and takes it with \emph{udaka}. But could it refer more specifically to \emph{gaṅgāmbu} (as suggested by Paras) or rain water? MW has \emph{divyodaka} n. `divine water' i.e. rainwater L.
 
 The term \emph{divyodaka} appears in Āyurvedic works (but we’re yet to find a gloss in a commentary). E.g.,
 Aṣṭāṅgahṛdaya 8.42–43
@@ -828,8 +2297,8 @@ SriKanta Murty translates \emph{divyodaka} as ‘divyodaka (rain water or pure w
 
 The Rājanighaṇṭu says rainwater:
 \startverse
-divyodakaṃ kharāri syād ākāśasalilaṃ tathā /\\
-vyomodakaṃ cāntarikṣajalaṃ ceṣvabhidhāhvayam // \textup{Rajni 14.4}
+divyodakaṃ kharāri syād ākāśasalilaṃ tathā |\\
+vyomodakaṃ cāntarikṣajalaṃ ceṣvabhidhāhvayam || Rajni 14.4
 \endverse
 
 Kharāri? Maybe \emph{khavāri} was intended.
@@ -838,12 +2307,31 @@ Vācaspatyam:
 \textbf{divyodaka} na° karma°.
 1 antarīkṣabhave jale divyaśabde bhāva° pra° vākye tadbhedādi dṛśyam.
 ambuśabde vivṛtiḥ .
+
+62*1 is quoted in the Jyotsna as from a medical work (“vaidyake”).
 \end{philcomm}
 
 \subsection*{1.63}
 \begin{translation}[hp01_063]
-The yogi should eat food that is pure (\emph{mṛṣṭa}, or delicious \emph{miṣṭa}), unctuous, and containing diary. It should nourish the bodily constituents, satiate the mind and be fit [for yoga].
+The yogi should eat food that is sweet, delicious, unctuous, contains cow products, nourishes the bodily constituents, is desired by the mind and is appropriate.
 \end{translation}
+
+\begin{sources}[hp01_063]
+\end{sources}
+
+\begin{testimonia}[hp01_063]
+Yogacintāmaṇi
+\startverse
+piṣṭaṃ sumadhuraṃ snigdhaṃ gavyaṃ dhātuprapoṣaṇam |\\
+manobhilaṣitaṃ yogyaṃ yogī bhojanam ācared iti ||
+\endverse
+
+YBhD
+\startverse
+śreṣṭhaṃ sumadhuraṃ snigdhaṃ gavyaṃ dhātuprapoṣaṇam ||\\
+mano'bhilaṣitaṃ yogyaṃ yogī bhojanamācaret || 23 ||
+\endverse
+\end{testimonia}
 
 \begin{philcomm}[hp01_063]
 The variants of 1.63a all seem possible: \emph{mṛṣṭaṃ}, \emph{miṣṭaṃ} and \emph{iṣṭaṃ}. Maybe the last is made redundant by \emph{mano 'bhilaṣitaṃ}.
@@ -851,20 +2339,54 @@ The variants of 1.63a all seem possible: \emph{mṛṣṭaṃ}, \emph{miṣṭa�
 
 \subsection*{1.64}
 \begin{translation}[hp01_064]
-Whether young, old, very old, sick or even weak, the diligent yogi succeeds in all yogas through practice. 
+Whether young, old, very old, sick or even weak, the diligent yogi succeeds in all yogas through practice.
 \end{translation}
 
+\begin{sources}[hp01_064]
+DYS 40
+\startverse
+yuvāvastho 'pi vṛddho vā vyādhito vā śanaiḥ śanaiḥ |\\
+abhyāsāt siddhim āpnoti yoge sarvo 'py atandritaḥ || 40 ||
+\endverse
+\end{sources}
+
+\begin{testimonia}[hp01_064]
+Yogacintāmaṇi
+\startverse
+haṭhapradīpikāyām—\\
+yuvā bālo 'tivṛddho vā vyādhito durbalo 'pi vā |\\
+abhyāsāt siddhim āpnoti sarvayogeṣv atandritaḥ ||
+\endverse
+
+Haṭharatnāvalī
+\startverse
+yuvā bhavati vṛddho 'pi vyādhito durbalo 'pi vā |\\
+abhyāsāt siddhim āpnoti sarvayogeṣv atandritaḥ || 1.23 ||
+\endverse
+\end{testimonia}
+
 \begin{philcomm}[hp01_064]
-Note the different reading in 164d for V1: \emph{sarvaṃ yogī yatendriyaḥ}. Sarvaṃ is not easy to construe, and the testimony of the DYŚ suggests that \emph{yoge sarvo ’py atandritaḥ} was original.
+Note the different reading in 164d for V1: \emph{sarvaṃ yogī yatendriyaḥ}. \emph{sarvaṃ} is not easy to construe, and the testimony of the DYŚ suggests that \emph{yoge sarvo ’py atandritaḥ} was original.
 \end{philcomm}
 
 \subsection*{1.65}
 \begin{translation}[hp01_065]
-The postures, various breath retentions and techniques, beginning with seals, are all to be done in the practice of Haṭha until the goal of Rājayoga [is attained].
+The postures, various breath retentions and techniques, beginning with seals, are all [to be done] in the practice of Haṭha until the reward that is Rājayoga [is attained].
 \end{translation}
 
+\begin{sources}[hp01_065]
+\end{sources}
+
+\begin{testimonia}[hp01_065]
+Haṭharatnāvalī
+\startverse
+pīthāni kumbhakāś citrā divyāni karaṇāni ca |\\
+sāṅgo 'pi ca haṭhābhyāso rājayogaphalārthadaḥ || 1.17 ||
+\endverse
+\end{testimonia}
+
 \begin{philcomm}[hp01_065]
-\emph{sarvaṇy api} is better than \emph{sarvo pi} ca because it refers to all the practices mentioned in the first hemistich. 
+\emph{sarvaṇy api} is better than \emph{sarvo pi} ca because it refers to all the practices mentioned in the first hemistich.
 
 Reading of Brahmānanda is different for the third pāda: \emph{divyāni karaṇāni}.
 \end{philcomm}

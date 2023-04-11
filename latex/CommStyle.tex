@@ -1,0 +1,26 @@
+\makepagestyle{HPed}
+\makeoddhead{HPed}{\small\texteng{HP Transl. \& Comm.}}{}{\small\texteng{\today}}
+\makeevenhead{HPed}{\small\texteng{HP Transl. \& Comm.}}{}{\small\texteng{\today}}
+\makeoddfoot{HPed}{}{\small\texteng{\thepage}}{}
+\makeevenfoot{HPed}{}{\small\texteng{\thepage}}{}
+
+\SetTEIxmlExport{autopar=false}
+\NewDocumentEnvironment{translation}{O{}}{\textcolor{blue}{\textbf{Transl.:}}}{}
+\NewDocumentEnvironment{philcomm}{O{}}{
+	\textcolor{blue}{\textbf{Comm.:}}}{}
+\NewDocumentEnvironment{sources}{O{}}{
+	\textcolor{blue}{\textbf{Sources:}}\linebreak}{}
+\NewDocumentEnvironment{testimonia}{O{}}{
+	\textcolor{blue}{\textbf{Testimonia:}}\linebreak}{}
+%\newcommand{\var}[1]{\footnotesize\textup{#1}}
+\def\vl{\textit{v.l.}}
+\def\var#1{\\ {\small #1}}
+\def\sl#1{\emph{#1}}
+
+\linespread{1}
+\setlength{\parskip}{0.3em}
+\setlength\parindent{0pt}
+\setlength{\vindent}{0pt}
+\def\startverse{\begin{ekdverse}\begin{itshape}}
+\def\endverse{\normalsize\end{itshape}\end{ekdverse}} % \textup
+\setvnum{}

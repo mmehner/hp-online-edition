@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", () => {
 	let class_a = document.getElementsByClassName(scriptclass);
 	
 	for (var i = class_a.length -1 ; i >= 0; i--) {
-	    let div=class_a[i]
+	    let div=class_a[i];
 	    div.style.display="none";
 	} 
     }
@@ -61,7 +61,7 @@ document.addEventListener("DOMContentLoaded", () => {
 	let class_a = document.getElementsByClassName(scriptclass);
 
 	for (var i = class_a.length -1 ; i >= 0; i--) {
-	    let div=class_a[i]
+	    let div=class_a[i];
 	    div.style.display="block";
 	    
 	}
