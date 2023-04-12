@@ -305,6 +305,9 @@
   </xsl:template>
 
   <xsl:template match="lem|rdg">
+    <xsl:if test="descendant::gap">
+      <xsl:apply-templates select="descendant::gap"/>
+    </xsl:if>
     <xsl:value-of select="."/>
     <xsl:call-template name="sigla"/>
   </xsl:template>
@@ -401,6 +404,11 @@
       </xsl:attribute>
       <b>*</b>
     </xsl:element>
+  </xsl:template>
+
+  <!-- gaps with reason -->
+  <xsl:template match="gap[@reason]">
+    <i><xsl:value-of select="@reason"/></i>
   </xsl:template>
   
   <!-- lists -->
