@@ -117,6 +117,9 @@
 	      <div class="sources">
 		<xsl:apply-templates select="document('../xml/HP1_TranslComm-tei.xml')//note[@type='sources' and @target=$correspkey]"/>
 	      </div>
+	      <div class="sources">
+		<xsl:apply-templates select="document('../xml/HP1_TranslComm-tei.xml')//note[@type='testimonia' and @target=$correspkey]"/>
+	      </div>
 	    </details>
 	  </div>
 	</div>
@@ -305,10 +308,8 @@
   </xsl:template>
 
   <xsl:template match="lem|rdg">
-    <xsl:if test="descendant::gap">
-      <xsl:apply-templates select="descendant::gap"/>
-    </xsl:if>
     <xsl:value-of select="."/>
+    <xsl:apply-templates select="descendant::gap"/>
     <xsl:call-template name="sigla"/>
   </xsl:template>
 
@@ -392,7 +393,7 @@
   </xsl:template>
 
    <xsl:template match="l[ancestor::note]">
-    <p class="vers"><xsl:apply-templates/></p>
+    <p class="versinnote"><xsl:apply-templates/></p>
   </xsl:template>
 
   <!-- footnotes -->

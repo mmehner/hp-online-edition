@@ -1,16 +1,20 @@
-﻿% additions 2023-04-05 MD:
+﻿% additions 2023-04-13 mm:
+\TeXtoTEIPat{\begin {versinnote}}{<lg>}
+  \TeXtoTEIPat{\end {versinnote}}{</lg>}
+
+% additions 2023-04-05 MD:
 \TeXtoTEIPat{\begin {testimonia}[#1]}{<note type="testimonia" target="##1">}
-\TeXtoTEIPat{\end {testimonia}}{</note>}
+  \TeXtoTEIPat{\end {testimonia}}{</note>}
 \TeXtoTEI{devnote}{s}[xml:lang="sa-deva"]
 % \TeXtoTEIPat{\lineom {#1}}{<note type="omission">(line om. <ref target="##1">#1</ref>)</note>}
 \TeXtoTEIPat{\lineom {#1}}{<note type="omission">(line om. #1)</note>} %%% change 2023-04-11 mm
 \TeXtoTEIPat{\anm {#1}}{<note type="memo">(#1)</note>}
 \TeXtoTEIPat{\Anm {#1}}{<note type="memo">(#1)</note>} % only in HP4-edition.tex
-\TeXtoTEIPat{\startverse}{}
-\TeXtoTEIPat{\endverse}{}
+\TeXtoTEIPat{\startverse}{} %%% marked for change 2023-04-13 mm
+\TeXtoTEIPat{\endverse}{} %%% marked for change 2023-04-13 mm
 \TeXtoTEIPat{\newpage}{}
 \TeXtoTEIPat{\marma}{}
-\TeXtoTEIPat{\marmas}{ }
+\TeXtoTEIPat{\marmas}{}
 
 %%% modify environments and commands
 %%% TEI mapping
@@ -28,10 +32,10 @@
 \TeXtoTEI{sgwit}{ref}
 \TeXtoTEI{textdev}{s}[xml:lang="sa-deva"]
 \TeXtoTEIPat{\begin {col}[#1]}{<div type="colophon" xml:id="#1"><p>}
-\TeXtoTEIPat{\end {col}}{</p></div>}
+  \TeXtoTEIPat{\end {col}}{</p></div>}
 \TeXtoTEIPat{\begin {ava}[#1]}{<note type="avataranika" target="##1">}
-\TeXtoTEIPat{\end {ava}}{</note>}
-%\TeXtoTEIPat{\NotIn {#1}}{<note type="omission"><ref target="##1">#1</ref></note>}
+  \TeXtoTEIPat{\end {ava}}{</note>}
+% \TeXtoTEIPat{\NotIn {#1}}{<note type="omission"><ref target="##1">#1</ref></note>}
 \TeXtoTEIPat{\NotIn {#1}}{<note type="omission">(om. <ref target="##1">#1</ref>)</note>} % mod. by MD 2023-04-05
 \TeXtoTEIPat{\outdent}{}
 \TeXtoTEIPat{\startaltrecension}{<note type="altrecension">}
@@ -43,20 +47,20 @@
 % additions/changes 2022-03-12 mm:
 \TeXtoTEIPat{\begin {tlg}[#1]}{<lg xml:id="#1">}
   \TeXtoTEIPat{\end {tlg}}{</lg>}
-  
+
 \TeXtoTEIPat{\begin {translation}[#1]}{<note type="translation" target="##1">}
-\TeXtoTEIPat{\end {translation}}{</note>}
+  \TeXtoTEIPat{\end {translation}}{</note>}
 \TeXtoTEIPat{\begin {philcomm}[#1]}{<note type="philcomm" target="##1">}
-\TeXtoTEIPat{\end {philcomm}}{</note>}
+  \TeXtoTEIPat{\end {philcomm}}{</note>}
 \TeXtoTEIPat{\begin {sources}[#1]}{<note type="sources" target="##1">}
-\TeXtoTEIPat{\end {sources}}{</note>}
+  \TeXtoTEIPat{\end {sources}}{</note>}
 
 
 \TeXtoTEIPat{\begin {marma}[#1]}{<note type="marma" target="##1">}
-\TeXtoTEIPat{\end {marma}}{</note>}
+  \TeXtoTEIPat{\end {marma}}{</note>}
 
 \TeXtoTEIPat{\begin {jyotsna}[#1]}{<note type="jyotsna" target="##1">}
-\TeXtoTEIPat{\end {jyotsna}}{</note>}
+  \TeXtoTEIPat{\end {jyotsna}}{</note>}
 
 \EnvtoTEI{description}{list}
 \EnvtoTEI{itemize}{list}
@@ -73,18 +77,18 @@
 \TeXtoTEI{rlap}{}
 
 % end additions/changes
-%\TeXtoTEIPat{\skp {#1}}{#1}
-%\TeXtoTEIPat{\skm {#1}}{}
+% \TeXtoTEIPat{\skp {#1}}{#1}
+% \TeXtoTEIPat{\skm {#1}}{}
 
 \TeXtoTEIPat{\begin {prose}}{<p>}
-\TeXtoTEIPat{\end {prose}}{</p>}
+  \TeXtoTEIPat{\end {prose}}{</p>}
 
 \TeXtoTEIPat{\begin {tlate}}{<p>}
-\TeXtoTEIPat{\end {tlate}}{</p>}
+  \TeXtoTEIPat{\end {tlate}}{</p>}
 
 \TeXtoTEI{emph}{hi}
 \TeXtoTEI{bigskip}{}
-%\TeXtoTEI{/}{|}
+% \TeXtoTEI{/}{|}
 \TeXtoTEI{tl}{l}
 \TeXtoTEIPat{english}{}
 \TeXtoTEIPat{-}{ }
@@ -118,9 +122,9 @@
 % \TeXtoTEIPat{\lectio}{}
 % \TeXtoTEIPat{\leginequit}{}
 % \TeXtoTEIPat{\legn}{}
-%\TeXtoTEIPat{\illeg}{<hi rend="italic">illeg.</hi>}
+% \TeXtoTEIPat{\illeg}{<hi rend="italic">illeg.</hi>}
 \TeXtoTEIPat{\illeg}{<gap reason="illeg."/>} %%% change 2023-04-11 mm
-%\TeXtoTEIPat{\om}{<hi rend="italic">om.</hi>}
+% \TeXtoTEIPat{\om}{<hi rend="italic">om.</hi>}
 \TeXtoTEIPat{\om}{<gap reason="om."/>} %%% change 2023-04-11 mm
 % \TeXtoTEIPat{\primman}{}
 % \TeXtoTEIPat{\prob}{}

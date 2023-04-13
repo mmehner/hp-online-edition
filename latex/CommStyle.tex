@@ -21,6 +21,7 @@
 \setlength{\parskip}{0.3em}
 \setlength\parindent{0pt}
 \setlength{\vindent}{0pt}
-\def\startverse{\begin{ekdverse}\begin{itshape}}
-\def\endverse{\normalsize\end{itshape}\end{ekdverse}} % \textup
+\def\startverse{\begin{ekdverse}\begin{itshape}} %%% marked for change 2023-04-13 mm
+\def\endverse{\normalsize\end{itshape}\end{ekdverse}} % \textup %%% marked for change 2023-04-13 mm
+\NewDocumentEnvironment{versinnote}{O{}}{\begin{ekdverse}\begin{itshape}}{\end{itshape}\end{ekdverse}} %%% change 2023-04-13 mm
 \setvnum{}
