@@ -86,14 +86,15 @@
 	  <div class="translation">
 	    <xsl:apply-templates select="document('../xml/HP1_TranslComm-tei.xml')//note[@type='translation' and @target=$correspkey]"/>
 	  </div>
-	  
+	  <xsl:variable name="philcomm" select="document('../xml/HP1_TranslComm-tei.xml')//note[@type='philcomm' and @target=$correspkey]"/>
+	  <xsl:if test="$philcomm">
 	  <details class="philcomm-d">
 	    <summary>Philological Commentary</summary>
 	    <div class="philcomm">
-	      <xsl:apply-templates select="document('../xml/HP1_TranslComm-tei.xml')//note[@type='philcomm' and @target=$correspkey]"/>
+	      <xsl:apply-templates select="$philcomm"/>
 	    </div>
 	  </details>
-	  
+	  </xsl:if>
 	</div>
 
 	<div class="crit">
@@ -105,31 +106,49 @@
 	    <xsl:for-each select="descendant::app">
 	      <xsl:call-template name="apparatus"/>
 	    </xsl:for-each>
-	    </div>
+	  </div>
+	  <xsl:variable name="marma" select="document('../xml/Marmasthanas-tei.xml')//note[@type='marma' and @target=$correspkey]"/>
+	  <xsl:if test="$marma">
 	    <details class="marma-d">
 	      <summary>More Readings</summary>
 	      <div class="marma">
-		<xsl:apply-templates select="document('../xml/Marmasthanas-tei.xml')//note[@type='marma' and @target=$correspkey]"/>
+		<xsl:apply-templates select="$marma"/>
 	      </div>
 	    </details>
+	  </xsl:if>
+
+	  <xsl:variable name="sources" select="document('../xml/HP1_TranslComm-tei.xml')//note[@type='sources' and @target=$correspkey]"/>
+	  <xsl:if test="$sources">
 	    <details class="sources-d">
-	      <summary>Sources &amp; Testimonia</summary>
+	      <summary>Sources</summary>
 	      <div class="sources">
-		<xsl:apply-templates select="document('../xml/HP1_TranslComm-tei.xml')//note[@type='sources' and @target=$correspkey]"/>
-	      </div>
-	      <div class="sources">
-		<xsl:apply-templates select="document('../xml/HP1_TranslComm-tei.xml')//note[@type='testimonia' and @target=$correspkey]"/>
+		<xsl:apply-templates select="$sources"/>
 	      </div>
 	    </details>
+	  </xsl:if>
+
+	  <xsl:variable name="testimonia" select="document('../xml/HP1_TranslComm-tei.xml')//note[@type='testimonia' and @target=$correspkey]"/>
+	  <xsl:if test="$testimonia">
+	    <details class="testimonia-d">
+	      <summary>Testimonia</summary>
+	      <div class="testimonia">
+		<xsl:apply-templates select="$testimonia"/>
+	      </div>
+	    </details>
+	  </xsl:if>
+	  
 	  </div>
 	</div>
 
-	<details class="jyotsna-d">
-	  <summary>Jyotsna Commentary</summary>
-	  <div class="jyotsna">
-	    <xsl:apply-templates select="document('../xml/Jyotsna-tei.xml')//note[@type='jyotsna' and @target=$correspkey]"/>
-	  </div>
-	</details>
+	<xsl:variable name="jyotsna" select="document('../xml/Jyotsna-tei.xml')//note[@type='jyotsna' and @target=$correspkey]"/>
+	<xsl:if test="$jyotsna">
+	  <details class="jyotsna-d">
+	    <summary>Jyotsna Commentary</summary>
+	    <div class="jyotsna">
+	      <xsl:apply-templates select="$jyotsna"/>
+	    </div>
+	  </details>
+	</xsl:if>
     </div>
   </xsl:template>
 

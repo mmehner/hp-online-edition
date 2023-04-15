@@ -257,6 +257,17 @@ mark {
     padding-right: 10px;
 }
 
+.testimonia-d {
+    padding-bottom: 10px;
+}
+
+.testimonia {
+    display: block;
+    padding-bottom: 5px;
+    padding-left: 40px;
+    padding-right: 10px;
+}
+
 .lem {
     color: #fcd08b;
 }
