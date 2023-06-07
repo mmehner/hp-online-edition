@@ -1,7 +1,7 @@
-This is LuaHBTeX, Version 1.16.0 (TeX Live 2023/Arch Linux)  (format=lualatex 2023.4.17)  5 JUN 2023 11:58
+This is LuaHBTeX, Version 1.16.0 (TeX Live 2023/Arch Linux)  (format=lualatex 2023.4.17)  5 JUN 2023 15:45
  restricted system commands enabled.
-**HP1_TranslComm.tex
-(./HP1_TranslComm.tex
+**HP2_edition.tex
+(./HP2_edition.tex
 LaTeX2e <2022-11-01> patch level 1
 Lua module: luaotfload 2022-10-03 3.23 Lua based OpenType font support
 Lua module: lualibs 2022-10-04 2.75 ConTeXt Lua standard libraries.
@@ -748,8 +748,7 @@ eX
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 )
 (/usr/share/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
-(./Manuscript-Sigla.tex) (./TeX2Tei-Commands.tex)) (./CommStyle.tex)
-(./HP1_TranslComm.aux
+(./Manuscript-Sigla.tex) (./TeX2Tei-Commands.tex)) (./HP2_edition.aux
 
 Package babel Info: The following font families will use the default
 (babel)             settings for all or some languages:
@@ -805,30 +804,61 @@ e=dflt;+tlig;"
 
 LaTeX Font Info:    Font shape `TU/AdobeTextPro(0)/m/n' will be
 (Font)              scaled to size 8.99994pt on input line 7.
-)
-\openout1 = HP1_TranslComm.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 3.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 3
-.
- (/usr/share/texmf-dist/tex/latex/base/ts1cmr.fd
+Package fontspec Info: Font family 'AdishilaSan(0)' created for font
+(fontspec)             'AdishilaSan' with options
+(fontspec)             [Ligatures=TeX,Script=Devanagari,Language=Sanskrit,Rende
+rer=Harfbuzz,Scale=1.5].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1.5]"AdishilaSan:mode=harf;script=deva;language=df
+lt;+tlig;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[1.5]"AdishilaSan/B:mode=harf;script=deva;language=
+dflt;+tlig;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->s*[1.5]"AdishilaSan/I:mode=harf;script=deva;language=
+dflt;+tlig;"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->s*[1.5]"AdishilaSan/BI:mode=harf;script=deva;language
+=dflt;+tlig;"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
+
+LaTeX Font Info:    Font shape `TU/AdishilaSan(0)/m/n' will be
+(Font)              scaled to size 15.0pt on input line 8.
+(/usr/share/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-sa.tex
+UTF-8 Sanskrit hyphenation patterns
+(/usr/share/texmf-dist/tex/generic/hyph-utf8/patterns/tex/hyph-sa.tex)))
+\openout1 = HP2_edition.aux
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
+3.
+
+(/usr/share/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
-LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
 \c@ekdapparatus=\count349
 \c@loadepth=\count350
 \cftbeforeekdapparatusskip=\skip194
@@ -855,967 +885,135 @@ Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 3.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 3.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 3.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 3.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 3.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 3.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 3.
-LaTeX Font Info:    Redeclaring math accent \check on input line 3.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 3.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 3.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 3.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 3.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 3.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 3.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 3.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 3.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 3.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 3.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 3.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 3.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 3.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 3.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 3.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 3.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 3.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 23.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 23.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 23.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 23.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 23.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 23.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 23.
+LaTeX Font Info:    Redeclaring math accent \check on input line 23.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 23.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 23.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 23.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 23.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 23.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 23.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 23.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 23.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 23.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 23.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 23.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 23.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 23.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 23.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 23.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 23.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 23.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 3.
+(Font)              `operators' in the math version `normal' on input line 23.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/AdobeTextPro(0)/m/n on input line 3.
-
-LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 3.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/AdobeTextPro(0)/m/n on input line 3
+(Font)                  OT1/cmr/m/n --> TU/AdobeTextPro(0)/m/n on input line 23
 .
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 23.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/AdobeTextPro(0)/m/n on input line 2
+3.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  TU/AdobeTextPro(0)/m/n --> TU/AdobeTextPro(0)/m/n on in
-put line 3.
+put line 23.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> TU/AdobeTextPro(0)/m/it on input line 
-3.
+23.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/AdobeTextPro(0)/b/n on input line 3
-.
+(Font)                  OT1/cmr/bx/n --> TU/AdobeTextPro(0)/b/n on input line 2
+3.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 3.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 23.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 3.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 23.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  TU/AdobeTextPro(0)/m/n --> TU/AdobeTextPro(0)/b/n on in
-put line 3.
+put line 23.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> TU/AdobeTextPro(0)/b/it on input line
- 3.
+ 23.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 3.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 23.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 3.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 23.
+LaTeX Font Info:    Font shape `TU/AdishilaSan(0)/m/n' will be
+(Font)              scaled to size 12.0pt on input line 2381.
 LaTeX Font Info:    Font shape `TU/AdobeTextPro(0)/m/n' will be
-(Font)              scaled to size 18.66588pt on input line 2727.
-LaTeX Font Info:    Font shape `TU/AdobeTextPro(0)/bx/n' in size <20.74> not av
-ailable
+(Font)              scaled to size 7.19995pt on input line 1.
+LaTeX Font Info:    Font shape `TU/AdobeTextPro(0)/bx/n' in size <8> not availa
+ble
 (Font)              Font shape `TU/AdobeTextPro(0)/b/n' tried instead on input 
-line 2727.
+line 1.
 LaTeX Font Info:    Font shape `TU/AdobeTextPro(0)/b/n' will be
-(Font)              scaled to size 18.66588pt on input line 2727.
+(Font)              scaled to size 7.19995pt on input line 1.
+LaTeX Font Info:    Font shape `TU/AdishilaSan(0)/bx/n' in size <8> not availab
+le
+(Font)              Font shape `TU/AdishilaSan(0)/b/n' tried instead on input l
+ine 1.
+LaTeX Font Info:    Font shape `TU/AdishilaSan(0)/b/n' will be
+(Font)              scaled to size 12.0pt on input line 1.
 LaTeX Font Info:    Font shape `TU/AdobeTextPro(0)/m/n' will be
-(Font)              scaled to size 7.19995pt on input line 2727.
+(Font)              scaled to size 5.39996pt on input line 1.
 LaTeX Font Info:    Font shape `TU/AdobeTextPro(0)/m/n' will be
-(Font)              scaled to size 9.85492pt on input line 2727.
-LaTeX Font Info:    Font shape `TU/AdobeTextPro(0)/bx/n' in size <10.95> not av
-ailable
-(Font)              Font shape `TU/AdobeTextPro(0)/b/n' tried instead on input 
-line 2727.
-LaTeX Font Info:    Font shape `TU/AdobeTextPro(0)/b/n' will be
-(Font)              scaled to size 9.85492pt on input line 2727.
+(Font)              scaled to size 4.49997pt on input line 1.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 1.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 1.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 1.
+LaTeX Font Info:    Font shape `TU/AdobeTextPro(0)/m/it' will be
+(Font)              scaled to size 7.19995pt on input line 1.
+LaTeX Font Info:    Font shape `TU/AdishilaSan(0)/m/n' will be
+(Font)              scaled to size 13.5pt on input line 2381.
+LaTeX Font Info:    Font shape `TU/AdobeTextPro(0)/m/n' will be
+(Font)              scaled to size 8.09995pt on input line 2381.
+ [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+]
+LaTeX Font Info:    Font shape `TU/AdobeTextPro(0)/m/n' will be
+(Font)              scaled to size 6.29996pt on input line 2381.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 2381.
+LaTeX Font Info:    Font shape `TU/AdishilaSan(0)/m/n' will be
+(Font)              scaled to size 10.5pt on input line 2381.
+LaTeX Font Info:    Font shape `TU/AdishilaSan(0)/m/n' will be
+(Font)              scaled to size 9.0pt on input line 2381.
+ [2] [3] [4] [5]
+[6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16]
 LaTeX Font Info:    Font shape `TU/AdobeTextPro(0)/bx/n' in size <10> not avail
 able
 (Font)              Font shape `TU/AdobeTextPro(0)/b/n' tried instead on input 
-line 2727.
+line 2386.
 LaTeX Font Info:    Font shape `TU/AdobeTextPro(0)/b/n' will be
-(Font)              scaled to size 8.99994pt on input line 2727.
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
- []
-
-LaTeX Font Info:    Font shape `TU/AdobeTextPro(0)/m/it' will be
-(Font)              scaled to size 8.99994pt on input line 2727.
-LaTeX Font Info:    Font shape `TU/AdobeTextPro(0)/m/it' will be
-(Font)              scaled to size 7.19995pt on input line 2727.
-
-Overfull \hbox (1.51027pt too wide) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Comm.:[] \TU/AdobeTextPro(0)/m/n/10 The read-ing \TU/AdobeTextPro(0)/m/it/10 r
-ā-jasaudha \TU/AdobeTextPro(0)/m/n/10 is prefer-able for po-et-i-cal rea-sons, as ex-plained in Hanneder
- []
-
-
-Overfull \hbox (12.24063pt too wide) in paragraph at lines 2727--2727
-\TU/AdobeTextPro(0)/m/it/10 natasaud-ham āroḍhum ic-chor ad-hi-ro-hiṇy an
-āyāsena saud-haprāpikā bha-vati evaṃ haṭhadīpikāpi
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [1
-
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
- []
-
-
-Overfull \hbox (9.99394pt too wide) in paragraph at lines 2727--2727
-\TU/AdobeTextPro(0)/m/n/10 1.3b. While this read-ing is well at-tested by the ma
-nuscripts trans-mis-sion of the \TU/AdobeTextPro(0)/m/it/10 Haṭhapradīpikā
- []
-
-
-Overfull \hbox (2.18799pt too wide) in paragraph at lines 2727--2727
-\TU/AdobeTextPro(0)/m/n/10 and some manuscripts of the \TU/AdobeTextPro(0)/m/it
-/10 Haṭharat-nā-valī \TU/AdobeTextPro(0)/m/n/10 (note that P,T,t1 of the cri
-t-i-cal edi-tion [Gharote
- []
-
-LaTeX Font Info:    Font shape `TU/AdobeTextPro(0)/m/n' will be
-(Font)              scaled to size 8.09995pt on input line 2727.
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
- []
-
-[3]
-Overfull \hbox (0.72734pt too wide) in paragraph at lines 2727--2727
-[]\TU/AdobeTextPro(0)/b/n/10 Transl.:[] \TU/AdobeTextPro(0)/m/n/10 Kān-erī, P
-ūjyapāda, Nityanātha, Ni-rañ-jana, Kapālī, Bindunātha, and the one named
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
- []
-
-[4]
-Overfull \hbox (16.25652pt too wide) in paragraph at lines 2727--2727
-\TU/AdobeTextPro(0)/m/n/10 10.45 (check) and Va-jrapāṇi’s \TU/AdobeTextPro
-(0)/m/it/10 Laghutantraṭīkā\TU/AdobeTextPro(0)/m/n/10 , p.45 (\TU/AdobeText
-Pro(0)/m/it/10 vīrāḥ khaṇḍakāpā-likā-dayaś caturviṃśatiḥ\TU/Ad
-obeTextPro(0)/m/n/10 ).
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
- []
-
-[5]
-Overfull \hbox (7.42325pt too wide) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Comm.:[] \TU/AdobeTextPro(0)/m/n/10 The com-pound
- \TU/AdobeTextPro(0)/m/it/10 saṃsāratāpa° \TU/AdobeTextPro(0)/m/n/10 is wel
-l at-tested and found else-where (e.g., \TU/AdobeTextPro(0)/m/it/10 Viṣṇupur
-āṇa
- []
-
-
-Overfull \hbox (10.37714pt too wide) in paragraph at lines 2727--2727
-\TU/AdobeTextPro(0)/m/n/10 6.7.62, \TU/AdobeTextPro(0)/m/it/10 Ag-nipurāṇa \
-TU/AdobeTextPro(0)/m/n/10 371.1, \TU/AdobeTextPro(0)/m/it/10 Haṭhatattvakau-mu
-dī \TU/AdobeTextPro(0)/m/n/10 38.92, em-ph-Haṭhāb-hyās-apad-dhati ms. 46/44
-0,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
- []
-
-[6]
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
- []
-
-[7]
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
- []
-
-[8]
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
- []
-
-
-Overfull \hbox (13.71295pt too wide) in paragraph at lines 2727--2727
-[]\TU/AdobeTextPro(0)/m/it/10 śī-to-dak-ena prā-taḥs-nā-nanak-tab-ho-janap
-halāhārādirū-paniya-masya gra-haṇaṃ niya-
- []
-
-
-Overfull \hbox (1.81625pt too wide) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Comm.:[] \TU/AdobeTextPro(0)/m/n/10 It is im-pos-
-si-ble to be cer-tain about the mean-ing of \TU/AdobeTextPro(0)/m/it/10 niya-m-a
--graha\TU/AdobeTextPro(0)/m/n/10 , as the manuscripts
- []
-
-
-Overfull \hbox (3.80978pt too wide) in paragraph at lines 2727--2727
-\TU/AdobeTextPro(0)/m/it/10 graha \TU/AdobeTextPro(0)/m/n/10 and takes it as tho
-ugh \TU/AdobeTextPro(0)/m/it/10 āgraha \TU/AdobeTextPro(0)/m/n/10 was im-plied,
- which yields the mean-ing of ‘over-insistence
- []
-
-[9]
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
- []
-
-[10]
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
- []
-
-[11]
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
- []
-
-
-Overfull \hbox (29.65561pt too wide) in paragraph at lines 2727--2727
-\TU/AdobeTextPro(0)/m/it/10 pādāṅguṣṭhaṃ savyenoru-jaṅghena parig
-ṛhyādṛśyaṃ kṛtvā tathā savyaṃ pādāṅguṣṭhuṃ dakṣiṇeno
-ru-
- []
-
-
-Overfull \hbox (15.82275pt too wide) in paragraph at lines 2727--2727
-\TU/AdobeTextPro(0)/m/it/10 jaṅk-genādṛśyaṃ par-i-hṛhya yathā ca p
-ārṣṇib-hyāṃ vṛṣaṇayor apīḍanaṃ tathā yenāste tat svastikam
- []
-
-[12]
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
- []
-
-
-Overfull \hbox (11.39938pt too wide) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Comm.:[] \TU/AdobeTextPro(0)/m/n/10 This pos-ture
- first ap-pears in some Vaiṣṇava \TU/AdobeTextPro(0)/m/it/10 Saṃhitā\TU/
-AdobeTextPro(0)/m/n/10 s that pre-date the \TU/AdobeTextPro(0)/m/it/10 Haṭhapr
-adīpikā\TU/AdobeTextPro(0)/m/n/10 ,
- []
-
-[13]
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
- []
-
-
-Underfull \vbox (badness 1946) has occurred while \output is active []
-
- [14]
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
- []
-
-
-Overfull \hbox (8.4284pt too wide) in paragraph at lines 2727--2727
-\TU/AdobeTextPro(0)/m/n/10 The source, the \TU/AdobeTextPro(0)/m/it/10 Vasiṣ
-ṭhasaṃhitā\TU/AdobeTextPro(0)/m/n/10 , sup-ports \TU/AdobeTextPro(0)/m/it/
-10 nirud-hya \TU/AdobeTextPro(0)/m/n/10 whereas the tes-ti-mo-nia sup-ports \TU
-/AdobeTextPro(0)/m/it/10 niyamya\TU/AdobeTextPro(0)/m/n/10 .
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
- []
-
-[15]
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [16]
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
- []
-
-[17]
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
- []
-
-[18]
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
- []
-
-
-Underfull \vbox (badness 1946) has occurred while \output is active []
-
- [19]
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
- []
-
-[20]
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
- []
-
-[21]
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
- []
-
-
-Underfull \vbox (badness 1946) has occurred while \output is active []
-
- [22]
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
- []
-
-[23]
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
- []
-
-[24]
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
- []
-
-[25]
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
- []
-
-[26]
-Overfull \hbox (1.78033pt too wide) in paragraph at lines 2727--2727
-[]\TU/AdobeTextPro(0)/b/n/10 Transl.:[] \TU/AdobeTextPro(0)/m/n/10 By med-i-tat-
-ing upon the self, re-strict-ing the diet and reg-u-larly prac-tis-ing Sid-dh
-āsana
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [27]
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
- []
-
-[28]
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [29]
-LaTeX Font Info:    Font shape `TU/AdobeTextPro(0)/m/n' will be
-(Font)              scaled to size 6.29996pt on input line 2727.
-LaTeX Font Info:    Font shape `TU/AdobeTextPro(0)/m/n' will be
-(Font)              scaled to size 4.49997pt on input line 2727.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 2727.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 2727.
-LaTeX Font Info:    Font shape `TU/AdobeTextPro(0)/m/n' will be
-(Font)              scaled to size 5.39996pt on input line 2727.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 2727.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 2727.
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
- []
-
-[30]
-Overfull \hbox (5.3184pt too wide) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Comm.:[] \TU/AdobeTextPro(0)/m/it/10 ut-tab-hya 
-\TU/AdobeTextPro(0)/m/n/10 vs \TU/AdobeTextPro(0)/m/it/10 ut-tamb-hya\TU/AdobeT
-extPro(0)/m/n/10 . The wit-nesses split pre-dictably along the two main branches
-
- []
-
-[31]
-Overfull \hbox (6.69304pt too wide) in paragraph at lines 2727--2727
-[]\TU/AdobeTextPro(0)/m/it/10 rā-jadan-tānāṃ daṃṣṭrāṇāṃ savyada
-kṣiṇab-hāge sthitānāṃ mūle ubhe mūlasthāne
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
- []
-
-[32]
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
- []
-
-[33]
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
- []
-
-
-Overfull \hbox (18.2054pt too wide) in paragraph at lines 2727--2727
-\TU/AdobeTextPro(0)/m/n/10 syen-dra. How-ever, in the ex-tended re-cen-sion of 
-it known as the \TU/AdobeTextPro(0)/m/it/10 Gorakṣaśataka\TU/AdobeTextPro(0)
-/m/n/10 , \TU/AdobeTextPro(0)/m/it/10 Gorakṣasaṃhitā\TU/AdobeTextPro(0)/m/
-n/10 ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
- []
-
-[34]
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
- []
-
-[35]
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
- []
-
-
-Overfull \hbox (8.61848pt too wide) in paragraph at lines 2727--2727
-[]\TU/AdobeTextPro(0)/m/n/10 [Note: The Yo-gac-in-tā-maṇi at-tributes its ci-
-ta-tion of verses on siṃhāsana to the Yo-gayājñavalkya
- []
-
-
-Overfull \hbox (14.34517pt too wide) in paragraph at lines 2727--2727
-\TU/AdobeTextPro(0)/m/n/10 Ac-ces-sion Num-ber: 2000.284.4. https://www.met-mu-s
-eum.org/art/col-lec-tion/search/39251).
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-
- []
-
-
-Overfull \hbox (2.52722pt too wide) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Comm.:[] \TU/AdobeTextPro(0)/m/n/10 We have un-de
-r-stood \TU/AdobeTextPro(0)/m/it/10 pārś-vapāda \TU/AdobeTextPro(0)/m/n/10 (i
-.e., side of the foot) like the com-pound \TU/AdobeTextPro(0)/m/it/10 agrapāda
- []
-
-[36]
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-\TU/AdobeTextPro(0)/m/n/10 See 1.53.   []\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-ni
-a:[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-
- []
-
-[37]
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-
- []
-
-[38]
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
- []
-
-
-Overfull \hbox (4.20912pt too wide) in paragraph at lines 2727--2727
-[]\TU/AdobeTextPro(0)/m/it/10 “śiśn-odararatāyai-tan na deya” etat yo-ga-
-jñā-nam etena śiśn-odararatas tyājyo nanv
- []
-
-[39]
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
- []
-
-[40]
-Overfull \hbox (5.24802pt too wide) in paragraph at lines 2727--2727
-[]\TU/AdobeTextPro(0)/m/n/10 It seems that the four aṅ-gas of Haṭhayoga are be-ing re-ferred to in the sin-gu-lar (hence \TU/AdobeTextPro(0)/m/it/10 
-āsanaṃ\TU/AdobeTextPro(0)/m/n/10 ),
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
- []
-
-[41]
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
- []
-
-[42]
-Overfull \hbox (2.7206pt too wide) in paragraph at lines 2727--2727
-[]\TU/AdobeTextPro(0)/m/n/10 ‘Roots of trivṛt etc., the first group (\TU/Ad
-obeTextPro(0)/m/it/10 vidāri-g-and-hādi\TU/AdobeTextPro(0)/m/n/10 ), \TU/Adob
-eTextPro(0)/m/it/10 ma-hat pañ-camūla\TU/AdobeTextPro(0)/m/n/10 , \TU/AdobeTe
-xtPro(0)/m/it/10 mūrvā
- []
-
-
-Overfull \hbox (2.18315pt too wide) in paragraph at lines 2727--2727
-\TU/AdobeTextPro(0)/m/n/10 other is pow-dered; now, crushed bar-ley grains are 
-im-preg-nated with the above
- []
-
-[43]
-Overfull \hbox (1.16643pt too wide) in paragraph at lines 2727--2727
-[]\TU/AdobeTextPro(0)/m/it/10 hiṅgu\TU/AdobeTextPro(0)/m/n/10 : Asafoetida (Na
-d-karni 1926: pp 360–361): ‘If long con-tin-ued even in mod-er-ate doses,
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [44]
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
- []
-
-[45]
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
- []
-
-
-Underfull \vbox (badness 1946) has occurred while \output is active []
-
- [46]
-[47]
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
- []
-
-
-Underfull \vbox (badness 1383) has occurred while \output is active []
-
- [48]
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Sources:[]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2727--2727
-[][]\TU/AdobeTextPro(0)/b/n/10 Tes-ti-mo-nia:[]
- []
-
-[49] (./HP1_TranslComm.aux))
+(Font)              scaled to size 8.99994pt on input line 2386.
+ [17] (./HP2_edition.aux))
 
 Here is how much of LuaTeX's memory you used:
- 13253 strings out of 478285
- 100000,1977958 words of node,token memory allocated
- 1218 words of node memory still in use:
-   3 hlist, 1 vlist, 1 rule, 10 glue, 3 kern, 1 glyph, 24 attribute, 187 glue_sp
-ec, 13 attribute_list, 2 write nodes
-   avail lists: 2:1042,3:220,4:162,5:2308,6:75,7:7026,8:2,9:427,10:12,11:409
- 33006 multiletter control sequences out of 65536+600000
- 59 fonts using 11198111 bytes
- 78i,13n,98p,1545b,773s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 14776 strings out of 478285
+ 156265,1977958 words of node,token memory allocated
+ 65595 words of node memory still in use:
+   3 hlist, 1 vlist, 1 rule, 183 glue, 3 kern, 8219 glyph, 1904 attribute, 187 g
+lue_spec, 953 attribute_list, 2 write nodes
+   avail lists: 1:3,2:4478,3:1600,4:208,5:1681,6:46,7:4699,8:2,9:1140,10:22,11:4
+26
+ 34524 multiletter control sequences out of 65536+600000
+ 71 fonts using 13959135 bytes
+ 78i,12n,98p,12028b,954s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/fonts/Adobe Text Pro/AdobeTextPro-It.otf></usr/share/fonts/Adobe Tex
-t Pro/AdobeTextPro-Regular.otf></usr/share/fonts/Adobe Text Pro/AdobeTextPro-Bol
-d.otf>
-Output written on HP1_TranslComm.pdf (49 pages, 162451 bytes).
+t Pro/AdobeTextPro-Bold.otf></usr/share/fonts/Adishila San/AdishilaSan.ttf></usr
+/share/fonts/Adobe Text Pro/AdobeTextPro-Regular.otf>
+Output written on HP2_edition.pdf (17 pages, 178410 bytes).
 
-PDF statistics: 179 PDF objects out of 1000 (max. 8388607)
- 117 compressed objects within 2 object streams
+PDF statistics: 89 PDF objects out of 1000 (max. 8388607)
+ 54 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 

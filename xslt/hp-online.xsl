@@ -1,24 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xsl:stylesheet 
-    xmlns="http://www.w3.org/1999/xhtml"
+    xmlns=""
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0"
     exclude-result-prefixes="xsl"
     xpath-default-namespace="http://www.tei-c.org/ns/1.0">
   
   <xsl:output method="xhtml"  encoding="UTF-8" omit-xml-declaration="yes" indent="yes"/>
+
+  <!-- passed parameters -->
+  <xsl:param name="chapid"/>
+  <xsl:param name="transl"/>
+  <xsl:param name="marma"/>
+  <xsl:param name="jyotsna"/>
   
   <!-- templates -->
   <xsl:template match="/">
-    <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
-    <html xmlns="http://www.w3.org/1999/xhtml">
-      <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-	<title>Haṭhapradīpikā Online</title>
-	<link href="style.css?rnd=132" rel="stylesheet" type="text/css"/>
-	<script type="text/javascript" src="switch.js"></script>
-      </head>
+    <xsl:element name="div">
+      <xsl:attribute name="id">
+	<xsl:value-of select="$chapid"/>
+      </xsl:attribute>
       <xsl:apply-templates select="TEI/text/body"/>
-    </html>
+    </xsl:element>
   </xsl:template>
 
   <!-- if nothing else matches: identity transformation for text nodes -->
@@ -29,25 +31,9 @@
   <!-- deletions -->
   <xsl:template match="note[@type='altrecension']"/>
   <xsl:template match="note[@type='avataranika']"/>
+  <xsl:template match="note[@type='omission']"/>
   
   <!-- main template -->
-  <xsl:template match="body">
-    <body>
-      <div id="content">
-	<h1>Haṭhapradīpikā Online</h1>
-	<div class="options">
-	  in
-	  <button class="button" id="switchdev">Nāgarī</button>
-	  <span id="altern">/</span>
-	  <button class="button" id="switchltn">Latin</button> 	script
-	</div>
-	<br/>
-	<br/>
-	<xsl:apply-templates/>
-      </div>
-      </body>
-  </xsl:template>
-  
   <xsl:template match="lg[not(ancestor::note)]">
     <xsl:variable name="correspkey" select="concat('#', @xml:id )"/>
     <div class="main">
@@ -73,33 +59,38 @@
 	    </div>
 	    <div class="versltn">
 	      <xsl:apply-templates select="//note[@type='avataranika' and @target=$correspkey]" mode="avataranika">
-		 <xsl:with-param name="transc" select="false()" tunnel="yes"/>
-	       </xsl:apply-templates>
-	       
-	       <xsl:apply-templates>
-		 <xsl:with-param name="transc" select="false()" tunnel="yes"/>
-	       </xsl:apply-templates>
+		<xsl:with-param name="transc" select="false()" tunnel="yes"/>
+	      </xsl:apply-templates>
+	      
+	      <xsl:apply-templates>
+		<xsl:with-param name="transc" select="false()" tunnel="yes"/>
+	      </xsl:apply-templates>
 	    </div>
 	    
 	  </xsl:element>
 	  
 	  <div class="translation">
-	    <xsl:apply-templates select="document('../xml/HP1_TranslComm-tei.xml')//note[@type='translation' and @target=$correspkey]"/>
+	    <xsl:apply-templates select="document($transl)//note[@type='translation' and @target=$correspkey]"/>
 	  </div>
-	  <xsl:variable name="philcomm" select="document('../xml/HP1_TranslComm-tei.xml')//note[@type='philcomm' and @target=$correspkey]"/>
+	  <xsl:variable name="philcomm" select="document($transl)//note[@type='philcomm' and @target=$correspkey]"/>
 	  <xsl:if test="$philcomm">
-	  <details class="philcomm-d">
-	    <summary>Philological Commentary</summary>
-	    <div class="philcomm">
-	      <xsl:apply-templates select="$philcomm"/>
-	    </div>
-	  </details>
+	    <details class="philcomm-d">
+	      <summary>Philological Commentary</summary>
+	      <div class="philcomm">
+		<xsl:apply-templates select="$philcomm"/>
+	      </div>
+	    </details>
 	  </xsl:if>
 	</div>
 
 	<div class="crit">
 	  <div class="apparatus">
 	    <h3>Readings</h3>
+	    <xsl:for-each select="descendant::note[@type='omission']">
+	      <div class="app">
+		<xsl:apply-templates/>
+	      </div>
+	    </xsl:for-each>
 	    <xsl:for-each select="//note[@type='avataranika' and @target=$correspkey]/descendant::app">
 	      <xsl:call-template name="apparatus"/>
 	    </xsl:for-each>
@@ -107,7 +98,7 @@
 	      <xsl:call-template name="apparatus"/>
 	    </xsl:for-each>
 	  </div>
-	  <xsl:variable name="marma" select="document('../xml/Marmasthanas-tei.xml')//note[@type='marma' and @target=$correspkey]"/>
+	  <xsl:variable name="marma" select="document($marma)//note[@type='marma' and @target=$correspkey]"/>
 	  <xsl:if test="$marma">
 	    <details class="marma-d">
 	      <summary>More Readings</summary>
@@ -117,7 +108,7 @@
 	    </details>
 	  </xsl:if>
 
-	  <xsl:variable name="sources" select="document('../xml/HP1_TranslComm-tei.xml')//note[@type='sources' and @target=$correspkey]"/>
+	  <xsl:variable name="sources" select="document($transl)//note[@type='sources' and @target=$correspkey]"/>
 	  <xsl:if test="$sources">
 	    <details class="sources-d">
 	      <summary>Sources</summary>
@@ -127,7 +118,7 @@
 	    </details>
 	  </xsl:if>
 
-	  <xsl:variable name="testimonia" select="document('../xml/HP1_TranslComm-tei.xml')//note[@type='testimonia' and @target=$correspkey]"/>
+	  <xsl:variable name="testimonia" select="document($transl)//note[@type='testimonia' and @target=$correspkey]"/>
 	  <xsl:if test="$testimonia">
 	    <details class="testimonia-d">
 	      <summary>Testimonia</summary>
@@ -137,18 +128,18 @@
 	    </details>
 	  </xsl:if>
 	  
-	  </div>
 	</div>
+      </div>
 
-	<xsl:variable name="jyotsna" select="document('../xml/Jyotsna-tei.xml')//note[@type='jyotsna' and @target=$correspkey]"/>
-	<xsl:if test="$jyotsna">
-	  <details class="jyotsna-d">
-	    <summary>Jyotsna Commentary</summary>
-	    <div class="jyotsna">
-	      <xsl:apply-templates select="$jyotsna"/>
-	    </div>
-	  </details>
-	</xsl:if>
+      <xsl:variable name="jyotsna" select="document($jyotsna)//note[@type='jyotsna' and @target=$correspkey]"/>
+      <xsl:if test="$jyotsna">
+	<details class="jyotsna-d">
+	  <summary>Jyotsna Commentary</summary>
+	  <div class="jyotsna">
+	    <xsl:apply-templates select="$jyotsna"/>
+	  </div>
+	</details>
+      </xsl:if>
     </div>
   </xsl:template>
 
@@ -183,12 +174,12 @@
 	<div class="crit">
 	  <div class="apparatus">
 	    <h3>Readings</h3>
-	      <xsl:for-each select="descendant::app">
-		<xsl:call-template name="apparatus"/>
-	      </xsl:for-each>
-	    </div>
+	    <xsl:for-each select="descendant::app">
+	      <xsl:call-template name="apparatus"/>
+	    </xsl:for-each>
 	  </div>
 	</div>
+      </div>
     </div>
   </xsl:template>
 
@@ -228,51 +219,51 @@
     </xsl:variable>
     
     <xsl:choose>
-    <xsl:when test="$transc">
-      
-      <xsl:value-of select="replace(replace(
-			    translate(
-			    replace(replace(
-			    translate(
-			    replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(concat($addstring,.),
-			    '([kgṅcjñṭḍṇtdnpbmyrlvśṣsh]h?) *','$1्'),
-			    '् *ai','$1ै'),
-			    '् *au','$1ौ'),
-			    '् *a','$1'),
-			    '् *ā','$1ा'),
-			    '् *i','$1ि'),
-			    '् *ī','$1ी'),
-			    '् *u','$1ु'),
-			    '् *ū','$1ू'),
-			    '् *ṛ','$1ृ'),
-			    '् *ṝ','$1ॄ'),
-			    '् *ḷ','$1ॢ'),
-			    '् *ḹ','$1ॣ'),
-			    '् *e','$1े'),
-			    '् *o','$1ो'),
-			    '’', 'ऽ'),
-			    'ṃ', 'ं'),
-			    'ḥ', 'ः'),
-			    'kh','ख'),
-			    'gh','घ'),
-			    'ch','छ'),
-			    'jh','झ'),
-			    'ṭh','ठ'),
-			    'ḍh','ढ'),
-			    'th','थ'),
-			    'dh','ध'),
-			    'ph','फ'),
-			    'bh','भ'),
-			    'kgṅcjñṭḍṇtdnpbmyrlvśṣsh','कगङचजञटडणतदनपबमयरलवशषसह'),
-			    'ai','ऐ'),
-			    'au','औ'),
-			    'aāiīuūṛṝeo','अआइईउऊऋॠएओ'),
-			    '//',' ॥'),
-			    '/',' ।')"/>
-    </xsl:when>
-    <xsl:otherwise>
-      <xsl:value-of select="replace(.,'\s*/(/)?',' /$1')"/>
-    </xsl:otherwise>
+      <xsl:when test="$transc">
+	
+	<xsl:value-of select="replace(replace(
+			      translate(
+			      replace(replace(
+			      translate(
+			      replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(concat($addstring,.),
+			      '([kgṅcjñṭḍṇtdnpbmyrlvśṣsh]h?) *','$1्'),
+			      '् *ai','$1ै'),
+			      '् *au','$1ौ'),
+			      '् *a','$1'),
+			      '् *ā','$1ा'),
+			      '् *i','$1ि'),
+			      '् *ī','$1ी'),
+			      '् *u','$1ु'),
+			      '् *ū','$1ू'),
+			      '् *ṛ','$1ृ'),
+			      '् *ṝ','$1ॄ'),
+			      '् *ḷ','$1ॢ'),
+			      '् *ḹ','$1ॣ'),
+			      '् *e','$1े'),
+			      '् *o','$1ो'),
+			      '’', 'ऽ'),
+			      'ṃ', 'ं'),
+			      'ḥ', 'ः'),
+			      'kh','ख'),
+			      'gh','घ'),
+			      'ch','छ'),
+			      'jh','झ'),
+			      'ṭh','ठ'),
+			      'ḍh','ढ'),
+			      'th','थ'),
+			      'dh','ध'),
+			      'ph','फ'),
+			      'bh','भ'),
+			      'kgṅcjñṭḍṇtdnpbmyrlvśṣsh','कगङचजञटडणतदनपबमयरलवशषसह'),
+			      'ai','ऐ'),
+			      'au','औ'),
+			      'aāiīuūṛṝeo','अआइईउऊऋॠएओ'),
+			      '//',' ॥'),
+			      '/',' ।')"/>
+      </xsl:when>
+      <xsl:otherwise>
+	<xsl:value-of select="replace(.,'\s*/(/)?',' /$1')"/>
+      </xsl:otherwise>
     </xsl:choose>
     
     <xsl:apply-templates/>
@@ -297,23 +288,23 @@
     <div class="app">
       <xsl:choose>
 	<xsl:when test="lem">
-	    <xsl:apply-templates select="lem" mode="lemma"/>
-	    <xsl:text> ]</xsl:text>
-	    <xsl:text> </xsl:text>
-	    <xsl:for-each select="descendant::rdg[not(position() = last())]">
-	      <xsl:apply-templates select="."/><xsl:text>, </xsl:text>
-	    </xsl:for-each>
-	    <xsl:apply-templates select="descendant::rdg[position() = last()]"/>
+	  <xsl:apply-templates select="lem" mode="lemma"/>
+	  <xsl:text> ]</xsl:text>
+	  <xsl:text> </xsl:text>
+	  <xsl:for-each select="descendant::rdg[not(position() = last())]">
+	    <xsl:apply-templates select="."/><xsl:text>, </xsl:text>
+	  </xsl:for-each>
+	  <xsl:apply-templates select="descendant::rdg[position() = last()]"/>
 	</xsl:when>
-	<xsl:otherwise>
-	    <xsl:apply-templates select="descendant::rdg[1]" mode="lemma"/>
-	    <xsl:text> ]</xsl:text>
-	    <xsl:text> </xsl:text>
-	    <xsl:for-each select="descendant::rdg[position() > 1][not(position() = last())]">
-	      <xsl:apply-templates select="."/><xsl:text>, </xsl:text>
-	    </xsl:for-each>
-	    <xsl:apply-templates select="descendant::rdg[position() = last()]"/>
-	</xsl:otherwise>
+	<xsl:when test="rdg">
+	  <xsl:apply-templates select="descendant::rdg[1]" mode="lemma"/>
+	  <xsl:text> ]</xsl:text>
+	  <xsl:text> </xsl:text>
+	  <xsl:for-each select="descendant::rdg[position() > 1][not(position() = last())]">
+	    <xsl:apply-templates select="."/><xsl:text>, </xsl:text>
+	  </xsl:for-each>
+	  <xsl:apply-templates select="descendant::rdg[position() = last()]"/>
+	</xsl:when>
       </xsl:choose>
     </div>
   </xsl:template>
@@ -333,7 +324,7 @@
   </xsl:template>
 
   <xsl:template name="sigla">
-     <xsl:if test="@wit">
+    <xsl:if test="@wit">
       <xsl:text> (</xsl:text>
       <xsl:variable name="tree" select="//*"/>
       <xsl:for-each select="tokenize(@wit,'\s+')">
@@ -363,9 +354,10 @@
 
   <!-- refs -->
   <xsl:template match="ref">
-     <xsl:if test="@target">
-       <xsl:variable name="tree" select="//*"/>
-       <xsl:choose>
+    <xsl:choose>
+      <xsl:when test="@target">
+	<xsl:variable name="tree" select="//*"/>
+	<xsl:choose>
 	  <xsl:when test="starts-with(@target, '#')">
 	    <xsl:variable name="idkey" select="substring-after(@target, '#')"/>
 	    <xsl:element name="span">
@@ -380,7 +372,28 @@
 	    <xsl:value-of select="."/>
 	  </xsl:otherwise>
 	</xsl:choose>
-    </xsl:if>
+      </xsl:when>
+      <!-- tokenize refs without target (omissions) -->
+      <xsl:otherwise>
+	<xsl:variable name="tree" select="//*"/>
+	<xsl:for-each select="tokenize(.,',')">
+	  <xsl:variable name="idkey" select="."/>
+	   <xsl:element name="span">
+	      <xsl:attribute name="class">siglum</xsl:attribute>
+	      <xsl:attribute name="title">
+		<xsl:value-of select="normalize-space($tree[@xml:id = $idkey])"/>
+	      </xsl:attribute>
+	      <xsl:value-of select="."/>
+	   </xsl:element>
+	   <xsl:if test="position() &lt; last()-1">
+	    <xsl:text>, </xsl:text>
+	  </xsl:if>
+	  <xsl:if test="position()=last()-1">
+	    <xsl:text> and </xsl:text>
+	  </xsl:if>
+	</xsl:for-each>
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
 
   <!-- simple html equivalents -->
@@ -390,12 +403,6 @@
   
   <xsl:template match="div[@type='colophon']/p">
     <p class="colophon"><xsl:apply-templates/></p>
-  </xsl:template>
-  
-  <xsl:template match="note[@type='omission']">
-    <span class="omission">
-    <xsl:apply-templates/>
-    </span>
   </xsl:template>
   
   <xsl:template match="p">
@@ -411,7 +418,7 @@
     </div>
   </xsl:template>
 
-   <xsl:template match="l[ancestor::note]">
+  <xsl:template match="l[ancestor::note]">
     <p class="versinnote"><xsl:apply-templates/></p>
   </xsl:template>
 
@@ -447,7 +454,7 @@
     <li><xsl:apply-templates/></li>
   </xsl:template>
 
-   <xsl:template match="item[preceding-sibling::label]"/>
+  <xsl:template match="item[preceding-sibling::label]"/>
   
   <!-- headings -->
   <xsl:template match="head">

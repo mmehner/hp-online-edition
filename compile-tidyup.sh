@@ -2,12 +2,31 @@
 
 # optional argument 1 is filename, otherwise all relevant *.tex files
 
-xslcmd="java -jar ${HOME}/.nix-profile/saxon9he.jar -s:xml/HP1_edition-tei.xml -xsl:xslt/hp-online.xsl"
-
 xslcmdproc(){
-    ${xslcmd} | \
-	sed "/^\s*$/d" \
-	    > html/hp-online.html 
+    xslcmd="java -jar ${HOME}/.nix-profile/saxon9he.jar"
+
+    echo "processing xml …"
+    $xslcmd -s:xml/HP1_edition-tei.xml -xsl:xslt/hp-online.xsl -o:html/hp1.html \
+	    chapid="hp1" \
+	    transl="../xml/HP1_TranslComm-tei.xml" \
+	    marma="../xml/Marmasthanas-tei.xml" \
+	    jyotsna="../xml/Jyotsna-tei.xml"
+    
+    $xslcmd -s:xml/HP2_edition-tei.xml -xsl:xslt/hp-online.xsl -o:html/hp2.html \
+	    chapid="hp2" \
+	    transl="../xml/HP2_TranslComm-tei.xml" \
+	    marma="../xml/Marmasthanas-tei.xml" \
+	    jyotsna="../xml/Jyotsna-tei.xml"
+
+    echo "concatenating html …"
+    sed '/<!--content-->/q' html/meta.html > html/hp-online.html 
+    
+    for f in "html/hp1.html" "html/hp2.html"
+    do
+	sed -e '/^\s*$/d' $f >> html/hp-online.html
+    done
+    
+    sed -n '/<!--content-->/,$ {p}' html/meta.html >> html/hp-online.html 
 }
 
 compile(){
@@ -45,7 +64,7 @@ then
     compile "${1#*/}"
 elif [ -z "${1:-}" ]
 then
-    for f in "HP1_edition.tex" "HP1_TranslComm.tex" "Jyotsna.tex" "Marmasthanas.tex"
+    for f in "HP1_edition.tex" "HP1_TranslComm.tex" "Jyotsna.tex" "Marmasthanas.tex" "HP2_edition.tex" "HP2_TranslComm.tex"
     do
 	compile "${f}"
     done

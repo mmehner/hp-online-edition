@@ -38,9 +38,10 @@ body {
     margin-left:auto;
     margin-right:auto;
     margin-top:100px;
-     }
+}
 
 h1 {
+    display: inline-block;
     text-indent: 20px;
     color: #ecbc9c;
     font-weight: bold;
@@ -65,12 +66,69 @@ summary {
     padding-bottom: 10px;
 }
 
+#nav {
+    display: block;
+    overflow: hidden;
+    background-color: #313131;
+    position: sticky; 
+    top: 0; 
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+#title-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav a:hover {
+    color: #313131;
+    background-color: #ecbc9c;
+}
+
+#nav a {
+    background-color: #313131;
+    color:  #ecbc9c;
+    border: 2px solid  #ecbc9c;
+    border-radius: 10px;
+    padding: 4px;
+    padding-left: 6px;
+    padding-right: 6px;
+    margin-left: 2px;
+    margin-right: 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+}
+
+
+#chapternav {
+    display: flex;
+    color: #ecbc9c;
+    font-size: 14px;
+    font-weight: bold;
+    align-items: center;
+}
+
+.jump {
+    padding: 10px;
+}
+
+/* compensate fixed header for anchor jumps */
+:target::before {
+  content: "";
+  display: block;
+  height: 150px; 
+  margin: -150px 0 0; 
+}
+
 #content {
     display: block;
     width: 100%;
-}
-
-div {
+    padding-top: 40px;
     color:  #b3b3b3;
 }
 
@@ -82,13 +140,17 @@ mark {
 .options {
     color: #ecbc9c;
     text-indent: 22px;
-    display: block;
     text-align: left;
     font-size: 14px;
-    padding-bottom: 15;
     border-radius: 10px;
     font-weight: bold;
-    color: ; 
+}
+
+.options-d {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .main {

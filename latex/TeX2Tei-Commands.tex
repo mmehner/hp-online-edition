@@ -1,4 +1,11 @@
-﻿% additions 2023-04-13 mm:
+﻿% additions/changes 2023-06-05 mm:
+\TeXtoTEIPat{\lineom {#1}}{<note type="omission">Line omitted in <ref>#1</ref></note>}
+\TeXtoTEIPat{\NotIn {#1}}{<note type="omission">Stanza omitted in <ref>#1</ref></note>}
+
+% additions 2023-04-16 MD:
+\TeXtoTEIPat{\,}{ }
+
+% additions 2023-04-13 mm:
 \TeXtoTEIPat{\begin {versinnote}}{<lg>}
   \TeXtoTEIPat{\end {versinnote}}{</lg>}
 
@@ -6,10 +13,10 @@
 \TeXtoTEIPat{\begin {testimonia}[#1]}{<note type="testimonia" target="##1">}
   \TeXtoTEIPat{\end {testimonia}}{</note>}
 \TeXtoTEI{devnote}{s}[xml:lang="sa-deva"]
-% \TeXtoTEIPat{\lineom {#1}}{<note type="omission">(line om. <ref target="##1">#1</ref>)</note>}
-\TeXtoTEIPat{\lineom {#1}}{<note type="omission">(line om. #1)</note>} %%% change 2023-04-11 mm
-\TeXtoTEIPat{\anm {#1}}{<note type="memo">(#1)</note>}
-\TeXtoTEIPat{\Anm {#1}}{<note type="memo">(#1)</note>} % only in HP4-edition.tex
+%\TeXtoTEIPat{\anm {#1}}{<note type="memo">(#1)</note>}
+\TeXtoTEI{anm}{note}[type="memo"] %% change 2023-04-16 MD
+%\TeXtoTEIPat{\Anm {#1}}{<note type="memo">(#1)</note>} % only in HP4-edition.tex
+\TeXtoTEIPat{\Anm {#1}}{} %% change 2023-04-16 MD
 \TeXtoTEIPat{\startverse}{} %%% marked for change 2023-04-13 mm
 \TeXtoTEIPat{\endverse}{} %%% marked for change 2023-04-13 mm
 \TeXtoTEIPat{\newpage}{}
@@ -35,8 +42,7 @@
   \TeXtoTEIPat{\end {col}}{</p></div>}
 \TeXtoTEIPat{\begin {ava}[#1]}{<note type="avataranika" target="##1">}
   \TeXtoTEIPat{\end {ava}}{</note>}
-% \TeXtoTEIPat{\NotIn {#1}}{<note type="omission"><ref target="##1">#1</ref></note>}
-\TeXtoTEIPat{\NotIn {#1}}{<note type="omission">(om. <ref target="##1">#1</ref>)</note>} % mod. by MD 2023-04-05
+
 \TeXtoTEIPat{\outdent}{}
 \TeXtoTEIPat{\startaltrecension}{<note type="altrecension">}
 \TeXtoTEIPat{\endaltrecension}{</note>}
@@ -91,17 +97,17 @@
 % \TeXtoTEI{/}{|}
 \TeXtoTEI{tl}{l}
 \TeXtoTEIPat{english}{}
-\TeXtoTEIPat{-}{ }
-\TeXtoTEIPat{°}{}
+%\TeXtoTEIPat{-}{ } %% change 2023-04-16 MD
+%\TeXtoTEIPat{°}{} %% change 2023-04-16 MD
 \TeXtoTEIPat{\textcolor {#1}{#2}}{<hi rend="#1">#2</hi>}
 
 % \TeXtoTEIPat{\eyeskip}{}
 % \TeXtoTEIPat{\aberratio}{}
 % \TeXtoTEIPat{\ad}{}
-\TeXtoTEIPat{\add}{}
+\TeXtoTEIPat{\add}{<hi rend="italic">add.</hi>} %% change 2023-04-16 MD
 % \TeXtoTEIPat{\ann}{}
-\TeXtoTEIPat{\ante}{}
-\TeXtoTEIPat{\post}{}
+\TeXtoTEIPat{\ante}{<hi rend="italic">ante</hi>} %% change 2023-04-16 MD
+\TeXtoTEIPat{\post}{<hi rend="italic">post</hi>} %% change 2023-04-16 MD
 % \TeXtoTEIPat{\codd}{}
 % \TeXtoTEIPat{\conj }{}
 % \TeXtoTEIPat{\contin}{}

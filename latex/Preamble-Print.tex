@@ -6,7 +6,7 @@
 \setulmargins{*}{*}{1.2}
 % \setlength{\headheight}{5pt}
 \checkandfixthelayout[lines]
-\linespread{1.15}
+\linespread{1.2}
 
 \setlength{\footmarkwidth}{1.3em}
 \setlength{\footmarksep}{0em}
@@ -76,12 +76,12 @@
   \begin{ekdverse}
     \hspace{-\vgap}}{
   \end{ekdverse}
-  \vskip 0.75\baselineskip
+  \vskip 0.6\baselineskip
 }
 \NewDocumentEnvironment{col}{O{}}{
-  \bigskip
+  \medskip
   \setvnum{col}
-  \selectlanguage{iast}
+%  \selectlanguage{iast}
   \begin{ekdverse}
     \hspace{-\vgap}}{
   \end{ekdverse}
@@ -93,7 +93,7 @@
   \begin{ekdverse}
     \hspace{-\vgap}}{
   \end{ekdverse}
-  \vskip 0.75\baselineskip
+  \vskip 0.6\baselineskip
 }   
 
 % end additions
@@ -103,19 +103,19 @@
 \NewDocumentEnvironment{tlg}{O{}}{
   \begin{ekdverse}}{
   \end{ekdverse}
-  \vskip 0.75\baselineskip}
+  \vskip 0.6\baselineskip}
 
 % additions/changes 2022-08-22 mm:
 \NewDocumentEnvironment{alttlg}{O{}}{
   %\stopvline
   %\addtocounter{saved@poemline}{-1}
   \setvnum{\hindsection.\arabic{saved@poemline}*\arabic{poemline}}
-  \selectlanguage{iast}
+%  \selectlanguage{iast}
   \begin{ekdverse}[type=altrecension]
     \color{gray}
   }{
   \end{ekdverse}
-  \vskip 0.75\baselineskip
+  \vskip 0.6\baselineskip
   %\addtocounter{saved@poemline}{1}
   %\startvline
   %\setvnum{\hindsection.\arabic{poemline}}
@@ -127,13 +127,13 @@
 %%%%%%
 
 \def\startverse{\begin{ekdverse}} % übergangsweise
-\def\endverse{\end{ekdverse}\vskip 0.75\baselineskip} % übergangsweise
+\def\endverse{\end{ekdverse}\vskip 0.6\baselineskip} % übergangsweise
 
 % additions/changes 2022-08-22 mm:
 \def\startaltrecension{
   \stopvline
   \addtocounter{saved@poemline}{-1}
-        %\setvnum{\hindsection.\arabic{saved@poemline}*\arabic{poemline}}
+    %\setvnum{\hindsection.\arabic{saved@poemline}*\arabic{poemline}}
 	%\selectlanguage{iast}
 	%\begin{ekdverse}[type=altrecension]
 	%\color{gray}
@@ -144,33 +144,32 @@
   \addtocounter{saved@poemline}{1}
   \startvline
   \setvnum{\hindsection.\arabic{poemline}}
-  \selectlanguage{iast}
+%  \selectlanguage{iast}
 	}
 
 %%%%%%
 
 \newcommand{\myfn}[1]{\footnote{\texteng{#1}}}
 \renewcommand{\thefootnote}{\texteng{\arabic{footnote}}}
-\newcommand{\devnote}[1]{\selectlanguage{iast}{\scriptsize #1}\selectlanguage{english}}
+\newcommand{\devnote}[1]{\textdev{\scriptsize #1}}
 \newcommand{\outdent}{\hspace{-\vgap}}
-\newcommand{\sgwit}[1]{{\small (\getsiglum{#1})}\selectlanguage{iast}}
-\newcommand{\NotIn}[1]{\texteng{\footnotesize (om. \getsiglum{#1})}\selectlanguage{iast}}
-%\newcommand{\lineom}[1]{\texteng{\footnotesize (line om. \getsiglum{#1})}\selectlanguage{iast}}
-\newcommand{\lineom}[1]{\texteng{\footnotesize (line om. #1)}\selectlanguage{iast}} %%% change 2023-04-11 mm
+\newcommand{\sgwit}[1]{{\footnotesize (\getsiglum{#1})}}
+\newcommand{\NotIn}[1]{\texteng{\footnotesize (om. \getsiglum{#1})}}
+\newcommand{\lineom}[1]{\texteng{\footnotesize (line om. \getsiglum{#1})}}
 \newcommand{\grau}[1]{\textcolor{gray}{#1}} % partial altrecension
 \newcommand{\Anm}[1]{\texteng{\footnotesize (#1)}}
 \newcommand{\anm}[1]{\texteng{\footnotesize [#1]}}
 
-\def\om{\emph{om.}}
-\def\illeg{\emph{illeg.}} 
-\def\unm{\emph{unm.}}
+\def\om{\texteng{\emph{om.}}}
+\def\illeg{\texteng{\emph{illeg.}}} 
+\def\unm{\texteng{\emph{unm.}}}
 %\def\recte{\texteng{r.\:}}
 %\def\for{\texteng{for\ }}
-%\def\sic{\emph{sic}}
-%\def\oder{\textnormal{\emph{or\ }}}
-\def\ante{\textnormal{\emph{ante }}}
-\def\add{\textnormal{\emph{add.\ }}}
-\def\post{\textnormal{\emph{post\ }}}
+%\def\sic{\texteng{\emph{sic}}}
+%\def\oder{\texteng{\emph{or\ }}}
+\def\ante{\texteng{\normalfont\emph{ante }}}
+\def\add{\texteng{\normalfont\emph{add.\ }}}
+\def\post{\texteng{\normalfont\emph{post\ }}}
 \def\marma{*}
 \def\marmas{* }
 
