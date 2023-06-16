@@ -7,7 +7,7 @@ Static web rendering routine for the Haṭhapradīpikā-editing project.
 - sed.
 
 ## Usage
-- Inspect: refer to rendering of [hp-online.html](html/hp-online.html) over [here](https://raw.githack.com/radardenker/hp-online-edition/master/html/hp-online.html).
+- Inspect: refer to rendering of [hp-online.html](html/hp-online.html) over [here](https://raw.githack.com/mmehner/hp-online-edition/master/html/hp-online.html).
 - Recreate:
   1. change variable `xslcmd` in [compile-tidyup.sh](./compile-tidyup.sh) to suite your xslt 2 processor,
   2. run [compile-tidyup.sh](./compile-tidyup.sh).

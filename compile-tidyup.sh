@@ -54,6 +54,7 @@ compile(){
 	echo "No changes to ${1}, skipping compilation."
     fi
 
+    latexmk -c
     popd || exit
 }
 
