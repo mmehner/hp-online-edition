@@ -1,5 +1,12 @@
-﻿% additions/changes 2023-06-05 mm:
-\TeXtoTEIPat{\lineom {#1}}{<note type="omission">Line omitted in <ref>#1</ref></note>}
+% changes/additions 2023-08-15 MD:
+\TeXtoTEIPat{\lineom {#1}{#2}}{<note type="omission">#1 omitted in <ref>#2</ref></note>}
+\TeXtoTEI{graus}{hi}[rend="grey"]
+\TeXtoTEIPat{\startgray}{<note type="altrecension">}
+\TeXtoTEIPat{\endgray}{</note>}
+
+
+% additions/changes 2023-06-05 mm:
+%\TeXtoTEIPat{\lineom {#1}}{<note type="omission">Line omitted in <ref>#1</ref></note>}
 \TeXtoTEIPat{\NotIn {#1}}{<note type="omission">Stanza omitted in <ref>#1</ref></note>}
 
 % additions 2023-04-16 MD:
@@ -12,7 +19,8 @@
 % additions 2023-04-05 MD:
 \TeXtoTEIPat{\begin {testimonia}[#1]}{<note type="testimonia" target="##1">}
   \TeXtoTEIPat{\end {testimonia}}{</note>}
-\TeXtoTEI{devnote}{s}[xml:lang="sa-deva"]
+\TeXtoTEI{devnote}{s}[xml:lang="sa-deva"]							
+													 
 %\TeXtoTEIPat{\anm {#1}}{<note type="memo">(#1)</note>}
 \TeXtoTEI{anm}{note}[type="memo"] %% change 2023-04-16 MD
 %\TeXtoTEIPat{\Anm {#1}}{<note type="memo">(#1)</note>} % only in HP4-edition.tex
@@ -43,6 +51,7 @@
 \TeXtoTEIPat{\begin {ava}[#1]}{<note type="avataranika" target="##1">}
   \TeXtoTEIPat{\end {ava}}{</note>}
 
+												   
 \TeXtoTEIPat{\outdent}{}
 \TeXtoTEIPat{\startaltrecension}{<note type="altrecension">}
 \TeXtoTEIPat{\endaltrecension}{</note>}

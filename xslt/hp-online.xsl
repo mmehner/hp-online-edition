@@ -32,6 +32,7 @@
   <xsl:template match="note[@type='altrecension']"/>
   <xsl:template match="note[@type='avataranika']"/>
   <xsl:template match="note[@type='omission']"/>
+  <xsl:template match="note[@type='memo']"/>
   
   <!-- main template -->
   <xsl:template match="lg[not(ancestor::note)]">

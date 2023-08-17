@@ -220,6 +220,13 @@ Lalchand M-2091
 <msIdentifier/>
 </msDesc>
 </witness>
+<witness xml:id="N3">
+<abbr type="siglum"><texteng>N<hi rend="sub">3</hi></texteng></abbr>
+NGMPP B 62-20
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
 <witness xml:id="N9">
 <abbr type="siglum"><texteng>N<hi rend="sub">9</hi></texteng></abbr>
 NGMPP A62-33
@@ -251,6 +258,20 @@ NGMPP G 25-2
 </handNote>
 </handDesc>
 </physDesc>
+</msDesc>
+</witness>
+<witness xml:id="N24">
+<abbr type="siglum"><texteng>N<hi rend="sub">24</hi></texteng></abbr>
+NGMPP G 190-16
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P11">
+<abbr type="siglum"><texteng>P<hi rend="sub">11</hi></texteng></abbr>
+
+<msDesc>
+<msIdentifier/>
 </msDesc>
 </witness>
 <witness xml:id="P15">
@@ -295,6 +316,13 @@ ceteri
 <msIdentifier/>
 </msDesc>
 </witness>
+<witness xml:id="G4">
+<abbr type="siglum"><texteng>G<hi rend="sub">4</hi></texteng></abbr>
+GOML 18885
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
 <witness xml:id="Jyo">
 <abbr type="siglum"><texteng>J<hi rend="sub">yo</hi></texteng></abbr>
 Brahmānanda’s version
@@ -334,7 +362,7 @@ Brahmānanda’s version
 <l>guruṃ natvā śivaṃ caiva prāṇāyāmaṃ tato ’bhyaset || 47 ||</l> 
 </lg>
  </note>
- <note type="philcomm" target="#hp02_001"> <hi>dṛḍho yogī</hi> seems unlikely as <hi>dṛḍha</hi> usually qualifies a technique, the body, etc. It is interesting that J10, J17 and N17 have <hi>yogamārgaṃ</hi>. The vulgate has <hi>prāṇāyāmān</hi>. </note>
+ <note type="philcomm" target="#hp02_001"> <hi>dṛḍho yogī</hi> seems unlikely as <hi>dṛḍha</hi> usually qualifies a technique, the body, etc. The vulgate has <hi>prāṇāyāmān</hi>. Other witnesses have the plural <hi>prāṇāyāmān</hi> and this variation between singular and plural recurs through this chapter without a clear split among different branches of the stemma, so we have preferred what seem to us to be the better readings on semantic grounds. It is interesting that J10, J17 and N17 have <hi>yogamārgaṃ</hi> but it is unlikely that this was the original reading. </note>
  <note type="translation" target="#hp02_002"> When the wind moves, everything moves and, when it is still, everything is still. Therefore, the yogī obtains the motionless state because of restraining the breath. </note>
  <note type="sources" target="#hp02_002"> VM 71 
 <lg>
@@ -385,7 +413,7 @@ Brahmānanda’s version
  </note>
  <note type="philcomm" target="#hp02_004"> The manuscripts are split between <hi>kāyasiddhi</hi> and <hi>kāryasiddhi</hi>. In the context of physical yoga, <hi>kāyasiddhi</hi> makes better sense, as <hi>kāryasiddhi</hi> can refer more generally to accomplishing anything. </note>
  <note type="translation" target="#hp02_005"> When entire network of channels, which is full of impurities, becomes pure, then the yogi becomes capable of holding the breath. </note>
- <note type="sources" target="#hp02_005"> VM 95 
+ <note type="sources" target="#hp02_005"> VM 76 
 <lg>
  <l>śuddhim eti yadā sarvaṃ nāḍīcakraṃ malākulam |</l>
 <l>tadaiva jāyate yogī prāṇasaṃgrahaṇakṣamaḥ || 76 ||</l> 
@@ -533,7 +561,7 @@ Brahmānanda’s version
 <l>uttiṣṭhaty uttame prāṇarodhe padmāsanasthitaḥ ||</l> 
 </lg>
  </note>
- <note type="philcomm" target="#hp02_012"> The manuscripts diverge greatly in the second hemistrich. All have <hi>prāṇa</hi> (instead of <hi>deha</hi> in the VM). J10 (and others) appear to say that the breaths rise up again and again when one is seated in the lotus pose (<hi>uttiṣṭhanty uttame prāṇā baddhe padmāsane muhuḥ</hi>). However, this is a statement about the external signs that arise in <hi>prāṇāyāma</hi>. V1 seems to be stating that <hi>padmāsana</hi> rises up again and again in the highest stage of holding the breath (<hi>uttiṣṭhaty uttame prāṇarodhe padmāsanaṃ muhuḥ</hi>). Confusion has arisen here from the verse being taken from the VM without its context, which is a classification of different levels of prāṇāyāma. Thus Svātmārāma needed to include prāṇarodhe meaning prāṇāyāma in order for the different adjectives to have something to agree with. </note>
+ <note type="philcomm" target="#hp02_012"> The manuscripts diverge greatly in the second hemistich. All have <hi>prāṇa</hi> (instead of <hi>deha</hi> in the VM). J10 (and others) appear to say that the breaths rise up again and again when one is seated in the lotus pose (<hi>uttiṣṭhanty uttame prāṇā baddhe padmāsane muhuḥ</hi>). However, this is a statement about the external signs that arise in <hi>prāṇāyāma</hi>. V1 seems to be stating that <hi>padmāsana</hi> rises up again and again in the highest stage of holding the breath (<hi>uttiṣṭhaty uttame prāṇarodhe padmāsanaṃ muhuḥ</hi>). Confusion has arisen here from the verse being taken from the VM without its context, which is a classification of different levels of prāṇāyāma. Thus Svātmārāma needed to include prāṇarodhe meaning prāṇāyāma in order for the different adjectives to have something to agree with. </note>
  <note type="translation" target="#hp02_013"> The yogī should practise rubbing the limbs with the sweat produced by his exertion. Because of it, firmness and dexterity of the body arise. </note>
  <note type="sources" target="#hp02_013"> Cf. DYŚ 75 
 <lg>
@@ -620,7 +648,7 @@ Brahmānanda’s version
  <note type="translation" target="#hp02_018"> One should exhale correctly, inhale correctly and hold the breath correctly. Thus, one obtains success. </note>
  <note type="sources" target="#hp02_018"> VM 102 
 <lg>
- <l>yuktaṃ yuktaṃ tyajed vāyuṃ yuktaṃ yuktaṃ ca pūrayetyuktaṃ yuktaṃ ca badhnīyād evaṃ siddhim avāpnuyāt || 1</l> 
+ <l>yuktaṃ yuktaṃ tyajed vāyuṃ yuktaṃ yuktaṃ ca pūrayetyuktaṃ yuktaṃ ca badhnīyād evaṃ siddhim avāpnuyāt ||</l> 
 </lg>
  </note>
  <note type="testimonia" target="#hp02_018"> Haṭharatnāvalī 
@@ -831,7 +859,7 @@ Brahmānanda’s version
 </lg>
  </note>
  <note type="philcomm" target="#hp02_030"> The reading <hi>mukhanirgamanād</hi> is difficult to construe. It appears to a vague <hi>nirvacana</hi>. According to Turner’s Comparative and Etymological Dictionary (1966: 427, entry 7588), the word <hi>netī</hi> in Hindi refers to the cord of a churning stick and is cognate with the Sanskrit <hi>netra</hi>. The action of pulling the cord of a churning stick is similar to the way the thread can be pulled back and forth, from side to side, through the nostril and mouth. The reading <hi>mukhān nirgamayec caiṣā</hi> makes better sense in terms of describing the final part of the practise, but it may be a patch because the first hemistich has a finite verb and the <hi>eṣā</hi> must be construed with <hi>netiḥ</hi> in the fourth pāda. The same problem is in the reading V19 (<hi>sāpi</hi>). </note>
- <note type="translation" target="#hp02_031"> And neti purifies the skull, bestows devine sight and quickly cures a multitude of diseases that arise above the clavicles. </note>
+ <note type="translation" target="#hp02_031"> And neti purifies the skull, bestows divine sight and quickly cures a multitude of diseases that arise above the clavicles. </note>
  <note type="sources" target="#hp02_031"> </note>
  <note type="testimonia" target="#hp02_031"> Yogacintāmaṇi 
 <lg>
@@ -943,7 +971,7 @@ Brahmānanda’s version
  <note type="sources" target="#hp02_038"> </note>
  <note type="testimonia" target="#hp02_038"> Yogacintāmaṇi 
 <lg>
- <l>prāṇāyāmair eva <textup>&lt;2 syllables missing&gt;</textup> praśuṣyanti malā iti |</l>
+ <l>prāṇāyāmair eva {<note place="bottom"/>size &lt;2 syllables missing&gt;} praśuṣyanti malā iti |</l>
 <l>keṣāṃ cid ācāryāṇām anya karma na saṃmatam iti ||</l> 
 </lg>
  </note>
@@ -958,7 +986,7 @@ Brahmānanda’s version
  </note>
  <note type="philcomm" target="#hp02_039"> <hi>ṣaṭkarmayoga</hi> is somewhat strange and this hemistich is omitted in V1. Perhaps, yoga was intended as ‘method’. It seems likely that the second and fourth hemistiches (as found in V1) were original. <hi>samanaska</hi> is strange and difficult to construe (Jim thinks it might refer to death with the mind active as opposed to the preferable situation of dying while in samādhi). However, the verbs <hi>abhuvann</hi> and <hi>amucann</hi> make better sense. The third hemistich may be an attempt to rewrite the pāda to fix the problem of <hi>samanaska</hi>. </note>
  <note type="translation" target="#hp02_040"> So long as the breath is bound in the body, the mind without support, and one looks at the middle of the brow, where is the fear of death? </note>
- <note type="sources" target="#hp02_040"> VM 
+ <note type="sources" target="#hp02_040"> VM 73 
 <lg>
  <l>yāvad baddho marud dehe tāvac cittaṃ nirāśrayam |</l>
 <l>yāvad dṛṣṭir bhruvor madhye tāvat kālabhayaṃ kutaḥ || 72 ||</l> 
@@ -1057,7 +1085,7 @@ Brahmānanda’s version
  </note>
  <note type="philcomm" target="#hp02_045"> </note>
  <note type="translation" target="#hp02_046"> When the contraction of the throat has been applied, the breath goes into the central channel by quickly contracting below [the abdomen] and stretching back the middle [of the body]. </note>
- <note type="sources" target="#hp02_046"> </note>
+ <note type="sources" target="#hp02_046"> Yogabīja ? </note>
  <note type="testimonia" target="#hp02_046"> Yogacintāmaṇī 
 <lg>
  <l>adhas tv ākuñcanenāśu kaṇṭhasaṅkocanena ca |</l>
@@ -1108,7 +1136,7 @@ Brahmānanda’s version
 </lg>
  </note>
  <note type="translation" target="#hp02_050"> This purifies the skull, cures [imbalances] of vātadoṣa [and] gets rid of diseases caused by worms [so] should be done repeatedly. It is called the piercing of the sun. </note>
- <note type="sources" target="#hp02_050"> Gorakṣaśataka 35a-36b 
+ <note type="sources" target="#hp02_050"> Gorakṣaśataka 35ab, 36ab 
 <lg>
  <l>kapālaśodhane vāpi recayet pavanaṃ sudhīḥ |</l>
 <l>tundasya vātadoṣaghnaḥ kṛmidoṣaṃ nihanti ca ||</l>
@@ -1130,7 +1158,7 @@ Brahmānanda’s version
  </note>
  <note type="philcomm" target="#hp02_050"> The <hi>Gorakṣaśataka</hi> and <hi>Yogacintāmaṇi</hi> support <hi>kṛmidoṣa</hi>. The compound <hi>sūryabheda</hi> is metri causa. The J10 group and V19 have attempted to reinstate the name <hi>sūryabhedana</hi>. </note>
  <note type="translation" target="#hp02_051"> Having closed the mouth, one should gradually draw in the breath through the nostrils so that it comes into contact with the throat as far as the chest and resonates.</note>
- <note type="sources" target="#hp02_051"> Gorakṣaśataka 
+ <note type="sources" target="#hp02_051"> Gorakṣaśataka 36c–37b 
 <lg>
  <l>mukhaṃ saṃyamya nāḍībhyāṃ ākṛṣya pavanaṃ śanaiḥ |</l>
 <l>yathā lagati kaṇṭhāt tu hṛdayāvadhi sasvanam || [T kaṇṭhaṃ tu]</l> 
@@ -1149,7 +1177,7 @@ Brahmānanda’s version
  </note>
  <note type="philcomm" target="#hp02_051"> </note>
  <note type="translation" target="#hp02_052"> As before, he should hold the breath and then exhale through the <hi>iḍā</hi> channel. It cures diseases caused by phlegm in the throat and increases the body’s fire. </note>
- <note type="sources" target="#hp02_052"> GŚ 
+ <note type="sources" target="#hp02_052"> GŚ 37c–38b 
 <lg>
  <l>pūrvavat kumbhayet prāṇaṃ recayed iḍayā tataḥ |</l>
 <l>śīrṣotthitānalaharaṃ galaśleṣmaharaṃ paraṃ ||</l> 
@@ -1291,7 +1319,17 @@ Brahmānanda’s version
 <l>tasya ṣaṇmāsataḥ sarve rogā naśyanti yoginaḥ || </l> 
 </lg>
  </note>
- <note type="philcomm" target="#hp02_057"> Verse 2.57 seems to be describing an alternative method of <hi>śītkārakumbhaka</hi>. It could have been included by Svātmārāma. The introductory phrase <hi>uktaṃ ca</hi> suggests that the teaching in this verse is consistent with what preceded it, but one would expect that it is another view (<hi>matāntare</hi>). The compound <hi>rasanātālumūlena</hi> is difficult to understand. In his <hi>Haṭhasaṅketacandrikā</hi> (ref??), Sundaradeva seems to think that the external air strikes (which might thus make the sound <hi>śīt</hi>) the root of the tongue and palate and the upper part of the uvula (<hi>atra mūhū (muhu?) rasanātālumūlāhataṃ ghaṃṭikordhvabhāgāhataṃ bahiḥsthavāyuṃ vidhāya pibed ity arthaḥ</hi>). More helpful are the remarks of the commentator of the <hi>Yogataraṅgiṇī</hi>. He seems to think that a hole or cavity (<hi>vivara</hi>) is made by the root of the palate with the help of the tongue, and the yogi breathes through it (<hi>evaṃ rasanātālumūlena rasanā jihvā tatsahāyabhūtatālumūlena kṛtaṃ yad vivaraṃ, tena kṛtvā yaḥ yogī prāṇam anilaṃ prāṇavāyuṃ pibet pūrayet, tasya yogino’bdārdhena ṣaṇmāsena sarvarogāṇāṃ nāśaḥ kṣayo bhavet</hi> || 39 |). This idea might have been intended with the parallel reading of the <hi>Yogacintāmaṇi</hi>: <hi>rasanātāluyogena</hi> (‘by connecting the tongue and palate’). So, we have translated <hi>rasanātālumūlena</hi> as ‘through the tongue and root of the palate’. It’s a vague way of saying that the tongue is turned back to touch the root of the palate to make a hole that one breathes through (when the breath is taken in through the mouth). The <hi>Kumbhakapaddhati</hi> (137) states this more clearly: <hi>rasanām unmukhīkṛtya sītkāraṃ kurvatā marut</hi> | <hi>pīyante kumbhake yasmin nāsikābhyāṃ virecanam</hi> || [pīyate?] And this idea is also expressed clearly in <hi>Śivasaṃhitā</hi> 3.80: <hi>rasanāṃ tālumūle yaḥ sthāpayitvā vipaścitaḥ</hi> | <hi>pibet prāṇānilaṃ tasya rogāṇāṃ saṃkṣayo bhavet</hi> || The verse may derive from <hi>Kauljñānanirṇaya</hi> 6.19, which has <hi>rasanā[ṃ] tālumūle tu kṛtvā vāyuṃ pibet…</hi>. </note>
+ <note type="philcomm" target="#hp02_057"> Verse 2.57 seems to be describing an alternative method of <hi>śītkārakumbhaka</hi>. It could have been included by Svātmārāma. The introductory phrase <hi>uktaṃ ca</hi> suggests that the teaching in this verse is consistent with what preceded it, but one would expect that it is another view (<hi>matāntare</hi>). The compound <hi>rasanātālumūlena</hi> is difficult to understand. In his <hi>Haṭhasaṅketacandrikā</hi> (ref??), Sundaradeva seems to think that the external air strikes (which might thus make the sound <hi>śīt</hi>) the root of the tongue and palate and the upper part of the uvula (<hi>atra mūhū (muhu?) rasanātālumūlāhataṃ ghaṃṭikordhvabhāgāhataṃ bahiḥsthavāyuṃ vidhāya pibed ity arthaḥ</hi>). More helpful are the remarks of the commentator of the <hi>Yogataraṅgiṇī</hi>. He seems to think that a hole or cavity (<hi>vivara</hi>) is made by the root of the palate with the help of the tongue, and the yogi breathes through it (<hi>evaṃ rasanātālumūlena rasanā jihvā tatsahāyabhūtatālumūlena kṛtaṃ yad vivaraṃ, tena kṛtvā yaḥ yogī prāṇam anilaṃ prāṇavāyuṃ pibet pūrayet, tasya yogino’bdārdhena ṣaṇmāsena sarvarogāṇāṃ nāśaḥ kṣayo bhavet</hi> || 39 |). This idea might have been intended with the parallel reading of the <hi>Yogacintāmaṇi</hi>: <hi>rasanātāluyogena</hi> (‘by connecting the tongue and palate’). So, we have translated <hi>rasanātālumūlena</hi> as ‘through the tongue and root of the palate’. It’s a vague way of saying that the tongue is turned back to touch the root of the palate to make a hole that one breathes through (when the breath is taken in through the mouth). The <hi>Kumbhakapaddhati</hi> (137) states this more clearly: 
+<lg>
+ <l>rasanām unmukhīkṛtya sītkāraṃ kurvatā marut |</l>
+<l>pīyante kumbhake yasmin nāsikābhyāṃ virecanam || [pīyate?]</l> 
+</lg>
+ And this idea is also expressed clearly in <hi>Śivasaṃhitā</hi> 3.80: 
+<lg>
+ <l>rasanāṃ tālumūle yaḥ sthāpayitvā vipaścitaḥ |</l>
+<l>pibet prāṇānilaṃ tasya rogāṇāṃ saṃkṣayo bhavet ||</l> 
+</lg>
+ The verse may derive from <hi>Kauljñānanirṇaya</hi> 6.19, which has <hi>rasanā[ṃ] tālumūle tu kṛtvā vāyuṃ pibet…</hi>. </note>
  <note type="translation" target="#hp02_058"> Having drawn in the air through the tongue, the method of retention [is done] as before. The wise yogi gradually exhales through the nostrils. </note>
  <note type="sources" target="#hp02_058"> Gorakṣaśataka 
 <lg>
@@ -1438,7 +1476,7 @@ Brahmānanda’s version
 <l>yadā śramo bhaved dehe tadā sūryeṇa recayet || 114 ||</l> 
 </lg>
  </note>
- <note type="philcomm" target="#hp02_064"> Most of the manuscripts support <hi>dhiyā</hi> but the manuscripts of the source text and the testimonia support <hi>sudhīḥ</hi>. Since the subject of the simile is <hi>bhastrā</hi>, one would expect the subject of <hi>cālayet</hi>, which must be different, to be stated (as is the case with <hi>sudhīḥ</hi>). Also, one would expect the instrumental of <hi>dhī</hi>to be qualified by some adjective, such as in the case of <hi>sattvāsthayā dhiyā</hi> (Gorakṣaśataka 74b) and <hi>sāttvikayā dhiyā</hi> (Haṭhapradīpikā 2.6b). </note>
+ <note type="philcomm" target="#hp02_064"> Most of the manuscripts support <hi>dhiyā</hi> but the manuscripts of the source text and the testimonia support <hi>sudhīḥ</hi>. Since the subject of the simile is <hi>bhastrā</hi>, one would expect the subject of <hi>cālayet</hi>, which must be different, to be stated (as is the case with <hi>sudhīḥ</hi>). Also, one would expect the instrumental of <hi>dhī</hi> to be qualified by some adjective, such as in the case of <hi>sattvāsthayā dhiyā</hi> (Gorakṣaśataka 74b) and <hi>sāttvikayā dhiyā</hi> (Haṭhapradīpikā 2.6b). </note>
  <note type="translation" target="#hp02_065"> in such a way that the abdomen is filled quickly by the breath and hold the nose firmly without using the middle and index fingers. </note>
  <note type="sources" target="#hp02_065"> Gorakṣaśataka 45cd–46ab 
 <lg>
@@ -1620,7 +1658,7 @@ Brahmānanda’s version
 </lg>
  </note>
  <note type="philcomm" target="#hp02_071"> We have understood <hi>udgāramāruta</hi> to refer to the breath of eructation, i.e. the nāga breath as described in e.g. <hi>Vivekamārtaṇḍa</hi> 36. We have adopted <hi>payasy agādhe pi sukham</hi> in pāda c because <hi>sukham</hi> gives a better meaning and it is a bha-vipulā V19 and P28, Yogacintāmaṇi and the Haṭharatnāvalī omit this verse and accordingly do not mention plāvinī in verse 44, substituting it with kevala. </note>
- <note type="translation" target="#hp02_072"> Now kevalakumbhaka--- Prāṇāyāma is said to be threefold with exhalation, inhalation and retention. Retention is considered twofold: sahita and kevala. </note>
+ <note type="translation" target="#hp02_072"> Now kevalakumbhaka--- Prāṇāyāma is said to be threefold, with exhalation, inhalation, and retention. Retention is considered twofold: sahita and kevala. </note>
  <note type="sources" target="#hp02_072"> GŚ 
 <lg>
  <l>prāṇaś ca dehajo vāyur āyāmaḥ kumbhakaḥ smṛtaḥ |</l>

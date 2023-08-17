@@ -128,6 +128,8 @@
 
 \def\startverse{\begin{ekdverse}} % übergangsweise
 \def\endverse{\end{ekdverse}\vskip 0.6\baselineskip} % übergangsweise
+\def\startgray{\color{gray}} % NEW! 2023-06-16
+\def\endgray{\color{black}} % NEW! 2023-06-16
 
 % additions/changes 2022-08-22 mm:
 \def\startaltrecension{
@@ -155,21 +157,23 @@
 \newcommand{\outdent}{\hspace{-\vgap}}
 \newcommand{\sgwit}[1]{{\footnotesize (\getsiglum{#1})}}
 \newcommand{\NotIn}[1]{\texteng{\footnotesize (om. \getsiglum{#1})}}
-\newcommand{\lineom}[1]{\texteng{\footnotesize (line om. \getsiglum{#1})}}
+\newcommand{\lineom}[2]{\texteng{\footnotesize (#1 om. \getsiglum{#2})}}
 \newcommand{\grau}[1]{\textcolor{gray}{#1}} % partial altrecension
+\newcommand{\graus}[1]{\small\textcolor{gray}{#1}\normalsize} % partial altrecension
 \newcommand{\Anm}[1]{\texteng{\footnotesize (#1)}}
 \newcommand{\anm}[1]{\texteng{\footnotesize [#1]}}
 
-\def\om{\texteng{\emph{om.}}}
-\def\illeg{\texteng{\emph{illeg.}}} 
-\def\unm{\texteng{\emph{unm.}}}
+\def\om{\texteng{\emph{om.\kern-0.8ex}}}
+\def\illeg{\texteng{\emph{illeg.\kern-0.8ex}}} 
+\def\unm{\texteng{\emph{unm.\ }}}
+\def\gap{\texteng{\emph{gap}}}
 %\def\recte{\texteng{r.\:}}
 %\def\for{\texteng{for\ }}
 %\def\sic{\texteng{\emph{sic}}}
 %\def\oder{\texteng{\emph{or\ }}}
-\def\ante{\texteng{\normalfont\emph{ante }}}
-\def\add{\texteng{\normalfont\emph{add.\ }}}
+\def\ante{\texteng{\normalfont\emph{ante\ }}}
+\def\add{\texteng{\normalfont\emph{add.}}}
 \def\post{\texteng{\normalfont\emph{post\ }}}
-\def\marma{*}
-\def\marmas{* }
+\def\marma{\textsuperscript{\#}}
+\def\marmas{\textsuperscript{\#} }
 
