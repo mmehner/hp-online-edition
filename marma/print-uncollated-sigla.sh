@@ -1,5 +1,5 @@
 #!/bin/sh
-marma_tex=Marmasthāna.tex
+marma_tex=marma.tex
 sig_txt=Sigla-Liste.txt
 
 tsvmarma() { 

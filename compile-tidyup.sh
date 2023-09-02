@@ -10,13 +10,13 @@ xslcmdproc(){
 	    chapid="hp1" \
 	    transl="../xml/HP1_TranslComm-tei.xml" \
 	    marma="../xml/Marmasthanas-tei.xml" \
-	    jyotsna="../xml/Jyotsna-tei.xml"
+	    jyotsna="../xml/jyotsna.xml"
     
     $xslcmd -s:xml/HP2_edition-tei.xml -xsl:xslt/hp-online.xsl -o:html/hp2.html \
 	    chapid="hp2" \
 	    transl="../xml/HP2_TranslComm-tei.xml" \
 	    marma="../xml/Marmasthanas-tei.xml" \
-	    jyotsna="../xml/Jyotsna-tei.xml"
+	    jyotsna="../xml/jyotsna.xml"
 
     echo "concatenating html …"
     sed '/<!--content-->/q' html/meta.html > html/hp-online.html 
@@ -58,6 +58,34 @@ compile(){
     popd || exit
 }
 
+xmlizejyotsna(){
+    echo "<TEI xmlns=\"http://www.tei-c.org/ns/1.0\"><teiHeader/><body><text>" > xml/jyotsna.xml
+
+    sed -e '1,/\\startlinenumbering/ {d}' \
+    -e '/\\begin{vsid}{hp03_001}/,$ {d}' \
+    -e 's_%*\\begin{vsid}{\(.*\)}_<note type="jyotsna" target="#\1">_' \
+    -e 's_%*\\end{vsid}_</note>_' \
+    -e 's_%.*__' \
+    -e 's_\s\+$__g' \
+    latex/Jyotsna.tex |
+    tr '\n' '\0' |
+    sed -e 's_\\ \+__g' \
+	-e 's_\\-__g' \
+	-e 's_\\blank__g' \
+	-e 's_\\[a-z]*{[^{}]*}__g' \
+	-e 's_{[^{}]\+}__g' \
+	-e 's_\\[a-z]*{[^{}]*}__g' |
+    tr '\0' '\n' |
+    sed -e '/{\\bf/,/)}/ {d}' \
+	-e '/\\startsloka/,/\\stopsloka/ {
+	s_\\startsloka_<lg>_
+       	s_\\stopsloka_</lg>_
+       	s_\(^[^<].\+\)_<l>\1</l>_
+	}' >> xml/jyotsna.xml
+
+    echo "</text></body></TEI>" >> xml/jyotsna.xml
+}
+
 
 if [ -f "latex/${1}" ]
 then
@@ -65,11 +93,12 @@ then
     compile "${1#*/}"
 elif [ -z "${1:-}" ]
 then
-    for f in "HP1_edition.tex" "HP1_TranslComm.tex" "Jyotsna.tex" "Marmasthanas.tex" "HP2_edition.tex" "HP2_TranslComm.tex"
+    for f in "HP1_edition.tex" "HP1_TranslComm.tex" "Marmasthanas.tex" "HP2_edition.tex" "HP2_TranslComm.tex"
     do
 	compile "${f}"
     done
 fi
+xmlizejyotsna 
 xslcmdproc
 
 exit
