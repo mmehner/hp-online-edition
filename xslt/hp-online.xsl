@@ -132,10 +132,14 @@
 	</div>
       </div>
 
-      <xsl:variable name="jyotsna" select="document($jyotsna)//note[@type='jyotsna' and @target=$correspkey]"/>
+      <xsl:variable name="jyotsna" select="document($jyotsna)//note[@type='jyotsna' and contains(@target, $correspkey)]"/>
       <xsl:if test="$jyotsna">
 	<details class="jyotsna-d">
-	  <summary>Jyotsna Commentary</summary>
+	  <summary>Jyotsna Commentary
+	  <xsl:if test="not($jyotsna[@target=$correspkey])">
+	    for verses <xsl:value-of select="replace($jyotsna/@target, '#hp0*(\d+)_0*(\d+).*#hp0*(\d+)_0*(\d+)', '$1.$2-$4')"/>
+	  </xsl:if>
+	  </summary>
 	  <div class="jyotsna">
 	    <xsl:apply-templates select="$jyotsna"/>
 	  </div>

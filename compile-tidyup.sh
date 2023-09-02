@@ -62,8 +62,8 @@ xmlizejyotsna(){
     echo "<TEI xmlns=\"http://www.tei-c.org/ns/1.0\"><teiHeader/><body><text>" > xml/jyotsna.xml
 
     sed -e '1,/\\startlinenumbering/ {d}' \
-    -e '/\\begin{vsid}{hp03_001}/,$ {d}' \
-    -e 's_%*\\begin{vsid}{\(.*\)}_<note type="jyotsna" target="#\1">_' \
+    -e '/\\begin{vsid}{#hp03_001}/,$ {d}' \
+    -e 's_%*\\begin{vsid}{\(.*\)}_<note type="jyotsna" target="\1">_' \
     -e 's_%*\\end{vsid}_</note>_' \
     -e 's_%.*__' \
     -e 's_\s\+$__g' \
