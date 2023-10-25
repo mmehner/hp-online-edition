@@ -6,7 +6,7 @@ xslcmdproc(){
     xslcmd="java -jar ${HOME}/.nix-profile/saxon9he.jar"
 
     echo "processing xml …"
-    $xslcmd -s:xml/HP1_edition-tei.xml -xsl:xslt/hp-online.xsl -o:html/hp1.html \
+    $xslcmd -s:xml/HP1_dev-tei.xml -xsl:xslt/hp-online.xsl -o:html/hp1.html \
 	    chapid="hp1" \
 	    transl="../xml/HP1_TranslComm-tei.xml" \
 	    marma="../xml/Marmasthanas-tei.xml" \
@@ -89,11 +89,12 @@ xmlizejyotsna(){
 
 if [ -f "latex/${1}" ]
 then
+    echo "found $1"
     rm "latex/${1%.*}.pdf"
     compile "${1#*/}"
 elif [ -z "${1:-}" ]
 then
-    for f in "HP1_edition.tex" "HP1_TranslComm.tex" "Marmasthanas.tex" "HP2_edition.tex" "HP2_TranslComm.tex"
+    for f in "HP1_dev.tex" "HP1_TranslComm.tex" "Marmasthanas.tex" "HP2_edition.tex" "HP2_TranslComm.tex"
     do
 	compile "${f}"
     done

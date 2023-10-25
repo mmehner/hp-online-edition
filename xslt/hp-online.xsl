@@ -30,7 +30,9 @@
 
   <!-- deletions -->
   <xsl:template match="note[@type='altrecension']"/>
+  <xsl:template match="note[@type='altavataranika']"/>
   <xsl:template match="note[@type='avataranika']"/>
+  <xsl:template match="note[@type='postmula']"/>
   <xsl:template match="note[@type='omission']"/>
   <xsl:template match="note[@type='memo']"/>
   
@@ -57,6 +59,10 @@
 	      <xsl:apply-templates>
 		<xsl:with-param name="transc" select="true()" tunnel="yes"/>
 	      </xsl:apply-templates>
+
+	      <xsl:apply-templates select="//note[@type='postmula' and @target=$correspkey]" mode="postmula">
+		<xsl:with-param name="transc" select="true()" tunnel="yes"/>
+	      </xsl:apply-templates>
 	    </div>
 	    <div class="versltn">
 	      <xsl:apply-templates select="//note[@type='avataranika' and @target=$correspkey]" mode="avataranika">
@@ -64,6 +70,10 @@
 	      </xsl:apply-templates>
 	      
 	      <xsl:apply-templates>
+		<xsl:with-param name="transc" select="false()" tunnel="yes"/>
+	      </xsl:apply-templates>
+
+	      <xsl:apply-templates select="//note[@type='postmula' and @target=$correspkey]" mode="postmula">
 		<xsl:with-param name="transc" select="false()" tunnel="yes"/>
 	      </xsl:apply-templates>
 	    </div>
@@ -96,6 +106,9 @@
 	      <xsl:call-template name="apparatus"/>
 	    </xsl:for-each>
 	    <xsl:for-each select="descendant::app">
+	      <xsl:call-template name="apparatus"/>
+	    </xsl:for-each>
+	    <xsl:for-each select="//note[@type='postmula' and @target=$correspkey]/descendant::app">
 	      <xsl:call-template name="apparatus"/>
 	    </xsl:for-each>
 	  </div>
@@ -193,6 +206,12 @@
       <xsl:apply-templates/>
     </p>
   </xsl:template>
+  
+  <xsl:template match="note" mode="postmula">
+    <p class="postmula">
+      <xsl:apply-templates/>
+    </p>
+  </xsl:template>
 
   <!-- skp and skm, here: deva-ignore and ltn-ignore  -->
   <xsl:template match="seg[@type='deva-ignore']"/>
@@ -215,8 +234,8 @@
   
   <xsl:template match="seg[@type='ltn-ignore']" mode="lemma"/>
   
-  <!-- iast2nagari for text nodes of hp and avataranika -->
-  <xsl:template match="l[not(ancestor::note)]//text()|note[@type='avataranika']//text()|div[@type='colophon']//text()">
+  <!-- iast2nagari for text nodes of hp, avataranika and postmula -->
+  <xsl:template match="l[not(ancestor::note)]//text()|note[@type='avataranika']//text()|note[@type='postmula']//text()|div[@type='colophon']//text()">
     <xsl:param name="transc" tunnel="yes"/>
 
     <xsl:variable name="addstring">
@@ -359,47 +378,56 @@
   </xsl:template>
 
   <!-- refs -->
+  <xsl:template match="note[@type='inlineref']">
+    <xsl:element name="span">
+      <xsl:attribute name="class">inlineref</xsl:attribute>
+      <xsl:text>(</xsl:text>
+      <xsl:apply-templates/>
+      <xsl:text>)</xsl:text>
+    </xsl:element>
+  </xsl:template>
+  
   <xsl:template match="ref">
-    <xsl:choose>
-      <xsl:when test="@target">
-	<xsl:variable name="tree" select="//*"/>
-	<xsl:choose>
-	  <xsl:when test="starts-with(@target, '#')">
-	    <xsl:variable name="idkey" select="substring-after(@target, '#')"/>
+      <xsl:choose>
+	<xsl:when test="@target">
+	  <xsl:variable name="tree" select="//*"/>
+	  <xsl:choose>
+	    <xsl:when test="starts-with(@target, '#')">
+	      <xsl:variable name="idkey" select="substring-after(@target, '#')"/>
+	      <xsl:element name="span">
+		<xsl:attribute name="class">siglum</xsl:attribute>
+		<xsl:attribute name="title">
+		  <xsl:value-of select="normalize-space($tree[@xml:id = $idkey])"/>
+		</xsl:attribute>
+		<xsl:apply-templates select="$tree[@xml:id = $idkey]/abbr"/>
+	      </xsl:element>
+	    </xsl:when>
+	    <xsl:otherwise>
+	      <xsl:value-of select="."/>
+	    </xsl:otherwise>
+	  </xsl:choose>
+	</xsl:when>
+	<!-- tokenize refs without target (omissions) -->
+	<xsl:otherwise>
+	  <xsl:variable name="tree" select="//*"/>
+	  <xsl:for-each select="tokenize(.,',')">
+	    <xsl:variable name="idkey" select="."/>
 	    <xsl:element name="span">
 	      <xsl:attribute name="class">siglum</xsl:attribute>
 	      <xsl:attribute name="title">
 		<xsl:value-of select="normalize-space($tree[@xml:id = $idkey])"/>
 	      </xsl:attribute>
-	      <xsl:value-of select="."/>
+	      <xsl:apply-templates select="$tree[@xml:id = $idkey]/abbr"/>
 	    </xsl:element>
-	  </xsl:when>
-	  <xsl:otherwise>
-	    <xsl:value-of select="."/>
-	  </xsl:otherwise>
-	</xsl:choose>
-      </xsl:when>
-      <!-- tokenize refs without target (omissions) -->
-      <xsl:otherwise>
-	<xsl:variable name="tree" select="//*"/>
-	<xsl:for-each select="tokenize(.,',')">
-	  <xsl:variable name="idkey" select="."/>
-	   <xsl:element name="span">
-	      <xsl:attribute name="class">siglum</xsl:attribute>
-	      <xsl:attribute name="title">
-		<xsl:value-of select="normalize-space($tree[@xml:id = $idkey])"/>
-	      </xsl:attribute>
-	      <xsl:value-of select="."/>
-	   </xsl:element>
-	   <xsl:if test="position() &lt; last()-1">
-	    <xsl:text>, </xsl:text>
-	  </xsl:if>
-	  <xsl:if test="position()=last()-1">
-	    <xsl:text> and </xsl:text>
-	  </xsl:if>
-	</xsl:for-each>
-      </xsl:otherwise>
-    </xsl:choose>
+	    <xsl:if test="position() &lt; last()-1">
+	      <xsl:text>, </xsl:text>
+	    </xsl:if>
+	    <xsl:if test="position()=last()-1">
+	      <xsl:text> and </xsl:text>
+	    </xsl:if>
+	  </xsl:for-each>
+	</xsl:otherwise>
+      </xsl:choose>
   </xsl:template>
 
   <!-- simple html equivalents -->

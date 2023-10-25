@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <locatingRules xmlns="http://thaiopensource.com/ns/locating-rules/1.0">
+  <uri resource="HP1_dev-tei.xml" uri="tei-schema/tei_all.rnc"/>
   <uri resource="HP1_edition-tei.xml" uri="tei-schema/tei_all.rnc"/>
   <uri resource="HP1-TranslComm-tei.xml" uri="tei-schema/tei_all.rnc"/>
   <uri resource="HP2_edition-tei.xml" uri="tei-schema/tei_all.rnc"/>

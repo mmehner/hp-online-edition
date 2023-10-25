@@ -1,0 +1,195 @@
+\documentclass[10pt]{memoir}
+\setstocksize{220mm}{155mm} 	        
+\settrimmedsize{220mm}{155mm}{*}	
+\settypeblocksize{170mm}{116mm}{*}	
+\setlrmargins{18mm}{*}{*}
+\setulmargins{*}{*}{1.2}
+% \setlength{\headheight}{5pt}
+\checkandfixthelayout[lines]
+\linespread{1.2}
+
+\setlength{\footmarkwidth}{1.3em}
+\setlength{\footmarksep}{0em}
+\setlength{\footparindent}{1.3em}
+\footmarkstyle{\textsuperscript{#1} }
+\usepackage{fnpos}
+\makeFNbottom
+
+\usepackage[teiexport=tidy,poetry=verse]{ekdosis}
+\usepackage{libertine} % for Oberleaf version
+\usepackage{sanskrit-poetry}
+\usepackage{xcolor}
+
+\usepackage[english]{babel}
+\usepackage{babel-iast,xparse,xcolor}
+\babelfont[iast]{rm}[Renderer=Harfbuzz, Scale=1.5]{AdishilaSan}
+%\babelfont[english]{rm}[Scale=0.9]{Adobe Text Pro} % to be deleted for TranslComm in Oberleaf
+\babeltags{dev = iast}
+\babeltags{eng = english}
+
+\SetHooks{
+	lemmastyle=\bfseries,
+	refnumstyle=\selectlanguage{english}\color{blue}\bfseries, 
+	}
+\newif\ifinapparatus
+\DeclareApparatus{default}[
+	lang=english,
+	sep = {] },
+	delim=\hskip 0.75em,
+	rule=none,
+	]
+\DeclareApparatus{notes}[
+	lang=english,
+	sep = {},
+	delim=\hskip 0.75em,
+	rule=\rule{0.7in}{0.4pt},
+	]
+
+\DeclareShorthand{conj}{\texteng{\emph{conj.}}}{ego}
+\DeclareShorthand{emend}{\texteng{\emph{em.}}}{ego}
+
+\setlength{\vrightskip}{-10pt}
+%\setlength{\vgap}{3mm} % default 1.5em
+\verselinenumfont{\footnotesize\selectlanguage{english}\normalfont}
+\setlength{\stanzaskip}{0.6\baselineskip}
+
+%Define two commands: \skp ("sanskrit plus"), to be ignored by TeX in
+%the edition text, but processed in the TEI output. Conversely, \skm
+%("sanskrit minus") is to be processed in the edition text, but
+%ignored if found in the apparatus criticus and in the TEI output:
+
+\NewDocumentCommand{\skp}{m}{}
+%\NewDocumentCommand{\skm}{m}{\unless\ifinapparatus#1-\fi}
+\NewDocumentCommand{\skm}{m}{\unless\ifinapparatus#1\fi} % modified by MD 2022-05-31
+
+%\input{Manuscript-Sigla}
+%\input{Abbreviations}
+\input{TeX2Tei-Commands}
+
+% additions/changes 2022-04-06 mm:
+%\NewDocumentEnvironment{ava}{O{}}{\begin{ekdpar}\SetLineation{lineation=none}}{\end{ekdpar}}
+%\NewDocumentEnvironment{col}{O{}}{\begin{ekdpar}\SetLineation{lineation=none}}{\end{ekdpar}}
+
+% end additions
+% added by MM 2022-10-25:
+\NewDocumentEnvironment{postmula}{O{}}{
+  \begin{ekdverse}
+    \hspace{-\vgap}}{
+  \end{ekdverse}
+  \vskip 0.6\baselineskip
+}
+% modified by MD 2022-05-8:
+\NewDocumentEnvironment{ava}{O{}}{
+  \begin{ekdverse}
+    \hspace{-\vgap}}{
+  \end{ekdverse}
+  \vskip 0.6\baselineskip
+}
+\NewDocumentEnvironment{col}{O{}}{
+  \medskip
+  \setvnum{col}
+%  \selectlanguage{iast}
+  \begin{ekdverse}
+    \hspace{-\vgap}}{
+  \end{ekdverse}
+}
+
+        
+% modifications/additions by MM 2022-06-07:
+\NewDocumentEnvironment{altava}{O{}}{
+  \begin{ekdverse}\color{gray}
+    \hspace{-\vgap}}{
+  \end{ekdverse}
+  \vskip 0.6\baselineskip
+}   
+
+% end additions
+
+\SetTEIxmlExport{autopar=false}
+
+\NewDocumentEnvironment{tlg}{O{}}{
+  \begin{ekdverse}}{
+  \end{ekdverse}
+  \vskip 0.6\baselineskip}
+
+% additions/changes 2022-08-22 mm:
+\NewDocumentEnvironment{alttlg}{O{}}{
+  %\stopvline
+  %\addtocounter{saved@poemline}{-1}
+  \setvnum{\hindsection.\arabic{saved@poemline}*\arabic{poemline}}
+%  \selectlanguage{iast}
+  \begin{ekdverse}[type=altrecension]
+    \color{gray}
+  }{
+  \end{ekdverse}
+  \vskip 0.6\baselineskip
+  %\addtocounter{saved@poemline}{1}
+  %\startvline
+  %\setvnum{\hindsection.\arabic{poemline}}
+  %\selectlanguage{iast}
+}
+
+\NewDocumentCommand{\tl}{m}{#1}
+
+%%%%%%
+
+\def\startverse{\begin{ekdverse}} % übergangsweise
+\def\endverse{\end{ekdverse}\vskip 0.6\baselineskip} % übergangsweise
+\def\startgray{\color{gray}} % NEW! 2023-06-16
+\def\endgray{\color{black}} % NEW! 2023-06-16
+
+% additions/changes 2022-08-22 mm:
+\def\startaltrecension{
+  \stopvline
+  \addtocounter{saved@poemline}{-1}
+    %\setvnum{\hindsection.\arabic{saved@poemline}*\arabic{poemline}}
+	%\selectlanguage{iast}
+	%\begin{ekdverse}[type=altrecension]
+	%\color{gray}
+	\small  % added 2023-10-12 MD
+	}
+\def\endaltrecension{
+	%\end{ekdverse}
+	%\vskip 0.75\baselineskip
+  \addtocounter{saved@poemline}{1}
+  \startvline
+  \setvnum{\hindsection.\arabic{poemline}}
+%  \selectlanguage{iast}
+	\normalsize  % added 2023-10-12 MD
+	}
+
+%%%%%%
+
+\newcommand{\myfn}[1]{\footnote{\texteng{#1}}}
+\renewcommand{\thefootnote}{\texteng{\arabic{footnote}}}
+\newcommand{\devnote}[1]{\textdev{\scriptsize #1}}
+%\newcommand{\outdent}{\hspace{-\vgap}}
+\newcommand{\sgwit}[1]{{\footnotesize (\getsiglum{#1})}}
+\newcommand{\NotIn}[1]{\texteng{\footnotesize (om. \getsiglum{#1})}}
+\newcommand{\lineom}[2]{\texteng{\footnotesize (#1 om. \getsiglum{#2})}}
+\newcommand{\grau}[1]{\textcolor{gray}{#1}} % partial altrecension
+\newcommand{\graus}[1]{\small\textcolor{gray}{#1}\normalsize} % partial altrecension
+\newcommand{\Anm}[1]{\begin{ekdverse}
+	\texteng{\footnotesize (#1)}
+	\end{ekdverse}
+	\vskip 0.6\baselineskip}
+\newcommand{\anm}[1]{\texteng{\footnotesize [#1]}}
+
+\def\om{\texteng{\emph{om.\kern-0.8ex}}}
+\def\illeg{\texteng{\emph{illeg.\kern-0.8ex}}} 
+\def\damaged{\texteng{\emph{damaged}}} 
+\def\unm{\texteng{\emph{unm.\ }}}
+\def\gap{\texteng{\emph{gap}}}
+%\def\recte{\texteng{r.\:}}
+%\def\for{\texteng{for\ }}
+%\def\sic{\texteng{\emph{sic}}}
+%\def\oder{\texteng{\emph{or\ }}}
+\def\ante{\texteng{\normalfont\emph{ante\ }}}
+\def\add{\texteng{\normalfont\emph{add.}}}
+\def\post{\texteng{\normalfont\emph{post\ }}}
+\def\antecorr{\texteng{\textsubscript{ac}}}
+\def\postcorr{\texteng{\textsubscript{pc}}}
+\def\marma{\texteng{\textsuperscript{\#}}}
+\def\marmas{\texteng{\textsuperscript{\#}} }
+\def\crux{\texteng{\textsuperscript{\textdagger}}}
+

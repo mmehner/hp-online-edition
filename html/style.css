@@ -6,6 +6,13 @@
 }
 
 @font-face {
+    font-family: LinuxLibertineRegular, serif;
+    src: url(fonts/LinLibertine_R.woff);
+    src: url(fonts/LinLibertine_RB.woff);
+    src: url(fonts/LinLibertine_RI.woff);
+}
+
+@font-face {
     font-family: Adishila;
     src: url(fonts/Adishila.ttf);
 }
@@ -211,6 +218,14 @@ mark {
     padding-left: 30px;
 }
 
+.post-prosa {
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    padding-right: 10px;
+    padding-left: 30px;
+}
+
 .colophon {
     margin: 0;
     padding-top: 25px;
@@ -234,6 +249,10 @@ mark {
 .hpvers + .hpvers {
     padding-top: 0px;
     padding-bottom: 20px;
+}
+
+.inlineref {
+    font-size: 14px;
 }
 
 .versinnote {

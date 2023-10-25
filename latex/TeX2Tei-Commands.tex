@@ -1,3 +1,33 @@
+% changes/additions 2023-10-25 MM:
+% new Sigla
+\TeXtoTEIPat{\textAlpha}{Α}
+\TeXtoTEIPat{\textalpha}{α}
+\TeXtoTEIPat{\textBeta}{Β}
+\TeXtoTEIPat{\textbeta}{β}
+\TeXtoTEIPat{\textGamma}{Γ}
+\TeXtoTEIPat{\textgamma}{γ}
+\TeXtoTEIPat{\textDelta}{Δ}
+\TeXtoTEIPat{\textdelta}{δ}
+\TeXtoTEIPat{\textEpsilon}{Ε}
+\TeXtoTEIPat{\textepsilon}{ε}
+\TeXtoTEIPat{\textEta}{Η}
+\TeXtoTEIPat{\texteta}{η}
+\TeXtoTEIPat{\textChi}{Χ}
+\TeXtoTEIPat{\textchi}{χ}
+\TeXtoTEIPat{\textOmega}{Ω}
+\TeXtoTEIPat{\textomega}{ω}
+% delete var in philcomm und testimonia 
+\TeXtoTEIPat{\var {#1}}{}
+%new environments
+\TeXtoTEIPat{\begin {postmula}[#1]}{<note type="postmula" target="##1">}
+  \TeXtoTEIPat{\end {postmula}}{</note>}
+\TeXtoTEIPat{\begin {altava}[#1]}{<note type="altavataranika" target="##1">}
+  \TeXtoTEIPat{\end {altava}}{</note>}
+\TeXtoTEIPat{\sgwit {#1}}{<note type="inlineref"><ref>#1</ref></note>}
+
+% changes/additions 2023-10-12 MM:
+\TeXtoTEIPat{\\.}{}
+
 % changes/additions 2023-08-15 MD:
 \TeXtoTEIPat{\lineom {#1}{#2}}{<note type="omission">#1 omitted in <ref>#2</ref></note>}
 \TeXtoTEI{graus}{hi}[rend="grey"]
@@ -44,20 +74,20 @@
 \TeXtoTEIPat{\rlap {#1}}{#1}
 
 % additions/changes 2022-04-06 mm:
-\TeXtoTEI{sgwit}{ref}
+%\TeXtoTEI{sgwit}{ref}
 \TeXtoTEI{textdev}{s}[xml:lang="sa-deva"]
 \TeXtoTEIPat{\begin {col}[#1]}{<div type="colophon" xml:id="#1"><p>}
   \TeXtoTEIPat{\end {col}}{</p></div>}
 \TeXtoTEIPat{\begin {ava}[#1]}{<note type="avataranika" target="##1">}
   \TeXtoTEIPat{\end {ava}}{</note>}
-
 												   
 \TeXtoTEIPat{\outdent}{}
 \TeXtoTEIPat{\startaltrecension}{<note type="altrecension">}
 \TeXtoTEIPat{\endaltrecension}{</note>}
 \TeXtoTEIPat{\begin {alttlg}[#1]}{<lg xml:id="#1">}
   \TeXtoTEIPat{\end {alttlg}}{</lg>}
-\TeXtoTEIPat{\\[+!]}{}
+
+
 
 % additions/changes 2022-03-12 mm:
 \TeXtoTEIPat{\begin {tlg}[#1]}{<lg xml:id="#1">}
@@ -83,7 +113,7 @@
 
 \TeXtoTEI{tl}{l}
 \TeXtoTEI{myfn}{note}[type="myfn"]
-\TeXtoTEIPat{\getsiglum {#1}}{<ref target="##1">#1</ref>}
+\TeXtoTEIPat{\getsiglum {#1}}{<ref target="##1"/>}
 
 \TeXtoTEI{SetLineation}{}
 \TeXtoTEI{noindent}{}
