@@ -1,0 +1,2530 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title><!-- Title --></title>
+<respStmt>
+<resp><!-- Edited by --></resp>
+<name><!-- Name --></name>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<distributor><!-- Distributor name  --></distributor>
+</publicationStmt>
+<sourceDesc>
+<listWit>
+<witness xml:id="Vu">
+<abbr type="siglum">Vulg</abbr>
+Vulgate, i.e. Brahmānanda’s version
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="X">
+<abbr type="siglum">X</abbr>
+TenChapter Version, Jodhpur 02228 and 02225 (ed. Lonavla)
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="Six">
+<abbr type="siglum">Ṣ</abbr>
+SixChapterVersion, ``6ChapterHPms’’, fragment of enlarged text, Jodhpur
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V1">
+<abbr type="siglum">V<hi rend="sub">1</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 30109
+<msDesc>
+<msIdentifier/>
+<physDesc>
+<handDesc hands="2">
+<handNote xml:id="V1ac">
+<abbr type="siglum">V<hi rend="sub">1</hi><hi rend="sup">ac</hi></abbr>
+
+</handNote>
+<handNote xml:id="V1pc">
+<abbr type="siglum">V<hi rend="sub">1</hi><hi rend="sup">pc</hi></abbr>
+
+</handNote>
+</handDesc>
+</physDesc>
+</msDesc>
+</witness>
+<witness xml:id="V2">
+<abbr type="siglum">V<hi rend="sub">2</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 29869
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V3">
+<abbr type="siglum">V<hi rend="sub">3</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 29899
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V4">
+<abbr type="siglum">V<hi rend="sub">4</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 29937
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V5">
+<abbr type="siglum">V<hi rend="sub">5</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 29938
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V6">
+<abbr type="siglum">V<hi rend="sub">6</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 29991
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V8">
+<abbr type="siglum">V<hi rend="sub">8</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 30014
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V11">
+<abbr type="siglum">V<hi rend="sub">11</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 30029
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V12">
+<abbr type="siglum">V<hi rend="sub">12</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 30030
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V13">
+<abbr type="siglum">V<hi rend="sub">13</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 30031
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V14">
+<abbr type="siglum">V<hi rend="sub">14</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 30050
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V15">
+<abbr type="siglum">V<hi rend="sub">15</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 30051
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V15pc">
+<abbr type="siglum">V<hi rend="sub">15</hi><hi rend="sup">pc</hi>space </abbr>
+
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V16">
+<abbr type="siglum">V<hi rend="sub">16</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 30052
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V17">
+<abbr type="siglum">V<hi rend="sub">17</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 30053
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V16pc">
+<abbr type="siglum">V<hi rend="sub">16</hi><hi rend="sup">pc</hi>space </abbr>
+
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V18">
+<abbr type="siglum">V<hi rend="sub">18</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 30064
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V19">
+<abbr type="siglum">V<hi rend="sub">19</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 30069
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V21">
+<abbr type="siglum">V<hi rend="sub">21</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 30104
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V22">
+<abbr type="siglum">V<hi rend="sub">22</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 30110
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V25">
+<abbr type="siglum">V<hi rend="sub">25</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 30122
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V26">
+<abbr type="siglum">V<hi rend="sub">26</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 30123
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V28">
+<abbr type="siglum">V<hi rend="sub">28</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 30136
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="W2">
+<abbr type="siglum">W<hi rend="sub">2</hi></abbr>
+Wai ??
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="W4">
+<abbr type="siglum">W<hi rend="sub">4</hi></abbr>
+Wai 399-6171
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="K1">
+<abbr type="siglum">K<hi rend="sub">1</hi></abbr>
+Raghunātha Temple Library 4383
+<msDesc>
+<msIdentifier>
+<settlement>Jammu</settlement>
+</msIdentifier>
+</msDesc>
+</witness>
+<witness xml:id="K1ac">
+<abbr type="siglum">K<hi rend="sub">1</hi><hi rend="sup">ac</hi>space </abbr>
+
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="K1pc">
+<abbr type="siglum">K<hi rend="sub">1</hi><hi rend="sup">pc</hi>space </abbr>
+
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="K3">
+<abbr type="siglum">K<hi rend="sub">3</hi></abbr>
+Privat collection
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="L1">
+<abbr type="siglum">L<hi rend="sub">1</hi></abbr>
+SOAS RE 43454
+<msDesc>
+<msIdentifier>
+<settlement>Jammu</settlement>
+</msIdentifier>
+</msDesc>
+</witness>
+<witness xml:id="J10">
+<abbr type="siglum">J<hi rend="sub">10</hi></abbr>
+MSPP Jodhpur 2230
+<msDesc>
+<msIdentifier/>
+<physDesc>
+<handDesc hands="2">
+<handNote xml:id="J10ac">
+<abbr type="siglum">J<hi rend="sub">10</hi><hi rend="sup">ac</hi></abbr>
+
+</handNote>
+<handNote xml:id="J10pc">
+<abbr type="siglum">J<hi rend="sub">10</hi><hi rend="sup">pc</hi></abbr>
+
+</handNote>
+</handDesc>
+</physDesc>
+</msDesc>
+</witness>
+<witness xml:id="J1">
+<abbr type="siglum">J<hi rend="sub">1</hi></abbr>
+Jodhpur 02231
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="J2">
+<abbr type="siglum">J<hi rend="sub">2</hi></abbr>
+Jodhpur 02232
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="J3">
+<abbr type="siglum">J<hi rend="sub">3</hi></abbr>
+Jodhpur 02233
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="J4">
+<abbr type="siglum">J<hi rend="sub">4</hi></abbr>
+Jodhpur 02234
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="J4ac">
+<abbr type="siglum">J<hi rend="sub">4</hi><hi rend="sup">ac</hi>space </abbr>
+MSPP Jodhpur 02234
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="J4pc">
+<abbr type="siglum">J<hi rend="sub">4</hi><hi rend="sup">pc</hi>space </abbr>
+MSPP Jodhpur 02234
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="J5">
+<abbr type="siglum">J<hi rend="sub">5</hi></abbr>
+Jodhpur 02235
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="J6">
+<abbr type="siglum">J<hi rend="sub">6</hi></abbr>
+Jodhpur 02237
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="J7">
+<abbr type="siglum">J<hi rend="sub">7</hi></abbr>
+Jodhpur 02241
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="J8">
+<abbr type="siglum">J<hi rend="sub">8</hi></abbr>
+Jodhpur 23709
+<msDesc>
+<msIdentifier/>
+<physDesc>
+<handDesc hands="2">
+<handNote xml:id="J8ac">
+<abbr type="siglum">J<hi rend="sub">8</hi><hi rend="sup">ac</hi></abbr>
+
+</handNote>
+<handNote xml:id="J8pc">
+<abbr type="siglum">J<hi rend="sub">8</hi><hi rend="sup">pc</hi></abbr>
+
+</handNote>
+</handDesc>
+</physDesc>
+</msDesc>
+</witness>
+<witness xml:id="J9">
+<abbr type="siglum">J<hi rend="sub">9</hi></abbr>
+Jodhpur 02224
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="J11">
+<abbr type="siglum">J<hi rend="sub">11</hi></abbr>
+Jodhpur 23532
+<msDesc>
+<msIdentifier/>
+<physDesc>
+<handDesc hands="2">
+<handNote xml:id="J11ac">
+<abbr type="siglum">J<hi rend="sub">11</hi><hi rend="sup">ac</hi></abbr>
+
+</handNote>
+<handNote xml:id="J11pc">
+<abbr type="siglum">J<hi rend="sub">11</hi><hi rend="sup">pc</hi></abbr>
+
+</handNote>
+</handDesc>
+</physDesc>
+</msDesc>
+</witness>
+<witness xml:id="J12">
+<abbr type="siglum">J<hi rend="sub">12</hi></abbr>
+Jodhpur 18552
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="J13">
+<abbr type="siglum">J<hi rend="sub">13</hi></abbr>
+Jodhpur 02229
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="J14">
+<abbr type="siglum">J<hi rend="sub">14</hi></abbr>
+Jodhpur 02239
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="J15">
+<abbr type="siglum">J<hi rend="sub">15</hi></abbr>
+Jodhpur 9732A
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="J16">
+<abbr type="siglum">J<hi rend="sub">16</hi></abbr>
+Jodhpur 9732B
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="J17">
+<abbr type="siglum">J<hi rend="sub">17</hi></abbr>
+Jodhpur 3013
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="B1">
+<abbr type="siglum">B<hi rend="sub">1</hi></abbr>
+Bodleian Library No. d.457(8)
+<msDesc>
+<msIdentifier>
+<settlement>Oxford</settlement>
+</msIdentifier>
+</msDesc>
+</witness>
+<witness xml:id="B2">
+<abbr type="siglum">B<hi rend="sub">2</hi></abbr>
+Bodleian Library No. d.458(1)
+<msDesc>
+<msIdentifier>
+<settlement>Oxford</settlement>
+</msIdentifier>
+</msDesc>
+</witness>
+<witness xml:id="B3">
+<abbr type="siglum">B<hi rend="sub">3</hi></abbr>
+Bodleian Library No. d.458(9)
+<msDesc>
+<msIdentifier>
+<settlement>Oxford</settlement>
+</msIdentifier>
+</msDesc>
+</witness>
+<witness xml:id="C1">
+<abbr type="siglum">C<hi rend="sub">1</hi></abbr>
+Lalchand M-2080
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="C2">
+<abbr type="siglum">C<hi rend="sub">2</hi></abbr>
+Lalchand M-6065
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="C3">
+<abbr type="siglum">C<hi rend="sub">3</hi></abbr>
+Lalchand M-1293
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="C4">
+<abbr type="siglum">C<hi rend="sub">4</hi></abbr>
+Lalchand M-2081
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="C4ac">
+<abbr type="siglum">C<hi rend="sub">4</hi><hi rend="sup">ac</hi>space </abbr>
+
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="C4pc">
+<abbr type="siglum">C<hi rend="sub">4</hi><hi rend="sup">pc</hi>space </abbr>
+
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="C5">
+<abbr type="siglum">C<hi rend="sub">5</hi></abbr>
+Lalchand M-2082
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="C6">
+<abbr type="siglum">C<hi rend="sub">6</hi></abbr>
+Lalchand M-2089
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="C7">
+<abbr type="siglum">C<hi rend="sub">7</hi></abbr>
+Lalchand M-6494
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="C8">
+<abbr type="siglum">C<hi rend="sub">8</hi></abbr>
+Lalchand M-2091
+<msDesc>
+<msIdentifier/>
+<physDesc>
+<handDesc hands="2">
+<handNote xml:id="C8ac">
+<abbr type="siglum">C<hi rend="sub">8</hi><hi rend="sup">ac</hi></abbr>
+
+</handNote>
+<handNote xml:id="C8pc">
+<abbr type="siglum">C<hi rend="sub">8</hi><hi rend="sup">pc</hi></abbr>
+
+</handNote>
+</handDesc>
+</physDesc>
+</msDesc>
+</witness>
+<witness xml:id="C9">
+<abbr type="siglum">C<hi rend="sub">9</hi></abbr>
+Lalchand M-4530
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N1">
+<abbr type="siglum">N<hi rend="sub">1</hi></abbr>
+NGMPP A1400-2
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N2">
+<abbr type="siglum">N<hi rend="sub">2</hi></abbr>
+NGMPP B 39-19
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N3">
+<abbr type="siglum">N<hi rend="sub">3</hi></abbr>
+NGMPP B 62-20
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N5">
+<abbr type="siglum">N<hi rend="sub">5</hi></abbr>
+NGMPP A60-15 + A61-1
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N4">
+<abbr type="siglum">N<hi rend="sub">4</hi></abbr>
+NGMPP A61-2
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N6">
+<abbr type="siglum">N<hi rend="sub">6</hi></abbr>
+NGMPP A61-6
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N9">
+<abbr type="siglum">N<hi rend="sub">9</hi></abbr>
+NGMPP A62-33
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N10">
+<abbr type="siglum">N<hi rend="sub">10</hi></abbr>
+NGMPP A62-37
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N11">
+<abbr type="siglum">N<hi rend="sub">11</hi></abbr>
+NGMPP A63-15
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N12">
+<abbr type="siglum">N<hi rend="sub">12</hi></abbr>
+NGMPP A939-19
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N13">
+<abbr type="siglum">N<hi rend="sub">13</hi></abbr>
+NGMPP A1378-18
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N16">
+<abbr type="siglum">N<hi rend="sub">16</hi></abbr>
+NGMPP B39-20
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N17">
+<abbr type="siglum">N<hi rend="sub">17</hi></abbr>
+NGMPP B 111-10
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N18">
+<abbr type="siglum">N<hi rend="sub">18</hi></abbr>
+NGMPP E 929-3
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N19">
+<abbr type="siglum">N<hi rend="sub">19</hi></abbr>
+NGMPP E-1528-1 / E-1527-7(4)
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N20">
+<abbr type="siglum">N<hi rend="sub">20</hi></abbr>
+NGMPP E 2037-13 
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N21">
+<abbr type="siglum">N<hi rend="sub">21</hi></abbr>
+NGMPP E 2097-31
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N22">
+<abbr type="siglum">N<hi rend="sub">22</hi></abbr>
+NGMPP G 4-4
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N23">
+<abbr type="siglum">N<hi rend="sub">23</hi></abbr>
+NGMPP G 25-2
+<msDesc>
+<msIdentifier/>
+<physDesc>
+<handDesc hands="2">
+<handNote xml:id="N23ac">
+<abbr type="siglum">N<hi rend="sub">23</hi><hi rend="sup">ac</hi></abbr>
+
+</handNote>
+<handNote xml:id="N23pc">
+<abbr type="siglum">N<hi rend="sub">23</hi><hi rend="sup">pc</hi></abbr>
+
+</handNote>
+</handDesc>
+</physDesc>
+</msDesc>
+</witness>
+<witness xml:id="N24">
+<abbr type="siglum">N<hi rend="sub">24</hi></abbr>
+NGMPP G 190-16
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N24ac">
+<abbr type="siglum">N<hi rend="sub">24</hi><hi rend="sup">ac</hi>space </abbr>
+
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N24pc">
+<abbr type="siglum">N<hi rend="sub">24</hi><hi rend="sup">pc</hi>space </abbr>
+
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N26">
+<abbr type="siglum">N<hi rend="sub">26</hi></abbr>
+NGMPP T 24-3
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P1">
+<abbr type="siglum">P<hi rend="sub">1</hi></abbr>
+Ānandāśrama S16-3-21
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P2">
+<abbr type="siglum">P<hi rend="sub">2</hi></abbr>
+Ānandāśrama S16-2-20
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P3">
+<abbr type="siglum">P<hi rend="sub">3</hi></abbr>
+BISM (79) 314
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P4">
+<abbr type="siglum">P<hi rend="sub">4</hi></abbr>
+BISM (91) 191
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P5">
+<abbr type="siglum">P<hi rend="sub">5</hi></abbr>
+BISM (29) 5790
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P6">
+<abbr type="siglum">P<hi rend="sub">6</hi></abbr>
+BORI 263/1879-80
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P7">
+<abbr type="siglum">P<hi rend="sub">7</hi></abbr>
+BORI 665/1883-84
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P8">
+<abbr type="siglum">P<hi rend="sub">8</hi></abbr>
+BORI 316/1895-98
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P9">
+<abbr type="siglum">P<hi rend="sub">9</hi></abbr>
+BORI 733-1891-95
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P10">
+<abbr type="siglum">P<hi rend="sub">10</hi></abbr>
+BORI 222-1884-86
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P11">
+<abbr type="siglum">P<hi rend="sub">11</hi></abbr>
+BORI 221-1882–83
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P12">
+<abbr type="siglum">P<hi rend="sub">12</hi></abbr>
+Ānandāśrama S16-3-24
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P13">
+<abbr type="siglum">P<hi rend="sub">13</hi></abbr>
+Ānandāśrama S16-2-22
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P14">
+<abbr type="siglum">P<hi rend="sub">14</hi></abbr>
+Ānandāśrama S16-3-23
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P15">
+<abbr type="siglum">P<hi rend="sub">15</hi></abbr>
+BISM (64) 919
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P16">
+<abbr type="siglum">P<hi rend="sub">16</hi></abbr>
+BISM (64) 1115
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P17">
+<abbr type="siglum">P<hi rend="sub">17</hi></abbr>
+BISM 620/1886-92
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P18">
+<abbr type="siglum">P<hi rend="sub">18</hi></abbr>
+BORI 615/1887-91
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P19">
+<abbr type="siglum">P<hi rend="sub">19</hi></abbr>
+BISM 46-39
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P20">
+<abbr type="siglum">P<hi rend="sub">20</hi></abbr>
+BISM 39-273
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P21">
+<abbr type="siglum">P<hi rend="sub">21</hi></abbr>
+BISM 37-743
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P22">
+<abbr type="siglum">P<hi rend="sub">22</hi></abbr>
+BISM 37-729
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P23">
+<abbr type="siglum">P<hi rend="sub">23</hi></abbr>
+BISM 33-60
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P24">
+<abbr type="siglum">P<hi rend="sub">24</hi></abbr>
+BISM 29-5790
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P25">
+<abbr type="siglum">P<hi rend="sub">25</hi></abbr>
+BISM 29-3657
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P26">
+<abbr type="siglum">P<hi rend="sub">26</hi></abbr>
+BISM 25-281
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P27">
+<abbr type="siglum">P<hi rend="sub">27</hi></abbr>
+BISM 7-489
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P28">
+<abbr type="siglum">P<hi rend="sub">28</hi></abbr>
+BORI 399-1895-1902
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="M1">
+<abbr type="siglum">M<hi rend="sub">1</hi></abbr>
+P-5682/4
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="Tue">
+<abbr type="siglum">Tü</abbr>
+Ma I 339
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="YC">
+<abbr type="siglum">YC</abbr>
+Yogacintāmaṇi
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="ceteri">
+<abbr type="siglum">cett.</abbr>
+ceteri
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="A1">
+<abbr type="siglum">A<hi rend="sub">1</hi></abbr>
+Alwar 952
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="Jyo">
+<abbr type="siglum">J<hi rend="sub">yo</hi></abbr>
+Brahmānanda’s version
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="G4">
+<abbr type="siglum">G<hi rend="sub">4</hi></abbr>
+GOML D18885 (Bundle SD5051)
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="G5">
+<abbr type="siglum">G<hi rend="sub">5</hi></abbr>
+GOML R3841/ SR2190
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="G7">
+<abbr type="siglum">G<hi rend="sub">7</hi></abbr>
+GOML D4394
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="Ko">
+<abbr type="siglum">K<hi rend="sub">o</hi></abbr>
+Koba, Gujarat 55626
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+</listWit>
+<listPerson xml:id="scholars">
+<person xml:id="nos">
+<persName>
+<abbr type="siglum">nos</abbr>
+<forename>HPP</forename>
+<surname>Team</surname>
+</persName>
+</person>
+</listPerson>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<variantEncoding method="parallel-segmentation" location="internal"/>
+</encodingDesc>
+</teiHeader>
+<text>
+<body>
+<chapter>Translation &amp; philological commentary</chapter>  <note type="translation" target="#hp02_001"> Now, when posture is firm, the disciplined yogi whose diet is wholesome and measured, should practise breath control according to the path taught by the teacher. </note>
+ <note type="sources" target="#hp02_001"> </note>
+ <note type="testimonia" target="#hp02_001"> Haṭharatnāvalī 3.78 
+<lg>
+ <l>atha prāṇāyāmaḥ--</l>
+<l>athāsane dṛḍhe yogī vaśī hitamitāśanaḥ ||</l>
+<l>gurūpadiṣṭamārgeṇa prānāyāmān samabhyaset || 3.78 ||</l> 
+</lg>
+ Cf. Yogamārgaprakāśikā 
+<lg>
+ <l>athāsane dṛḍhībhūte suśobhanamaṭhe yadā |</l>
+<l>guruṃ natvā śivaṃ caiva prāṇāyāmaṃ tato ’bhyaset || 47 ||</l> 
+</lg>
+ </note>
+ <note type="philcomm" target="#hp02_001"> <hi>dṛḍho yogī</hi> seems unlikely as <hi>dṛḍha</hi> usually qualifies a technique, the body, etc. The vulgate has <hi>prāṇāyāmān</hi>. Other witnesses have the plural <hi>prāṇāyāmān</hi> and this variation between singular and plural recurs through this chapter without a clear split among different branches of the stemma, so we have preferred what seem to us to be the better readings on semantic grounds. It is interesting that J10, J17 and N17 have <hi>yogamārgaṃ</hi> but it is unlikely that this was the original reading. </note>
+ <note type="translation" target="#hp02_002"> When the wind moves, everything moves and, when it is still, everything is still. Therefore, the yogī obtains the motionless state because of restraining the breath. </note>
+ <note type="sources" target="#hp02_002"> VM 71 
+<lg>
+ <l>cale vāte calaṃ sarvaṃ niścale niścal*aṃ* tathā |</l>
+<l>yogī sthāṇutvam āpnoti tato vāyuni*baṃ*dhanāt || 71 ||</l> 
+</lg>
+ Cf. Amanaska 92 
+<lg>
+ <l>citte calati saṃsāro ’cale mokṣaḥ prajāyate |</l>
+<l>tasmāc cittaṃ sthirīkuryād audāsīnyaparāyaṇaḥ ||</l> 
+</lg>
+ </note>
+ <note type="testimonia" target="#hp02_002"> Yogacintāmaṇi 
+<lg>
+ <l>tathā ca skandapurāṇe--</l>
+<l>cale vāte calaṃ cittaṃ niścalaṃ niścale tathā |</l>
+<l>yogī sthāṇutvam āpnoti tato vāyuṃ nirodhayet ||</l> 
+</lg>
+ Haṭharatnāvalī 
+<lg>
+ <l>cale vāte calaṃ cittaṃ niścale niścalaṃ tathā ||</l>
+<l>yogī sthāṇutvam āpnoti tato vāyuṃ nirundhayet || 3.79 ||</l> 
+</lg>
+ </note>
+ <note type="philcomm" target="#hp02_002"> Comment on <hi>cittaṃ</hi> instead of <hi>sarvaṃ</hi>. The latter is supported by the source and makes better sense as a general statement (i.e., when the wind moves, everything moves, etc.). The reading <hi>citta</hi> only seems to make sense if one understands <hi>sthāṇutvam</hi> as referring to <hi>samādhi</hi> (i.e., motionlessness of the mind). As far as we know, such a meaning of <hi>sthāṇutvam</hi> is not attested elsewhere. Nonetheless, Brahmānanda glosses <hi>sthāṇutvam</hi> as <hi>kāṣṭhavat</hi>, implying that it refers to <hi>samādhi</hi>. <hi>vāyunibandanāt</hi> makes better sense, but most witnesses have an optative verb. There was probably confusion over the ablative and optative in 2d and 3d. The optative verb works well in 3d. </note>
+ <note type="translation" target="#hp02_003"> As long as the breath is situated in the body, there is said to be life. The emission of this is death. Therefore, one should stop the breath. </note>
+ <note type="sources" target="#hp02_003"> VM 72 
+<lg>
+ <l>yāvad vāyuḥ sthito dehe tāvaj jīvitam ucyate</l>
+<l>maraṇaṃ tasya niḥkrāntau tato vāyuṃ nirodhayet || 72 ||</l> 
+</lg>
+ Cf. Mṛgendratantra 1.11.20cd--22ab 
+<lg>
+ <l>vyāpārād yasya ceṣṭante śārīrāḥ pañca vāyavaḥ || 1,11.20 ||</l>
+<l>prāṇāpānād ayas te tu bhinnā vṛtter na vastutaḥ |</l>
+<l>vṛttiṃ leśān nigadato bharadvāja nibodha me || 1,11.21 ||</l>
+<l>vṛttiḥ praṇayanaṃ nāma yat taj jīvanam ucyate |</l> 
+</lg>
+ </note>
+ <note type="testimonia" target="#hp02_003"> </note>
+ <note type="philcomm" target="#hp02_003"> We should adopt <hi>jīvitaṃ</hi> because the old witnesses of the VM have it and it is well attested among the old HP mss. However, both <hi>jīvitaṃ</hi> and <hi>jīvanaṃ</hi> are possible. Also, <hi>nirundhayet</hi> may have been the original reading that was changed to the more correct form of <hi>nirodhayet</hi> and later confused with the final pāda of the previous verse and changed to <hi>nibandhayet</hi>. </note>
+ <note type="translation" target="#hp02_004"> When the channels are full of impurities, the breath does not go into the central channel. How would the state beyond the mind arise? How would perfection of the body be achieved? </note>
+ <note type="testimonia" target="#hp02_004"> Haṭharatnāvalī 3.81 
+<lg>
+ <l>malākulāsu nāḍīṣu māruto naiva madhyagaḥ ||</l>
+<l>kathaṃ syād unmanībhāvaḥ kāyasiddhiḥ kathaṃ bhavet || 3.81 ||</l> 
+</lg>
+ </note>
+ <note type="philcomm" target="#hp02_004"> The manuscripts are split between <hi>kāyasiddhi</hi> and <hi>kāryasiddhi</hi>. In the context of physical yoga, <hi>kāyasiddhi</hi> makes better sense, as <hi>kāryasiddhi</hi> can refer more generally to accomplishing anything. </note>
+ <note type="translation" target="#hp02_005"> When entire network of channels, which is full of impurities, becomes pure, then the yogi becomes capable of holding the breath. </note>
+ <note type="sources" target="#hp02_005"> VM 76 
+<lg>
+ <l>śuddhim eti yadā sarvaṃ nāḍīcakraṃ malākulam |</l>
+<l>tadaiva jāyate yogī prāṇasaṃgrahaṇakṣamaḥ || 76 ||</l> 
+</lg>
+ On nāḍīcakra: Sārdhatriśatikālottara 10.1 
+<lg>
+ <l>nāḍīcakraṃ paraṃ sūkṣmaṃ pravakṣyāmy anupūrvaśaḥ |</l>
+<l>nābher adhastād yat kandam aṅkurās tatra nirgatāḥ || 1 ||</l>
+<l>dvāsaptatisahasrāṇi nābhimadhye vyavasthitāḥ |</l>
+<l>tiryag ūrdhvam adhaś caiva vyāptaṃ nābheḥ samantataḥ |</l>
+<l>cakravatsaṃsthitā nāḍyaḥ pradhānā daśa tāsu yāḥ |</l>
+<l>iḍā ca piṅgalā caiva suṣumnā ca tṛtīyakā</l> 
+</lg>
+ </note>
+ <note type="testimonia" target="#hp02_005"> Yogacintāmaṇi 
+<lg>
+ <l>skandapurāṇe--</l>
+<l>śuddhim eti yadā sarvaṃ nāḍīcakraṃ malākulam |</l>
+<l>tadaiva jāyate yogī kṣamaḥ prāṇanibandhane ||</l> 
+</lg>
+ </note>
+ <note type="philcomm" target="#hp02_005"> </note>
+ <note type="translation" target="#hp02_006"> Therefore, one should always practice breath [retention] with a pure mind, so that the impurities situated at the sides of Suṣumṇā wither away. </note>
+ <note type="sources" target="#hp02_006"> Gorakṣaśataka 73cd–74ab 
+<lg>
+ <l>prāṇābhyāsas tataḥ kāryo nityaṃ sattvāsthayā dhiyā |</l>
+<l>suṣumnāṃ layate cittaṃ na ca vāyuḥ pradhāvati ||</l> 
+</lg>
+ </note>
+ <note type="testimonia" target="#hp02_006"> Jyotsnā 
+<lg>
+ <l>prāṇāyāmaṃ tataḥ kuryān nityaṃ sāttvikayā dhiyā |</l>
+<l>yathā suṣumṇānāḍīsthā malāḥ śuddhiṃ prayānti ca || 6 ||</l> 
+</lg>
+ Yogakarṇikā 137 
+<lg>
+ <l>prāṇāyāmaṃ tataḥ kuryānnityaṃ sāttvikayā dhiyā || 137 ||</l>
+<l>tathā suṣumnāpārśvasthā malāḥ śodhaṃ prayānti hi |</l> 
+</lg>
+ Prāṇatoṣaṇī p.788 
+<lg>
+ <l>prāṇāyāmaṃ tataḥ kuryān nityaṃ sāttvikayā dhiyā | </l>
+<l>tathā suṣumnāpārśvasthā malāḥ śoṣaṃ prayānti hi |</l> 
+</lg>
+ </note>
+ <note type="philcomm" target="#hp02_006"> There’s a problem in the third pāda. Among the divergent readings, V19 conveys the idea that the impurities are in the central channel (<hi>suṣumṇāntarasthā</hi>), which is a ra-vipulā without the caesura after the 4th syllable). This is similar in sense to V2, which has the reading <hi>suṣumṇāmadhyasthā</hi>. This meaning was accepted by Brahmānanda. However, we are not aware of a reference in another text to impurities (<hi>mala</hi>) existing in the central channel. Therefore, we have adopted the reading of N23,J7 and A1, which states that the impurites are situated at the sides of Suṣumṇā, which would allude to the secondary channels of <hi>iḍā</hi> and <hi>piṅgalā</hi>. The <hi>ca</hi> at the end of the 4th pāda suggests that two statements are being made in the second hemistich. The reading of V1 makes sense of the <hi>ca</hi>. However, the meaning of <hi>suṣumṇā susnigdhā</hi> (`<hi>suṣumṇā</hi> becomes well-lubricated’) seems implausible. It seems likely that <hi>ca</hi> was understood simply as a verse-filler. </note>
+ <note type="translation" target="#hp02_007"> Seated in lotus pose, the yogi should breathe in the air through the moon channel, hold according to his capacity and then breathe out through the sun channel. </note>
+ <note type="sources" target="#hp02_007"> VM 77 
+<lg>
+ <l>baddhapadmāsano yogī prāṇaṃ candreṇa pūrayet |</l>
+<l>dhārayitvā yathāśaktyā bhūyaḥ sūryeṇa recayet || 77 ||</l> 
+</lg>
+ </note>
+ <note type="testimonia" target="#hp02_007"> Yuktabhavadeva 
+<lg>
+ <l>baddhapadmāsano yogī prāṇaṃ candreṇa pūrayet |</l>
+<l>dhārayitvā yathāśakti bhūyaḥ sūryeṇa recayet || 12 ||</l> 
+</lg>
+ </note>
+ <note type="philcomm" target="#hp02_007"> </note>
+ <note type="translation" target="#hp02_008"> And having drawn the breath through the sun channel, he should gradually fill the abdomen. Having done the retention as prescribed, he should then exhale through the moon channel. </note>
+ <note type="sources" target="#hp02_008"> VM 79 
+<lg>
+ <l>prāṇaṃ sūryeṇa cākṛṣya pūrayed udaraṃ śanaiḥ</l>
+<l>vidhivat kuṃbhakaṃ kṛtvā punaś candreṇa recayet ||</l> 
+</lg>
+ </note>
+ <note type="testimonia" target="#hp02_008"> Yukabhavadeva 
+<lg>
+ <l>prāṇaṃ sūryeṇa cākṛṣya pūrayedudaraṃ śanaiḥ</l>
+<l>kumbhayitvā vidhānena bhūyaś candreṇa recayet ||</l> 
+</lg>
+ </note>
+ <note type="philcomm" target="#hp02_008"> <hi>udare</hi> is well-attested (V1 and J10) but the verb needs an object so <hi>udaraṃ</hi> has been adopted. </note>
+ <note type="translation" target="#hp02_009"> Having inhaled through the [channel] by which one exhales, one should hold it without discomfort. And then he exhales through the other [channel] gently, not forcefully. </note>
+ <note type="sources" target="#hp02_009"> Cf. DYŚ 60--61 
+<lg>
+ <l>dhārayitvā yathāśakti recayed iḍayā śanaiḥ || 62 ||</l>
+<l>yathā tyajet tathāpūrya dhārayed avirodhataḥ |</l> 
+</lg>
+ </note>
+ <note type="testimonia" target="#hp02_009"> Haṭharatnāvalī 3.85cd
+<lg>
+ <l>yena tyajet tenāpūrya dhārayed avirodhataḥ ||</l> 
+</lg>
+ </note>
+ <note type="philcomm" target="#hp02_009"> The meaning of <hi>avirodhataḥ</hi> (‘without harm’) makes better sense in this context than <hi>anirodhataḥ</hi> (‘without cessation’). One might try to construe <hi>anirodhataḥ</hi> as ‘without stopping the breath’, but verse 2.7 clearly states that the breath should be held as long as possible (<hi>yathāśakti</hi>). According to the apparatus of the critical edition of the <hi>Haṭharatnāvalī</hi>, <hi>avirodhataḥ</hi> is well-attested in the transmission of this work. </note>
+ <note type="translation" target="#hp02_010"> If [the yogi] takes in the breath by the moon channel, he should then exhale the restrained [breath] through the other. Having taken in the breath through the sun channel and held it, he should then exhale through the left. By this method of sun and moon, the multitudes of channels of yamis who are meditating on both orbs become pure after three months. </note>
+ <note type="sources" target="#hp02_010"> VM 81 
+<lg>
+ <l>prāṇaṃ ced iḍayā pibet niyamitaṃ bhūyo ’nyayā recayet |</l>
+<l>pītvā piṅgalayā samīraṇam alaṃ baddhvā tyajed vāmayā </l>
+<l>sūryācandramasor anena vidhinā bimbadvayaṃ dhyāyatāṃ </l>
+<l>śuddhā nāḍigaṇā bhavanti yaminā māsatrayād ūrdhvataḥ ||</l> 
+</lg>
+ </note>
+ <note type="testimonia" target="#hp02_010"> Yogacintāmaṇi 
+<lg>
+ <l>haṭhayoge ’pi— </l>
+<l>prāṇaṃ ced iḍayā piben niyamito bhūyo ’nyayā recayet</l>
+<l>pītvā piṅgalayā samīraṇam atho baddhvā tyajed vāmayā |</l>
+<l>sūryācandramasor anena vidhinā bimbadvayaṃ dhyāyatām</l>
+<l>śuddhā nāḍigaṇā bhavanti yamināṃ māsatrayād ūrdhvataḥ ||</l> 
+</lg>
+ Haṭharatnāvalī 
+<lg>
+ <l>prāṇaṃ ced iḍayā piben niyamitaṃ bhūyo ’nyayā recayet</l>
+<l>pītvā piṅgalayā samīraṇaṃ atho baddhvā tyajed vāmayā ||</l>
+<l>sūryācandramasor anena vidhinā bimbadvayaṃ dhyāyatāṃ</l>
+<l>śuddhā nāḍigaṇā bhavanti yamināṃ māsatrayād ūrdhvataḥ || 3.86 ||</l> 
+</lg>
+ </note>
+ <note type="philcomm" target="#hp02_010"> The reading <hi>vidhinābhyāsaṃ</hi> in the third pāda of various witnesses is unmetrical because it lacks the caesura. </note>
+ <note type="translation" target="#hp02_011"> One should slowly practise retentions four times, at sunrise, midday, sunset and midnight, up to [a total of] eighty. </note>
+ <note type="sources" target="#hp02_011"> </note>
+ <note type="testimonia" target="#hp02_011"> Haṭharatnāvalī 3.87 
+<lg>
+ <l>prātar madhyadine sāyam ardharātre ca kumbhakān ||</l>
+<l>śanair aśītiparyantaṃ caturvāraṃ samabhyaset || 3.87 ||</l> 
+</lg>
+ Cf. DYŚ 63cd--65ab 
+<lg>
+ <l>evaṃ prātaḥ samāsīnaḥ kuryād viṃśati kumbhakān || 63 ||</l>
+<l>evaṃ madhyāhnasamaye kuryād viṃśati kumbhakān |</l>
+<l>evaṃ sāyaṃ prakurvīta punar viṃśati kumbhakān || 64 ||</l>
+<l>evam evārdharātre ’pi kuryād viṃśati kumbhakān |</l> 
+</lg>
+ </note>
+ <note type="philcomm" target="#hp02_011"> The <hi>caturvāraṃ</hi> is ambiguous, but the parallel verses in the DYŚ make it clear that twenty kumbhakas are to be practised four times a day. In his Jyotsnā, Brahmānanda understands it as eighty kumbhakas four times a day. Note Brahmānanda’s comment on <hi>śanaiḥ</hi> (i.e., gradually building up to 80 retentions). </note>
+ <note type="translation" target="#hp02_012"> In the lowest cessation of the breath, sweating arises, in the average, shaking and in the highest [the yogi] rises up again again in lotus pose. </note>
+ <note type="sources" target="#hp02_012"> Cf. VM 87 
+<lg>
+ <l>adhame ca ghano gharma kampo bhavati madhyame |</l>
+<l>uttiṣṭhaty uttamo deho baddhapadmāsano muhuḥ ||</l> 
+</lg>
+ </note>
+ <note type="testimonia" target="#hp02_012"> Haṭharatnāvalī 3.88 
+<lg>
+ <l>kanīyasi bhavet svedaḥ kampo bhavati madhyame |</l>
+<l>uttiṣṭhaty uttame prāṇarodhe padmāsane muhuḥ || 3.88 ||</l> 
+</lg>
+ Yogacintāmaṇi 
+<lg>
+ <l>kanīyasi bhavet svedaḥ kampo bhavati madhyame |</l>
+<l>uttiṣṭhaty uttame prāṇarodhe padmāsanasthitaḥ ||</l> 
+</lg>
+ </note>
+ <note type="philcomm" target="#hp02_012"> The manuscripts diverge greatly in the second hemistich. All have <hi>prāṇa</hi> (instead of <hi>deha</hi> in the VM). J10 (and others) appear to say that the breaths rise up again and again when one is seated in the lotus pose (<hi>uttiṣṭhanty uttame prāṇā baddhe padmāsane muhuḥ</hi>). However, this is a statement about the external signs that arise in <hi>prāṇāyāma</hi>. V1 seems to be stating that <hi>padmāsana</hi> rises up again and again in the highest stage of holding the breath (<hi>uttiṣṭhaty uttame prāṇarodhe padmāsanaṃ muhuḥ</hi>). Confusion has arisen here from the verse being taken from the VM without its context, which is a classification of different levels of prāṇāyāma. Thus Svātmārāma needed to include prāṇarodhe meaning prāṇāyāma in order for the different adjectives to have something to agree with. </note>
+ <note type="translation" target="#hp02_013"> The yogī should practise rubbing the limbs with the sweat produced by his exertion. Because of it, firmness and dexterity of the body arise. </note>
+ <note type="sources" target="#hp02_013"> Cf. DYŚ 75 
+<lg>
+ <l>prasvedo jāyate pūrvaṃ mardanaṃ tena kārayet |</l>
+<l>tato ’tidhāraṇād vāyoḥ krameṇaiva śanaiḥ śanaiḥ ||</l> 
+</lg>
+ </note>
+ <note type="testimonia" target="#hp02_013"> Haṭharatnāvalī 3.89 
+<lg>
+ <l>jalena śramajātena aṅgamardanam ācaret |</l>
+<l>dṛḍhatā laghutā cāpi tathā gātrasya jāyate || 3.89 ||</l> 
+</lg>
+ Cf. Śivasaṃhitā 3.46 
+<lg>
+ <l>svedaḥ saṃjāyate dehe yoginaḥ prathamodyame |</l>
+<l>yadā saṃjāyate svedo mardanaṃ kārayet sudhīḥ |</l>
+<l>anyathā vigrahe dhāturnaṣṭo bhavati yoginaḥ ||</l> 
+</lg>
+ Yogacintāmaṇi 
+<lg>
+ <l>jalena śramajātena gātramardanam ācaret |</l>
+<l>dṛḍhatā laghutā cāpi tena gātrasya jāyate ||</l> 
+</lg>
+ </note>
+ <note type="philcomm" target="#hp02_013"> See Śivasaṃhitā 3.46 on <hi>mardana</hi>. If it is not done, dhātus are lost from the body. </note>
+ <note type="translation" target="#hp02_014"> At the beginning of the practice, food with milk and ghee is recommended. Then, when the practice has become well established, there is no need to adopt such regulations. </note>
+ <note type="sources" target="#hp02_014"> Śivasaṃhitā 3.43 
+<lg>
+ <l>abhyāsakāle prathamaṃ kuryāt kṣīrājyabhojanam</l>
+<l>tato’bhyāse sthirībhūte na tādṛṅ niyamagrahaḥ 3.43</l> 
+</lg>
+ </note>
+ <note type="testimonia" target="#hp02_014"> Haṭharatnāvalī 1.24 
+<lg>
+ <l>abhyāsakāle prathame śastaṃ kṣīrādibhojanam |</l>
+<l>tato ’bhyāse dṛḍhībhūte na tāvan niyamagrahaḥ ||</l> 
+</lg>
+ </note>
+ <note type="philcomm" target="#hp02_014"> </note>
+ <note type="translation" target="#hp02_015"> Just as a lion, elephant and tiger should be tamed gradually, so the breath should be trained. Otherwise, it kills the practitioner. </note>
+ <note type="sources" target="#hp02_015"> VM 101 
+<lg>
+ <l>yathā siṃho gajo vyāghro bhaved vaśyaḥ śanaiḥ śāneḥ |</l>
+<l>anyathā hanti yāntāraṃ tathā vāyur asevitaḥ ||</l> 
+</lg>
+ </note>
+ <note type="testimonia" target="#hp02_015"> Haṭharatnāvalī 3.90 
+<lg>
+ <l>yathā siṃho gajo vyāghro bhaved vaśyaḥ śanaiḥ śanaiḥ ||</l>
+<l>tathaiva sevito vāyur bhaved vaśyaḥ śanaiḥ śanaiḥ || 3.90 ||</l> 
+</lg>
+ </note>
+ <note type="philcomm" target="#hp02_015"> The second hemistich has been rewritten to express the same idea (and simile) in the VM, but the VM expresses it better. </note>
+ <note type="translation" target="#hp02_016"> The end of all diseases is caused by prāṇāyāma as prescribed. As a result of inappropriate practice any disease can arise. </note>
+ <note type="sources" target="#hp02_016"> VM 99 
+<lg>
+ <l>prāṇāyāmena yuktena sarvarogakṣayo bhavet |</l>
+<l>ayuktābhyāsayogena sarvarogasamudbhavaḥ ||</l> 
+</lg>
+ </note>
+ <note type="testimonia" target="#hp02_016"> </note>
+ <note type="philcomm" target="#hp02_016"> </note>
+ <note type="translation" target="#hp02_017"> Hiccups, wheezing, cough, pains in the head, ears and eyes and various [other] diseases arise as a result of the breath going awry. </note>
+ <note type="sources" target="#hp02_017"> VM 100 
+<lg>
+ <l>hikkā śvāsaś ca kāsaś ca śiraḥkarṇākṣivedanā |</l>
+<l>bhavanti vividhā doṣāḥ pavanasya vyatikramāt ||</l> 
+</lg>
+ </note>
+ <note type="testimonia" target="#hp02_017"> Cf. Śivadharmottara 10.124 
+<lg>
+ <l>hikkāśvāsapratiśyāyaḥ karṇadantākṣivedanāḥ || 10.124 ||</l>
+<l>mūkatā jaḍatā kāsaḥ śirorogaḥ śramakṣaraḥ |</l>
+<l>ityevamādayo doṣā jāyante vyutkrameṇa tu || 10.125 ||</l> 
+</lg>
+ Cf. Dharmaputrikā 10.265 
+<lg>
+ <l>kaphakoṣṭhe yadā vāyur granthir bhūtvāvatiṣṭhate |</l>
+<l>hallāsahikkikāśvāsaśiraḥ śūlādayo rujāḥ || 265 || [hṛllāsa-]</l>
+<l>jāyante dhātuvaiṣamyāt tadā kuryāt pratikriyāṃ |</l> 
+</lg>
+ </note>
+ <note type="philcomm" target="#hp02_017"> </note>
+ <note type="translation" target="#hp02_018"> One should exhale correctly, inhale correctly and hold the breath correctly. Thus, one obtains success. </note>
+ <note type="sources" target="#hp02_018"> VM 102 
+<lg>
+ <l>yuktaṃ yuktaṃ tyajed vāyuṃ yuktaṃ yuktaṃ ca pūrayetuktaṃ yuktaṃ ca badhnīyād evaṃ siddhim avāpnuyāt ||</l> 
+</lg>
+ </note>
+ <note type="testimonia" target="#hp02_018"> Haṭharatnāvalī 
+<lg>
+ <l>yuktaṃ yuktaṃ tyajed vāyuṃ yuktaṃ yuktaṃ prapūrayet ||</l>
+<l>yuktaṃ yuktaṃ ca badhnīyād evaṃ siddhim avāpnuyāt || 3.93 ||</l> 
+</lg>
+ </note>
+ <note type="philcomm" target="#hp02_018"> V1 has <hi>śuddhiṃ</hi> (instead of <hi>siddhim</hi>) but this may be an error by someone who was anticipating the subject of the next verse. </note>
+ <note type="translation" target="#hp02_019"> When the channels are pure, then external signs occur. Leanness and lustre of the body are certain to arise. </note>
+ <note type="sources" target="#hp02_019"> Cf. DYŚ 67--68 
+<lg>
+ <l>yadā tu nāḍiśuddhiḥ syāt tadā cihnāni bāhyataḥ || 67 ||</l>
+<l>jāyante yogino dehe tāni vakṣyāmy aśeṣataḥ |</l>
+<l>śarīralaghutā dīptir jaṭharāgnivivardhanam || 68 ||</l>
+<l>kṛśatvaṃ ca śarīrasya tadā jāyeta niścitam |</l> 
+</lg>
+ </note>
+ <note type="testimonia" target="#hp02_019"> Haṭharatnāvalī 
+<lg>
+ <l>yadā tu nāḍīśuddhiḥ syāt tadā cihnāni bāhyataḥ ||</l>
+<l>kāyasya kṛśatā kāntir jāyate tasya niścitam || 3.94 ||</l> 
+</lg>
+ </note>
+ <note type="philcomm" target="#hp02_019"> The idea that <hi>prāṇāyāma</hi> is done to purify the channels (<hi>nāḍī</hi>) can be found in discussions of <hi>prāṇāyāma</hi> in early Śaiva tantras. For example, the <hi>Nayasūtra</hi> of the <hi>Niśvāsatattvasaṃhitā</hi> (4.110) and the <hi>Svacchandatantra</hi> (7.294cd–7.295ab) specifically refer to purifying the channels by inhaling through the left nostril and exhaling through the right (<hi>apasavyena pūryeta savyenaiva virecayet</hi> | <hi>nāḍīsaṃśodhanaṃ caitan mokṣamārgapathasya ca</hi>). </note>
+ <note type="translation" target="#hp02_020"> Holding of the breath as long as one desires, stimulating the fire, causing the internal resonance to arise and freedom from disease occur when the channels are pure. </note>
+ <note type="sources" target="#hp02_020"> VM 101 
+<lg>
+ <l>yatheṣṭaṃ dhāraṇā[ṃ] vāyor analasya pradīpanam |</l>
+<l>nādābhivyaktir ārogyaṃ jāyate nāḍīśodhanāt ||</l> 
+</lg>
+ </note>
+ <note type="testimonia" target="#hp02_020"> Cf. Vasiṣṭhasaṃhitā 2.68--69 
+<lg>
+ <l>nāḍīśuddhim avāpnoti pṛthak cihnopalakṣitām | 2.68ab</l>
+<l>śarīralaghutā dīptir jaṭharāgnivivardhanam || 2.68cd</l>
+<l>nādābhivyaktir ity etac cihnaṃ tacchuddhisūcakam | 2.69ab</l>
+<l>yāvad etāni saṃpaśyet tāvad evaṃ samācaret || 2.69cd</l> 
+</lg>
+ </note>
+ <note type="philcomm" target="#hp02_020"> </note>
+ <note type="translation" target="#hp02_021"> One who has an excess of fat and phlegm should initially practise the six therapeutic interventions. However, anyone else should not practise them when their humours are in balance. </note>
+ <note type="sources" target="#hp02_021"> </note>
+ <note type="testimonia" target="#hp02_021"> </note>
+ <note type="philcomm" target="#hp02_021"> The J10 group also have a valid reading of <hi>medaḥśleṣmādināśārthaṃ</hi> and <hi>anyathā</hi>. However, the <hi>pūrvam</hi> in V1, J8 and V3 seems to the fit the context the ṣaṭkarma as a preliminary practice for prāṇāyāma. </note>
+ <note type="translation" target="#hp02_022"> Dhauti, basti, neti, trāṭaka, naulika and kapālabhāti. [Experts] says these are the six therapeutic interventions. </note>
+ <note type="sources" target="#hp02_022"> </note>
+ <note type="testimonia" target="#hp02_022"> </note>
+ <note type="philcomm" target="#hp02_022"> The issue with this verse is the spellings of the names of the techniques. Looking at the occurrences of each name in subsequent verses helps to establish this. </note>
+ <note type="translation" target="#hp02_023"> These six interventions should be kept secret. Purifiers of the body, which bestow various good qualities, they are worshipped by the best yogis. </note>
+ <note type="sources" target="#hp02_023"> </note>
+ <note type="testimonia" target="#hp02_023"> </note>
+ <note type="philcomm" target="#hp02_023"> </note>
+ <note type="translation" target="#hp02_024"> One should swallow a cloth that is four finger-breadths wide and has been soaked. Then one should draw it out. This has been taught as the action of dhauti. </note>
+ <note type="sources" target="#hp02_024"> </note>
+ <note type="testimonia" target="#hp02_024"> Satkarmasaṅgraha 56–58 
+<lg>
+ <l>atha dhautī mṛdulaṃ dhavalaṃ śuddhaṃ caturaṅgulavistṛtam |</l>
+<l>tithihastamitāyāmaṃ dhautīvastrasya lakṣaṇam || 56 || [tithi =15]</l>
+<l>toyasiktaṃ grased vastraṃ ghrāṇābhyāṃ vāyum utsṛjan |</l>
+<l>śanaiḥ sanais tu sakalaṃ punaḥ pratyāharec chanaiḥ ||</l>
+<l>dhautīkarmedam ākhyātaṃ yatra gaṅgādhidaivatam || 57 ||</l>
+<l>kāsasvāsaphīlakuṣṭhādināśam vahner māndyaṃ viṃśatiḥ śleṣarogān |</l>
+<l>dūrīkuryāt karṇabādhir tam uccair dhautīkarma praditaṃ śaṅkareṇa || 58 ||</l> 
+</lg>
+ Yogacintāmaṇi 
+<lg>
+ <l>caturaṅgulavistāraṃ hastapañcadaśena tu |</l>
+<l>svagurūktaprakāreṇa siktaṃ vastraṃ śanair graset |</l>
+<l>punaḥ pratyāhared etad abhyāsād dhautikarmavit ||</l> 
+</lg>
+ Haṭharatnāvalī 
+<lg>
+ <l>atha dhautiḥ--</l>
+<l>viṃśaddhastapramāṇena dhautavastraṃ sudīrghitam |</l>
+<l>caturaṅgulavistāraṃ siktaṃ caiva śanaiḥ graset || 1.37 ||</l>
+<l>tataḥ pratyāharec caitad abhyāsād dhautir ucyate |</l> 
+</lg>
+ </note>
+ <note type="philcomm" target="#hp02_024"> At this point, it seems that most mss. have added <hi>pāda</hi>s on the length of the cloth and doing the practice according to the guru’s teachings. These <hi>pāda</hi>s are absent in many of the old manuscripts, including both V1, V19 and group 2, and the compound <hi>hastapañcadaśena</hi> does not seem to fit the syntax of the sentence. The other inserted <hi>pāda</hi> (i.e., <hi>gurūpadiṣṭa°</hi>) appears to be a verse filler. </note>
+ <note type="translation" target="#hp02_025"> Coughing, wheezing, splenitis and skin diseases, as well as the twenty phlegmatic diseases, undoubtedly disappear through the power of the dhauti technique. </note>
+ <note type="sources" target="#hp02_025"> </note>
+ <note type="testimonia" target="#hp02_025"> Yogacintāmaṇi 
+<lg>
+ <l>kāsaśvāsaplīhakuṣṭhaṃ kapharogāś ca vidradhiḥ |</l>
+<l>dhautīkarmaprabhāvena prayānty eva na saṃśayaḥ ||</l> 
+</lg>
+ Haṭharatnāvalī 
+<lg>
+ <l>kāsaśvāsaplīhakuṣṭhaṃ kapharogāś ca viṃśatiḥ |</l>
+<l>dhautikarmaprabhāvena dhāvanty eva na saṃśayaḥ || 1.39 ||</l> 
+</lg>
+ </note>
+ <note type="philcomm" target="#hp02_025"> <hi>dhāvanti</hi> is a play on words, using a different root <hi>dhāv</hi>, “to run”, from that of <hi>dhauti</hi>, which is derived from <hi>dhāv</hi>, “to purify”. Look at lists of the 20 kapha roga (in āyurvedic texts) to see if they are different to those mentioned in 2.25a </note>
+ <note type="translation" target="#hp02_026"> In water up to the navel, one adopts a squatting pose (<hi>utkaṭa</hi>) with a reed fixed in the anus. One should clench the base. This cleansing is bastikarma. </note>
+ <note type="sources" target="#hp02_026"> </note>
+ <note type="testimonia" target="#hp02_026"> Yogacintāmaṇi 
+<lg>
+ <l>atha vastī |</l>
+<l>nābhidaghne jale pāyunyastanālotkaṭāsanaḥ |</l>
+<l>ādhārākuñcanaṃ kuryād abhyāsād vastikarmavit ||</l> 
+</lg>
+ Haṭharatnāvalī 1.45 
+<lg>
+ <l>nābhidaghne jale sthitvā pāyunāle sthitāṅguliḥ |</l>
+<l>cakrimārgeṇa jaṭharaṃ pāyunālena pūrayet || 1.45 ||</l>
+<l>vicitrakaraṇīm kṛtvā nirbhītaḥ recayej jalam |</l>
+<l>yāvad balaṃ prapūryaiva kṣaṇaṃ sthitvā virecayet || 1.46 ||</l> 
+</lg>
+ </note>
+ <note type="philcomm" target="#hp02_026"> </note>
+ <note type="translation" target="#hp02_027"> By the power of the basti technique, swelling, splenitis, stomach disorders and all diseases arising from wind, bile and phlegm are removed. </note>
+ <note type="sources" target="#hp02_027"> </note>
+ <note type="testimonia" target="#hp02_027"> Haṭharatnāvalī 
+<lg>
+ <l>gulmaplīhodaraṃ vāpi vātapittakaphādikam |</l>
+<l>bastikarmaprabhāvena dhāvanty eva saṃśayaḥ || 1.48 ||</l> 
+</lg>
+ Yogacintāmaṇi 
+<lg>
+ <l>gulmodaraṃ cāpi vātaplīhapittakaphodbhavāḥ |</l>
+<l>vastikarmaprabhāvena bādhyante sakalāmayāḥ ||</l> 
+</lg>
+ Cf. Satkarmasaṅgraha 135 
+<lg>
+ <l>yāvan malā vinaśyanti vātapittakaphodbhāvāḥ |</l>
+<l>trivāraṃ vā caturvāraṃ kṛtvā bastim virecayet || 135 ||</l>
+<l>mahojasvī mahajjyotir jaṭharāgnipradīpanam |</l>
+<l>gulmaplīhodarādīnāṃ nāśanaṃ sukhavardhanam || 140 ||</l>
+<l>vātapittakaphottānāṃ doṣāṇāṃ nāśanaṃ paraṃ |</l>
+<l>kuṣṭhānāṃ nāśanaṃ cāpi bastisiddhe prajāyate || 141 ||</l> 
+</lg>
+ </note>
+ <note type="philcomm" target="#hp02_027"> The J10 group has <hi>°bhavaṃ</hi>, which would qualify <hi>gulmaplīhodaram</hi>. Diwakar thinks that <hi>gulmodara</hi> and <hi>plīhodara</hi> should be read. Search āyurvedic commentaries on this. (homework) </note>
+ <note type="translation" target="#hp02_028"> When practised repeatedly the jalabasti technique bestows purity of the bodily constituents, senses and mind, radiance, [and] stimulation of the digestive fire, and removes [excessive] accumulation of any humour. </note>
+ <note type="sources" target="#hp02_028"> </note>
+ <note type="testimonia" target="#hp02_028"> Yogacintāmaṇi 
+<lg>
+ <l>dhātvindriyāntaḥkaraṇaprasādaṃ</l>
+<l>dadhyāc ca kāntiṃ dahanapradīptim |</l>
+<l>aśeṣadoṣopacayaṃ nihanyād</l>
+<l>abhyasyamānaṃ jalavastikarma ||</l> 
+</lg>
+ Haṭharatnāvalī 
+<lg>
+ <l>dhātvindriyāntaḥkaraṇaprasādaṃ </l>
+<l>dadyāc ca kāntiṃ dahanapradīptim |</l>
+<l>aśeṣadoṣopacayaṃ nihanyād </l>
+<l>abhyasyamānaṃ jalabastikarma || 1.49 ||</l> 
+</lg>
+ Cf. SKS 
+<lg>
+ <l>tiṣṭhed vaśī mitāhāraḥ sarvāṅgaṃ tena śudhyati |</l>
+<l>dhātvindriyāntaḥkaraṇaprasādo dehalāghavam || 139 ||</l>
+<l>mahojasvī mahajjyotir jaṭharāgnipradīpanam |</l> 
+</lg>
+ </note>
+ <note type="philcomm" target="#hp02_028"> </note>
+ <note type="translation" target="#hp02_029"> [The technique] which, after the apāna wind has been raised into the tube of the throat (i.e., oesophagus), ejects the contents of the stomach from the windpipe (which has been brought under control by cumulative practice) is called the elephant’s action by experts of Haṭha. </note>
+ <note type="sources" target="#hp02_029"> </note>
+ <note type="testimonia" target="#hp02_029"> Haṭharatnāvalī 1.51 
+<lg>
+ <l>udaragatapadārtham udvamantī </l>
+<l>pavanam apānam udīrya kaṇṭhanāle |</l>
+<l>kramaparicayatas tu vāyumārge </l>
+<l>gajakaraṇīti nigadyate haṭhajñaiḥ || 1.51 ||</l> 
+</lg>
+ HTK 8.8 
+<lg>
+ <l>udaragatapadārthān udvamed eva nityaṃ</l>
+<l>pavanagamanamārgāt kaṇṭhanālapraveśāt ||</l>
+<l>kramaparicayavaśyaṃ syāc ca gargādayo hi</l>
+<l>gajakaraṇam itīha prahur āryā munīndrāḥ || 8 ||</l> 
+</lg>
+ Satkarmasaṅgraha 108–109 
+<lg>
+ <l>atha gajakaraṇī</l>
+<l>śuddhaṃ toyaṃ nārikelodbhavaṃ vā </l>
+<l>pītvākaṇṭhaṃ dugdhamiśraṃ jalaṃ vā |</l>
+<l>vāraṃ vāraṃ māṇibandhaṃ tu kurvan </l>
+<l>nodgāreṇa prakṣiped bhūmibhāge || 108 ||</l>
+<l>eṣā proktā kaphapittāmayeṣu </l>
+<l>medoghnīva kariṇī hastipūrvā || 109 ||</l> 
+</lg>
+ </note>
+ <note type="philcomm" target="#hp02_029"> The reference to the elephants in in the J10 group (as well as J8 and V19) appears to be explaining the name of this practice (i.e., ‘because the speed of the breath is like that of water [propelled] by elephants’). However, the syntax is not so easy to construe. The first half of the adopted reading (i.e., <hi>kramaparicayavaśya</hi> is supported by V1 and group 2, and these witnesses preserve <hi>mārga</hi> at the end. The vulgate and printed editions have a finite verb in the first hemistich and assume a plural subject (i.e., <hi>yoginaḥ</hi>) instead of the feminine singular present participle (agreeing with <hi>gajakaraṇī</hi>). </note>
+ <note type="translation" target="#hp02_030"> [The yogi] should insert a thread which is handspan [long] and very smooth into the nasal passage. He takes it out through the mouth. This is called neti by the Siddhas. </note>
+ <note type="sources" target="#hp02_030"> </note>
+ <note type="testimonia" target="#hp02_030"> Yogacintāmaṇi 
+<lg>
+ <l>atha netī |</l>
+<l>sūtraṃ vitastisusnigdhaṃ nāsānāle praveśayet |</l>
+<l>mukhān nirgamayet sā hi netī siddhair nigadyate ||</l> 
+</lg>
+ Cf. Haṭharatnāvalī 1.40–41 
+<lg>
+ <l>atha netikarma--</l>
+<l>ākhupucchākāranibhaṃ sūtraṃ susnigdhanirmitam |</l>
+<l>ṣaḍvitastimitaṃ sūtraṃ netisūtrasya lakṣanam || 1.40 ||</l>
+<l>nāsānāle praviśyainaṃ mukhān nirgamayet kramāt |</l>
+<l>sūtrasyāntaṃ prabaddhvā tu bhrāmayen nāsanālayoḥ |</l> 
+</lg>
+ Cf. SKS 
+<lg>
+ <l>atha netī</l>
+<l>mṛdu ślakṣṇaṃ sitaṃ sūtraṃ nāsānāle praveśayet |</l>
+<l>mukhān nirgamayed dasrau cintayen netikā smṛtā || 67 ||</l> 
+</lg>
+ </note>
+ <note type="philcomm" target="#hp02_030"> The reading <hi>mukhanirgamanād</hi> is difficult to construe. It appears to a vague <hi>nirvacana</hi>. According to Turner’s Comparative and Etymological Dictionary (1966: 427, entry 7588), the word <hi>netī</hi> in Hindi refers to the cord of a churning stick and is cognate with the Sanskrit <hi>netra</hi>. The action of pulling the cord of a churning stick is similar to the way the thread can be pulled back and forth, from side to side, through the nostril and mouth. The reading <hi>mukhān nirgamayec caiṣā</hi> makes better sense in terms of describing the final part of the practise, but it may be a patch because the first hemistich has a finite verb and the <hi>eṣā</hi> must be construed with <hi>netiḥ</hi> in the fourth pāda. The same problem is in the reading V19 (<hi>sāpi</hi>). </note>
+ <note type="translation" target="#hp02_031"> And neti purifies the skull, bestows divine sight and quickly cures a multitude of diseases that arise above the clavicles. </note>
+ <note type="sources" target="#hp02_031"> </note>
+ <note type="testimonia" target="#hp02_031"> Yogacintāmaṇi 
+<lg>
+ <l>kapālaśodhanī caiva divyadṛṣṭipradīpinī |</l>
+<l>jatrūrdhvajātarogaughān jarayaty āśu netivit ||</l> 
+</lg>
+ Haṭharatnāvalī 
+<lg>
+ <l>kapālaśodhinī kāryā divyadṛṣṭipradāyinī | [caiva -P]</l>
+<l>jatrūrdhvajātarogaghnī jāyate netir uttamā || 1.42 ||</l> 
+</lg>
+ </note>
+ <note type="philcomm" target="#hp02_031"> V1 has <hi>kāryā</hi> in the first <hi>pāda</hi>, which is unnecessary because of the main verb in the final <hi>pāda</hi>. Therefore, <hi>caiva</hi> is easier to construe in the first <hi>pāda</hi>. Different readings exist for the last pāda. Most witnesses have <hi>netir āśu nihaṃti ca</hi>. V1’s <hi>jayati sā tu sūtrikā</hi> is possible. The variants with <hi>netivit</hi> seem implausible because of the epithets in the first hemistich, which require <sl>neti</sl> to be understood as the subject of the sentence. </note>
+ <note type="translation" target="#hp02_032"> The focused [yogi] should look at a small focal point with unmoving gaze until tears fall. This is taught as trāṭaka by teachers. </note>
+ <note type="sources" target="#hp02_032"> </note>
+ <note type="testimonia" target="#hp02_032"> Haṭharatnāvalī 
+<lg>
+ <l>nirīkṣya niścaladṛśā sūkṣmalakṣyaṃ samāhitaḥ |</l>
+<l>aśrusampātaparyantam ācāryais trāṭakaṃ smṛtam || 1.54 ||</l> 
+</lg>
+ Yogacintāmaṇi 
+<lg>
+ <l>atha trāṭakam |</l>
+<l>nirīkṣen niścaladṛśā sūkṣmalakṣyaṃ samāhitaḥ |</l>
+<l>aśruprapātaparyantam āryais tat trāṭakaṃ matam ||</l> 
+</lg>
+ </note>
+ <note type="philcomm" target="#hp02_032"> </note>
+ <note type="translation" target="#hp02_033"> It is the destroyer of eye diseases and the door [blocking] sloth and so forth. Trāṭaka should be carefully concealed just as chest of gold. </note>
+ <note type="sources" target="#hp02_033"> </note>
+ <note type="testimonia" target="#hp02_033"> Yogacintāmaṇi 
+<lg>
+ <l>moṭanaṃ netrarogānāṃ tandrādīnāṃ kapāṭakam |</l>
+<l>etac ca trāṭakaṃ gopyaṃ yathā hāṭakapeṭakam ||</l> 
+</lg>
+ Haṭharatnāvalī 
+<lg>
+ <l>sphoṭanaṃ netrarogāṇāṃ tandrādīnāṃ kapāṭakam |</l>
+<l>prayatnāt trāṭakaṃ gopyaṃ yathā ratnasupeṭakam || 1.55 ||</l> 
+</lg>
+ Yuktabhavadeva 6.159 
+<lg>
+ <l>moṭakaṃ sarvarogāṇāṃ tandrādīnāṃ kapāṭanam ||</l>
+<l>yatnatas trāṭakaṃ gopyaṃ yathā hāṭakapeṭakam || 159 ||</l> 
+</lg>
+ </note>
+ <note type="philcomm" target="#hp02_033"> The reading <hi>moṭakaṃ</hi> is found in V1 and the <hi>Yuktabhavadeva</hi>. We understand it to mean “destroyer”. Bohtlingk and Roth (s.v.) and Monier-Williams (s.v.) give medicinal pill as a possible meaning of <hi>moṭaka</hi> (cf. <hi>modaka</hi>) but it appears that this is mainly an inference drawn only from this verse, where the pill is merely a comparison. Several witnesses have <hi>sphoṭanaṃ</hi> (‘destroying’), which is also possible. The reading <hi>kapāṭakam</hi> in pāda b is found in most of the witnesses and testimonia and we have adopted it accordingly. The context indicates that it must mean “blocker” (perhaps, in the sense of a door that blocks something), but we have not found any parallel usages of it in this sense. </note>
+ <note type="translation" target="#hp02_034"> With the shoulders lowered, one should rotate the stomach to the left and right With speed of a rapid whirlpool. This is called Nauli by people from Gauḍa. </note>
+ <note type="sources" target="#hp02_034"> </note>
+ <note type="testimonia" target="#hp02_034"> Yogacintāmaṇi 
+<lg>
+ <l>amandāvartavegena tundaṃ savyāpasavyayoḥ |</l>
+<l>natāṃso bhrāmayed eṣā naulī yoge pracakṣate ||</l> 
+</lg>
+ Haṭharatnāvalī 
+<lg>
+ <l>atha nauliḥ--</l>
+<l>amandāvartavegena tundaṃ savyāpasavyataḥ |</l>
+<l>natāṃso bhrāmayed eṣā nauliḥ gauḍaiḥ praśasyate || 1.34 ||</l> 
+</lg>
+ </note>
+ <note type="philcomm" target="#hp02_034"> <hi>āmandācakravegena</hi> could mean the speed of a slightly slow wheel (Jürgen’s suggestion). But this is strange so we have adopted the usual metaphor of a fast moving whirlpool. The reading <hi>gauḍaiḥ</hi> is found in only two witnesses but none of the others makes sense apart from the <hi>Jyotsnā</hi>’s <hi>siddhaiḥ</hi> which is likely to be a correction. </note>
+ <note type="translation" target="#hp02_035"> Naulī brings about the stimulation of sluggish bodily fire, digestion and the like, always brings bliss, and makes all humoural disorders and diseases wither away. Naulī is the best of all Haṭha practices. </note>
+ <note type="sources" target="#hp02_035"> </note>
+ <note type="testimonia" target="#hp02_035"> HTK 
+<lg>
+ <l>mandāgnisandīpanapācanādisandhāyikānandakarī sadaiva |</l>
+<l>aśeṣadoṣopacayaśoṣaṇīva haṭhakriyā ’sau jayatīha nauliḥ || 12 ||</l> 
+</lg>
+ Yogacintāmaṇi 
+<lg>
+ <l>mandāgnisaṃdīpanapācanāgnisaṃdhāyikānandakarī tathaiva |</l>
+<l>aśeṣadoṣāmayaśoṣinī ca haṭhakriyāmaulir iyaṃ hi naulī ||</l> 
+</lg>
+ Haṭharatnāvalī 
+<lg>
+ <l>tundāgnisandīpanapācanādisandīpikānandakarī sadaiva |</l>
+<l>aśeṣadoṣāmayaśoṣaṇī ca haṭhakriyāmaulir iyaṃ ca nauliḥ || 1.35 ||</l> 
+</lg>
+ </note>
+ <note type="philcomm" target="#hp02_035"> We should adopt <hi>pācana</hi> in the sense of digestion (cooking the food in the intestines). <hi>āmaya</hi> makes better sense in the third pāda, and <hi>mala</hi> might have crept in because of the association of this word with <hi>śoṣiṇī</hi>. Most witnesses and the testimonia have <hi>maulir iyaṃ</hi> in the fourth <hi>pāda</hi>, which expresses the idea that <hi>nauli</hi> was thought to be the best of the <hi>ṣaṭkarma</hi>, and the assonance of <hi>nauli</hi> and <hi>mauli</hi> may have been intended. The reading of <hi>mūlam iyaṃ</hi> in V1 would suggest that <hi>nauli</hi> is necessary for the other practices, which does not seem to be the case. </note>
+ <note type="translation" target="#hp02_036"> Like the bellows of a blacksmith, the inhalation and exhalation are fast. It is called kapālabhāti. It dries up all phlegmatic disorders. </note>
+ <note type="sources" target="#hp02_036"> </note>
+ <note type="testimonia" target="#hp02_036"> Yogacintāmaṇi 
+<lg>
+ <l>atha kapālabhātī |</l>
+<l>bhastreva lohakārāṇāṃ recapūrau sasaṃbhramau |</l>
+<l>kapālabhātī vikhyātā kaphadoṣaviśoṣiṇī ||</l> 
+</lg>
+ Haṭharatnāvalī 
+<lg>
+ <l>atha kapālabhastrikā--</l>
+<l>bhastrival lohakārāṇāṃ recapūrasusambhramau |</l>
+<l>kapālabhastrī vikhyātā sarvarogaviśoṣaṇī || 1.56 ||</l> 
+</lg>
+ </note>
+ <note type="philcomm" target="#hp02_036"> The term <hi>bhātī</hi> is derived from <hi>bhastrī</hi> (Turner 1966: 537, entry 9424). The ‘skull bellows’ is the implication of the name. The J10 group has <hi>savyāpasavyataḥ</hi> (‘left and right’) but this doesn’t make sense as this version of the verse does not stipulate what is moving to the left and right. </note>
+ <note type="translation" target="#hp02_037"> One whose excess weight, phlegm, fat, impurity and the like have been removed by the ṣaṭkarma, should then do prāṇāyāma. It is accomplished without exertion. </note>
+ <note type="sources" target="#hp02_037"> </note>
+ <note type="testimonia" target="#hp02_037"> Yogacintāmaṇi 
+<lg>
+ <l>tathā cātmārāmaḥ—</l>
+<l>ṣaṭkarmanirgatasthaulyakaphamedogadādikaḥ |</l>
+<l>prāṇāyāmaṃ tataḥ kuryād anāyāsena sidhyati ||</l> 
+</lg>
+ </note>
+ <note type="philcomm" target="#hp02_037"> Most witnesses support <hi>ṣaṭkarmabhir gata°</hi>, which is somewhat unconventional syntax. It seems more likely that it was corrected to <hi>ṣaṭkarmanirgata°</hi> than the latter being original. The variant reading <hi>°ādhikaḥ</hi> in the second <hi>pāda</hi> is inferior because one would assume that the <hi>ṣaṭkarma</hi> should remove all excess weight (<hi>sthaulya</hi>) and impurities (<hi>mala</hi>). </note>
+ <note type="translation" target="#hp02_038"> Some teachers say that all the impurities are dried up by breath-controls alone and do not recommend any other practice. </note>
+ <note type="sources" target="#hp02_038"> </note>
+ <note type="testimonia" target="#hp02_038"> Yogacintāmaṇi 
+<lg>
+ <l>prāṇāyāmair eva {<note place="bottom"/>size &lt;2 syllables missing&gt;} praśuṣyanti malā iti |</l>
+<l>keṣāṃ cid ācāryāṇām anya karma na saṃmatam iti ||</l> 
+</lg>
+ </note>
+ <note type="philcomm" target="#hp02_038"> The plural of <hi>prāṇāyāma</hi>, which we have translated here as ‘breath-controls’, probably refers to practising multiple repetitions of breath retentions with alternate nostril breathing. The verb <hi>praśuṣyanti</hi> is well attested and makes good sense in the context of <hi>mala</hi>s. Many witnesses lower on the stemma have <hi>malāśaya</hi> (instead of <hi>malā api</hi> or <hi>malā iti</hi>) but this usually has the more specific meaning of bowels or bladder and so seems inappropriate in a general statement. The witnesses that have <hi>malāśaya</hi> also have the verb <hi>pra+śudh</hi>, which connotes that the place where the impurities accumulate is cleaned (rather than the impurities themselves). </note>
+ <note type="translation" target="#hp02_039"> </note>
+ <note type="sources" target="#hp02_039"> </note>
+ <note type="testimonia" target="#hp02_039"> Haṭharatnāvalī 
+<lg>
+ <l>brahmādayo ’pi tridaśāḥ pavanābhyāsatatparaḥ ||</l>
+<l>abhūvan mṛtyurahitā tasmāt pavanam abhyaset || 3.82 ||</l> 
+</lg>
+ </note>
+ <note type="philcomm" target="#hp02_039"> <hi>ṣaṭkarmayoga</hi> is somewhat strange and this hemistich is omitted in V1. Perhaps, yoga was intended as ‘method’. It seems likely that the second and fourth hemistiches (as found in V1) were original. <hi>samanaska</hi> is strange and difficult to construe (Jim thinks it might refer to death with the mind active as opposed to the preferable situation of dying while in samādhi). However, the verbs <hi>abhuvann</hi> and <hi>amucann</hi> make better sense. The third hemistich may be an attempt to rewrite the pāda to fix the problem of <hi>samanaska</hi>. </note>
+ <note type="translation" target="#hp02_040"> So long as the breath is bound in the body, the mind without support, and one looks at the middle of the brow, where is the fear of death? </note>
+ <note type="sources" target="#hp02_040"> VM 73 
+<lg>
+ <l>yāvad baddho marud dehe tāvac cittaṃ nirāśrayam |</l>
+<l>yāvad dṛṣṭir bhruvor madhye tāvat kālabhayaṃ kutaḥ || 72 ||</l> 
+</lg>
+ </note>
+ <note type="testimonia" target="#hp02_040"> Yogacintāmaṇi 
+<lg>
+ <l>yāvad baddho marud dehe yāvad vṛttau nirāśrayam |</l>
+<l>yāvad dṛṣṭir bhruvor madhye tāvat kālabhayaṃ kutaḥ ||</l> 
+</lg>
+ Yuktabhavadeva 7.8 
+<lg>
+ <l>yāvad baddho maruddehe yāvaccittaṃ nirāmayam |</l>
+<l>yāvaddṛṣṭarbhruvormadhye tāvat kālabhayaṃ kutaḥ ||</l> 
+</lg>
+ </note>
+ <note type="philcomm" target="#hp02_040"> The verb <hi>paśyet</hi> in the third <hi>pāda</hi> is well attested among the manuscripts (V1, J10, etc.). However, it often occurs with <hi>bhruvor madhye</hi>, which is rather odd and suggests that the alternative reading <hi>dṛṣṭir</hi> was original. In fact, <hi>dṛṣṭir</hi> is supported by the manuscripts of the source text, the <hi>Vivekamārtaṇḍa</hi>, and the testimonia. </note>
+ <note type="translation" target="#hp02_041"> When the network of channels has been purified by breath-controls as prescribed, the breath pierces and easily enters the mouth of suṣumṇā. </note>
+ <note type="sources" target="#hp02_041"> </note>
+ <note type="testimonia" target="#hp02_041"> Yogacintāmaṇi 
+<lg>
+ <l>haṭhapradīpikāyām—</l>
+<l>vividhaiḥ prāṇasaṃyāmaiḥ nāḍīcakre viśodhite |</l>
+<l>suṣumnāvadanaṃ bhitvā sukhād viśati mārutaḥ ||</l> 
+</lg>
+ Haṭharatnāvalī 
+<lg>
+ <l>vidhivat prāṇasaṃyāmaiḥ nāḍicakre viśodhite |</l>
+<l>suṣumnāvadanaṃ bhitvā sukhād viśati mārutaḥ || 2.2 ||</l> 
+</lg>
+ </note>
+ <note type="philcomm" target="#hp02_041"> The compound <hi>prāṇasaṃyāmaiḥ</hi> (‘breath-controls’) should be understood here as a synonym for <hi>prāṇāyāmaiḥ</hi> in 2.38 (see the note on this verse). </note>
+ <note type="translation" target="#hp02_042"> When the breath moves in the central channel, stillness of the mind arises. The mind’s becoming very still is the ‘mind beyond mind’ (<hi>manonmanī</hi>) state. </note>
+ <note type="sources" target="#hp02_042"> </note>
+ <note type="testimonia" target="#hp02_042"> Yogacintāmaṇi 
+<lg>
+ <l>mārute madhyasaṃcāre manaḥsthairyaṃ prajāyate |</l>
+<l>yo manaḥsusthirībhāvaḥ saivāvasthā manonmanīti ||</l> 
+</lg>
+ Haṭharatnāvalī 
+<lg>
+ <l>mārute madhyame jāte manaḥsthairyaṃ prajāyate |</l>
+<l>manasaḥ susthirībhāvaḥ saivāvasthā manonmanī || 2.3 ||</l> 
+</lg>
+ </note>
+ <note type="philcomm" target="#hp02_042"> </note>
+ <note type="translation" target="#hp02_043"> In order to achieve that, those who know [their] methods perform various retentions. As a result of the practice of the various different retentions, [the yogi] obtains various different results. </note>
+ <note type="sources" target="#hp02_043"> </note>
+ <note type="testimonia" target="#hp02_043"> YBD 
+<lg>
+ <l>tatsiddhaye vidhānajñāś citrān kurvanti kumbhakān ||</l>
+<l>vicitrakumbhakābhyāsād vicitrāṃ siddhim āpnuyāt || 92 ||</l> 
+</lg>
+ </note>
+ <note type="philcomm" target="#hp02_043"> </note>
+ <note type="translation" target="#hp02_044"> Sūryabhedana, ujjāyī, sītkāra, [etc.] and kevala are the eight kumbhakas. </note>
+ <note type="sources" target="#hp02_044"> </note>
+ <note type="testimonia" target="#hp02_044"> Yogacintāmaṇi 
+<lg>
+ <l>haṭhayoge—</l>
+<l>sūryabhedanam ujjāyī tathā sītkāraśītalī |</l>
+<l>bhastrikā bhramarī mūrcchā sahitaṃ cāṣṭa kumbhakāḥ ||</l> 
+</lg>
+ Haṭharatnāvalī 
+<lg>
+ <l>sūryabhedanam ujjayī tathā sītkāraśītalī |</l>
+<l>bhastrikā bhrāmarī mūrcchā kevalaś cāṣṭakumbhakāḥ || 2.6 ||</l> 
+</lg>
+ </note>
+ <note type="philcomm" target="#hp02_044"> In the fourth <hi>pāda</hi>, the manuscripts of group 2 have <hi>plāvanīty aṣṭa</hi>, which makes good sense in so far as most manuscripts contain a verse on <hi>plāvinīkumbhaka</hi> as one of the kumbhakas. Furthermore, the alternative reading <hi>kevalī/kevalaś</hi>, which is supported by V1, J10, etc., is not consistent with the idea of <hi>kevalakumbhaka</hi> standing outside the category of <hi>sahitakumbhaka</hi>, as stated in 2.72–75. This idea of two types of kumbhaka is found in the source text from which Svātmārāma borrowed four of the kumbhakas, namely, the <hi>Gorakṣaśataka</hi>. Therefore, it seems likely the word <hi>plāvinī</hi> dropped out of some manuscripts. In fact, it may have been removed by some scribes because its heading is omitted in many witnesses. The reading in V19 and the <hi>Yogacintāmaṇi</hi> (<hi>sahitāś cāṣṭa</hi>) was probably an attempt to remove <hi>kevalī/kevalaś</hi> from the list. </note>
+ <note type="translation" target="#hp02_045"> At the end of the inhalation, the lock called Jālandhara should be done. However, at the end of the retention and beginning of the exhalation, uḍḍiyāna should be done. </note>
+ <note type="sources" target="#hp02_045"> Gorakṣaśataka 62ab 
+<lg>
+ <l>pūrakānte tu kartavyo bandho jālandharābhidhaḥ |</l> 
+</lg>
+ Gorakṣaśataka 58ab 
+<lg>
+ <l>kuṃbhakānte recakādau kartavyoḍḍiyaṇābhidhaḥ |</l> 
+</lg>
+ </note>
+ <note type="testimonia" target="#hp02_045"> Yogacintāmaṇī 
+<lg>
+ <l>pūrakānte tu kartavyo bandho jālandharābhidhaḥ |</l>
+<l>kumbhakānte recakādau kartavyas tūḍḍiyānakaḥ ||</l> 
+</lg>
+ Haṭharatnāvalī 2.7 
+<lg>
+ <l>pūrakānte tu kartavyo bandho jālandharābhidhaḥ |</l>
+<l>kumbhakānte recakādau kartavyas tūḍḍiyānakaḥ ||</l> 
+</lg>
+ Yuktabhavadeva 7.94 
+<lg>
+ <l>pūrakānte ca karttavyo bandho jālandharābhidhaḥ |</l>
+<l>kumbhakānte recakādau karttavyas tūḍḍiyānakaḥ || </l> 
+</lg>
+ </note>
+ <note type="philcomm" target="#hp02_045"> </note>
+ <note type="translation" target="#hp02_046"> When the contraction of the throat has been applied, the breath goes into the central channel by quickly contracting below [the abdomen] and stretching back the middle [of the body]. </note>
+ <note type="sources" target="#hp02_046"> Yogabīja ? </note>
+ <note type="testimonia" target="#hp02_046"> Yogacintāmaṇī 
+<lg>
+ <l>adhas tv ākuñcanenāśu kaṇṭhasaṅkocanena ca |</l>
+<l>madhye paścimatānena syāt prāṇo brahmanāḍigaḥ ||</l> 
+</lg>
+ </note>
+ <note type="philcomm" target="#hp02_046"> <hi>madhyapaścimatānena</hi> is possible and well attested. </note>
+ <note type="translation" target="#hp02_047"> Having raised up <hi>apānavāyu</hi>, one should move <hi>prāṇa</hi> down from the throat. The yogi is freed from old age and becomes sixteen years old. </note>
+ <note type="sources" target="#hp02_047"> </note>
+ <note type="testimonia" target="#hp02_047"> Yogacintāmaṇī 
+<lg>
+ <l>apānam ūrdhvam utthāpya prāṇaṃ kaṇṭhād adho nayet |</l>
+<l>yogī jarāvimuktaḥ san vayasā ṣoḍaśo bhavet ||</l> 
+</lg>
+ </note>
+ <note type="philcomm" target="#hp02_047"> </note>
+ <note type="translation" target="#hp02_048"> Now, piercing the sun--- Having adopted vajrāsana on a comfortable mat, the yogi should gradually draw in the external air through the right nostril, </note>
+ <note type="sources" target="#hp02_048"> </note>
+ <note type="testimonia" target="#hp02_048"> Yogacintāmaṇi 
+<lg>
+ <l>āsane sukhade yogī baddhavajrāsanas tataḥ |</l>
+<l>dakṣanāḍyā samākṛṣya bahisthaṃ pavanaṃ śanaiḥ ||</l> 
+</lg>
+ </note>
+ <note type="philcomm" target="#hp02_048"> <hi>āsane sukhade</hi> is supported by the [different but parallel] reading in the Gorakṣa-śataka. </note>
+ <note type="translation" target="#hp02_049"> [The yogi] does <hi>kumbhaka</hi> until the cessation [of the breath] as far as the tips of the hair and nails. The wise yogi should then exhale the breath slowly through the left nostril. </note>
+ <note type="sources" target="#hp02_049"> </note>
+ <note type="testimonia" target="#hp02_049"> Yogacintāmaṇi 
+<lg>
+ <l>ākeśāgraṃ nakhāgraṃ ca śirodhāvadhi kumbhakam |</l>
+<l>tataḥ śanaiḥ savyanāḍyā recayet pavanaṃ sudhīḥ ||</l> 
+</lg>
+ Yuktabhavadeva 7.99 
+<lg>
+ <l>ā keśād ā nakhāgrāc ca nirodhāvadhi kumbhayet |</l>
+<l>tataḥ śanaiḥ savyanāḍyā recayet pavanaṃ sudhīḥ ||</l> 
+</lg>
+ </note>
+ <note type="philcomm" target="#hp02_049"> Refer to Brahmānanda’s commentary for an explanation of <hi>ākeśāgram nakhāgraṃ ca</hi>. It seems that one should hold the breath within the body. If it escapes through the hair follicles or nails then it destroys the body. The ablative with <hi>ā</hi> (<hi>a keśād nakhāgrāc ca</hi>) is also well-attested (group 2 manuscripts), and it would mean the same. Cf. BDhS 4.1.23 
+<lg>
+ <l>āvartayet sadā yuktaḥ prāṇāyāmān punaḥpunaḥ |</l>
+<l>ā keśāntān nakhāgrāc ca tapas tapyata uttamam ||</l> 
+</lg>
+ <hi>nirodhāvadhi</hi> is not entirely clear, but all sources and the <hi>Jyotsnā</hi> agree on this reading. The problem is that to practise <hi>kumbhaka</hi> ``up to cessation <hi>nirodha</hi>’’ seems to suggest that cessation is not of the physical breath (which by definition ceases in <hi>kumbhaka</hi>), but, if this explanation is not too far-reaching, of the <hi>prāṇa</hi> within the body. Perhaps, <hi>nirodhāvadhi</hi> is referring to stopping the flow of <hi>prāṇa</hi> at the extremities of the body so that it does not damage the body by exiting through the hair follicles. This idea is alluded to in the following verse quoted in the <hi>Jyotsnā</hi>: 
+<lg>
+ <l>haṭhān niruddhaḥ prāṇo’yaṃ romakūpeṣu niḥsaret |</l>
+<l>dehaṃ vidārayaty eṣa kuṣṭhādi janayaty api ||</l> 
+</lg>
+ </note>
+ <note type="translation" target="#hp02_050"> This purifies the skull, cures [imbalances] of vātadoṣa [and] gets rid of diseases caused by worms [so] should be done repeatedly. It is called the piercing of the sun. </note>
+ <note type="sources" target="#hp02_050"> Gorakṣaśataka 35ab, 36ab 
+<lg>
+ <l>kapālaśodhane vāpi recayet pavanaṃ sudhīḥ |</l>
+<l>tundasya vātadoṣaghnaḥ kṛmidoṣaṃ nihanti ca ||</l>
+<l>punaḥ punar idaṃ kāryaṃ sūryābhedam udāhṛtam |</l> 
+</lg>
+ </note>
+ <note type="testimonia" target="#hp02_050"> Yogacintāmaṇi 
+<lg>
+ <l>kapālaśodhanaṃ vātadoṣaghnaṃ kṛmidoṣahṛt |</l>
+<l>punaḥ punar idaṃ kuryāt sūryabhedanam uttamam ||</l> 
+</lg>
+ Haṭharatnāvalī 2.11cd–12 
+<lg>
+ <l>kapālaṃ śodhanaṃ cāpi recayet pavanaṃ śanaiḥ ||</l>
+<l>[kapālaśodhanaṃ … kṛmināśanaṃ – N,n1,n4]</l>
+<l>ālasyaṃ vātadoṣaghnaṃ kṛmikīṭaṃ nihanti ca |</l>
+<l>punaḥ punar idaṃ kāryaṃ sūryabhedākhyakumbhakam ||</l> 
+</lg>
+ </note>
+ <note type="philcomm" target="#hp02_050"> The <hi>Gorakṣaśataka</hi> and <hi>Yogacintāmaṇi</hi> support <hi>kṛmidoṣa</hi>. The compound <hi>sūryabheda</hi> is metri causa. The J10 group and V19 have attempted to reinstate the name <hi>sūryabhedana</hi>. </note>
+ <note type="translation" target="#hp02_051"> Having closed the mouth, one should gradually draw in the breath through the nostrils so that it comes into contact with the throat as far as the chest and resonates.</note>
+ <note type="sources" target="#hp02_051"> Gorakṣaśataka 36c–37b 
+<lg>
+ <l>mukhaṃ saṃyamya nāḍībhyāṃ ākṛṣya pavanaṃ śanaiḥ |</l>
+<l>yathā lagati kaṇṭhāt tu hṛdayāvadhi sasvanam || [T kaṇṭhaṃ tu]</l> 
+</lg>
+ </note>
+ <note type="testimonia" target="#hp02_051"> Yogacintāmaṇi 
+<lg>
+ <l>mukhaṃ saṃyamya nāḍībhyām ākṛṣya pavanaṃ punaḥ |</l>
+<l>yathā lagati hṛtkaṇṭhād dhṛdayāvadhi sasvanaḥ ||</l> 
+</lg>
+ Haṭharatnāvalī 
+<lg>
+ <l>mukhaṃ saṃyamya nāḍībhyām ākṛṣya pavanaṃ śanaiḥ | [nāsābhyām J,n1,n4]</l>
+<l>yathā lagati hṛtkaṇṭhaṃ hṛdayāvadhi svasvanaḥ || 2.13 ||</l> 
+</lg>
+ </note>
+ <note type="philcomm" target="#hp02_051"> </note>
+ <note type="translation" target="#hp02_052"> As before, he should hold the breath and then exhale through the <hi>iḍā</hi> channel. It cures diseases caused by phlegm in the throat and increases the body’s fire. </note>
+ <note type="sources" target="#hp02_052"> GŚ 37c–38b 
+<lg>
+ <l>pūrvavat kumbhayet prāṇaṃ recayed iḍayā tataḥ |</l>
+<l>śīrṣotthitānalaharaṃ galaśleṣmaharaṃ paraṃ ||</l> 
+</lg>
+ </note>
+ <note type="testimonia" target="#hp02_052"> Yogacintāmaṇi 
+<lg>
+ <l>pūrvavat kumbhayet prāṇaṃ recayed iḍayā tataḥ |</l>
+<l>śleṣmadoṣaharaṃ kaṇṭhe dehānalavivardhanam ||</l> 
+</lg>
+ Haṭharatnāvalī 
+<lg>
+ <l>pūrvavat kumbhayet prāṇaṃ recayed iḍayā tataḥ |</l>
+<l>gale śleṣmaharaṃ proktaṃ dehānalavivardhanam || 2.14 ||</l> 
+</lg>
+ </note>
+ <note type="philcomm" target="#hp02_052"> In the second hemistich of this verse, many of the readings in the oldest manuscripts, such as <hi>dehād analadīptivardhanam</hi> (V1), <hi>dehānaladīptivivardhanam</hi> (J10) and <hi>dehe [’]naladīptivi vardhanam</hi> (P28), are unlikely to be original because both the source and testimonia indicate that <hi>Ujjāyī</hi> is supposed to remove phlegm from the throat. These versions may have arisen from attempts to remove <hi>kaṇṭhe</hi> in the third <hi>pāda</hi>, which was thought to be hanging. Therefore, it seems that <hi>kaṇṭhe dehānalavardhanam</hi> is the better reading and it is well attested among the manuscripts (including group 2). </note>
+ <note type="translation" target="#hp02_053"> It cures diseases in the bodily constituents inside the network of nāḍīs, The retention called ujjāyī should be done by one moving or stationary. </note>
+ <note type="sources" target="#hp02_053"> Gorakṣaśataka 38 
+<lg>
+ <l>nāḍījalodarādhātugatadoṣavināśanam |</l>
+<l>gacchatas tiṣṭhataḥ kāryam ujjāyyākhyaṃ ca kumbhakam ||</l> 
+</lg>
+ </note>
+ <note type="testimonia" target="#hp02_053"> Yogacintāmaṇi 
+<lg>
+ <l>nāḍījalodaradhātugatadoṣavināśanam |acchatas tiṣṭhataḥ kāryam ujjāyyākhyaṃ ca kumbhakam ||</l> 
+</lg>
+ Haṭharatnāvalī 2.15 
+<lg>
+ <l>nāḍījālodarādhātugatadoṣavināśanam |</l>
+<l><textup>[</textup>nāḍījalodaradhātu- <textup>J,P;</textup> nāḍījalodaraṃ dhātu- <textup>N, n1, n4]</textup></l>
+<l>gacchatā tiṣṭhatā kāryam ujjāyyākhyaṃ hi kumbhakam || </l> 
+</lg>
+ </note>
+ <note type="philcomm" target="#hp02_053"> Nearly all the manuscripts have <hi>nāḍījalodara</hi>, which does not make sense in this context because it connotes that a disease or humoral imbalance (<hi>doṣa</hi>) exists in the disease ascites (<hi>jalodara</hi>). This problem is also present in the transmission of the source text for the verse, the <hi>Gorakṣaśataka</hi>. A solution can be found in some of the manuscripts of the <hi>Haṭharatnāvalī</hi>, which read <hi>nāḍījālodarā°</hi> (‘in the network of channels and stomach’). The other problem is <hi>°darādhātu°</hi>. In spite of Brahmānanda’s efforts to explain it as <hi>°dara</hi>, <hi>ā</hi>, <hi>dhātu°</hi>, the <hi>ā</hi> before <hi>dhātu°</hi> appears to have been inserted for metri causa. We have adopted <hi>nāḍījālodare</hi> (‘inside the network of channels’), which we understand to have been changed in the transmission to <hi>°jalodara</hi>, through confusion with the disease of a similar name. For the compound <hi>dhātudoṣa</hi> see <hi>Tantrāloka</hi> 28.283cd, where worldly concepts are said to arise from it (<hi>dhātudoṣāc ca saṃsārasaṃskārās te ...</hi>), but it is also the source of physical disorders (<hi>dhātudoṣakṛtaṃ mūrcchā</hi> ĪPV on 2.15). Diwakar Acharya suggests that the name <hi>ujjāyī</hi> may be a Prakrit form from <hi>uddhmāyī</hi> from the verb <hi>ud-dhmā</hi>, “to blow out”. </note>
+ <note type="translation" target="#hp02_054"> Now śītkāra--- He should constantly produce a <hi>śīt</hi> sound in the mouth and a flaring of the nostrils. By practising thus, one becomes a second god of love. </note>
+ <note type="sources" target="#hp02_054"> Cf. Kaulajñānanirṇaya ?? 
+<lg>
+ <l>cittan dadyāt tu vaktreṇa nāse dadyād vijṛmbhikā[m] ||</l>
+<l>vācāsiddhir bhavaty evaṅ kāmadevo ’paraḥ priyaḥ |</l> 
+</lg>
+ Cf. BHU Ms. of the Jñānasāra 
+<lg>
+ <l>hikkā dadyāt sadā vaktre prāyaś caiva vijṛmbhikām ||</l>
+<l>evamabhyasyamānas tu kāmadevo dvitīyakaḥ |</l> 
+</lg>
+ Prāṇatoṣiṇī (citing the Jñānasāra) 
+<lg>
+ <l>hikkāṃ dadyāt sadā vaktre ghrāṇañ caiva vijṛmbhate |</l>
+<l>evam abhyāsayogena kāmadevo dvitīyakaḥ |</l> 
+</lg>
+ </note>
+ <note type="testimonia" target="#hp02_054"> Yogacintāmaṇi 
+<lg>
+ <l>sītkāṃ kuryāt tathā vaktre ghrāṇenaiva visarjayet |</l>
+<l>evam abhyāsayogena kāmadevo dvitīyakaḥ ||</l> 
+</lg>
+ Haṭharatnāvalī 2.16 
+<lg>
+ <l>sītkāṃ kuryāt tathā vaktre ghrāṇenaiva visarjayet |</l>
+<l>evam abhyāsayogena kāmadevo dvitīyakaḥ || 2.16 ||</l> 
+</lg>
+ </note>
+ <note type="philcomm" target="#hp02_054"> The source texts and V1 have <hi>dadyāt</hi> in the first <hi>pāda</hi>, which seems to be the lectio difficilior. Many of the old manuscripts have <hi>kumbhaṃ</hi> instead of <hi>sītkāṃ</hi>. The latter reading is supported by some manuscripts of the <hi>Haṭhapradīpikā</hi>, the testimonia and the name of the <hi>kumbhaka</hi>, which is stated in 2.44 and the heading of this verse. Various readings for first <hi>pāda</hi> are also seen in the source texts, namely the <hi>Kaulajñānanirṇaya</hi> and <hi>Jñānasāra</hi>.There is also a discrepancy over <hi>śīt</hi> and <hi>sīt</hi>. The result of becoming a second god of love may be connected with the sound <hi>sītkāra</hi>, which is one of the sounds made during sex in <hi>Kāmaśāstra</hi> (ref?). </note>
+ <note type="translation" target="#hp02_055"> Having become one among the circle of yoginis, he can bring about creation and destruction. Neither hunger nor thirst [nor] sleep nor indolence arise. </note>
+ <note type="sources" target="#hp02_055"> Cf. Kaulajñānanirṇaya 7.18ab 
+<lg>
+ <l>yoginīgaṇasāmānyā sṛṣṭisaṃhārakārakaḥ |</l> 
+</lg>
+ Jñānasāra 13cd–14ab 
+<lg>
+ <l>yoginīguṇasāmānyaḥ sṛṣṭisaṃhārakārakaḥ || 13 ||</l>
+<l>na kṣudhā na ca tṛṇnidrā naiva murchā prajāyate |</l> 
+</lg>
+ </note>
+ <note type="testimonia" target="#hp02_055"> Yogacintāmaṇi 
+<lg>
+ <l>yoginīcakrasaṃsevyaḥ sṛṣṭisaṃhārakārakaḥ |</l>
+<l>na kṣudhā na tṛṣṇā nidrā tandrālasyaṃ na jāyate ||</l> 
+</lg>
+ Haṭharatnāvalī 2.17 
+<lg>
+ <l>yoginīcakrasaṃsevyaḥ sṛṣṭisaṃhārakārakaḥ |</l>
+<l>na kṣudhā na tṛṣā nidrā naivālasyaṃ prajāyate || 2.17 ||</l> 
+</lg>
+ Yuktabhavadeva 
+<lg>
+ <l>yoginīcakrasāmānyaḥ sṛṣṭisthityantakārakaḥ ||</l>
+<l>na kṣudhā na tṛṣā nidrā nālasya ca prajāyate || 105 ||</l> 
+</lg>
+ </note>
+ <note type="philcomm" target="#hp02_055"> There are various possible readings for the first <hi>pāda</hi>, namely, <hi>yoginīcakrasāmānyaḥ</hi> (‘one who is one among the circle of yoginīs’), <hi>yoginīcakram āsādya</hi> (‘having reached the circle of yoginis’) and <hi>yoginīcakrasaṃsevyaḥ</hi> (‘one worshipped by the circle of yoginis’). The first of these is closer to the source texts and is a cliche in Kaula literature. </note>
+ <note type="translation" target="#hp02_056"> His body is as he wishes, and he is free from all afflictions. By this method, he truly becomes the lord of yogis in the region of the earth. </note>
+ <note type="sources" target="#hp02_056"> Jñānasāra 
+<lg>
+ <l>bhavet svacchandadehas tu sarvopadravavarjitaḥ</l> 
+</lg>
+ </note>
+ <note type="testimonia" target="#hp02_056"> Yogacintāmaṇi 
+<lg>
+ <l>bhavet svachandadehas tu sarvopadravavarjitaḥ |</l>
+<l>anena vidhinā yas tu yogīndro bhūmimaṇḍale ||</l> 
+</lg>
+ Haṭharatnāvalī 
+<lg>
+ <l>bhavet svacchandadehas tu sarvopadravavarjitaḥ |</l>
+<l>anena vidhinā satyaṃ yogīndro bhāti bhūtale || 2.18 ||</l> 
+</lg>
+ </note>
+ <note type="philcomm" target="#hp02_056"> The aiśa compound <hi>bhuvimaṇḍale</hi>, which is attested at <hi>Mañjuśrīmūlakalpa</hi> 45.221, is likely the original reading here. The word <hi>bhuvi</hi> as the first member of a compound is attested elsewhere. The alternative <hi>bhumi</hi> is well-attested and so the change may have happened early in the transmission. </note>
+ <note type="translation" target="#hp02_056_1"> One who always takes in the breath through the aperture at the roots of the tongue, undoubtedly becomes a receptacle of all <hi>siddhi</hi>s. </note>
+ <note type="philcomm" target="#hp02_056_1"> This verse appears to be a derivative of 2.57, and was not original to the text. Cf. <hi>Siddhāntamuktāvalī</hi> 
+<lg>
+ <l>jihvāmūlena randhreṇa yaḥ prāṇaṃ satataṃ pibet |</l>
+<l>sa bhavet sarvasiddhānāṃ bhājanaṃ nātra saṃśayaḥ || 46 ||</l> 
+</lg>
+ </note>
+ <note type="translation" target="#hp02_057"> It has also been taught: He who regularly takes in the breath through the root of the tongue and palate, has all his diseases cured in half a year. </note>
+ <note type="sources" target="#hp02_057"> Vivekamārtaṇḍa 120 
+<lg>
+ <l>rasanātālumūlena yaḥ prāṇam anilaṃ pibet |</l>
+<l>abdārdhena bhavet tasya sarvarogaparikṣayaḥ ||</l> 
+</lg>
+ Śivasaṃhitā 3.80 
+<lg>
+ <l>rasanāṃ tālumūle yaḥ sthāpayitvā vipaścitaḥ | </l>
+<l>pibet prāṇānilaṃ tasya rogāṇāṃ saṃkṣayo bhavet ||</l> 
+</lg>
+ </note>
+ <note type="testimonia" target="#hp02_057"> Yogacintāmaṇi 
+<lg>
+ <l>rasanātāluyogena yaḥ prāṇaṃ satataṃ pibet |</l>
+<l>abdārdhena bhavet tasya sarvarogaparikṣayaḥ ||</l> 
+</lg>
+ Ānandakanda 1.20.137 
+<lg>
+ <l>jihvayā tālumūlena prāṇaṃ yaḥ pibati priye |</l>
+<l>tasya ṣaṇmāsataḥ sarve rogā naśyanti yoginaḥ || </l> 
+</lg>
+ </note>
+ <note type="philcomm" target="#hp02_057"> Verse 2.57 seems to be describing an alternative method of <hi>śītkārakumbhaka</hi>. It could have been included by Svātmārāma. The introductory phrase <hi>uktaṃ ca</hi> suggests that the teaching in this verse is consistent with what preceded it, but one would expect that it is another view (<hi>matāntare</hi>). The compound <hi>rasanātālumūlena</hi> is difficult to understand. In his <hi>Haṭhasaṅketacandrikā</hi> (ref??), Sundaradeva seems to think that the external air strikes (which might thus make the sound <hi>śīt</hi>) the root of the tongue and palate and the upper part of the uvula (<hi>atra mūhū (muhu?) rasanātālumūlāhataṃ ghaṃṭikordhvabhāgāhataṃ bahiḥsthavāyuṃ vidhāya pibed ity arthaḥ</hi>). More helpful are the remarks of the commentator of the <hi>Yogataraṅgiṇī</hi>. He seems to think that a hole or cavity (<hi>vivara</hi>) is made by the root of the palate with the help of the tongue, and the yogi breathes through it (<hi>evaṃ rasanātālumūlena rasanā jihvā tatsahāyabhūtatālumūlena kṛtaṃ yad vivaraṃ, tena kṛtvā yaḥ yogī prāṇam anilaṃ prāṇavāyuṃ pibet pūrayet, tasya yogino’bdārdhena ṣaṇmāsena sarvarogāṇāṃ nāśaḥ kṣayo bhavet</hi> || 39 |). This idea might have been intended with the parallel reading of the <hi>Yogacintāmaṇi</hi>: <hi>rasanātāluyogena</hi> (‘by connecting the tongue and palate’). So, we have translated <hi>rasanātālumūlena</hi> as ‘through the tongue and root of the palate’. It’s a vague way of saying that the tongue is turned back to touch the root of the palate to make a hole that one breathes through (when the breath is taken in through the mouth). The <hi>Kumbhakapaddhati</hi> (137) states this more clearly: 
+<lg>
+ <l>rasanām unmukhīkṛtya sītkāraṃ kurvatā marut |</l>
+<l>pīyante kumbhake yasmin nāsikābhyāṃ virecanam || [pīyate?]</l> 
+</lg>
+ And this idea is also expressed clearly in <hi>Śivasaṃhitā</hi> 3.80: 
+<lg>
+ <l>rasanāṃ tālumūle yaḥ sthāpayitvā vipaścitaḥ |</l>
+<l>pibet prāṇānilaṃ tasya rogāṇāṃ saṃkṣayo bhavet ||</l> 
+</lg>
+ The verse may derive from <hi>Kauljñānanirṇaya</hi> 6.19, which has <hi>rasanā[ṃ] tālumūle tu kṛtvā vāyuṃ pibet…</hi>. </note>
+ <note type="translation" target="#hp02_058"> Having drawn in the air through the tongue, the method of retention [is done] as before. The wise yogi gradually exhales through the nostrils. </note>
+ <note type="sources" target="#hp02_058"> Gorakṣaśataka 
+<lg>
+ <l>jihvayā vāyum ākṛṣya pūrvavat kuṃbhakād anu |</l>
+<l>śanais tu ghrāṇarandhrābhyāṃ recayed anilaṃ sudhīḥ ||</l> 
+</lg>
+ </note>
+ <note type="testimonia" target="#hp02_058"> Cf. Ānandakanda 
+<lg>
+ <l>kākacañcuvad āsyaṃ ca kṛtvā vāyuṃ sasūtkṛtam |</l>
+<l>ādāya nāsārandhreṇa punastaṃ śvasanaṃ tyajet ||</l>
+<l>śītalīkaraṇākhyo ’yaṃ yogas tu jvarapittahṛt |</l> 
+</lg>
+ </note>
+ <note type="philcomm" target="#hp02_058"> </note>
+ <note type="translation" target="#hp02_059"> Diseases such as swelling, enlargement of the spleen and the like, and fever, [excess] bile, hunger and thirst; this retention called śītalī cures them. </note>
+ <note type="sources" target="#hp02_059"> GŚ 
+<lg>
+ <l>gulmaplīhādikā doṣāḥ kṣayaṃ yānti pittaṃ jvaraṃ |</l>
+<l>viṣāṇi śītalī nāma kuṃbhako ’yaṃ nihanti ca</l> 
+</lg>
+ </note>
+ <note type="testimonia" target="#hp02_059"> Yogacintāmaṇi 
+<lg>
+ <l>gulmaplīhodaraṃ cāpi vātapittaṃ kṣudhāṃ tṛṣām |</l>
+<l>viṣāṇi śītalī nāma kumbhako vinihanti ca ||</l> 
+</lg>
+ Haṭharatnāvalī 
+<lg>
+ <l>gulmaplīhodaraṃ doṣaṃ jvarapittakṣudhātṛṣāḥ |</l>
+<l>viṣāṇi śītalī nāma kumbhako ’yaṃ nihanti ca || 2.20 ||</l> 
+</lg>
+ </note>
+ <note type="philcomm" target="#hp02_059"> </note>
+ <note type="translation" target="#hp02_060"> Now, bhastrikā--- If [the yogi] places the soles of both feet on the thighs, the lotus pose, which destroys all bad deeds, duly arises. </note>
+ <note type="sources" target="#hp02_060"> Gorakṣaśataka 
+<lg>
+ <l>ūrvor upari ced dhatte ubhe pādatale tathā |</l>
+<l>padmāsanaṃ bhavet samyak sarvapāpapraṇāśanam || 14 ||</l> 
+</lg>
+ </note>
+ <note type="testimonia" target="#hp02_060"> Yogacintāmaṇi 
+<lg>
+ <l>bhastrikā—</l>
+<l>ūrvor upari saṃsthāpya ubhe pādatale tathā ||</l>
+<l>padmāsanaṃ bhavet samyak sarvapāpapraṇāśanam ||</l> 
+</lg>
+ Haṭharatnāvalī 
+<lg>
+ <l>atha bhastrikā---</l>
+<l>recakaḥ pūrakaś caiva kumbhakaḥ praṇavātmakaḥ |</l>
+<l>recako ’jasraniḥśvāsaḥ pūrakas tannirodhakaḥ |</l>
+<l>samānasaṃsthito yo ’sau kumbhakaḥ parikīrtitaḥ || 2.21 ||</l> 
+</lg>
+ Yuktabhavadeva 
+<lg>
+ <l>atha bhastrikā---</l>
+<l>ūrvor upari cādhatte ubhe pādatale tathā ||</l>
+<l>padmāsanaṃ bhavet samyak sarvapāpapraṇaśanam || 110 ||</l> 
+</lg>
+ </note>
+ <note type="philcomm" target="#hp02_060"> The source text, the <hi>Gorakṣaśataka</hi>, has <hi>ced</hi> in the first pāda, and this has been dropped in nearly all of the available manuscripts of the <hi>Haṭhapradīpikā</hi>, as well as the testimonia. It seems likely that <hi>ced dhatte</hi> was the reading reading adopted by Svatmārāma because the <hi>cet</hi> makes sense of the two finite verbs in the description. The first finite verb <hi>dhatte</hi> is also supported by some of the old manuscripts, such as V1 and J10. At some stage, the verse was changed to read <hi>saṃsthāpya</hi> to remove the awkward syntax posed by <hi>saṃdhatte</hi> and <hi>vai dhatte</hi>. </note>
+ <note type="translation" target="#hp02_061"> Having adopted lotus pose correctly, the wise yogi whose neck and abdomen are straight should close the mouth and exhale the breath through the nose effortfully. </note>
+ <note type="sources" target="#hp02_061"> Gorakṣaśataka 41 
+<lg>
+ <l>tataḥ padmāsanaṃ baddhvā samagrīvodaraḥ sudhīḥ |</l>
+<l>mukhaṃ saṃyamya yatnena prāṇaṃ ghrāṇena recayet |</l> 
+</lg>
+ </note>
+ <note type="testimonia" target="#hp02_061"> Yogacintāmaṇi 
+<lg>
+ <l>samyak padmāsanaṃ badhvā samagrīvodaraḥ sudhīḥ |</l>
+<l>mukhaṃ saṃyamya yatnena prāṇaṃ ghrāṇena recayet ||</l> 
+</lg>
+ Yuktabhavadeva 
+<lg>
+ <l>samyak padmāsanaṃ baddhvā samagrīvodaraḥ śanaiḥ ||</l>
+<l>mukhaṃ saṃyamya yatnena prāṇaṃ ghrāṇena recayet || 111 ||</l> 
+</lg>
+ </note>
+ <note type="philcomm" target="#hp02_061"> </note>
+ <note type="translation" target="#hp02_062"> In such a way that [the breath] comes into contact with the chest and throat, and there is then a sound in the skull, he should quickly inhale a small amount of the breath as far as the heart lotus. </note>
+ <note type="sources" target="#hp02_062"> Gorakṣaśataka 43 
+<lg>
+ <l>yathā lagati kaṇṭhāt tu kapāle sasvanaṃ tataḥ</l>
+<l>vegena pūrayet kiṃ cit hṛtpadmāvadhi mārutam</l> 
+</lg>
+ </note>
+ <note type="testimonia" target="#hp02_062"> Yogacintāmaṇi 
+<lg>
+ <l>yathā lagati hṛtkaṇṭhe kapālāvadhi pūrayet |</l>
+<l>vegena pūrayet samyag hṛtpadmāvadhi mārutam ||</l> 
+</lg>
+ Yuktabhavadeva 
+<lg>
+ <l>yathā lagati hṛtkaṇṭhakapāleṣu ca sasvanam ||</l>
+<l>vegena pūrayet kiñcit hṛtpadmāvadhi mārutam || 112 ||</l> 
+</lg>
+ </note>
+ <note type="philcomm" target="#hp02_062"> First hemistich is tricky. None of the old mss preserve <hi>sasvanaṃ</hi>, which is in the GŚ and makes good sense. All witnesses have <hi>hṛtkaṇṭhe</hi>, which we have understand as a dual accusative. One would expect <hi>kapāla</hi> to also be in the accusative, but we have understood it as a locative sg. with <hi>sasvana</hi>. </note>
+ <note type="translation" target="#hp02_063"> Then, the yogi should exhale and inhale again and again. In the very same way as blacksmiths’ bellows are operated forcefully, [...] </note>
+ <note type="sources" target="#hp02_063"> Gorakṣaśataka 44 
+<lg>
+ <l>punar virecayet tadvat pūrayec ca punaḥ punaḥ |</l>
+<l>yathaiva lohakārāṇāṃ bhastrā vegena cālyate ||</l> 
+</lg>
+ </note>
+ <note type="testimonia" target="#hp02_063"> Yogacintāmaṇi 
+<lg>
+ <l>punar virecayet tadvat pūrayitvā punaḥ punaḥ |</l>
+<l>yathaiva lohakārāṇāṃ bhastrā vegena cālyate |</l> 
+</lg>
+ Haṭharatnāvalī 
+<lg>
+ <l>yathaiva lohakārāṇāṃ bhastrī vegena cālyate |</l> 
+</lg>
+ YBD 
+<lg>
+ <l>punar virecayet tadvat pūrayec ca punaḥ punaḥ ||</l>
+<l>yathaiva lohakārāṇāṃ bhastrā vegena cālyate || 113 ||</l> 
+</lg>
+ </note>
+ <note type="philcomm" target="#hp02_063"> V1 reading of <hi>lohakāreṇa</hi> fits well with the passive verb, but it is the only witness to have this, and appears to be an attempt to improve what was probably the original reading <hi>lohakārāṇāṃ</hi> (as attested by the group 2 manuscripts, the source and testimonia). </note>
+ <note type="translation" target="#hp02_064"> [...] the wise [yogi] should move the breath in the body. When fatigue arises in the body, he should inhale by way of the sun </note>
+ <note type="sources" target="#hp02_064"> Gorakṣaśataka 45 
+<lg>
+ <l>tathaiva svaśarīrasthaṃ cālayet pavanaṃ sudhīḥ |</l>
+<l>yadā śramo bhaved dehe tadā sūryeṇa pūrayet |</l> 
+</lg>
+ </note>
+ <note type="testimonia" target="#hp02_064"> Yogacintāmaṇi 
+<lg>
+ <l>tathaiva svaśarīrasthaś cālyate pavano dhiyā |</l>
+<l>yathā śramo bhaved dehe tathā vegena pūrayet |</l> 
+</lg>
+ Haṭharatnāvalī 
+<lg>
+ <l>tathaiva svaśarīrasthaṃ cālayet pavanaṃ sudhīḥ || 2.22 ||</l>
+<l>yathā śramo bhaved dehe tathā sūryeṇa pūrayet |</l> 
+</lg>
+ YBD 
+<lg>
+ <l>tathaiva svaśarīrasthaṃ cālayet pavanaṃ dhiyā ||</l>
+<l>yadā śramo bhaved dehe tadā sūryeṇa recayet || 114 ||</l> 
+</lg>
+ </note>
+ <note type="philcomm" target="#hp02_064"> Most of the manuscripts support <hi>dhiyā</hi> but the manuscripts of the source text and the testimonia support <hi>sudhīḥ</hi>. Since the subject of the simile is <hi>bhastrā</hi>, one would expect the subject of <hi>cālayet</hi>, which must be different, to be stated (as is the case with <hi>sudhīḥ</hi>). Also, one would expect the instrumental of <hi>dhī</hi> to be qualified by some adjective, such as in the case of <hi>sattvāsthayā dhiyā</hi> (Gorakṣaśataka 74b) and <hi>sāttvikayā dhiyā</hi> (Haṭhapradīpikā 2.6b). </note>
+ <note type="translation" target="#hp02_065"> in such a way that the abdomen is filled quickly by the breath and hold the nose firmly without using the middle and index fingers. </note>
+ <note type="sources" target="#hp02_065"> Gorakṣaśataka 45cd–46ab 
+<lg>
+ <l>yathodaraṃ bhavet pūrṇaṃ pavanena tathā laghu |</l>
+<l>dhārayan nāsikā madhyaṃ tarjanībhyāṃ vinā dṛḍhaṃ |</l> 
+</lg>
+ </note>
+ <note type="testimonia" target="#hp02_065"> Yogacintāmaṇi 
+<lg>
+ <l>yathodaraṃ bhavet pūrṇaṃ pavanena tathā laghu |</l>
+<l>dhārayen nāsikāṃ madhyatarjanībhyāṃ vinā dṛḍham ||</l> 
+</lg>
+ Haṭharatnāvalī 
+<lg>
+ <l>yathodaraṃ bhavet pūrṇaṃ pavanena tathā laghu || 2.23 ||</l>
+<l>dhārayen nāsikāṃ madhyātarjanībhyāṃ vinā dṛḍham | </l> 
+</lg>
+ </note>
+ <note type="philcomm" target="#hp02_065"> Only two witnesses have <hi>madhyātarjanībhyāṃ</hi> and it is not well attested by the manuscripts of the source text and testimonia. To hold the nose without the middle and index fingers is consistent with the way alternate nostril breathing is done in modern yoga (ref??). However, the reading of many manuscripts suggests that the nose was held with only the index fingers of both hands (<hi>nāsikāmadhye … tathā</hi>) or that the nose was held with all the fingers of both hands, except the index fingers (<hi>nāsikāmadhye … vinā</hi>), which seems highly impracticable. It is likely that scribes changed <hi>madhyātarjanībhyāṃ</hi> to <hi>madhye tarjanībhyāṃ</hi> or <hi>madhyaṃ tarjanībhyāṃ</hi> because of the <hi>pāda</hi> break. </note>
+ <note type="translation" target="#hp02_066"> Having done the retention as before, the yogi should exhale through the left channel. [Because] it removes [imbalances] in wind, bile and phlegm, increases the body’s fire, </note>
+ <note type="sources" target="#hp02_066"> Gorakṣaśataka 
+<lg>
+ <l>kumbhakaṃ pūrvavat kṛtvā recayed iḍayānilam</l>
+<l>kaṇṭhotthitānalaharaṃ śarīrāgnivivardhanam</l> 
+</lg>
+ </note>
+ <note type="testimonia" target="#hp02_066"> Yogacintāmaṇi 
+<lg>
+ <l>kumbhakaṃ pūrvavat kṛtvā recayed iḍayā tataḥ |</l>
+<l>vātapittaśleṣmaharaṃ śarīrāgnivivardhanam ||</l> 
+</lg>
+ Haṭharatnāvalī 
+<lg>
+ <l>kumbhakaṃ pūrvavat kṛtvā recayed iḍayānilam || 2.24 |</l>
+<l>vātapittaśleṣmaharaṃ śarīrāgnivivardhanam |</l> 
+</lg>
+ </note>
+ <note type="philcomm" target="#hp02_066"> </note>
+ <note type="translation" target="#hp02_067"> is an auspicious thunderbolt that awakens kuṇḍalinī, destroys bad deeds, bestows happiness, and destroys the blockage of phlegm, etc., situated at the mouth of the central channel, </note>
+ <note type="sources" target="#hp02_067"> Gorakṣaśataka 
+<lg>
+ <l>kuṇḍalībodhakaṃ vajraṃ pāpaghnaṃ śubhadaṃ sukham |</l>
+<l>brahmanāḍīmukhāntaḥsthakaphādyargalanāśanam ||</l> 
+</lg>
+ </note>
+ <note type="testimonia" target="#hp02_067"> Yogacintāmaṇi 
+<lg>
+ <l>kuṇḍalībodhanaṃ kuryāt pāpaghnaṃ sukhadaṃ śubham |</l>
+<l>brahmanāḍīmukhe saṃsthaṃ kapāṭārgalanāśanam ||</l> 
+</lg>
+ Haṭharatnāvalī 
+<lg>
+ <l>brahmanāḍīmukhe saṃsthakaphādyargalanāśanam |</l> 
+</lg>
+ Yuktabhavadeva 
+<lg>
+ <l>kuṇḍalībodhanaṃ sarvadoṣaghnaṃ sukhadaṃ śubham ||</l>
+<l>brahmanāḍīmukhāntasthakaphādyargalanāśanam || 117 ||</l> 
+</lg>
+ </note>
+ <note type="philcomm" target="#hp02_067"> The word <hi>vipra</hi> in V1 seems to be a mistake for <hi>vajraṃ</hi> in the <hi>Gorakṣaśataka</hi>. Maybe comment on <hi>pāpaghnaṃ</hi> and <hi>bhavaghnaṃ</hi> The J10 group has rewritten this verse in the masc sg. with <hi>kumbhaḥ</hi>. And this is possible without the <hi>viśeṣeṇaiva [...] kumbhakaṃ tv idaṃ</hi> line. However, it seems that the <hi>viśeṣeṇaiva</hi> line has dropped out because it is in the Gorakṣaśataka. Therefore, the neuter was probably original. </note>
+ <note type="translation" target="#hp02_068"> [and] completely pierces the three knots that have arisen from the three <hi>guṇa</hi>s, this retention called ‘the bellows’ in particular is to be done. </note>
+ <note type="sources" target="#hp02_068"> Gorakṣaśataka 
+<lg>
+ <l>guṇatrayasamudbhūtagranthitrayavibhedakam || 48 ||</l>
+<l>viśeṣeṇaiva kartavyaṃ bhastrākhyaṃ kuṃbhakaṃ tv idaṃ</l> 
+</lg>
+ </note>
+ <note type="testimonia" target="#hp02_068"> Yogacintāmaṇi 
+<lg>
+ <l>samyaggātrasamudbhūtagranthitrayavibhedanam |</l>
+<l>viśeṣeṇaiva kartavyaṃ bhastrākhyaṃ kumbhakaṃ tv idam ||</l> 
+</lg>
+ Haṭharatnāvalī 
+<lg>
+ <l>viśeṣenaiva kartavyaṃ bhastrākhyaṃ kumbhakaṃ tv idam || 2.25 ||</l> 
+</lg>
+ YBhD 
+<lg>
+ <l>samyaggātrasamudbhūtagranthitrayavibhedanam ||</l>
+<l>viśeṣeṇaiva karttavyaṃ bhastrākhyaṃ kumbhakaṃ tv idam || 118 ||</l> 
+</lg>
+ </note>
+ <note type="philcomm" target="#hp02_068"> </note>
+ <note type="translation" target="#hp02_069"> Now Bhrāmarī--- The inhalation has a forceful noise and the sound of a male bee, and the exhalation has the sound of the female bee and is very slow. For the best yogis, as a result of practising thus, there arises in the mind an extraordinary blissful playfulness. </note>
+ <note type="testimonia" target="#hp02_069"> Yogacintāmaṇi 
+<lg>
+ <l>bhramarī—</l>
+<l>vegodghoṣaṃ pūrakaṃ bhṛṅganādaṃ </l>
+<l>bhṛṅgīnādaṃ recakaṃ mandamandam |</l>
+<l>yogīndrāṇāṃ nityam abhyāsayogāc </l>
+<l>citte jātā kācid ānandalīlā ||</l> 
+</lg>
+ Haṭharatnāvalī 
+<lg>
+ <l>atha bhrāmarī---</l>
+<l>vegodghoṣaṃ pūrakaṃ bhṛṅganādaṃ </l>
+<l>bhṛṅgīnādaṃ recakaṃ mandamandam |</l>
+<l>yogīndrāṇāṃ nityam abhyāsayogāc </l>
+<l>citte jātā kā cid ānandalīlā || 2.26 ||</l> 
+</lg>
+ YBD 
+<lg>
+ <l>atha bhrāmarī---</l>
+<l>vegodghoṣaṃ pūrakaṃ bhṛṃganādaṃ </l>
+<l>recakaṃ mandamandam ||</l>
+<l>yogīndrāṇāmevamabhyāsayogāc</l>
+<l>citte jātā kācidānandalīlā || 119</l> 
+</lg>
+ YPr. 
+<lg>
+ bhrāmarīkumbhakaṃ lakṣayatyatheti || vegena sañjāta udghoṣo yasmin pūrake taṃ bhṛṃganādatulyaṃ 
+</lg>
+ HSC 
+<lg>
+ <l>vegākṛṣṭiṃ pūrakaṃ bhṛṃganādaṃ </l>
+<l>bhaṃgānādaṃ recakaṃ maṃdaṃ maṃdaṃ ||</l>
+<l>yogīdrāṇām evam abhyāsayogac </l>
+<l>cite jātā kā cid ānaṃdamūrchā ||</l>
+<l>vegodghoṣam iti vā pāṭhaḥ ||</l> 
+</lg>
+ Kumbhakapaddhati 
+<lg>
+ <l>aliśabdayutaṃ vegāt pūrayet kumbhayet tataḥ |</l>
+<l>sāliśabdāc chanai rekāt bhrāmarīkumbhako muneḥ ||</l>
+<l>ānandalīlāṃ kurute bhrāmarīkumbhako muneḥ || 169 ||</l> 
+</lg>
+ Gheraṇḍasaṃhitā 7.10--11 
+<lg>
+ <l>anilaṃ mandavegena bhrāmarīkumbhakaṃ caret |</l>
+<l>mandaṃ mandaṃ recayed vāyuṃ bhṛṅganādaṃ tato bhavet || 7.10 ||</l>
+<l>antaḥsthaṃ bhramarīnādaṃ śrutvā tatra mano nayet |</l>
+<l>samādhir jāyate tatra ānandaḥ so ’ham ity ataḥ || 7.11 ||</l> 
+</lg>
+ </note>
+ <note type="philcomm" target="#hp02_069"> The first hemistich needs a verb because <hi>recaka</hi> and <hi>pūraka</hi> are in the accusative and it is difficult to construe without one. </note>
+ <note type="translation" target="#hp02_070"> Now mūrcchā--- Having deeply applied Jālandhara at the end of the inhalation, [the yogi] should exhale slowly. This [kumbhaka] called mūrcchā gives the bliss of the fainting mind. </note>
+ <note type="sources" target="#hp02_070"> Yogacintāmaṇi ​​ 
+<lg>
+ <l>mūrchā—</l>
+<l>pūrakānte gāḍhataraṃ bandho jālandharaḥ śanaiḥ |</l>
+<l>recayen mūrchanākhyo ’yaṃ manomūrchā sukhapradā ||</l> 
+</lg>
+ Haṭharatnāvalī 
+<lg>
+ <l>atha mūrcchā---</l>
+<l>pūrakānte gāḍhataraṃ baddhva jālandharaṃ śanaiḥ |</l>
+<l>recayen mūrcchanākhyo ’yaṃ manomūrcchā sukhapradā || 2.27 ||</l> 
+</lg>
+ YBD 
+<lg>
+ <l>atha mūrcchā---</l>
+<l>pūrakānte gāḍhataraṃ baddhvā jālandharaṃ śanaiḥ ||</l>
+<l>recayen mūrcchanākhyeyaṃ manomūrcchā sukhapradā || 120 ||</l> 
+</lg>
+ Kumbhakapaddhati 
+<lg>
+ <l>āpūrya kumbhitaṃ prāṇaṃ badhvā jālandharaṃ śanaiḥ |</l>
+<l>recayen mūrcchanākumbho manomūrcchā sukhapradā || 170 ||</l> 
+</lg>
+ </note>
+ <note type="philcomm" target="#hp02_070"> The kumbhaka (retention) is not apparent in the description. </note>
+ <note type="translation" target="#hp02_071"> Now Plāvinī--- [The yogi] whose abdomen is completely filled by the breath of eructation, which has been internally inverted, floats easily like a lotus leaf even on deep water. </note>
+ <note type="testimonia" target="#hp02_071"> {[Not in Yogacintāmaṇi, Haṭharatnāvalī]} Cf. Kumbhakapaddhati 171 
+<lg>
+ <l>yatheṣṭaṃ pūrayed vāyuṃ baddhe jālandhare dṛḍhe |</l>
+<l>hṛdi dhṛtvā jale suptvā plāvinīkumbhako bhavet || 171 ||</l> 
+</lg>
+ YBD 
+<lg>
+ <l>antaḥpravarttitādhāramārutāpūritodaraḥ ||</l>
+<l>payasy agādhe ’pi sukhāt plavate padmapatravat ||</l>
+<l>ayameva plāvinī kumbhako’pi || 121 ||</l> 
+</lg>
+ Yogaprakāśikā 
+<lg>
+ <l>plāvanīkumbhakaṃ lakṣayati antariti ||</l>
+<l>antaḥsañcāritenāpānavāyunā pūritamudaraṃ yasyeti vigrahaḥ ||</l> 
+</lg>
+ </note>
+ <note type="philcomm" target="#hp02_071"> We have understood <hi>udgāramāruta</hi> to refer to the breath of eructation, i.e. the nāga breath as described in e.g. <hi>Vivekamārtaṇḍa</hi> 36. We have adopted <hi>payasy agādhe pi sukham</hi> in pāda c because <hi>sukham</hi> gives a better meaning and it is a bha-vipulā V19 and P28, Yogacintāmaṇi and the Haṭharatnāvalī omit this verse and accordingly do not mention plāvinī in verse 44, substituting it with kevala. </note>
+ <note type="translation" target="#hp02_072"> Now kevalakumbhaka--- Prāṇāyāma is said to be threefold, with exhalation, inhalation, and retention. Retention is considered twofold: sahita and kevala. </note>
+ <note type="sources" target="#hp02_072"> GŚ 
+<lg>
+ <l>prāṇaś ca dehajo vāyur āyāmaḥ kumbhakaḥ smṛtaḥ |</l>
+<l>sa eva dvividhaḥ proktaḥ sahitaḥ kevalas tathā ||</l> 
+</lg>
+ Vasiṣṭhasaṃhitā 3.2cd 
+<lg>
+ <l>prāṇāyāmas tribhiḥ prokto recapūrakakumbhakaiḥ || 2 ||</l> 
+</lg>
+ </note>
+ <note type="testimonia" target="#hp02_072"> YBD 
+<lg>
+ <l>atha kevalaḥ---</l>
+<l>prāṇāyāmas tridhā prokto recapūrakakumbhakaiḥ ||</l>
+<l>sahitaḥ kevalaś ceti kumbhako dvividho mataḥ || 122 ||</l> 
+</lg>
+ </note>
+ <note type="philcomm" target="#hp02_072"> </note>
+ <note type="translation" target="#hp02_073"> The [kumbhaka] that one performs with exhalation and inhalation is sahita. One should practice sahita until kevala is perfected. </note>
+ <note type="sources" target="#hp02_073"> Cf. DYŚ 
+<lg>
+ <l>sahito recapūrābhyāṃ tasmāt sahitakumbhakaḥ |</l> 
+</lg>
+ GŚ 
+<lg>
+ <l>yāvat kevalasiddhiḥ syāt tāvat sahitam abhyaset |</l> 
+</lg>
+ Vasiṣṭhasaṃhitā 3.28 
+<lg>
+ <l>virecyāpūrya yaṃ kuryāt sa vai sahitakumbhakaḥ </l>
+<l>sahitaṃ kevalaṃ cātha kumbhakaṃ nityam abhyaset ||</l>
+<l>yāvat kevalasiddhiḥ syāt tāvat sahitam abhyaset |</l> 
+</lg>
+ Yogayājñavalkya 6.31cd–32 
+<lg>
+ <l>recya cāpūrya yaḥ kuryāt sa vai sahitakumbhakaḥ ||</l>
+<l>sahitaṃ kevalaṃ cātha kumbhakaṃ nityam abhyaset |</l>
+<l>yāvat kevalasiddhiḥ syāt tāvat sahitam abhyaset ||</l> 
+</lg>
+ </note>
+ <note type="testimonia" target="#hp02_073"> Yogacintāmaṇi 
+<lg>
+ <l>ārecyāpūrya yat kuryāt sa vai sahitakumbhakaḥ |</l> 
+</lg>
+ YBD 
+<lg>
+ <l>recya vā pūrakaḥ kāryaḥ śanaiḥ sahitakumbhakaḥ ||</l>
+<l>yāvat kevalasiddhiḥ syāt sahitaṃ tāvad abhyaset || 123 ||</l> 
+</lg>
+ </note>
+ <note type="philcomm" target="#hp02_073"> The <hi>Vasiṣṭhasaṃhitā</hi>’s reading, which is not found in any of the HP mss, is the only one that makes sense of 2.73ab so has been adopted. </note>
+ <note type="translation" target="#hp02_074"> Holding the breath comfortably without exhalation and inhalation is kevalakumbhaka. This is said to be [the true] prāṇāyāma. </note>
+ <note type="sources" target="#hp02_074"> Vasiṣṭhasaṃhitā 3.27 
+<lg>
+ <l>recanaṃ pūraṇaṃ muktvā sukhaṃ yad vāyudhāraṇam |</l>
+<l>prāṇāyāmo ’yam ity uktaḥ sa vai kevalakumbhakaḥ ||</l> 
+</lg>
+ Yogayājñavalkya 6.30cd–6.31ab 
+<lg>
+ <l>recakaṃ pūrakaṃ muktvā sukhaṃ yad vāyudhāraṇam |</l>
+<l>prāṇāyāmo ’yam ity uktaḥ sa vai kevalakumbhakaḥ ||</l> 
+</lg>
+ </note>
+ <note type="testimonia" target="#hp02_074"> Yogacintāmaṇi 
+<lg>
+ <l>recakaṃ pūrakaṃ muktvā yat sukhaṃ vāyudhāraṇam |</l>
+<l>prāṇāyāmo ’yam ity uktaḥ sa vai kevalakumbhakaḥ ||</l> 
+</lg>
+ Haṭharatnāvalī 
+<lg>
+ <l>atha kevalaḥ---</l>
+<l>recakaṃ pūrakaṃ muktvā sukhaṃ yad vāyudhāraṇam |</l>
+<l>prāṇāyāmo ’yam ity uktaḥ sa vai kevalakumbhakaḥ ||</l> 
+</lg>
+ YBD 
+<lg>
+ <l>recakaṃ pūrakaṃ muktvā yad vāyudhāraṇam ||</l>
+<l>prāṇāyāmo ’yam ity uktaḥ sa vai kevalakumbhakaḥ ||</l> 
+</lg>
+ Yogadīpikā 77cd--78ab 
+<lg>
+ <l>recakaṃ pūrakaṃ muktvā susukhaṃ vāyudhāraṇaṃ</l>
+<l>prāṇāyāmoyam ityuktaḥ sa vai kevalakuṃbhakaḥ</l> 
+</lg>
+ </note>
+ <note type="philcomm" target="#hp02_074"> The relative pronoun is omitted in V1 and the J10 group, which have <hi>vāyunirodhanam</hi>. But the relative is needed to connect the description of kevalakumbhaka in the first hemistich to the last pāda (<hi>sa vai kevalakumbhakaḥ</hi>). On this verse see Sellmer ?date of article. </note>
+ <note type="translation" target="#hp02_075"> When kevalakumbhaka without exhalation and inhalation is accomplished, there is nothing in the three worlds that is impossible for the yogi to achieve. </note>
+ <note type="sources" target="#hp02_075"> Vasiṣṭhasaṃhitā 3.30 
+<lg>
+ <l>kevale kumbhake siddhe recapūraṇavarjite |</l>
+<l>na tasya durlabhaṃ kiṃ cit triṣu lokeṣu vidyate |</l> 
+</lg>
+ DYŚ 
+<lg>
+ <l>kevale kumbhake siddhe recapūrakavarjite |</l>
+<l>na tasya durlabhaṃ kiṃ cit triṣu lokeṣu vidyate || 74 ||</l> 
+</lg>
+ </note>
+ <note type="testimonia" target="#hp02_075"> Haṭharatnāvalī 
+<lg>
+ <l>kevale kumbhake siddhe recapūrakavarjite |</l>
+<l>na tasya durlabhaṃ kiñ cit triṣu lokeṣu vidyate ||</l> 
+</lg>
+ </note>
+ <note type="translation" target="#hp02_076"> He who is empowered by kevalakumbhaka undoubtedly attains [the ability to] hold the breath as long as he wants and the state of Rājayoga. </note>
+ <note type="testimonia" target="#hp02_076"> Haṭharatnāvalī 
+<lg>
+ <l>śaktaḥ kevalakumbhena yatheṣṭaṃ vāyudhāraṇam |</l>
+<l>etādṛśo rājayogo kathito nātra saṃśayaḥ || 2.30 ||</l> 
+</lg>
+ YBD 
+<lg>
+ <l>śaktaḥ kevalakumbhena yatheṣṭaṃ vāyudhāraṇam ||</l>
+<l>rājayogapadaṃ samyak labhate nātra saṃśayaḥ || 126 ||</l> 
+</lg>
+ HTK 
+<lg>
+ <l>haṭhapradīpikāyām–</l>
+<l>śaktaḥ kevalakumbhena yatheṣṭaṃ vāyudhāraṇe |</l>
+<l>rājayogapadaṃ caiva labhate nātra saṃśayaḥ || 59 ||</l> 
+</lg>
+ </note>
+ <note type="philcomm" target="#hp02_076"> </note>
+ <note type="translation" target="#hp02_077"> Rājayoga does not succeed without Haṭha nor Haṭha without Rājayoga. So, one should practise both until the niṣpatti [stage]. </note>
+ <note type="sources" target="#hp02_077"> Śivasaṃhitā 5.222 
+<lg>
+ <l>haṭhaṃ vinā rājayogo rājayogaṃ vinā haṭhaḥ |</l>
+<l>na sidhyati tato yugmam āniṣpatteḥ samabhyaset</l>
+<l><textup>[middle hemistich not in mss. I, III, IV, VII, IX, X, XII, XIV--XVI]</textup></l>
+<l>tasmāt pravartate yogī haṭhe sadgurumārgataḥ ||</l> 
+</lg>
+ </note>
+ <note type="testimonia" target="#hp02_077"> Yogacintāmaṇi 
+<lg>
+ <l>haṭhapradīpikāyām haṭhaṃ vinā rājayogo rājayogaṃ vinā haṭhaḥ |</l>
+<l>na sidhyati tato yugmaṃ manīṣy etau samabhyaset |</l>
+<l>haṭhaṃ vinā rājayogaṃ rājayogaṃ vinā haṭham |</l>
+<l>ye vai caranti tān manye prayāsaphalavarjitān iti ||</l> 
+</lg>
+ Haṭharatnāvalī 
+<lg>
+ <l>haṭhaṃ vinā rājayogo rājayogaṃ vinā haṭhaḥ |</l>
+<l>vyāptiḥ syād avinābhūtā śrīrājahaṭhayogayoḥ || 1.19 ||</l> 
+</lg>
+ YBD 
+<lg>
+ <l>haṭhaṃ vinā rājayogo rājayogaṃ vinā haṭhaḥ ||</l>
+<l>na sidhyati tato yugmam āniṣpatteḥ samācaret || 127 ||</l> 
+</lg>
+ Śivayogadarpana 
+<lg>
+ <l>haṭhaṃ vinā rājayogo rājayogaṃ vinā haṭhaḥ |</l>
+<l>na sidhyati tato yugmam manīṣī tat samabhyaset || 6 ||</l> 
+</lg>
+ </note>
+ <note type="philcomm" target="#hp02_077"> </note>
+ <note type="translation" target="#hp02_078"> At the end of exhaling the retained breath, one should make the mind supportless. One reaches the state of Rājayoga by practising thus. </note>
+ <note type="testimonia" target="#hp02_078"> YBD 
+<lg>
+ <l>kumbhitaḥ prāṇarecānte kuryyāc cittaṃ nirāmayam ||</l>
+<l>evamabhyāsayogena rājayogapadaṃ vrajet || 128 ||</l> 
+</lg>
+ HTK 44.60 
+<lg>
+ <l>kumbhitaḥ prāṇarecānte kuryyāc cittaṃ nirāśrayam |</l>
+<l>evamabhyāsayogena rājayogaṃ labhet punaḥ || 60 ||</l>
+<l>nirāśrayaṃ saṃkalparahitam ||</l> 
+</lg>
+ Yogaprakāśikā 
+<lg>
+ <l>tad eva visadayati kumbhakam iti || kevalakumbhakābhyāsena cittaṃ dagdhaparṇavat nirvāsanaṃ bhavatītyarthaḥ || anyad vyākhyātam || 67 ||</l> 
+</lg>
+ </note>
+ <note type="philcomm" target="#hp02_078"> </note>
+ <note type="translation" target="#hp02_079"> Because of a kumbhaka, kuṇḍalinī awakens; from the awakening of kuṇḍalinī, suṣumṇā becomes free of blockages and success in Haṭha arises. </note>
+ <note type="testimonia" target="#hp02_079"> Yogacintāmaṇi 
+<lg>
+ <l>kumbhakāt kuṇḍalībodhaḥ kuṇḍalībodhato bhavet |</l>
+<l>anargalaḥ suṣumṇānto haṭhasiddhiś ca jāyate ||</l> 
+</lg>
+ YBD 
+<lg>
+ <l>kumbhakāt kuṇḍalībodhaḥ kuṇḍalībodhato bhavet ||</l>
+<l>anargalā suṣumnā ca haṭhasiddhiśca jāyate || 128 ||</l> 
+</lg>
+ HTK 
+<lg>
+ <l>kumbhakāt kuṇḍalībodhaḥ kuṇḍalībodhato bhavet |</l>
+<l>anargalā suṣumṇā ca haṭhasiddhiḥ prajāyate || iti || 61 ||</l>
+<l>kumbhakaprāṇāyāmāt bodho jāgaraṇaṃ | suṣumṇā anargalā bādhakarahitā bhavati | tato yogasiddhir bhavati iti ||</l> 
+</lg>
+ </note>
+ <note type="philcomm" target="#hp02_079"> </note>
+ <note type="translation" target="#hp02_080"> Thinness of the body, healthy complexion, clarity of the internal resonance, very bright eyes, freedom from disease, mastery of semen, stimulation of the [body’s] fire [and] purification of the channels are the signs of success in Haṭha. </note>
+ <note type="testimonia" target="#hp02_080"> Yogacintāmaṇi 
+<lg>
+ <l>vapuḥkṛśatvaṃ vadane prasannatā </l>
+<l>nādasphuṭatvaṃ nayane sunirmale |</l>
+<l>arogitā bindujayo ’gnidīpanaṃ </l>
+<l>nāḍīviśuddhir haṭhasiddhilakṣaṇam ||</l> 
+</lg>
+ YBD 
+<lg>
+ <l>vapuḥ kṛśatvaṃ vadane prasannatā </l>
+<l>nādasphuṭatvaṃ nayane ca nirmale ||</l>
+<l>arogatā bindujayo’gnidīpanaṃ </l>
+<l>nāḍīviśuddhir haṭhasiddhilakṣaṇam || 130 ||</l> 
+</lg>
+ </note>
+ <note type="philcomm" target="#hp02_080"> </note>
+ 
+</body>
+</text>
+</TEI>

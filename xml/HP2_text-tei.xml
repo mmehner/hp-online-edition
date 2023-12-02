@@ -1,0 +1,846 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title><!-- Title --></title>
+<respStmt>
+<resp><!-- Edited by --></resp>
+<name><!-- Name --></name>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<distributor><!-- Distributor name  --></distributor>
+</publicationStmt>
+<sourceDesc>
+<listWit>
+<witness xml:id="N3">
+<abbr type="siglum"><texteng>α<hi rend="sub">1</hi></texteng></abbr>
+NGMPP B 62-20
+<msDesc>
+<msIdentifier/>
+<physDesc>
+<handDesc hands="2">
+<handNote xml:id="N3ac">
+<abbr type="siglum"><texteng>α<hi rend="sub">1</hi><hi rend="sup">ac</hi></texteng></abbr>
+
+</handNote>
+<handNote xml:id="N3pc">
+<abbr type="siglum"><texteng>α<hi rend="sub">1</hi><hi rend="sup">pc</hi></texteng></abbr>
+
+</handNote>
+</handDesc>
+</physDesc>
+</msDesc>
+</witness>
+<witness xml:id="J5">
+<abbr type="siglum"><texteng>α<hi rend="sub">2</hi></texteng></abbr>
+Jodhpur 02235
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="G4">
+<abbr type="siglum"><texteng>α<hi rend="sub">3</hi></texteng></abbr>
+GOML 18885
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N24">
+<abbr type="siglum"><texteng>α<hi rend="sub">4</hi></texteng></abbr>
+NGMPP G 190-16
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="Gr1r">
+<abbr type="siglum"><texteng>Αkern -1.5pt{*}kern 1pt</texteng></abbr>
+Gr1 reconstructed
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P11">
+<abbr type="siglum"><texteng>β<hi rend="sub">1</hi></texteng></abbr>
+
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="C6">
+<abbr type="siglum"><texteng>β<hi rend="sub">2</hi></texteng></abbr>
+Lalchand M-2089
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V3">
+<abbr type="siglum"><texteng>β<hi rend="sub">ω</hi></texteng></abbr>
+Sampurnananda Library Sarasvati Bhavan 29899
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N23">
+<abbr type="siglum"><texteng>γ<hi rend="sub">1</hi></texteng></abbr>
+NGMPP G 25-2
+<msDesc>
+<msIdentifier/>
+<physDesc>
+<handDesc hands="2">
+<handNote xml:id="N23ac">
+<abbr type="siglum"><texteng>γ<hi rend="sub">1</hi><hi rend="sup">ac</hi></texteng></abbr>
+
+</handNote>
+<handNote xml:id="N23pc">
+<abbr type="siglum"><texteng>γ<hi rend="sub">1</hi><hi rend="sup">pc</hi></texteng></abbr>
+
+</handNote>
+</handDesc>
+</physDesc>
+</msDesc>
+</witness>
+<witness xml:id="J7">
+<abbr type="siglum"><texteng>γ<hi rend="sub">2</hi></texteng></abbr>
+Jodhpur 02241
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="K1">
+<abbr type="siglum"><texteng>K<hi rend="sub">1</hi></texteng></abbr>
+Raghunātha Temple Library 4383
+<msDesc>
+<msIdentifier>
+<settlement>Jammu</settlement>
+</msIdentifier>
+</msDesc>
+</witness>
+<witness xml:id="K1ac">
+<abbr type="siglum"><texteng>K<hi rend="sub">1</hi><hi rend="sup">ac</hi>space </texteng></abbr>
+
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="K1pc">
+<abbr type="siglum"><texteng>K<hi rend="sub">1</hi><hi rend="sup">pc</hi>space </texteng></abbr>
+
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V19">
+<abbr type="siglum"><texteng>δ<hi rend="sub">1</hi></texteng></abbr>
+Sampurnananda Library Sarasvati Bhavan 30069
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="K3">
+<abbr type="siglum"><texteng>δ<hi rend="sub">2</hi></texteng></abbr>
+Privat collection
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="C7">
+<abbr type="siglum"><texteng>δ<hi rend="sub">3</hi></texteng></abbr>
+Lalchand M-6494
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="J6">
+<abbr type="siglum"><texteng>δ<hi rend="sub">ω</hi></texteng></abbr>
+Jodhpur 02237
+<msDesc>
+<msIdentifier/>
+<physDesc>
+<handDesc hands="2">
+<handNote xml:id="J6ac">
+<abbr type="siglum"><texteng>δω<hi rend="sup">ac</hi></texteng></abbr>
+
+</handNote>
+<handNote xml:id="J6pc">
+<abbr type="siglum"><texteng>δω<hi rend="sup">pc</hi></texteng></abbr>
+
+</handNote>
+</handDesc>
+</physDesc>
+</msDesc>
+</witness>
+<witness xml:id="P15">
+<abbr type="siglum"><texteng>ε<hi rend="sub">1</hi></texteng></abbr>
+
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N19">
+<abbr type="siglum"><texteng>ε<hi rend="sub">2</hi></texteng></abbr>
+NGMPP E-1528-1 / E-1527-7(4)
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V15">
+<abbr type="siglum"><texteng>ε<hi rend="sub">3</hi></texteng></abbr>
+Sampurnananda Library Sarasvati Bhavan 30051
+<msDesc>
+<msIdentifier/>
+<physDesc>
+<handDesc hands="2">
+<handNote xml:id="V15ac">
+<abbr type="siglum"><texteng>ε<hi rend="sub">3</hi><hi rend="sup">ac</hi></texteng></abbr>
+
+</handNote>
+<handNote xml:id="V15pc">
+<abbr type="siglum"><texteng>ε<hi rend="sub">3</hi><hi rend="sup">pc</hi></texteng></abbr>
+
+</handNote>
+</handDesc>
+</physDesc>
+</msDesc>
+</witness>
+<witness xml:id="J11">
+<abbr type="siglum"><texteng>ε<hi rend="sub">4</hi></texteng></abbr>
+Jodhpur 23532
+<msDesc>
+<msIdentifier/>
+<physDesc>
+<handDesc hands="2">
+<handNote xml:id="J11ac">
+<abbr type="siglum"><texteng>ε<hi rend="sub">4</hi><hi rend="sup">i.t.</hi></texteng></abbr>
+
+</handNote>
+<handNote xml:id="J11pc">
+<abbr type="siglum"><texteng>ε<hi rend="sub">4</hi><hi rend="sup">mg.</hi></texteng></abbr>
+<p>alternative reading written by the first hand in margin or interlinearly (J11)</p>
+</handNote>
+</handDesc>
+</physDesc>
+</msDesc>
+</witness>
+<witness xml:id="M1">
+<abbr type="siglum"><texteng>M<hi rend="sub">1</hi></texteng></abbr>
+P-5682/4
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N26">
+<abbr type="siglum"><texteng>ε<hi rend="sub">ω</hi></texteng></abbr>
+NGMPP
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V1">
+<abbr type="siglum"><texteng>η<hi rend="sub">1</hi></texteng></abbr>
+Sampurnananda Library Sarasvati Bhavan 30109
+<msDesc>
+<msIdentifier/>
+<physDesc>
+<handDesc hands="2">
+<handNote xml:id="V1ac">
+<abbr type="siglum"><texteng>η<hi rend="sub">1</hi><hi rend="sup">ac</hi></texteng></abbr>
+
+</handNote>
+<handNote xml:id="V1pc">
+<abbr type="siglum"><texteng>η<hi rend="sub">1</hi><hi rend="sup">pc</hi></texteng></abbr>
+
+</handNote>
+</handDesc>
+</physDesc>
+</msDesc>
+</witness>
+<witness xml:id="J10">
+<abbr type="siglum"><texteng>η<hi rend="sub">2</hi></texteng></abbr>
+MSPP Jodhpur 2230
+<msDesc>
+<msIdentifier/>
+<physDesc>
+<handDesc hands="2">
+<handNote xml:id="J10ac">
+<abbr type="siglum"><texteng>η<hi rend="sub">2</hi><hi rend="sup">ac</hi></texteng></abbr>
+
+</handNote>
+<handNote xml:id="J10pc">
+<abbr type="siglum"><texteng>η<hi rend="sub">2</hi><hi rend="sup">pc</hi></texteng></abbr>
+
+</handNote>
+</handDesc>
+</physDesc>
+</msDesc>
+</witness>
+<witness xml:id="N9">
+<abbr type="siglum"><texteng>η<hi rend="sub">ω</hi></texteng></abbr>
+NGMPP A62-33
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="Jyo">
+<abbr type="siglum"><texteng>χ</texteng></abbr>
+Brahmānanda’s version
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="ceteri">
+<abbr type="siglum"><texteng>cett.</texteng></abbr>
+ceteri
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="Gr1">
+<abbr type="siglum"><texteng>Α</texteng></abbr>
+N3,J5,G4
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="Gr2">
+<abbr type="siglum"><texteng>Γ</texteng></abbr>
+N23,J7
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="Gr3a">
+<abbr type="siglum"><texteng>Δ</texteng></abbr>
+V19,K3,C7
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="Gr4b">
+<abbr type="siglum"><texteng>β<hi rend="sub">1</hi>β<hi rend="sub">2</hi></texteng></abbr>
+C6,P11
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="GrB">
+<abbr type="siglum"><texteng>β<hi rend="sub">1</hi>β<hi rend="sub">2</hi>β<hi rend="sub">ω</hi></texteng></abbr>
+C6,P11,V3
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="Gr4c">
+<abbr type="siglum"><texteng>Ε</texteng></abbr>
+P15,N19,V15
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="Gr6">
+<abbr type="siglum"><texteng>Ω</texteng></abbr>
+V3,J6,N9,N26
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+</listWit>
+<listPerson xml:id="scholars">
+<person xml:id="nos">
+<persName>
+<abbr type="siglum">nos</abbr>
+<forename>HPP</forename>
+<surname>Team</surname>
+</persName>
+</person>
+</listPerson>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<variantEncoding method="parallel-segmentation" location="internal"/>
+</encodingDesc>
+</teiHeader>
+<text>
+<body>
+
+<lg xml:id="hp02_001">
+ <l> <s type="pada"><app><lem wit="#ceteri">athāsane</lem><rdg wit="#N23">athāsāna</rdg><rdg wit="#C7">athābhyāsena</rdg><rdg wit="#V1">haṭhāsane</rdg></app> <app><lem wit="#N3 #C6 #J7 #V15 #J10 #Jyo">dṛḍhe</lem><rdg wit="#V3 #V1">dṛḍho</rdg><rdg wit="#N23">dṛḍha</rdg><rdg wit="#Gr3a">dṛḍhaṃ</rdg><rdg wit="#P15">dahe</rdg></app> yogī</s> <s type="pada"><app><lem wit="#ceteri">vaśī</lem><rdg wit="#P15">vajrī</rdg></app> <app><lem wit="#ceteri">hitamitāśanaḥ</lem><rdg wit="#N23">hitasikāśanaḥ</rdg><rdg wit="#K3">mitahitāśanaḥ</rdg><rdg wit="#P15">bhūtamitāśanaḥ</rdg></app>/</s></l>
+<l> <s type="pada">gurūpa<app><lem wit="#ceteri">diṣṭa</lem><rdg wit="#C6 #Gr3a">deśa</rdg></app>mārgeṇa</s> <s type="pada"><app><lem wit="#N3 #Gr3a #V1">prāṇāyāmaṃ</lem><rdg wit="#V3">prāṇāyāmo</rdg><rdg wit="#N23">prāṇāyāmī</rdg><rdg wit="#P11 #C6 #J7 #P15 #V15 #Jyo">prāṇāyāmān</rdg><rdg wit="#J10">yogamārgaṃ</rdg></app> <app><lem wit="#ceteri">samabhyaset</lem><rdg wit="#Gr3a">sadābhyaset</rdg><rdg wit="#V15">samācaret</rdg></app>//</s></l> 
+</lg>
+ 
+<lg xml:id="hp02_002">
+ <l> <s type="pada">cale <app><lem wit="#ceteri">vāte</lem><rdg wit="#V3">citte</rdg></app> <app><lem wit="#ceteri">calaṃ</lem><rdg wit="#V3">calat</rdg><rdg wit="#P15">calet</rdg><rdg wit="#N3 #C6">cale</rdg></app> <app><lem wit="#N3 #V3 #P15 #V15 #V1">sarvaṃ</lem><rdg wit="#C6 #Gr2 #Gr3a #J10 #Jyo">cittaṃ</rdg></app></s> <s type="pada">niścale <app><lem wit="#V3 #Gr3a #J10">niścalaṃ tathā</lem><rdg wit="#V15 #Jyo">niścalaṃ bhavet</rdg><rdg wit="#N3 #J5 #P11 #C6 #Gr2 #P15 #V1">dṛḍhabaṃdhanaṃ</rdg></app>/</s></l>
+<l> <s type="pada">yogī <app><lem wit="#ceteri">sthāṇu</lem><rdg wit="#N23">sthānu</rdg><rdg wit="#C7">sthāṇa</rdg><rdg wit="#C6 #P15">sthāna</rdg></app>tvam āpnoti</s> <s type="pada">tato <app><lem wit="#V3 #P15">vāyu</lem><rdg wit="#N3 #C6 #Gr2 #V19 #C7 #V15 #V1 #J10 #Jyo">vāyuṃ</rdg><rdg wit="#K3"><seg type="deva-ignore"><gap reason="om."/></seg></rdg></app><app><lem wit="#N3 #V3 #P15">nibandhanāt</lem><rdg wit="#V1">nibandhayet</rdg><rdg wit="#J10">nirundhayet</rdg><rdg wit="#N23">nirūdhayet</rdg><rdg wit="#C6 #J7 #Gr3a #V15 #Jyo">nirodhayet</rdg></app>//</s></l> 
+</lg>
+ 
+<lg xml:id="hp02_003">
+ <l> <s type="pada">yāva<app><lem wit="#J7 #C7 #P15 #V1 #Jyo"><seg type="ltn-ignore">d </seg>vāyuḥ</lem><rdg wit="#N3 #C6 #V3 #N23 #V19 #K3 #V15 #J10">vāyu</rdg></app> sthito dehe</s> <s type="pada">tāva<app><lem wit="#V3 #J7 #Gr3a #P15 #J10"><seg type="ltn-ignore">j </seg>jīvita<seg type="deva-ignore">m</seg></lem><rdg wit="#N3">jītavim</rdg><rdg wit="#V15">jīvitvam</rdg><rdg wit="#C6 #N23 #V1 #Jyo">jīvanam</rdg></app>m ucyate/</s></l>
+<l> <s type="pada">maraṇaṃ tasya <app><lem wit="#ceteri">niṣkrānti<seg type="deva-ignore">s</seg></lem><rdg wit="#V3">niṣkrānti</rdg><rdg wit="#N3">niḥkrāṃtaṃ</rdg><rdg wit="#J10">niṣkrānto</rdg></app></s><s type="pada"><app><lem wit="#ceteri"><seg type="ltn-ignore">s </seg>tato</lem><rdg wit="#J10">tasmād</rdg></app> vāyuṃ <app><lem wit="#N23 #J10">nirundhayet</lem><rdg wit="#J7 #Gr3a #V15 #Jyo">nirodhayet</rdg><rdg wit="#C6 #V3 #P15 #V1">nibandhayet</rdg><rdg wit="#N3">nibaṃdhanāt</rdg></app>//</s></l> 
+</lg>
+ 
+<lg xml:id="hp02_004">
+ <l> <s type="pada"><app><lem wit="#ceteri">malākulāsu</lem><rdg wit="#V1">mālākusuma</rdg></app> nāḍīṣu</s> <s type="pada">māruto naiva madhyagaḥ/</s></l>
+<l> <s type="pada">kathaṃ syād unmanībhāvaḥ</s> <s type="pada"><app><lem wit="#N3 #C6 #V3 #V15 #V1">kāyasiddhiḥ</lem><rdg wit="#Gr2">kāyaśuddhiḥ</rdg><rdg wit="#Gr3a #P15 #J10 #Jyo">kāryasiddhiḥ</rdg></app> kathaṃ bhavet//</s></l> 
+</lg>
+ 
+<lg xml:id="hp02_005">
+ <l> <s type="pada"><app><lem wit="#ceteri">śuddhim eti</lem><rdg wit="#N23">śuddhimati</rdg><rdg wit="#C6">śuddham eti</rdg></app> <app><lem wit="#ceteri">yadā</lem><rdg wit="#V3">yathā</rdg><rdg wit="#V1">sadā</rdg></app> sarvaṃ</s> <s type="pada">nāḍī<app><lem wit="#ceteri">cakraṃ</lem><rdg wit="#C6 #V3 #N23 #P15">cakra</rdg></app> <app><lem wit="#ceteri">malākulam</lem><rdg wit="#P15">manākulaṃ</rdg></app>/</s></l>
+<l> <s type="pada"><app><lem wit="#ceteri">tadaiva</lem><rdg wit="#N3 #V15">tadeva</rdg></app> jāyate yogī</s> <s type="pada">prāṇa<app><lem wit="#ceteri">saṃgrahaṇe</lem><rdg wit="#V1">saṃgrahaṇa</rdg><rdg wit="#V19 #C7">saṃrodhane</rdg><rdg wit="#K3">saṃrodhana</rdg></app> kṣamaḥ//</s></l> 
+</lg>
+ 
+<lg xml:id="hp02_006">
+ <l> <s type="pada"><app><lem wit="#ceteri">prāṇābhyāsaṃ</lem><rdg wit="#V19 #C7 #Jyo">prāṇāyāmaṃ</rdg><rdg wit="#K3"><seg type="deva-ignore"><gap reason="illeg."/></seg></rdg></app> tataḥ kuryān</s> <s type="pada">nityaṃ sāttvikayā dhiyā/</s></l>
+<l> <s type="pada"><app><lem wit="#ceteri">yathā</lem><rdg wit="#N3">yāsthā</rdg><rdg wit="#K3">atha</rdg></app> <app><lem wit="#C6 #Gr2">suṣumṇāpārśvasthā</lem><rdg wit="#Gr3a">suṣumṇāntarasthā</rdg><rdg wit="#V15 #V1">suṣumnā susnigdhā</rdg><rdg wit="#P15">suṣumnāḥ snigdhā</rdg><rdg wit="#N3">suśumnā susvasthā</rdg><rdg wit="#V3">suṣumnāṃ susvasthā</rdg><rdg wit="#Jyo">suṣumṇānāḍīsthā</rdg><rdg wit="#J10">sukham avasthāya</rdg></app></s> <s type="pada"><app><lem wit="#Gr2 #K3 #C7 #P15 #V1 #J10">malāḥ śoṣaṃ</lem><rdg wit="#N3 #C6 #V19">malā śoṣaṃ</rdg><rdg wit="#V15">malaśoṣaṃ</rdg><rdg wit="#V3">malāt soṣaṃ</rdg><rdg wit="#Jyo">malāḥ śuddhiṃ</rdg></app> prayānti ca//</s></l> 
+</lg>
+ 
+<lg xml:id="hp02_007">
+ <l> <s type="pada">baddha<app><lem wit="#ceteri">padmāsano</lem><rdg wit="#V15">padmāsane</rdg><rdg wit="#N23">padmāsanā</rdg></app> yogī</s> <s type="pada">prāṇaṃ candreṇa <app><lem wit="#ceteri">pūrayet</lem><rdg wit="#V19">dhārayet</rdg><rdg wit="#C6">recayet</rdg></app>/</s></l>
+<l> <s type="pada">dhārayitvā yathā<app><lem wit="#N3 #P15 #V15">śaktyā</lem><rdg wit="#J7 #V19 #K3 #V1 #Jyo">śakti</rdg><rdg wit="#C7">śaktiṃ</rdg><rdg wit="#J5 #C6 #V3 #N23">śaktiḥ</rdg><rdg wit="#J10">yuktyā</rdg></app></s> <s type="pada"><app><lem wit="#N3 #J5 #C6 #V3 #Gr2 #Gr3a">punaḥ</lem><rdg wit="#G4 #P15 #V15 #V1 #J10 #Jyo">bhūyaḥ</rdg></app> sūryeṇa recayet//</s></l> 
+</lg>
+ 
+<lg xml:id="hp02_008">
+ <l> <s type="pada">prāṇaṃ sūryeṇa <app><lem wit="#ceteri">cākṛṣya</lem><rdg wit="#N23">vāṣṭhavya</rdg></app></s> <s type="pada">pūraye<app><lem wit="#ceteri"><seg type="ltn-ignore">d </seg>udaraṃ</lem><rdg wit="#V1 #J10">udare</rdg></app> śanaiḥ/</s></l>
+<l> <s type="pada"><app><lem wit="#ceteri">vidhiva<seg type="deva-ignore">t</seg></lem><rdg wit="#C6">vidhidṛk</rdg></app>t kumbhakaṃ <app><lem wit="#ceteri">kṛtvā</lem><rdg wit="#Gr3a">kuryāt</rdg></app></s> <s type="pada">punaś candreṇa recayet//</s></l> 
+</lg>
+ 
+<lg xml:id="hp02_009">
+ <l> <s type="pada">yena <app><lem wit="#ceteri">tyaje<seg type="deva-ignore">t</seg></lem><rdg wit="#N3 #J7">tyaje</rdg><rdg wit="#N23">yetayet</rdg></app><app><lem wit="#C6 #Gr2 #Jyo"><seg type="ltn-ignore">t </seg>tena pītvā</lem><rdg wit="#J5 #Gr3a #J10">tenāpūrya</rdg><rdg wit="#N3 #V3 #P15 #V1">tena pūrya</rdg><rdg wit="#P11 #V15">tena pūrvaṃ</rdg></app></s> <s type="pada">dhārayed a<app><lem wit="#V15"><seg type="deva-ignore">a</seg>virodhataḥ</lem><rdg wit="#N3 #C6 #V3 #J7 #Gr3a #V1 #J10">anirodhataḥ</rdg><rdg wit="#P15">anirodhitaḥ</rdg><rdg wit="#N23">anirodhanataḥ</rdg><rdg wit="#Jyo">atirodhataḥ</rdg></app>/</s></l>
+<l> <s type="pada"><app><lem wit="#ceteri">recayec ca</lem><rdg wit="#P15">recayeta</rdg><rdg wit="#J7">recayatvā</rdg><rdg wit="#C7">pūrayec ca</rdg></app> tato’nyena</s> <s type="pada"><app><lem wit="#ceteri">śanair eva na vegataḥ</lem><rdg wit="#N23">śanairacavanegataṃ</rdg><rdg wit="#Gr3a #V15">śanaiḥ pavanam ekataḥ</rdg></app>//</s></l> 
+</lg>
+ 
+<lg xml:id="hp02_010">
+ <l> <s type="pada">prāṇaṃ <app><lem wit="#ceteri">ced iḍayā</lem><rdg wit="#C6">ced iḍiyā</rdg><rdg wit="#N3">ceḍiyā</rdg><rdg wit="#N23">caṇḍiyā</rdg><rdg wit="#V15">ceḍikayā</rdg></app> pibe<app><lem wit="#ceteri"><seg type="ltn-ignore">n </seg>niyamitaṃ</lem><rdg wit="#V3">parimitaṃ</rdg><rdg wit="#N23">nimitaṃ</rdg></app> <app><lem wit="#ceteri">bhūyo</lem><rdg wit="#V3">bhūyā</rdg></app><app><lem wit="#ceteri">’nyayā</lem><rdg wit="#V3 #N23 #V19 #C7 #V1">nyathā</rdg></app> <app><lem wit="#ceteri">recayet</lem><rdg wit="#N23">_ yet</rdg></app></s></l>
+<l> <s type="pada">pītvā piṅgalayā samīraṇa<app><lem wit="#ceteri"><seg type="ltn-ignore">m </seg>atho</lem><rdg wit="#N3">alaṃ</rdg></app> <app><lem wit="#ceteri">baddhvā tyajed vāmayā</lem><rdg wit="#C7">baddhvāñjaled vāmayā</rdg><rdg wit="#C6">badhvāsanaḥ sarvadā</rdg></app>/</s></l>
+<l> <s type="pada"><app><lem wit="#ceteri">sūryācandramasor a</lem><rdg wit="#C6"/></app><app><lem wit="#ceteri"><seg type="deva-ignore">a</seg>nena vidhinā</lem><rdg wit="#V3">aṇena vidhinā</rdg><rdg wit="#N23">ane vidhinā</rdg><rdg wit="#V19">aṇe</rdg><rdg wit="#C6"/></app> <app><lem wit="#N3 #K3 #C7 #J10">bimbadvayaṃ dhyāyatāṃ</lem><rdg wit="#V19">bimbadvayaṃ dhyāyatā</rdg><rdg wit="#V3">biṃbadvayaṃ dhyāyataḥ</rdg><rdg wit="#J5 #G4 #P15 #V15">bhyāsaṃ samātanvatāṃ</rdg><rdg wit="#V1">bhyāsamātanvatāṃ</rdg><rdg wit="#C6 #Gr2 #Jyo">bhyāsaṃ sadātanvatāṃ</rdg></app></s></l>
+<l> <s type="pada">śuddhā <app><lem wit="#ceteri">nāḍigaṇā</lem><rdg wit="#C6">nāḍīgaṇā</rdg><rdg wit="#P15">nāḍiguṇā</rdg></app> bhavanti yamināṃ <app><lem wit="#ceteri">māsatrayā<seg type="deva-ignore">d</seg></lem><rdg wit="#V19">māsadvayād</rdg><rdg wit="#K3"><seg type="deva-ignore"><gap reason="illeg."/></seg></rdg></app>d ūrdhvataḥ//</s><anchor xml:id="II10"/></l> 
+</lg>
+ 
+<lg xml:id="hp02_011">
+ <l> <s type="pada"><app><lem wit="#ceteri">prātar madhyandine</lem><rdg wit="#C6">prātaḥ sāyaṃ ca</rdg></app> <app><lem wit="#ceteri">sāyam ardha</lem><rdg wit="#P11 #J7 #P15">sāyaṃ madhya</rdg><rdg wit="#N23">soyamadhya</rdg><rdg wit="#C6">madhyāhne</rdg></app></s><s type="pada"><app><lem wit="#ceteri">rātre ca</lem><rdg wit="#N23">rātra ca</rdg><rdg wit="#P15 #V15">rātrau ca</rdg><rdg wit="#C6">niśīthe caiva</rdg></app> <app><lem wit="#ceteri">kumbhakān</lem><rdg wit="#V3 #N23">kumbhakāt</rdg><rdg wit="#K3">kumbhakam</rdg></app>/</s></l>
+<l> <s type="pada">śanai<app><lem wit="#ceteri"><seg type="ltn-ignore">r </seg>aśīti</lem><rdg wit="#V19">amībhi</rdg></app><app><lem wit="#ceteri">paryantaṃ</lem><rdg wit="#N3">paryante</rdg></app></s> <s type="pada">caturvāraṃ samabhyaset//</s><note type="myfn"><ref target="#Gr3a"/> adds here: <s xml:lang="sa-deva">iḍayā piva ṣoḍaśabhiḥ pavanaṃ/ kuru ṣaṣṭicatuṣṭayam aṃtagataṃ</s> (<ref target="#V19"/>; <s xml:lang="sa-deva">-mantaragam</s> <ref target="#K3,C7"/>)<s xml:lang="sa-deva">/ tyaja piṃgalayā śanakaiḥ śanakaiḥ/ daśabhir daśabhir daśabhir dvyadhikaiḥ//</s> (metre: toṭaka)</note>
+</l> 
+</lg>
+ 
+<lg xml:id="hp02_012">
+ <l> <s type="pada"><app><lem wit="#C6 #Gr2 #Gr3a #V15 #Jyo">kanīyasi bhave<seg type="deva-ignore">t</seg></lem><rdg wit="#N3">kanīyasī bhavet</rdg><rdg wit="#P15 #V1">kanīyase bhavet</rdg><rdg wit="#J10">adhame jāyate</rdg><rdg wit="#V3">adhyame jāyate</rdg></app><app><lem wit="#ceteri"><seg type="ltn-ignore">t </seg>svedaḥ</lem><rdg wit="#N3">svadaḥ</rdg><rdg wit="#V1">svedaṃ</rdg></app></s> <s type="pada">kampo bhavati madhyame/</s></l>
+<l> <s type="pada"><app><lem wit="#ceteri">uttiṣṭha<seg type="deva-ignore">ty</seg></lem><rdg wit="#J10">uttiṣṭhaṃty</rdg><rdg wit="#C6">uttānaṃ</rdg><rdg wit="#Jyo">uttame</rdg></app><app><lem wit="#ceteri"><seg type="ltn-ignore">ty </seg>uttame</lem><rdg wit="#C6">cottame</rdg><rdg wit="#Jyo">sthānam ā°</rdg></app> <app><lem wit="#N3 #C6 #V3 #Gr2 #K3 #C7 #P15 #V15">prāṇa</lem><rdg wit="#V1">prāṇaṃ</rdg><rdg wit="#V19">prāṇāṃ</rdg><rdg wit="#J10">prāṇā</rdg><rdg wit="#Jyo">°pnoti</rdg></app></s><s type="pada"><app><lem wit="#N3 #C6 #J7 #Gr3a #P15 #V15">rodhe</lem><rdg wit="#V1">rodheḥ</rdg><rdg wit="#N23">rāvai</rdg><rdg wit="#V3 #J10">baddhe</rdg><rdg wit="#Jyo">tato</rdg></app> <app><lem wit="#C6 #V19 #C7 #J10">padmāsane</lem><rdg wit="#Gr2">padmāsano</rdg><rdg wit="#K3">padmāsana</rdg><rdg wit="#N3 #J5 #G4 #P11 #V3 #P15 #V15 #V1">padmāsanaṃ</rdg><rdg wit="#Jyo">vāyuṃ nibaṃ°</rdg></app> <app><lem wit="#N3 #C6 #V3 #Gr2 #P15 #V15 #J10">muhuḥ</lem><rdg wit="#V1">.uhuḥ</rdg><rdg wit="#Gr3a">sthite</rdg><rdg wit="#Jyo">°dhayet</rdg></app>//</s></l> 
+</lg>
+ 
+<lg xml:id="hp02_013">
+ <l> <s type="pada">jalena <app><lem wit="#ceteri">śrama</lem><rdg wit="#V3">śrava</rdg></app>jātena</s> <s type="pada">gātramardanam ācaret/</s></l>
+<l> <s type="pada">dṛḍhatā laghutā <app><lem wit="#V3 #J7 #K3 #C7 #P15 #V15 #J10">cāpi</lem><rdg wit="#N23 #V19 #V1">vāpi</rdg><rdg wit="#C6 #Jyo">caiva</rdg><rdg wit="#N3">yāti</rdg></app></s> <s type="pada">tena gātrasya jāyate//</s></l> 
+</lg>
+ 
+<lg xml:id="hp02_014">
+ <l> <s type="pada"><app><lem wit="#ceteri">abhyāsakāle prathame</lem><rdg wit="#C6 #Gr3a #V15">abhyāsakāle prathamaṃ</rdg></app></s> <s type="pada">śastaṃ <app><lem wit="#ceteri">kṣīrājya</lem><rdg wit="#N3">kṣīrānna</rdg></app>bhojanam/</s></l>
+<l> <s type="pada">tato<app><lem wit="#ceteri">’bhyāse</lem><rdg wit="#P15">bhyāsaiḥ</rdg><rdg wit="#V1">bhyāsa</rdg></app> <app><lem wit="#N3 #C6 #V3 #Gr2 #Gr3a #Jyo">dṛḍhībhūte</lem><rdg wit="#P15 #V15 #V1 #J10">sthirībhūte</rdg></app></s> <s type="pada">na <app><lem wit="#ceteri">tādṛ<seg type="deva-ignore">ṅ</seg></lem><rdg wit="#C6 #Gr2">tathā</rdg></app><app><lem wit="#ceteri"><seg type="ltn-ignore">ṅ</seg>niyama</lem><rdg wit="#N23">’niyama</rdg><rdg wit="#J10">niyamo</rdg></app><app><lem wit="#ceteri">grahaḥ</lem><rdg wit="#V1">śramaḥ</rdg></app>//</s></l> 
+</lg>
+ 
+<lg xml:id="hp02_015">
+ <l><app><lem/><rdg wit="#C6">found between 2.9 and 2.10</rdg></app><s type="pada">yathā siṃho gajo vyāghro</s> <s type="pada"><app><lem wit="#ceteri">bhaved vaśyaḥ</lem><rdg wit="#C6 #Gr2 #P15">bhaved vaśyaṃ</rdg></app> śanaiḥ śanaiḥ/</s></l>
+<l> <s type="pada">tathaiva <app><lem wit="#ceteri">sevito</lem><rdg wit="#K3 #C7">saṃcito</rdg></app> vāyur</s> <s type="pada">anyathā <app><lem wit="#ceteri">hanti</lem><rdg wit="#N23">hṛdi</rdg></app> sādhakam//</s></l> 
+</lg>
+ 
+<lg xml:id="hp02_016">
+ <l> <s type="pada">prāṇāyāmena yuktena</s> <s type="pada">sarvaroga<app><lem wit="#ceteri">kṣayo bhavet</lem><rdg wit="#K3 #C7">parikṣayaḥ</rdg></app>/</s></l>
+<l> <s type="pada">ayuktābhyāsayogena</s> <s type="pada">sarva<app><lem wit="#ceteri">roga</lem><rdg wit="#Gr3a">vyādhi</rdg><rdg wit="#V1"><seg type="deva-ignore"><gap reason="illeg."/></seg></rdg></app><app><lem wit="#ceteri">samudbhavaḥ</lem><rdg wit="#V19">parikṣayaḥ</rdg></app>//</s></l> 
+</lg>
+ 
+<lg xml:id="hp02_017">
+ <l> <s type="pada">hikkā <app><lem wit="#ceteri">śvāsaś ca kāsaś ca</lem><rdg wit="#C6">&lt;&lt;svāsasa&gt;&gt; kāsaś ca</rdg><rdg wit="#V19 #K3">śvāsas tathā kāsaḥ</rdg><rdg wit="#C7">kāsas tathā śvāsaḥ</rdg></app></s> <s type="pada"><app><lem wit="#ceteri">śiraḥkarṇākṣi</lem><rdg wit="#P11 #C7">śiraḥkarṇākṣa</rdg><rdg wit="#P15 #V15">jvaraḥ karṇākṣi</rdg><rdg wit="#V19">karṇanāsākṣi</rdg></app><app><lem wit="#ceteri">vedanāḥ</lem><rdg wit="#N3">vedanaḥ</rdg><rdg wit="#C6 #V3 #C7">vedanā</rdg></app>/</s></l>
+<l> <s type="pada">bhavanti vividhā <app><lem wit="#N3 #Gr2 #P15 #V15 #V1">doṣāḥ</lem><rdg wit="#C6 #V3 #V19">doṣā</rdg><rdg wit="#J10">dāṣā</rdg><rdg wit="#K3 #C7 #Jyo">rogāḥ</rdg></app></s> <s type="pada">pavanasya <app><lem wit="#ceteri">vyatikramāt</lem><rdg wit="#V19">prakopanāt</rdg><rdg wit="#Jyo">prakopataḥ</rdg></app>//</s></l> 
+</lg>
+ 
+<lg xml:id="hp02_018">
+ <l> <app><lem/><rdg wit="#C6">transposed with the next verse</rdg></app><s type="pada">yuktaṃ yuktaṃ tyajed vāyuṃ</s> <s type="pada">yuktaṃ yuktaṃ ca <app><lem wit="#ceteri">pūrayet</lem><rdg wit="#J10">sevayet</rdg></app>/</s></l>
+<l> <s type="pada">yuktaṃ yuktaṃ <app><lem wit="#ceteri">ca</lem><rdg wit="#V3"><seg type="deva-ignore"><gap reason="om."/></seg></rdg></app> badhnīyād</s> <s type="pada">e<app><lem wit="#ceteri"><seg type="deva-ignore">e</seg>vaṃ</lem><rdg wit="#Gr3a">itthaṃ</rdg></app> <app><lem wit="#ceteri">siddhim avāpnuyāt</lem><rdg wit="#N3 #P15 #V1">śuddhim avāpnuyāt</rdg><rdg wit="#Gr3a">sidhyati yogavit</rdg></app>//</s></l> 
+</lg>
+ 
+<lg xml:id="hp02_019">
+ <l> <s type="pada">yadā <app><lem wit="#ceteri">tu nāḍīśuddhiḥ</lem><rdg wit="#C6">tu nāḍī śuddhā</rdg><rdg wit="#Gr3a">nāḍīviśuddhiḥ</rdg></app> syāt</s> <s type="pada"><app><lem wit="#ceteri">tadā</lem><rdg wit="#Jyo">tathā</rdg></app> <app><lem wit="#ceteri">cihnāni bāhyataḥ</lem><rdg wit="#Gr3a">cittaṃ nirākulam</rdg></app>/</s></l>
+<l> <s type="pada">kāyasya <app><lem wit="#ceteri">kṛśatā</lem><rdg wit="#V3">kṛśatāṃ</rdg><rdg wit="#N3">kṛtā</rdg><rdg wit="#J10">kriyate</rdg><rdg wit="#V1"><seg type="deva-ignore"><gap reason="illeg."/></seg></rdg></app> <app><lem wit="#ceteri">kānti<seg type="deva-ignore">s</seg></lem><rdg wit="#V1"><seg type="deva-ignore"><gap reason="illeg."/></seg></rdg></app></s><s type="pada"><app><lem wit="#ceteri"><seg type="ltn-ignore">s </seg>tathā</lem><rdg wit="#Jyo">tadā</rdg></app> jāyeta <app><lem wit="#ceteri">niścitam</lem><rdg wit="#N3">niścitā</rdg><rdg wit="#V1">niścalaṃ</rdg></app>//</s></l> 
+</lg>
+ 
+<lg xml:id="hp02_020">
+ <l> <s type="pada"><app><lem wit="#ceteri">yatheṣṭaṃ</lem><rdg wit="#N3 #V3 #Gr2">yatheṣṭa</rdg></app> <app><lem wit="#ceteri">dhāraṇaṃ</lem><rdg wit="#N23">dhāraṇo</rdg></app> <app><lem wit="#ceteri">vāyo<seg type="deva-ignore">r</seg></lem><rdg wit="#V3">vāyur</rdg></app>r</s> <s type="pada">a<app><lem wit="#ceteri"><seg type="deva-ignore">a</seg>nalasya</lem><rdg wit="#V3 #J10">aṇalasya</rdg><rdg wit="#V19">aṇasya</rdg></app> pradīpanam/</s></l>
+<l> <s type="pada">nādābhivyaktir ārogyaṃ</s> <s type="pada">jāyate <app><lem wit="#ceteri">nāḍi</lem><rdg wit="#V3 #J10">nāḍī</rdg></app><app><lem wit="#ceteri">śodhanāt</lem><rdg wit="#N23">śoṣanāt</rdg><rdg wit="#V1 #J10">śodhane</rdg>//</app></s> <note type="omission">Stanza omitted in <ref>P15,N19</ref></note>
+</l> 
+</lg>
+ 
+<lg xml:id="hp02_021">
+ <l> <s type="pada"><app><lem wit="#ceteri">medaḥ</lem><rdg wit="#N3 #V3 #Jyo">meda</rdg><rdg wit="#N23">medā</rdg></app><app><lem wit="#N3 #C6 #V3 #Gr2 #K3 #Jyo">śleṣmādhikaḥ pūrvaṃ</lem><rdg wit="#V1">śoṣādikaṃ pūrvaṃ</rdg><rdg wit="#J10">śleṣmādināśārthaṃ</rdg><rdg wit="#V19 #C7 #V15">śleṣmanivṛt(t)yarthaṃ</rdg></app></s> <s type="pada">ṣaṭ karmāṇi samācaret/</s></l>
+<l> <s type="pada"><app><lem wit="#N3 #C6 #V3 #J7 #V1 #Jyo">anyas tu</lem><rdg wit="#Gr3a #V15 #J10">anyathā</rdg><rdg wit="#N23">abhyastā</rdg></app> nācaret tāni</s> <s type="pada">doṣāṇāṃ <app><lem wit="#N3 #P11 #V3 #V15 #J10 #Jyo">samabhāvataḥ</lem><rdg wit="#C6 #N23">samabhāgataḥ</rdg><rdg wit="#J7">samabhyāgataḥ</rdg><rdg wit="#Gr3a">samatāyataḥ</rdg><rdg wit="#V1">apy abhāvataḥ</rdg></app>//</s> <note type="omission">Stanza omitted in <ref>P15,N19</ref></note>
+</l> 
+</lg>
+ 
+<lg xml:id="hp02_022">
+ <l> <s type="pada"><app><lem wit="#C6 #V3 #Gr2 #P15 #Jyo">dhauti<seg type="deva-ignore">r</seg></lem><rdg wit="#N3 #J5 #Gr3a #V15 #J10">dhautī</rdg><rdg wit="#V1">dhauti</rdg></app><app><lem wit="#C6 #V3 #Gr2 #Jyo"><seg type="ltn-ignore">r </seg>basti<seg type="deva-ignore">s</seg></lem><rdg wit="#V1">vasti</rdg><rdg wit="#N3">vastir</rdg><rdg wit="#J10">vastiś</rdg><rdg wit="#Gr3a #V15">vastī</rdg><rdg wit="#P15">bastya</rdg></app><app><lem wit="#C6 #Gr2 #Jyo"><seg type="ltn-ignore">s </seg>tathā neti<seg type="deva-ignore">s</seg></lem><rdg wit="#V1">tathā neti</rdg><rdg wit="#V3 #V19 #K3">tathā netī</rdg><rdg wit="#C7">tathā nītī</rdg><rdg wit="#N3">nīti caiva</rdg><rdg wit="#V15">neti ceti</rdg><rdg wit="#P15">nyatī ceti</rdg><rdg wit="#J10">ca netiś ca</rdg></app></s><s type="pada"><app><lem wit="#N3 #C6 #V3 #J7 #K3 #C7 #V1 #J10 #Jyo"><seg type="ltn-ignore">s </seg>trāṭakaṃ</lem><rdg wit="#P15">trāṭanaṃ</rdg><rdg wit="#V15">trāṭikaṃ</rdg><rdg wit="#N23">troṭakaṃ</rdg><rdg wit="#V19">toṭakī</rdg></app> <app><lem wit="#K3 #C7 #V1 #J10 #Jyo">naulikaṃ</lem><rdg wit="#N3">laulikaṃ</rdg><rdg wit="#P11 #C6 #V3 #Gr2">naulikā</rdg><rdg wit="#V19">naulikī</rdg><rdg wit="#P15">nakulī</rdg><rdg wit="#V15">nākulī</rdg></app> tathā/</s></l>
+<l> <s type="pada">kapāla<app><lem wit="#C6 #V3 #J7 #K3 #C7">bhātī</lem><rdg wit="#N3 #P15 #V15 #V1">bhāti</rdg><rdg wit="#N23 #Jyo">bhātiś</rdg><rdg wit="#J10">bhāthī</rdg><rdg wit="#V19">bhāvī</rdg></app> <app><lem wit="#ceteri">caitāni</lem><rdg wit="#V19">dhijñeyā</rdg></app></s> <s type="pada">ṣaṭ karmāṇi <app><lem wit="#ceteri">pracakṣate</lem><rdg wit="#C6 #C7">samācaret</rdg></app>//</s></l> 
+</lg>
+ 
+<lg xml:id="hp02_023">
+ <l> <s type="pada"><app><lem wit="#ceteri">karmaṣaṭkam idaṃ</lem><rdg wit="#C6">ṣaṭkakarmam idaṃ</rdg><rdg wit="#J10">ṣaṭkarmmam idaṃ</rdg></app> <app><lem wit="#ceteri">gopyaṃ</lem><rdg wit="#K3">proktaṃ</rdg></app></s> <s type="pada">ghaṭaśodhana<app><lem wit="#ceteri">kārakam</lem><rdg wit="#N3 #V19">kāraṇaṃ</rdg></app>/</s></l>
+<l> <s type="pada">vicitraguṇa<app><lem wit="#J7 #P15 #V15 #Jyo">sandhāyi</lem><rdg wit="#N3 #V3 #N23 #V1 #J10">sandhāyī</rdg><rdg wit="#C6">saṃdhāya</rdg><rdg wit="#V19">saṃdhoyi</rdg><rdg wit="#C7">saṃjñopi</rdg><rdg wit="#K3">karmopi</rdg></app></s> <s type="pada">pūjyate <app><lem wit="#ceteri">yogi</lem><rdg wit="#P15">yoga</rdg><rdg wit="#K3 #C7">muni</rdg></app>puṅgavaiḥ//</s></l> 
+</lg>
+ <note type="avataranika" target="#hp02_024"> <app><lem wit="#N3 #J5 #C6 #Gr2 #V1 #Jyo">tatra</lem><rdg wit="#V3 #C7 #J10">atha</rdg><rdg wit="#V15">atha tatra</rdg><rdg wit="#K3">ādau</rdg></app> <app><lem wit="#V1 #J10 #Jyo">dhautiḥ</lem><rdg wit="#N3 #J5 #V3 #Gr2 #K3 #C7 #V15">dhautī</rdg><rdg wit="#C6">dhautikā</rdg></app>/ <note type="omission">Stanza omitted in <ref>V19,P15</ref></note>
+ </note>
+ 
+<lg xml:id="hp02_024">
+ <l> <s type="pada"><app><lem wit="#ceteri">caturaṅgula</lem><rdg wit="#K3">caturaṅguli</rdg><rdg wit="#J10">caturāṃgula</rdg><rdg wit="#V19">caturaṃlu</rdg><rdg wit="#N3">+ + + gula</rdg></app><app><lem wit="#ceteri">vistāraṃ</lem><rdg wit="#V15">vistīrṇaṃ</rdg></app></s><note type="myfn"><ref target="#C6,V3,J10,Jyo"/> adds here: <s xml:lang="sa-deva">hastapañcadaśena tu</s> (°<s xml:lang="sa-deva">daśāyataṃ</s> <ref target="#Jyo"/>) <s xml:lang="sa-deva">gurūpadiṣṭamārgeṇa</s> (<s xml:lang="sa-deva">gurūpadeśa</s>° <ref target="#C6"/>).</note>
+ <s type="pada"><app><lem wit="#ceteri">siktaṃ</lem><rdg wit="#K3 #C7">sitaṃ</rdg><rdg wit="#V15">sita</rdg><rdg wit="#P15">śaktaṃ</rdg></app> vastraṃ śanair graset/</s></l>
+<l> <s type="pada"><app><lem wit="#ceteri">tataḥ</lem><rdg wit="#Gr3a #Jyo">punaḥ</rdg></app> pratyā<app><lem wit="#ceteri"><seg type="deva-ignore">pratyā</seg>hare<seg type="deva-ignore">c</seg></lem><rdg wit="#V3">°hārec</rdg><rdg wit="#V1">°haraṃ</rdg></app><app><lem wit="#ceteri"><seg type="ltn-ignore">c </seg>caita<seg type="deva-ignore">d</seg></lem><rdg wit="#N3 #Gr3a">etad</rdg></app></s><s type="pada"><app><lem wit="#G4 #V1"><seg type="ltn-ignore">d </seg>udgāraṃ</lem><rdg wit="#V15 #J10 #Jyo">uditaṃ</rdg><rdg wit="#Gr2">utthānaṃ</rdg><rdg wit="#V3">ukhālatā</rdg><rdg wit="#J5 #P15">uṣālaṃ</rdg><rdg wit="#N3">husvāla</rdg><rdg wit="#C6">prakṣālyaṃ</rdg><rdg wit="#K3 #C7">abhyāsād</rdg><rdg wit="#V19">abhyāsa</rdg></app> dhautikarma <app><lem wit="#C6 #Gr2 #V15 #V1 #Jyo">tat</lem><rdg wit="#V3">°taḥ</rdg><rdg wit="#N3 #P15 #J10">°kṛt</rdg><rdg wit="#Gr3a">°vit</rdg></app>//</s></l> 
+</lg>
+ 
+<lg xml:id="hp02_025">
+ <l> <s type="pada"><app><lem wit="#ceteri">kāsaśvāsa</lem><rdg wit="#J10">śvāsaḥ kāśaḥ</rdg></app><app><lem wit="#ceteri">plīha</lem><rdg wit="#V1">plihā</rdg></app><app><lem wit="#N3 #V3 #Gr3a #V15 #J10 #Jyo">kuṣṭhaṃ</lem><rdg wit="#C6 #Gr2 #P15 #V1">kuṣṭha</rdg></app></s> <s type="pada"><app><lem wit="#ceteri">kapha</lem><rdg wit="#P15">śleṣmā</rdg></app><app><lem wit="#ceteri">rogāś ca</lem><rdg wit="#C7">rogaś ca</rdg><rdg wit="#N23">rogāṃś ca</rdg></app> <app><lem wit="#ceteri">viṃśatiḥ</lem><rdg wit="#V3 #J7">viṃśati</rdg><rdg wit="#K3 #C7">vidradhiḥ</rdg></app>/</s></l>
+<l> <s type="pada"><app><lem wit="#ceteri">dhauti</lem><rdg wit="#N3 #V3 #Gr3a">dhautī</rdg><rdg wit="#V15">dhauta</rdg></app>karma<app><lem wit="#ceteri">prabhāvena</lem><rdg wit="#C6">prasādena</rdg></app></s> <s type="pada"><app><lem wit="#G4 #V3 #P15">dhāvanty eva</lem><rdg wit="#J5">dhāvaṃte ca</rdg><rdg wit="#V1">dhāvaty eva</rdg><rdg wit="#N3">bhavanty eva</rdg><rdg wit="#P11 #C6 #Gr2 #Gr3a #Jyo">prayānty eva</rdg><rdg wit="#J10">śudhyanty eva</rdg><rdg wit="#V15">naśyante nā°</rdg></app> <app><lem wit="#ceteri">na</lem><rdg wit="#V15">°tra</rdg></app> saṃśayaḥ//</s><anchor xml:id="VuII25"/></l> 
+</lg>
+ <note type="avataranika" target="#hp02_026"> <app><lem wit="#ceteri">atha</lem><rdg wit="#V19 #K3"><seg type="deva-ignore"><gap reason="om."/></seg></rdg></app> <app><lem wit="#N3 #Gr2 #V1">bastikarma</lem><rdg wit="#C6 #V15">vastīkarma</rdg><rdg wit="#P15">bastinīkarma</rdg><rdg wit="#K3 #C7">vastī</rdg><rdg wit="#V3 #J10">basti</rdg><rdg wit="#Jyo">vastiḥ</rdg><rdg wit="#V19"><seg type="deva-ignore"><gap reason="om."/></seg></rdg></app>/ <note type="omission">Stanza omitted in <ref>V19</ref></note>
+</note>
+ 
+<lg xml:id="hp02_026">
+ <l> <s type="pada">nābhi<app><lem wit="#Gr3a #V15 #J10">daghne</lem><rdg wit="#C6 #V3 #Gr2 #P15 #Jyo">daghna</rdg><rdg wit="#N3 #V1">dagdha</rdg></app> jale <app><lem wit="#N3 #V3 #Gr2 #V19 #V1 #J10">pāyu</lem><rdg wit="#C6">pāyuṃ</rdg><rdg wit="#P15 #C7">pāyur</rdg><rdg wit="#Jyo">pāyau</rdg><rdg wit="#K3 #V15">vāyu</rdg></app></s><s type="pada"><app><lem wit="#ceteri">nyastanālo</lem><rdg wit="#V15">nyastālo</rdg></app>tkaṭāsanaḥ/</s></l>
+<l> <s type="pada"><app><lem wit="#ceteri">ādhārā</lem><rdg wit="#C6 #P15">ādhāra</rdg><rdg wit="#V15">apānā</rdg></app>kuñcanaṃ kuryāt</s> <s type="pada"><app><lem wit="#V15 #V1 #J10 #Jyo">kṣālanaṃ</lem><rdg wit="#P11 #N23">prakṣālaṃ</rdg><rdg wit="#V3">pakhālaṃ</rdg><rdg wit="#N3">pākhālaṃ</rdg><rdg wit="#P15">pāṣalaṃ</rdg><rdg wit="#J7">prakhyātaṃ</rdg><rdg wit="#C6">prakṣāled</rdg><rdg wit="#Gr3a">apānād</rdg></app> <app><lem wit="#ceteri">bastikarma tat</lem><rdg wit="#J7">bastikarma &lt;&lt;ta&gt;&gt;t</rdg><rdg wit="#V19 #K3">vastikarmavit</rdg><rdg wit="#C7">_ _ vastivit</rdg></app>//</s></l> 
+</lg>
+ 
+<lg xml:id="hp02_027">
+ <l> <s type="pada">gulmaplīhodaraṃ cāpi</s> <s type="pada">vātapittakapho<app><lem wit="#ceteri"><seg type="ltn-ignore">d</seg>bhavāḥ</lem><rdg wit="#N3 #C7">bhavaḥ</rdg><rdg wit="#V3 #J10">bhavaṃ</rdg></app>/</s></l>
+<l> <s type="pada"><app><lem wit="#ceteri">basti</lem><rdg wit="#V3">vastī</rdg></app>karmaprabhāvena</s> <s type="pada"><app><lem wit="#N3 #C6 #Gr2 #Gr3a">vāryante</lem><rdg wit="#P15">dhāryante</rdg><rdg wit="#V15">śīryante</rdg><rdg wit="#V3 #J10 #Jyo">kṣīyante</rdg><rdg wit="#V1">jāyate</rdg></app> <app><lem wit="#ceteri">sakalāmayāḥ</lem><rdg wit="#V3 #Gr2 #J10">sakalā malāḥ</rdg></app>//</s></l> 
+</lg>
+ 
+<lg xml:id="hp02_028">
+ <l> <s type="pada">dhātvindriyāntaḥ<app><lem wit="#ceteri">karaṇa</lem><rdg wit="#N23 #C7 #V15ac">karaṇaṃ</rdg></app><app><lem wit="#ceteri">prasādaṃ</lem><rdg wit="#V19">prasādanaṃ</rdg></app></s></l>
+<l> <s type="pada">dadyāc ca <app><lem wit="#ceteri">kāntiṃ</lem><rdg wit="#V3">kānti</rdg><rdg wit="#N23">kābhiṃ</rdg></app> dahana<app><lem wit="#ceteri">pradīptim</lem><rdg wit="#P15">pradīptaṃ</rdg><rdg wit="#V3">pradiptaṃ</rdg><rdg wit="#V19">pradīpanaṃ</rdg></app>/</s></l>
+<l> <s type="pada">aśeṣa<app><lem wit="#ceteri">doṣopacayaṃ</lem><rdg wit="#V3">doṣāpacayaṃ</rdg><rdg wit="#V19">doṣaprabhavaṃ</rdg></app> nihanyā</s>-</l>
+<l> <s type="pada"><app><lem wit="#ceteri"><seg type="ltn-ignore">d </seg>abhyasya</lem><rdg wit="#V1">abhyāsa</rdg><rdg wit="#K3">abhyasa</rdg></app>mānaṃ <app><lem wit="#ceteri">jala</lem><rdg wit="#J10">ja</rdg></app>basti<app><lem wit="#ceteri">karma</lem><rdg wit="#V19"><seg type="deva-ignore"><gap reason="om."/></seg></rdg></app>//</s></l> 
+</lg>
+ 
+<lg xml:id="hp02_029">
+ <l><app><lem/><rdg wit="#V3 #P15 #V15 #V1 #J10">found after <ptr target="#VuII25"/></rdg><rdg wit="#Jyo">found after 2.38</rdg><rdg wit="#V19 #K3"><seg type="deva-ignore"><gap reason="om."/></seg></rdg></app><s type="pada">udaragatapadārtha<app><lem wit="#N3 #P11 #V3"><seg type="ltn-ignore">m </seg>udvamantī</lem><rdg wit="#Jyo">udvamanti</rdg><rdg wit="#P15 #V15">udvamante</rdg><rdg wit="#J10">udvavantī</rdg><rdg wit="#Gr2 #V1">udvahantī</rdg><rdg wit="#C6">udvahanti</rdg></app></s></l>
+<l> <s type="pada">pavanam apānam udīrya kaṇṭha<app><lem wit="#ceteri">nāle</lem><rdg wit="#V3">nālet</rdg></app>/</s></l>
+<l> <s type="pada"><app><lem wit="#N3 #C6 #Gr2 #V1 #Jyo">kramaparicayavaśya</lem><rdg wit="#V15">kramaparicitavaśya</rdg><rdg wit="#P15">kramaparijitavaśya</rdg><rdg wit="#V3 #J10">karibhir iva jalasya</rdg></app><app><lem resp="ego">vāyumārgā<seg type="deva-ignore">d</seg></lem><rdg wit="#N3">vāyumārgā</rdg><rdg wit="#V15">vāyumārgo</rdg><rdg wit="#P15">vāyuḥ|go</rdg><rdg wit="#V1">vāyuryo</rdg><rdg wit="#C6 #J7">nāḍīmārgā</rdg><rdg wit="#Jyo">nāḍicakrā</rdg><rdg wit="#N23">mārga</rdg><rdg wit="#V3 #J10">vāyuvegāt</rdg></app>-</s></l>
+<l> <s type="pada"><app><lem wit="#J7 #V15 #V1 #Jyo"><seg type="ltn-ignore">d </seg>gajakaraṇīti</lem><rdg wit="#N23">gajakaraṇī _</rdg><rdg wit="#N3">gajakarṇiti</rdg><rdg wit="#P15">gajakaṇīti</rdg><rdg wit="#C6">gajakariṇīti</rdg><rdg wit="#J10">jalakariṇīti</rdg><rdg wit="#V3">jalagajakaraṇī</rdg></app> nigadyate haṭhajñaiḥ//</s> <note type="omission">Stanza omitted in <ref>Gr3a</ref></note>
+</l> 
+</lg>
+ <note type="avataranika" target="#hp02_030"> <app><lem wit="#ceteri">atha</lem><rdg wit="#K3"><seg type="deva-ignore"><gap reason="om."/></seg></rdg></app> <app><lem wit="#J7 #Jyo">netiḥ</lem><rdg wit="#V1">neti</rdg><rdg wit="#V3 #N23 #K3">netī</rdg><rdg wit="#N3">nītiḥ</rdg><rdg wit="#J5 #C7">nītī</rdg><rdg wit="#C6">netīkarma</rdg><rdg wit="#V15 #J10">netikarma</rdg><rdg wit="#V19 #P15"><seg type="deva-ignore"><gap reason="om."/></seg></rdg></app>/ <note type="omission">Stanza omitted in <ref>V19,P15</ref></note>
+ </note>
+ 
+<lg xml:id="hp02_030">
+ <l> <s type="pada">sūtraṃ vitasti<app><lem wit="#ceteri">susnigdhaṃ</lem><rdg wit="#N3">sustabdhaṃ</rdg></app></s> <s type="pada"><app><lem wit="#ceteri">nāsānāle</lem><rdg wit="#V1">nāśānābhe</rdg></app> praveśayet/</s></l>
+<l> <s type="pada"><app><lem wit="#N3 #V3 #Gr3a #Jyo">mukhān nirgamaye<seg type="deva-ignore">c</seg></lem><rdg wit="#J7 #P15">mukhā nirgamayec</rdg><rdg wit="#C6">mukhe nirgamayec</rdg><rdg wit="#N23">mukhaś ca nirgamec</rdg><rdg wit="#V15">mukhān nirgamanād</rdg><rdg wit="#V1 #J10">mukhanirgamanād</rdg></app><app><lem wit="#ceteri"><seg type="ltn-ignore">c </seg>caiṣā</lem><rdg wit="#K3 #C7">sā hi</rdg><rdg wit="#V19">sāpi</rdg><rdg wit="#V1 #J10">eva</rdg></app></s> <s type="pada"><app><lem wit="#J7 #J10 #Jyo">netiḥ</lem><rdg wit="#C6 #N23 #V1">neti</rdg><rdg wit="#N3">nīti</rdg><rdg wit="#P15">niti</rdg><rdg wit="#V3 #V19 #K3 #V15">netī</rdg><rdg wit="#C7">nītī</rdg></app> <app><lem wit="#ceteri">siddhai<seg type="deva-ignore">r</seg></lem><rdg wit="#P15">siddher</rdg><rdg wit="#N23">siddhir</rdg><rdg wit="#V15">siddhau</rdg></app>r nigadyate//</s></l> 
+</lg>
+ 
+<lg xml:id="hp02_031">
+ <l> <s type="pada">kapāla<app><lem wit="#ceteri">śodhanī</lem><rdg wit="#C6 #Jyo">śodhinī</rdg><rdg wit="#J10">śodhanā</rdg><rdg wit="#C7">śodhanaṃ</rdg></app> <app><lem wit="#C6 #Gr2 #Gr3a #Jyo">caiva</lem><rdg wit="#P15">kaṃṭhyā</rdg><rdg wit="#V15">kaṃṭhād</rdg><rdg wit="#J5 #G4">kaṃṭhā</rdg><rdg wit="#N3">vaṭyā</rdg><rdg wit="#V3">kavyā</rdg><rdg wit="#V1 #J10">kāryā</rdg></app></s> <s type="pada">divyadṛṣṭi<app><lem wit="#ceteri">pradāyinī</lem><rdg wit="#N23">pradāyanī</rdg></app>/</s></l>
+<l> <s type="pada"><app><lem wit="#N3 #J5">hanūrdhva</lem><rdg wit="#C6 #P15 #Jyo">jatrūrdhva</rdg><rdg wit="#V3">jatrūrdhvaṃ</rdg><rdg wit="#V15">jantūrdhva</rdg><rdg wit="#J7">jatūrdhvaṃ</rdg><rdg wit="#N23">ja {_} ddha</rdg><rdg wit="#Gr3a #V1">jānūrdhva</rdg><rdg wit="#J10">yattūrdhva</rdg></app>jāta<app><lem wit="#N3 #C6 #V3 #Gr2 #V15 #Jyo">rogaughaṃ</lem><rdg wit="#V1">rogaugha</rdg><rdg wit="#J10">rogaughā</rdg><rdg wit="#Gr3a">rogaughān</rdg><rdg wit="#P15">rogaghnaṃ</rdg></app></s> <s type="pada"><app><lem resp="ego">jayaty āśu tu sūtrikā</lem><rdg wit="#V1">jayati sā tu sūtrikā</rdg><rdg wit="#N3">jayety āśu satī niti</rdg><rdg wit="#J7">jayaty āśu satī neti</rdg><rdg wit="#N23">jayabhyāśca satī natī</rdg><rdg wit="#P15">jayaty āsuṃ nitī satī</rdg><rdg wit="#C6">jayaty āśu sunetikā</rdg><rdg wit="#Gr3a">jayaty āśu sa netivit</rdg><rdg wit="#V15">netī jayati satvaraṃ</rdg><rdg wit="#V3 #J10 #Jyo">netir āśu nihanti ca</rdg></app>//</s></l> 
+</lg>
+ <note type="avataranika" target="#hp02_032"> <app><lem wit="#ceteri">atha</lem><rdg wit="#P15">a</rdg><rdg wit="#V19"><seg type="deva-ignore"><gap reason="om."/></seg></rdg></app> <app><lem wit="#N3 #C6 #N23 #K3 #C7 #P15 #V15 #J10 #Jyo">trāṭakam</lem><rdg wit="#V3">trāṭaka</rdg><rdg wit="#V1">trāṭam</rdg><rdg wit="#J7">ttrayakaṃ</rdg><rdg wit="#V19"><seg type="deva-ignore"><gap reason="om."/></seg></rdg></app>/ <note type="omission">Stanza omitted in <ref>V19</ref></note>
+</note>
+ 
+<lg xml:id="hp02_032">
+ <l> <s type="pada"><app><lem wit="#ceteri">nirīkṣe<seg type="deva-ignore">n</seg></lem><rdg wit="#P15">nirīkṣye</rdg><rdg wit="#J10">nirīkṣya</rdg></app><app><lem wit="#ceteri"><seg type="ltn-ignore">n </seg>niścala</lem><rdg wit="#N23">niścalā</rdg><rdg wit="#V19">nirmala</rdg></app><app><lem wit="#ceteri">dṛśā</lem><rdg wit="#J10">dṛṣṭyā</rdg></app></s> <s type="pada"><app><lem wit="#ceteri">sūkṣma</lem><rdg wit="#V19 #V15 #J10">sūkṣmaṃ</rdg></app><app><lem wit="#Gr3a #J10 #Jyo">lakṣyaṃ</lem><rdg wit="#C6 #V3 #Gr2 #V15">lakṣaṃ</rdg><rdg wit="#N3 #V1">lakṣa</rdg><rdg wit="#P15">lakṣmaṃ</rdg></app> samāhitaḥ/</s></l>
+<l> <s type="pada">aśrusaṃpātaparyanta</s><s type="pada"><app><lem wit="#ceteri"><seg type="ltn-ignore">m </seg>ācāryai<seg type="deva-ignore">s</seg></lem><rdg wit="#J7">āryais</rdg><rdg wit="#K3 #C7">āryais tu</rdg><rdg wit="#V1">ācaret</rdg><rdg wit="#V19">toṭakaṃ</rdg></app><app><lem wit="#N3 #J5 #P11 #K3 #C7"><seg type="ltn-ignore">s </seg>trāṭakaṃ mataṃ</lem><rdg wit="#C6 #V3 #Gr2 #V1 #J10 #Jyo">trāṭakaṃ smṛtam</rdg><rdg wit="#V15">trāṭikaṃ smṛtaṃ</rdg><rdg wit="#P15">troṭakaṃ smṛtaṃ</rdg><rdg wit="#V19">yogināṃ mataṃ</rdg></app>//</s></l> 
+</lg>
+ 
+<lg xml:id="hp02_033">
+ <l> <s type="pada"><app><lem wit="#K3 #V1">moṭakaṃ</lem><rdg wit="#P11">meṭakaṃ</rdg><rdg wit="#C7">moṭanaṃ</rdg><rdg wit="#N3">modakaṃ</rdg><rdg wit="#Gr2 #Jyo">mocanaṃ</rdg><rdg wit="#J5 #P15 #V15">mocakaṃ</rdg><rdg wit="#G4">mohanaṃ</rdg><rdg wit="#V19">toṭakaṃ</rdg><rdg wit="#C6">trāṭakaṃ</rdg><rdg wit="#V3 #J10">sphoṭanaṃ</rdg></app> netrarogāṇāṃ</s> <s type="pada"><app><lem wit="#ceteri">tandrādīnāṃ</lem><rdg wit="#V3 #N23">tandrādināṃ</rdg><rdg wit="#J10">tandrāṇāṃ ca</rdg><rdg wit="#C7">nidrādīnāṃ</rdg><rdg wit="#K3">netrādīnāṃ</rdg></app> <app><lem wit="#ceteri">kapāṭakam</lem><rdg wit="#N3">kavāṭaka</rdg><rdg wit="#V15">ca pāṭakaṃ</rdg><rdg wit="#P15">ca pāṭavaṃ</rdg><rdg wit="#V19">ca pāṭanaṃ</rdg><rdg wit="#V1">gapāṭa[ka]m</rdg></app>/</s></l>
+<l> <s type="pada"><app><lem wit="#N3 #C6 #Gr2 #P15 #V15 #Jyo">yatnata<seg type="deva-ignore">s</seg></lem><rdg wit="#V3 #J10">prayatnāt</rdg><rdg wit="#V1">prayatnatas</rdg><rdg wit="#Gr3a">etac ca</rdg></app></s><s type="pada"><app><lem wit="#ceteri"><seg type="ltn-ignore">s </seg>trāṭakaṃ</lem><rdg wit="#V19">toṭakaṃ</rdg><rdg wit="#P15">tuṭakaṃ</rdg></app> gopyaṃ yathā hāṭakapeṭakam//</s></l> 
+</lg>
+ <note type="avataranika" target="#hp02_034"> atha <app><lem wit="#C6 #V3 #J7 #V1">naulī</lem><rdg wit="#N23">naurī</rdg><rdg wit="#Jyo">nauliḥ</rdg><rdg wit="#P15">naukuli</rdg><rdg wit="#K3">nākulī</rdg><rdg wit="#N3">laulī</rdg><rdg wit="#C7">nīlī</rdg><rdg wit="#V15">naulīkarmma</rdg><rdg wit="#J10">neulīkarmma</rdg><rdg wit="#V19"><seg type="deva-ignore"><gap reason="om."/></seg></rdg></app>/ <note type="omission">Stanza omitted in <ref>V19</ref></note>
+ </note>
+ 
+<lg xml:id="hp02_034">
+ <l> <s type="pada"><app><lem wit="#ceteri">amandā</lem><rdg wit="#J7">amandya</rdg><rdg wit="#V3 #V15">āmandā</rdg><rdg wit="#V1">āmanda</rdg></app><app><lem wit="#ceteri">varta</lem><rdg wit="#P15">vatta</rdg><rdg wit="#V1">cakra</rdg></app><app><lem wit="#ceteri">vegena</lem><rdg wit="#C7">yogena</rdg></app></s> <s type="pada"><app><lem wit="#V3 #J7 #V15 #Jyo">tundaṃ</lem><rdg wit="#N23">tunduṃ</rdg><rdg wit="#J10">tundat</rdg><rdg wit="#P15">tuṃḍaṃ</rdg><rdg wit="#N3 #C6">tudaṃ</rdg><rdg wit="#K3 #C7">tunde</rdg><rdg wit="#V19">tulyaṃ</rdg><rdg wit="#V1">gudaṃ</rdg></app> savyāpa<app><lem wit="#ceteri">savyataḥ</lem><rdg wit="#Gr3a">savyayoḥ</rdg></app>/</s></l>
+<l> <s type="pada"><app><lem wit="#J7 #Gr3a #P15 #V1 #Jyo">natāṃso</lem><rdg wit="#N3">natāso</rdg><rdg wit="#C6">natāṃśur</rdg><rdg wit="#N23">naśnātso</rdg><rdg wit="#V3">satāṃśo</rdg><rdg wit="#V15 #J10">śataśo</rdg></app> <app><lem wit="#C6 #J7 #K3 #V15 #V1 #J10 #Jyo">bhrāmaye<seg type="deva-ignore">d</seg></lem><rdg wit="#N3 #V3 #C7 #P15">bhramayed</rdg><rdg wit="#V19">bhyasayed</rdg><rdg wit="#N23">bhāmayad</rdg></app><app><lem wit="#ceteri"><seg type="ltn-ignore">d </seg>eṣā</lem><rdg wit="#V15">oṣā</rdg></app></s> <s type="pada"><app><lem wit="#ceteri">naulī</lem><rdg wit="#Jyo">nauliḥ</rdg><rdg wit="#N3">laulī</rdg><rdg wit="#V1">loke</rdg></app> <app><lem wit="#J7">gauḍaiḥ</lem><rdg wit="#N23">gauḍīḥ</rdg><rdg wit="#N3 #C6 #J10">gaulaiḥ</rdg><rdg wit="#V1">gaulī</rdg><rdg wit="#P15">gaulīḥ</rdg><rdg wit="#V3">maulaiḥ</rdg><rdg wit="#Jyo">siddhaiḥ</rdg><rdg wit="#V19 #K3 #V15">yoge</rdg><rdg wit="#C7">yogaḥ</rdg></app> <app><lem wit="#N3 #C6 #V3 #Gr2 #P15 #V1 #J10 #Jyo">praśasyate</lem><rdg wit="#Gr3a">pracakṣate</rdg><rdg wit="#V15">pradṛśyate</rdg></app>//</s></l> 
+</lg>
+ 
+<lg xml:id="hp02_035">
+ <l> <s type="pada"><app><lem resp="ego">tundāgni</lem><rdg wit="#C6 #P15">tuṃḍāgni</rdg><rdg wit="#N3">tuṃdāṣṭi</rdg><rdg wit="#J5">tuṃddaṣṭi</rdg><rdg wit="#V3 #Gr2 #Gr3a #V15 #V1 #J10 #Jyo">mandāgni</rdg></app>saṃdīpana<app><lem wit="#N3 #C6 #V3 #J7 #V19 #V15 #Jyo">pācanādi</lem><rdg wit="#N23 #V1">pāvanādi</rdg><rdg wit="#P15">pācanāni</rdg><rdg wit="#K3">pācanāgniḥ</rdg><rdg wit="#C7">pāvanāgniḥ</rdg><rdg wit="#J10">pāvakādi</rdg></app></s>-</l>
+<l><s type="pada"><app><lem wit="#C6 #Gr2 #V19 #Jyo">sandhāyikā</lem><rdg wit="#N3 #V3 #V15 #V1 #J10">sandhāyakā</rdg><rdg wit="#K3">sandhādhikā</rdg><rdg wit="#C7">sandādhikā</rdg><rdg wit="#P15">saṃdāyikā</rdg></app>nandakarī <app><lem wit="#ceteri">sadaiva</lem><rdg wit="#Gr3a">tathaiva</rdg></app>/</s></l>
+<l> <s type="pada">aśeṣa<app><lem wit="#ceteri">doṣāmaya</lem><rdg wit="#V3 #V1 #J10">doṣāmala</rdg></app><app><lem wit="#N3 #C6 #V3 #K3 #C7 #P15 #V15 #J10 #Jyo">śoṣaṇī</lem><rdg wit="#V19 #V1">śoṣiṇī</rdg><rdg wit="#N23">śodhaṇī</rdg><rdg wit="#J7">śodhinī</rdg></app> <app><lem wit="#ceteri">ca</lem><rdg wit="#C7 #V1 #J10">va</rdg><rdg wit="#N23">yā</rdg></app></s></l>
+<l> <s type="pada">haṭhakriyā<app><lem wit="#N3 #C6 #Gr2 #Jyo">maulir iyaṃ ca</lem><rdg wit="#Gr3a #V15">maulir iyaṃ hi</rdg><rdg wit="#P15 #V1">mūlam iyaṃ hi</rdg><rdg wit="#J10">sau jayatīha</rdg><rdg wit="#V3">jayatīha</rdg></app> <app><lem wit="#C6 #V3 #N23 #Gr3a #V1 #J10">naulī</lem><rdg wit="#J7 #P15 #Jyo">nauliḥ</rdg><rdg wit="#N3">laulī</rdg><rdg wit="#V15">lauliḥ</rdg></app>//</s></l> 
+</lg>
+ <note type="avataranika" target="#hp02_036"> <app><lem wit="#N3 #C6 #V3 #Gr2 #C7 #P15 #V1 #Jyo">atha</lem><rdg wit="#V19 #K3 #V15 #J10"><seg type="deva-ignore"><gap reason="om."/></seg></rdg></app> <app><lem wit="#C6 #Gr2 #C7 #V1">kapālabhātī</lem><rdg wit="#N3 #P15">kapālabhāti</rdg><rdg wit="#K3">kapālabhautī</rdg><rdg wit="#Jyo">kapālabhātiḥ</rdg><rdg wit="#V15">kapālabhātikarma</rdg><rdg wit="#J10">kapālabhāthīkarma</rdg><rdg wit="#V3">bhāthī</rdg><rdg wit="#V19"><seg type="deva-ignore"><gap reason="om."/></seg></rdg></app>/ <note type="omission">Stanza omitted in <ref>V19</ref></note>
+ </note>
+ 
+<lg xml:id="hp02_036">
+ <l> <s type="pada"><app><lem wit="#N3 #J7 #N19 #V15 #Jyo">bhastrāva<seg type="deva-ignore">l</seg></lem><rdg wit="#N23">bhastrāhaval</rdg><rdg wit="#V3">bhastrāva</rdg><rdg wit="#C6 #Gr3a">bhastreva</rdg><rdg wit="#V1">[bha]strarīva</rdg><rdg wit="#J10">lohakārasya</rdg></app><app><lem wit="#ceteri"><seg type="ltn-ignore">l </seg>lohakārasya</lem><rdg wit="#Gr3a">lohakārāṇaṃ</rdg><rdg wit="#J10">bhastrīvat</rdg></app></s> <s type="pada"><app><lem wit="#ceteri">recapūrau</lem><rdg wit="#N3">recapūro</rdg><rdg wit="#V1">recapūra</rdg><rdg wit="#K3">recapūraiḥ</rdg><rdg wit="#J10">kuryāt savyā</rdg></app> <app><lem wit="#C6 #P11 #Gr2 #V19 #C7 #Jyo">sasaṃbhramau</lem><rdg wit="#N3 #J5 #V3 #N19 #V15 #V1">susaṃbhramau</rdg><rdg wit="#K3">susaṃbhramaiḥ</rdg><rdg wit="#J10">pasavyataḥ</rdg></app>/</s></l>
+<l> <s type="pada">kapāla<app><lem wit="#C6 #V3 #J7 #Gr3a #V1">bhātī</lem><rdg wit="#N3 #N23">bhāti</rdg><rdg wit="#N19 #V15 #Jyo">bhātir</rdg><rdg wit="#J10">bhāthī</rdg></app> <app><lem wit="#ceteri">vikhyātā</lem><rdg wit="#V19">vijñeyā</rdg><rdg wit="#N19 #V15">ity eṣā</rdg></app></s> <s type="pada"><app><lem wit="#N3 #C6 #Gr2 #N19 #V15 #V1 #Jyo">kaphadoṣa</lem><rdg wit="#Gr3a">kaphaśoṣa</rdg><rdg wit="#V3 #J10">kaphāmaya</rdg></app><app><lem wit="#N3 #N19 #V1">viśoṣiṇī</lem><rdg wit="#V3 #Gr2 #V15 #J10 #Jyo">viśoṣaṇī</rdg><rdg wit="#C6">viśodhinī</rdg><rdg wit="#Gr3a">visarpiṇī</rdg></app>//</s> <note type="omission">Stanza omitted in <ref>P15</ref></note>
+</l> 
+</lg>
+ 
+<lg xml:id="hp02_037">
+ <l> <s type="pada">ṣaṭkarma<app><lem wit="#N3 #C6 #V3 #Gr2 #P15 #J10">bhir gata</lem><rdg wit="#J7">bhir gataṃ</rdg><rdg wit="#Gr3a #V15 #V1 #Jyo">nirgata</rdg></app><app><lem wit="#ceteri">sthaulya</lem><rdg wit="#V1 #J10">sthaulyaṃ</rdg><rdg wit="#J7">sthaulyaḥ</rdg></app></s><s type="pada">kapha<app><lem wit="#ceteri">medo</lem><rdg wit="#C7 #V1">bhedo</rdg><rdg wit="#Jyo">doṣa</rdg></app><app><lem wit="#N3 #C6 #V3 #P15 #V15 #Jyo">malādikaḥ</lem><rdg wit="#K3">malādikāḥ</rdg><rdg wit="#V19">malādhikaḥ</rdg><rdg wit="#C7">calādhikaḥ</rdg><rdg wit="#J10">balādhikaḥ</rdg><rdg wit="#V1">malādhike</rdg><rdg wit="#N23">malodgitaḥ</rdg><rdg wit="#J7">malojitaḥ</rdg></app>/</s></l>
+<l> <s type="pada">prāṇāyāmaṃ tataḥ kuryād</s> <s type="pada">anāyāsena <app><lem wit="#ceteri">sidhyati</lem><rdg wit="#N3 #V3 #V19">śudhyati</rdg></app>//</s></l> 
+</lg>
+ 
+<lg xml:id="hp02_038">
+ <l> <s type="pada"><app><lem wit="#N3 #C6 #V3 #Gr2 #Gr3a #Jyo">prāṇāyāmair eva</lem><rdg wit="#J10">prāṇāyāmaiḥ sukhāt</rdg><rdg wit="#P15 #V15 #V1">prāṇāyāmena vai</rdg></app> <app><lem wit="#ceteri">sarve</lem><rdg wit="#K3 #C7">sarvaiḥ</rdg></app></s> <s type="pada"><app><lem wit="#ceteri">praśuṣyanti</lem><rdg wit="#V19">praśukhyanti</rdg><rdg wit="#J10">praśuddhyati</rdg></app> <app><lem wit="#N3 #C6 #Gr2 #K3 #C7 #Jyo">malā iti</lem><rdg wit="#V19 #P15 #V15">malā api</rdg><rdg wit="#V1">malāṃnapi</rdg><rdg wit="#V3">malāśayā</rdg><rdg wit="#J10">malāśayaḥ</rdg></app>/</s></l>
+<l> <s type="pada">ācāryāṇāṃ <app><lem wit="#ceteri">tu</lem><rdg wit="#V15">ca</rdg></app> keṣāṃci</s><s type="pada"><app><lem wit="#ceteri"><seg type="ltn-ignore">d </seg>anyat karma</lem><rdg wit="#N3 #N23 #K3 #C7">anyakarma</rdg></app> na saṃmatam//</s></l> 
+</lg>
+ 
+<lg xml:id="hp02_039">
+ <l> <s type="pada">brahmādayo’pi tridaśāḥ</s> <s type="pada">pavanābhyāsatatparāḥ/</s> <note type="omission">ab omitted in <ref>J10</ref></note>
+<note type="myfn"><ref target="#J10"/> has instead: <s xml:lang="sa-deva">ṣaṭkarmayogam āpnoti pavanābhyāsatatparaḥ</s>.</note>
+</l>
+<l> <s type="pada"><app><lem wit="#N3 #C6 #V3 #J7 #P15 #Jyo">abhūvann antaka</lem><rdg wit="#N23">abhavan taṃtaka</rdg><rdg wit="#J10">sumanaskāntako</rdg><rdg wit="#V1">samanaskāntaka</rdg></app><app><lem wit="#N3 #C6 #V3 #Gr2 #P15 #Jyo">bhayā<seg type="deva-ignore">t</seg></lem><rdg wit="#V1">bhayāṃt</rdg><rdg wit="#J10">bhavyas</rdg></app>t</s> <s type="pada">tasmā<app><lem wit="#N3 #C6 #V3 #Gr2 #P15 #J10 #Jyo"><seg type="ltn-ignore">t </seg>pavana<seg type="deva-ignore">m</seg></lem><rdg wit="#V1">praṇavam</rdg></app>m abhyaset//</s> <note type="omission">cd omitted in <ref>Gr3a,V15</ref></note>
+<note type="myfn"><ref target="#Gr3a,V15"/> have instead: <s xml:lang="sa-deva">tena siddhiṃ gatās te ca</s> (<s xml:lang="sa-deva">tu</s> <ref target="#C7"/>) <s xml:lang="sa-deva">tasmāt pavanam abhyaset</s>.</note>
+<anchor xml:id="III39"/></l> 
+</lg>
+ 
+<lg xml:id="hp02_040">
+ <l> <s type="pada">yāvad baddho marud dehe</s> <s type="pada"><app><lem wit="#ceteri">yāvac cittaṃ</lem><rdg wit="#K3 #C7 #V15 #V1">tāvac cittaṃ</rdg></app> <app><lem wit="#ceteri">nirāśrayam</lem><rdg wit="#Gr3a">nirāmayam</rdg><rdg wit="#Jyo">nirākulaṃ</rdg></app>/</s></l>
+<l> <s type="pada"><app><lem wit="#ceteri">yāva<seg type="deva-ignore">d/yāvat</seg></lem><rdg wit="#J10">jāvat</rdg><rdg wit="#P15">yāt</rdg><rdg wit="#V19">yā</rdg></app><app><lem resp="ego"><seg type="ltn-ignore">d </seg>vīkṣā</lem><rdg wit="#N3 #J5">vīkṣed</rdg><rdg wit="#J7">dīkṣe</rdg><rdg wit="#C6">īkṣet</rdg><rdg wit="#N23">icched</rdg><rdg wit="#Gr3a #Jyo">dṛṣṭir</rdg><rdg wit="#V3 #P15 #V15 #V1 #J10">paśyed</rdg></app> bhruvo<app><lem wit="#ceteri"><seg type="ltn-ignore">r </seg>madhye</lem><rdg wit="#N3 #J7 #J10">madhyaṃ</rdg></app></s> <s type="pada">tāva<app><lem wit="#ceteri"><seg type="ltn-ignore">t </seg>kāla</lem><rdg wit="#V1">kālaṃ</rdg><rdg wit="#C7">mṛtyu</rdg></app>bhayaṃ kutaḥ//</s><note type="myfn"><ref target="#V15"/> adds here: <s xml:lang="sa-deva">bahvāmayo pi nāpnoti pavanābhyāsatatparaḥ/ samanaskontakabhayaṃ tasmāt pavanam abhyaset//</s>. Cf. <ptr target="#III39"/>.</note>
+</l> 
+</lg>
+ 
+<lg xml:id="hp02_041">
+ <l> <s type="pada">vidhivat prāṇa<app><lem wit="#ceteri">saṃyāmai<seg type="deva-ignore">r</seg></lem><rdg wit="#J10">saṃyamye</rdg><rdg wit="#V3">saṃyame</rdg></app></s><s type="pada"><app><lem wit="#ceteri"><seg type="ltn-ignore">r </seg>nāḍī</lem><rdg wit="#N3 #V3">nāḍi</rdg><rdg wit="#C6">nārī</rdg></app><app><lem wit="#ceteri">cakre</lem><rdg wit="#J7">cakro</rdg><rdg wit="#P15">cakraṃ</rdg><rdg wit="#N23">krīva</rdg></app> viśodhite/</s></l>
+<l> <s type="pada">suṣumṇāvadanaṃ bhittvā</s> <s type="pada"><app><lem wit="#ceteri">sukhā<seg type="deva-ignore">d</seg></lem><rdg wit="#Gr3a #V1">mukhād</rdg></app>d viśati mārutaḥ//</s></l> 
+</lg>
+ 
+<lg xml:id="hp02_042">
+ <l> <s type="pada"><app><lem wit="#ceteri">mārute</lem><rdg wit="#C6 #V19">māruto</rdg><rdg wit="#K3">maruto</rdg></app> madhyasaṃcāre</s> <s type="pada">manaḥsthairyaṃ prajāyate/</s></l>
+<l> <s type="pada">yo manaḥ<app><lem wit="#ceteri">susthirībhāvaḥ</lem><rdg wit="#N23">susthitā bhāvaḥ</rdg><rdg wit="#C6">sthirībhāva</rdg></app></s> <s type="pada"><app><lem wit="#ceteri">saivā</lem><rdg wit="#C6 #Gr3a">saiṣā</rdg></app>vasthā manonmanī//</s></l> 
+</lg>
+ 
+<lg xml:id="hp02_043">
+ <l> <s type="pada"><app><lem wit="#ceteri">tatsiddhaye</lem><rdg wit="#P15">tatsiddhayo</rdg><rdg wit="#C6">tatsādhana</rdg></app> <app><lem wit="#N3">vidhānajña<seg type="deva-ignore">ś</seg></lem><rdg wit="#Gr2 #P15 #V15 #Jyo">vidhānajñāś</rdg><rdg wit="#V3 #V1">vidhānajñā</rdg><rdg wit="#K3 #C7 #J10">vidhānajño</rdg><rdg wit="#C6">vidhijñās tu</rdg><rdg wit="#V19"><seg type="deva-ignore"><gap reason="om."/> (up to śītkāra in the next verse)</seg></rdg></app></s><s type="pada"><app><lem wit="#ceteri"><seg type="ltn-ignore">ś </seg>citrā<seg type="deva-ignore">n</seg></lem><rdg wit="#K3">viśan</rdg><rdg wit="#C7">viśat</rdg><rdg wit="#V19"><seg type="deva-ignore"><gap reason="om."/></seg></rdg></app><app><lem wit="#K3 #C7"><seg type="ltn-ignore">n </seg>kurvīta</lem><rdg wit="#N23 #J10ac">kurvati</rdg><rdg wit="#ceteri">kurvanti</rdg><rdg wit="#N3">avita</rdg><rdg wit="#V19"><seg type="deva-ignore"><gap reason="om."/></seg></rdg></app> kumbhakān/</s></l>
+<l> <s type="pada"><app><lem wit="#ceteri">vicitrakumbhakābhyāsā<seg type="deva-ignore">d</seg></lem><rdg wit="#N23">kumbhakābhyāsāvvicitrāṃ</rdg><rdg wit="#Gr3a"><seg type="deva-ignore"><gap reason="om."/></seg></rdg></app></s><s type="pada"><app><lem wit="#ceteri"><seg type="ltn-ignore">d </seg>vicitrāṃ siddhim āpnuyāt</lem><rdg wit="#V1">vicitrāṇim āpnuyāt</rdg><rdg wit="#N23">yogisiddhim avāpnuyāt</rdg><rdg wit="#Gr3a"><seg type="deva-ignore"><gap reason="om."/></seg></rdg></app>//</s></l> 
+</lg>
+ <note type="altavataranika" target="#hp02_044"> <hi rend="grey">atha kumbhakabhedāḥ/ <note type="inlineref"><ref>Jyo</ref></note>
+</hi> </note>
+ 
+<lg xml:id="hp02_044">
+ <l> <s type="pada">sūryabhedanam ujjāyī</s> <s type="pada"><app><lem wit="#N3 #G4">tathā śītkā ca śītalī</lem><rdg wit="#ceteri">tathā śītkāraśītalī</rdg><rdg wit="#Jyo">sītkārī śītalī tathā</rdg></app>/</s></l>
+<l><s type="pada"><app><lem wit="#ceteri">bhastrikā</lem><rdg wit="#V19">bhastrī ca</rdg></app> <app><lem wit="#V3 #N23 #K3 #C7 #V15 #V1 #Jyo">bhrāmarī</lem><rdg wit="#N3 #C6 #J7 #V19 #P15 #J10">bhramarī</rdg></app> mūrchā</s> <s type="pada"><app><lem wit="#J7 #P15 #V15">plāvanī</lem><rdg wit="#Jyo">plāvinī</rdg><rdg wit="#N23">prāvatī</rdg><rdg wit="#C6">pratvanī</rdg><rdg wit="#N3 #V3 #J10">kevalaś</rdg><rdg wit="#V1">kevalī</rdg><rdg wit="#Gr3a">sahitāś</rdg></app><app><lem wit="#C6 #Gr2 #P15 #V15 #Jyo"><seg type="deva-ignore">°</seg>ty aṣṭa</lem><rdg wit="#N3 #V3 #Gr3a #V1 #J10">cāṣṭa</rdg></app> <app><lem wit="#ceteri">kumbhakāḥ</lem><rdg wit="#N23">kumbhakaḥ</rdg><rdg wit="#V3">kumbhakā</rdg><rdg wit="#V1">kumbhakān</rdg></app>//</s></l> 
+</lg>
+ 
+<lg xml:id="hp02_045">
+ <l> <s type="pada">pūrakānte tu kartavyo</s> <s type="pada">bandho jālandharā<app><lem wit="#ceteri">bhidhaḥ</lem><rdg wit="#V19 #K3">vidhaḥ</rdg></app>/</s></l>
+<l> <s type="pada">kumbhakānte <app><lem wit="#ceteri">recakādau</lem><rdg wit="#V1">cakādau</rdg></app></s> <s type="pada"><app><lem wit="#ceteri">kartavya<seg type="deva-ignore">s</seg></lem><rdg wit="#J10">kartavyaṃs</rdg></app><app><lem wit="#ceteri"><seg type="ltn-ignore">s </seg>tū<seg type="deva-ignore">°</seg></lem><rdg wit="#N3 #C6 #V3">tu</rdg><rdg wit="#N23">ta</rdg></app><app><lem wit="#J7 #V19 #C7 #J10 #Jyo"><seg type="deva-ignore">°</seg>ḍḍiyānakaḥ</lem><rdg wit="#V3 #P15 #V1">ḍḍiyāṇakaḥ</rdg><rdg wit="#C6 #K3 #V15">ḍiyānakaḥ</rdg><rdg wit="#N3">ḍiyāṇakaḥ</rdg><rdg wit="#N23">hiyānakaḥ</rdg></app>//</s></l> 
+</lg>
+ 
+<lg xml:id="hp02_046">
+ <l> <s type="pada"><app><lem wit="#C6 #V1 #J10 #Jyo">adhastā<seg type="deva-ignore">t</seg></lem><rdg wit="#N3 #V3">adhastā</rdg><rdg wit="#N23">adhasta</rdg><rdg wit="#J7 #P15">adhasthāt</rdg><rdg wit="#V15">adhastvāt</rdg></app><app><lem wit="#ceteri"><seg type="ltn-ignore">t </seg>kuñcanenāśu</lem><rdg wit="#C6">kuṃcanenāsuṃ</rdg><rdg wit="#P15">kuṃjakenāśu</rdg></app></s> <s type="pada">kaṇṭhasaṃkocane kṛte/</s></l>
+<l> <s type="pada"><app><lem wit="#N3 #C6 #J7 #P15 #V15 #V1 #Jyo">madhye</lem><rdg wit="#V3 #N23 #J10">madhya</rdg></app> paścima<app><lem wit="#ceteri">tānena</lem><rdg wit="#N3 #V3 #V1">tāṇena</rdg><rdg wit="#P15">tāṇa</rdg></app></s> <s type="pada"><app><lem wit="#ceteri">syā<seg type="deva-ignore">t</seg></lem><rdg wit="#P15">sthāt</rdg></app>t prāṇo <app><lem wit="#ceteri">brahma</lem><rdg wit="#V3">madhya</rdg></app><app><lem wit="#ceteri">nāḍigaḥ</lem><rdg wit="#P15">nāḍigataḥ</rdg><rdg wit="#C6">nāḍikām</rdg><rdg wit="#N23">nābhirāt</rdg></app>//</s> <note type="memo">= 3.72</note>
+ <note type="omission">Stanza omitted in <ref>Gr3a</ref></note>
+</l> 
+</lg>
+ 
+<lg xml:id="hp02_047">
+ <l> <s type="pada">apānam ūrdhva<app><lem wit="#ceteri"><seg type="ltn-ignore">m </seg>utthāpya</lem><rdg wit="#V19 #V1">āsthāpya</rdg></app></s> <s type="pada">prāṇaṃ kaṇṭhād adho <app><lem wit="#ceteri">nayet</lem><rdg wit="#N23">nayat</rdg><rdg wit="#N3 #P15">nayan</rdg><rdg wit="#V15">jayet</rdg></app>/</s></l>
+<l> <s type="pada">yogī jarā<app><lem wit="#N3 #C6 #V3 #J7 #V19 #K3 #Jyo">vimuktaḥ san</lem><rdg wit="#N23">viyuktaḥ san</rdg><rdg wit="#P15">vimuktaḥ sa</rdg><rdg wit="#V15">vimuktaḥ saḥ</rdg><rdg wit="#C7">vimuktaḥ syāt</rdg><rdg wit="#J10">vimuktaś ca</rdg><rdg wit="#V1">bhimuktaś ca</rdg></app></s> <s type="pada"><app><lem wit="#ceteri">ṣoḍaśo vayasā</lem><rdg wit="#K3 #C7">ṣoḍaśābdavayā</rdg><rdg wit="#J10">ṣoḍaśābdavayo</rdg><rdg wit="#Jyo">ṣoḍaśābdavayā</rdg></app><note type="myfn">Three folios are missing in <ref target="#K3"/> after <s xml:lang="sa-deva">va</s> (up to 3.1c).</note>
+ bhavet//</s></l> 
+</lg>
+ <note type="avataranika" target="#hp02_048"> <app><lem wit="#V3 #V1 #J10">atha</lem><rdg wit="#N3 #C6 #Gr2">tatra</rdg><rdg wit="#V15">atha tatra</rdg><rdg wit="#V19 #C7 #P15 #Jyo"><seg type="deva-ignore"><gap reason="om."/></seg></rdg></app> <app><lem wit="#ceteri">sūryabhedanam</lem><rdg wit="#N23">sūryabhedanī</rdg><rdg wit="#V19 #C7 #Jyo"><seg type="deva-ignore"><gap reason="om."/></seg></rdg></app> / <note type="omission">Stanza omitted in <ref>V19,C7,Jyo</ref></note>
+ </note>
+ 
+<lg xml:id="hp02_048">
+ <l> <s type="pada"><app><lem wit="#ceteri">āsane sukhade yogī</lem><rdg wit="#V3">āsane sukhado yogī</rdg><rdg wit="#J10">athāsane sukhād eva</rdg></app></s> <s type="pada"><app><lem wit="#ceteri">baddhvā</lem><rdg wit="#V3 #J10">baddhā</rdg></app> <app><lem wit="#ceteri">vajrāsanaṃ</lem><rdg wit="#P15">vīsanaṃ</rdg><rdg wit="#V3 #J10">mudrāsamaṃ</rdg><rdg wit="#Jyo">caivāsanaṃ</rdg></app> <app><lem wit="#ceteri">tataḥ</lem><rdg wit="#P15">sudhī</rdg></app>/</s></l>
+<l> <s type="pada">dakṣa<app><lem wit="#ceteri">nāḍyā</lem><rdg wit="#N23">nāḍyāḥ</rdg><rdg wit="#P15 #V15">nāḍyāṃ</rdg></app> samākṛṣya</s> <s type="pada">bahiḥsthaṃ pavanaṃ śanaiḥ//</s></l> 
+</lg>
+ 
+<lg xml:id="hp02_049">
+ <l> <s type="pada"><app><lem wit="#V3 #J10">ā keśāgrā<seg type="deva-ignore">n</seg></lem><rdg wit="#N3">ā keśāgrā</rdg><rdg wit="#V19 #C7 #V1">ā keśāgraṃ</rdg><rdg wit="#P15">ā keśāgra</rdg><rdg wit="#V15">ā keśāc ca</rdg><rdg wit="#C6 #Gr2 #Jyo">ā keśād ā</rdg></app><app><lem wit="#C6 #Gr2 #V15 #J10 #Jyo"><seg type="ltn-ignore">n </seg>nakhāgrāc ca</lem><rdg wit="#V3 #V19 #C7 #P15">nakhāgraṃ ca</rdg><rdg wit="#N3">nakhāgrāś ca</rdg><rdg wit="#V1">nakhā .. ..</rdg></app></s> <s type="pada"><app><lem wit="#N3 #C6 #V3 #N23 #V15 #J10 #Jyo">nirodhāvadhi</lem><rdg wit="#J7">nirodhāvidhi</rdg><rdg wit="#P15">nirovadhi</rdg><rdg wit="#V1">niruddh[o]vadhi</rdg><rdg wit="#V19 #C7">śirodhyavadhi</rdg></app> <app><lem wit="#ceteri">kumbhayet</lem><rdg wit="#N3">kuṃbhayan</rdg><rdg wit="#V19">kumbhakān</rdg><rdg wit="#C7">kumbhakam</rdg></app>/</s></l>
+<l> <s type="pada"><app><lem wit="#ceteri">tataḥ</lem><rdg wit="#N23"><seg type="deva-ignore"><gap reason="om."/></seg></rdg></app> śanaiḥ savya<app><lem wit="#ceteri">nāḍyā</lem><rdg wit="#J10">nāḍyā ca</rdg></app></s> <s type="pada">recayet pavanaṃ <app><lem wit="#C6 #Gr2 #P15 #V15 #V1">sudhīḥ</lem><rdg wit="#N3">sudhī</rdg><rdg wit="#V3">śuddhī</rdg><rdg wit="#J10 #Jyo">śanaiḥ</rdg><rdg wit="#V19 #C7">punaḥ</rdg></app>//</s></l> 
+</lg>
+ 
+<lg xml:id="hp02_050">
+ <l> <s type="pada">kapāla<app><lem wit="#ceteri">śodhanaṃ</lem><rdg wit="#V19">śodha</rdg></app> vāta</s><s type="pada"><app><lem wit="#ceteri">doṣaghnaṃ</lem><rdg wit="#V3">doghnaṃ</rdg><rdg wit="#P15">śoṣaghnaṃ</rdg></app> kṛmi<app><lem wit="#P11 #V3 #P15 #V15">doṣaham</lem><rdg wit="#N3 #J5">doṣajaṃ</rdg><rdg wit="#C6 #Gr2 #V19 #C7 #Jyo">doṣahṛt</rdg><rdg wit="#V1">toharaṃ</rdg><rdg wit="#J10">nāśanaṃ</rdg></app>/</s></l>
+<l> <s type="pada">punaḥ punar idaṃ <app><lem wit="#N3 #C6 #P15 #V15 #V1 #Jyo">kāryaṃ</lem><rdg wit="#V3">kārya</rdg><rdg wit="#Gr2 #V19 #C7">kuryāt</rdg><rdg wit="#J10">sūrya</rdg></app></s> <s type="pada"><app><lem wit="#N3 #C6 #V3 #V15 #V1">sūryabhedam udāhṛtaṃ</lem><rdg wit="#P15">sūryabhedanam udāhṛtaṃ</rdg><rdg wit="#Gr2 #V19 #C7 #Jyo">sūryabhedanam uttamaṃ</rdg><rdg wit="#J10">bhedanaṃ samudāhṛtaṃ</rdg></app>// </s></l> 
+</lg>
+ <note type="avataranika" target="#hp02_051"> <app><lem wit="#N3 #C6 #V15 #V1 #Jyo">athojjāyī</lem><rdg wit="#V3 #P15 #J10">atha ujjāyī</rdg><rdg wit="#Gr2 #C7">ujjāyī</rdg><rdg wit="#V19">ujjāḍī</rdg></app>/ </note>
+ 
+<lg xml:id="hp02_051">
+ <l> <s type="pada">mukhaṃ <app><lem wit="#ceteri">saṃyamya</lem><rdg wit="#V1">saṃnamya</rdg></app> <app><lem wit="#N3 #C6 #Gr2 #C7 #V15 #Jyo">nāḍībhyā<seg type="deva-ignore">m</seg></lem><rdg wit="#V3 #V19 #P15 #V1 #J10">nāsābhyām</rdg></app>m</s> <s type="pada">ākṛṣya pavanaṃ <app><lem wit="#ceteri">śanaiḥ</lem><rdg wit="#V19">tataḥ</rdg><rdg wit="#C7">punaḥ</rdg></app>/</s></l>
+<l> <s type="pada"><app><lem wit="#ceteri">yathā</lem><rdg wit="#V1 #J10">yadā</rdg></app> <app><lem wit="#ceteri">lagati</lem><rdg wit="#C6">lagatu</rdg><rdg wit="#V15">galati</rdg><rdg wit="#N23">ragati</rdg></app> <app><lem wit="#N3 #C6 #C7 #P15 #V15 #J10 #Jyo">kaṇṭhāt tu</lem><rdg wit="#Gr2">kaṇṭhe tu</rdg><rdg wit="#V19">kaṇṭhāntar</rdg><rdg wit="#V3">kaṇṭhāntaṃ</rdg><rdg wit="#V1">hṛtkaṇṭhe</rdg></app></s> <s type="pada"><app><lem wit="#ceteri">hṛdayāvadhi</lem><rdg wit="#C6 #J10">hṛtpadmāvadhi</rdg></app> <app><lem wit="#ceteri">sasvanam</lem><rdg wit="#V1">sausanam</rdg><rdg wit="#J10">śodhanam</rdg><rdg wit="#C6">niḥsvanam</rdg></app>//</s></l> 
+</lg>
+ 
+<lg xml:id="hp02_052">
+ <l> <s type="pada"><app><lem wit="#ceteri">pūrvava<seg type="deva-ignore">t</seg></lem><rdg wit="#N23">pūrve ca</rdg><rdg wit="#C6">pūrvatu</rdg></app><app><lem wit="#ceteri"><seg type="ltn-ignore">t </seg>kumbhaye<seg type="deva-ignore">t</seg></lem><rdg wit="#V19 #C7">kumbhayan</rdg></app><app><lem wit="#N3 #C6 #V3 #Gr2 #V19 #Jyo"><seg type="ltn-ignore">t </seg>prāṇaṃ</lem><rdg wit="#V1">prāṇāt</rdg><rdg wit="#C7 #P15 #V15 #J10">prāṇān</rdg></app></s> <s type="pada"><app><lem wit="#ceteri">recayed iḍayā</lem><rdg wit="#V19">recayeḍiyā</rdg></app> <app><lem wit="#ceteri">tataḥ</lem><rdg wit="#J7">tratat</rdg><rdg wit="#Jyo">tathā</rdg></app>/</s></l>
+<l> <s type="pada"><app><lem wit="#ceteri">śleṣma</lem><rdg wit="#J10">śleṣmā</rdg><rdg wit="#N23">śreṣmā</rdg><rdg wit="#C6">śleṣā</rdg></app>doṣaharaṃ <app><lem wit="#ceteri">kaṇṭhe</lem><rdg wit="#V19">kaṇṭha</rdg><rdg wit="#V1">dehād</rdg><rdg wit="#P15">dehām</rdg><rdg wit="#J10">dehā</rdg></app></s> <s type="pada"><app><lem wit="#ceteri">dehānalavivardhanam</lem><rdg wit="#N3">dehānale vivardhanam</rdg><rdg wit="#V3">dāvānalavivardhanam</rdg><rdg wit="#V1">analadīptivardhanam</rdg><rdg wit="#P15">analaṃ dīpavardhanam</rdg><rdg wit="#J10">°naladīptivivardhanam</rdg></app>//</s></l> 
+</lg>
+ 
+<lg xml:id="hp02_053">
+ <l> <s type="pada">nāḍī<app><lem resp="ego">jālodare</lem><rdg wit="#V3 #J10">jalodare</rdg><rdg wit="#N3">jalodaro</rdg><rdg wit="#P11 #P15 #V1 #Jyo">jalodarā</rdg><rdg wit="#J7">jalodarī</rdg><rdg wit="#C6">jalodara</rdg><rdg wit="#N23 #V19 #C7 #V15">jalodaraṃ</rdg></app> <app><lem wit="#ceteri">dhātu</lem><rdg wit="#C7">gātra</rdg></app></s><s type="pada"><app><lem wit="#N3 #C6 #V3 #J7 #Jyo">gatadoṣa</lem><rdg wit="#N23">gatadoṣā</rdg><rdg wit="#J10">gatadoṣaṃ</rdg><rdg wit="#P15 #V1">gataroga</rdg><rdg wit="#V15">śataroga</rdg><rdg wit="#V19 #C7">śatadoṣa</rdg></app>vināśanam/</s></l>
+<l> <s type="pada"><app><lem wit="#N3 #C6 #V3 #V19 #C7 #P15 #V1">gacchatas tiṣṭhataḥ</lem><rdg wit="#Gr2 #V15 #J10 #Jyo">gacchatā tiṣṭhatā</rdg></app> <app><lem wit="#ceteri">kāryaṃ</lem><rdg wit="#N3">kāryām</rdg><rdg wit="#P15">kāya</rdg></app></s> <s type="pada"><app><lem wit="#ceteri">ujjāy<seg type="deva-ignore">(</seg>y<seg type="deva-ignore">)</seg>ākhyaṃ tu</lem><rdg wit="#N23">ujjāyaḥravya</rdg><rdg wit="#V3 #J10">kuru vikhyāta</rdg></app> <app><lem wit="#ceteri">kumbhakam</lem><rdg wit="#V3">kumbhakaḥ</rdg></app></s>//</l> 
+</lg>
+ <note type="avataranika" target="#hp02_054"> <app><lem wit="#ceteri">atha</lem><rdg wit="#Gr2 #V19"><seg type="deva-ignore"><gap reason="om."/></seg></rdg></app> <app><lem wit="#N3 #P15">sītkā</lem><rdg wit="#V1">sītakā</rdg><rdg wit="#N23">śītkāraḥ</rdg><rdg wit="#G4">sitkāraḥ</rdg><rdg wit="#V3 #J7">śītkāra</rdg><rdg wit="#C6">śītkāraṃ</rdg><rdg wit="#C7">sītkārā</rdg><rdg wit="#J5 #V15 #Jyo">sītkārī</rdg><rdg wit="#J10">śītakarākarma</rdg><rdg wit="#V19"><seg type="deva-ignore"><gap reason="om."/></seg></rdg></app>/ <note type="omission">Stanza omitted in <ref>V19</ref></note>
+ </note>
+ 
+<lg xml:id="hp02_054">
+ <l> <s type="pada"><app><lem wit="#N3 #C6 #J7 #C7 #V15 #Jyo">śītkāṃ</lem><rdg wit="#P15">satkāṃ</rdg><rdg wit="#V19">sītkīṃ</rdg><rdg wit="#N23">dhitkāṃ (?)</rdg><rdg wit="#V3 #J10">kumbhaṃ</rdg><rdg wit="#V1"><seg type="deva-ignore"><gap reason="om."/></seg></rdg></app> <app><lem wit="#N3 #P11 #P15 #V15 #V1">dadyā<seg type="deva-ignore">t</seg></lem><rdg wit="#C6 #V3 #Gr2 #V19 #C7 #J10 #Jyo">kuryāt</rdg></app><app><lem wit="#N3 #V3 #P15 #V15 #V1 #J10"><seg type="ltn-ignore">t </seg>sadā</lem><rdg wit="#C6 #Gr2 #V19 #C7 #Jyo">tathā</rdg></app> <app><lem wit="#ceteri">vaktre</lem><rdg wit="#J10">vaktrāt</rdg><rdg wit="#N23">dakre</rdg></app></s> <s type="pada"><app><lem wit="#N3 #C6 #V3 #V1">ghrāṇe caiva</lem><rdg wit="#P15 #V15">ghrāṇe cātha</rdg><rdg wit="#J7 #V19 #C7 #J10 #Jyo">ghrāṇenaiva</rdg><rdg wit="#N23">prāṇenaiva</rdg></app> <app><lem wit="#N3 #C6 #V15 #V1 #Jyo">vijṛmbhikām</lem><rdg wit="#V19">vijṛmbhikā</rdg><rdg wit="#N23">vijṛmbhikaṃ</rdg><rdg wit="#J7">vijambhikāṃ</rdg><rdg wit="#P15">vijaṃbhakāṃ</rdg><rdg wit="#V3 #J10">vijṛmbhitaṃ</rdg><rdg wit="#C7">visarjayet</rdg></app>/</s></l>
+<l> <s type="pada"><app><lem wit="#ceteri">evam abhyāsa</lem><rdg wit="#V1">evam abhyāsaṃ</rdg></app><app><lem wit="#ceteri">yogena</lem></app></s> <s type="pada">kāmadevo dvitīyakaḥ//</s></l> 
+</lg>
+ 
+<lg xml:id="hp02_055">
+ <l> <s type="pada">yoginī<app><lem wit="#N3 #P11">cakrasāmānyaḥ</lem><rdg wit="#V3 #P15">cakrasāmānya</rdg><rdg wit="#Jyo">cakrasaṃmānyaḥ</rdg><rdg wit="#V1 #J10">cakram āsādya</rdg><rdg wit="#C6 #Gr2 #V19 #C7 #V15">cakrasevyas tu</rdg></app></s> <s type="pada">sṛṣṭisaṃhārakārakaḥ/</s></l>
+<l> <s type="pada">na kṣudhā na tṛṣā nidrā</s> <s type="pada">naivālasyaṃ <app><lem wit="#N3 #C6 #V3 #Gr2 #V19 #C7 #V1 #Jyo">prajāyate</lem><rdg wit="#P15 #V15">tu jāyate</rdg><rdg wit="#J10">tu jāyete</rdg></app>//</s></l> 
+</lg>
+ 
+<lg xml:id="hp02_056">
+ <l> <s type="pada">bhave<app><lem wit="#ceteri"><seg type="ltn-ignore">t </seg>svacchanda</lem><rdg wit="#Jyo">sattvaṃ ca</rdg></app><app><lem wit="#N3 #J5 #C6 #V3 #P15 #V15 #J10">dehaś ca</lem><rdg wit="#Gr2 #V19 #C7">dehas tu</rdg><rdg wit="#G4 #Jyo">dehasya</rdg><rdg wit="#V1">dehaṃ ca</rdg></app></s> <s type="pada">sarvopadrava<app><lem wit="#ceteri">varjitaḥ</lem><rdg wit="#V3">vivarjitaḥ</rdg></app>/</s></l>
+<l> <s type="pada">anena vidhinā <app><lem wit="#Gr1 #C6 #V3 #V1 #J10 #Jyo">satyaṃ</lem><rdg wit="#P11 #P15 #V15">nityaṃ</rdg><rdg wit="#Gr2 #V19 #C7">yas tu</rdg></app></s> <s type="pada"><app><lem wit="#ceteri">yogīndro</lem><rdg wit="#V3">yogiṃdro</rdg><rdg wit="#P15">yogeṃdro</rdg></app> <app><lem wit="#N3 #J5 #J7 #V19 #C7 #P15 #V15 #Jyo">bhūmi</lem><rdg wit="#G4 #P11 #C6 #V3 #V1 #J10">bhuvi</rdg><rdg wit="#N23">muni</rdg></app>maṇḍale//</s></l> 
+</lg>
+ <note type="avataranika" target="#hp02_057"> <note type="myfn"><ref target="#V15,J10"/> add here: <s xml:lang="sa-deva">rasanātāluyogena</s> (<ref target="#V15"/>; <s xml:lang="sa-deva">satyāmūlena randhreṇa</s> <ref target="#J10"/>) <s xml:lang="sa-deva">yaḥ prāṇaṃ satataṃ pibet/ sa bhavet sarvasiddhīnāṃ bhājanaṃ nātra saṃśayaḥ//</s></note>
+<app><lem wit="#N3 #G4 #V1">evam eva uktaṃ ca</lem><rdg wit="#P15">evam eva uktam</rdg><rdg wit="#J10">uktaṃ ca</rdg><rdg wit="#V3">uktaṃ</rdg><rdg wit="#V15">gorakṣeṇaivam evoktaṃ</rdg></app>/ <note type="inlineref"><ref>N3,V3,P15,V15,V1,J10</ref></note>
+ </note>
+ 
+<lg xml:id="hp02_057">
+ <l> <s type="pada">rasanātālu<app><lem wit="#ceteri">mūlena</lem><rdg wit="#C6 #Gr2">yogena</rdg></app></s> <s type="pada">yaḥ <app><lem wit="#ceteri">prāṇaṃ</lem><rdg wit="#V3 #J10">prāṇa</rdg><rdg wit="#N23">prāṇāḥ</rdg></app> satataṃ pibet/</s></l>
+<l> <s type="pada">abdārdhena bhavet tasya</s> <s type="pada"><app><lem wit="#ceteri">sarvarogaparikṣayaḥ</lem><rdg wit="#V1">°parīkṣayaḥ</rdg><rdg wit="#J10">sarvāṃgasusthirakriyaṃ</rdg></app>//</s><anchor xml:id="II57"/> <note type="omission">Stanza omitted in <ref>Jyo</ref></note>
+</l> 
+</lg>
+ <note type="avataranika" target="#hp02_058"> <app><lem wit="#ceteri">atha</lem><rdg wit="#J10">tathā</rdg><rdg wit="#Gr2 #V19"><seg type="deva-ignore"><gap reason="om."/></seg></rdg></app> <app><lem wit="#ceteri">śītalī</lem><rdg wit="#V19"><seg type="deva-ignore"><gap reason="om."/></seg></rdg></app>/ <note type="omission">Stanza omitted in <ref>V19</ref></note>
+ </note>
+ 
+<lg xml:id="hp02_058">
+ <l> <s type="pada"><app><lem wit="#ceteri">jihvayā</lem><rdg wit="#C7">jihvāyā</rdg><rdg wit="#V1">jihvā</rdg></app> vāyu<app><lem wit="#ceteri"><seg type="ltn-ignore">m </seg>ākṛṣya</lem><rdg wit="#C7">āpūrya</rdg></app></s> <s type="pada"><app><lem wit="#ceteri">pūrvava<seg type="deva-ignore">t</seg></lem><rdg wit="#J10">pūrvaṃ ca</rdg></app><app><lem wit="#C6 #J7 #V19 #C7 #P15 #V15"><seg type="ltn-ignore">t </seg>kumbhakād anu</lem><rdg wit="#N3 #J5 #P11">kuṃbhanād anu</rdg><rdg wit="#N23">kumbhakādane</rdg><rdg wit="#V3 #V1 #J10">kumbhasādhanam</rdg></app>/</s></l>
+<l> <s type="pada"><app><lem wit="#ceteri">śanais tu</lem><rdg wit="#V15">śanaiḥ su</rdg><rdg wit="#Jyo">śanakair</rdg></app> <app><lem wit="#ceteri">ghrāṇa</lem><rdg wit="#C7 #J10">prāṇa</rdg></app>randhrābhyāṃ</s> <s type="pada">recaye<app><lem wit="#ceteri"><seg type="ltn-ignore">d </seg>anilaṃ</lem><rdg wit="#Jyo">pavanaṃ</rdg></app> <app><lem wit="#N3 #C6 #V3 #Gr2 #V19 #C7 #Jyo">sudhīḥ</lem><rdg wit="#P15 #V1 #J10">śanaiḥ</rdg><rdg wit="#V15">tataḥ</rdg></app>//</s></l> 
+</lg>
+ 
+<lg xml:id="hp02_059">
+ <l> <s type="pada">gulma<app><lem wit="#N3 #C6 #V3 #Jyo">plīhādikā<seg type="deva-ignore">n</seg></lem><rdg wit="#Gr2 #V19 #C7">plīhodaraṃ</rdg><rdg wit="#P15 #V15">plīhodarān</rdg><rdg wit="#J10">śleṣmādayo</rdg><rdg wit="#V1">śleṣmādikā</rdg></app><app><lem wit="#N3 #C6 #V3 #V15"><seg type="ltn-ignore">n </seg>doṣān</lem><rdg wit="#V1 #J10">doṣā</rdg><rdg wit="#P15 #Jyo">rogān</rdg><rdg wit="#Gr2 #C7">cāpi</rdg><rdg wit="#V19">vāpi</rdg></app></s> <s type="pada"><app><lem wit="#C6 #J7 #V19 #C7 #P15 #Jyo">jvaraṃ</lem><rdg wit="#N3 #N23">jvalaṃ</rdg><rdg wit="#V3 #V15 #J10">jvara</rdg><rdg wit="#V1">jvarā</rdg></app> <app><lem wit="#N3 #C6 #Gr2 #P15 #V15 #Jyo">pittaṃ</lem><rdg wit="#V3 #V1 #J10">pitta</rdg><rdg wit="#V19 #C7">cāpi</rdg></app> <app><lem wit="#C6 #V19 #C7 #Jyo">kṣudhāṃ</lem><rdg wit="#N3 #V3 #Gr2 #V1 #J10">kṣudhā</rdg><rdg wit="#P15">kṣayaṃ</rdg><rdg wit="#V15">kṣaya</rdg></app> <app><lem wit="#ceteri">tṛṣāṃ</lem><rdg wit="#V3 #V1 #J10">tṛṣā</rdg></app>/</s></l>
+<l> <s type="pada"><app><lem wit="#N3 #P11 #Gr2 #P15 #V15 #Jyo">viṣāṇi</lem><rdg wit="#V3 #V19 #V1 #J10">etāni</rdg><rdg wit="#C6">nāśinī</rdg><rdg wit="#V19 #C7">vidhivac</rdg></app> śītalī nāma</s> <s type="pada"><app><lem wit="#ceteri">kumbhako’yaṃ</lem><rdg wit="#C7">kumbhakoyā</rdg><rdg wit="#V19">kumbhakeyā</rdg><rdg wit="#Jyo">kumbhikeyaṃ</rdg><rdg wit="#N3">kumbhako</rdg></app> <app><lem wit="#ceteri">nihanti</lem><rdg wit="#C7">niranti</rdg><rdg wit="#V19">niranta°</rdg></app> <app><lem wit="#N3 #C6 #V3 #Gr2 #C7 #J10">ca</lem><rdg wit="#P15 #V15 #V1 #Jyo">hi</rdg><rdg wit="#V19">°raṃ</rdg></app>//</s></l> 
+</lg>
+ <note type="avataranika" target="#hp02_060"> <app><lem wit="#ceteri">atha</lem><rdg wit="#Gr2 #V19"><seg type="deva-ignore"><gap reason="om."/></seg></rdg></app> <app><lem wit="#ceteri">bhastrikā</lem><rdg wit="#N23 #C7">bhastikā</rdg><rdg wit="#J7">bhasrikā</rdg><rdg wit="#V19"><seg type="deva-ignore"><gap reason="om."/></seg></rdg></app>/ <note type="omission">Stanza omitted in <ref>V19</ref></note>
+ </note>
+ 
+<lg xml:id="hp02_060">
+ <l> <s type="pada">ūrvor upari <app><lem wit="#N3 #P15">ced dhatte</lem><rdg wit="#V3 #J10">vai dhatte</rdg><rdg wit="#V1">saṃdhatte</rdg><rdg wit="#C6 #Gr2 #V19 #C7 #V15 #Jyo">saṃsthāpya</rdg></app></s> <s type="pada"><app><lem wit="#ceteri">ubhe</lem><rdg wit="#Jyo">śubhe</rdg></app> pādatale <app><lem wit="#ceteri">tathā</lem><rdg wit="#N3">yadā</rdg><rdg wit="#V3">sadā</rdg><rdg wit="#Jyo">ubhe</rdg></app>/</s></l>
+<l> <s type="pada">padmāsanaṃ bhave<app><lem wit="#ceteri"><seg type="ltn-ignore">t </seg>samyak</lem><rdg wit="#C7">tasya</rdg><rdg wit="#C6 #Jyo">etat</rdg></app></s> <s type="pada">sarvapāpapraṇāśanam//</s></l> 
+</lg>
+ 
+<lg xml:id="hp02_061">
+ <l> <s type="pada">samyak padmāsanaṃ baddhvā</s> <s type="pada"><app><lem wit="#ceteri">sama</lem><rdg wit="#V1">same</rdg></app>grīvo<app><lem wit="#ceteri"><seg type="deva-ignore">°o</seg>daraḥ sudhīḥ</lem><rdg wit="#N3">°odaraṃ sudhī</rdg><rdg wit="#V3">°odara śudhī</rdg></app>/</s></l>
+<l> <s type="pada"><app><lem wit="#ceteri">mukhaṃ</lem><rdg wit="#N23">sukhaṃ</rdg></app> <app><lem wit="#ceteri">saṃyamya</lem><rdg wit="#V19">saṃjamya</rdg></app> yatnena</s> <s type="pada"><app><lem wit="#ceteri">prāṇaṃ</lem><rdg wit="#V19">ghrāṇaṃ</rdg></app> ghrāṇena recayet//</s><note type="myfn"><ref target="#J10"/> adds here: <s xml:lang="sa-deva">athaiva svaśarīrasthaṃ cālayet pavanaṃ sthalī</s> (cf. <ptr target="#II64"/>ab with the reading of <ref target="#V3"/> <s xml:lang="sa-deva">sthalī</s> for <s xml:lang="sa-deva">dhiyā</s>).</note>
+</l> 
+</lg>
+ 
+<lg xml:id="hp02_062">
+ <l> <s type="pada"><app><lem wit="#ceteri">yathā</lem><rdg wit="#V3 #V19 #V1 #J10">yadā</rdg></app> <app><lem wit="#ceteri">lagati</lem><rdg wit="#V15">galati</rdg></app> <app><lem wit="#ceteri">hṛtkaṇṭhe</lem><rdg wit="#N23">hṛkaṃṭhaṃ</rdg><rdg wit="#N3 #J5 #P11 #C6 #P15">hṛtkaṇṭha</rdg></app></s> <s type="pada"><app><lem wit="#N3 #P15 #V1">kapāle</lem><rdg wit="#N23 #J10">kapāla</rdg><rdg wit="#C6 #J7 #V19 #C7 #V15 #Jyo">kapālā°</rdg><rdg wit="#V3">kapole</rdg></app> <app><lem wit="#P11 #P15">sasvanaṃ tataḥ</lem><rdg wit="#J5">saśvanaṃ tataḥ</rdg><rdg wit="#N3">śvasanaṃ tataḥ</rdg><rdg wit="#V3">svāsanaṃ tataḥ</rdg><rdg wit="#V1">ca samantataḥ</rdg><rdg wit="#J10">syarśanaṃ tataḥ</rdg><rdg wit="#Gr2 #Jyo">°vadhi sasvanaṃ</rdg><rdg wit="#C6">°vadhi niḥsvanaṃ</rdg><rdg wit="#V19 #C7 #V15">°vadhi pūrayet</rdg></app>/</s></l>
+<l> <s type="pada">vegena pūraye<app><lem wit="#ceteri"><seg type="ltn-ignore">t </seg>kiṃcit</lem><rdg wit="#Gr2 #V19 #C7">samyak</rdg><rdg wit="#Jyo">cāpi</rdg></app></s> <s type="pada"><app><lem wit="#ceteri">hṛ<seg type="deva-ignore">t</seg></lem><rdg wit="#V19">syāt</rdg></app>tpadmāvadhi <app><lem wit="#ceteri">mārutam</lem><rdg wit="#V3">mārutaḥ</rdg><rdg wit="#V15">kevalaṃ</rdg></app>//</s></l> 
+</lg>
+ 
+<lg xml:id="hp02_063">
+ <l> <s type="pada">puna<app><lem wit="#ceteri"><seg type="ltn-ignore">r </seg>virecaye<seg type="deva-ignore">t</seg></lem><rdg wit="#V3">virecanaṃ</rdg></app>t tadva</s><s type="pada"><app><lem wit="#N3 #C6 #V3 #J10 #Jyo"><seg type="ltn-ignore">t </seg>pūrayec ca</lem><rdg wit="#P15 #V15 #V1">pūrayed vā</rdg><rdg wit="#Gr2 #C7">pūrayitvā</rdg><rdg wit="#V19">pūraïtvā</rdg></app> <app><lem wit="#ceteri">punaḥ punaḥ</lem><rdg wit="#C7">punas tataḥ</rdg></app>/</s></l>
+<l> <s type="pada">yathaiva loha<app><lem wit="#ceteri">kārāṇāṃ</lem><rdg wit="#V1 #Jyo">kāreṇa</rdg></app></s> <s type="pada">bhastrā vegena cālyate//</s></l> 
+</lg>
+ 
+<lg xml:id="hp02_064">
+ <l> <s type="pada">tathaiva svaśarīra<app><lem wit="#ceteri">sthaṃ</lem><rdg wit="#V19">sthaś</rdg></app></s> <s type="pada"><app><lem wit="#N3 #C6 #V3 #P15 #V15 #V1 #Jyo">cālaye<seg type="deva-ignore">t</seg></lem><rdg wit="#J10">cāyet</rdg><rdg wit="#Gr2 #V19 #C7">cālyate</rdg></app>t pavanaṃ <app><lem resp="ego">sudhīḥ</lem><rdg wit="#ceteri">dhiyā</rdg><rdg wit="#J10">śanaiḥ</rdg><rdg wit="#V3">sthalī</rdg></app>/</s><anchor xml:id="II64"/></l>
+<l> <s type="pada"><app><lem wit="#ceteri">yadā</lem><rdg wit="#V19 #C7">yathā</rdg><rdg wit="#P15">tathā</rdg></app> <app><lem wit="#ceteri">śramo</lem><rdg wit="#P15">kramo</rdg></app> bhaved dehe</s> <s type="pada"><app><lem wit="#ceteri">tadā</lem><rdg wit="#V19 #C7 #V1">tathā</rdg></app> sūryeṇa <app><lem wit="#ceteri">pūrayet</lem><rdg wit="#V15">recayet</rdg></app>//</s></l> 
+</lg>
+
+<lg xml:id="hp02_065">
+ <l> <s type="pada"><app><lem wit="#N3 #C6 #Gr2 #V19 #C7 #Jyo">yathodaraṃ</lem><rdg wit="#V3 #P15 #V15 #V1 #J10">athodaraṃ</rdg></app> <app><lem wit="#ceteri">bhave<seg type="deva-ignore">t</seg></lem><rdg wit="#N3">labhet</rdg><rdg wit="#P15 #V15">yadā</rdg></app>t pūrṇaṃ</s> <s type="pada"><app><lem wit="#ceteri">pavanena</lem><rdg wit="#Jyo">anilena</rdg></app> <app><lem wit="#ceteri">tathā</lem><rdg wit="#P15">tadā</rdg><rdg wit="#V1">yathā</rdg></app> <app><lem wit="#ceteri">laghu</lem><rdg wit="#V3 #J10">laghuḥ</rdg></app>/</s></l>
+<l> <s type="pada"><app><lem wit="#ceteri">dhāraye<seg type="deva-ignore">n</seg></lem><rdg wit="#P15">dhāvayen</rdg><rdg wit="#N23 #V1">dhārayan</rdg></app><app><lem wit="#V3 #Jyo"><seg type="ltn-ignore">n </seg>nāsikāṃ</lem><rdg wit="#J7">nāmikāṃ</rdg><rdg wit="#ceteri">nāsikā</rdg></app> <app><lem wit="#J7 #V15 #Jyo">madhyā</lem><rdg wit="#V19 #C7">mādhyāt</rdg><rdg wit="#P15">madhyāṃ</rdg><rdg wit="#N3">madhyaṃ</rdg><rdg wit="#C6 #V3 #N23 #V1 #J10">madhye</rdg></app></s><s type="pada"><app><lem wit="#ceteri">tarjanībhyāṃ</lem><rdg wit="#N23">tarjanabhyāṃ</rdg><rdg wit="#V1 #J10">aṅgulībhyāṃ</rdg></app> <app><lem wit="#ceteri">vinā</lem><rdg wit="#J10">tathā</rdg></app> dṛḍham//</s></l> 
+</lg>
+ 
+<lg xml:id="hp02_066">
+ <l> <s type="pada"><app><lem wit="#ceteri">kumbhakaṃ pūrvava<seg type="deva-ignore">t</seg></lem><rdg wit="#N3 #V1 #J10">kumbhakaṃ pūrakaṃ</rdg><rdg wit="#Jyo">vidhivat kumbhakaṃ</rdg></app>t kṛtvā</s> <s type="pada">recaye<app><lem wit="#N3 #C6 #J7 #V15 #J10 #Jyo"><seg type="ltn-ignore">d </seg>iḍayānilam</lem><rdg wit="#N23">idayānikaṃ</rdg><rdg wit="#P15 #V1">ekayānilam</rdg><rdg wit="#V3">iḍayānalam</rdg><rdg wit="#V19 #C7">iḍayā tataḥ</rdg></app>/</s></l>
+<l> <s type="pada">vātapittaśleṣmaharaṃ</s> <s type="pada">śarīrāgni<app><lem wit="#ceteri">vivardhanam</lem><rdg wit="#V1">pravardhanam</rdg><rdg wit="#V19">vivajitaṃ</rdg></app>//</s></l> 
+</lg>
+ 
+<lg xml:id="hp02_067">
+ <l> <s type="pada">kuṇḍalī<app><lem wit="#N3 #P15 #V15 #V1 #Jyo">bodhakaṃ</lem><rdg wit="#V3 #J10">bodhakaḥ</rdg><rdg wit="#C6 #Gr2 #V19 #C7">bodhanaṃ</rdg></app> <app><lem resp="ego">vajraṃ</lem><rdg wit="#N3 #J5">cakraṃ</rdg><rdg wit="#P15 #V1">vipra</rdg><rdg wit="#V15">sarva</rdg><rdg wit="#Jyo">kṣipraṃ</rdg><rdg wit="#Gr2 #V19 #C7">kuryāt</rdg><rdg wit="#C6">karttur</rdg><rdg wit="#V3 #J10">kumbho</rdg></app></s> <s type="pada"><app><lem wit="#J7 #V19 #C7">pāpaghnaṃ</lem><rdg wit="#N23">pāpapuṃ</rdg><rdg wit="#Jyo">pavanaṃ</rdg><rdg wit="#N3 #P15">bhāvaghnaṃ</rdg><rdg wit="#C6 #V1">bhavaghnaṃ</rdg><rdg wit="#V15">doṣaghnaṃ</rdg><rdg wit="#V3 #J10">rogaghnaḥ</rdg></app> <app><lem wit="#ceteri">sukhadaṃ</lem><rdg wit="#V3 #J10">sukhadaḥ</rdg></app> <app><lem wit="#ceteri">śubham</lem><rdg wit="#V3 #J10">śubhaḥ</rdg><rdg wit="#Jyo">hitaṃ</rdg><rdg wit="#V19">tathā</rdg></app>/</s></l>
+<l> <s type="pada">brahmanāḍī<app><lem wit="#V3 #V15 #V1 #Jyo">mukhe saṃstha</lem><rdg wit="#J10">mukhe saṃsthaḥ</rdg><rdg wit="#N3 #C6 #C7 #P15">mukhe saṃsthaṃ</rdg><rdg wit="#V19">sukhe saṃsthaṃ</rdg><rdg wit="#N23">mukhaṃtastha</rdg><rdg wit="#J7">mukhāṃtatstha</rdg></app></s><s type="pada"><app><lem wit="#ceteri">kaphādyargala</lem><rdg wit="#C6">kaphaughagala</rdg><rdg wit="#V1">kapāṭergala</rdg></app><app><lem wit="#ceteri">nāśanam</lem><rdg wit="#J10">nāśanaḥ</rdg></app>//</s></l> 
+</lg>
+ 
+<lg xml:id="hp02_068">
+ <l> <s type="pada">samya<app><lem wit="#ceteri"><seg type="ltn-ignore">g</seg>gātra</lem><rdg wit="#V19 #C7">gātre</rdg><rdg wit="#J10">bhastrā</rdg><rdg wit="#C6">antaḥ</rdg></app><app><lem wit="#C6 #V3 #N23 #P15 #Jyo">samudbhūta</lem><rdg wit="#N3 #J7 #V19 #C7 #V15 #V1">samudbhūtaṃ</rdg><rdg wit="#J10">samudbhūto</rdg></app></s><s type="pada">granthitraya<app><lem wit="#ceteri">vibhedakam</lem><rdg wit="#C6">vibhedanaṃ</rdg><rdg wit="#J10">vibhedakaḥ</rdg></app>//</s></l>
+<l> <s type="pada">viśeṣeṇaiva kartavyaṃ</s> <s type="pada">bhastrākhyaṃ kumbhakaṃ <app><lem wit="#N3 #C6 #V3 #J7 #C7 #Jyo">tv idam</lem><rdg wit="#N23">svidaṃ</rdg><rdg wit="#P15 #V15">svayaṃ</rdg><rdg wit="#V19">paraṃ</rdg><rdg wit="#V1 #J10"><seg type="deva-ignore"><gap reason="om."/></seg></rdg></app>//</s> <note type="omission">cd omitted in <ref>V1,J10</ref></note>
+ </l> 
+</lg>
+ <note type="avataranika" target="#hp02_069"> <app><lem wit="#ceteri">atha</lem><rdg wit="#Gr2 #V19"><seg type="deva-ignore"><gap reason="om."/></seg></rdg></app> <app><lem wit="#ceteri">bhrāmarī</lem><rdg wit="#N3 #C6 #J7 #J10">bhramarī</rdg><rdg wit="#V19"><seg type="deva-ignore"><gap reason="om."/></seg></rdg></app>/ <note type="omission">Stanza omitted in <ref>V19</ref></note>
+ </note>
+ 
+<lg xml:id="hp02_069">
+ <l> <s type="pada"><app><lem wit="#C6 #J7">vegodghoṣaṃ</lem><rdg wit="#V19">vegodghokhaṃ</rdg><rdg wit="#N3">vegoghoṣaṃ</rdg><rdg wit="#C7 #P15">vegodveṣaṃ</rdg><rdg wit="#J10 #Jyo">vegādghoṣaṃ</rdg><rdg wit="#V3">vegāghoṣaṃ</rdg><rdg wit="#V1">vegair ghoṣaṃ</rdg><rdg wit="#N23">vegāgho</rdg><rdg wit="#V15">vegākṛṣṭaṃ</rdg></app> <app><lem wit="#ceteri">pūrakaṃ</lem><rdg wit="#J10">pūrayet</rdg></app> <app><lem wit="#ceteri">bhṛṅganādaṃ</lem><rdg wit="#V19">mandamandaṃ</rdg><rdg wit="#N23"><seg type="deva-ignore"><gap reason="om."/></seg></rdg></app></s></l>
+<l> <s type="pada">bhṛṅgīnādaṃ <app><lem wit="#ceteri">recakaṃ</lem><rdg wit="#J10">recayet</rdg></app> mandamandam/</s></l>
+<l> <s type="pada"><app><lem wit="#ceteri">yogīndrāṇā<seg type="deva-ignore">m</seg></lem><rdg wit="#N3 #P15">yogeṃdrāṇām</rdg></app><app><lem wit="#ceteri"><seg type="ltn-ignore">m </seg>evam abhyāsa</lem><rdg wit="#J7 #C7">nityam abhyāsa</rdg><rdg wit="#N23">nityabhyāsa</rdg></app><app><lem wit="#ceteri">yogā<seg type="deva-ignore">c</seg></lem><rdg wit="#J10">yogāś</rdg><rdg wit="#V3">yogā</rdg></app>-</s></l>
+<l> <s type="pada">c citte <app><lem wit="#ceteri">jātā</lem><rdg wit="#V19">yātā</rdg><rdg wit="#V1">jāte</rdg><rdg wit="#V3">jāto</rdg></app> <app><lem wit="#ceteri">kāci<seg type="deva-ignore">d</seg></lem><rdg wit="#P15">kvacid</rdg><rdg wit="#V3">cid</rdg></app>d ānanda<app><lem wit="#C6 #Gr2 #V19 #C7 #Jyo">līlā</lem><rdg wit="#N3 #J5 #P11 #V3 #P15 #V15 #V1 #J10">mūrchā</rdg></app>//</s></l>
+</lg>
+ <note type="avataranika" target="#hp02_070"> atha <app><lem wit="#N3 #C6 #V3 #Gr2 #C7 #Jyo">mūrchā</lem><rdg wit="#V15">mūrchākumbhakaḥ</rdg><rdg wit="#P15 #V1 #J10">mūrchanākumbhakaṃ</rdg><rdg wit="#V19"><seg type="deva-ignore"><gap reason="om."/></seg></rdg></app>/ <note type="omission">Stanza omitted in <ref>V19</ref></note>
+ </note>
+ 
+<lg xml:id="hp02_070">
+ <l> <s type="pada">pūrakānte <app><lem wit="#Gr2 #V19 #V15 #V1 #Jyo">gāḍhataraṃ</lem><rdg wit="#C6">ghaṭataraṃ</rdg><rdg wit="#C7">dṛḍhataraṃ</rdg><rdg wit="#N3">vāṃḍhataraṃ</rdg><rdg wit="#V3 #J10">bahutaraṃ</rdg></app></s> <s type="pada"><app><lem wit="#ceteri">baddhvā</lem><rdg wit="#V19 #C7">baṃdho</rdg></app> <app><lem wit="#ceteri">jālandharaṃ</lem><rdg wit="#N23">jālandhare</rdg><rdg wit="#V19 #C7">jālandharaḥ</rdg></app> śanaiḥ/</s></l>
+<l> <s type="pada">recayen mūrchanā<app><lem wit="#N3 #C6 #V3 #Gr2 #C7 #V15 #Jyo">khyeyaṃ</lem><rdg wit="#V19 #V1">khyo’yaṃ</rdg><rdg wit="#J10">stho’yaṃ</rdg></app></s> <s type="pada">manomūrchāsukha<app><lem wit="#N3 #C6 #J7 #V19 #C7 #V15 #Jyo">pradā</lem><rdg wit="#V3 #J10">pradaḥ</rdg><rdg wit="#V1">pradaṃ</rdg><rdg wit="#N23">prajā</rdg></app>//</s> <note type="omission">Stanza omitted in <ref>P15,N19</ref></note>
+</l> 
+</lg>
+ <note type="altavataranika" target="#hp02_071"> <hi rend="grey">atha <app><lem wit="#V15">plāvanīkuṃbhakaḥ</lem><rdg wit="#C6">plāvanī</rdg><rdg wit="#Jyo">plāvinī</rdg></app>/ <note type="inlineref"><ref>C6,V15,Jyo</ref></note>
+</hi> </note>
+ 
+<lg xml:id="hp02_071">
+ <l> <s type="pada"><app><lem wit="#ceteri">antaḥ</lem><rdg wit="#J7">ataḥ</rdg><rdg wit="#P15">anna</rdg><rdg wit="#V1">atha</rdg></app><app><lem wit="#N3 #C6 #J7 #P15">pravartitodgāra</lem><rdg wit="#N23">pravartitādgāra</rdg><rdg wit="#Jyo">pravartitodāra</rdg><rdg wit="#V3">pravartitodhāra</rdg><rdg wit="#V15 #J10">pravartitādhāra</rdg><rdg wit="#V1">prakṛtitodāra</rdg></app></s><s type="pada"><app><lem wit="#ceteri">mārutā</lem><rdg wit="#N23">mārutī</rdg><rdg wit="#V1">mārute</rdg><rdg wit="#V3">māruta</rdg></app>pūritodaraḥ/</s></l>
+<l> <s type="pada"><app><lem wit="#N3 #C6 #P15 #Jyo">payasy agādhe’pi sukhāt</lem><rdg wit="#V15">payasy agādhe ti sukhāt</rdg><rdg wit="#J7">payasy agādhe pi sukhaṃ</rdg><rdg wit="#N23">yadyasyagādhe pi sukhaṃ</rdg><rdg wit="#V1">payasvī gādha pī kṣāt</rdg><rdg wit="#V3 #J10">sākṣāt payasy agādhe pi</rdg></app></s> <s type="pada"><app><lem wit="#N3 #C6 #P15 #V15 #V1 #Jyo">plavate</lem><rdg wit="#V3 #J10">plavato</rdg><rdg wit="#Gr2">labhate</rdg></app> <app><lem wit="#ceteri">padma</lem><rdg wit="#N23">yapa</rdg></app><app><lem wit="#ceteri">patravat</lem><rdg wit="#V15">vat sadā</rdg></app></s>// <note type="omission">Stanza omitted in <ref>V19,C7</ref></note>
+</l> 
+</lg>
+ <note type="postmula" target="#hp02_071"> <hi rend="grey"><app><lem wit="#P15">iti</lem><rdg wit="#N3"/></app> plāvanīkuṃbhakaṃ/ <note type="inlineref"><ref>N3,P15</ref></note>
+</hi> </note>
+ <note type="avataranika" target="#hp02_072"> atha <app><lem wit="#N3 #C6 #P15 #V1">kevalakumbhakam</lem><rdg wit="#V3">kevalakumbhaka</rdg><rdg wit="#J10">kevalakumbhakaḥ</rdg><rdg wit="#V15">kevalaḥ</rdg><rdg wit="#Gr2">sahitaḥ</rdg><rdg wit="#C7">sahitaṃ</rdg><rdg wit="#V19 #Jyo"><seg type="deva-ignore"><gap reason="om."/></seg></rdg></app>/ <note type="omission">Stanza omitted in <ref>V19,Jyo</ref></note>
+ </note>
+ 
+<lg xml:id="hp02_072">
+ <l> <s type="pada"><app><lem wit="#ceteri">prāṇāyāma<seg type="deva-ignore">s</seg></lem><rdg wit="#N23 #V1">prāṇāyāmās</rdg><rdg wit="#N3">prāṇāyāma</rdg></app>s tridhā <app><lem wit="#ceteri">prokto</lem><rdg wit="#N3 #N23 #V1">proktā</rdg></app></s> <s type="pada"><app><lem wit="#ceteri">reca</lem><rdg wit="#V3 #J7 #J10">recaka</rdg></app><app><lem wit="#ceteri">pūraka</lem><rdg wit="#V19">kumbhaka</rdg></app><app><lem wit="#ceteri">kumbhakaiḥ</lem><rdg wit="#V1">kumbhakāḥ</rdg><rdg wit="#Gr2">kumbhakau</rdg><rdg wit="#V19">pūrakaiḥ</rdg></app>/</s></l>
+<l> <s type="pada">sahitaḥ <app><lem wit="#ceteri">kevalaś ceti</lem><rdg wit="#V1">kevalaṃ ceti</rdg><rdg wit="#J7">kevalastreti</rdg><rdg wit="#C6">kevalaś caiva</rdg></app></s> <s type="pada">kumbhako <app><lem wit="#ceteri">dvividho</lem><rdg wit="#N19 #V1">dvividhā</rdg><rdg wit="#V19">dvinidho</rdg></app> mataḥ/</s> <note type="omission">Stanza omitted in <ref>P15</ref></note>
+</l> 
+</lg>
+ 
+<lg xml:id="hp02_073">
+ <l> <s type="pada"><app><lem wit="#V19">ārecyāpūrya yat kuryāt</lem><rdg wit="#C7">ārecyāpūrya yaḥ kuryāt</rdg><rdg wit="#Gr2 #N19">recayet pūrakaṃ kuryāt</rdg><rdg wit="#V15">recakaṃ pūrakaṃ kuryāt</rdg><rdg wit="#V3">recakaḥ pūrakaḥ kāryaṃ</rdg><rdg wit="#V1">recakaḥ pūrakaṃ kāryaṃ</rdg><rdg wit="#J10">recakaḥ pūrakaḥ kārya</rdg><rdg wit="#N3">recakaḥ pūrvavat kāryaḥ</rdg><rdg wit="#P11">reco vā pūrakaḥ kāryaḥ</rdg><rdg wit="#C6">virecya pūrakaḥ kāryaḥ</rdg><rdg wit="#P15 #Jyo"><seg type="deva-ignore"><gap reason="om."/></seg></rdg></app></s> <s type="pada"><app><lem wit="#N3 #V19 #C7 #V1">sa vai</lem><rdg wit="#N19">savyai</rdg><rdg wit="#J10">sa&lt;&lt;r&gt;&gt;vvai</rdg><rdg wit="#C6 #V3 #Gr2 #V15">śanaiḥ</rdg><rdg wit="#P15 #Jyo"><seg type="deva-ignore"><gap reason="om."/></seg></rdg></app> <app><lem wit="#ceteri">sahitakumbhakaḥ</lem><rdg wit="#V15">saṃyatakuṃbhakaḥ</rdg><rdg wit="#P15 #Jyo"><seg type="deva-ignore"><gap reason="om."/></seg></rdg></app>/</s> <note type="omission">ab omitted in <ref>P15,Jyo</ref></note>
+</l>
+<l> <s type="pada">yāvat kevala<app><lem wit="#ceteri">siddhiḥ</lem><rdg wit="#V19 #J10">śuddhiḥ</rdg></app> syāt</s> <s type="pada"><app><lem wit="#C6 #V3 #Gr2 #V19 #C7 #V1">tāvat sahita<seg type="deva-ignore">m</seg></lem><rdg wit="#J10">tāvat sahitasam</rdg><rdg wit="#N3 #P15 #N19 #V15 #Jyo">sahitaṃ tāvad</rdg></app>m abhyaset//</s></l> 
+</lg>
+ 
+<lg xml:id="hp02_074">
+ <l> <s type="pada">recakaṃ <app><lem wit="#ceteri">pūrakaṃ</lem><rdg wit="#C6">kuṃbhakaṃ</rdg></app> <app><lem wit="#J5 #C6 #P15 #V15 #V1 #J10 #Jyo">muktvā</lem><rdg wit="#V3">muktaṃ</rdg><rdg wit="#N3 #Gr2 #V19 #C7">tyaktvā</rdg></app></s> <s type="pada"><app><lem wit="#ceteri">sukhaṃ</lem><rdg wit="#N23 #C7">mukhaṃ</rdg><rdg wit="#V1 #J10">sukhād</rdg></app> <app><lem wit="#ceteri">yad vāyudhāraṇam</lem><rdg wit="#C7">yad vāyudhāraṇāt</rdg><rdg wit="#V1 #J10">vāyunirodhanam</rdg><rdg wit="#P15">saṃdhāya dhāraṇāṃ</rdg></app>/</s></l>
+<l> <s type="pada">prāṇāyāmo’yam ity uktaḥ</s> <s type="pada"><app><lem wit="#ceteri">sa vai</lem><rdg wit="#P15">sarvaiḥ</rdg><rdg wit="#N3">sarve</rdg></app> kevala<app><lem wit="#ceteri">kumbhakaḥ</lem><rdg wit="#N23">kumbhataḥ</rdg></app>//</s></l> 
+</lg>
+ 
+<lg xml:id="hp02_075">
+ <l> <s type="pada"><app><lem wit="#ceteri">kevale kumbhake</lem><rdg wit="#V15">kumbhake kevale</rdg><rdg wit="#Jyo">kumbhakaḥ kevale</rdg></app> <app><lem wit="#ceteri">siddhe</lem><rdg wit="#V3">siddho</rdg><rdg wit="#V1">siddhi</rdg></app></s> <s type="pada"><app><lem wit="#ceteri">reca</lem><rdg wit="#J7">recaḥ</rdg><rdg wit="#N3 #V3 #J10">recaka</rdg></app><app><lem wit="#C6 #Gr2 #V19 #C7 #J10 #Jyo">pūraka</lem><rdg wit="#N3 #V3 #V15 #V1">pūra</rdg><rdg wit="#P15">pūre</rdg></app><app><lem wit="#N3 #C6 #Gr2 #V19 #C7 #J10 #Jyo">varjite</lem><rdg wit="#V15 #V1">vivarjite</rdg><rdg wit="#V3">vivarjitaṃ</rdg><rdg wit="#P15">vivarjayet</rdg></app>/</s></l>
+<l> <s type="pada">na tasya <app><lem wit="#ceteri">durlabhaṃ</lem><rdg wit="#V1">durlabha</rdg></app> kiṃcit</s> <s type="pada">triṣu <app><lem wit="#ceteri">lokeṣu</lem><rdg wit="#J10">kāleṣu</rdg></app> vidyate//</s></l> 
+</lg>
+ 
+<lg xml:id="hp02_076">
+ <l> <s type="pada"><app><lem wit="#N3 #C6 #Gr2 #V15 #V1 #Jyo">śaktaḥ</lem><rdg wit="#P15">saktaṃ</rdg><rdg wit="#V3 #V19 #J10">śuddha</rdg><rdg wit="#C7">śuddhaḥ</rdg></app> <app><lem wit="#ceteri">kevalakumbhena</lem><rdg wit="#N23">kevale kumbhake</rdg></app></s> <s type="pada"><app><lem wit="#ceteri">yatheṣṭaṃ</lem><rdg wit="#P15">yatheṣṭa</rdg><rdg wit="#V19 #C7">yathoktaṃ</rdg></app> vāyu<app><lem wit="#ceteri">dhāraṇam</lem><rdg wit="#N3 #V15">dhāraṇe</rdg><rdg wit="#P15 #Jyo">dhāraṇāt</rdg></app>/</s></l>
+<l> <s type="pada">rāja<app><lem wit="#ceteri">yoga</lem><rdg wit="#V3">yogaṃ</rdg></app><app><lem wit="#ceteri">padaṃ</lem><rdg wit="#P15">phalaṃ</rdg></app> <app><lem wit="#N3 #C6 #V3 #V19 #C7 #P15 #V15 #J10">caiva</lem><rdg wit="#V1">caivaṃ</rdg><rdg wit="#Jyo">cāpi</rdg><rdg wit="#Gr2">samyak</rdg></app></s> <s type="pada"><app><lem wit="#ceteri">labhate</lem><rdg wit="#C6 #P15 #V1 #J10">labhyate</rdg></app> nātra saṃśayaḥ//</s></l> 
+</lg>
+ 
+<lg xml:id="hp02_077">
+ <l> <s type="pada">haṭhaṃ vinā rājayogo</s> <s type="pada">rājayogaṃ vinā haṭhaḥ/</s></l>
+<l> <s type="pada">na sidhyati tato <app><lem wit="#ceteri">yugma<seg type="deva-ignore">m</seg></lem><rdg wit="#V15">yogam</rdg></app></s><s type="pada"><app><lem wit="#ceteri"><seg type="ltn-ignore">m </seg>ā niṣpatteḥ</lem><rdg wit="#N3">niṣpatteḥ</rdg><rdg wit="#J7">aniṣpatti</rdg><rdg wit="#V15">ubhayor api</rdg></app> <app><lem wit="#ceteri">samabhyaset</lem><rdg wit="#V15">cābhyaset</rdg></app>//</s></l> 
+</lg>
+ 
+<lg xml:id="hp02_078">
+ <l> <s type="pada"><app><lem wit="#P11 #P15">kumbhita</lem><rdg wit="#N3 #N23 #V15">kumbhitaḥ</rdg><rdg wit="#J7">kumbhataḥ</rdg><rdg wit="#V3">kumbhata</rdg><rdg wit="#J10 #Jyo">kumbhaka</rdg><rdg wit="#V19 #C7">kumbhakaṃ</rdg><rdg wit="#V1">kumbhakaḥ</rdg><rdg wit="#C6">tad etat</rdg></app>prāṇa<app><lem wit="#ceteri">recānte</lem><rdg wit="#J10">.. cānte</rdg><rdg wit="#Jyo">rodhānte</rdg></app></s> <s type="pada">kuryāc cittaṃ <app><lem wit="#ceteri">nirāśrayam</lem><rdg wit="#V3 #J10">nirāmayam</rdg></app>/</s></l>
+<l> <s type="pada">evam abhyāsayogena</s> <s type="pada">rāja<app><lem wit="#ceteri">yoga</lem><rdg wit="#V3 #V15">yogaṃ</rdg><rdg wit="#V19"><seg type="deva-ignore"><gap reason="om."/></seg></rdg></app><app><lem wit="#ceteri">padaṃ</lem><rdg wit="#V15">labhat</rdg><rdg wit="#V19"><seg type="deva-ignore"><gap reason="om."/></seg></rdg></app> <app><lem wit="#N3 #C6 #V3 #V1 #J10 #Jyo">vrajet</lem><rdg wit="#Gr2 #C7 #P15">labhet</rdg><rdg wit="#V15">punaḥ</rdg><rdg wit="#V19"><seg type="deva-ignore"><gap reason="om."/></seg></rdg></app>//</s> <note type="omission">cd omitted in <ref>V19</ref></note>
+</l> 
+</lg>
+ <note type="altrecension">
+<lg xml:id="hp02_078_1">
+ <l> <s type="pada">kumbhakād vardhate vāyus</s> <s type="pada">tato’gniś ca <app><lem wit="#N23">pravardhate</lem><rdg wit="#J7">pavardhate</rdg></app>/</s></l>
+<l> <s type="pada"><app><lem wit="#J7">buddhā</lem><rdg wit="#N23">buddhvā</rdg></app> kuṇḍalinī tasmāt</s> <s type="pada">saiva dvāraṃ prayacchati//</s> <note type="inlineref"><ref>Gr2</ref></note>
+</l> 
+</lg>
+ </note>
+
+<lg xml:id="hp02_079">
+ <l><app><lem/><rdg wit="#Jyo">found before 2.77</rdg></app><s type="pada"><app><lem wit="#ceteri">kumbhakā<seg type="deva-ignore">t</seg></lem><rdg wit="#N3 #J10">kumbhakān</rdg></app>t kuṇḍalī<app><lem wit="#ceteri">bodhaḥ</lem><rdg wit="#V1">bodhaṃ</rdg><rdg wit="#N23">bodhau</rdg><rdg wit="#V3 #V15">bodho</rdg></app></s> <s type="pada">kuṇḍalī<app><lem wit="#ceteri">bodhato</lem><rdg wit="#V1">bodhito</rdg></app> bhavet/</s></l>
+<l> <s type="pada"><app><lem wit="#ceteri">anargalā</lem><rdg wit="#P15">anargala</rdg><rdg wit="#Jyo">anirgalā</rdg></app> <app><lem wit="#ceteri">suṣumṇā ca</lem><rdg wit="#P15">sukhāmnā ca</rdg><rdg wit="#C7">suṣumṇāto</rdg><rdg wit="#V19">sukhumnāto</rdg><rdg wit="#V1">suṣumṇāyāṃ</rdg></app></s> <s type="pada"><app><lem><seg type="deva-ignore"><hi rend="italic">ante</hi> haṭhasiddhi <hi rend="italic">add.</hi></seg></lem><rdg wit="#N23">viśed vāyus tato balāt</rdg></app> haṭhasiddhi<app><lem wit="#ceteri"><seg type="ltn-ignore">ś </seg>ca jāyate</lem><rdg wit="#V3 #C7 #P15 #V15">prajāyate</rdg></app>//</s></l> 
+</lg>
+ 
+<lg xml:id="hp02_080">
+ <l> <s type="pada">vapuḥkṛśatvaṃ <app><lem wit="#ceteri">vadane</lem><rdg wit="#V1">vane</rdg><rdg wit="#V19">vadana</rdg></app> prasannatā</s></l>
+<l> <s type="pada"><app><lem wit="#ceteri">nāda</lem><rdg wit="#V3">nādaḥ</rdg><rdg wit="#C7">nāde</rdg></app>sphuṭatvaṃ <app><lem wit="#ceteri">nayane</lem><rdg wit="#N23">ca nayane</rdg></app> <app><lem wit="#C6 #V3 #Gr2 #V19 #C7 #Jyo">sunirmale</lem><rdg wit="#N3 #P15 #V15 #V1 #J10">ca nirmale</rdg></app>/</s></l>
+<l> <s type="pada"><app><lem wit="#N3 #V3 #V1 #J10 #Jyo">ārogyatā</lem><rdg wit="#C6">arogyatā</rdg><rdg wit="#N23 #V19 #C7">arogitā</rdg><rdg wit="#J7">ārogitā</rdg><rdg wit="#P15 #Jyo">arogatā</rdg><rdg wit="#V15">ārogatā</rdg></app> bindujayo’gni<app><lem wit="#ceteri">dīpanaṃ</lem><rdg wit="#V1">dīpakaṃ</rdg></app></s> </l>
+<l> <s type="pada"><app><lem wit="#C6 #Gr2 #V19 #C7 #V15 #Jyo">nāḍīviśuddhi<seg type="deva-ignore">r</seg></lem><rdg wit="#P11 #V3 #P15 #J10">nāḍīṣu śuddhi</rdg><rdg wit="#N3 #V1">nāḍīṣu siddhir</rdg></app>r haṭha<app><lem wit="#ceteri">siddhi</lem><rdg wit="#N3">siddha</rdg><rdg wit="#V1">yoga</rdg></app>lakṣaṇam//</s></l> 
+</lg>
+ <div type="colophon" xml:id="hp02_col"><p> iti <app><lem wit="#V3 #N23 #V15">śrīsvātmārāmayogīndra</lem><rdg wit="#N3">śrīsadgurusvātmārāmayogendra</rdg><rdg wit="#P15">svātmārāmayogendra</rdg><rdg wit="#J10">ātmārāmayogīndra</rdg><rdg wit="#V1">svātmārāma</rdg><rdg wit="#J7">śrīsahajānandasantānacintāmaṇi-svātmārāmayogīndra</rdg><rdg wit="#C6 #V19 #C7 #Jyo"><seg type="deva-ignore"><gap reason="om."/></seg></rdg></app><app><lem wit="#ceteri">viracitāyāṃ</lem><rdg wit="#C6 #V19 #C7 #Jyo"><seg type="deva-ignore"><gap reason="om."/></seg></rdg></app> <app><lem wit="#ceteri">haṭha</lem><rdg wit="#C7">śrīhaṭha</rdg></app>pradīpikāyāṃ <app><lem><seg type="deva-ignore"><hi rend="italic">ante</hi> dvitīyo° <hi rend="italic">add.</hi></seg></lem><rdg wit="#V15">haṭhakarmasādhano nāma</rdg></app><app><lem wit="#N3 #V3 #Gr2 #C7 #V15 #Jyo">dvitīyopadeśaḥ</lem><rdg wit="#P15">dvitīya upadeśaḥ</rdg><rdg wit="#V19">dvitīyo yam upadeśaḥ</rdg><rdg wit="#C6">upadeśaḥ</rdg><rdg wit="#V1 #J10">dvitīyodhyāyaḥ</rdg></app>// </p></div> 
+</body>
+</text>
+</TEI>

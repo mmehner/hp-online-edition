@@ -111,6 +111,17 @@ summary {
     font-weight: bold;
 }
 
+a {
+    color: #b3b3b3;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #b3b3b3;
+    font-weight: bold;
+    text-decoration: none;
+}
+
 
 #chapternav {
     display: flex;
@@ -218,7 +229,7 @@ mark {
     padding-left: 30px;
 }
 
-.post-prosa {
+.postmula {
     margin: 0;
     padding-top: 10px;
     padding-bottom: 25px;

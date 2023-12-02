@@ -1,11 +1,12 @@
 <?xml version="1.0"?>
 <locatingRules xmlns="http://thaiopensource.com/ns/locating-rules/1.0">
-  <uri resource="HP1_dev-tei.xml" uri="tei-schema/tei_all.rnc"/>
-  <uri resource="HP1_edition-tei.xml" uri="tei-schema/tei_all.rnc"/>
-  <uri resource="HP1-TranslComm-tei.xml" uri="tei-schema/tei_all.rnc"/>
-  <uri resource="HP2_edition-tei.xml" uri="tei-schema/tei_all.rnc"/>
-  <uri resource="HP2-TranslComm-tei.xml" uri="tei-schema/tei_all.rnc"/>
-  <uri resource="Jyotsna-tei.xml" uri="tei-schema/tei_all.rnc"/>
+  <uri resource="HP1_text-tei.xml" uri="tei-schema/tei_all.rnc"/>
+  <uri resource="HP2_text-tei.xml" uri="tei-schema/tei_all.rnc"/>
+  <uri resource="HP3_text-tei.xml" uri="tei-schema/tei_all.rnc"/>
+  <uri resource="HP4_text-tei.xml" uri="tei-schema/tei_all.rnc"/>
+  <uri resource="HP1_comm-tei.xml" uri="tei-schema/tei_all.rnc"/>
+  <uri resource="HP2_comm-tei.xml" uri="tei-schema/tei_all.rnc"/>
+  <uri resource="HP3_comm-tei.xml" uri="tei-schema/tei_all.rnc"/>
+  <uri resource="HP4_comm-tei.xml" uri="tei-schema/tei_all.rnc"/>
   <uri resource="Marmasthanas-tei.xml" uri="tei-schema/tei_all.rnc"/>
-  <uri resource="HP1_OldMss-tei.xml" uri="tei-schema/tei_all.rnc"/>
 </locatingRules>

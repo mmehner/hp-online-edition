@@ -16,14 +16,14 @@
 \makeFNbottom
 
 \usepackage[teiexport=tidy,poetry=verse]{ekdosis}
-\usepackage{libertine} % for Oberleaf version
+\usepackage{libertine}
 \usepackage{sanskrit-poetry}
 \usepackage{xcolor}
 
 \usepackage[english]{babel}
 \usepackage{babel-iast,xparse,xcolor}
 \babelfont[iast]{rm}[Renderer=Harfbuzz, Scale=1.5]{AdishilaSan}
-%\babelfont[english]{rm}[Scale=0.9]{Adobe Text Pro} % to be deleted for TranslComm in Oberleaf
+%\babelfont[english]{rm}[Scale=0.9]{Adobe Text Pro}
 \babeltags{dev = iast}
 \babeltags{eng = english}
 
@@ -45,7 +45,7 @@
 	rule=\rule{0.7in}{0.4pt},
 	]
 
-\DeclareShorthand{conj}{\texteng{\emph{conj.}}}{ego}
+%\DeclareShorthand{conj}{\texteng{\emph{conj.}}}{ego}
 \DeclareShorthand{emend}{\texteng{\emph{em.}}}{ego}
 
 \setlength{\vrightskip}{-10pt}
@@ -114,35 +114,26 @@
 
 % additions/changes 2022-08-22 mm:
 \NewDocumentEnvironment{alttlg}{O{}}{
-  %\stopvline
-  %\addtocounter{saved@poemline}{-1}
-  \setvnum{\hindsection.\arabic{saved@poemline}*\arabic{poemline}}
+%  \stopvline
+%  \addtocounter{saved@poemline}{-1}
+%  \setvnum{\hindsection.\arabic{saved@poemline}*\arabic{poemline}}
 %  \selectlanguage{iast}
   \begin{ekdverse}[type=altrecension]
     \color{gray}
   }{
   \end{ekdverse}
   \vskip 0.6\baselineskip
-  %\addtocounter{saved@poemline}{1}
-  %\startvline
-  %\setvnum{\hindsection.\arabic{poemline}}
-  %\selectlanguage{iast}
+%  \addtocounter{saved@poemline}{1}
+%  \startvline
+%  \setvnum{\hindsection.\arabic{poemline}}
+%  \selectlanguage{iast}
 }
-
-\NewDocumentCommand{\tl}{m}{#1}
-
-%%%%%%
-
-\def\startverse{\begin{ekdverse}} % übergangsweise
-\def\endverse{\end{ekdverse}\vskip 0.6\baselineskip} % übergangsweise
-\def\startgray{\color{gray}} % NEW! 2023-06-16
-\def\endgray{\color{black}} % NEW! 2023-06-16
 
 % additions/changes 2022-08-22 mm:
 \def\startaltrecension{
   \stopvline
   \addtocounter{saved@poemline}{-1}
-    %\setvnum{\hindsection.\arabic{saved@poemline}*\arabic{poemline}}
+  \setvnum{\hindsection.\arabic{saved@poemline}*\arabic{poemline}}
 	%\selectlanguage{iast}
 	%\begin{ekdverse}[type=altrecension]
 	%\color{gray}
@@ -157,6 +148,24 @@
 %  \selectlanguage{iast}
 	\normalsize  % added 2023-10-12 MD
 	}
+
+\def\startaltnormal{
+	\stopvline
+	\addtocounter{saved@poemline}{-1}
+	\setvnum{\hindsection.\arabic{saved@poemline}*\arabic{poemline}}}
+\def\endaltnormal{\endaltrecension}
+
+
+
+\NewDocumentCommand{\tl}{m}{#1}
+
+%%%%%%
+
+\def\startverse{\begin{ekdverse}} % übergangsweise
+\def\endverse{\end{ekdverse}\vskip 0.6\baselineskip} % übergangsweise
+\def\startgray{\color{gray}} % NEW! 2023-06-16
+\def\endgray{\color{black}} % NEW! 2023-06-16
+
 
 %%%%%%
 

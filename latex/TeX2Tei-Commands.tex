@@ -1,3 +1,6 @@
+% changes/additions 2023-11-27 MM:
+\TeXtoTEIPat{\medialink {#1}{#2}}{<ref target="resources/#2">#1</ref>}
+
 % changes/additions 2023-10-25 MM:
 % new Sigla
 \TeXtoTEIPat{\textAlpha}{Α}
@@ -60,6 +63,7 @@
 \TeXtoTEIPat{\newpage}{}
 \TeXtoTEIPat{\marma}{}
 \TeXtoTEIPat{\marmas}{ }
+\TeXtoTEIPat{\vin}{} % added by MD 2023-11-14
 
 %%% modify environments and commands
 %%% TEI mapping
@@ -84,6 +88,8 @@
 \TeXtoTEIPat{\outdent}{}
 \TeXtoTEIPat{\startaltrecension}{<note type="altrecension">}
 \TeXtoTEIPat{\endaltrecension}{</note>}
+\TeXtoTEIPat{\startaltnormal}{<note type="altrecension">} % added by MD 2023-11-14
+\TeXtoTEIPat{\endaltnormal}{</note>} % added by MD 2023-11-14
 \TeXtoTEIPat{\begin {alttlg}[#1]}{<lg xml:id="#1">}
   \TeXtoTEIPat{\end {alttlg}}{</lg>}
 

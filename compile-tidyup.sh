@@ -6,22 +6,38 @@ xslcmdproc(){
     xslcmd="java -jar ${HOME}/.nix-profile/saxon9he.jar"
 
     echo "processing xml …"
-    $xslcmd -s:xml/HP1_dev-tei.xml -xsl:xslt/hp-online.xsl -o:html/hp1.html \
+    echo "… hp1"
+    $xslcmd -s:xml/HP1_text-tei.xml -xsl:xslt/hp-online.xsl -o:html/hp1.html \
 	    chapid="hp1" \
-	    transl="../xml/HP1_TranslComm-tei.xml" \
+	    transl="../xml/HP1_comm-tei.xml" \
 	    marma="../xml/Marmasthanas-tei.xml" \
 	    jyotsna="../xml/jyotsna.xml"
-    
-    $xslcmd -s:xml/HP2_edition-tei.xml -xsl:xslt/hp-online.xsl -o:html/hp2.html \
+
+    echo "… hp2"
+    $xslcmd -s:xml/HP2_text-tei.xml -xsl:xslt/hp-online.xsl -o:html/hp2.html \
 	    chapid="hp2" \
-	    transl="../xml/HP2_TranslComm-tei.xml" \
+	    transl="../xml/HP2_comm-tei.xml" \
+	    marma="../xml/Marmasthanas-tei.xml" \
+	    jyotsna="../xml/jyotsna.xml"
+
+    echo "… hp3"
+    $xslcmd -s:xml/HP3_text-tei.xml -xsl:xslt/hp-online.xsl -o:html/hp3.html \
+	    chapid="hp3" \
+	    transl="../xml/HP3_comm-tei.xml" \
+	    marma="../xml/Marmasthanas-tei.xml" \
+	    jyotsna="../xml/jyotsna.xml"
+
+    echo "… hp4"
+    $xslcmd -s:xml/HP4_text-tei.xml -xsl:xslt/hp-online.xsl -o:html/hp4.html \
+	    chapid="hp4" \
+	    transl="../xml/HP4_comm-tei.xml" \
 	    marma="../xml/Marmasthanas-tei.xml" \
 	    jyotsna="../xml/jyotsna.xml"
 
     echo "concatenating html …"
     sed '/<!--content-->/q' html/meta.html > html/hp-online.html 
     
-    for f in "html/hp1.html" "html/hp2.html"
+    for f in "html/hp1.html" "html/hp2.html" "html/hp3.html" "html/hp4.html"
     do
 	sed -e '/^\s*$/d' $f >> html/hp-online.html
     done
@@ -94,8 +110,9 @@ then
     compile "${1#*/}"
 elif [ -z "${1:-}" ]
 then
-    for f in "HP1_dev.tex" "HP1_TranslComm.tex" "Marmasthanas.tex" "HP2_edition.tex" "HP2_TranslComm.tex"
+    for f in "HP1_text.tex" "HP2_text.tex" "HP3_text.tex" "HP4_text.tex" "HP1_comm.tex" "HP2_comm.tex" "HP3_comm.tex" "HP4_comm.tex" "Marmasthanas.tex" 
     do
+	echo "compiling ${f} …"
 	compile "${f}"
     done
 fi

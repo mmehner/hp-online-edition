@@ -183,7 +183,7 @@
 	    
 	    <div class="versltn">
 	      <xsl:apply-templates>
-		<xsl:with-param name="transc" select="true()" tunnel="yes"/>
+		<xsl:with-param name="transc" select="false()" tunnel="yes"/>
 	      </xsl:apply-templates>
 	    </div>
 	  </xsl:element>
@@ -314,8 +314,9 @@
       <xsl:choose>
 	<xsl:when test="lem">
 	  <xsl:apply-templates select="lem" mode="lemma"/>
-	  <xsl:text> ]</xsl:text>
-	  <xsl:text> </xsl:text>
+	  <xsl:if test="lem/text()">
+	    <xsl:text> ] </xsl:text>
+	  </xsl:if>
 	  <xsl:for-each select="descendant::rdg[not(position() = last())]">
 	    <xsl:apply-templates select="."/><xsl:text>, </xsl:text>
 	  </xsl:for-each>
@@ -323,8 +324,9 @@
 	</xsl:when>
 	<xsl:when test="rdg">
 	  <xsl:apply-templates select="descendant::rdg[1]" mode="lemma"/>
-	  <xsl:text> ]</xsl:text>
-	  <xsl:text> </xsl:text>
+	  <xsl:if test="rdg[1]/text()">
+	    <xsl:text> ] </xsl:text>
+	  </xsl:if>
 	  <xsl:for-each select="descendant::rdg[position() > 1][not(position() = last())]">
 	    <xsl:apply-templates select="."/><xsl:text>, </xsl:text>
 	  </xsl:for-each>
@@ -349,7 +351,8 @@
   </xsl:template>
 
   <xsl:template name="sigla">
-    <xsl:if test="@wit">
+    <xsl:choose>
+    <xsl:when test="@wit">
       <xsl:text> (</xsl:text>
       <xsl:variable name="tree" select="//*"/>
       <xsl:for-each select="tokenize(@wit,'\s+')">
@@ -374,7 +377,18 @@
 	</xsl:choose>
       </xsl:for-each>
       <xsl:text>)</xsl:text>
-    </xsl:if>
+    </xsl:when>
+    <!-- emendations -->
+    <xsl:when test="@resp='ego'">
+       <xsl:element name="span">
+	      <xsl:attribute name="class">siglum</xsl:attribute>
+	      <xsl:attribute name="title">
+		<xsl:text>emendation</xsl:text>
+	      </xsl:attribute>
+	      <xsl:text> (em.)</xsl:text>
+	    </xsl:element>
+    </xsl:when>
+    </xsl:choose>
   </xsl:template>
 
   <!-- refs -->
@@ -392,8 +406,10 @@
 	<xsl:when test="@target">
 	  <xsl:variable name="tree" select="//*"/>
 	  <xsl:choose>
+	    <!-- tokenize @target in refs with local target -->
 	    <xsl:when test="starts-with(@target, '#')">
-	      <xsl:variable name="idkey" select="substring-after(@target, '#')"/>
+	      <xsl:for-each select="tokenize(substring-after(@target, '#'),',')">
+	      <xsl:variable name="idkey" select="."/>
 	      <xsl:element name="span">
 		<xsl:attribute name="class">siglum</xsl:attribute>
 		<xsl:attribute name="title">
@@ -401,9 +417,22 @@
 		</xsl:attribute>
 		<xsl:apply-templates select="$tree[@xml:id = $idkey]/abbr"/>
 	      </xsl:element>
+	      <xsl:if test="position() &lt; last()-1">
+		<xsl:text>, </xsl:text>
+	      </xsl:if>
+	      <xsl:if test="position()=last()-1">
+		<xsl:text> and </xsl:text>
+	      </xsl:if>
+	    </xsl:for-each>
 	    </xsl:when>
+	    <!-- refs with non-local target (aka links) -->
 	    <xsl:otherwise>
-	      <xsl:value-of select="."/>
+	      <xsl:element  name="a">
+		<xsl:attribute name="href">
+		  <xsl:value-of select="@target"/>
+		</xsl:attribute>
+		<xsl:value-of select="."/>
+	      </xsl:element>
 	    </xsl:otherwise>
 	  </xsl:choose>
 	</xsl:when>
