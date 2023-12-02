@@ -282,6 +282,11 @@ mark {
     padding-bottom: 20px;
 }
 
+.appinnote {
+    padding-left: 10px;
+    font-size: 14px;
+}
+
 .translation{
     width: 100%;
     padding-left: 60px;

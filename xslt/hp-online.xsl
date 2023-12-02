@@ -485,6 +485,10 @@
     <p class="versinnote"><xsl:apply-templates/></p>
   </xsl:template>
 
+  <xsl:template match="note[@type='appinnote']">
+    <span class="appinnote"><xsl:apply-templates/></span>
+  </xsl:template>
+  
   <!-- footnotes -->
   <xsl:template match="note[@place='bottom' or @type='myfn']">
     <xsl:element name="span">

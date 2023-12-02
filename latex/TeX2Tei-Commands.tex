@@ -19,8 +19,7 @@
 \TeXtoTEIPat{\textchi}{χ}
 \TeXtoTEIPat{\textOmega}{Ω}
 \TeXtoTEIPat{\textomega}{ω}
-% delete var in philcomm und testimonia 
-\TeXtoTEIPat{\var {#1}}{}
+
 %new environments
 \TeXtoTEIPat{\begin {postmula}[#1]}{<note type="postmula" target="##1">}
   \TeXtoTEIPat{\end {postmula}}{</note>}
@@ -52,8 +51,11 @@
 % additions 2023-04-05 MD:
 \TeXtoTEIPat{\begin {testimonia}[#1]}{<note type="testimonia" target="##1">}
   \TeXtoTEIPat{\end {testimonia}}{</note>}
-\TeXtoTEI{devnote}{s}[xml:lang="sa-deva"]							
-													 
+\TeXtoTEI{devnote}{s}[xml:lang="sa-deva"]
+
+% app in philcomm und testimonia %%% added MM 2023-12-02
+\TeXtoTEI{var}{note}[type="appinnote"]
+
 %\TeXtoTEIPat{\anm {#1}}{<note type="memo">(#1)</note>}
 \TeXtoTEI{anm}{note}[type="memo"] %% change 2023-04-16 MD
 %\TeXtoTEIPat{\Anm {#1}}{<note type="memo">(#1)</note>} % only in HP4-edition.tex
@@ -200,7 +202,6 @@ surname=Team]
 % Nullify \selectlanguage in TEI as it has been used in
 % \DeclareWitness but should be ignored in TEI.
 \TeXtoTEI{selectlanguage}{}
-
 
 %%% Local Variables:
 %%% mode: latex
