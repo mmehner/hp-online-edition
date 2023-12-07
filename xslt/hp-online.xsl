@@ -35,6 +35,14 @@
   <xsl:template match="note[@type='postmula']"/>
   <xsl:template match="note[@type='omission']"/>
   <xsl:template match="note[@type='memo']"/>
+
+  <!-- container for altrecension -->
+  <xsl:template match="div[@type='altrec']">
+    <xsl:element name="div">
+      <xsl:attribute name="class">altrec</xsl:attribute>
+      <xsl:apply-templates/>
+    </xsl:element>
+  </xsl:template>
   
   <!-- main template -->
   <xsl:template match="lg[not(ancestor::note)]">
@@ -49,7 +57,14 @@
 	    </xsl:attribute>
 	    <xsl:attribute name="class">hp</xsl:attribute>
 	    <span class="number">
-	      <xsl:value-of select="replace(@xml:id, 'hp0*(\d+)_0*(\d+)', 'HP $1.$2')"/>
+	      <xsl:choose>
+		<xsl:when test="matches(@xml:id, 'hp\d+_\d+_\d+')">
+		  <xsl:value-of select="replace(@xml:id, 'hp0*(\d+)_0*(\d+)_0*(\d+)', 'HP $1.$2*$3')"/>
+		</xsl:when>
+		<xsl:otherwise>
+		  <xsl:value-of select="replace(@xml:id, 'hp0*(\d+)_0*(\d+)', 'HP $1.$2')"/>
+		</xsl:otherwise>
+	      </xsl:choose>
 	    </span>
 	    <div class="versdev">
 	      <xsl:apply-templates select="//note[@type='avataranika' and @target=$correspkey]" mode="avataranika">
@@ -202,9 +217,10 @@
   </xsl:template>
 
   <xsl:template match="note" mode="avataranika">
-    <p class="avataranika">
+    <xsl:element name="p">
+      <xsl:attribute name="class">avataranika<xsl:if test="ancestor::div[@type='altrec']"> altrec</xsl:if></xsl:attribute>
       <xsl:apply-templates/>
-    </p>
+    </xsl:element>
   </xsl:template>
   
   <xsl:template match="note" mode="postmula">
@@ -310,7 +326,8 @@
 
   <!-- apparatus -->
   <xsl:template name="apparatus">
-    <div class="app">
+    <xsl:element name="div">
+      <xsl:attribute name="class">app<xsl:if test="ancestor::div[@type='altrec']"> altrec</xsl:if></xsl:attribute>
       <xsl:choose>
 	<xsl:when test="lem">
 	  <xsl:apply-templates select="lem" mode="lemma"/>
@@ -333,7 +350,7 @@
 	  <xsl:apply-templates select="descendant::rdg[position() = last()]"/>
 	</xsl:when>
       </xsl:choose>
-    </div>
+    </xsl:element>
   </xsl:template>
 
   <xsl:template match="lem|rdg" mode="lemma">

@@ -1,5 +1,6 @@
 var dev = true;
 var ltn = false;
+var altrec = false;
 
 document.addEventListener("DOMContentLoaded", () => {
 
@@ -7,9 +8,12 @@ document.addEventListener("DOMContentLoaded", () => {
     var ltnbutton = document.getElementById("switchltn");
     var alternchar = document.getElementById("altern");
 
+    var altrecbutton = document.getElementById("switchaltrec");
+
     setbuttons();
+    hide("altrec"); /*entbehrlich durch css?*/
     
-    devbutton.addEventListener('click', () => {
+    devbutton.addEventListener('click', ()=> {
 	if ( dev && !ltn ) {
 	    
 	} else if ( dev ) {
@@ -37,6 +41,18 @@ document.addEventListener("DOMContentLoaded", () => {
 	};
     });
 
+    altrecbutton.addEventListener('click', () => {
+	if ( altrec ) {
+	    hide("altrec");
+	    altrec=false;
+	    setbuttons();
+	} else {
+	    show("altrec");
+	    altrec=true;
+	    setbuttons();
+	};
+    });
+
     function setbuttons() {
 	if ( dev && ltn ) { alternchar.textContent="&";}
 	else { alternchar.textContent="/";};
@@ -46,6 +62,9 @@ document.addEventListener("DOMContentLoaded", () => {
 	
 	if ( ltn ) { ltnbutton.className="toggleon"; }
 	else { ltnbutton.className="toggleoff"; }
+	
+	if ( altrec ) { altrecbutton.className="toggleon"; }
+	else { altrecbutton.className="toggleoff"; }
     }
 
     function hide(scriptclass) {

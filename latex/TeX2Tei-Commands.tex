@@ -1,3 +1,6 @@
+% change 2023-12-05 mm
+\TeXtoTEI{teimute}{} 
+
 % changes/additions 2023-11-27 MM:
 \TeXtoTEIPat{\medialink {#1}{#2}}{<ref target="resources/#2">#1</ref>}
 
@@ -23,8 +26,8 @@
 %new environments
 \TeXtoTEIPat{\begin {postmula}[#1]}{<note type="postmula" target="##1">}
   \TeXtoTEIPat{\end {postmula}}{</note>}
-\TeXtoTEIPat{\begin {altava}[#1]}{<note type="altavataranika" target="##1">}
-  \TeXtoTEIPat{\end {altava}}{</note>}
+\TeXtoTEIPat{\begin {altava}[#1]}{<div type="altrec"><note type="avataranika" target="##1">} %%% changed 2023-12-05 mm
+  \TeXtoTEIPat{\end {altava}}{</note></div>} %%% changed 2023-12-05 mm
 \TeXtoTEIPat{\sgwit {#1}}{<note type="inlineref"><ref>#1</ref></note>}
 
 % changes/additions 2023-10-12 MM:
@@ -33,8 +36,9 @@
 % changes/additions 2023-08-15 MD:
 \TeXtoTEIPat{\lineom {#1}{#2}}{<note type="omission">#1 omitted in <ref>#2</ref></note>}
 \TeXtoTEI{graus}{hi}[rend="grey"]
-\TeXtoTEIPat{\startgray}{<note type="altrecension">}
-\TeXtoTEIPat{\endgray}{</note>}
+\TeXtoTEIPat{\startgray}{} %%% changed 2023-12-05 mm
+\TeXtoTEIPat{\endgray}{} %%% changed 2023-12-05 mm
+
 
 
 % additions/changes 2023-06-05 mm:
@@ -56,15 +60,14 @@
 % app in philcomm und testimonia %%% added MM 2023-12-02
 \TeXtoTEI{var}{note}[type="appinnote"]
 
-%\TeXtoTEIPat{\anm {#1}}{<note type="memo">(#1)</note>}
+
 \TeXtoTEI{anm}{note}[type="memo"] %% change 2023-04-16 MD
-%\TeXtoTEIPat{\Anm {#1}}{<note type="memo">(#1)</note>} % only in HP4-edition.tex
-\TeXtoTEIPat{\Anm {#1}}{} %% change 2023-04-16 MD
+\TeXtoTEI{Anm}{note}[type="memo"] %% change 2023-12-05 MM
 \TeXtoTEIPat{\startverse}{} %%% marked for change 2023-04-13 mm
 \TeXtoTEIPat{\endverse}{} %%% marked for change 2023-04-13 mm
 \TeXtoTEIPat{\newpage}{}
 \TeXtoTEIPat{\marma}{}
-\TeXtoTEIPat{\marmas}{ }
+\TeXtoTEIPat{\marmas}{}
 \TeXtoTEIPat{\vin}{} % added by MD 2023-11-14
 
 %%% modify environments and commands
@@ -88,12 +91,12 @@
   \TeXtoTEIPat{\end {ava}}{</note>}
 												   
 \TeXtoTEIPat{\outdent}{}
-\TeXtoTEIPat{\startaltrecension}{<note type="altrecension">}
-\TeXtoTEIPat{\endaltrecension}{</note>}
-\TeXtoTEIPat{\startaltnormal}{<note type="altrecension">} % added by MD 2023-11-14
-\TeXtoTEIPat{\endaltnormal}{</note>} % added by MD 2023-11-14
-\TeXtoTEIPat{\begin {alttlg}[#1]}{<lg xml:id="#1">}
-  \TeXtoTEIPat{\end {alttlg}}{</lg>}
+\TeXtoTEIPat{\startaltrecension}{} %%% changed 2023-12-05 mm
+\TeXtoTEIPat{\endaltrecension}{} %%% changed 2023-12-05 mm
+\TeXtoTEIPat{\startaltnormal}{} % added by MD 2023-11-14 %%% changed 2023-12-05 mm
+\TeXtoTEIPat{\endaltnormal}{} % added by MD 2023-11-14 %%% changed 2023-12-05 mm
+\TeXtoTEIPat{\begin {alttlg}[#1]}{<div type="altrec"><lg xml:id="#1">}
+  \TeXtoTEIPat{\end {alttlg}}{</lg></div>}
 
 
 

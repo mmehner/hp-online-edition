@@ -33,6 +33,12 @@
     display: none;
 }
 
+
+.altrec{
+    display: none;
+}
+
+
 * {box-sizing: border-box;}
 
 body {
