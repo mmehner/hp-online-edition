@@ -1,0 +1,91 @@
+\documentclass[10pt]{memoir}
+\setstocksize{220mm}{155mm} 	        
+\settrimmedsize{220mm}{155mm}{*}	
+\settypeblocksize{170mm}{116mm}{*}	
+\setlrmargins{18mm}{*}{*}
+\setulmargins{*}{*}{1.2}
+% \setlength{\headheight}{5pt}
+\checkandfixthelayout[lines]
+\linespread{1}
+\setlength{\parskip}{0.3em}
+\setlength\parindent{0pt}
+
+\makepagestyle{HPed}
+\makeoddhead{HPed}{\small{HP Transl. \& Comm.}}{}{\small{\today}}
+\makeevenhead{HPed}{\small{HP Transl. \& Comm.}}{}{\small{\today}}
+\makeoddfoot{HPed}{}{\small{\thepage}}{}
+\makeevenfoot{HPed}{}{\small{\thepage}}{}
+
+\usepackage[teiexport=tidy,poetry=verse]{ekdosis}
+\usepackage{sanskrit-poetry,libertine,xcolor}
+\usepackage[english]{babel}
+\setlength{\vindent}{0pt}
+\setvnum{}
+
+\input{Manuscript-Sigla}
+%\input{Abbreviations}
+\input{TeX2Tei-Commands}
+\SetTEIxmlExport{autopar=false}
+
+%%%%%%%%%%%
+
+\SetTEIxmlExport{autopar=false}
+\NewDocumentEnvironment{translation}{O{}}{\textcolor{blue}{\textbf{Transl.:}}}{}
+\NewDocumentEnvironment{philcomm}{O{}}{
+	\textcolor{blue}{\textbf{Comm.:}}}{}
+\NewDocumentEnvironment{metre}{O{}}{
+	\textcolor{blue}{\textbf{Metre:}}}{} % added MD 2023-12-11
+\NewDocumentEnvironment{sources}{O{}}{
+	\textcolor{blue}{\textbf{Sources:}}\linebreak}{}
+\NewDocumentEnvironment{testimonia}{O{}}{
+	\textcolor{blue}{\textbf{Testimonia:}}\linebreak}{}
+\NewDocumentEnvironment{versinnote}{O{}}{\begin{ekdverse}}{\end{ekdverse}}
+%\newcommand{\var}[1]{\footnotesize\textup{#1}}
+\newcommand{\medialink}[2]{\textcolor{green}{\underline{#1}}}
+%\TeXtoTEIPat{\medialink {#1}{#2}}{<ref target="/images/#2">#1</ref>}
+
+\NewDocumentCommand{\tl}{m}{#1}
+
+\def\vl{\textit{v.l.}}
+\def\var#1{{\footnotesize #1}}
+\def\sl#1{\emph{#1}}
+
+%%%%%%%%%%%%
+
+\usepackage{textgreek}
+
+\newcommand{\alphaOne}{\textalpha\textsubscript{1}}% N3
+\newcommand{\alphaTwo}{\textalpha\textsubscript{2}}% J5
+\newcommand{\alphaThree}{\textalpha\textsubscript{3}}% G4
+\newcommand{\betaOne}{\textbeta\textsubscript{1}}% P11
+\newcommand{\betaTwo}{\textbeta\textsubscript{2}}% C6
+\newcommand{\betaOmega}{\textbeta\textsubscript{\textomega}}% V3
+\newcommand{\gammaOne}{\textgamma\textsubscript{1}}% N23
+\newcommand{\gammaTwo}{\textgamma\textsubscript{2}}% J7
+\newcommand{\deltaOne}{\textdelta\textsubscript{1}}% V19
+\newcommand{\deltaTwo}{\textdelta\textsubscript{2}}% K3
+\newcommand{\deltaThree}{\textdelta\textsubscript{3}}% C7
+\newcommand{\deltaOmega}{\textdelta\textsubscript{\textomega}}% J6
+\newcommand{\epsilonOne}{\textepsilon\textsubscript{1}}% P15
+\newcommand{\epsilonTwo}{\textepsilon\textsubscript{2}}% N19
+\newcommand{\epsilonThree}{\textepsilon\textsubscript{3}}% V15
+\newcommand{\epsilonFour}{\textepsilon\textsubscript{4}}% J11
+\newcommand{\epsilonOmega}{\textepsilon\textsubscript{\textomega}}% N26
+\newcommand{\etaOne}{\texteta\textsubscript{1}}% V1
+\newcommand{\etaTwo}{\texteta\textsubscript{2}}% J10
+\newcommand{\etaOmega}{\texteta\textsubscript{\textomega}}% N9
+
+%%%%%%%%%%%%%%
+
+\babelhyphenation{%
+	Dattā-treya-yoga-śāstra
+	Gorakṣa-śataka
+	Haṭha-pra-dī-pikā
+	Hātha-ratnā-valī
+	Svātmā-rāma
+	Śiva-saṃhitā
+	Vasiṣṭha-saṃhitā
+	Viveka-mārtaṇḍa
+	Yukta-bhava-deva
+	Yoga-cintā-maṇi
+	Yoga-yājña-valkya}

@@ -110,6 +110,12 @@
 	</div>
 
 	<div class="crit">
+	  <xsl:variable name="metre" select="document($transl)//note[@type='metre' and @target=$correspkey]"/>
+	  <xsl:if test="$metre">
+	    <div class="metre">
+	      Metre: <xsl:value-of select="$metre"/>
+	    </div>
+	  </xsl:if>
 	  <div class="apparatus">
 	    <h3>Readings</h3>
 	    <xsl:for-each select="descendant::note[@type='omission']">

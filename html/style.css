@@ -324,6 +324,17 @@ mark {
     margin-bottom: 10px;
 }
 
+.metre {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0px;
+}
+
+
 .apparatus {
     padding-top: 10px;
     padding-bottom: 10px;
