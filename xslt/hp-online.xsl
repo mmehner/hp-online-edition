@@ -83,7 +83,7 @@
 	      <xsl:apply-templates select="//note[@type='avataranika' and @target=$correspkey]" mode="avataranika">
 		<xsl:with-param name="transc" select="false()" tunnel="yes"/>
 	      </xsl:apply-templates>
-	      
+
 	      <xsl:apply-templates>
 		<xsl:with-param name="transc" select="false()" tunnel="yes"/>
 	      </xsl:apply-templates>
