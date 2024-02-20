@@ -12,6 +12,7 @@
 % not included: C1(lost),P23,P11(errorneus),N26
 % discarded: C6,C8,N17,J11,J15
 
+% 3.26b apparatus format check
 
 \begin{document}
 \pagestyle{HPed}
@@ -393,7 +394,7 @@ rāja\app{\lem[wit={ceteri}]{pathāyate}% raja° C6
 \tl{
 \pada{\app{\lem[wit={ceteri}]{mahā}
 		\rdg[wit={J10}]{mahān}}%
-	\app{\lem[wit={N3,C6,V3,V1,J10,Jyo}]{kleśādayo}
+	\app{\lem[wit={N3,C6,V3,V1,J10,Jyo}]{kleśādayo}% +G4
 		\rdg[wit={J7}]{kleśā yato}
 		\rdg[wit={N23}]{kleśa yato}
 		\rdg[wit={P11}]{kleśāyatā}
@@ -406,7 +407,7 @@ rāja\app{\lem[wit={ceteri}]{pathāyate}% raja° C6
 \pada{\app{\lem[wit={N3}]{hīyante}
 		\rdg[wit={J5}]{hrīyaṃte}
 		\rdg[wit={V3,J10,Jyo}]{kṣīyante}% +J14
-		\rdg[wit={P11,C6,Gr2,V19,K3,V15,V1}]{jīryante} % +SouthIndMss; jīryate K3, jīyaṃte V15; jaryante G4
+		\rdg[wit={P11,C6,Gr2,V19,K3,V15,V1}]{jīryante}%## +SouthIndMss; jīryate K3, jīyaṃte V15; jaryante G4
 		\rdg[wit={N19}]{jāyante}}
 		maraṇādayaḥ/}\\+} % °ādaya N19,V3
 \tl{
@@ -597,7 +598,8 @@ rāja\app{\lem[wit={ceteri}]{pathāyate}% raja° C6
 		\rdg[wit={V3,J7,Jyo}]{dakṣāṅge punar}% +M3,G4?
 		\rdg[wit={P11}]{dakṣiṇāṅge punar}
 		\rdg[wit={J10}]{dakṣiṇe punar}}bhyaset//}\label{III21}
-		\lineom{cd}{Gr3a}\myfn{\getsiglum{N3,J5} have this hemistich after \ref{III23}.}\\!}
+		\lineom{cd}{Gr3a}% not in K1
+		\myfn{\getsiglum{N3,J5} have this hemistich after \ref{III23}.}\\!}
 %		\sgwit{C6,V3,Gr2,N19,V15,J10,V1,Jyo}\\!
 \end{tlg}
 
@@ -620,7 +622,7 @@ rāja\app{\lem[wit={ceteri}]{pathāyate}% raja° C6
 		\rdg[wit={C6,Gr2}]{tu varjayet}}/}
 		\label{III22}\\+}
 \tl{
-\pada{\app{\lem[wit={C6}]{rājadantabilaṃ tatra}
+\pada{\app{\lem[wit={C6}]{rājadantabilaṃ tatra}% +P7; om. P11 
 		\rdg[wit={V3}]{rājadantabilaṃ jatra}
 		\rdg[wit={N19,V15}]{rājadantabalaṃ haṃti}% rājaddaṃntabaḷaṃ V15
 		\rdg[wit={Gr2}]{rājadantadvayaṃ tatra}
@@ -634,7 +636,7 @@ rāja\app{\lem[wit={ceteri}]{pathāyate}% raja° C6
 		\rdg[wit={J10}]{dhitaḥ}
 		\rdg[wit={V1}]{dhi tat}}//}\myfn{In \getsiglum{N19,V15} the 2nd hemistich is found betweem 3.28 and 3.29.} % [MD: reference!]
 		%\sgwit{P11,C6,V3,Gr2,N19,V15,V1,J10,Jyo}
-		\NotIn{N3,J5,Gr3a}\\!} %3.22
+		\NotIn{N3,J5,Gr3a}\\!} %3.22; not in K1
 \end{tlg}
 
 
@@ -696,11 +698,11 @@ rāja\app{\lem[wit={ceteri}]{pathāyate}% raja° C6
 %%%%%%%%%%%%%%
 \newpage
 
-\begin{ava}[hp03_025]
-\app{\lem[wit={C6,C7,N19}]{atha mahāvedhaḥ} % °vedha N19,V3
-		\rdg[wit={Gr2,K3}]{mahāvedhaḥ}}/
-		\sgwit{Gr2,K3,C7,N19} %\NotIn{V19,N3}
-\end{ava}
+\begin{altava}[hp03_025]
+\app{\lem[wit={C6,C7,N19}]{atha} % °vedha N19,V3
+		\rdg[wit={Gr2,K3},alt={\om}]{\skp{\om}} mahāvedhaḥ}/
+		\sgwit{C6,Gr2,K3,C7,N19} %\NotIn{V19,N3}
+\end{altava}
 
 \begin{tlg}[hp03_025]
 \tl{
@@ -729,17 +731,21 @@ rāja\app{\lem[wit={ceteri}]{pathāyate}% raja° C6
 		\rdg[wit={J10}]{vedhavarttitau}
 		\rdg[wit={N19,V1}]{vinā tathā}% +J14
 		\rdg[wit={V3}]{vinānyathā}
-		\rdg[wit={V15},alt={\om}]{\skp{\om}}}//} \lineom{cd}{V15}\\!}  %3.25
+		\rdg[wit={V15},alt={\om}]{\skp{\om}}}//}\label{VuIII25} 
+		\lineom{cd}{V15}\\!}  %3.25
 \end{tlg}
 
+% \begin{postmula}[hp03_026a]
+% iti mahābandhaḥ/ \sgwit{V1}
+% \end{postmula}
 
-\begin{postmula}[hp03_026a]
-iti mahābandhaḥ/ \sgwit{V1}
-\end{postmula}
-
-\begin{altava}[hp03_026b]
-atha mahāvedhaḥ/ \sgwit{V3,V15,J10,Jyo}
-\end{altava}
+\begin{ava}[hp03_026b]
+\app{\lem[wit={V3,V15,J10,Jyo}]{atha mahāvedhaḥ}
+	\rdg[wit={V1}]{iti mahābandhaḥ}
+	\rdg[wit={J5}]{atha mahābaṃdhaḥ (after \ref{VuIII26}ab)}
+	\rdg[wit={C6,Gr2,K3,C7,N19}]{om. here but found before \ref{VuIII25}}% MD
+	\rdg[wit={N3,P11,V19},alt={\om}]{\skp{\om}}}/ \sgwit{V3,V15,J10,Jyo}
+\end{ava}
 
 
 %\newpage
@@ -771,7 +777,7 @@ atha mahāvedhaḥ/ \sgwit{V3,V15,J10,Jyo}
 \pada{nibhṛtaṃ\marmas kaṇṭha%
 	\app{\lem[wit={ceteri}]{mudrayā}
 		\rdg[wit={J10}]{mudrāyā}
-		\rdg[wit={N23},postwit=\texteng{(jumped to pāda c after gatim)},alt={\om}]{\skp{\om}}}//}\\!}  %3.26
+		\rdg[wit={N23},postwit=\texteng{(jumped to pāda c after gatim)},alt={\om}]{\skp{\om}}}//}\label{VuIII26}\\!}  %3.26
 \end{tlg}
 
 \begin{tlg}[hp03_027]
@@ -858,10 +864,9 @@ atha mahāvedhaḥ/ \sgwit{V3,V15,J10,Jyo}
 		\rdg[wit={N23,V1}]{vali}}%
 	\app{\lem[wit={ceteri}]{palita}
 		\rdg[wit={J7}]{palīta}}%
-	\app{\lem[resp=emend,postwit=\texteng{(cf.\,C8)}]{roga}
-		\rdg[wit={Gr3a}]{vega} % corrupt from roga? C8
+	\app{\lem[wit={Jyo}]{vepa}
 		\rdg[wit={N3,C6,V3,Gr2,N19,V15,V1}]{vedha} % J7ac
-		\rdg[wit={Jyo}]{vepa}
+		\rdg[wit={Gr3a}]{vega} % corrupt from roga? C8
 		\rdg[wit={J10}]{bandha} % J7pc
 		}\marma%
 	\app{\lem[wit={ceteri}]{ghnaḥ}
@@ -994,7 +999,7 @@ atha mahāvedhaḥ/ \sgwit{V3,V15,J10,Jyo}
 \newpage
 \begin{tlg}[hp03_033]
 \tl{
-\pada{\app{\lem[wit={V3,N23,V19,C7,J6,V15,V1,Jyo}]{chedana}% +J17
+\pada{\app{\lem[wit={J5,V3,N23,V19,C7,J6,V15,V1,Jyo}]{chedana}% +J17
 		\rdg[wit={J10,N26,N9}]{chedanaṃ}% +J8
 		\rdg[wit={C6}]{chedanaiś}
 		\rdg[wit={K3}]{khedana}
@@ -1004,58 +1009,66 @@ atha mahāvedhaḥ/ \sgwit{V3,V15,J10,Jyo}
 	\app{\lem[wit={J7,Gr3a,J6,N19,V15,V1,Jyo}]{cālanadohaiḥ}
 		\rdg[wit={N23}]{cālajadohaiḥ}
 		\rdg[wit={N26}]{cālanaṃ dohaṃ}
+		\rdg[wit={J5}]{cālanaṃ dohaiḥ}
 		\rdg[wit={V3,J10,N9}]{cālanaṃ dohau}
 		\rdg[wit={C6}]{cālanair dāsyai}
 		\rdg[wit={N3},alt={\damaged}]{\skp{\damaged}}}
-\app{\lem[wit={C6,J7,N19,V1,Jyo}]{kalāṃ}
+\app{\lem[wit={C6,J7,N19,V1,Jyo}]{kalāṃ}% kalā vardhayet kramaśaḥ G4
 		\rdg[wit={N23}]{kalaṃ}
 		\rdg[wit={N3,N26}]{kalāḥ}
-		\rdg[wit={V3,N9}]{kalā}
+		\rdg[wit={J5,V3,N9}]{kalā}
 		\rdg[wit={J10}]{kāla}
 		\rdg[wit={Gr3a,J6}]{jihvāṃ} % jihvā C7, jihva V19
 		\rdg[wit={V15}]{krameṇa}}
-	\app{\lem[wit={Gr2}]{tu}
-		\rdg[wit={Gr3a}]{vai}
-		\rdg[wit={V15}]{jihvāṃ}
-		\rdg[wit={N3,C6,V3,N19,V1,J10,N9,N26}]{krameṇa}
+	\app{\lem[wit={N3,C6,V3,N19,V1,J10,N9,N26}]{krameṇa}
+		\rdg[wit={J5}]{kramaṇa}
 		\rdg[wit={Jyo}]{krameṇātha}
+		\rdg[wit={V15}]{jihvāṃ}
+		\rdg[wit={Gr2}]{tu}
+		\rdg[wit={Gr3a}]{vai}
 		\rdg[wit={J6},alt={\om}]{\skp{\om}}}
-	\app{\lem[wit={Gr2,J6},alt={saṃvardhayet}]{saṃvardhaye\skp{t}}
-		\rdg[wit={V15,V1,J10}]{pravardhayet}
+	\app{\lem[wit={J5,V15,V1,J10},alt={pravardhayet}]{pravardhaye\skp{t}}
+		\rdg[wit={Gr2,J6}]{saṃvardhayet}
 		\rdg[wit={N3,C6,V3,Gr3a,N19,N26,N9,Jyo}]{vardhayet}}%
-	\app{\lem[wit={C6,J7,Gr3a,J6,N19,V15,Jyo},alt={tāvat}]{\skm{t }tāvat}
+	\app{\lem[wit={J5,C6,J7,Gr3a,J6,N19,V15,Jyo},alt={tāvat}]{\skm{t }tāvat}
 		\rdg[wit={J10}]{tāt}
 		\rdg[wit={N3,V3,N23,V1,N26,N9},alt={\om}]{\skp{\om}}}/}\\+}
 \tl{
-\pada{\app{\lem[wit={Gr2,Gr3a,J6}]{yāvad iyaṃ}% yāvaṃd iya
-		\rdg[wit={N3,C6,V15,V1,J10,Jyo}]{sā yāvad}% yāva N3, pāvad J10
+\pada{\app{\lem[wit={N3,J5,C6,V15,V1,J10,Jyo},alt={sā yāvad}]{sā yāva\skp{d}}% yāva N3, pāvad J10
+		\rdg[wit={Gr2,Gr3a,J6}]{yāvad iyaṃ}% yāvaṃd iya
+		\rdg[wit={V3,N26,N9}]{yāvad}
 		\rdg[wit={N19}]{sā}
-		\rdg[wit={V3,N26,N9}]{yāvad}}
-	\app{\lem[wit={ceteri}]{bhrūmadhyaṃ} % bhū N23, bhṛ N3
+		}%
+	\app{\lem[wit={ceteri},alt={bhrūmadhyaṃ}]{\skm{d }bhrūmadhyaṃ} % bhū N23, bhṛ N3
 		\rdg[wit={V19,V1}]{bhrūmadhya}
 		\rdg[wit={N26}]{spṛśati}}
 	\app{\lem[wit={ceteri}]{spṛśati}
 		\rdg[wit={N23}]{sparśati}
+		\rdg[wit={J5}]{visati}
 		\rdg[wit={N3}]{viśa}
 		\rdg[wit={N26}]{bhrūmadhyaṃ}}
 \app{\lem[wit={Gr2,C7,J6,V15,J10,Jyo}]{tadā khecarīsiddhiḥ}
-		\rdg[wit={N26}]{tadā sidhyati khecarī}
-		\rdg[wit={N3,C6,V3,N9}]{tadānīṃ khecarīsiddhiḥ}% °nī siddhi C6
+		\rdg[wit={N3,J5,C6,V3,N9},post=\texteng{(tadānī \getsiglum{J5,C6})}]{tadānīṃ khecarīsiddhiḥ}% °nī + siddhi C6
 		\rdg[wit={N19}]{tadānīṃ hi khecarīsiddhiḥ}
 		\rdg[wit={V1}]{tadānī siddhiḥ}
-		\rdg[wit={V19}]{tadā khecarī bhavati}}//}\myfn{Based on \getsiglum{Gr2,Gr3a}. The metre is Upagīti.\\
+		\rdg[wit={N26}]{tadā sidhyati khecarī}
+		\rdg[wit={V19}]{tadā khecarī bhavati}
+		}//}\myfn{The metre is Āryā.\\
+	\getsiglum{Gr2,Gr3a} (Upagīti): 
+		\devnote{chedanaśalanadohaiḥ kalāṃ tu saṃvardhayet tāvat/
+		yāvad iyaṃ bhrūmadhyaṃ spṛśati tadā khecarīsiddhiḥ//}\\
 	\getsiglum{N19,V15} (Gīti?):
 		\devnote{chedanacālanadohaiḥ kalāṃ krameṇa (pra)vardhayet tāvat/
 		sā yāvad bhrūmadhyaṃ spṛśati tadānīṃ hi khecarīsiddhiḥ//}\\
-	\getsiglum{J10} (Āryā):
-		\devnote{chedanacālanadohaiḥ kalāṃ krameṇa pravardhayet tāvat/
-		sā yāvad bhrūmadhyaṃ spṛśati tadā khecarīsiddhiḥ//}\\
+	% \getsiglum{J10} (Āryā):
+		% \devnote{chedanacālanadohaiḥ kalāṃ krameṇa pravardhayet tāvat/
+		% sā yāvad bhrūmadhyaṃ spṛśati tadā khecarīsiddhiḥ//}\\
 	\getsiglum{V3} (Anuṣṭubh):
-		\devnote{chedanaṃ cālanaṃ dohau, kalākrameṇa vardhayet/
+		\devnote{chedanaṃ cālanaṃ dohau kalākrameṇa vardhayet/
 		yāvad bhrūmadhyaṃ spṛśati tadānīṃ khecarīsiddhiḥ(!)//}\\
-	Perhaps to read:
-	\devnote{chedanacālanadohaiḥ, kalāṃ kramād vardhayet tāvat/
-	sā yāvad bhrūmadhyaṃ, spṛśati tadā khecarīsiddhiḥ//}
+	% Perhaps to read:
+	% \devnote{chedanacālanadohaiḥ kalāṃ kramād vardhayet tāvat/
+	% sā yāvad bhrūmadhyaṃ spṛśati tadā khecarīsiddhiḥ//}
 	}\\!}  %3.33
 \end{tlg}
 
@@ -1513,21 +1526,21 @@ yāti nāśaṃ prasarati sakalaṃ yāti % yātī N26ac?
 		\rdg[wit={C6,V3,J10}]{bādhyate}
 		\rdg[wit={V1}]{chādyate}}
 	na \app{\lem[wit={V3,V1,J10,Jyo}]{sa}
-	\rdg[wit={N3,J5,P11,C6}]{ca}} rogeṇa} % rogena V3
-\pada{\app{\lem[wit={C6,V3,V1,J10}]{lipyate na sa}
-		\rdg[wit={Jyo}]{lipyate na ca}
+	\rdg[wit={N3,J5,G4,P11,C6}]{ca}} rogeṇa} % rogena V3
+\pada{\app{\lem[wit={G4,Jyo}]{lipyate na ca}
+		\rdg[wit={C6,V3,V1,J10}]{lipyate na sa}
 		\rdg[wit={J5,P11}]{na ca lipyati}
 		\rdg[wit={N3}]{na ca lipyata}} karmaṇā/}\\+}
 \tl{
 \pada{\app{\lem[wit={N3,P11,V3,V1,J10,Jyo}]{bādhyate}% +P11
 	\rdg[wit={C6}]{khādyate}}
-	na \app{\lem[wit={C6,V3,V1,J10,Jyo}]{sa}
-	\rdg[wit={N3,J5,P11}]{ca}} kālena}
+	na \app{\lem[wit={N3,J5,G4,P11}]{ca}
+	\rdg[wit={C6,V3,V1,J10,Jyo}]{sa}} kālena}
 \pada{\app{\lem[wit={N3,P11,C6,V3,J10,Jyo}]{yo mudrāṃ vetti}% mudrā N3
 		\rdg[wit={V1}]{yasya mudrāsti}}
 	\app{\lem[wit={N3,J10,Jyo}]{khecarīm}
 		\rdg[wit={P11,C6,V3,V1}]{khecarī}}//}
-	\sgwit{N3,C6,V3,V1,J10,Jyo}\\!}  %3.37
+	\sgwit{N3,J5,G4,C6,V3,V1,J10,Jyo}\\!}  %3.37
 \end{tlg}
 \endaltrecension
 
@@ -1586,15 +1599,17 @@ yāti nāśaṃ prasarati sakalaṃ yāti % yātī N26ac?
 		\rdg[wit={N23}]{calitā}
 		\rdg[wit={V19}]{calate}
 		\rdg[wit={N3}]{calato}}'pi yadā binduḥ} % bindu K3, biṃḥ N19
-\pada{\app{\lem[wit={V3,Gr2,V19,J10},alt={saṃprāptaś}]{saṃprāpta\skp{ś}}
-		\rdg[wit={N3,C6,K3,C7,N19,V15,V1,Jyo}]{saṃprāpto}}%
-	\app{\lem[wit={Gr2,V19},alt={ca hutāśanaṃ}]{\skm{ś }ca hutāśanam}% = VM
-		\rdg[wit={K3,C7}]{pi hutāśanaṃ}
-		\rdg[wit={V3,J10}]{cāgnimaṇḍalaṃ}
-		\rdg[wit={C6}]{vahnimaṇḍalaṃ}% +P11,M1,M3(°le)
-		\rdg[wit={J5,V15,V1,Jyo}]{yonimaṇḍalam}% +G7? illeg. G4
+\pada{\app{\lem[wit={N3,C6,K3,C7,N19,V15,V1,Jyo}]{saṃprāpto}
+		\rdg[wit={V3,Gr2,V19,J10}]{saṃprāptaś}
+		}%
+	\app{\lem[wit={J5,V15,V1,Jyo}]{yonimaṇḍalam}% +G7? illeg. G4
 		\rdg[wit={N3}]{yogimaṃḍalaṃ}
-		\rdg[wit={N19}]{yonimaṃgalaṃ}}/}\\+}
+		\rdg[wit={N19}]{yonimaṃgalaṃ}
+		\rdg[wit={C6}]{vahnimaṇḍalaṃ}% +P11,M1,M3(°le)
+		\rdg[wit={V3,J10}]{cāgnimaṇḍalaṃ}
+		\rdg[wit={Gr2,V19}]{ca hutāśanam}% = VM
+		\rdg[wit={K3,C7}]{pi hutāśanaṃ}
+		}/}\\+}
 \tl{
 \pada{\app{\lem[wit={ceteri},alt={vrajaty}]{vraja\skp{ty}}
 		\rdg[wit={N3}]{vṛjaṃty}
@@ -1607,10 +1622,10 @@ yāti nāśaṃ prasarati sakalaṃ yāti % yātī N26ac?
 		\rdg[wit={Jyo}]{hṛtaḥ śaktyā}
 		\rdg[wit={N23}]{hatāchantkā}
 		\rdg[wit={C6,V3,J7,N19,V15,V1,J10}]{haṭhāc chaktyā}% havāt N19
-		\rdg[wit={J5}]{haṭhāt saktyā}
+		\rdg[wit={J5}]{haṭhāt saktyā}% G4 illeg.
 		\rdg[wit={K3,C7}]{hi tacchaktyā}
 		\rdg[wit={V19}]{hi tadbhuktyā}
-		\rdg[wit={N3},alt={\damaged}]{\skp{\damaged}}}}\marma
+		\rdg[wit={N3},alt={\damaged}]{\skp{\damaged}}}}\marmas
 \pada{\app{\lem[wit={J5,G4,C6,N19,V15,Jyo}]{nibaddho}% +J5,G4
 		\rdg[wit={V1}]{nibadhno}
 		\rdg[wit={Gr2,K3,C7}]{niruddho}
@@ -2113,7 +2128,7 @@ In \getsiglum{V1} the second half is added in the margin sec. m.:
 %tatvaṃ caitat pravadati susaṃmukhaṃ nimnaśanāṃ/\\
 %caṃdrāt srāvaḥ śravati vapuṣas tena mṛtyur narāṇāṃ,
 %taṃ badhnīyāt svakaraṇamṛnā nānyathā kāryasiddhi//}\\
-\getsiglum{Gr2} in both Ch. 3 and 4.} % but not in N2!
+\getsiglum{Gr2,J5,G4} in both Ch. 3 and 4.} % but not in N2!
 \anm{=\,4.25}\\!}
 \end{tlg}
 \endgray
@@ -2208,7 +2223,7 @@ In \getsiglum{V1} the second half is added in the margin sec. m.:
 \tl{
 \pada{prāṇāpānau % prāṇa° V1
 	\app{\lem[wit={ceteri}]{nādabindū}
-	\rdg[wit={N3,V3,N19,J10}]{nādabindu}}}
+	\rdg[wit={N3,J5,V3,N19,J10}]{nādabindu}}}
 \pada{mūlabandhena
 \app{\lem[wit={ceteri}]{caikatām}
 	\rdg[wit={C6,N19}]{caikatā}
@@ -2217,9 +2232,9 @@ In \getsiglum{V1} the second half is added in the margin sec. m.:
 \tl{
 \pada{gatvā yogasya % yagasya J10ac
 \app{\lem[wit={N3,C6,V3,J7,V19,K3,J11,V1,Jyo}]{saṃsiddhiṃ}
-	\rdg[wit={N23,C7,N19}]{saṃsiddhir}
+	\rdg[wit={J5,N23,C7,N19}]{saṃsiddhir}
 	\rdg[wit={J10}]{saṃsiddhyaiḥ}}}
-\pada{\app{\lem[wit={V3,Jyo}]{yacchato}% +J5?
+\pada{\app{\lem[wit={J5,V3,Jyo}]{yacchato}
 	\rdg[wit={C6}]{yakṣyato}
 	\rdg[wit={N3}]{yichato}
 	\rdg[wit={Gr3a,N19}]{gacchato} % gakṣato V19
@@ -2288,10 +2303,11 @@ In \getsiglum{V1} the second half is added in the margin sec. m.:
 \tl{
 \pada{\app{\lem[wit={ceteri}]{tato}
 	\rdg[wit={V1}]{yātā}}
-\app{\lem[wit={C6}]{yātau}% yāttau J5
+\app{\lem[wit={C6}]{yātau}
+	\rdg[wit={J5}]{yāttau}
 	\rdg[wit={V1,Jyo}]{yāto}% +M1
 	\rdg[wit={J10}]{yāte}
-	\rdg[wit={N3}]{yāmau}
+	\rdg[wit={N3}]{yāmau}% yaṃtā G4
 	\rdg[wit={J7,Gr3a,J11}]{jātau}
 	\rdg[wit={N23}]{jātā}
 	\rdg[wit={V3}]{jāto}
@@ -2514,7 +2530,7 @@ ta\app{\lem[wit={ceteri},alt={eva}]{\skm{d }eva}
 \begin{tlg}[hp03_062]
 \tl{
 \pada{\app{\lem[wit={Gr2,V19,J10}]{uḍḍiyānaṃ} % uddi° N23
-	\rdg[wit={V1}]{uḍḍiyāṇaṃ}
+	\rdg[wit={J5,V1}]{uḍḍiyāṇaṃ}
 	\rdg[wit={K3,C7,J11,Jyo}]{uḍḍīyānaṃ}
 	\rdg[wit={N3,N19}]{uḍḍīyāṇaṃ}
 	\rdg[wit={C6}]{uḍiyānaṃ}
@@ -2523,15 +2539,17 @@ ta\app{\lem[wit={ceteri},alt={eva}]{\skm{d }eva}
 	\rdg[wit={J7}]{yaḥ sahate}}}
 \pada{\app{\lem[wit={ceteri}]{guruṇā}
 	\rdg[wit={V3}]{gurūṇāṃ}} kathitaṃ
-\app{\lem[wit={N3,C6,V3,N19,J11,V1,J10,Jyo}]{sadā}
+\app{\lem[wit={N3,J5,C6,V3,N19,J11,V1,J10,Jyo}]{sadā}
 	\rdg[wit={Gr2,Gr3a}]{yathā}}\marma/}\\+}
 \tl{
 \pada{\app{\lem[wit={ceteri},alt={abhyased/-set}]{abhyase\skp{d}}%
 %	\rdg[wit={N3,N19,V1}]{abhyased}
 	\rdg[wit={N23}]{abhyāsen}
+	\rdg[wit={J5}]{abhyāsyed}
 	\rdg[wit={V3}]{abhyāsāt}
 	\rdg[wit={C6}]{abhyāsa°}}%
-\app{\lem[wit={N3,J5},prewit=\texteng{\textless\ °tadras tu},alt={astatandras tu}]{\skm{d }astatandras tu}% =source,+M3
+\app{\lem[wit={J5},alt={astatandras tu}]{\skm{d }astatandras tu}% =source,+M3
+	\rdg[wit={N3}]{astatadras tu}
 	\rdg[wit={N19}]{asya taṃtrasya}
 	\rdg[wit={J11}]{asya taṃtraṃ tu}
 	\rdg[wit={J7,Gr3a}]{tad atandras tu}
@@ -2548,16 +2566,19 @@ ta\app{\lem[wit={ceteri},alt={eva}]{\skm{d }eva}
 
 \begin{tlg}[hp03_063]
 \tl{
-\pada{\app{\lem[alt={\ante nābher \add},nosep]{}
+\pada{\app{\lem[alt={\ante nābher \add},nosep]{\skp{\ante nābher \add}}
 	\rdg[wit={C6}]{pāṭhāntaram}}%
 \app{\lem[wit={ceteri},alt={nābher}]{nābhe\skp{r}}
 	\rdg[wit={J7}]{nābhed}}r ūrdhva%m
 \app{\lem[wit={ceteri},alt={adhaś cāpi}]{\skm{m }adhaś cāpi}
+%	\rdg[wit={J5}]{adhastāpi}
 	\rdg[wit={Gr3a}]{adho vāpi}
 	\rdg[wit={V1}]{adhaḥkāya}
 	\rdg[wit={C6}]{avasthāpya}}}
 \pada{\app{\lem[wit={C6,Gr2,Gr3a,J11,J10,Jyo}]{tānaṃ}
-	\rdg[wit={N3,P11,V3,N19,V1}]{tāṇaṃ}} % tāpyaṃ
+	\rdg[wit={P11,V3,N19,V1}]{tāṇaṃ}
+%	\rdg[wit={J5}]{tāruṇaṃ}
+	\rdg[wit={N3}]{tāpyaṃ}}
 	kuryā%t
 \app{\lem[wit={ceteri},alt={prayatnataḥ}]{\skm{t }prayatnataḥ}
 	\rdg[wit={J10}]{ca yatnataḥ}}/}\\+}
@@ -2615,7 +2636,7 @@ ta\app{\lem[wit={ceteri},alt={eva}]{\skm{d }eva}
 	\rdg[wit={V1,J10}]{upari}}}
 \pada{\app{\lem[wit={ceteri},alt={kārayed}]{kāraye\skp{d}}
 	\rdg[wit={J10}]{pīḍayed}}%
-\app{\lem[wit={N3,C6,V3,J7,J11,V1,J10},alt={dhṛdaye {\crux}gale\crux}]{\skm{d }dhṛdaye {\crux}gale\crux} % kāraye hṛdaye V3, kārayed-hṛ°? V1
+\app{\lem[wit={N3,C6,V3,J7,J11,V1,J10},alt={dhṛdaye gale}]{\skm{d }dhṛdaye gale} % kāraye hṛdaye V3, kārayed-hṛ°? V1
 	\rdg[wit={N23}]{dhṛdaye gataiḥ}
 	\rdg[wit={V19}]{udare hṛdi}
 	\rdg[wit={C7}]{cibukaṃ hṛdi}
@@ -2792,14 +2813,15 @@ ta\app{\lem[wit={ceteri},alt={eva}]{\skm{d }eva}
 \pada{\app{\lem[wit={N3,J7,N19},alt={mahāsiddhair}]{mahāsiddhai\skp{r}} % siddhai N19
 	\rdg[wit={V1,J10,Jyo}]{mahāsiddhaiś}
 	\rdg[wit={N23}]{mahāsiddhe}
-	\rdg[wit={C6,V15}]{mahāsiddhi}% +J5
+	\rdg[wit={J5,G4,C6,V15}]{mahāsiddhi}
 	\rdg[wit={V3}]{mahāsīha}}%
-\app{\lem[wit={N3,C6,V3,Gr2,Gr3a,N19},alt={niṣevitam}]{\skm{r }niṣevitam}% niśe° N3
-	\rdg[wit={V1,J10,Jyo}]{ca sevitaṃ}% prajāyate! J5
+\app{\lem[wit={N3,G4,C6,V3,Gr2,Gr3a,N19},alt={niṣevitam}]{\skm{r }niṣevitam}% niśe° N3
+	\rdg[wit={V1,J10,Jyo}]{ca sevitaṃ}
+	\rdg[wit={J5}]{prajāyate}
 	\rdg[wit={V15}]{pradāyakaṃ}}/}\\+}
 \tl{
 \pada{sarveṣāṃ
-\app{\lem[wit={N3,C6,V3,J7,Jyo}]{haṭha}% +J5
+\app{\lem[wit={N3,J5,C6,V3,J7,Jyo}]{haṭha}% +J5
 	\rdg[wit={N23,N19,V15,V1,J10}]{yoga} % yoma N19
 	}tantrāṇāṃ}
 \pada{\app{\lem[wit={ceteri}]{sādhanaṃ}
@@ -2863,13 +2885,13 @@ ta\app{\lem[wit={ceteri},alt={eva}]{\skm{d }eva}
 \tl{
 \pada{\app{\lem[wit={ceteri}]{anenaiva vidhānena}
 	\rdg[wit={J10}]{brahmasthānasthito rodhaḥ}}}
-\pada{\app{\lem[wit={Gr2,V15,V1,J10,Jyo}]{prayāti}
-	\rdg[wit={N3,J5,C6,V3,V19,C7}]{sevayet}% ##
+\pada{\app{\lem[wit={N3,J5,C6,V3,V19,C7},alt={sevayet}]{sevaye\skp{t}}
 	\rdg[wit={K3}]{[s]e[vay]e[t]}
-	\rdg[wit={N19}]{vaśayet}}
-\app{\lem[wit={V3,J7,V15,V1,J10,Jyo}]{pavano layam}
+	\rdg[wit={N19}]{vaśayet}
+	\rdg[wit={Gr2,V15,V1,J10,Jyo}]{prayāti}}%
+\app{\lem[wit={V3,J7,V15,V1,J10,Jyo},alt={pavano layam}]{\skm{t }pavano layam}
 	\rdg[wit={N23}]{pavano lagaṃ}
-	\rdg[wit={N3,J5,C6,K3,N19}]{pavanālayam}% ##
+	\rdg[wit={N3,J5,C6,K3,N19}]{pavanālayam}
 	\rdg[wit={C7}]{pavanānalam}
 	\rdg[wit={V19}]{paścimānalaṃ}}/}\\+}
 \tl{
@@ -2933,7 +2955,7 @@ ta\app{\lem[wit={ceteri},alt={eva}]{\skm{d }eva}
 	\rdg[wit={Jyo}]{jarāyutaḥ}
 	\rdg[wit={N3,V15,V1,J10},alt={\om}]{\skp{\om}}}//}
 	\NotIn{N3,V15,V1,J10}\myfn{%
-	\getsiglum{Gr1r} has this pair of verses in Ch. 4:
+	\getsiglum{Gr1} has this pair of verses in Ch. 4:
 	\devnote{% J5 similar, G4 damaged
 	yat kiṃcit sravate candrād amṛtaṃ \underline{divyarūpiṇaḥ}/
 	tat sarvaṃ grasate sūryas tena piṇḍaṃ \underline{jarāyutaṃ}//
@@ -3267,10 +3289,10 @@ atha vajrolī/\myfn{In \getsiglum{C6,J10} this header is found after \emph{vinā
 \begin{tlg}[hp03_087]
 \tl{
 \pada{evaṃ
-	\app{\lem[wit={V1,J10}]{rakṣati yo}
-		\rdg[wit={J5,C6,V3,Gr2,N19}]{tu rakṣayed} % ## +Gr1
+	\app{\lem[wit={J5,G4,C6,V3,Gr2,N19}]{tu rakṣayed}
 		\rdg[wit={V19,C7,Jyo}]{saṃrakṣayed}
-		\rdg[wit={V15}]{surakṣayed}}
+		\rdg[wit={V15}]{surakṣayed}
+		\rdg[wit={V1,J10}]{rakṣati yo}}
 		binduṃ} % biṃdu V3,N4
 \pada{mṛtyuṃ jayati yogavit/}
 	\anm{\ref{VuIII88}--\ref{VuIII116}a lost \getsiglum{N3}}\\+}
@@ -3290,13 +3312,13 @@ atha vajrolī/\myfn{In \getsiglum{C6,J10} this header is found after \emph{vinā
 
 \begin{tlg}[hp03_088]
 \tl{
-\pada{\app{\lem[resp=emend,alt={sugandhir}]{sugandhi\skp{r}}% +L2
-		\rdg[wit={J5,GrB,Gr2,V19,V15}]{sugandhi}% +J5, yugaṃndhi N23
+\pada{\app{\lem[wit={J5,GrB,Gr2,V19,V15}]{sugandhi}% yugaṃndhi N23
 		\rdg[wit={N19,Jyo}]{sugandho}
-		\rdg[wit={C7,V1,J10},alt={\om}]{\skp{\om}}}r yogino
-	\app{\lem[wit={C6,Gr2,N19}]{deho}
+		\rdg[wit={C7,V1,J10},alt={\om}]{\skp{\om}}}
+		yogino
+	\app{\lem[wit={J5,P11,V3}]{dehaṃ} % G4 illeg.
 		\rdg[wit={V19,V15,Jyo}]{dehe}
-		\rdg[wit={P11,V3}]{dehaṃ}% +J5
+		\rdg[wit={C6,Gr2,N19}]{deho}
 		\rdg[wit={C7,V1,J10},alt={\om}]{\skp{\om}}}}
 \pada{jāyate bindu\app{\lem[wit={V3,N23,J7,V19,N19,Jyo}]{dhāraṇāt}% +P11
 		\rdg[wit={C6,V15}]{rakṣaṇāt}
@@ -3310,8 +3332,8 @@ atha vajrolī/\myfn{In \getsiglum{C6,J10} this header is found after \emph{vinā
 		\rdg[wit={GrB,C7,V15}]{sthito}}
 	\app{\lem[wit={ceteri}]{dehe}
 		\rdg[wit={Gr2}]{deho}}}
-\pada{tāva\app{\lem[wit={GrB,V19,C7,V1,J10},alt={mṛtyubhayaṃ kutaḥ}]{\skm{n }mṛtyubhayaṃ kutaḥ}% +G4,P11
-		\rdg[wit={Gr2,N19,Jyo}]{kālabhayaṃ kutaḥ}% +J5
+\pada{tāva\app{\lem[wit={G4,GrB,V19,C7,V1,J10},alt={mṛtyubhayaṃ kutaḥ}]{\skm{n }mṛtyubhayaṃ kutaḥ}% P11
+		\rdg[wit={J5,Gr2,N19,Jyo}]{kālabhayaṃ kutaḥ}% +K1
 		\rdg[wit={V15}]{jīvanam ucyate}}//}\\!}
 \end{tlg}
 
@@ -3320,15 +3342,15 @@ atha vajrolī/\myfn{In \getsiglum{C6,J10} this header is found after \emph{vinā
 \pada{\app{\lem[wit={ceteri}]{cittāyattaṃ}
 		\rdg[wit={N23}]{cittamattaṃ}
 		\rdg[wit={J5}]{manomayaṃ}
-		\rdg[wit={C6,V3}]{manodhīnaṃ}}
+		\rdg[wit={P11,C6,V3}]{manodhīnaṃ}}
 		nṛṇāṃ % bhavet C6
 	\app{\lem[wit={ceteri}]{śukraṃ}
 		\rdg[wit={V3}]{śuklaṃ}}}
 \pada{\app{\lem[wit={ceteri}]{śukrāyattaṃ}
 		\rdg[wit={V3}]{śuklāyataṃ}
-		\rdg[wit={C6}]{śukrādhīnaṃ}}
-	\app{\lem[wit={V3,N19,V1,J10}]{hi}% +P11
-		\rdg[wit={J5,C6,Gr2,V19}]{tu}% +J5,N24
+		\rdg[wit={P11,C6}]{śukrādhīnaṃ}}
+	\app{\lem[wit={P11,V3,N19,V1,J10}]{hi}
+		\rdg[wit={J5,C6,Gr2,V19}]{tu}% +N24
 		\rdg[wit={C7,V15,Jyo}]{ca}}
 	\app{\lem[wit={ceteri}]{jīvitam} % +N23,P11
 		\rdg[wit={C6,J7}]{jīvanaṃ}}/}\\+}
@@ -3352,7 +3374,7 @@ atha vajrolī/\myfn{In \getsiglum{C6,J10} this header is found after \emph{vinā
 	\app{rajo\lem[wit={C6,Gr2,V19,C7,N19,V15,V1,Jyo}]{'py evaṃ} % + J10pc
 		\rdg[wit={V3}]{thevaṃ}
 		\rdg[wit={J10}]{py eva}}}
-\pada{\app{\lem[wit={Gr2}]{striyā}
+\pada{\app{\lem[wit={Gr2}]{striyā}% ṛtumatyā nijo(rajo?) strījaṃ svīyaṃ biṃdu ca P11
 		\rdg[wit={V19,N19,V15,V1,J10}]{bījaṃ}% ##
 		\rdg[wit={J5}]{vīryaṃ}
 		\rdg[wit={C7}]{jīvaṃ}
@@ -3391,7 +3413,7 @@ atha vajrolī/\myfn{In \getsiglum{C6,J10} this header is found after \emph{vinā
 \pada{ayaṃ yogaḥ puṇyavatāṃ}
 \pada{\app{\lem[wit={ceteri}]{dhanyānāṃ}
 		\rdg[wit={Jyo}]{dhīrāṇāṃ}}
-	tattva\app{\lem[wit={C6,J7,V19,C7,V15,V1}]{śālinām} % tattva in V19 unclear
+	tattva\app{\lem[wit={P11,C6,J7,V19,C7,V15,V1}]{śālinām} % tattva in V19 unclear
 		\rdg[wit={V3,N19}]{śālinaṃ}
 		\rdg[wit={N23}]{sattināṃ}
 		\rdg[wit={J10,Jyo}]{darśinām}}/} \lineom{ab}{Gr1r}\\+}
@@ -3402,7 +3424,7 @@ atha vajrolī/\myfn{In \getsiglum{C6,J10} this header is found after \emph{vinā
 		\rdg[wit={Jyo},post=\texteng{(but sidhyeta in mss?)}]{vai sidhyen}
 		\rdg[wit={J10}]{siddhet}
 		\rdg[wit={C6}]{siddhānāṃ}}}
-\pada{na tu matsara\app{\lem[wit={C6,V3,Gr2,V19,V15,V1,Jyo}]{śālinām}
+\pada{na tu matsara\app{\lem[wit={P11,C6,V3,Gr2,V19,V15,V1,Jyo}]{śālinām}
 		\rdg[wit={N19}]{śālinaṃ}
 		\rdg[wit={J10}]{śīlinām}}//} \lineom{cd}{Gr1r,C7}\myfn{%
 		In \getsiglum{V15} Pāda b and d are transposed; \getsiglum{Jyo} has this verse at the end of the Sahajolī section.}\\!}
@@ -3419,10 +3441,10 @@ atha vajrolī/\myfn{In \getsiglum{C6,J10} this header is found after \emph{vinā
 
 \begin{tlg}[hp03_092]
 \tl{
-\pada{\app{\lem[wit={C6,V19,C7,V1,J10}]{sahajolī}
+\pada{\app{\lem[wit={J5,C6,V19,C7,V1,J10}]{sahajolī}% G4 corrupt
 		\rdg[wit={V3,Gr2,N19,V15,Jyo}]{sahajoliś}} % Jyo-ed
 %		\rdg[wit={N4}]{sahajolīś}
-	\app{\lem[wit={C6,V19,C7}]{cāmarolī}
+	\app{\lem[wit={J5,C6,V19,C7}]{cāmarolī}
 %		\rdg[wit={N4}]{cāmarolīr}
 		\rdg[wit={V3,N19}]{cāmaroli}
 		\rdg[wit={V15,Jyo}]{cāmarolir}
@@ -3432,7 +3454,7 @@ atha vajrolī/\myfn{In \getsiglum{C6,J10} this header is found after \emph{vinā
 \pada{\app{\lem[wit={ceteri}]{vajrolyā} % vajrāḷyā V15
 		\rdg[wit={V19,C7}]{vajrolyante}
 		\rdg[wit={C6}]{vajrolī}}
-	\app{\lem[wit={C6,V3,Gr2,N19,V15,V1}]{eva bhedataḥ}
+	\app{\lem[wit={J5,C6,V3,Gr2,N19,V15,V1}]{eva bhedataḥ}
 		\rdg[wit={J10}]{ekabhedataḥ} % eka -> nāma J10pc
 		\rdg[wit={Jyo}]{bheda ekataḥ}
 		\rdg[wit={V19}]{prakīrtitā}
@@ -3447,7 +3469,7 @@ atha vajrolī/\myfn{In \getsiglum{C6,J10} this header is found after \emph{vinā
 		\rdg[wit={N19}]{dagdhaṃ}}gomaya%
 	\app{\lem[wit={J7,V19,N19,V15,V1,J10,Jyo}]{sambhavaṃ}
 		\rdg[wit={C7}]{sambhave}}//}
-		\lineom{cd}{Gr1r,C6,V3,N23}}\\!}
+		\lineom{cd}{Gr1r,P11,C6,V3,N23}}\\!}
 \end{tlg}
 
 
@@ -3456,11 +3478,11 @@ atha vajrolī/\myfn{In \getsiglum{C6,J10} this header is found after \emph{vinā
 \pada{\app{\lem[wit={ceteri},alt={vajrolīmaithunād}]{vajrolīmaithunā\skp{d}}
 		\rdg[wit={V15}]{vajroḷimithunād}}d ūrdhvaṃ}
 \pada{strī\app{\lem[wit={J7,N19,V1,J10,Jyo}]{puṃsoḥ}
-		\rdg[wit={V3}]{puṃso}
+		\rdg[wit={J5,V3}]{puṃso}
 		\rdg[wit={N23}]{puṃsā}
 		\rdg[wit={V15}]{puṃsau}
 		\rdg[wit={C6,V19,C7}]{puṃsoś}}
-	\app{\lem[wit={Gr2,N19,V15,V1,J10,Jyo}]{svāṅga}
+	\app{\lem[wit={J5,Gr2,N19,V15,V1,J10,Jyo}]{svāṅga}
 		\rdg[wit={V3}]{svāṃgu}
 		\rdg[wit={C6,V19,C7}]{cāṃga}}lepanam/}\\+}  %lāpanaṃ C6
 \tl{
@@ -3480,8 +3502,9 @@ atha vajrolī/\myfn{In \getsiglum{C6,J10} this header is found after \emph{vinā
 \begin{tlg}[hp03_094]
 \tl{
 \pada{\app{\lem[wit={V3,N23,N19,V15,Jyo},alt={sahajolir}]{sahajoli\skp{r}}
-		\rdg[wit={C6,J7,V19,C7,V1,J10}]{sahajolī}% sahayolīr V19; °jolīr P11
-		}r iyaṃ proktā}
+		\rdg[wit={C6,J7,C7,V1,J10}]{sahajolī}
+		\rdg[wit={J5,P11,V19}]{sahajolīr}% sahayolīr V19; +r G4
+		}r iyaṃ proktā} % iva J5
 \pada{\app{\lem[wit={P11,V3,Jyo}]{śraddheyā}% = DYŚ
 		\rdg[wit={Gr1r,C6,V19,C7,V1}]{śraddhayā}% +M1,M3,G7
 		\rdg[wit={J10}]{sādhyeyā}
@@ -3490,16 +3513,17 @@ atha vajrolī/\myfn{In \getsiglum{C6,J10} this header is found after \emph{vinā
 		yogibhiḥ sadā/}\\+}
 \tl{
 \grau{\pada{ayaṃ śubhakaro yogo} % From hier 2.5 verses om. in N23
-\pada{\app{\lem[wit={V3,J7,V15,J10}]{bhoge}
+\pada{\app{\lem[wit={P11,V3,J7,V15,J10}]{bhoge}
 		\rdg[wit={C6,N19,V1,Jyo}]{bhoga}
 		\rdg[wit={C7}]{yoga}
 		\rdg[wit={V19},alt={\gap}]{\skp{\gap}}}
 	\app{\lem[wit={V3,J7,V15,J10}]{bhukte}
+		\rdg[wit={P11}]{yukte}
 		\rdg[wit={Jyo}]{yukto}
 		\rdg[wit={N19}]{mukte}
 		\rdg[wit={V19,C7,V1}]{mukti}
 		\rdg[wit={C6}]{yoge}}%
-	\app{\lem[wit={C6,V3,J7,N19,V15,J10,Jyo}]{'pi muktidaḥ}
+	\app{\lem[wit={P11,C6,V3,J7,N19,V15,J10,Jyo}]{'pi muktidaḥ}
 		\rdg[wit={C7,V1}]{vimuktidaḥ}
 		\rdg[wit={V19}]{pradāyakaḥ}}//}\label{III94}
 	\lineom{cd}{Gr1r,N23} \anm{cf. \ref{III101}cd}}\\!}  % M1 omits too, but M3 has it.
@@ -3576,7 +3600,8 @@ atha vajrolī/\myfn{In \getsiglum{C6,J10} this header is found after \emph{vinā
 		\rdg[wit={J7,J10}]{yo}}%
 	\app{\lem[wit={ceteri},alt={piben}]{\skm{t }pibe\skp{n}} % paven V19
 		\rdg[wit={C7}]{piban}}n nityaṃ}
-\pada{\app{\lem[wit={G4,C6,V3,V19,N19,V15,Jyo},post=\texteng{(naśyaṃ \getsiglum{G4,N19,V15})}]{nasyaṃ kurvan}% kurvana V3, naśyaṃ kurvan G4,
+\pada{\app{\lem[wit={C6,V3,V19,Jyo}]{nasyaṃ kurvan}% kurvana V3
+		\rdg[wit={G4,N19,V15}]{naśyaṃ kurvan}
 		\rdg[wit={C7}]{na saṃkurvan}
 		\rdg[wit={J5,V1}]{nasyaṃ kuryād}% nasya J5, naśyaṃ V1
 		\rdg[wit={J7}]{tasya kuryā}
@@ -3622,7 +3647,7 @@ atha vajrolī/\myfn{In \getsiglum{C6,J10} this header is found after \emph{vinā
 		\rdg[wit={V1}]{pāravān}}/}\\+}  %3.97
 \tl{
 \pada{yadi nārī rajo rakṣe}%d % rakṣe N19
-\pada{\app{\lem[wit={V3,J7,N19,V1,Jyo},alt={vajrolyā}]{\skm{d }vajrolyā}
+\pada{\app{\lem[wit={P11,V3,J7,N19,V1,Jyo},alt={vajrolyā}]{\skm{d }vajrolyā}
 		\rdg[wit={V19}]{vajrolyāṃ}
 		\rdg[wit={C7}]{vajrolya}
 		\rdg[wit={C6}]{vajrolī}
@@ -3630,7 +3655,7 @@ atha vajrolī/\myfn{In \getsiglum{C6,J10} this header is found after \emph{vinā
 		\rdg[wit={J10}]{saṃyoge}
 		\rdg[wit={N23},alt={\om},post=\texteng{(\ref{III97}d--\ref{III101}a om. prob. by eye-skip)}]{\skp{\om}}}
 	\app{\lem[wit={V3}]{sā hi}
-		\rdg[wit={C6,J7,N19}]{saha}
+		\rdg[wit={P11,C6,J7,N19}]{saha}
 		\rdg[wit={V19,V15,V1,Jyo}]{sāpi}
 		\rdg[wit={C7}]{syāpi}
 		\rdg[wit={J10}]{cāpi}
@@ -3674,11 +3699,12 @@ atha vajrolī/\myfn{In \getsiglum{C6,J10} this header is found after \emph{vinā
 	\app{\lem[wit={C6,V3,J7,V19,C7,V15,Jyo}]{bhūya}
 		\rdg[wit={N19,J10}]{bhūyaḥ}
 		\rdg[wit={V1}]{bhūtaḥ}
+		\rdg[wit={P11}]{bhūta}
 		\rdg[wit={N23},alt={\om}]{\skp{\om}}}
 	\app{\lem[wit={C7}]{svadehajam}
 		\rdg[wit={V19}]{sadehajaṃ}
 		\rdg[wit={C6,J10}]{svadehajaiḥ}
-		\rdg[wit={V3,J7,N19,V15,V1}]{svadehajau}
+		\rdg[wit={P11,V3,J7,N19,V15,V1}]{svadehajau}
 		\rdg[wit={Jyo}]{svadehagau}
 		\rdg[wit={N23},alt={\om}]{\skp{\om}}}\marma/}\\+}
 \tl{
@@ -3688,11 +3714,11 @@ atha vajrolī/\myfn{In \getsiglum{C6,J10} this header is found after \emph{vinā
 \pada{sarva% sarvāṃ C6
 	\app{\lem[wit={C7,J10}]{siddhiḥ}
 		\rdg[wit={V3,V1}]{siddhi}
-		\rdg[wit={C6,J7,V19,N19,V15,Jyo}]{siddhiṃ}
+		\rdg[wit={P11,C6,J7,V19,N19,V15,Jyo}]{siddhiṃ}
 		\rdg[wit={N23},alt={\om}]{\skp{\om}}} % +J10pc,M1
 	\app{\lem[wit={V3,V1,J10}]{prajāyate}% = DYŚ
 		\rdg[wit={J7,V19,C7}]{prakurvate}
-		\rdg[wit={N19,V15}]{prakurvataḥ}% +M1,P11 ##
+		\rdg[wit={P11,N19,V15}]{prakurvataḥ}% +M1 ##
 		\rdg[wit={Jyo}]{prayacchataḥ}
 		\rdg[wit={C6}]{prayacchati}
 		\rdg[wit={N23},alt={\om}]{\skp{\om}}}//}
@@ -3703,13 +3729,16 @@ atha vajrolī/\myfn{In \getsiglum{C6,J10} this header is found after \emph{vinā
 
 \begin{tlg}[hp03_100]
 \tl{
-\pada{\app{\lem[wit={Gr1r},postwit=\texteng{(rakṣed ākuṃbhanonordhaṃ \getsiglum{J5}, rakṣaṇe kuṃcanenorddhva \getsiglum{N24}, \textit{damaged} \getsiglum{G4})}]{rakṣed ākuñcanenordhvaṃ}
+\pada{\app{\lem[resp=emend]{rakṣed ākuñcanenordhvaṃ}
+	\rdg[wit={J5}]{rakṣed ākuṃbhanonordhaṃ}
+%	\rdg[wit={N24}]{rakṣaṇe kuṃcanenorddhva}
 	\rdg[wit={Jyo}]{rakṣed ākuñcanād ūrdhvaṃ}
 	\rdg[wit={J7}]{mehenākuñcanād ūrdhvaṃ}
-	\rdg[wit={J10}]{meḍhrām ākuṃcanād ūrdhvaṃ }}}
+	\rdg[wit={J10}]{meḍhrām ākuṃcanād ūrdhvaṃ}}}}
 \pada{\app{\lem[wit={Jyo}]{yā rajaḥ sā hi yoginī}
 	\rdg[wit={J5}]{yā rajaḥ saha yoginī}
-	\rdg[wit={J7,J10}]{rajasāpi hi yoginaḥ}}/} \sgwit{Gr1r,J7,J10,Jyo}\myfn{\getsiglum{J7} has this hemistich between \ref{III96} and \ref{III99}.}\\+}
+	\rdg[wit={J7,J10}]{rajasāpi hi yoginaḥ}}/
+	\sgwit{J5,J7,J10,Jyo}\myfn{\getsiglum{J7} has this hemistich between \ref{III96} and \ref{III99}.}\\+}
 \tl{
 % J5: rakṣed ākuṃbhanonordhaṃ yā rajaḥ saha yoginī
 % N24: rakṣaṇe kuṃcanenorddhva yo radhaḥ saha yogavit
@@ -3758,30 +3787,30 @@ atha vajrolī/\myfn{In \getsiglum{C6,J10} this header is found after \emph{vinā
 \begin{alttlg}[hp03_101_1]
 \tl{
 \pada{\app{\lem[wit={V19,C7,N19,V15,V1,J10}]{tasmād ayaṃ}
-		\rdg[wit={C6,V3}]{yasmād ayaṃ}}
-	\app{\lem[wit={C6,V3,V19,C7,N19,V15}]{sādhakāya}
+		\rdg[wit={P11,C6,V3}]{yasmād ayaṃ}}
+	\app{\lem[wit={P11,C6,V3,V19,C7,N19,V15}]{sādhakāya}
 		\rdg[wit={V1}]{sādhako'yaṃ}
 		\rdg[wit={J10}]{sādhakānāṃ}}}
-\pada{\app{\lem[wit={V3,J10}]{bhoge}
+\pada{\app{\lem[wit={P11,V3,J10}]{bhoge}
 		\rdg[wit={C6,C7,N19,V15,V1}]{bhoga}
 		\rdg[wit={V19}]{yoga}}
-	\app{\lem[resp=emend]{bhukte}
+	\app{\lem[wit={P11}]{bhukte}
 		\rdg[wit={V3},postwit=\texteng{\getsiglum{V19}\postcorr?}]{bhukti}
 		\rdg[wit={N19}]{mukte}
 		\rdg[wit={V19,C7,V1,J10}]{mukti}
 		\rdg[wit={V15}]{yukto}
 		\rdg[wit={C6}]{yoge}}%
-	\app{\lem[wit={C6,V3,N19,V15}]{'pi muktidaḥ} % <<pi>> V3
+	\app{\lem[wit={P11,C6,V3,N19,V15}]{'pi muktidaḥ} % <<pi>> V3
 		\rdg[wit={V19,C7,V1,J10}]{vimuktidaḥ}}\marma//}
 	\lineom{ab}{Gr1r,Gr2,Jyo}\label{III101}\\+}
 \tl{
 \pada{tasmāt puṇyavatā%m 
 	\app{\lem[wit={C6,Gr2,J10},alt={eva}]{\skm{m }eva}
-		\rdg[wit={V3,V19,C7,N19,V15,V1}]{evam}}}
-\pada{\app{\lem[wit={C6,V3,Gr2,N19,V15,V1}]{ayaṃ yogaḥ}
+		\rdg[wit={P11,V3,V19,C7,N19,V15,V1}]{evam}}}
+\pada{\app{\lem[wit={P11,C6,V3,Gr2,N19,V15,V1}]{ayaṃ yogaḥ}
 		\rdg[wit={V19,C7}]{eṣa yogaḥ}
 		\rdg[wit={J10}]{yogo'yaṃ}}
-	\app{\lem[wit={C6,V3,Gr2,V19,C7,N19,V15,V1}]{prasidhyati}
+	\app{\lem[wit={P11,C6,V3,Gr2,V19,C7,N19,V15,V1}]{prasidhyati}
 		\rdg[wit={J10}]{saṃprasidhyati}}}//%
 	\myfn{\label{N23ch3end}\getsiglum{N23} has a sub-colophon marking the end of Chap. 3 after this verse (the 100th!). Chap. 4 contains only 29 verses, which are the remaining verses of the usual Chap. 3. Chap. 5 corresponds to the usual Chap. 4.}
 %\myfn{\getsiglum{V19} adds here: \devnote{iti haṭhayogapradīpikāyāṃ paṃcama upadeśaḥ// 5 // samāptoyaṃ graṃthaḥ// saṃvat 1707 jyeṣṭha kṛṣṇa 4 bhṛgau liṣitam idaṃ// // śubhaṃ// //}; \getsiglum{C7} \devnote{iti śrīmadātmārāmaviracitāyāṃ pañcamoyam upadeśaḥ// 5 // śubham astu sarvajagatām//}; \getsiglum{P23} \devnote{iyaṃ vajrolī trayodaśe patre śakticālanāt pūrvaṃ jñātavyā// //iti śrīātmārāmamunīṃdraviracitāyāṃ haṭhadīpikāyaṃ(!) paṃcamopadeśaḥ// 5 //}}
@@ -3816,7 +3845,7 @@ atha vajrolī/\myfn{In \getsiglum{C6,J10} this header is found after \emph{vinā
 \app{\lem[wit={ceteri},alt={arundhatī}]{\skp{a}rundhatī}
 	\rdg[wit={V1}]{ā[ku]ṃḍalī}
 	\rdg[wit={J10}]{āceti ruṃ°}}
-\app{\lem[wit={V1}]{ceti} % c[e]ti V1
+\app{\lem[wit={P11,V1}]{ceti} % c[e]ti V1
 	\rdg[wit={V3}]{veti}
 	\rdg[wit={N19}]{vati}
 	\rdg[wit={V15}]{caiva}
@@ -4033,18 +4062,18 @@ atha vajrolī/\myfn{In \getsiglum{C6,J10} this header is found after \emph{vinā
 	\rdg[wit={V3}]{paridhāya}
 	\rdg[wit={P11}]{mavidhāna}
 	\rdg[wit={C6}]{vidhāna}}%
-\app{\lem[wit={C6,J10,Jyo}]{yuktyā}% +P11?
+\app{\lem[wit={P11,C6,J10,Jyo}]{yuktyā}% +P11?
 	\rdg[wit={V3,Gr2,N19,V15,V1}]{yuktā}
 	\rdg[wit={Gr3a}]{muktā}}}\\+}
 \tl{
 \pada{pragṛhya
 \app{\lem[wit={C6,Jyo}]{nityaṃ paricālanīyā}
-	\rdg[wit={V3}]{niryāt paricālanīyā}
+	\rdg[wit={P11,V3}]{niryāt paricālanīyā}
 	\rdg[wit={N19}]{niryāt paricālanīyāt}
 	\rdg[wit={V15},post={\unm}]{niryātya paricālanīyā}
 	\rdg[wit={N23}]{niyāt* pavicālinī sā}
 	\rdg[wit={J7,Gr3a}]{niryāty avicālinī sā}
-	\rdg[wit={V1}]{teyā paricālanīy[ai]}
+	\rdg[wit={V1}]{teyā paricālanīy[ai]}% tiryak N12, tīryak G2
 	\rdg[wit={J10}]{paricālanīyā}}//}\marma
 	\NotIn{Gr1r}\\!}
 \end{tlg}
@@ -4052,8 +4081,8 @@ atha vajrolī/\myfn{In \getsiglum{C6,J10} this header is found after \emph{vinā
 %\newpage
 \begin{tlg}[hp03_111]
 \tl{
-\pada{\app{\lem[wit={C6,Gr2,Gr3a,J10}]{vitastipramitaṃ dīrghaṃ} % vitasthi N23
-	\rdg[wit={V3,N19}]{vitastipramitaṃ dairghyaṃ}
+\pada{\app{\lem[wit={C6,Gr2,Gr3a,J10}]{vitastipramitaṃ dīrghaṃ} % vitasthi N23; divyaṃ P11
+	\rdg[wit={V3,N19}]{vitastipramitaṃ dairghyaṃ}% ##
 	\rdg[wit={V15,V1}]{vitastipramita-dairghyaṃ}
 	\rdg[wit={Jyo}]{ūrdhvaṃ vitastimātraṃ tu}}}
 \pada{\app{\lem[wit={J7,N19}]{vistāre}
@@ -4063,7 +4092,7 @@ atha vajrolī/\myfn{In \getsiglum{C6,J10} this header is found after \emph{vinā
 	\rdg[wit={V19}]{mṛlaṃ}}
 \app{\lem[wit={ceteri}]{dhavalaṃ}
 	\rdg[wit={C7}]{pavanaṃ}} proktaṃ}
-\pada{\app{\lem[wit={V15,V1,J10}]{veṣṭanāmbara}
+\pada{\app{\lem[wit={V15,V1,J10}]{veṣṭanāmbara}% ceṣṭanā° P11
 	\rdg[wit={J7}]{veṣṭanāṃvala}
 	\rdg[wit={N23,N19}]{vaṣṭanāṃcara}
 	\rdg[wit={C6}]{vaṣṭanāṃba}
@@ -4085,9 +4114,9 @@ atha vajrolī/\myfn{In \getsiglum{C6,J10} this header is found after \emph{vinā
 	\rdg[wit={V15,J10,Jyo}]{ca}% +J5
 	\rdg[wit={V1},alt={\om}]{\skp{\om}}} kuṇḍalīm/}\\+}% °lī N23,N19,C6,V3
 \tl{
-\pada{\app{\lem[alt={\ante kuryād \add},nosep]{}
+\pada{\app{\lem[alt={\ante kuryād \add},nosep]{\skp{\ante kuryād \add}}
 	\rdg[wit={N23,K3,C7},postwit=\texteng{(as header \getsiglum{C7})}]{sūryabhedāt}}
-\app{\lem[wit={C6,V3,V1,J10,Jyo},alt={kuryād}]{kuryā\skp{d}}
+\app{\lem[wit={C6,V3,V1,J10,Jyo},alt={kuryād}]{kuryā\skp{d}}% +J5
 	\rdg[wit={Gr2,V19,C7,N19,V15}]{sūryād}
 	\rdg[wit={K3}]{tathā}}%
 \app{\lem[wit={ceteri},alt={anantaraṃ}]{\skm{d }anantaraṃ}
@@ -4172,11 +4201,11 @@ atha vajrolī/\myfn{In \getsiglum{C6,J10} this header is found after \emph{vinā
 	\rdg[wit={V1},alt={\illeg}]{\skp{\illeg}}}/}\\+}
 \tl{
 \pada{\app{\lem[resp=emend,postwit=\texteng{(=\,Amaraughaśāsana)},alt={siñcan}]{siñca\skp{n}}
-	\rdg[wit={N19,V15}]{chindan}% ##
+	\rdg[wit={N19,V15}]{chindan}% +M1 ##
 	\rdg[wit={V3,J10}]{chinnat}
 	\rdg[wit={Jyo}]{chittvā}
 	\rdg[wit={C6}]{chaṃdaḥ}
-	\rdg[wit={J7,Gr3a}]{bhindan}% siñcan! Amaraughaśāsana
+	\rdg[wit={J7,Gr3a}]{bhindan}
 	\rdg[wit={N23}]{bhidan}
 	\rdg[wit={V1},alt={\illeg}]{\skp{\illeg}}}n
 	kālaviśāla% kāla illeg. V1
@@ -4217,10 +4246,10 @@ atha vajrolī/\myfn{In \getsiglum{C6,J10} this header is found after \emph{vinā
 \pada{kuṇḍalīṃ % lī Gr2,N19,V15,V3, °liṃ J10
 cālayi\app{\lem[wit={J7,Gr3a,N19,Jyo},alt={°tvā tu}]{\skp{°}tvā tu} % cāla-i-tvā V19
 	\rdg[wit={N23}]{°tvācca}
-	\rdg[wit={C6,V15,J10}]{°tvātha}
+	\rdg[wit={C6,V15,J10}]{°tvātha}% +K1,P11 ##; ca P6
 	\rdg[wit={V3}]{°tvādhaḥ}
 	\rdg[wit={V1},alt={\illeg}]{\skp{\illeg}}}}
-\pada{\app{\lem[wit={K3,C7,V15,V1}]{kuryād bhastrīṃ}
+\pada{\app{\lem[wit={K3,C7,V15,V1}]{kuryād bhastrīṃ}% +K1
 	\rdg[wit={V3,V19,N19}]{kuryād bhastrī} % kuryā bhastri V3
 	\rdg[wit={J10}]{kuryād bhastrāṃ}
 	\rdg[wit={Gr2}]{bhasrī kuryād}
@@ -4228,11 +4257,11 @@ cālayi\app{\lem[wit={J7,Gr3a,N19,Jyo},alt={°tvā tu}]{\skp{°}tvā tu} % cāla
 	viśeṣataḥ/}\\+}
 \tl{
 \pada{eva%m
-\app{\lem[wit={J10,Jyo},alt={abhyasyato}]{\skm{m }abhyasyato}
-	\rdg[wit={V3}]{abhyasyatā}
+\app{\lem[wit={J10,Jyo},alt={abhyasyato}]{\skm{m }abhyasyato}% +N22
+	\rdg[wit={V3}]{abhyasyatā}% abhyasya tāṃ P11
 	\rdg[wit={C7,V15}]{abhyasato}
 	\rdg[wit={C6,Gr2,V19,K3,N19}]{abhyāsato}
-	\rdg[wit={V1}]{..\,..\,syat.}} nityaṃ}
+	\rdg[wit={V1}]{..\,..\,syat.}} nityaṃ} % abhyasyayo P6
 \pada{\app{\lem[wit={ceteri}]{yaminaḥ śaṅkate yamaḥ}
 	\rdg[wit={Jyo}]{yamino yamabhīḥ kutaḥ}}//} \NotIn{N3}\\!}
 \end{tlg}
@@ -4260,9 +4289,9 @@ cālayi\app{\lem[wit={J7,Gr3a,N19,Jyo},alt={°tvā tu}]{\skp{°}tvā tu} % cāla
 abhyāsa\app{\lem[wit={ceteri}]{yuktasya}
 	\rdg[wit={J10}]{yogena}}}
 \pada{\app{\lem[wit={Gr2,Gr3a}]{yamas tu}
-	\rdg[wit={V15}]{śramas tu}
-	\rdg[wit={N19,V1}]{śamino}% C6pc
-	\rdg[wit={C6,V3,J10}]{śamano}}
+	\rdg[wit={V15}]{śramas tu}% śramaś ca N22,K1, ścamaś ca P6
+	\rdg[wit={N19,V1}]{śamino}% P11,C6pc
+	\rdg[wit={C6,V3,J10}]{śamano}} % +M1 ## śamana means Yama.
 \app{\lem[wit={ceteri}]{yaminaḥ}
 	\rdg[wit={V3}]{yaminaṃ}} kutaḥ//} % kva ca C6
 	\NotIn{N3,Jyo}\\!}
@@ -4274,7 +4303,7 @@ abhyāsa\app{\lem[wit={ceteri}]{yuktasya}
 \tl{
 \pada{muhūrtadvayaparyantaṃ} % mahūrtta V3; paryaṃta V15
 \pada{\app{\lem[wit={Gr2,Gr3a}]{nirbharaṃ}
-	\rdg[wit={N3,C6,V3,V15}]{nirbhayaś}
+	\rdg[wit={N3,C6,V3,V15}]{nirbhayaś}% +K1
 	\rdg[wit={N19}]{nirbhayaṃś}
 	\rdg[wit={V1,J10,Jyo}]{nirbhayaṃ}} % +M1,G7 ##? ṃ unsichtbar V1
 \app{\lem[wit={N3,C6,V3,Gr2,N19,V15,V1,Jyo}]{cālanād asau}
@@ -4451,11 +4480,11 @@ abhyāsa\app{\lem[wit={ceteri}]{yuktasya}
 \pada{nāḍīnāṃ mala\app{\lem[wit={J10,Jyo}]{śodhane}% +M1
 	\rdg[wit={C6,Gr2,Gr3a,N19,V15,V1}]{śodhanam}}/}\\+}
 \tl{
-\pada{\app{\lem[wit={Gr3a,V15,Jyo}]{kutaḥ}
+\pada{\app{\lem[wit={Gr3a,V15,Jyo}]{kutaḥ}% K1,N22,P6
 	\rdg[wit={N19}]{kṛta}
 	\rdg[wit={J7}]{gudaḥ}
 	\rdg[wit={V1,J10}]{guda}
-	\rdg[wit={C6}]{aṃtaḥ}
+	\rdg[wit={C6}]{aṃtaḥ}% aṃtaṃ P11
 	\rdg[wit={N23},alt={\om}]{\skp{\om}}}
 \app{\lem[wit={J7,Gr3a,V15,J10,Jyo}]{prakṣālanopāyaḥ}
 	\rdg[wit={N19,V1},alt={°pāyaṃ}]{prakṣālanopāyaṃ}
@@ -4464,7 +4493,7 @@ abhyāsa\app{\lem[wit={ceteri}]{yuktasya}
 \pada{\app{\lem[wit={J7}]{kuṇḍalyabhyāsato vinā}
 	\rdg[wit={N23,Gr3a}]{kuṇḍalyābhyāsato vinā}
 	\rdg[wit={C6,N19,V15}]{kuṇḍalyabhyāsanād ṛte}
-	\rdg[wit={Jyo}]{kuṇḍalyabhyasanād ṛte}
+	\rdg[wit={Jyo}]{kuṇḍalyabhyasanād ṛte}% ##
 	\rdg[wit={J10}]{kuṇḍalyabhyāsa iṣyate}
 	\rdg[wit={V1}]{ku\,..\,..\,[bhyā]\,..\,[mā]\,..\,..}}//} \NotIn{N3,V3}\\!}
 \end{tlg}
@@ -4650,10 +4679,10 @@ iti śakticālanam/ \sgwit{N19,V15,V1,J10}
 \begin{tlg}[hp03_130]
 \tl{
 \pada{tasya vākyaparo % °parā N23
-\app{\lem[wit={Gr2,Gr3a,V15,Jyo}]{bhūtvā}
-	\rdg[wit={C6,V3,N19,J10}]{nityaṃ}}} % nitya V3; mudrāṃ M1,M3,G7
-\pada{\app{\lem[wit={Gr3a,V15}]{yo'bhyasyati}% +P11,M1,M3
-	\rdg[wit={C6}]{yo bhyasati}
+\app{\lem[wit={Gr2,Gr3a,V15,Jyo}]{bhūtvā}% +K1,N22,P6
+	\rdg[wit={C6,V3,N19,J10}]{nityaṃ}}} % +P11; nitya V3; mudrāṃ M1,M3,G7
+\pada{\app{\lem[wit={Gr3a,V15}]{yo'bhyasyati}% +P11,M1,M3,N22
+	\rdg[wit={C6}]{yo bhyasati}% +P6
 	\rdg[wit={N23}]{yo bhyaset su°}
 	\rdg[wit={J7}]{yo bhyaseta}
 	\rdg[wit={N19}]{yo bhyasena}% yobhyāsena G7
@@ -4663,10 +4692,10 @@ iti śakticālanam/ \sgwit{N19,V15,V1,J10}
 \tl{
 \pada{aṇimādi\app{\lem[wit={ceteri}]{guṇaiśvaryaṃ}
 	\rdg[wit={V15,Jyo}]{guṇaiḥ sārdhaṃ}}} % guṇai V15
-\pada{\app{\lem[wit={ceteri}]{jāyate}% jayate G7
+\pada{\app{\lem[wit={ceteri}]{jāyate}% +P11,K1,N22,P6; jayate G7
 	\rdg[wit={J10,Jyo}]{labhate}}
 kāla\app{\lem[wit={Gr3a,Jyo}]{vañcanam}% M1,M3
-	\rdg[wit={Gr2}]{vañcanāt}
+	\rdg[wit={Gr2}]{vañcanāt}% +K1,N22,P6
 	\rdg[wit={C6,V3,N19,V15,J10}]{vañcakaḥ}}//} % ## G7
 	\NotIn{N3,V1}\\!}
 \end{tlg}
@@ -4690,7 +4719,7 @@ kāla\app{\lem[wit={Gr3a,Jyo}]{vañcanam}% M1,M3
 	\rdg[wit={C6,K3}]{śrīhaṭhapradīpikāyāṃ}
 	\rdg[wit={V19}]{haṭhayogavidyāyāṃ}
 	\rdg[wit={N23},alt={\om}]{\skp{\om}}}
-\app{\lem[alt={\ante tṛtīyo° \add},nosep]{}
+\app{\lem[alt={\ante tṛtīyo° \add},nosep]{\skp{\ante tṛtīyo° \add}}
 	\rdg[wit={V15}]{mudrāvidhānaṃ}}%
 \app{\lem[wit={N3,C6,V3,J7,N19,V15}]{tṛtīyopadeśaḥ} % tṛtiyo V3
 	\rdg[wit={V19}]{tṛtīya upadeśaḥ}
@@ -4714,10 +4743,10 @@ kāla\app{\lem[wit={Gr3a,Jyo}]{vañcanam}% M1,M3
 \begin{tabular}{lllp{8cm}}
 \multicolumn{4}{l}{\textbf{List of Sigla}} \\
 \\
-\getsiglum{N3} & N3 & Gr1 & one folio is missing (\ref{VuIII88}--\ref{VuIII116}a)
-[\getsiglum{Gr1r} is a reconstruction of Gr1 from the other mss of the group for the missing part of \getsiglum{N3}]\\
+\getsiglum{N3} & N3 & Gr1 & one folio is missing (\ref{VuIII88}--\ref{VuIII116}a)\\
 \getsiglum{J5} & J5 & Gr1 & consulted sporadically\\
 \getsiglum{G4} & G4 & Gr1 & consulted sporadically\\
+\getsiglum{Gr1r} &  & Gr1 & reconstruction of Gr1 from \getsiglum{J5} and \getsiglum{G4} where \getsiglum{N3} is missing\\
 \getsiglum{P11} & P11 & Gr4b & consulted only when the reading of \getsiglum{C6} is unusual from the stemmatic point of view\\
 \getsiglum{C6} & C6 & Gr4b & contaminated with Gr3?\\
 \getsiglum{V3} & V3 & Gr6b\\

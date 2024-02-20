@@ -1,4 +1,15 @@
 @font-face {
+    font-family: Mukta, sans-serif;
+    src: url(fonts/Mukta-Regular.ttf);
+}
+
+@font-face {
+    font-family: Mukta, sans-serif;
+    font-weight: bold;
+    src: url(fonts/Mukta-Bold.ttf);
+}
+    
+@font-face {
     font-family: LinuxBiolinumORegular, sans-serif;
     src: url(fonts/LinBiolinum_R.woff);
     src: url(fonts/LinBiolinum_RB.woff);
@@ -43,7 +54,7 @@
 
 body {
     background-color:  #313131;
-    font-family: 'LinuxBiolinumORegular';
+    font-family: LinuxBiolinumORegular;
     font-weight: normal;
     font-style: normal;
     font-size: 16px;
