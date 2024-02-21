@@ -715,7 +715,7 @@ V3,J6,N9,N26
 <l> <s type="pada">na <app><lem wit="#ceteri">ca</lem><rdg wit="#V3">bhra</rdg><rdg wit="#C7"><seg type="deva-ignore"><gap reason="om."/></seg></rdg></app> mūrchā <app><lem wit="#ceteri">bhave<seg type="deva-ignore">t</seg></lem><rdg wit="#J10">bhave</rdg><rdg wit="#C7">tu bhavet</rdg></app><app><lem wit="#ceteri"><seg type="ltn-ignore">t </seg>tasya</lem><rdg wit="#N3">ta +</rdg></app></s> <s type="pada"><app><lem wit="#ceteri">yo mudrāṃ vetti</lem><rdg wit="#N3"><seg type="deva-ignore">damaged </seg></rdg></app> <app><lem wit="#J7 #V19 #K3 #N19 #V15 #V1 #J10 #Jyo">khecarīm</lem><rdg wit="#N3 #C6 #V3 #N23 #C7">khecarī</rdg></app>//</s><note type="myfn">In <ref target="#J7"/> this verse is found after <ptr target="#III38"/>.</note>
 </l> 
 </lg>
- normalsize  
+ 
 <lg xml:id="hp03_036_1">
  <l> <s type="pada"><app><lem wit="#N3 #P11 #Jyo">pīḍyate</lem><rdg wit="#C6 #V3 #J10">bādhyate</rdg><rdg wit="#V1">chādyate</rdg></app> na <app><lem wit="#V3 #V1 #J10 #Jyo">sa</lem><rdg wit="#N3 #J5 #G4 #P11 #C6">ca</rdg></app> rogeṇa</s> <s type="pada"><app><lem wit="#G4 #Jyo">lipyate na ca</lem><rdg wit="#C6 #V3 #V1 #J10">lipyate na sa</rdg><rdg wit="#J5 #P11">na ca lipyati</rdg><rdg wit="#N3">na ca lipyata</rdg></app> karmaṇā/</s></l>
 <l> <s type="pada"><app><lem wit="#N3 #P11 #V3 #V1 #J10 #Jyo">bādhyate</lem><rdg wit="#C6">khādyate</rdg></app> na <app><lem wit="#N3 #J5 #G4 #P11">ca</lem><rdg wit="#C6 #V3 #V1 #J10 #Jyo">sa</rdg></app> kālena</s> <s type="pada"><app><lem wit="#N3 #P11 #C6 #V3 #J10 #Jyo">yo mudrāṃ vetti</lem><rdg wit="#V1">yasya mudrāsti</rdg></app> <app><lem wit="#N3 #J10 #Jyo">khecarīm</lem><rdg wit="#P11 #C6 #V3 #V1">khecarī</rdg></app>//</s> <note type="inlineref"><ref>N3,J5,G4,C6,V3,V1,J10,Jyo</ref></note>
@@ -740,7 +740,7 @@ V3,J6,N9,N26
 </l> 
 </lg>
  <note type="memo"><ref target="#V3,J10"/> have <ptr target="#III43"/> <hi rend="italic">indhanāni</hi> here.</note>
- normalsize <div type="altrec">
+ <div type="altrec">
 <lg xml:id="hp03_039_1">
  <l> <s type="pada">kapālakuhare jihvā</s> <s type="pada"><app><lem wit="#V3 #V15">kalā</lem><rdg wit="#Gr2 #N19">kāla</rdg><rdg wit="#N3">kālā</rdg><rdg wit="#C6">kṛtvā</rdg></app><app><lem wit="#N3 #C6 #V3 #V15">saṃdhāna</lem><rdg wit="#N19">saṃdhāra</rdg><rdg wit="#Gr2">saṃhāra</rdg></app><app><lem wit="#N3 #Gr2 #N19 #V15">mudrayā</lem><rdg wit="#V3">varjitā</rdg></app>/</s> <note type="inlineref"><ref>N3,C6,V3,Gr2,N19,V15</ref></note>
 <anchor xml:id="III40_1"/></l> 
@@ -1137,7 +1137,7 @@ V3,J6,N9,N26
 <l> <s type="pada">ayaṃ <app><lem wit="#G4 #N24">śubhakaro</lem><rdg wit="#Jyo">puṇyakaro</rdg></app> yogo</s> <s type="pada"><app><lem wit="#Jyo">bhoge bhukte’pi muktidaḥ</lem><rdg wit="#G4">bhāvamukthivimukthidaḥ</rdg><rdg wit="#N24">bhyāsyayuktasya muktida</rdg></app>//</s> <note type="memo">cd in <ref target="#G4,N24,Jyo"/>; cf. <ptr target="#III94"/>cd</note>
 </l> 
 </lg>
- normalsize <div type="altrec">
+ <div type="altrec">
 <lg xml:id="hp03_101_1">
  <l> <s type="pada"><app><lem wit="#V19 #C7 #N19 #V15 #V1 #J10">tasmād ayaṃ</lem><rdg wit="#P11 #C6 #V3">yasmād ayaṃ</rdg></app> <app><lem wit="#P11 #C6 #V3 #V19 #C7 #N19 #V15">sādhakāya</lem><rdg wit="#V1">sādhako’yaṃ</rdg><rdg wit="#J10">sādhakānāṃ</rdg></app></s> <s type="pada"><app><lem wit="#P11 #V3 #J10">bhoge</lem><rdg wit="#C6 #C7 #N19 #V15 #V1">bhoga</rdg><rdg wit="#V19">yoga</rdg></app> <app><lem wit="#P11">bhukte</lem><rdg wit="#V3">bhukti</rdg><rdg wit="#N19">mukte</rdg><rdg wit="#V19 #C7 #V1 #J10">mukti</rdg><rdg wit="#V15">yukto</rdg><rdg wit="#C6">yoge</rdg></app><app><lem wit="#P11 #C6 #V3 #N19 #V15">’pi muktidaḥ</lem><rdg wit="#V19 #C7 #V1 #J10">vimuktidaḥ</rdg></app>//</s> <note type="omission">ab omitted in <ref>Gr1r,Gr2,Jyo</ref></note>
 <anchor xml:id="III101"/></l>
