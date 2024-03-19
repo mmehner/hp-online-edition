@@ -18,10 +18,12 @@ document.addEventListener("DOMContentLoaded", () => {
 	    
 	} else if ( dev ) {
 	    hide("versdev");
+	    hide("jyotsnadev");
 	    dev=false;
 	    setbuttons();
 	} else {
 	    show("versdev");
+	    show("jyotsnadev");
 	    dev=true;
 	    setbuttons();
 	};
@@ -32,10 +34,12 @@ document.addEventListener("DOMContentLoaded", () => {
 	    
 	} else if ( ltn ) {
 	    hide("versltn");
+	    hide("jyotsnaltn");
 	    ltn=false;
 	    setbuttons();
 	} else {
 	    show("versltn");
+	    show("jyotsnaltn");
 	    ltn=true;
 	    setbuttons();
 	};

@@ -167,18 +167,27 @@
       </div>
 
       <xsl:variable name="jyotsna" select="document($jyotsna)//note[@type='jyotsna' and contains(@target, $correspkey)]"/>
-      <xsl:if test="$jyotsna">
+      <xsl:for-each select="$jyotsna">
 	<details class="jyotsna-d">
 	  <summary>Jyotsna Commentary
-	  <xsl:if test="not($jyotsna[@target=$correspkey])">
-	    for verses <xsl:value-of select="replace($jyotsna/@target, '#hp0*(\d+)_0*(\d+).*#hp0*(\d+)_0*(\d+)', '$1.$2-$4')"/>
+	  <xsl:if test="not(.[@target=$correspkey])">
+	    for verses <xsl:value-of select="replace(./@target, '#hp0*(\d+)_0*(\d+).*#hp0*(\d+)_0*(\d+)', '$1.$2-$4')"/>
 	  </xsl:if>
 	  </summary>
 	  <div class="jyotsna">
-	    <xsl:apply-templates select="$jyotsna"/>
+	    <div class="jyotsnadev">
+	      <xsl:apply-templates select="$jyotsna"> 
+		<xsl:with-param name="transc" select="true()" tunnel="yes"/>
+	      </xsl:apply-templates>
+	    </div>
+	    <div class="jyotsnaltn">
+	      <xsl:apply-templates  select="$jyotsna">
+		<xsl:with-param name="transc" select="false()" tunnel="yes"/>
+	      </xsl:apply-templates>
+	    </div>
 	  </div>
 	</details>
-      </xsl:if>
+      </xsl:for-each>
     </div>
   </xsl:template>
 
@@ -256,8 +265,8 @@
   
   <xsl:template match="seg[@type='ltn-ignore']" mode="lemma"/>
   
-  <!-- iast2nagari for text nodes of hp, avataranika and postmula -->
-  <xsl:template match="l[not(ancestor::note)]//text()|note[@type='avataranika']//text()|note[@type='postmula']//text()|div[@type='colophon']//text()">
+  <!-- iast2nagari for text nodes of hp, avataranika, postmula, colophon and jyotsna -->
+  <xsl:template match="l[not(ancestor::note)]//text()|note[@type='avataranika']//text()|note[@type='postmula']//text()|div[@type='colophon']//text()|note[@type='jyotsna']//text()">
     <xsl:param name="transc" tunnel="yes"/>
 
     <xsl:variable name="addstring">
@@ -517,7 +526,9 @@
     <xsl:element name="span">
       <xsl:attribute name="class">fn</xsl:attribute>
       <xsl:attribute name="title">
-	<xsl:value-of select="."/>
+	<xsl:apply-templates>
+	  <xsl:with-param name="transc" select="false()" tunnel="yes"/>
+	</xsl:apply-templates>
       </xsl:attribute>
       <b>*</b>
     </xsl:element>

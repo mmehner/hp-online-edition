@@ -417,6 +417,17 @@ mark {
     padding-bottom: 10px;
 }
 
+.jyotsnadev{
+    font-family: Adishila;
+    font-size: 20px;
+}
+
+.jyotsnaltn{
+    font-size: 16px;
+    display: none;
+}
+
+
 .grey {
     font-size: 14px;
 }
