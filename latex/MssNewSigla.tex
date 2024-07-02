@@ -1,5 +1,10 @@
 \usepackage{textgreek}
 
+\DeclareWitness{cetwG4}{\texteng{cett.\,incl.\,\textalpha\textsubscript{3}}}{G4 included in cett.}[] %%%changed mm 24-07-01
+\DeclareWitness{cetwJ5}{\texteng{cett.\,incl.\,\textalpha\textsubscript{2}}}{J5 included in cett.}[] %%%changed mm 24-07-01
+
+\DeclareWitness{ceteri}{\texteng{cett.}}{ceteri}[]
+
 %%% Gr1,4b,6
 \DeclareWitness{N3}{\texteng{\textalpha\textsubscript{1}}}{NGMPP B 62-20}[]
         \DeclareHand{N3ac}{N3}{\texteng{\textalpha\rlap{\textsubscript{1}}\textsuperscript{ac}}}[]
@@ -7,14 +12,11 @@
 \DeclareWitness{J5}{\texteng{\textalpha\textsubscript{2}}}{Jodhpur 02235}[]
 \DeclareWitness{G4}{\texteng{\textalpha\textsubscript{3}}}{GOML 18885}[]% Telugu script
 \DeclareWitness{N24}{\texteng{\textalpha\textsubscript{4}}}{NGMPP G 190-16}[]
-%\DeclareWitness{Gr1r}{\texteng{\textAlpha *}}{Gr1 reconstructed}[]
-\DeclareWitness{Gr1r}{\texteng{%
-	\textalpha\textsubscript{2}
-	\textalpha\textsubscript{3}%
-	}}{J5,G4}
 
 \DeclareWitness{P11}{\texteng{\textbeta\textsubscript{1}}}{}[]
 \DeclareWitness{C6}{\texteng{\textbeta\textsubscript{2}}}{Lalchand M-2089}[]
+        \DeclareHand{C6ac}{C6}{\texteng{\textbeta\rlap{\textsubscript{2}}\textsuperscript{ac}}}[]
+        \DeclareHand{C6pc}{C6}{\texteng{\textbeta\rlap{\textsubscript{2}}\textsuperscript{pc}}}[]
 
 \DeclareWitness{V3}{\texteng{\textbeta\textsubscript{\textomega}}}{Sampurnananda Library Sarasvati Bhavan 29899}[]
 
@@ -40,8 +42,8 @@
 %\DeclareWitness{L1}{\texteng{L\textsubscript{1}}}{SOAS RE 43454}[settlement=Jammu]
 
 \DeclareWitness{J6}{\texteng{\textdelta\textsubscript{\textomega}}}{Jodhpur 02237}[]
-        \DeclareHand{J6ac}{J6}{\texteng{\textdelta\rlap{\textomega}\textsuperscript{ac}}}[]
-        \DeclareHand{J6pc}{J6}{\texteng{\textdelta\rlap{\textomega}\textsuperscript{pc}}}[]
+        \DeclareHand{J6ac}{J6}{\texteng{\textdelta\textsubscript{\textomega}\textsuperscript{ac}}}[]
+        \DeclareHand{J6pc}{J6}{\texteng{\textdelta\textsubscript{\textomega}\textsuperscript{pc}}}[]
 
 %%% Gr4c
 
@@ -61,11 +63,11 @@
 \DeclareWitness{N26}{\texteng{\textepsilon\textsubscript{\textomega}}}{NGMPP}[]
 %\DeclareWitness{V17}{\texteng{\textepsilon\textsubscript{\textomega 3}}}{Sampurnananda Library Sarasvati Bhavan 30053}[]
 
+%%% Gr4d
+
 \DeclareWitness{V1}{\texteng{\texteta\textsubscript{1}}}{Sampurnananda Library Sarasvati Bhavan 30109}[]
         \DeclareHand{V1ac}{V1}{\texteng{\texteta\rlap{\textsubscript{1}}\textsuperscript{ac}}}[]
         \DeclareHand{V1pc}{V1}{\texteng{\texteta\rlap{\textsubscript{1}}\textsuperscript{pc}}}[]
-
-%%% Gr4d
 
 \DeclareWitness{J10}{\texteng{\texteta\textsubscript{2}}}{MSPP Jodhpur 2230}[]
         \DeclareHand{J10ac}{J10}{\texteng{\texteta\rlap{\textsubscript{2}}\textsuperscript{ac}}}[]
@@ -79,31 +81,12 @@
 \DeclareWitness{Jyo}{\texteng{\textchi}}{Brahmānanda's version}[]
 %\DeclareWitness{Tue}{\texteng{Tü}}{Ma I 339}[]
 
-\DeclareWitness{ceteri}{\texteng{cett.}}{ceteri}[]
-
-%%% Group Sigla
+%%% Group Sigla 
+% für Transkripte ändere DeclareWitness zu DeclareShorthand.
 
 \DeclareWitness{Gr1}{\texteng{\textAlpha}}{N3,J5,G4}
-
 \DeclareWitness{Gr2}{\texteng{\textGamma}}{N23,J7}
-%\DeclareWitness{Gr2}{\texteng{%
-%	\textbeta\textsubscript{1}%
-%	\textbeta\textsubscript{2}%
-%	}}{N23,J7}
 \DeclareWitness{Gr3a}{\texteng{\textDelta}}{V19,K3,C7}
-\DeclareWitness{Gr4b}{\texteng{%
-	\textbeta\textsubscript{1}
-	\textbeta\textsubscript{2}%
-	}}{C6,P11}
-\DeclareWitness{GrB}{\texteng{%
-	\textbeta\textsubscript{1}
-	\textbeta\textsubscript{2}
-	\textbeta\textsubscript{\textomega}%
-	}}{C6,P11,V3}
+\DeclareWitness{GrB}{\texteng{\textBeta}}{P11,C6,V3}
 \DeclareWitness{Gr4c}{\texteng{\textEpsilon}}{P15,N19,V15}
-
-% \DeclareWitness{Gr4d}{\texteng{%
-	% \texteta\textsubscript{1}%
-	% \texteta\textsubscript{2}%
-	% }}{V1,J10}
 \DeclareWitness{Gr6}{\texteng{\textOmega}}{V3,J6,N9,N26}

@@ -1,4 +1,4 @@
-\documentclass[10pt]{memoir}
+\documentclass[10pt,oneside]{memoir}
 \setstocksize{220mm}{155mm} 	        
 \settrimmedsize{220mm}{155mm}{*}	
 \settypeblocksize{170mm}{116mm}{*}	
@@ -73,13 +73,15 @@
 % end additions
 % added by MM 2022-10-25:
 \NewDocumentEnvironment{postmula}{O{}}{
+  \setvnum{ending:} % added 2024-03-17 MD
   \begin{ekdverse}
     \hspace{-\vgap}}{
   \end{ekdverse}
   \vskip 0.6\baselineskip
 }
-% modified by MD 2022-05-8:
+% modified by MD 2024-03-17:
 \NewDocumentEnvironment{ava}{O{}}{
+  \setvnum{heading:}
   \begin{ekdverse}
     \hspace{-\vgap}}{
   \end{ekdverse}
@@ -87,7 +89,7 @@
 }
 \NewDocumentEnvironment{col}{O{}}{
   \medskip
-  \setvnum{col}
+  \setvnum{colophon:}
 %  \selectlanguage{iast}
   \begin{ekdverse}
     \hspace{-\vgap}}{
@@ -95,8 +97,9 @@
 }
 
         
-% modifications/additions by MM 2022-06-07:
+% modifications/additions by MM 2022-06-07
 \NewDocumentEnvironment{altava}{O{}}{
+  \setvnum{heading:} % added 2024-03-17 MD
   \begin{ekdverse}\color{gray}
     \hspace{-\vgap}}{
   \end{ekdverse}
@@ -160,15 +163,14 @@
 \NewDocumentCommand{\tl}{m}{#1}
 
 %%%%%%
-
-\def\startverse{\begin{ekdverse}} % übergangsweise
-\def\endverse{\end{ekdverse}\vskip 0.6\baselineskip} % übergangsweise
-\def\startgray{\color{gray}} % NEW! 2023-06-16
-\def\endgray{\color{black}} % NEW! 2023-06-16
+% nicht mehr im Gebrauch 2024-03-15
+% \def\startverse{\begin{ekdverse}} % übergangsweise
+% \def\endverse{\end{ekdverse}\vskip 0.6\baselineskip} % übergangsweise
+% \def\startgray{\color{gray}} % NEW! 2023-06-16
+% \def\endgray{\color{black}} % NEW! 2023-06-16
 
 
 %%%%%%
-\newcommand{\manuref}[1]{#1}
 
 \newcommand{\myfn}[1]{\footnote{\texteng{#1}}}
 \renewcommand{\thefootnote}{\texteng{\arabic{footnote}}}
@@ -177,8 +179,8 @@
 \newcommand{\sgwit}[1]{{\footnotesize (\getsiglum{#1})}}
 \newcommand{\NotIn}[1]{\texteng{\footnotesize (om. \getsiglum{#1})}}
 \newcommand{\lineom}[2]{\texteng{\footnotesize (#1 om. \getsiglum{#2})}}
-\newcommand{\grau}[1]{\textcolor{gray}{#1}} % partial altrecension
 \newcommand{\graus}[1]{\small\textcolor{gray}{#1}\normalsize} % partial altrecension
+\newcommand{\grau}[1]{\textcolor{gray}{#1}} % partial altrecension
 \newcommand{\Anm}[1]{\begin{ekdverse}
 	\texteng{\footnotesize (#1)}
 	\end{ekdverse}
@@ -187,9 +189,9 @@
 
 \def\om{\texteng{\emph{om.\kern-0.8ex}}}
 \def\illeg{\texteng{\emph{illeg.\kern-0.8ex}}} 
-\def\damaged{\texteng{\emph{damaged}}} 
+\def\lost{\texteng{\emph{lost}}} 
+\def\lacuna{\texteng{\emph{lac.\kern-0.8ex}}}
 \def\unm{\texteng{\emph{unm.\ }}}
-\def\gap{\texteng{\emph{gap}}}
 %\def\recte{\texteng{r.\:}}
 %\def\for{\texteng{for\ }}
 %\def\sic{\texteng{\emph{sic}}}
@@ -199,8 +201,10 @@
 \def\post{\texteng{\normalfont\emph{post\ }}}
 \def\antecorr{\texteng{\textsubscript{ac}}}
 \def\postcorr{\texteng{\textsubscript{pc}}}
+\def\marmas{\texteng{\textsuperscript{\#}}\ }
 \def\marma{\texteng{\textsuperscript{\#}}}
-\def\marmas{\texteng{\textsuperscript{\#}} }
 \def\crux{\texteng{\textsuperscript{\textdagger}}}
 
 \newcommand{\teimute}[1]{#1}
+\newcommand{\manuref}[1]{#1}
+\newcommand{\unavbl}[1]{\marginpar{\scriptsize\texteng{−\,\getsiglum{#1}}}}

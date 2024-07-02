@@ -1,3 +1,9 @@
+% additions/changes 2024-07-01 mm:
+\TeXtoTEIPat{\unavbl {#1}}{<note type="foliolost">Folio lost in <ref>#1</ref></note>}
+\TeXtoTEIPat{\NotIn {#1}}{<note type="omission">Omitted in <ref>#1</ref></note>}
+\TeXtoTEI{graus}{span}[type="altrec"]
+\TeXtoTEI{grau}{span}[type="altrec"]
+
 % addition 2024-03-15 MD
 \TeXtoTEI{manuref}{}
 
@@ -53,10 +59,10 @@
 \TeXtoTEIPat{\textomega}{ω}
 
 %new environments
-\TeXtoTEIPat{\begin {postmula}[#1]}{<note type="postmula" target="##1">}
-  \TeXtoTEIPat{\end {postmula}}{</note>}
-\TeXtoTEIPat{\begin {altava}[#1]}{<div type="altrec"><note type="avataranika" target="##1">} %%% changed 2023-12-05 mm
-  \TeXtoTEIPat{\end {altava}}{</note></div>} %%% changed 2023-12-05 mm
+\TeXtoTEIPat{\begin {postmula}[#1]}{<div type="postmula" xml:id="#1">} %%% changed 2024-07-01 mm
+  \TeXtoTEIPat{\end {postmula}}{</div>}  %%% changed 2024-07-01 mm
+\TeXtoTEIPat{\begin {altava}[#1]}{<div type="altrec"><div type="avataranika" xml:id="#1">} %%% changed 2024-07-01 mm
+  \TeXtoTEIPat{\end {altava}}{</div></div>} %%% changed 2024-07-01 mm
 \TeXtoTEIPat{\sgwit {#1}}{<note type="inlineref"><ref>#1</ref></note>}
 
 % changes/additions 2023-10-12 MM:
@@ -64,15 +70,11 @@
 
 % changes/additions 2023-08-15 MD:
 \TeXtoTEIPat{\lineom {#1}{#2}}{<note type="omission">#1 omitted in <ref>#2</ref></note>}
-\TeXtoTEI{graus}{hi}[rend="grey"]
-\TeXtoTEIPat{\startgray}{} %%% changed 2023-12-05 mm
-\TeXtoTEIPat{\endgray}{} %%% changed 2023-12-05 mm
-
-
+%\TeXtoTEIPat{\startgray}{} %%% changed 2023-12-05 mm; not used 2024-03-26 MD
+%\TeXtoTEIPat{\endgray}{} %%% changed 2023-12-05 mm; not used 2024-03-26 MD
 
 % additions/changes 2023-06-05 mm:
 %\TeXtoTEIPat{\lineom {#1}}{<note type="omission">Line omitted in <ref>#1</ref></note>}
-\TeXtoTEIPat{\NotIn {#1}}{<note type="omission">Stanza omitted in <ref>#1</ref></note>}
 
 % additions 2023-04-16 MD:
 \TeXtoTEIPat{\,}{ }
@@ -102,7 +104,6 @@
 %%% modify environments and commands
 %%% TEI mapping
 % additions/changes 2022-06-07 mm:
-\TeXtoTEI{grau}{hi}[rend="grey"]
 \TeXtoTEIPat{ \& }{ &amp; }
 
 % additions/changes 2022-06-01 mm:
@@ -114,10 +115,10 @@
 % additions/changes 2022-04-06 mm:
 %\TeXtoTEI{sgwit}{ref}
 \TeXtoTEI{textdev}{s}[xml:lang="sa-deva"]
-\TeXtoTEIPat{\begin {col}[#1]}{<div type="colophon" xml:id="#1"><p>}
-  \TeXtoTEIPat{\end {col}}{</p></div>}
-\TeXtoTEIPat{\begin {ava}[#1]}{<note type="avataranika" target="##1">}
-  \TeXtoTEIPat{\end {ava}}{</note>}
+\TeXtoTEIPat{\begin {col}[#1]}{<div type="colophon" xml:id="#1">}
+  \TeXtoTEIPat{\end {col}}{</div>}
+\TeXtoTEIPat{\begin {ava}[#1]}{<div type="avataranika" xml:id="#1">} %%% changed 2024-07-01 mm
+  \TeXtoTEIPat{\end {ava}}{</div>} %%% changed 2024-07-01 mm
 												   
 \TeXtoTEIPat{\outdent}{}
 \TeXtoTEIPat{\startaltrecension}{} %%% changed 2023-12-05 mm
@@ -223,13 +224,13 @@
 % \TeXtoTEIPat{\crux}{}
 % \TeXtoTEIPat{\cruxxx}{}
 \TeXtoTEIPat{\unm}{<hi rend="italic">unm.</hi>}
-
+\TeXtoTEIPat{\lacuna}{<gap reason="lac."/>} % addition 2024-03-24 MD
+\TeXtoTEIPat{\lost}{<gap reason="lost"/>} % addition 2024-06-24 MD
 
 % List of Scholars
 \DeclareScholar{nos}{nos}[
 forename=HPP,
 surname=Team]
-
 
 % Nullify \selectlanguage in TEI as it has been used in
 % \DeclareWitness but should be ignored in TEI.

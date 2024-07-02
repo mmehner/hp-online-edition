@@ -44,11 +44,9 @@
     display: none;
 }
 
-
 .altrec{
     display: none;
 }
-
 
 * {box-sizing: border-box;}
 
@@ -202,6 +200,7 @@ mark {
     font-size: 18px;
     padding: 10px 5px 5px 10px;
     border-radius: 10px;
+    min-width: 5px;
 }
 
 .number:before {
@@ -270,8 +269,12 @@ mark {
     padding-left: 60px;
 }
 
-.avataranika + .hpvers {
+.hpprose {
+    margin: 0;
     padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 40px;
 }
 
 .hpvers + .hpvers {
@@ -309,6 +312,11 @@ mark {
     padding-left: 60px;
     padding-top: 20px;
     padding-bottom: 20px;
+    font-size: 18px;
+}
+
+.translation-prose{
+    width: 100%;
     font-size: 18px;
 }
 
@@ -425,19 +433,6 @@ mark {
 .jyotsnaltn{
     font-size: 16px;
     display: none;
-}
-
-
-.grey {
-    font-size: 14px;
-}
-
-.grey::before {
-    content: "[";
-}
-
-.grey::after {
-    content: "]";
 }
 
 .showonhover{
