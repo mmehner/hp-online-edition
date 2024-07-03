@@ -29,10 +29,6 @@
   </xsl:template>
 
   <!-- deletions -->
-  <!--<xsl:template match="note[@type='altrecension']"/>
-      <xsl:template match="note[@type='altavataranika']"/>
-      <xsl:template match="note[@type='avataranika']"/>
-      <xsl:template match="note[@type='postmula']"/>-->
   <xsl:template match="note[@type='omission']"/>
   <xsl:template match="note[@type='foliolost']"/>
   <xsl:template match="note[@type='memo']"/>
@@ -68,26 +64,14 @@
 	      </xsl:choose>
 	    </span>
 	    <div class="versdev">
-	      <!--<xsl:apply-templates select="//note[@type='avataranika' and @target=$correspkey]" mode="avataranika">
-		  <xsl:with-param name="transc" select="true()" tunnel="yes"/>
-		  </xsl:apply-templates>-->
 	      <xsl:apply-templates>
 		<xsl:with-param name="transc" select="true()" tunnel="yes"/>
 	      </xsl:apply-templates>
-	      <!--<xsl:apply-templates select="//note[@type='postmula' and @target=$correspkey]" mode="postmula">
-		  <xsl:with-param name="transc" select="true()" tunnel="yes"/>
-		  </xsl:apply-templates>-->
 	    </div>
 	    <div class="versltn">
-	      <!--<xsl:apply-templates select="//note[@type='avataranika' and @target=$correspkey]" mode="avataranika">
-		  <xsl:with-param name="transc" select="false()" tunnel="yes"/>
-		  </xsl:apply-templates>-->
 	      <xsl:apply-templates>
 		<xsl:with-param name="transc" select="false()" tunnel="yes"/>
 	      </xsl:apply-templates>
-	      <!--<xsl:apply-templates select="//note[@type='postmula' and @target=$correspkey]" mode="postmula">
-		  <xsl:with-param name="transc" select="false()" tunnel="yes"/>
-		  </xsl:apply-templates>-->
 	    </div>
 	    
 	  </xsl:element>
@@ -120,15 +104,9 @@
 		<xsl:apply-templates/>
 	      </div>
 	    </xsl:for-each>
-	    <!--<xsl:for-each select="//note[@type='avataranika' and @target=$correspkey]/descendant::app">
-		<xsl:call-template name="apparatus"/>
-		</xsl:for-each>-->
 	    <xsl:for-each select="descendant::app">
 	      <xsl:call-template name="apparatus"/>
 	    </xsl:for-each>
-	    <!--<xsl:for-each select="//note[@type='postmula' and @target=$correspkey]/descendant::app">
-		<xsl:call-template name="apparatus"/>
-		</xsl:for-each>-->
 	  </div>
 	  <xsl:variable name="marma" select="document($marma)//note[@type='marma' and @target=$correspkey]"/>
 	  <xsl:if test="$marma">
@@ -234,10 +212,10 @@
 	<xsl:variable name="marma" select="document($marma)//note[@type='marma' and @target=$correspkey]"/>
 	<xsl:variable name="sources" select="document($transl)//note[@type='sources' and @target=$correspkey]"/>
 	<xsl:variable name="testimonia" select="document($transl)//note[@type='testimonia' and @target=$correspkey]"/>
-	  <div class="crit">
-	    <div class="apparatus">
-	      <xsl:choose>
-		<xsl:when test="descendant::app">
+	<div class="crit">
+	  <div class="apparatus">
+	    <xsl:choose>
+	      <xsl:when test="descendant::app">
 		<h3>Readings</h3>
 		<xsl:for-each select="descendant::note[@type='omission' or @type='foliolost']">
 		  <div class="app">
@@ -247,40 +225,40 @@
 		<xsl:for-each select="descendant::app">
 		  <xsl:call-template name="apparatus"/>
 		</xsl:for-each>
-		</xsl:when>
-		<xsl:otherwise>
-		  <h3>No Readings</h3>
-		</xsl:otherwise>
-	      </xsl:choose>
-	    </div>
-	    <xsl:if test="$marma">
-	      <details class="marma-d">
-		<summary>More Readings</summary>
-		<div class="marma">
-		  <xsl:apply-templates select="$marma"/>
-		</div>
-	      </details>
-	    </xsl:if>
-
-	    <xsl:if test="$sources">
-	      <details class="sources-d">
-		<summary>Sources</summary>
-		<div class="sources">
-		  <xsl:apply-templates select="$sources"/>
-		</div>
-	      </details>
-	    </xsl:if>
-	    
-	    <xsl:if test="$testimonia">
-	      <details class="testimonia-d">
-		<summary>Testimonia</summary>
-		<div class="testimonia">
-		  <xsl:apply-templates select="$testimonia"/>
-		</div>
-	      </details>
-	    </xsl:if>
-	    
+	      </xsl:when>
+	      <xsl:otherwise>
+		<h3>No Readings</h3>
+	      </xsl:otherwise>
+	    </xsl:choose>
 	  </div>
+	  <xsl:if test="$marma">
+	    <details class="marma-d">
+	      <summary>More Readings</summary>
+	      <div class="marma">
+		<xsl:apply-templates select="$marma"/>
+	      </div>
+	    </details>
+	  </xsl:if>
+
+	  <xsl:if test="$sources">
+	    <details class="sources-d">
+	      <summary>Sources</summary>
+	      <div class="sources">
+		<xsl:apply-templates select="$sources"/>
+	      </div>
+	    </details>
+	  </xsl:if>
+	  
+	  <xsl:if test="$testimonia">
+	    <details class="testimonia-d">
+	      <summary>Testimonia</summary>
+	      <div class="testimonia">
+		<xsl:apply-templates select="$testimonia"/>
+	      </div>
+	    </details>
+	  </xsl:if>
+	  
+	</div>
       </div>
     </xsl:element>
   </xsl:template>
@@ -301,17 +279,17 @@
 	    </span>
 	    <div class="versdev">
 	      <p class="hpprose">
-	      <xsl:apply-templates>
-		<xsl:with-param name="transc" select="true()" tunnel="yes"/>
-	      </xsl:apply-templates>
+		<xsl:apply-templates>
+		  <xsl:with-param name="transc" select="true()" tunnel="yes"/>
+		</xsl:apply-templates>
 	      </p>
 	    </div>
 	    
 	    <div class="versltn">
 	      <p class="hpprose">
-	      <xsl:apply-templates>
-		<xsl:with-param name="transc" select="false()" tunnel="yes"/>
-	      </xsl:apply-templates>
+		<xsl:apply-templates>
+		  <xsl:with-param name="transc" select="false()" tunnel="yes"/>
+		</xsl:apply-templates>
 	      </p>
 	    </div>
 	  </xsl:element>
@@ -328,19 +306,6 @@
       </div>
     </div>
   </xsl:template>
-
-  <!--<xsl:template match="note" mode="avataranika">
-      <xsl:element name="p">
-      <xsl:attribute name="class">avataranika<xsl:if test="ancestor::div[@type='altrec']"> altrec</xsl:if></xsl:attribute>
-      <xsl:apply-templates/>
-      </xsl:element>
-      </xsl:template>
-      
-      <xsl:template match="note" mode="postmula">
-      <p class="postmula">
-      <xsl:apply-templates/>
-      </p>
-      </xsl:template>-->
 
   <!-- skp and skm, here: deva-ignore and ltn-ignore  -->
   <xsl:template match="seg[@type='deva-ignore']"/>

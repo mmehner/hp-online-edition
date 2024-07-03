@@ -29,16 +29,13 @@
   </xsl:template>
 
   <!-- deletions -->
-  <xsl:template match="note[@type='altrecension']"/>
-  <xsl:template match="note[@type='altavataranika']"/>
-  <xsl:template match="note[@type='avataranika']"/>
-  <xsl:template match="note[@type='postmula']"/>
   <xsl:template match="note[@type='omission']"/>
+  <xsl:template match="note[@type='foliolost']"/>
   <xsl:template match="note[@type='memo']"/>
 
   <!-- container for altrecension -->
-  <xsl:template match="div[@type='altrec']">
-    <xsl:element name="div">
+  <xsl:template match="*[@type='altrec']">
+    <xsl:element name="{local-name()}">
       <xsl:attribute name="class">altrec</xsl:attribute>
       <xsl:apply-templates/>
     </xsl:element>
@@ -68,28 +65,12 @@
 	    </span>
 	  </xsl:element>
 	  <div class="vers-dev">
-	    <xsl:apply-templates select="//note[@type='avataranika' and @target=$correspkey]" mode="avataranika">
-	      <xsl:with-param name="transc" select="true()" tunnel="yes"/>
-	    </xsl:apply-templates>
-	    
 	    <xsl:apply-templates>
-	      <xsl:with-param name="transc" select="true()" tunnel="yes"/>
-	    </xsl:apply-templates>
-
-	    <xsl:apply-templates select="//note[@type='postmula' and @target=$correspkey]" mode="postmula">
 	      <xsl:with-param name="transc" select="true()" tunnel="yes"/>
 	    </xsl:apply-templates>
 	  </div>
-	  <div class="vers-latin versltn">
-	    <xsl:apply-templates select="//note[@type='avataranika' and @target=$correspkey]" mode="avataranika">
-	      <xsl:with-param name="transc" select="false()" tunnel="yes"/>
-	    </xsl:apply-templates>
-
+	  <div class="vers-latin">
 	    <xsl:apply-templates>
-	      <xsl:with-param name="transc" select="false()" tunnel="yes"/>
-	    </xsl:apply-templates>
-
-	    <xsl:apply-templates select="//note[@type='postmula' and @target=$correspkey]" mode="postmula">
 	      <xsl:with-param name="transc" select="false()" tunnel="yes"/>
 	    </xsl:apply-templates>
 	  </div>
@@ -110,13 +91,9 @@
 	</xsl:if>
 
 	<xsl:variable name="jyotsna" select="document($jyotsna)//note[@type='jyotsna' and contains(@target, $correspkey)]"/>
-	<xsl:for-each select="$jyotsna">
+	<xsl:if test="$jyotsna">
 	  <details class="jyotsna-d">
-	    <summary>Jyotsna Commentary
-	    <xsl:if test="not(.[@target=$correspkey])">
-	      for verses <xsl:value-of select="replace(./@target, '#hp0*(\d+)_0*(\d+).*#hp0*(\d+)_0*(\d+)', '$1.$2-$4')"/>
-	    </xsl:if>
-	    </summary>
+	    <summary>Jyotsna Commentary</summary>
 	    <div class="jyotsna">
 	      <div class="jyotsnadev">
 		<xsl:apply-templates select="$jyotsna"> 
@@ -130,7 +107,7 @@
 	      </div>
 	    </div>
 	  </details>
-	</xsl:for-each>
+	</xsl:if>
       </div>
       
       <div class="text-apparatus">
@@ -144,18 +121,12 @@
 	  <details>
 	    <summary>Readings</summary>
 	    <p class="versinnote">
-	      <xsl:for-each select="descendant::note[@type='omission']">
+	      <xsl:for-each select="descendant::note[@type='omission' or @type='foliolost']">
 		<div class="app">
 		  <xsl:apply-templates/>
 		</div>
 	      </xsl:for-each>
-	      <xsl:for-each select="//note[@type='avataranika' and @target=$correspkey]/descendant::app">
-		<xsl:call-template name="apparatus"/>
-	      </xsl:for-each>
 	      <xsl:for-each select="descendant::app">
-		<xsl:call-template name="apparatus"/>
-	      </xsl:for-each>
-	      <xsl:for-each select="//note[@type='postmula' and @target=$correspkey]/descendant::app">
 		<xsl:call-template name="apparatus"/>
 	      </xsl:for-each>
 	    </p>
@@ -195,6 +166,107 @@
     </div>
   </xsl:template>
 
+  <xsl:template match="div[@type='avataranika' or @type='postmula']">
+    <xsl:variable name="correspkey" select="concat('#', @xml:id )"/>
+    <xsl:element name="div">
+      <xsl:attribute name="class">main<xsl:if test="not(ancestor::div[@type='altrec']) and not(child::*[not(@type='altrec')])"> altrec</xsl:if>
+      </xsl:attribute>
+      <div class="hpmeta">
+	<div class="text">
+	  <xsl:element name="div">
+	    <xsl:attribute name="id">
+	      <xsl:value-of select="@xml:id"/>
+	    </xsl:attribute>
+	    <xsl:attribute name="class">hp</xsl:attribute>
+	    <div class="versdev">
+	      <p class="hpprose">
+		<xsl:apply-templates>
+		  <xsl:with-param name="transc" select="true()" tunnel="yes"/>
+		</xsl:apply-templates>
+	      </p>
+	    </div>
+	    <div class="versltn">
+	      <p class="hpprose">
+		<xsl:apply-templates>
+		  <xsl:with-param name="transc" select="false()" tunnel="yes"/>
+		</xsl:apply-templates>
+	      </p>
+	    </div>
+	  </xsl:element>
+
+	  <xsl:variable name="translation" select="document($transl)//note[@type='translation' and @target=$correspkey]"/>
+	  <xsl:if test="$translation">
+	    <div class="translation-prose">
+	      <p class="hpprose">
+		<xsl:apply-templates select="$translation"/>
+	      </p>
+	    </div>
+	  </xsl:if>
+	  <xsl:variable name="philcomm" select="document($transl)//note[@type='philcomm' and @target=$correspkey]"/>
+	  <xsl:if test="$philcomm">
+	    <details class="philcomm-d">
+	      <summary>Philological Commentary</summary>
+	      <div class="philcomm">
+		<xsl:apply-templates select="$philcomm"/>
+	      </div>
+	    </details>
+	  </xsl:if>
+	</div>
+
+	<xsl:variable name="marma" select="document($marma)//note[@type='marma' and @target=$correspkey]"/>
+	<xsl:variable name="sources" select="document($transl)//note[@type='sources' and @target=$correspkey]"/>
+	<xsl:variable name="testimonia" select="document($transl)//note[@type='testimonia' and @target=$correspkey]"/>
+	<div class="crit">
+	  <div class="apparatus">
+	    <xsl:choose>
+	      <xsl:when test="descendant::app">
+		<h3>Readings</h3>
+		<xsl:for-each select="descendant::note[@type='omission' or @type='foliolost']">
+		  <div class="app">
+		    <xsl:apply-templates/>
+		  </div>
+		</xsl:for-each>
+		<xsl:for-each select="descendant::app">
+		  <xsl:call-template name="apparatus"/>
+		</xsl:for-each>
+	      </xsl:when>
+	      <xsl:otherwise>
+		<h3>No Readings</h3>
+	      </xsl:otherwise>
+	    </xsl:choose>
+	  </div>
+	  <xsl:if test="$marma">
+	    <details class="marma-d">
+	      <summary>More Readings</summary>
+	      <div class="marma">
+		<xsl:apply-templates select="$marma"/>
+	      </div>
+	    </details>
+	  </xsl:if>
+
+	  <xsl:if test="$sources">
+	    <details class="sources-d">
+	      <summary>Sources</summary>
+	      <div class="sources">
+		<xsl:apply-templates select="$sources"/>
+	      </div>
+	    </details>
+	  </xsl:if>
+	  
+	  <xsl:if test="$testimonia">
+	    <details class="testimonia-d">
+	      <summary>Testimonia</summary>
+	      <div class="testimonia">
+		<xsl:apply-templates select="$testimonia"/>
+	      </div>
+	    </details>
+	  </xsl:if>
+	  
+	</div>
+      </div>
+    </xsl:element>
+  </xsl:template>
+
   <xsl:template match="div[@type='colophon']">
     <xsl:variable name="correspkey" select="concat('#', @xml:id )"/>
     <div class="main">
@@ -209,16 +281,20 @@
 	    <span class="number">
 	      <xsl:value-of select="replace(@xml:id, 'hp0*(\d+)_.*', 'HP $1 Colophon')"/>
 	    </span>
-	    <div class="versdev">
+	    <div class="vers-dev">
+	      <p class="hpprose">
 	      <xsl:apply-templates>
 		<xsl:with-param name="transc" select="true()" tunnel="yes"/>
 	      </xsl:apply-templates>
+	      </p>
 	    </div>
 	    
-	    <div class="versltn">
+	    <div class="vers-latin">
+	      <p class="hpprose">
 	      <xsl:apply-templates>
 		<xsl:with-param name="transc" select="false()" tunnel="yes"/>
 	      </xsl:apply-templates>
+	      </p>
 	    </div>
 	  </xsl:element>
 	</div>
@@ -235,18 +311,6 @@
     </div>
   </xsl:template>
 
-  <xsl:template match="note" mode="avataranika">
-    <xsl:element name="p">
-      <xsl:attribute name="class">avataranika<xsl:if test="ancestor::div[@type='altrec']"> altrec</xsl:if></xsl:attribute>
-      <xsl:apply-templates/>
-    </xsl:element>
-  </xsl:template>
-  
-  <xsl:template match="note" mode="postmula">
-    <p class="postmula">
-      <xsl:apply-templates/>
-    </p>
-  </xsl:template>
 
   <!-- skp and skm, here: deva-ignore and ltn-ignore  -->
   <xsl:template match="seg[@type='deva-ignore']"/>
@@ -255,7 +319,7 @@
     <xsl:value-of select="."/>
   </xsl:template>
 
-  <xsl:template match="lem/text()|rdg/text()" mode="lemma">
+  <xsl:template match="app/lem/text()|app/rdg[1]/text()" mode="lemma">
     <xsl:value-of select="."/>
   </xsl:template>
   
@@ -270,7 +334,7 @@
   <xsl:template match="seg[@type='ltn-ignore']" mode="lemma"/>
   
   <!-- iast2nagari for text nodes of hp, avataranika, postmula, colophon and jyotsna -->
-  <xsl:template match="l[not(ancestor::note)]//text()|note[@type='avataranika']//text()|note[@type='postmula']//text()|div[@type='colophon']//text()|note[@type='jyotsna']//text()">
+  <xsl:template match="l[not(ancestor::note)]//text()|div[@type='avataranika' or @type='postmula']//text()|div[@type='colophon']//text()|note[@type='jyotsna']//text()">
     <xsl:param name="transc" tunnel="yes"/>
 
     <xsl:variable name="addstring">
@@ -346,36 +410,35 @@
   <!-- apparatus -->
   <xsl:template name="apparatus">
     <xsl:element name="div">
-      <xsl:attribute name="class">app<xsl:if test="ancestor::div[@type='altrec']"> altrec</xsl:if></xsl:attribute>
+      <xsl:attribute name="class">app<xsl:if test="ancestor::*[@type='altrec']"> altrec</xsl:if></xsl:attribute>
       <xsl:choose>
 	<xsl:when test="lem">
 	  <xsl:apply-templates select="lem" mode="lemma"/>
 	  <xsl:if test="lem/text()">
 	    <xsl:text> ] </xsl:text>
 	  </xsl:if>
-	  <xsl:for-each select="descendant::rdg[not(position() = last())]">
+	  <xsl:for-each select="child::rdg[not(position() = last())]">
 	    <xsl:apply-templates select="."/><xsl:text>, </xsl:text>
 	  </xsl:for-each>
-	  <xsl:apply-templates select="descendant::rdg[position() = last()]"/>
+	  <xsl:apply-templates select="child::rdg[position() = last()]"/>
 	</xsl:when>
 	<xsl:when test="rdg">
-	  <xsl:apply-templates select="descendant::rdg[1]" mode="lemma"/>
+	  <xsl:apply-templates select="child::rdg[1]" mode="lemma"/>
 	  <xsl:if test="rdg[1]/text()">
 	    <xsl:text> ] </xsl:text>
 	  </xsl:if>
-	  <xsl:for-each select="descendant::rdg[position() > 1][not(position() = last())]">
+	  <xsl:for-each select="child::rdg[position() > 1][not(position() = last())]">
 	    <xsl:apply-templates select="."/><xsl:text>, </xsl:text>
 	  </xsl:for-each>
-	  <xsl:apply-templates select="descendant::rdg[position() = last()]"/>
+	  <xsl:apply-templates select="child::rdg[position() = last()]"/>
 	</xsl:when>
       </xsl:choose>
     </xsl:element>
   </xsl:template>
 
   <xsl:template match="lem|rdg" mode="lemma">
-    <xsl:variable name="correspkey" select="concat('#', @xml:id )"/>
     <span class="lem">
-      <xsl:apply-templates mode="lemma"/>
+      <xsl:apply-templates mode="lemma" select="./text()|./app/lem/text()"/>
     </span>
     <xsl:call-template name="sigla"/>
   </xsl:template>
@@ -497,7 +560,11 @@
 
   <!-- simple html equivalents -->
   <xsl:template match="l[not(ancestor::note)]">
-    <p class="vers-line"><xsl:apply-templates/></p>
+    <xsl:element name="p">
+      <xsl:attribute name="class">vers-line<xsl:if test="not(ancestor::div[@type='altrec']) and not(child::*[not(@type='altrec')])"> altrec</xsl:if>
+      </xsl:attribute>
+      <xsl:apply-templates/>
+    </xsl:element>
   </xsl:template>
   
   <xsl:template match="div[@type='colophon']/p">
@@ -505,9 +572,9 @@
   </xsl:template>
   
   <xsl:template match="p">
-    <xsl:copy>
+    <p>
       <xsl:apply-templates/>
-    </xsl:copy>
+    </p>
   </xsl:template>
   
   <!-- non-main stanzas -->
@@ -579,11 +646,6 @@
   <!-- superscript -->
   <xsl:template match="hi[@rend='sup']">
     <sup><xsl:apply-templates/></sup>
-  </xsl:template>
-
-  <!-- grey -->
-  <xsl:template match="hi[@rend='grey']">
-    <span class="grey"><xsl:apply-templates/></span>
   </xsl:template>
   
   <!--deletions -->
