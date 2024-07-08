@@ -71,6 +71,16 @@
 %\NewDocumentEnvironment{col}{O{}}{\begin{ekdpar}\SetLineation{lineation=none}}{\end{ekdpar}}
 
 % end additions
+
+% added by MD 2024-07-03
+\NewDocumentEnvironment{altpostmula}{O{}}{
+  \setvnum{ending:}
+  \begin{ekdverse}\color{gray}
+    \hspace{-\vgap}}{
+  \end{ekdverse}
+  \vskip 0.6\baselineskip
+}
+
 % added by MM 2022-10-25:
 \NewDocumentEnvironment{postmula}{O{}}{
   \setvnum{ending:} % added 2024-03-17 MD
@@ -87,6 +97,7 @@
   \end{ekdverse}
   \vskip 0.6\baselineskip
 }
+
 \NewDocumentEnvironment{col}{O{}}{
   \medskip
   \setvnum{colophon:}

@@ -1003,7 +1003,8 @@ Koba, Gujarat 55626
 </teiHeader>
 <text>
 <body>
-<note type="translation" target="#hp04_000_1"> Homage to the guru, Śiva, who consists of <hi>nāda</hi>, <hi>bindu</hi> and <hi>kalā</hi>. [The yogi] who is constantly devoted to him attains the untainted state (<hi>nirañjanapada</hi>). </note>
+<note type="translation" target="#hp04_001a"> Now <hi>samādhi</hi>: </note>
+ <note type="translation" target="#hp04_000_1"> Homage to the guru, Śiva, who consists of <hi>nāda</hi>, <hi>bindu</hi> and <hi>kalā</hi>. [The yogi] who is constantly devoted to him attains the untainted state (<hi>nirañjanapada</hi>). </note>
  <note type="testimonia" target="#hp04_000_1"> <hi>Haṃsavilāsa</hi> 14 (p. 47) 
 <lg>
  <l>namaḥ śivāya gurave nādabindukalātmane |</l>
@@ -1402,7 +1403,7 @@ Koba, Gujarat 55626
 </lg>
  </note>
  <note type="philcomm" target="#hp04_008_1"> This and the next verse (4.8*1–2) are from the South Indian recension of the <hi>Amanaska</hi>, a later rewriting of that work which incorporates these verses in an additional passage on Tārakayoga, added here to elaborate on the meditation of fixing the gaze that is taught in 4.4–7. </note>
- <note type="translation" target="#hp04_008_2"> Some are confused by a multitude of [tantric] texts, some by a mass of vedic texts and some by reasoning. They do not know what causes one to cross over (<hi>tārakam</hi>).</note>
+ <note type="translation" target="#hp04_008_2"> Some are confused by a multitude of tantric texts, some by a mass of vedic texts and some by reasoning. They do not know what causes one to cross over (<hi>tārakam</hi>).</note>
  <note type="sources" target="#hp04_008_2"> <hi>Amanaska</hi> 1.11 (South Indian Recension) 
 <lg>
  <l>ke cid āgamajālena ke cin nigamasaṅkulaiḥ |</l>
@@ -1477,7 +1478,8 @@ Koba, Gujarat 55626
 </lg>
  </note>
  <note type="philcomm" target="#hp04_008_7"> The manuscripts transmit readings for the last verse quarter that either contradict or repeat the statements in the first line. This problem likely occurred through some kind of dittographical error. We have therefore adopted the reading of <hi>Jyotsnā</hi> 4.42d (°nirodhataḥ), which is the same as the source text. </note>
- <note type="translation" target="#hp04_008_8"> Now <hi>khecarī</hi>:There is a hollow that generates knowledge and has five streams. <hi>Khecarīmudrā</hi> is situated in that pure void. </note>
+ <note type="translation" target="#hp04_008_8a"> Now <hi>khecarī</hi>: </note>
+ <note type="translation" target="#hp04_008_8"> There is a hollow that generates knowledge and has five streams. <hi>Khecarīmudrā</hi> is situated in that pure void. </note>
  <note type="testimonia" target="#hp04_008_8"> <hi>Haṭhasaṅketacandrikā</hi> f.~128v 
 <lg>
  <l>suṣiraṃ jñānajanakaṃ paṃcastr[o]taḥsamanvitaṃ |</l>
@@ -1560,7 +1562,8 @@ Koba, Gujarat 55626
  <l>siddhaty evaṃ tadā kāyo mahābalaparākramaḥ ||</l> 
 </lg>
  </note>
- <note type="translation" target="#hp04_008_22"> Now <hi>śāmbhavī</hi>:{[}The yogi] should [put] the mind in Śakti and Śakti in the mind, observe the mind with the mind, and meditate on it as the supreme state. </note>
+ <note type="translation" target="#hp04_008_22a"> Now <hi>śāmbhavī</hi>: </note>
+ <note type="translation" target="#hp04_008_22"> {[}The yogi] should [put] the mind in Śakti and Śakti in the mind, observe the mind with the mind, and meditate on it as the supreme state. </note>
  <note type="sources" target="#hp04_008_22"> <hi>Candrāvalokana</hi> 27 
 <lg>
  <l>śaktimadhye manaḥ kṛtvā manaś śaktes tu madhyamam |</l>
@@ -1784,7 +1787,8 @@ Koba, Gujarat 55626
 <l>unmanīkārakaṃ sadyo nādam evāvadhārayet ||</l> 
 </lg>
  </note>
- <note type="translation" target="#hp04_014"> What kind of indifference?In the cold season, [indifference towards] whether [one has] an open tent or a quilt, with regard to good nourishment, whether it is cow’s milk or water, with regard to food, whether it is lots of alms or forest roots, and with regard to the vessel for food, whether it is the hand or some kind of bucket. </note>
+ <note type="translation" target="#hp04_014a"> What kind of indifference? </note>
+ <note type="translation" target="#hp04_014"> In the cold season, [indifference towards] whether [one has] an open tent or a quilt, with regard to good nourishment, whether it is cow’s milk or water, with regard to food, whether it is lots of alms or forest roots, and with regard to the vessel for food, whether it is the hand or some kind of bucket. </note>
  <note type="testimonia" target="#hp04_014"> <hi>Haṭharatnāvalī</hi> 4.7 
 <lg>
  <l>śīte kāle dvau paṭī vā paṭī vā pathyāhāre gopayo vā payo vā |</l>
@@ -1865,7 +1869,8 @@ Koba, Gujarat 55626
 </lg>
  </note>
  <note type="philcomm" target="#hp04_016"> On these four stages, see Birch 2019: 968–969; Mallinson and Szanto 2021:19–20. </note>
- <note type="translation" target="#hp04_017"> Among these, the beginning stage is [as follows]:As a result of the piercing of the knot of Brahmā, bliss arises in the void [and] an unstruck sound which has various tones is heard in the body. </note>
+ <note type="translation" target="#hp04_017a"> Among these, the beginning stage is [as follows]: </note>
+ <note type="translation" target="#hp04_017"> As a result of the piercing of the knot of Brahmā, bliss arises in the void [and] an unstruck sound which has various tones is heard in the body. </note>
  <note type="sources" target="#hp04_017"> <hi>Amaraugha</hi> 35 
 <lg>
  <l>brahmagranthes tathā bhedād ānandaḥ śūnyasambhavaḥ |</l>
@@ -1914,7 +1919,8 @@ Koba, Gujarat 55626
 <l>sampūrṇahṛdaye śūnye tv ārambhe yogavān bhavet ||</l> 
 </lg>
  </note>
- <note type="translation" target="#hp04_019"> Now the unified stage:In the second stage the breath, after bringing about union, goes into the middle [channel]. Then the yogi has a firm posture [and] he becomes a gnostic and equal to a god. </note>
+ <note type="translation" target="#hp04_019a"> Now the unified stage: </note>
+ <note type="translation" target="#hp04_019"> In the second stage the breath, after bringing about union, goes into the middle [channel]. Then the yogi has a firm posture [and] he becomes a gnostic and equal to a god. </note>
  <note type="sources" target="#hp04_019"> <hi>Amaraugha</hi> 37 
 <lg>
  <l>dvitīye saṅghaṭīkṛtya vāyur bhavati madhyagaḥ |</l>
@@ -1936,7 +1942,7 @@ Koba, Gujarat 55626
 </lg>
  </note>
  <note type="philcomm" target="#hp04_019"> The name of the second stage, <hi>ghaṭa</hi> (and the related form <hi>ghaṭīkṛtya</hi> found in the first <hi>pāda</hi> of this verse) can be understood in at least three ways, as union, activation or pot (the latter with an alchemical connotation, on which see 3.12 and Mallinson and Szanto 2021:20–23). In the <hi>Dattātreyayogaśāstra</hi> (verse 90) its primary meaning is union and the united pairs are <hi>prāṇa</hi> and <hi>apāna</hi>, <hi>jīvātman</hi> and <hi>paramātman</hi>, and <hi>nāda</hi> and <hi>bindu</hi>. </note>
- <note type="translation" target="#hp04_020"> Then, as a result of the piercing of the knot of Viṣṇu there is a hint of supreme bliss in total emptiness (<hi>atiśūnye</hi>), and then the pounding sound of a <hi rend="italic">bherī</hi> drum occurs.</note>
+ <note type="translation" target="#hp04_020"> Then, as a result of the piercing of the knot of Viṣṇu there is a hint of supreme bliss in total emptiness (<hi>atiśūnye</hi>), and then the pounding sound of a kettle drum occurs.</note>
  <note type="sources" target="#hp04_020"> <hi>Amaraugha</hi> 38 
 <lg>
  <l>viṣṇugranthes tato bhedāt paramānandasūcakaḥ |</l>
@@ -1964,7 +1970,8 @@ Koba, Gujarat 55626
 </lg>
  </note>
  <note type="philcomm" target="#hp04_020"> </note>
- <note type="translation" target="#hp04_021"> Now the accumulation stage:In the third [stage], having pierced [the knot of Viṣṇu], the sound of a <hi rend="italic">mardala</hi> drum arises in space. Then [the yogi] reaches the great void, the abode of all supernatural powers.</note>
+ <note type="translation" target="#hp04_021a"> Now the accumulation stage: </note>
+ <note type="translation" target="#hp04_021"> In the third [stage], having pierced [the knot of Viṣṇu], the sound of a bass drum arises in space. Then [the yogi] reaches the great void, the abode of all supernatural powers.</note>
  <note type="sources" target="#hp04_021"> <hi>Amaraugha</hi> 39 
 <lg>
  <l>tṛtīyāyāṃ tato bhittvā ninādo mardaladhvaniḥ |</l>
@@ -2019,7 +2026,8 @@ Koba, Gujarat 55626
 </lg>
  </note>
  <note type="philcomm" target="#hp04_022"> The reading of the first verse quarter, <hi>cittānāndaṃ tato jitvā</hi>, is likely a patch for the somewhat obscure <hi>paramānandarocitvāt</hi> in the <hi>Amaraugha</hi> (40a), which is the source text. </note>
- <note type="translation" target="#hp04_023"> Now the perfection stage:Then, having pierced Rudra’s knot, the breath goes to all the seats [of the deities in the body]. In the perfected [stage] the sound of a flute becomes the sound of a resonating lute. </note>
+ <note type="translation" target="#hp04_023a"> Now the perfection stage: </note>
+ <note type="translation" target="#hp04_023"> Then, having pierced Rudra’s knot, the breath goes to all the seats [of the deities in the body]. In the perfected [stage] the sound of a flute becomes the sound of a resonating lute. </note>
  <note type="sources" target="#hp04_023"> <hi>Amaraugha</hi> 41 
 <lg>
  <l>rudragranthiṃ tato bhittvā sarvapīṭhagato ’nilaḥ |</l>
@@ -2050,7 +2058,7 @@ Koba, Gujarat 55626
 </lg>
  </note>
  <note type="philcomm" target="#hp04_023"> The reading we have adopted for the fourth verse quarter, <hi>kvaṇadvīṇākvaṇo</hi>, Birch’s conjecture in his edition of the <hi>Amaraugha</hi> is supported by several testimonia and <hi>Amṛtasiddhi</hi> 31.2, where it is said that the sound of a <hi>vīṇā</hi> arises in the fourth stage. The reading <hi>śarva</hi>, i.e.~Śiva, found in some testimonia and the <hi>Jyotsnā</hi> makes good sense, but in its description of this stage, the <hi>Amṛtasiddhi</hi>, which is the ultimate source of this passage has <hi>sarva</hi> (30.1). </note>
- <note type="translation" target="#hp04_024"> Then the mind having become one [with the sound]. This is called Rājayoga. He becomes a creator and destroyer, an equal to a lord among yogis.</note>
+ <note type="translation" target="#hp04_024"> Then the mind becomes one [with the sound]. This is called Rājayoga. He becomes a creator and destroyer, an equal to a lord among yogis.</note>
  <note type="sources" target="#hp04_024"> <hi>Amaraugha</hi> 42 
 <lg>
  <l>ekībhūtaṃ tadā cittaṃ rājayogābhidhānakam |</l>
@@ -2555,7 +2563,7 @@ Koba, Gujarat 55626
  <note type="testimonia" target="#hp04_044"> <hi>Yogacintāmaṇi</hi> f.~26v (attr. to the <hi>Haṭhapradīpikā</hi>) 
 <lg>
  <l>purā matsyendrabodhāya ādināthoditavacaḥ |</l>
-<l>manaḥ pākam avāpnoti nirālambākhyaghoṭanam ||</l> 
+<l>manaḥpākam avāpnoti nirālambākhyaghoṭanam ||</l> 
 </lg>
  <hi>Haṭhatattvakaumudī</hi> 54.42 
 <lg>
@@ -2752,6 +2760,7 @@ Koba, Gujarat 55626
 </lg>
  Cf. <hi>Śabdakalpadruma</hi> (s.v.~<hi>dharmaghaṭa</hi>) <quote>dots ante yāti paraṃ sthānaṃ yatra devo nirañjanaḥ | iti bhaviṣyapurāṇoktā dharmaghaṭavratakathā samāptā ||</quote> </note>
  <note type="philcomm" target="#hp04_052_4"> On the meaning of <hi>devo nirañjana</hi>, see the note to 4.52.3. </note>
+ <note type="translation" target="#hp04_052_4p"> </note>
  <note type="philcomm" target="#hp04_052_5"> See 4.74. </note>
  <note type="translation" target="#hp04_053"> Enough of the verbosity of a learned gathering! O friend, listen to this instruction formerly taught by Śiva for awakening Matsyendra. </note>
  <note type="testimonia" target="#hp04_053"> <hi>Yogacintāmaṇi</hi> f.~26v (attr. to the <hi>Haṭhapradīpikā</hi>) 
@@ -2825,7 +2834,8 @@ Koba, Gujarat 55626
 </lg>
  </note>
  <note type="metre" target="#hp04_055"> Anuṣṭubh (a: ma-vipulā) </note>
-  <note type="translation" target="#hp04_056"> And so, Vasiṣṭha [said]:The moon and sun move in Iḍā and Piṅgalā. The moon is said to be of the nature of <hi>tamas</hi> and the sun of <hi>rajas</hi>. </note>
+ <note type="translation" target="#hp04_056a"> And so, Vasiṣṭha [said]: </note>
+ <note type="translation" target="#hp04_056"> The moon and sun move in Iḍā and Piṅgalā. The moon is said to be of the nature of <hi>tamas</hi> and the sun of <hi>rajas</hi>. </note>
  <note type="sources" target="#hp04_056"> <hi>Vasiṣṭhasaṃhitā</hi> 2.28–29ab 
 <lg>
  <l>iḍāyāṃ piṅgalāyāṃ ca carataś candrabhāskarau |</l>
@@ -2880,14 +2890,16 @@ Koba, Gujarat 55626
 </lg>
  </note>
  <note type="metre" target="#hp04_057"> Anuṣṭubh (a: bha-vipulā; c: ma-vipulā) </note>
- <note type="translation" target="#hp04_058"> For as the tetrad of verses called the Saubhadra has it:There are six cakras, sixteen supports, three focal points and three <hi>guṇa</hi>s. Everything else is [just] the prolixity of texts. Trikūṭa is the supreme place. </note>
+ <note type="translation" target="#hp04_058a"> For as the tetrad of verses called the Saubhadra has it: </note>
+ <note type="philcomm" target="#hp04_058a"> We do not know why this tetrad of verses is called Saubhadra. </note>
+ <note type="translation" target="#hp04_058"> There are six cakras, sixteen supports, three focal points and three <hi>guṇa</hi>s. Everything else is [just] the prolixity of texts. Trikūṭa is the supreme place. </note>
  <note type="testimonia" target="#hp04_058"> Cf.~6-chapter <hi>Vivekamārtaṇḍa</hi> 6.3 
 <lg>
  <l>ṣaṭcakraṃ ṣoḍaśādhāraṃ trilakṣaṃ vyomapañcakam |</l>
 <l>svadehe ye na jānanti kathaṃ sidhyanti yoginaḥ ||</l> 
 </lg>
  </note>
- <note type="philcomm" target="#hp04_058"> We do not know why this tetrad of verses is called Saubhadra.The three components of the yogic body listed here are found together in other texts, the earliest being <hi>Netratantra</hi> 7.1ab (<hi>ṛtucakraṃ svarādhāraṃ trilakṣyaṃ vyomapañcakam</hi>). However, we are yet to find a source for this list that includes the three <hi>guṇa</hi>s. </note>
+ <note type="philcomm" target="#hp04_058"> The three components of the yogic body listed here are found together in other texts, the earliest being <hi>Netratantra</hi> 7.1ab (<hi>ṛtucakraṃ svarādhāraṃ trilakṣyaṃ vyomapañcakam</hi>). However, we are yet to find a source for this list that includes the three <hi>guṇa</hi>s. </note>
  <note type="translation" target="#hp04_059"> Kuṇḍalinī is taught to have a curved shape like a snake. She is Śakti. [The yogi] who has made her move is undoubtedly liberated. </note>
  <note type="testimonia" target="#hp04_059"> <hi>Yogacintāmaṇi</hi> f.~79r (attr. to the <hi>Haṭhayoga</hi>) 
 <lg>
@@ -3064,7 +3076,8 @@ Koba, Gujarat 55626
 <l>tathā’ṣṭāguṇam aiśvaryam ity āha bhagavān śiva iti || </l> 
 </lg>
  </note>
- <note type="translation" target="#hp04_070"> Thus, Viśvarūpācārya [said]:When the breath is destroyed and the mind dissolves, all experience is the same (<hi>samarasatva</hi>). That is called <hi>samādhi</hi>. </note>
+ <note type="translation" target="#hp04_070a"> Thus, Viśvarūpācārya [said]: </note>
+ <note type="translation" target="#hp04_070"> When the breath is destroyed and the mind dissolves, all experience is the same (<hi>samarasatva</hi>). That is called <hi>samādhi</hi>. </note>
  <note type="sources" target="#hp04_070"> <hi>Vivekamārtaṇḍa</hi> 163 
 <lg>
  <l>yadā saṃkṣīyate prāṇo mānasaṃ ca vilīyate |</l>

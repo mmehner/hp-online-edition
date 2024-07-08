@@ -1,3 +1,11 @@
+% additions/changes 2024-07-04 mm:
+\TeXtoTEIPat{\lb}{<lb/>}
+\TeXtoTEIPat{\begin {quote}}{<q>}
+  \TeXtoTEIPat{\end {quote}}{</q>}
+\TeXtoTEIPat{\begin {enumerate}}{<list rend="numbered">}
+  \TeXtoTEIPat{\end {enumerate}}{</list>}
+\TeXtoTEI{item}{item}
+
 % additions/changes 2024-07-01 mm:
 \TeXtoTEIPat{\unavbl {#1}}{<note type="foliolost">Folio lost in <ref>#1</ref></note>}
 \TeXtoTEIPat{\NotIn {#1}}{<note type="omission">Omitted in <ref>#1</ref></note>}
@@ -61,8 +69,13 @@
 %new environments
 \TeXtoTEIPat{\begin {postmula}[#1]}{<div type="postmula" xml:id="#1">} %%% changed 2024-07-01 mm
   \TeXtoTEIPat{\end {postmula}}{</div>}  %%% changed 2024-07-01 mm
+  
+\TeXtoTEIPat{\begin {altpostmula}[#1]}{<div type="altrec"><div type="postmula" xml:id="#1">} %%% added 2024-07-03 md
+  \TeXtoTEIPat{\end {altpostmula}}{</div></div>} %%% added 2024-07-03 md
+
 \TeXtoTEIPat{\begin {altava}[#1]}{<div type="altrec"><div type="avataranika" xml:id="#1">} %%% changed 2024-07-01 mm
   \TeXtoTEIPat{\end {altava}}{</div></div>} %%% changed 2024-07-01 mm
+
 \TeXtoTEIPat{\sgwit {#1}}{<note type="inlineref"><ref>#1</ref></note>}
 
 % changes/additions 2023-10-12 MM:

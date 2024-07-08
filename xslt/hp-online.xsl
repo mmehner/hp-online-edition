@@ -571,6 +571,16 @@
       <xsl:apply-templates/>
     </p>
   </xsl:template>
+
+  <xsl:template match="q">
+    <div class="quote">
+      <xsl:apply-templates/>
+    </div>
+  </xsl:template>
+
+  <xsl:template match="lb">
+    <br/>
+  </xsl:template>
   
   <!-- non-main stanzas -->
   <xsl:template match="lg[ancestor::note]">
