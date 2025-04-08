@@ -438,7 +438,7 @@
 
   <xsl:template match="lem|rdg" mode="lemma">
     <span class="lem">
-      <xsl:apply-templates mode="lemma" select="./text()|./app/lem/text()"/>
+      <xsl:apply-templates mode="lemma" select="./node()"/>
     </span>
     <xsl:call-template name="sigla"/>
   </xsl:template>

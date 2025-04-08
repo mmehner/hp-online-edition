@@ -44,6 +44,6 @@ done
 sed -n '/<!--content-->/,$ {p}' html/meta.html >> html/hp-online-pub.html
 
 #postprocess straddle consonants in 4line meteres
-#sed -i '/<p class="hpvers">.*-\s*<\/p>/{N}; x; s_-\(\s*</p>\s*<p class="hpvers">\s*\(<mark>\)\?\s*\)\([kgṅcjñṭḍṇtdnpbmyrlv]h\) _\3\1_g' html/hp-online.html
+sed -i '/<p class="vers-line">.*-\s*<\/p>/{N}; x; s_-\(\s*</p>\s*<p class="vers-line">\s*\(<mark>\)\?\s*\)\([kgṅcjñṭḍṇtdnpbmyrlv]h\) _\3\1_g' html/hp-online-pub.html
 
 exit

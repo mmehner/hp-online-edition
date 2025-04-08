@@ -308,15 +308,17 @@
   </xsl:template>
 
   <!-- skp and skm, here: deva-ignore and ltn-ignore  -->
-  <xsl:template match="seg[@type='deva-ignore']"/>
-  
   <xsl:template match="seg[@type='deva-ignore']" mode="lemma">
     <xsl:value-of select="."/>
   </xsl:template>  
 
+  <xsl:template match="seg[@type='deva-ignore']"/>  
+
   <xsl:template match="app/lem/text()|app/rdg[1]/text()" mode="lemma">
     <xsl:value-of select="."/>
   </xsl:template>
+
+  <xsl:template match="seg[@type='ltn-ignore']" mode="lemma"/>
   
   <xsl:template match="seg[@type='ltn-ignore']">
     <xsl:param name="transc" tunnel="yes"/>
@@ -325,8 +327,6 @@
       <xsl:value-of select="."/>
     </xsl:if>
   </xsl:template>
-  
-  <xsl:template match="seg[@type='ltn-ignore']" mode="lemma"/>
   
   <!-- iast2nagari for text nodes of hp, avataranika, postmula, colophon and jyotsna -->
   <xsl:template match="l[not(ancestor::note)]//text()|div[@type='avataranika' or @type='postmula']//text()|div[@type='colophon']//text()|note[@type='jyotsna']//text()">
@@ -433,7 +433,7 @@
 
   <xsl:template match="lem|rdg" mode="lemma">
     <span class="lem">
-      <xsl:apply-templates mode="lemma" select="./text()|./app/lem/text()"/>
+      <xsl:apply-templates mode="lemma" select="./node()"/>
     </span>
     <xsl:call-template name="sigla"/>
   </xsl:template>
