@@ -450,7 +450,7 @@ G11,G5,M3
  
 <lg xml:id="hp02_005">
  <l> <s type="pada"><app><lem wit="#ceteri">śuddhim eti</lem><rdg wit="#N23">śuddhimati</rdg><rdg wit="#C6">śuddham eti</rdg></app> <app><lem wit="#ceteri">yadā</lem><rdg wit="#V3">yathā</rdg><rdg wit="#V1">sadā</rdg></app> sarvaṃ</s> <s type="pada">nāḍī<app><lem wit="#ceteri">cakraṃ</lem><rdg wit="#C6 #V3 #N23 #P15">cakra</rdg></app> <app><lem wit="#ceteri">malākulam</lem><rdg wit="#P15">manākulaṃ</rdg></app>/</s></l>
-<l> <s type="pada"><app><lem wit="#ceteri">tadaiva</lem><rdg wit="#N3 #G4 #V15">tadeva</rdg></app> jāyate yogī</s> <s type="pada"><app><lem wit="#ceteri"> prāṇa<app><lem wit="#N3 #GrB #Gr2 #G11 #P15 #V15 #J10 #Jyo">saṃgrahaṇe</lem><rdg wit="#G4 #V1">saṃgrahaṇa</rdg><rdg wit="#V19 #E2">saṃrodhane</rdg></app> kṣamaḥ</lem><rdg wit="#J5">kṣamaḥ prāṇanirodhane</rdg></app>//</s></l> 
+<l> <s type="pada"><app><lem wit="#ceteri">tadaiva</lem><rdg wit="#N3 #G4 #V15">tadeva</rdg></app> jāyate yogī</s> <s type="pada"><app><lem wit="#ceteri"><seg type="deva-ignore">prāṇa° ... kṣamaḥ</seg></lem><rdg wit="#J5">kṣamaḥ prāṇanirodhane</rdg></app>prāṇa<app><lem wit="#N3 #GrB #Gr2 #G11 #P15 #V15 #J10 #Jyo">saṃgrahaṇe</lem><rdg wit="#G4 #V1">saṃgrahaṇa</rdg><rdg wit="#V19 #E2">saṃrodhane</rdg></app> kṣamaḥ//</s></l> 
 </lg>
  
 <lg xml:id="hp02_006">

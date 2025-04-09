@@ -1693,7 +1693,9 @@
 <17-x-1>\hskip 0.75em{\selectlanguage {english}\color {blue}\bfseries }{\bfseries \selectlanguage {english}vidhīyate} \getsiglum {J5,C6,J7}\ekdsep </17-x-1>
 <17-x-1>{\selectlanguage {english}bhidhīyate} \getsiglum {N3,P11,V3,Gr3a,G11,N19,V1,J10,Jyo}</17-x-1>
 <17-x-1>\ekdsubsep {\selectlanguage {english}nigadyate} \getsiglum {N23}</17-x-1>
-<17-x-1>\hskip 0.75em{\selectlanguage {english}\color {blue}\bfseries \LRnum {3.61a}~\LRnum {3.61a}~}{\bfseries \selectlanguage {english}udare} \getsiglum {ceteri}\ekdsep </17-x-1>
+<17-x-1>\hskip 0.75em{\selectlanguage {english}\color {blue}\bfseries \LRnum {3.61a}~}{\bfseries \selectlanguage {english}udare ... tāṇaṃ} \getsiglum {ceteri}\ekdsep </17-x-1>
+<17-x-1>{\selectlanguage {english}paścimaṃ tāṇam udare} \getsiglum {G11}</17-x-1>
+<17-x-1>\hskip 0.75em{\selectlanguage {english}\color {blue}\bfseries }{\bfseries \selectlanguage {english}udare} \getsiglum {ceteri}\ekdsep </17-x-1>
 <17-x-1>{\selectlanguage {english}udarāt} \getsiglum {V3}</17-x-1>
 <17-x-1>\hskip 0.75em{\selectlanguage {english}\color {blue}\bfseries }{\bfseries \selectlanguage {english}paścimaṃ} \getsiglum {J5,P11,C6,J7,E2,V1,Jyo}\ekdsep </17-x-1>
 <17-x-1>{\selectlanguage {english}paścima} \getsiglum {N3,N23,J10}</17-x-1>
@@ -1702,8 +1704,6 @@
 <17-x-1>{\selectlanguage {english}tānaṃ} \getsiglum {C6,Gr2,Gr3a,V1,J10,Jyo}</17-x-1>
 <17-x-1>\ekdsubsep {\selectlanguage {english}tālaṃ} \getsiglum {P11}</17-x-1>
 <17-x-1>\ekdsubsep {\selectlanguage {english}bhāge} \getsiglum {V3}</17-x-1>
-<17-x-1>\hskip 0.75em{\selectlanguage {english}\color {blue}\bfseries \LRnum {3.61a}~}{\bfseries \selectlanguage {english}udare paścimaṃ tāṇaṃ} \getsiglum {ceteri}\ekdsep </17-x-1>
-<17-x-1>{\selectlanguage {english}paścimaṃ tāṇam udare} \getsiglum {G11}</17-x-1>
 <17-x-1>\hskip 0.75em{\selectlanguage {english}\color {blue}\bfseries \LRnum {3.61b}~}{\bfseries \selectlanguage {english}ūrdhvaṃ} \getsiglum {ceteri}\ekdsep </17-x-1>
 <17-x-1>{\selectlanguage {english}ūrdhve} \getsiglum {J10}</17-x-1>
 <17-x-1>\hskip 0.75em{\selectlanguage {english}\color {blue}\bfseries }{\bfseries \selectlanguage {english}ca} \getsiglum {ceteri}\ekdsep </17-x-1>

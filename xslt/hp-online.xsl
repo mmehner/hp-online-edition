@@ -409,7 +409,7 @@
       <xsl:choose>
 	<xsl:when test="lem">
 	  <xsl:apply-templates select="lem" mode="lemma"/>
-	  <xsl:if test="lem/text()">
+	  <xsl:if test="lem//text()">
 	    <xsl:text> ] </xsl:text>
 	  </xsl:if>
 	  <xsl:for-each select="child::rdg[not(position() = last())]">
@@ -419,7 +419,7 @@
 	</xsl:when>
 	<xsl:when test="rdg">
 	  <xsl:apply-templates select="child::rdg[1]" mode="lemma"/>
-	  <xsl:if test="rdg[1]/text()">
+	  <xsl:if test="rdg[1]//text()">
 	    <xsl:text> ] </xsl:text>
 	  </xsl:if>
 	  <xsl:for-each select="child::rdg[position() > 1][not(position() = last())]">
