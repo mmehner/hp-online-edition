@@ -1,0 +1,1235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title><!-- Title --></title>
+<respStmt>
+<resp><!-- Edited by --></resp>
+<name><!-- Name --></name>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<distributor><!-- Distributor name  --></distributor>
+</publicationStmt>
+<sourceDesc>
+<listWit>
+<witness xml:id="cetwG4">
+<abbr type="siglum"><ab xml:lang="en"><hi rend="italic">cett.</hi> incl. α<hi rend="sub">3</hi></ab></abbr>
+G4 included in cett.
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="ceteri">
+<abbr type="siglum"><ab xml:lang="en"><hi rend="italic">cett.</hi></ab></abbr>
+ceteri
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N3">
+<abbr type="siglum"><ab xml:lang="en">α<hi rend="sub">1</hi></ab></abbr>
+NGMPP B 62-20
+<msDesc>
+<msIdentifier/>
+<physDesc>
+<handDesc hands="2">
+<handNote xml:id="N3ac">
+<abbr type="siglum"><ab xml:lang="en">α<hi rend="sub">1</hi><hi rend="sup">ac</hi></ab></abbr>
+
+</handNote>
+<handNote xml:id="N3pc">
+<abbr type="siglum"><ab xml:lang="en">α<hi rend="sub">1</hi><hi rend="sup">pc</hi></ab></abbr>
+
+</handNote>
+</handDesc>
+</physDesc>
+</msDesc>
+</witness>
+<witness xml:id="J5">
+<abbr type="siglum"><ab xml:lang="en">α<hi rend="sub">2</hi></ab></abbr>
+Jodhpur 02235
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="G4">
+<abbr type="siglum"><ab xml:lang="en">α<hi rend="sub">3</hi></ab></abbr>
+GOML 18885
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N24">
+<abbr type="siglum"><ab xml:lang="en">α<hi rend="sub">4</hi></ab></abbr>
+NGMPP G 190-16
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P11">
+<abbr type="siglum"><ab xml:lang="en">π<hi rend="sub">1</hi></ab></abbr>
+
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P11a">
+<abbr type="siglum"><ab xml:lang="en">π<hi rend="sub">1a</hi></ab></abbr>
+
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P11b">
+<abbr type="siglum"><ab xml:lang="en">π<hi rend="sub">1b</hi></ab></abbr>
+
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="C6">
+<abbr type="siglum"><ab xml:lang="en">π<hi rend="sub">2</hi></ab></abbr>
+Lalchand M-2089
+<msDesc>
+<msIdentifier/>
+<physDesc>
+<handDesc hands="2">
+<handNote xml:id="C6ac">
+<abbr type="siglum"><ab xml:lang="en">π<hi rend="sub">2</hi><hi rend="sup">ac</hi></ab></abbr>
+
+</handNote>
+<handNote xml:id="C6pc">
+<abbr type="siglum"><ab xml:lang="en">π<hi rend="sub">2</hi><hi rend="sup">pc</hi></ab></abbr>
+
+</handNote>
+</handDesc>
+</physDesc>
+</msDesc>
+</witness>
+<witness xml:id="C6a">
+<abbr type="siglum"><ab xml:lang="en">π<hi rend="sub">2a</hi></ab></abbr>
+Lalchand M-2089
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="C6b">
+<abbr type="siglum"><ab xml:lang="en">π<hi rend="sub">2b</hi></ab></abbr>
+Lalchand M-2089
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V3">
+<abbr type="siglum"><ab xml:lang="en">π<hi rend="sub">ω</hi></ab></abbr>
+Sampurnananda Library Sarasvati Bhavan 29899
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V3a">
+<abbr type="siglum"><ab xml:lang="en">π<hi rend="sub">ωa</hi></ab></abbr>
+Sampurnananda Library Sarasvati Bhavan 29899
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V3b">
+<abbr type="siglum"><ab xml:lang="en">π<hi rend="sub">ωb</hi></ab></abbr>
+Sampurnananda Library Sarasvati Bhavan 29899
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N23">
+<abbr type="siglum"><ab xml:lang="en">γ<hi rend="sub">1</hi></ab></abbr>
+NGMPP G 25-2
+<msDesc>
+<msIdentifier/>
+<physDesc>
+<handDesc hands="2">
+<handNote xml:id="N23ac">
+<abbr type="siglum"><ab xml:lang="en">γ<hi rend="sub">1</hi><hi rend="sup">ac</hi></ab></abbr>
+
+</handNote>
+<handNote xml:id="N23pc">
+<abbr type="siglum"><ab xml:lang="en">γ<hi rend="sub">1</hi><hi rend="sup">pc</hi></ab></abbr>
+
+</handNote>
+</handDesc>
+</physDesc>
+</msDesc>
+</witness>
+<witness xml:id="N23a">
+<abbr type="siglum"><ab xml:lang="en">γ<hi rend="sub">1a</hi></ab></abbr>
+NGMPP G 25-2
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N23b">
+<abbr type="siglum"><ab xml:lang="en">γ<hi rend="sub">1b</hi></ab></abbr>
+NGMPP G 25-2
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="J7">
+<abbr type="siglum"><ab xml:lang="en">γ<hi rend="sub">2</hi></ab></abbr>
+Jodhpur 02241
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="J7a">
+<abbr type="siglum"><ab xml:lang="en">γ<hi rend="sub">2a</hi></ab></abbr>
+Jodhpur 02241
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="J7b">
+<abbr type="siglum"><ab xml:lang="en">γ<hi rend="sub">2b</hi></ab></abbr>
+Jodhpur 02241
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="K1">
+<abbr type="siglum"><ab xml:lang="en">K<hi rend="sub">1</hi></ab></abbr>
+Raghunātha Temple Library 4383
+<msDesc>
+<msIdentifier>
+<settlement>Jammu</settlement>
+</msIdentifier>
+</msDesc>
+</witness>
+<witness xml:id="K1ac">
+<abbr type="siglum"><ab xml:lang="en">K<hi rend="sub">1</hi><hi rend="sup">ac</hi>\space </ab></abbr>
+
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="K1pc">
+<abbr type="siglum"><ab xml:lang="en">K<hi rend="sub">1</hi><hi rend="sup">pc</hi>\space </ab></abbr>
+
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V19">
+<abbr type="siglum"><ab xml:lang="en">δ<hi rend="sub">1</hi></ab></abbr>
+Sampurnananda Library Sarasvati Bhavan 30069
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V19a">
+<abbr type="siglum"><ab xml:lang="en">δ<hi rend="sub">1a</hi></ab></abbr>
+Sampurnananda Library Sarasvati Bhavan 30069
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V19b">
+<abbr type="siglum"><ab xml:lang="en">δ<hi rend="sub">1b</hi></ab></abbr>
+Sampurnananda Library Sarasvati Bhavan 30069
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="E2">
+<abbr type="siglum"><ab xml:lang="en">δ<hi rend="sub">2</hi></ab></abbr>
+Berlin or.11056
+<msDesc>
+<msIdentifier/>
+<physDesc>
+<handDesc hands="2">
+<handNote xml:id="E2ac">
+<abbr type="siglum"><ab xml:lang="en">δ<hi rend="sub">2</hi><hi rend="sup">ac</hi></ab></abbr>
+
+</handNote>
+<handNote xml:id="E2pc">
+<abbr type="siglum"><ab xml:lang="en">δ<hi rend="sub">2</hi><hi rend="sup">pc</hi></ab></abbr>
+
+</handNote>
+</handDesc>
+</physDesc>
+</msDesc>
+</witness>
+<witness xml:id="E2a">
+<abbr type="siglum"><ab xml:lang="en">δ<hi rend="sub">2a</hi></ab></abbr>
+Berlin or.11056
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="E2b">
+<abbr type="siglum"><ab xml:lang="en">δ<hi rend="sub">2b</hi></ab></abbr>
+Berlin or.11056
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="C7">
+<abbr type="siglum"><ab xml:lang="en">δ<hi rend="sub">3</hi></ab></abbr>
+Lalchand M-6494
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="J6">
+<abbr type="siglum"><ab xml:lang="en">δ<hi rend="sub">ω</hi></ab></abbr>
+Jodhpur 02237
+<msDesc>
+<msIdentifier/>
+<physDesc>
+<handDesc hands="2">
+<handNote xml:id="J6ac">
+<abbr type="siglum"><ab xml:lang="en">δ<hi rend="sub">ω</hi><hi rend="sup">ac</hi></ab></abbr>
+
+</handNote>
+<handNote xml:id="J6pc">
+<abbr type="siglum"><ab xml:lang="en">δ<hi rend="sub">ω</hi><hi rend="sup">pc</hi></ab></abbr>
+
+</handNote>
+</handDesc>
+</physDesc>
+</msDesc>
+</witness>
+<witness xml:id="G11">
+<abbr type="siglum"><ab xml:lang="en">ε<hi rend="sub">1</hi></ab></abbr>
+
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="G5">
+<abbr type="siglum"><ab xml:lang="en">ε<hi rend="sub">2</hi></ab></abbr>
+
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="M3">
+<abbr type="siglum"><ab xml:lang="en">ε<hi rend="sub">3</hi></ab></abbr>
+
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P15">
+<abbr type="siglum"><ab xml:lang="en">ζ<hi rend="sub">1</hi></ab></abbr>
+
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N19">
+<abbr type="siglum"><ab xml:lang="en">ζ<hi rend="sub">2</hi></ab></abbr>
+NGMPP E-1528-1 / E-1527-7(4)
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V15">
+<abbr type="siglum"><ab xml:lang="en">ζ<hi rend="sub">3</hi></ab></abbr>
+Sampurnananda Library Sarasvati Bhavan 30051
+<msDesc>
+<msIdentifier/>
+<physDesc>
+<handDesc hands="2">
+<handNote xml:id="V15ac">
+<abbr type="siglum"><ab xml:lang="en">ζ<hi rend="sub">3</hi><hi rend="sup">ac</hi></ab></abbr>
+
+</handNote>
+<handNote xml:id="V15pc">
+<abbr type="siglum"><ab xml:lang="en">ζ<hi rend="sub">3</hi><hi rend="sup">pc</hi></ab></abbr>
+
+</handNote>
+</handDesc>
+</physDesc>
+</msDesc>
+</witness>
+<witness xml:id="M1">
+<abbr type="siglum"><ab xml:lang="en">M<hi rend="sub">1</hi></ab></abbr>
+P-5682/4
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V1">
+<abbr type="siglum"><ab xml:lang="en">η<hi rend="sub">1</hi></ab></abbr>
+Sampurnananda Library Sarasvati Bhavan 30109
+<msDesc>
+<msIdentifier/>
+<physDesc>
+<handDesc hands="2">
+<handNote xml:id="V1ac">
+<abbr type="siglum"><ab xml:lang="en">η<hi rend="sub">1</hi><hi rend="sup">ac</hi></ab></abbr>
+
+</handNote>
+<handNote xml:id="V1pc">
+<abbr type="siglum"><ab xml:lang="en">η<hi rend="sub">1</hi><hi rend="sup">pc</hi></ab></abbr>
+
+</handNote>
+</handDesc>
+</physDesc>
+</msDesc>
+</witness>
+<witness xml:id="J10">
+<abbr type="siglum"><ab xml:lang="en">η<hi rend="sub">2</hi></ab></abbr>
+MSPP Jodhpur 2230
+<msDesc>
+<msIdentifier/>
+<physDesc>
+<handDesc hands="2">
+<handNote xml:id="J10ac">
+<abbr type="siglum"><ab xml:lang="en">η<hi rend="sub">2</hi><hi rend="sup">ac</hi></ab></abbr>
+
+</handNote>
+<handNote xml:id="J10pc">
+<abbr type="siglum"><ab xml:lang="en">η<hi rend="sub">2</hi><hi rend="sup">pc</hi></ab></abbr>
+
+</handNote>
+</handDesc>
+</physDesc>
+</msDesc>
+</witness>
+<witness xml:id="E4">
+<abbr type="siglum"><ab xml:lang="en">η<hi rend="sub">ω</hi></ab></abbr>
+Berlin or. fol. 2166
+<msDesc>
+<msIdentifier/>
+<physDesc>
+<handDesc hands="2">
+<handNote xml:id="E4ac">
+<abbr type="siglum"><ab xml:lang="en">η<hi rend="sub">ω</hi><hi rend="sup">ac</hi></ab></abbr>
+
+</handNote>
+<handNote xml:id="E4pc">
+<abbr type="siglum"><ab xml:lang="en">η<hi rend="sub">ω</hi><hi rend="sup">pc</hi></ab></abbr>
+
+</handNote>
+</handDesc>
+</physDesc>
+</msDesc>
+</witness>
+<witness xml:id="N9">
+<abbr type="siglum"><ab xml:lang="en">η<hi rend="sub">ω2</hi></ab></abbr>
+NGMPP A62-33
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="Jyo">
+<abbr type="siglum"><ab xml:lang="en">χ</ab></abbr>
+Brahmānanda's version
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="Gr1">
+<abbr type="siglum"><ab xml:lang="en">α<hi rend="sub">1</hi>α<hi rend="sub">2</hi>α<hi rend="sub">3</hi></ab></abbr>
+N3,J5,G4
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="Gr2">
+<abbr type="siglum"><ab xml:lang="en">γ<hi rend="sub">1</hi>γ<hi rend="sub">2</hi></ab></abbr>
+N23,J7
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="Gr3">
+<abbr type="siglum"><ab xml:lang="en">δ<hi rend="sub">1</hi>δ<hi rend="sub">2</hi></ab></abbr>
+V19,E2
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="GrB">
+<abbr type="siglum"><ab xml:lang="en">π<hi rend="sub">1</hi>π<hi rend="sub">2</hi>π<hi rend="sub">ω</hi></ab></abbr>
+P11,C6,V3
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="Gr6">
+<abbr type="siglum"><ab xml:lang="en">ω</ab></abbr>
+V3,J6,N9,N26
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="G11plus">
+<abbr type="siglum"><ab xml:lang="en">ε<hi rend="sub">1</hi>ε<hi rend="sub">2</hi></ab></abbr>
+G11,G5,M3
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="Vu">
+<abbr type="siglum">Vulg</abbr>
+Vulgate, i.e. Brahmānanda's version
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="X">
+<abbr type="siglum">X</abbr>
+TenChapter Version, Jodhpur 02228 and 02225 (ed. Lonavla)
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="Six">
+<abbr type="siglum">Ṣ</abbr>
+SixChapterVersion, ``6ChapterHPms'', fragment of enlarged text, Jodhpur
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V2">
+<abbr type="siglum">V<hi rend="sub">2</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 29869
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V4">
+<abbr type="siglum">V<hi rend="sub">4</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 29937
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V5">
+<abbr type="siglum">V<hi rend="sub">5</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 29938
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V6">
+<abbr type="siglum">V<hi rend="sub">6</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 29991
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V8">
+<abbr type="siglum">V<hi rend="sub">8</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 30014
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V11">
+<abbr type="siglum">V<hi rend="sub">11</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 30029
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V12">
+<abbr type="siglum">V<hi rend="sub">12</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 30030
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V13">
+<abbr type="siglum">V<hi rend="sub">13</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 30031
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V14">
+<abbr type="siglum">V<hi rend="sub">14</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 30050
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V16">
+<abbr type="siglum">V<hi rend="sub">16</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 30052
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V17">
+<abbr type="siglum">V<hi rend="sub">17</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 30053
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V16pc">
+<abbr type="siglum">V<hi rend="sub">16</hi><hi rend="sup">pc</hi>\space </abbr>
+
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V18">
+<abbr type="siglum">V<hi rend="sub">18</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 30064
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V21">
+<abbr type="siglum">V<hi rend="sub">21</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 30104
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V22">
+<abbr type="siglum">V<hi rend="sub">22</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 30110
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V25">
+<abbr type="siglum">V<hi rend="sub">25</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 30122
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V26">
+<abbr type="siglum">V<hi rend="sub">26</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 30123
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V28">
+<abbr type="siglum">V<hi rend="sub">28</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 30136
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="W2">
+<abbr type="siglum">W<hi rend="sub">2</hi></abbr>
+Wai ??
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="W4">
+<abbr type="siglum">W<hi rend="sub">4</hi></abbr>
+Wai 399-6171
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="K3">
+<abbr type="siglum">K<hi rend="sub">3</hi></abbr>
+Privat collection
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="L1">
+<abbr type="siglum">L<hi rend="sub">1</hi></abbr>
+SOAS RE 43454
+<msDesc>
+<msIdentifier>
+<settlement>Jammu</settlement>
+</msIdentifier>
+</msDesc>
+</witness>
+<witness xml:id="J1">
+<abbr type="siglum">J<hi rend="sub">1</hi></abbr>
+Jodhpur 02231
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="J2">
+<abbr type="siglum">J<hi rend="sub">2</hi></abbr>
+Jodhpur 02232
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="J3">
+<abbr type="siglum">J<hi rend="sub">3</hi></abbr>
+Jodhpur 02233
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="J4">
+<abbr type="siglum">J<hi rend="sub">4</hi></abbr>
+Jodhpur 02234
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="J4ac">
+<abbr type="siglum">J<hi rend="sub">4</hi><hi rend="sup">ac</hi>\space </abbr>
+MSPP Jodhpur 02234
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="J4pc">
+<abbr type="siglum">J<hi rend="sub">4</hi><hi rend="sup">pc</hi>\space </abbr>
+MSPP Jodhpur 02234
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="J8">
+<abbr type="siglum">J<hi rend="sub">8</hi></abbr>
+Jodhpur 23709
+<msDesc>
+<msIdentifier/>
+<physDesc>
+<handDesc hands="2">
+<handNote xml:id="J8ac">
+<abbr type="siglum">J<hi rend="sub">8</hi><hi rend="sup">ac</hi></abbr>
+
+</handNote>
+<handNote xml:id="J8pc">
+<abbr type="siglum">J<hi rend="sub">8</hi><hi rend="sup">pc</hi></abbr>
+
+</handNote>
+</handDesc>
+</physDesc>
+</msDesc>
+</witness>
+<witness xml:id="J9">
+<abbr type="siglum">J<hi rend="sub">9</hi></abbr>
+Jodhpur 02224
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="J11">
+<abbr type="siglum">J<hi rend="sub">11</hi></abbr>
+Jodhpur 23532
+<msDesc>
+<msIdentifier/>
+<physDesc>
+<handDesc hands="2">
+<handNote xml:id="J11ac">
+<abbr type="siglum">J<hi rend="sub">11</hi><hi rend="sup">ac</hi></abbr>
+
+</handNote>
+<handNote xml:id="J11pc">
+<abbr type="siglum">J<hi rend="sub">11</hi><hi rend="sup">pc</hi></abbr>
+
+</handNote>
+</handDesc>
+</physDesc>
+</msDesc>
+</witness>
+<witness xml:id="J12">
+<abbr type="siglum">J<hi rend="sub">12</hi></abbr>
+Jodhpur 18552
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="J13">
+<abbr type="siglum">J<hi rend="sub">13</hi></abbr>
+Jodhpur 02229
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="J14">
+<abbr type="siglum">J<hi rend="sub">14</hi></abbr>
+Jodhpur 02239
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="J15">
+<abbr type="siglum">J<hi rend="sub">15</hi></abbr>
+Jodhpur 9732A
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="J16">
+<abbr type="siglum">J<hi rend="sub">16</hi></abbr>
+Jodhpur 9732B
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="J17">
+<abbr type="siglum">J<hi rend="sub">17</hi></abbr>
+Jodhpur 3013
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="B1">
+<abbr type="siglum">B<hi rend="sub">1</hi></abbr>
+Bodleian Library No. d.457(8)
+<msDesc>
+<msIdentifier>
+<settlement>Oxford</settlement>
+</msIdentifier>
+</msDesc>
+</witness>
+<witness xml:id="B2">
+<abbr type="siglum">B<hi rend="sub">2</hi></abbr>
+Bodleian Library No. d.458(1)
+<msDesc>
+<msIdentifier>
+<settlement>Oxford</settlement>
+</msIdentifier>
+</msDesc>
+</witness>
+<witness xml:id="B3">
+<abbr type="siglum">B<hi rend="sub">3</hi></abbr>
+Bodleian Library No. d.458(9)
+<msDesc>
+<msIdentifier>
+<settlement>Oxford</settlement>
+</msIdentifier>
+</msDesc>
+</witness>
+<witness xml:id="C1">
+<abbr type="siglum">C<hi rend="sub">1</hi></abbr>
+Lalchand M-2080
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="C2">
+<abbr type="siglum">C<hi rend="sub">2</hi></abbr>
+Lalchand M-6065
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="C3">
+<abbr type="siglum">C<hi rend="sub">3</hi></abbr>
+Lalchand M-1293
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="C4">
+<abbr type="siglum">C<hi rend="sub">4</hi></abbr>
+Lalchand M-2081
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="C4ac">
+<abbr type="siglum">C<hi rend="sub">4</hi><hi rend="sup">ac</hi>\space </abbr>
+
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="C4pc">
+<abbr type="siglum">C<hi rend="sub">4</hi><hi rend="sup">pc</hi>\space </abbr>
+
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="C5">
+<abbr type="siglum">C<hi rend="sub">5</hi></abbr>
+Lalchand M-2082
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="C8">
+<abbr type="siglum">C<hi rend="sub">8</hi></abbr>
+Lalchand M-2091
+<msDesc>
+<msIdentifier/>
+<physDesc>
+<handDesc hands="2">
+<handNote xml:id="C8ac">
+<abbr type="siglum">C<hi rend="sub">8</hi><hi rend="sup">ac</hi></abbr>
+
+</handNote>
+<handNote xml:id="C8pc">
+<abbr type="siglum">C<hi rend="sub">8</hi><hi rend="sup">pc</hi></abbr>
+
+</handNote>
+</handDesc>
+</physDesc>
+</msDesc>
+</witness>
+<witness xml:id="C9">
+<abbr type="siglum">C<hi rend="sub">9</hi></abbr>
+Lalchand M-4530
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N1">
+<abbr type="siglum">N<hi rend="sub">1</hi></abbr>
+NGMPP A1400-2
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N2">
+<abbr type="siglum">N<hi rend="sub">2</hi></abbr>
+NGMPP B 39-19
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N5">
+<abbr type="siglum">N<hi rend="sub">5</hi></abbr>
+NGMPP A60-15 + A61-1
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N4">
+<abbr type="siglum">N<hi rend="sub">4</hi></abbr>
+NGMPP A61-2
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N6">
+<abbr type="siglum">N<hi rend="sub">6</hi></abbr>
+NGMPP A61-6
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N10">
+<abbr type="siglum">N<hi rend="sub">10</hi></abbr>
+NGMPP A62-37
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N11">
+<abbr type="siglum">N<hi rend="sub">11</hi></abbr>
+NGMPP A63-15
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N12">
+<abbr type="siglum">N<hi rend="sub">12</hi></abbr>
+NGMPP A939-19
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N13">
+<abbr type="siglum">N<hi rend="sub">13</hi></abbr>
+NGMPP A1378-18
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N16">
+<abbr type="siglum">N<hi rend="sub">16</hi></abbr>
+NGMPP B39-20
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N17">
+<abbr type="siglum">N<hi rend="sub">17</hi></abbr>
+NGMPP B 111-10
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N18">
+<abbr type="siglum">N<hi rend="sub">18</hi></abbr>
+NGMPP E 929-3
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N20">
+<abbr type="siglum">N<hi rend="sub">20</hi></abbr>
+NGMPP E 2037-13 
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N21">
+<abbr type="siglum">N<hi rend="sub">21</hi></abbr>
+NGMPP E 2097-31
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N22">
+<abbr type="siglum">N<hi rend="sub">22</hi></abbr>
+NGMPP G 4-4
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P1">
+<abbr type="siglum">P<hi rend="sub">1</hi></abbr>
+Ānandāśrama S16-3-21
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P2">
+<abbr type="siglum">P<hi rend="sub">2</hi></abbr>
+Ānandāśrama S16-2-20
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P3">
+<abbr type="siglum">P<hi rend="sub">3</hi></abbr>
+BISM (79) 314
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P4">
+<abbr type="siglum">P<hi rend="sub">4</hi></abbr>
+BISM (91) 191
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P5">
+<abbr type="siglum">P<hi rend="sub">5</hi></abbr>
+BISM (29) 5790
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P6">
+<abbr type="siglum">P<hi rend="sub">6</hi></abbr>
+BORI 263/1879-80
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P7">
+<abbr type="siglum">P<hi rend="sub">7</hi></abbr>
+BORI 665/1883-84
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P8">
+<abbr type="siglum">P<hi rend="sub">8</hi></abbr>
+BORI 316/1895-98
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P9">
+<abbr type="siglum">P<hi rend="sub">9</hi></abbr>
+BORI 733-1891-95
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P10">
+<abbr type="siglum">P<hi rend="sub">10</hi></abbr>
+BORI 222-1884-86
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P12">
+<abbr type="siglum">P<hi rend="sub">12</hi></abbr>
+Ānandāśrama S16-3-24
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P13">
+<abbr type="siglum">P<hi rend="sub">13</hi></abbr>
+Ānandāśrama S16-2-22
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P14">
+<abbr type="siglum">P<hi rend="sub">14</hi></abbr>
+Ānandāśrama S16-3-23
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P16">
+<abbr type="siglum">P<hi rend="sub">16</hi></abbr>
+BISM (64) 1115
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P17">
+<abbr type="siglum">P<hi rend="sub">17</hi></abbr>
+BISM 620/1886-92
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P18">
+<abbr type="siglum">P<hi rend="sub">18</hi></abbr>
+BORI 615/1887-91
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P19">
+<abbr type="siglum">P<hi rend="sub">19</hi></abbr>
+BISM 46-39
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P20">
+<abbr type="siglum">P<hi rend="sub">20</hi></abbr>
+BISM 39-273
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P21">
+<abbr type="siglum">P<hi rend="sub">21</hi></abbr>
+BISM 37-743
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P22">
+<abbr type="siglum">P<hi rend="sub">22</hi></abbr>
+BISM 37-729
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P23">
+<abbr type="siglum">P<hi rend="sub">23</hi></abbr>
+BISM 33-60
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P24">
+<abbr type="siglum">P<hi rend="sub">24</hi></abbr>
+BISM 29-5790
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P25">
+<abbr type="siglum">P<hi rend="sub">25</hi></abbr>
+BISM 29-3657
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P26">
+<abbr type="siglum">P<hi rend="sub">26</hi></abbr>
+BISM 25-281
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P27">
+<abbr type="siglum">P<hi rend="sub">27</hi></abbr>
+BISM 7-489
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P28">
+<abbr type="siglum">P<hi rend="sub">28</hi></abbr>
+BORI 399-1895-1902
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="Tue">
+<abbr type="siglum">Tü</abbr>
+Ma I 339
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="YC">
+<abbr type="siglum">YC</abbr>
+Yogacintāmaṇi
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="A1">
+<abbr type="siglum">A<hi rend="sub">1</hi></abbr>
+Alwar 952
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="G7">
+<abbr type="siglum">G<hi rend="sub">7</hi></abbr>
+GOML D4394
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="Ko">
+<abbr type="siglum">Ko</abbr>
+Koba, Gujarat 55626
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="Ba">
+<abbr type="siglum">B<hi rend="sub">a</hi></abbr>
+
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+</listWit>
+<listPerson xml:id="scholars">
+<person xml:id="nos">
+<persName>
+<abbr type="siglum">nos</abbr>
+<forename>HPP</forename>
+<surname>Team</surname>
+</persName>
+</person>
+</listPerson>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<variantEncoding method="parallel-segmentation" location="internal"/>
+</encodingDesc>
+</teiHeader>
+<text>
+<body>
+<div type="avataranika" xml:id="Kj01a"> atha kālajñānam/ </div> <lg xml:id="Kj01"> <l> <s type="pada">ariṣṭāni viśiṣṭāni</s> <s type="pada">tāni vakṣyāmi tvaṃ śṛṇu/</s></l> <l> <s type="pada">yeṣā<app><lem wit="#J6"><seg type="ltn-ignore">m </seg>ālokanā<seg type="deva-ignore">n</seg></lem><rdg wit="#E4">alokanān</rdg><rdg wit="#V3">ālokyanāt</rdg></app>n mṛtyuṃ</s> <s type="pada">nijaṃ jānāti yogavit//</s></l> </lg> <lg xml:id="Kj02"> <l> <s type="pada"><app><lem wit="#E4 #J6">devamārgaṃ</lem><rdg wit="#V3">devamārgraṃ</rdg></app> dhruvaṃ śukraṃ</s> <s type="pada">somacchāyā<app><lem wit="#E4 #J6pc"><seg type="ltn-ignore">m </seg>arundhatīm</lem><rdg wit="#J6ac">aruṃdhatiṃ</rdg><rdg wit="#V3">aruṃdhatī</rdg></app>/</s></l> <l> <s type="pada">yo na paśyen na jīvet sa</s> <s type="pada"><app><lem wit="#E4 #V3 #J6ac">naraḥ saṃvatsarā<seg type="deva-ignore">t</seg></lem><rdg wit="#J6pc">naro vatsarāt</rdg></app>t param//</s></l> </lg> <lg xml:id="Kj03"> <l> <s type="pada">araśmi bimbaṃ sūryasya</s> <s type="pada">vahniṃ caivāṃśumālinam/</s></l> <l> <s type="pada">dṛṣṭvaikādaśa<app><lem resp="ego">māsebhyo</lem><rdg wit="#E4 #V3">māsās tu</rdg><rdg wit="#J6">māsāṃs tu</rdg></app></s> <s type="pada">naro nordhvaṃ sa jīvati//</s></l> </lg> <lg xml:id="Kj04"> <l> <s type="pada"><app><lem resp="ego">vame<seg type="deva-ignore">n</seg></lem><rdg wit="#E4 #V3 #J6">vātyāṃ</rdg></app><app><lem wit="#E4 #V3"><seg type="ltn-ignore">n</seg>mūtra</lem><rdg wit="#J6">mūtraṃ</rdg></app>purīṣaṃ yaḥ</s> <s type="pada">suvarṇaṃ <app><lem wit="#E4pc #J6">rajataṃ</lem><rdg wit="#E4ac #V3">rajasaṃ</rdg></app> tathā/</s></l> <l> <s type="pada">pratyakṣam athavā svapne</s> <s type="pada">jīvitaṃ daśamāsikam//</s></l> </lg> <lg xml:id="Kj05"> <l> <s type="pada">dṛṣṭvā pretapiśācādīn</s> <s type="pada">gandharvanagarāṇi ca/</s></l> <l> <s type="pada">suvarṇa<app><lem wit="#J6">varṇā<seg type="deva-ignore">n</seg></lem><rdg wit="#E4 #V3">varṇāt</rdg></app><app><lem wit="#V3 #J6"><seg type="ltn-ignore">n </seg>vṛkṣāṃ<seg type="deva-ignore">ś</seg></lem><rdg wit="#E4">vṛkṣāś</rdg></app>ś ca</s> <s type="pada">nava<app><lem wit="#J6">māsā<seg type="deva-ignore">n</seg></lem><rdg wit="#E4 #V3">māsāt</rdg></app>n sa jīvati//</s></l> </lg> <lg xml:id="Kj06"> <l> <s type="pada">sthūlaḥ kṛśaḥ kṛśaḥ sthūlo</s> <s type="pada">yo'kasmād eva jāyate/</s></l> <l> <s type="pada">prakṛtyāś ca <app><lem resp="ego">nivarteta</lem><rdg wit="#E4 #V3 #J6">nivartaṃ ca</rdg></app></s> <s type="pada">tasyāyuś cāṣṭamāsikam//</s></l> </lg> <lg xml:id="Kj07"> <l> <s type="pada"><app><lem wit="#N9 #J6">khaṇḍaṃ</lem><rdg wit="#E4 #V3">khaṇḍa</rdg></app> yasya padaṃ <app><lem resp="ego">pārṣṇau</lem><rdg wit="#E4 #V3">pārṣṇe</rdg><rdg wit="#J6">pārṣṇeḥ</rdg><rdg wit="#N9">pārṣṇi</rdg></app></s> <s type="pada">pādasyāgre tathā bhavet/</s></l> <l> <s type="pada">pāṃśukardamayor madhye</s> <s type="pada">sapta<app><lem wit="#N9 #J6">māsā<seg type="deva-ignore">n</seg></lem><rdg wit="#E4 #V3">māsāt</rdg></app>n sa jīvati//</s></l> </lg> <lg xml:id="Kj08"> <l> <s type="pada">kapota<app><lem wit="#N9 #J6">gṛdhrau</lem><rdg wit="#E4 #V3">gṛdhau</rdg></app> <app><lem resp="ego">kākolo</lem><rdg wit="#E4 #V3 #J6">kākolū</rdg></app></s> <s type="pada"><app><lem wit="#E4 #V3">vāyaso</lem><rdg wit="#J6">vāyasā</rdg></app> vāpi mūrdhani/</s></l> <l> <s type="pada"><app><lem resp="ego">kravyādo</lem><rdg wit="#E4 #V3">kṛṣyādo</rdg><rdg wit="#J6"><hi rend="italic">om.</hi></rdg></app> vā <app><lem wit="#E4">khago</lem><rdg wit="#V3">svago</rdg><rdg wit="#J6"><hi rend="italic">om.</hi></rdg></app> <app><lem resp="ego">līnaḥ</lem><rdg wit="#E4 #V3">līnaṃ</rdg><rdg wit="#J6"><hi rend="italic">om.</hi></rdg></app><note type="myfn"><ref target="#J6"/> omits <hi>pāda</hi> 8c. As a correction <hi rend="italic">spṛśanti yaṃ prātar eva</hi> is added in the bottom margin.</note></s> <s type="pada">ṣaṇmāsāyuḥpradarśakaḥ//</s></l> </lg> <lg xml:id="Kj09"> <l> <s type="pada">hanyate kāka<app><lem wit="#J6">śreṇībhiḥ</lem><rdg wit="#E4 #V3">śreṇibhiḥ</rdg></app></s> <s type="pada">pāṃśu<app><lem wit="#E4">varṣena</lem><rdg wit="#V3 #J6">varṇena</rdg></app> vā naraḥ/</s></l> <l> <s type="pada">svacchāyāṃ vānyathā dṛṣṭvā</s> <s type="pada"><app><lem wit="#J6">caturmāsā<seg type="deva-ignore">n</seg></lem><rdg wit="#E4 #V3">caturmāsāt</rdg></app>n sa jīvati//</s></l> </lg> <lg xml:id="Kj10"> <l> <s type="pada"><app><lem wit="#E4">anabhre</lem><rdg wit="#V3">anabhro</rdg><rdg wit="#J6">anabhrāṃ</rdg></app> vidyutaṃ dṛṣṭvā</s> <s type="pada">dakṣiṇāṃ <app><lem resp="ego">diśam āśritām</lem><rdg wit="#E4 #V3">diśim āśritāṃ</rdg><rdg wit="#J6">diśi āśritāḥ</rdg></app>/</s></l> <l> <s type="pada">payasīndradhanu<app><lem wit="#E4 #J6"><seg type="ltn-ignore">r </seg>vāpi</lem><rdg wit="#V3">vāpiṃ</rdg></app></s> <s type="pada">jīvitaṃ dvitrimāsikam//</s></l> </lg> <lg xml:id="Kj11"> <l> <s type="pada">ghṛte taile tathā<app><lem wit="#E4 #V3 #J6pc">darśe</lem><rdg wit="#J6ac">darthe</rdg></app></s> <s type="pada">toye <app><lem wit="#J6">vānātmana<seg type="deva-ignore">s</seg></lem><rdg wit="#E4 #V3">cānātmanas</rdg></app>s tanum/</s></l> <l> <s type="pada">yaḥ paśyed aśiraskāṃ <app><lem wit="#J6">ca</lem><rdg wit="#E4 #V3">ti</rdg></app></s> <s type="pada">māsād ūrdhvaṃ na jīvati//</s></l> </lg> <lg xml:id="Kj12"> <l> <s type="pada"><app><lem wit="#V3 #J6">yasyāsthi</lem><rdg wit="#E4">yasyāṃsthi</rdg></app>sadṛśo gandho</s> <s type="pada">gātre śavasamo'pi vā/</s></l> <l> <s type="pada">tasyārdhamāsikaṃ jñeyaṃ</s> <s type="pada">yogino nṛpa <app><lem resp="ego">jīvitam</lem><rdg wit="#E4 #V3 #J6">jīvati</rdg></app>//</s></l> </lg> <lg xml:id="Kj13"> <l> <s type="pada">yasya vai <app><lem wit="#E4 #J6">snāta</lem><rdg wit="#V3">śnāta</rdg></app>mātrasya</s> <s type="pada">hṛtpādam avaśuṣyati/</s></l> <l> <s type="pada">pibataś ca jalaṃ śoṣo</s> <s type="pada">daśāhaṃ so'pi jīvati//</s></l> </lg> <lg xml:id="Kj14"> <l> <s type="pada">sambhinno māruto yasya</s> <s type="pada">marmasthānāni kṛntati/</s></l> <l> <s type="pada">na <app><lem wit="#E4 #V3">hṛṣya<seg type="deva-ignore">ty</seg></lem><rdg wit="#J6">harṣaty</rdg></app>ty ambu<app><lem resp="ego">saṃsparśā<seg type="deva-ignore">t</seg></lem><rdg wit="#N9">saṃsparśā |</rdg><rdg wit="#E4ac #V3">saṃspaśa</rdg><rdg wit="#E4pc">saṃspṛśa</rdg><rdg wit="#J6">saṃsparśe</rdg></app></s><s type="pada"><app><lem wit="#J6"><seg type="ltn-ignore">t </seg>tasya</lem><rdg wit="#V3">tisya</rdg><rdg wit="#E4">°ti &lt;&lt;ta&gt;&gt;sya</rdg></app> mṛtyur upasthitaḥ//</s></l> </lg> <lg xml:id="Kj15"> <l> <s type="pada">ṛkṣavānara<app><lem resp="ego">yugya</lem><rdg wit="#E4 #V3 #J6">yugma</rdg></app><app><lem wit="#E4 #V3">stho</lem><rdg wit="#J6">dhyo</rdg></app></s> <s type="pada">gāyan yo dakṣiṇāṃ diśam/</s></l> <l> <s type="pada">svapne prayāti tasyāpi</s> <s type="pada">mṛtyukāla upasthitaḥ//</s></l> </lg> <lg xml:id="Kj16"> <l> <s type="pada">raktakṛṣṇāmbaradharā</s> <s type="pada"><app><lem resp="ego">gāyantī ca</lem><rdg wit="#E4 #V3 #J6">gāyanti ca</rdg></app> <app><lem resp="ego">hasanty api</lem><rdg wit="#E4 #V3 #J6">hasanti ca</rdg></app>/</s></l> <l> <s type="pada"><app><lem wit="#J6">dakṣiṇāśāṃ</lem><rdg wit="#E4 #V3">dakṣaṇāśāṃ</rdg></app> <app><lem wit="#E4 #J6">naye<seg type="deva-ignore">n</seg></lem><rdg wit="#V3">mayen</rdg></app>n nārī</s> <s type="pada">svapne <app><lem wit="#E4">so'pi na jīvati</lem><rdg wit="#V3 #J6"><seg type="deva-ignore"><gap reason="om."/></seg></rdg></app>//</s></l> </lg> <lg xml:id="Kj17"> <l> <s type="pada"><app><lem/><rdg wit="#V3 #J6"><gap reason="om."/></rdg></app>nagnaṃ kṣapaṇakaṃ svapne</s> <s type="pada"><app><lem wit="#E4 #V3">hasantaṃ</lem><rdg wit="#J6">hasati</rdg></app> <app><lem resp="ego">nṛtyatatparam</lem><rdg wit="#E4 #V3">nṛtyatatparāṃ</rdg><rdg wit="#J6">nṛtyati</rdg></app>/</s></l> <l> <s type="pada"><app><lem/><rdg wit="#V3 #J6"><gap reason="om."/></rdg></app><app><lem resp="ego">ekaṃ</lem><rdg wit="#E4">evaṃ</rdg></app> <app><lem resp="ego">saṃvīkṣya</lem><rdg wit="#E4">vekṣa</rdg></app> <app><lem resp="ego">valgantaṃ</lem><rdg wit="#E4">valāṃtaṃ ca</rdg></app></s> <s type="pada"><app><lem/><rdg wit="#V3 #J6"><gap reason="om."/></rdg></app><app><lem resp="ego">vidyā<seg type="deva-ignore">n</seg></lem><rdg wit="#E4">viṃdyā</rdg></app><app><lem resp="ego"><seg type="ltn-ignore">n </seg>mṛtyum upasthitam</lem><rdg wit="#E4">mṛtyu upasthitāṃ</rdg></app>//</s></l> </lg> <lg xml:id="Kj18"> <l> <s type="pada">ā mastakatalād yas tu</s> <s type="pada"><app><lem wit="#E4 #V3">nimagnaṃ</lem><rdg wit="#J6">nimagnaḥ</rdg></app> paṅkasāgare/</s></l> <l> <s type="pada">svapne <app><lem wit="#J6">paśyaty athātmānaṃ</lem><rdg wit="#E4 #V3">paśyan yathātmānaṃ</rdg></app></s> <s type="pada">yaḥ sadyo <app><lem wit="#J6">mriyate</lem><rdg wit="#V3">mriyante</rdg><rdg wit="#E4">mṛyate</rdg></app> ca saḥ//</s></l> </lg> <lg xml:id="Kj19"> <l> <s type="pada"><app><lem wit="#N9 #J6pc">keśāṅgārāṃ<seg type="deva-ignore">s</seg></lem><rdg wit="#E4 #V3">keśāṅgārās</rdg><rdg wit="#J6ac">keśāṅgārāṃ</rdg></app>s tathā <app><lem wit="#N9 #J6">bhasma</lem><rdg wit="#E4 #V3">bhasmā</rdg></app></s><s type="pada"><app><lem wit="#N9 #J6">bhujaṅgā<seg type="deva-ignore">n</seg></lem><rdg wit="#E4 #V3">bhujaṅgā</rdg></app><app><lem wit="#J6"><seg type="ltn-ignore">n </seg>nirjalāṃ</lem><rdg wit="#E4 #V3">nirjjalā</rdg></app> <app><lem wit="#J6">nadīm</lem><rdg wit="#E4 #V3">nadī</rdg></app>/</s></l> <l> <s type="pada">dṛṣṭvā svapne daśāhaṃ tu</s> <s type="pada">mṛtyu<app><lem wit="#N9 #J6"><seg type="ltn-ignore">r </seg>ekādaśe</lem><rdg wit="#E4 #V3">ekādaśā</rdg></app> dine//</s></l> </lg> <lg xml:id="Kj20"> <l> <s type="pada">karālair vikaṭai rūkṣaiḥ</s> <s type="pada">puruṣair udyatāyudhaiḥ/</s></l> <l> <s type="pada">pāṣāṇais tāḍitaḥ svapne</s> <s type="pada">sadyomṛtyur bhave<app><lem resp="ego"><seg type="ltn-ignore">n </seg>naraḥ</lem><rdg wit="#E4 #V3 #J6">nṛṇām</rdg></app>//</s></l> </lg> <lg xml:id="Kj21"> <l> <s type="pada">sūryodaye śivā yasya</s> <s type="pada"><app><lem wit="#J6">krośantī</lem><rdg wit="#E4 #V3">krośanti</rdg></app> <app><lem wit="#E4 #V3">yāti</lem><rdg wit="#J6">yāṃti</rdg></app> saṃmukham/</s></l> <l> <s type="pada">viparītaṃ parītaṃ vā</s> <s type="pada">sadyo<app><lem wit="#J6">mṛtyur upasthitaḥ</lem><rdg wit="#E4 #V3">mṛtyum upasthitam</rdg></app>//</s></l> </lg> <lg xml:id="Kj22"> <l> <s type="pada">yasya vai bhuktamātrasya</s> <s type="pada">hṛdayaṃ pīḍyate kṣudhā/</s></l> <l> <s type="pada">jāyate <app><lem wit="#N9 #J6">dantagharṣaś ca</lem><rdg wit="#E4 #V3">dantasya gharṣaś</rdg></app></s> <s type="pada"><app><lem resp="ego">sa gatāyur a</lem><rdg wit="#E4 #V3">ca gatāyur a</rdg><rdg wit="#J6">gatāyur na ca</rdg></app>saṃśayaḥ//</s></l> </lg> <lg xml:id="Kj23"> <l> <s type="pada">dīpādigandhaṃ no vetti</s> <s type="pada">svapne'py ahni tathā niśi/</s></l> <l> <s type="pada">nātmānaṃ paranetrasthaṃ</s> <s type="pada"><app><lem wit="#E4 #J6pc">vīkṣate</lem><rdg wit="#V3 #J6ac">vīkṣyate</rdg></app> na sa jīvati//</s></l> </lg> <lg xml:id="Kj24"> <l> <s type="pada">śakrāyudhaṃ cārdharātre</s> <s type="pada">divā <app><lem wit="#J6">grahagaṇaṃ</lem><rdg wit="#E4pc #V3">grahaggaṇaṃ</rdg><rdg wit="#E4ac">graharggaṇaṃ</rdg></app> tathā/</s></l> <l> <s type="pada">dṛṣṭvā manyeta saṃkṣīṇam</s> <s type="pada">ātmajīvitam ātmavān//</s></l> </lg> <lg xml:id="Kj25"> <l> <s type="pada">nāsikā <app><lem wit="#V3 #J6">vakratā<seg type="deva-ignore">m</seg></lem><rdg wit="#E4">vaktratām</rdg></app>m eti</s> <s type="pada">karṇayo<app><lem resp="ego"><seg type="ltn-ignore">r </seg>namanonnatī</lem><rdg wit="#E4 #V3 #J6">namanonnatā</rdg></app>/</s></l> <l> <s type="pada">netraṃ ca vāmaṃ śravati</s> <s type="pada">yasya tasyāyur udgatam//</s></l> </lg> <lg xml:id="Kj26"> <l> <s type="pada">āraktatām eti mukhaṃ</s> <s type="pada">jihvā <app><lem resp="ego">cāpy asitā</lem><rdg wit="#E4 #V3 #J6">cāsya sitā</rdg></app> yadā/</s></l> <l> <s type="pada">tadā prājño vijānīyān</s> <s type="pada">mṛtyum ātmānam āgatam//</s></l> </lg> <lg xml:id="Kj27"> <l> <s type="pada">yasya <app><lem wit="#E4 #J6">kṛṣṇā</lem><rdg wit="#V3">kṛṣṇāṃ</rdg></app> <app><lem resp="ego">kharā</lem><rdg wit="#E4 #V3 #J6">parā</rdg></app> jihvā</s> <s type="pada">padmākāraṃ ca vai mukham/</s></l> <l> <s type="pada"><app><lem wit="#J6">gaṇḍe</lem><rdg wit="#E4 #V3">gaṇḍaṃ</rdg></app> vā piṇḍikā raktā</s> <s type="pada">tad antaṃ tasya jīvitam//</s></l> </lg> <lg xml:id="Kj28"> <l> <s type="pada">jihvā mūle bhavet sthūlā</s> <s type="pada"><app><lem wit="#E4">romodvṛtti</lem><rdg wit="#V3">romahati</rdg><rdg wit="#J6">romahaṃti</rdg></app>samudgame/</s></l> <l> <s type="pada">maṇi<app><lem wit="#E4 #J6">bandhaṃ</lem><rdg wit="#V3">bandha</rdg></app> <app><lem wit="#J6">vīkṣya</lem><rdg wit="#V3">vīkṣa</rdg><rdg wit="#E4">vīkṣyate</rdg></app> sthūlaṃ</s> <s type="pada"><app><lem wit="#J6">mriyate</lem><rdg wit="#E4 #V3">mṛyate</rdg></app> sārdhavarṣataḥ//</s></l> </lg> <lg xml:id="Kj29"> <l> <s type="pada">śruti<app><lem wit="#N9">dhvaṃsaṃ</lem><rdg wit="#E4">dhvaṃ</rdg><rdg wit="#V3 #J6">pathaṃ</rdg></app> vahed yas tu</s> <s type="pada"><app><lem wit="#N9">saptāhai<seg type="deva-ignore">r</seg></lem><rdg wit="#E4 #V3 #J6">staptāhair</rdg></app>r gandhanāśanam/</s></l> <l> <s type="pada">kṛṣṇatvaṃ dantajihvāyāṃ</s> <s type="pada">tripañcāhne dhruvaṃ <app><lem wit="#J6">mriyet</lem><rdg wit="#E4 #V3">mṛyet</rdg></app>//</s></l> </lg> <lg xml:id="Kj30"> <l> <s type="pada"><app><lem wit="#V3 #J6">uṣṭra</lem><rdg wit="#E4">uṣṭrā</rdg></app>rāsabhayānena yaḥ</s> <s type="pada">svapne dakṣiṇāṃ diśam/</s></l> <l> <s type="pada">prayāti taṃ vijānīyāt</s> <s type="pada">sadyo<app><lem resp="ego">mṛtyuṃ nareśvara</lem><rdg wit="#E4 #V3 #J6">mṛtyur bhaven nṛṇām</rdg></app>//</s></l> </lg> <lg xml:id="Kj31"> <l> <s type="pada"><app><lem wit="#E4 #V3">pidhāya</lem><rdg wit="#J6">vidhāya</rdg></app> karṇau nirghoṣaṃ</s> <s type="pada">na śṛṇoty ātmasambhavam/</s></l> <l> <s type="pada">na paśyec cakṣuṣor jyotir</s> <s type="pada">yaś ca so'pi na jīvati//</s></l> </lg> <lg xml:id="Kj32"> <l> <s type="pada"><app><lem wit="#J6">patato</lem><rdg wit="#E4 #V3">patito</rdg></app> yasya vai garte</s> <s type="pada">svapne dvāraṃ pidhīyate/</s></l> <l> <s type="pada">na <app><lem wit="#J6">cottiṣṭhati</lem><rdg wit="#E4 #V3">cotiṣṭhati</rdg></app> yaḥ <app><lem resp="ego">śvabhrā<seg type="deva-ignore">t</seg></lem><rdg wit="#E4 #V3 #J6">svapnāt</rdg></app>t</s> <s type="pada">tad antaṃ tasya jīvitam//</s></l> </lg> <lg xml:id="Kj33"> <l> <s type="pada"><app><lem wit="#E4 #V3">ūrdhvā</lem><rdg wit="#J6">ūrdhvaṃ</rdg></app> ca dṛṣṭir na ca <app><lem resp="ego">saṃpratiṣṭhā</lem><rdg wit="#E4 #V3 #J6">sampraviṣṭā</rdg></app></s></l> <l> <s type="pada">raktā punaḥ saṃparivartamānā/</s></l> <l> <s type="pada">mukhasya coṣmā <app><lem resp="ego">śiśirā</lem><rdg wit="#J6pc">suṣirā</rdg><rdg wit="#E4 #V3 #J6ac">sukhirā</rdg></app> ca <app><lem wit="#J6">nābhiḥ</lem><rdg wit="#E4 #V3">nābhi</rdg></app></s></l> <l> <s type="pada">śaṃsanti puṃsām aparaṃ śarīram//</s></l> </lg> <lg xml:id="Kj34"> <l> <s type="pada">svapne'gniṃ <app><lem wit="#J6">praviśe<seg type="deva-ignore">d</seg></lem><rdg wit="#E4 #V3">praveśed</rdg></app>d yas tu</s> <s type="pada">na ca niṣkramate punaḥ/</s></l> <l> <s type="pada">jalapraveśād api vā</s> <s type="pada">tadantaṃ tasya jīvitam//</s></l> </lg> <lg xml:id="Kj35"> <l> <s type="pada">yasyāpi hanyate dṛṣṭir</s> <s type="pada">bhūtai rātrāv atho divā/</s></l> <l> <s type="pada"><app><lem wit="#E4 #V3 #J6ac">sa</lem><rdg wit="#J6pc">taṃ</rdg></app> <app><lem wit="#N9">mṛtyuṃ</lem><rdg wit="#E4">mṛtyu</rdg><rdg wit="#J6">mṛtyuṃḥ</rdg><rdg wit="#V3">mṛtya</rdg></app> <app><lem resp="ego">saptarātrānte</lem><rdg wit="#J6pc #N9">saptame rātrau</rdg><rdg wit="#E4ac #V3">saptame rātrāṃ</rdg><rdg wit="#E4pc">saptamaṃ rātrāṃ</rdg><rdg wit="#J6ac">saptame rātryaṃ</rdg></app></s> <s type="pada"><app><lem resp="ego">pumā<seg type="deva-ignore">n</seg></lem><rdg wit="#E4 #V3">teṣu</rdg><rdg wit="#J6">sa ca</rdg></app>n prāpno<app><lem wit="#J6"><seg type="ltn-ignore">ty </seg>asaṃśayam</lem><rdg wit="#E4 #V3">asaṃśayaḥ</rdg></app>//</s></l> </lg> <lg xml:id="Kj36"> <l> <s type="pada">svavastram amalaṃ śuklaṃ</s> <s type="pada">raktaṃ <app><lem resp="ego">paśyaty athā</lem><rdg wit="#J6">paśyan athā</rdg><rdg wit="#V3">paśyan tathā</rdg><rdg wit="#E4">paśyet tathā</rdg></app>sitam/</s></l> <l> <s type="pada">yaḥ pumān mṛtyum āsannaṃ</s> <s type="pada">tasyāpi hi vinirdiśet//</s></l> </lg> <lg xml:id="Kj37"> <l> <s type="pada">svabhāva<app><lem resp="ego">viparītatvaṃ</lem><rdg wit="#E4 #V3 #J6">viparītaṃ ca</rdg></app></s> <s type="pada">prakṛteś ca <app><lem resp="ego">viparyayaḥ</lem><rdg wit="#E4 #V3 #J6">viparyayam</rdg></app>/</s></l> <l> <s type="pada">kathayanti manuṣyāṇāṃ</s> <s type="pada"><app><lem wit="#J6">samāsannau</lem><rdg wit="#E4 #V3">samāsanau</rdg></app> yamāntakau//</s></l> </lg> <lg xml:id="Kj38"> <l> <s type="pada">lohadaṇḍa<app><lem wit="#E4 #J6">dharaṃ</lem><rdg wit="#V3">dharā</rdg></app> hrasvaṃ</s> <s type="pada">kṛṣṇavastraparicchadam/</s></l> <l> <s type="pada">svapne prapaśyatas tasya</s> <s type="pada">trirātrān maraṇaṃ bhavet//</s></l> </lg> <lg xml:id="Kj39"> <l> <s type="pada">indriyāṇi na gṛhṇīyuḥ</s> <s type="pada">svakīyān viṣayān yadi/</s></l> <l> <s type="pada">māsānte maraṇaṃ tasya</s> <s type="pada">bhaviṣyati na saṃśayaḥ//</s></l> </lg> <lg xml:id="Kj40"> <l> <s type="pada">darpaṇe <app><lem resp="ego">svātmana<seg type="deva-ignore">ś</seg></lem><rdg wit="#N9 #J6">svātmanaḥ</rdg><rdg wit="#E4 #V3">svātmana</rdg></app><app><lem resp="ego"><seg type="ltn-ignore">ś </seg>chāyā<seg type="deva-ignore">m</seg></lem><rdg wit="#N9">chāyā</rdg><rdg wit="#E4">sāyāṃ</rdg><rdg wit="#V3 #J6">kāyam</rdg></app></s><s type="pada"><app><lem resp="ego"><seg type="ltn-ignore">m </seg>apsu</lem><rdg wit="#V3 #J6 #E4">āsyaṃ</rdg><rdg wit="#N9">asyaṃ</rdg></app> vā yo na paśyati/</s></l> <l> <s type="pada">māsānte maraṇaṃ tasya</s> <s type="pada">bhaviṣyati na saṃśayaḥ//</s></l> </lg> <lg xml:id="Kj41"> <l> <s type="pada">uṣṇaṃ yasya śarīrārdham</s> <s type="pada">ardhaṃ cāpi ca śītalam/</s></l> <l> <s type="pada">karṇaśrutivināśo vā</s> <s type="pada">saptarātre mariṣyati//</s></l> </lg> <lg xml:id="Kj42"> <l> <s type="pada"><app><lem wit="#J6">yogināṃ</lem><rdg wit="#E4 #V3">yoginā</rdg></app> jñāna<app><lem wit="#E4 #J6">viduṣā<seg type="deva-ignore">m</seg></lem><rdg wit="#V3">vidukhām</rdg></app>m</s><s type="pada">anyeṣāṃ ca <app><lem wit="#J6">mahātmanām</lem><rdg wit="#E4 #V3">mahātmanam</rdg></app>/</s></l> <l> <s type="pada">prāpte'ntakāle <app><lem resp="ego">puruṣai<seg type="deva-ignore">s</seg></lem><rdg wit="#E4 #V3 #J6">puruṣaṃ</rdg></app>s</s><s type="pada">tad vijñeyaṃ vicakṣaṇaiḥ//</s></l> </lg> <div type="postmula" xml:id="Kj42p"> iti kālajñānam// </div> <div type="avataranika" xml:id="Kj43a"> atha videhamuktikathanam/ </div> <lg xml:id="Kj43"> <l> <s type="pada">pūrvāhne vāparāhne vā</s> <s type="pada">madhyāhne vā dine <app><lem wit="#V3 #J6">kvacit</lem><rdg wit="#E4">dyuvit</rdg></app>/</s></l> <l> <s type="pada">yatra vā rajanī<app><lem resp="ego">bhāge</lem><rdg wit="#V3">bhavas</rdg><rdg wit="#E4 #J6">bhāvas</rdg></app></s> <s type="pada">tadāriṣṭaṃ nirīkṣayet//</s></l> </lg> <lg xml:id="Kj44"> <l> <s type="pada">viniścityātmanaḥ kālaṃ</s> <s type="pada">bāhyābhyantaralakṣaṇaiḥ/</s></l> <l> <s type="pada">nyāsataḥ <app><lem wit="#E4 #V3 #J6pc">sa pra</lem><rdg wit="#J6ac">sapta</rdg></app></s>{sannātmā} <s type="pada"><app><lem wit="#E4 #J6">nirdvandvo</lem><rdg wit="#V3">nirdvando</rdg></app> vijitendriyaḥ//</s></l> </lg> <lg xml:id="Kj45"> <l> <s type="pada"><app><lem resp="ego">kurute</lem><rdg wit="#E4 #V3 #J6">kurvanti</rdg></app> yuktakarmāṇi</s> <s type="pada"><app><lem wit="#E4 #V3 #J6ac">nitya</lem><rdg wit="#J6pc">tathā</rdg></app><app><lem wit="#J6">naimittikāni</lem><rdg wit="#E4 #V3">naimityakāni</rdg></app> ca/</s></l> <l> <s type="pada">yogena paramātmānaṃ</s> <s type="pada">guhāyāṃ prāpya <app><lem resp="ego">cetasā</lem><rdg wit="#E4 #V3 #J6">cetasām</rdg></app>//</s></l> </lg> <lg xml:id="Kj46"> <l> <s type="pada">tārakeṇa yajen nityaṃ</s> <s type="pada"><app><lem wit="#J6">jitāsuḥ</lem><rdg wit="#E4 #V3">jitāsu</rdg></app> <app><lem wit="#J6">kāmavarjitaḥ</lem><rdg wit="#E4 #V3">kāmavarjitam</rdg></app>/</s></l> <l> <s type="pada"><app><lem wit="#E4 #J6">jape<seg type="deva-ignore">c</seg></lem><rdg wit="#V3">jayec</rdg></app>c ca tārakaṃ brahma </s><s type="pada">niṣkāmaś cācyutapriyaḥ//</s></l> </lg> <lg xml:id="Kj47"> <l> <s type="pada">tasya bhāge <app><lem resp="ego">tathaivāhno</lem><rdg wit="#E4">tathaivāhne</rdg><rdg wit="#V3">tathaivahne</rdg><rdg wit="#J6">tathaiva hi</rdg></app></s> <s type="pada"><app><lem wit="#J6">yogaṃ</lem><rdg wit="#E4 #V3">yoga</rdg></app> yuñjīta yogavit/</s></l> <l> <s type="pada">videhamuktaye jñānī</s> <s type="pada">tyaktvā <app><lem wit="#E4 #V3">jananajaṃ</lem><rdg wit="#J6">ca janajaṃ</rdg></app> bhayam//</s></l> </lg> <lg xml:id="Kj48"> <l> <s type="pada">baddhapadmāsano dhīmān</s> <s type="pada">samasaṃsthānakandharaḥ/</s></l> <l> <s type="pada"><app><lem wit="#J6">nirudhya</lem><rdg wit="#E4 #V3">nirodhya</rdg></app> <app><lem wit="#J6">prāṇāpānau ca</lem><rdg wit="#E4 #V3">prāṇapavanau</rdg></app></s> <s type="pada"><app><lem wit="#E4 #J6">dantai<seg type="deva-ignore">r</seg></lem><rdg wit="#V3">rdantai</rdg></app><app><lem wit="#E4 #V3"><seg type="ltn-ignore">r </seg>dantā<seg type="deva-ignore">n</seg></lem><rdg wit="#J6">dantāṃś ca</rdg></app><app><lem wit="#E4 #V3"><seg type="ltn-ignore">n </seg>asaṃspṛśan</lem><rdg wit="#J6">na saṃspṛśan</rdg></app>//</s></l> </lg> <lg xml:id="Kj49"> <l> <s type="pada">buddhyā nirudhya dvārāṇi</s> <s type="pada"><app><lem resp="ego">nava</lem><rdg wit="#E4 #V3 #J6">na ca</rdg></app> mīlitalocanaḥ/</s></l> <l> <s type="pada">oṃkāraṃ <app><lem wit="#E4 #V3">tu</lem><rdg wit="#J6">ca</rdg></app> dhanuḥ kṛtvā</s> <s type="pada">guṇaṃ sattvaṃ niyojayet//</s></l> </lg> <lg xml:id="Kj50"> <l> <s type="pada">tatrātmānaṃ <app><lem resp="ego">śaraṃ so'pi</lem><rdg wit="#E4">ra\{\{ṃ\}\} so 'pi</rdg><rdg wit="#V3 #J6ac">ramaṇo 'pi</rdg><rdg wit="#J6pc">lakṣyayitvā</rdg></app></s> <s type="pada">vṛto bhūtendriyādibhiḥ/</s></l> <l> <s type="pada">prāṇavāyumanaḥkṣepaiḥ</s> <s type="pada"><app><lem resp="ego">kṣipto hṛtkamalasthitaḥ</lem><rdg wit="#E4">sthi kṣipto hṛtkamalasthite</rdg><rdg wit="#V3 #J6">saṃkṣipto hṛtkamalake</rdg></app>//</s></l> </lg> <lg xml:id="Kj51"> <l> <s type="pada"><app><lem wit="#N9 #J6">daśama</lem><rdg wit="#V3">daśaṃma</rdg><rdg wit="#E4">daśa\{\{ṃ\}\}maṃ</rdg></app>dvāramārgeṇa</s> <s type="pada"><app><lem wit="#J6">lakṣyaṃ</lem><rdg wit="#E4 #V3">bhakṣyaṃ</rdg></app> prāpya tataḥ param/</s></l> <l> <s type="pada">ṣaṭ<app><lem resp="ego">triṃśattattvasaṃyuktaḥ</lem><rdg wit="#E4 #V3">triṃśatvāsamayutaḥ</rdg><rdg wit="#J6ac">triṃśasamayutaś ca</rdg><rdg wit="#J6pc">triṃśadbhiḥ saṃyutaś ca</rdg></app></s> <s type="pada">paramātmani līyate//</s></l> </lg> <lg xml:id="Kj52"> <l> <s type="pada">tataḥ paramam ākāśam</s> <s type="pada">atīndriyam agocaram/</s></l> <l> <s type="pada"><app><lem resp="ego">yad buddhyā</lem><rdg wit="#E4 #V3 #J6">yad buddhir</rdg></app> naiva <app><lem resp="ego">cākhyātuṃ</lem><rdg wit="#E4 #V3 #J6">paśyanti</rdg></app></s> <s type="pada"><app><lem wit="#V3 #J6">śakyate</lem><rdg wit="#E4">śakyaṃte</rdg></app> <app><lem wit="#E4 #V3">na ca vastu tat</lem><rdg wit="#J6ac">na ca vastu taṃ</rdg><rdg wit="#J6pc">na ca vastutaḥ</rdg></app>//</s></l> </lg> <div type="avataranika" xml:id="Kj53a"> atha kālavañcanam/ </div> <lg xml:id="Kj53"> <l> <s type="pada">jīvanmuktaḥ sadeho'haṃ</s> <s type="pada">vicarāmi jagattraye/</s></l> <l> <s type="pada">iti <app><lem wit="#N9">sā jāyate</lem><rdg wit="#E4">sā yāyate</rdg><rdg wit="#V3">sa jāyate</rdg><rdg wit="#J6">saṃjāyate</rdg></app> vāñchā</s> <s type="pada">yoginas ta<app><lem wit="#E4 #V3"><seg type="ltn-ignore">n </seg>nibodha me</lem><rdg wit="#J6">nibodhata</rdg></app>//</s></l> </lg> <lg xml:id="Kj54"> <l> <s type="pada">śarīraṃ na <app><lem wit="#N9">tyajaty eva</lem><rdg wit="#E4">tyajatyeca</rdg><rdg wit="#V3">tyajate ca</rdg><rdg wit="#J6">tyajati ca</rdg></app></s> <s type="pada"><app><lem resp="ego">kālaḥ</lem><rdg wit="#E4 #V3">kulaṃ</rdg><rdg wit="#J6ac">kula</rdg><rdg wit="#J6pc">manaḥ</rdg></app> <app><lem wit="#E4 #V3">kasyāpi</lem><rdg wit="#J6">tasyāpi</rdg></app> <app><lem wit="#N9 #J6">kutra</lem><rdg wit="#E4 #V3">kvatra</rdg></app>cit/</s></l> <l> <s type="pada"><app><lem wit="#J6pc">ataḥ</lem><rdg wit="#E4 #V3 #J6ac">antaḥ</rdg></app> <app><lem wit="#N9 #J6">śarīra</lem><rdg wit="#E4 #V3">śarīraṃ</rdg></app>rakṣārthaṃ</s> <s type="pada">yatnaḥ kāryas tu yoginā//</s></l> </lg> <lg xml:id="Kj55"> <l> <s type="pada">yoginā satataṃ <app><lem wit="#E4 #V3">yatnā<seg type="deva-ignore">d</seg></lem><rdg wit="#J6">yatno</rdg></app></s><s type="pada"><app><lem wit="#J6"><seg type="ltn-ignore">d </seg>ariṣṭānāṃ</lem><rdg wit="#E4 #V3">ariṣṭānaṃ</rdg></app> <app><lem resp="ego">vicāraṇā</lem><rdg wit="#E4 #V3 #J6">vicāraṇāt</rdg></app>/</s></l> <l> <s type="pada"><app><lem resp="ego">kartavyā</lem><rdg wit="#E4 #V3 #J6">kartavyo</rdg></app> yena kālo'sau</s> <s type="pada">jñāto hanti <app><lem wit="#E4 #V3">cchalān na</lem><rdg wit="#J6">balān na</rdg></app> tam//</s></l> </lg> <lg xml:id="Kj56"> <l> <s type="pada">jñātvā ca kālaṃ <app><lem wit="#E4 #V3">taṃ samyag</lem><rdg wit="#J6">samyak ca</rdg></app></s> <s type="pada">layasthānaṃ samāśritaḥ/</s></l> <l> <s type="pada">yuñjīta yogaṃ <app><lem resp="ego">kālo'sya</lem><rdg wit="#E4 #V3 #J6">kālasya</rdg></app></s> <s type="pada">yathāsau jāyate<app><lem wit="#J6pc">'phalaḥ</lem><rdg wit="#E4 #V3 #J6ac">'phalaṃ</rdg></app>//</s></l> </lg> <lg xml:id="Kj57"> <l> <s type="pada">baddhasiddhāsano dehaṃ</s> <s type="pada">pūrayet prāṇavāyunā/</s></l> <l> <s type="pada">kṛtvā <app><lem wit="#J6">daṇḍaṃ</lem><rdg wit="#E4 #V3">daṇḍa</rdg></app> sthiraṃ buddhyā</s> <s type="pada"><app><lem wit="#E4 #V3 #J6pc">daśa</lem><rdg wit="#J6ac">deśa</rdg></app> dvārāṇi rundhayet//</s></l> </lg> <lg xml:id="Kj58"> <l> <s type="pada">bandhaye<app><lem wit="#V3 #J6"><seg type="ltn-ignore">t </seg>khecarī</lem><rdg wit="#E4">khecarīṃ</rdg></app>mudrāṃ</s> <s type="pada">grīvāyāṃ ca jalandharam/</s></l> <l> <s type="pada"><app><lem resp="ego">apāne mūlabandhaṃ</lem><rdg wit="#E4 #V3 #J6">apānaṃ mūlabandhe</rdg></app> ca</s> <s type="pada"><app><lem wit="#E4 #V3">uḍḍiyāṇaṃ</lem><rdg wit="#J6">uḍḍiyānaṃ</rdg></app> <app><lem wit="#V3 #J6">tathodare</lem><rdg wit="#E4">tathodaraṃ</rdg></app>//</s></l> </lg> <lg xml:id="Kj59"> <l> <s type="pada">utthāpya <app><lem resp="ego">bhujagīṃ</lem><rdg wit="#E4 #V3">bhujaṃgī</rdg><rdg wit="#J6">bhujagī</rdg></app> <app><lem wit="#E4 #J6">śaktiṃ</lem><rdg wit="#V3">śakti</rdg></app></s> <s type="pada">mūlād ghātair adhaḥ<app><lem wit="#N9 #J6">sthitām</lem><rdg wit="#E4 #V3">sthitā</rdg></app>/</s></l> <l> <s type="pada">suṣumnāntargatāṃ pañca</s><s type="pada">cakrāṇāṃ <app><lem wit="#E4 #J6">bhedinīṃ</lem><rdg wit="#V3">bhedinī</rdg></app> śivām//</s></l> </lg> <lg xml:id="Kj60"> <l> <s type="pada"><app><lem resp="ego">jīvaṃ</lem><rdg wit="#E4 #V3 #J6">bandhaṃ</rdg></app> <app><lem wit="#E4 #V3">hṛdyā</lem><rdg wit="#J6">buddhyā</rdg></app>śrayaṃ nītvā</s> <s type="pada"><app><lem resp="ego">yāntīṃ</lem><rdg wit="#E4 #V3 #J6">yānti</rdg></app> <app><lem wit="#N9">buddhi</lem><rdg wit="#E4 #V3 #J6">buddhiṃ</rdg></app><app><lem resp="ego">manoyutām</lem><rdg wit="#E4 #V3 #J6">manojitam</rdg></app>/</s></l> <l> <s type="pada">sahasradalapadma<app><lem resp="ego">sthe</lem><rdg wit="#E4">sthāṃ</rdg><rdg wit="#V3 #J6pc">sthā</rdg><rdg wit="#J6ac">ścā</rdg></app></s> <s type="pada"><app><lem wit="#E4pc">śive</lem><rdg wit="#J6">śivāṃ</rdg><rdg wit="#E4ac #V3">śivo</rdg></app> līnāṃ vicintayet//</s></l> </lg> <lg xml:id="Kj61"> <l> <s type="pada"><app><lem resp="ego">tataḥ sudhākaro</lem><rdg wit="#E4 #V3 #J6ac">aśrudhārākaro</rdg><rdg wit="#J6pc">sudhādhārākaro</rdg></app><app><lem wit="#E4 #V3"><seg type="deva-ignore">°</seg>dbhūta<seg type="deva-ignore">m</seg></lem><rdg wit="#J6">dbhūtāṃm</rdg></app></s><s type="pada"><app><lem wit="#E4 #J6"><seg type="ltn-ignore">m </seg>amṛtaṃ</lem><rdg wit="#V3">amṛta</rdg></app> <app><lem wit="#E4 #V3">tena</lem><rdg wit="#J6">yena</rdg></app> <app><lem resp="ego">mūlataḥ</lem><rdg wit="#E4 #V3">mūlitam</rdg><rdg wit="#J6">mūrcchitam</rdg></app>/</s></l> <l> <s type="pada"><app><lem wit="#E4 #J6">siñcantīṃ</lem><rdg wit="#V3">siṃcaṃtā</rdg></app> sakalaṃ dehaṃ</s> <s type="pada"><app><lem wit="#E4 #J6">plāvayantīṃ</lem><rdg wit="#V3">plāvayaṃtī</rdg></app> vicintayet//</s></l> </lg> <lg xml:id="Kj62"> <l> <s type="pada">tayā sārdhaṃ tato yogī</s> <s type="pada">śivenaikātmatāṃ vrajet/</s></l> <l> <s type="pada">parānandamayo bhūtvā</s> <s type="pada">cidvṛttim api saṃtyajet//</s><note type="myfn">This verse has been omitted in the collated manuscripts but is found in J<hi rend="sub">15</hi> of the <ref target="#E4"/> group, the 10-chapter <hi>Haṭhapradīpikā</hi> (10.26) and all of the reported testimonia.</note></l> </lg> <lg xml:id="Kj63"> <l> <s type="pada">tato<app><lem resp="ego">'lakṣyam anābhāsa<seg type="deva-ignore">m</seg></lem><rdg wit="#E4 #V3">lakṣamanābhyāsam</rdg><rdg wit="#J6">lakṣyamano'bhyāsam</rdg></app>m</s> <s type="pada">ahaṃbhāvavi<app><lem wit="#E4 #V3 #J6pc">varjitam</lem><rdg wit="#J6ac">varjitaḥ</rdg></app>/</s></l> <l> <s type="pada">sarvāṅgakalpanāhīnaṃ</s> <s type="pada">kathaṃ kālo nihanti tam//</s></l> </lg> <lg xml:id="Kj64"> <l> <s type="pada">sa eva kālaḥ sa śivaḥ</s> <s type="pada">sa <app><lem resp="ego">sarvaṃ nāpi</lem><rdg wit="#E4 #V3">sarve nāpi</rdg><rdg wit="#J6">sarveṇāpi</rdg></app> kiñ cana/</s></l> <l> <s type="pada">kaḥ kena hanyate tatra</s> <s type="pada">mriyate <app><lem resp="ego">nāpi</lem><rdg wit="#E4 #V3">vāpi</rdg><rdg wit="#J6">cāpi</rdg></app> <app><lem wit="#V3 #J6">kaścana</lem><rdg wit="#E4">kaścanaḥ</rdg></app>//</s></l> </lg> <lg xml:id="Kj65"> <l> <s type="pada">tato vyatīte samaye</s> <s type="pada">kālasya bhrānti<app><lem wit="#J6">rūpiṇaḥ</lem><rdg wit="#E4 #V3">rūpiṇā</rdg></app>/</s></l> <l> <s type="pada"><app><lem wit="#J6pc">yogī</lem><rdg wit="#V3 #J6ac">yoga</rdg><rdg wit="#E4">yogena</rdg></app> suptotthita iva</s> <s type="pada">bodhaṃ yāti <app><lem wit="#E4 #J6">prabodhataḥ</lem><rdg wit="#V3">prabodhata</rdg></app>//</s></l> </lg> <lg xml:id="Kj66"> <l> <s type="pada">evaṃ siddho bhaved yogī</s> <s type="pada"><app><lem wit="#V3 #J6">vañcayitvā</lem><rdg wit="#E4">vaṃcayatvā</rdg></app> vidhānataḥ/</s></l> <l> <s type="pada">kālaṃ kalitasaṃsāraṃ</s> <s type="pada">pauruṣeṇādbhutena hi//</s></l> </lg> <lg xml:id="Kj67"> <l> <s type="pada">tatra <app><lem wit="#E4 #J6">tribhuvane</lem><rdg wit="#V3">tribhavane</rdg></app> yogī</s> <s type="pada">viharaty eka eva saḥ/</s></l> <l> <s type="pada">paśyan saṃsāra<app><lem wit="#N9 #J6">vaicitryaṃ</lem><rdg wit="#E4 #V3">vaicitrīṃ</rdg></app></s> <s type="pada">svecchayā nirahaṃkṛtiḥ//</s></l> </lg> <lg xml:id="Kj68"> <l> <s type="pada">yathārkaraśmisaṃyogā</s><s type="pada"><app><lem wit="#N9"><seg type="ltn-ignore">d </seg>arkakānto</lem><rdg wit="#J6pc">arkakāco</rdg><rdg wit="#E4 #V3 #J6ac">arkakaṇṭho</rdg></app> hutāśanam/</s></l> <l> <s type="pada">āviṣkaroti naikaḥ san</s> <s type="pada">dṛṣṭāntas tu sa yoginaḥ//</s></l> </lg> <div type="postmula" xml:id="Kj68p"> iti kālavañcanam// </div> 
+</body>
+</text>
+</TEI>

@@ -1,0 +1,249 @@
+% new commands
+
+% \mydelim
+% \mylem
+% == used in commentary files ==
+% \newenvironment{appinnote}{%
+% \newenvironment{variants}{% = appinnote
+% \varsep
+
+% additions 2025-12 md:
+\TeXtoTEI{versenr}{} 
+\TeXtoTEIPat{\expnr {#1}}{#1}
+\TeXtoTEIPat{\textapp {#1}}{#1}
+
+% additions 2025-08-23 md:
+\TeXtoTEIPat{\piOne}{π<hi rend="sub">1</hi>}% P11 new
+\TeXtoTEIPat{\piTwo}{π<hi rend="sub">2</hi>}% C6 new
+\TeXtoTEIPat{\piOmega}{π<hi rend="sub">ω</hi>}% V3 new
+\TeXtoTEIPat{\textpi}{π}
+
+% additions/changes 2025-04-04 mm:
+\TeXtoTEIPat{\textZeta}{Ζ}
+\TeXtoTEIPat{\textzeta}{ζ}
+\TeXtoTEIPat{\delta}{δ}
+\TeXtoTEIPat{\epsilon}{ε}
+\TeXtoTEIPat{\zetaOne}{ζ<hi rend="sub">1</hi>}
+\TeXtoTEIPat{\zetaTwo}{ζ<hi rend="sub">2</hi>}
+\TeXtoTEIPat{\zetaThree}{ζ<hi rend="sub">3</hi>}
+\TeXtoTEIPat{\zetaFour}{ζ<hi rend="sub">4</hi>}
+\TeXtoTEIPat{\zetaOmega}{ζ<hi rend="sub">ω</hi>}
+\TeXtoTEIPat{\eta}{η}
+
+% additions/changes 2024-07-04 mm:
+\TeXtoTEIPat{\lb}{<lb/>}
+\TeXtoTEIPat{\begin {quote}}{<q>}
+  \TeXtoTEIPat{\end {quote}}{</q>}
+\TeXtoTEIPat{\begin {enumerate}}{<list rend="numbered">}
+  \TeXtoTEIPat{\end {enumerate}}{</list>}
+\TeXtoTEI{item}{item}
+
+% additions/changes 2024-07-01 mm:
+%\TeXtoTEIPat{\unavbl {#1}}{<note type="foliolost">Folio lost in <ref>#1</ref></note>}
+%\TeXtoTEIPat{\NotIn {#1}}{<note type="omission">Omitted in <ref>#1</ref></note>}
+\TeXtoTEI{graus}{span}[type="altrec"]
+\TeXtoTEI{grau}{span}[type="altrec"]
+
+% addition 2024-03-15 MD
+\TeXtoTEIPat{\manuref {#1}}{#1}
+
+\TeXtoTEIPat{\alphaOne}{α<hi rend="sub">1</hi>}% N3
+\TeXtoTEIPat{\alphaTwo}{α<hi rend="sub">2</hi>}% J5
+\TeXtoTEIPat{\alphaThree}{α<hi rend="sub">3</hi>}% G4
+\TeXtoTEIPat{\betaOne}{β<hi rend="sub">1</hi>}% P11 old
+\TeXtoTEIPat{\betaTwo}{β<hi rend="sub">2</hi>}% C6 old
+\TeXtoTEIPat{\betaOmega}{β<hi rend="sub">ω</hi>}% V3 old
+\TeXtoTEIPat{\gammaOne}{γ<hi rend="sub">1</hi>}% N23
+\TeXtoTEIPat{\gammaTwo}{γ<hi rend="sub">2</hi>}% J7
+\TeXtoTEIPat{\deltaOne}{δ<hi rend="sub">1</hi>}% V19
+\TeXtoTEIPat{\deltaTwo}{δ<hi rend="sub">2</hi>}% K3
+\TeXtoTEIPat{\deltaThree}{δ<hi rend="sub">3</hi>}% C7
+\TeXtoTEIPat{\deltaOmega}{δ<hi rend="sub">ω</hi>}% J6
+\TeXtoTEIPat{\epsilonOne}{ε<hi rend="sub">1</hi>}% P15
+\TeXtoTEIPat{\epsilonTwo}{ε<hi rend="sub">2</hi>}% N19
+\TeXtoTEIPat{\epsilonThree}{ε<hi rend="sub">3</hi>}% V15
+%\TeXtoTEIPat{\epsilonFour}{ε<hi rend="sub">4</hi>}% J11
+%\TeXtoTEIPat{\epsilonOmega}{ε<hi rend="sub">ω</hi>}% N26
+\TeXtoTEIPat{\etaOne}{η<hi rend="sub">1</hi>}% V1
+\TeXtoTEIPat{\etaTwo}{η<hi rend="sub">2</hi>}% J10
+\TeXtoTEIPat{\etaOmega}{η<hi rend="sub">ω</hi>}% E4
+
+% addition 2023-12-11 MD:
+\TeXtoTEIPat{\begin {metre}[#1]}{<note type="metre" target="##1">}
+\TeXtoTEIPat{\end {metre}}{</note>}
+\TeXtoTEIPat{\texttheta}{θ}
+
+% change 2023-12-05 mm
+\TeXtoTEI{teimute}{} 
+
+% changes/additions 2023-11-27 MM:
+\TeXtoTEIPat{\medialink {#1}{#2}}{<ref target="resources/#2">#1</ref>}
+
+% changes/additions 2023-10-25 MM:
+% new Sigla
+\TeXtoTEIPat{\textAlpha}{Α}
+\TeXtoTEIPat{\textalpha}{α}
+\TeXtoTEIPat{\textBeta}{Β}
+\TeXtoTEIPat{\textbeta}{β}
+\TeXtoTEIPat{\textGamma}{Γ}
+\TeXtoTEIPat{\textgamma}{γ}
+\TeXtoTEIPat{\textDelta}{Δ}
+\TeXtoTEIPat{\textdelta}{δ}
+\TeXtoTEIPat{\textEpsilon}{Ε}
+\TeXtoTEIPat{\textepsilon}{ε}
+\TeXtoTEIPat{\textEta}{Η}
+\TeXtoTEIPat{\texteta}{η}
+\TeXtoTEIPat{\textChi}{Χ}
+\TeXtoTEIPat{\textchi}{χ}
+\TeXtoTEIPat{\textOmega}{Ω}
+\TeXtoTEIPat{\textomega}{ω}
+
+%new environments
+\TeXtoTEIPat{\begin {postmula}[#1]}{<div type="postmula" xml:id="#1">} %%% changed 2024-07-01 mm
+  \TeXtoTEIPat{\end {postmula}}{</div>}  %%% changed 2024-07-01 mm
+  
+\TeXtoTEIPat{\begin {altpostmula}[#1]}{<div type="altrec"><div type="postmula" xml:id="#1">} %%% added 2024-07-03 md
+  \TeXtoTEIPat{\end {altpostmula}}{</div></div>} %%% added 2024-07-03 md
+
+\TeXtoTEIPat{\begin {altava}[#1]}{<div type="altrec"><div type="avataranika" xml:id="#1">} %%% changed 2024-07-01 mm
+  \TeXtoTEIPat{\end {altava}}{</div></div>} %%% changed 2024-07-01 mm
+
+\TeXtoTEIPat{\sgwit {#1}}{<note type="inlineref"><ref>#1</ref></note>}
+
+% changes/additions 2023-10-12 MM:
+\TeXtoTEIPat{\\.}{}
+
+% changes/additions 2023-08-15 MD:
+\TeXtoTEIPat{\lineom {#1}{#2}}{<note type="omission">#1 omitted in <ref>#2</ref></note>}
+%\TeXtoTEIPat{\startgray}{} %%% changed 2023-12-05 mm; not used 2024-03-26 MD
+%\TeXtoTEIPat{\endgray}{} %%% changed 2023-12-05 mm; not used 2024-03-26 MD
+
+% additions/changes 2023-06-05 mm:
+%\TeXtoTEIPat{\lineom {#1}}{<note type="omission">Line omitted in <ref>#1</ref></note>}
+
+% additions 2023-04-16 MD:
+\TeXtoTEIPat{\,}{ }
+
+% additions 2023-04-13 mm:
+\TeXtoTEIPat{\begin {versinnote}}{<lg>}
+  \TeXtoTEIPat{\end {versinnote}}{</lg>}
+
+% additions 2023-04-05 MD:
+\TeXtoTEIPat{\begin {testimonia}[#1]}{<note type="testimonia" target="##1">}
+  \TeXtoTEIPat{\end {testimonia}}{</note>}
+\TeXtoTEI{devnote}{s}[xml:lang="sa-deva"]
+
+% app in philcomm und testimonia %%% added MM 2023-12-02
+%\TeXtoTEI{var}{note}[type="appinnote"]
+
+
+\TeXtoTEI{anm}{note}[type="memo"] %% change 2023-04-16 MD
+\TeXtoTEI{Anm}{note}[type="memo"] %% change 2023-12-05 MM
+\TeXtoTEIPat{\startverse}{} %%% marked for change 2023-04-13 mm
+\TeXtoTEIPat{\endverse}{} %%% marked for change 2023-04-13 mm
+\TeXtoTEIPat{\newpage}{}
+\TeXtoTEIPat{\marmas}{ } % changed 2024-03-17 MD
+\TeXtoTEIPat{\marma}{}
+\TeXtoTEIPat{\vin}{} % added by MD 2023-11-14
+
+%%% modify environments and commands
+%%% TEI mapping
+% additions/changes 2022-06-07 mm:
+\TeXtoTEIPat{ \& }{ &amp; }
+
+% additions/changes 2022-06-01 mm:
+\TeXtoTEI{skp}{seg}[type="deva-ignore"]
+\TeXtoTEI{skm}{seg}[type="ltn-ignore"]
+
+\TeXtoTEIPat{\rlap {#1}}{#1}
+
+% additions/changes 2022-04-06 mm:
+%\TeXtoTEI{sgwit}{ref}
+\TeXtoTEI{textdev}{s}[xml:lang="sa-deva"]
+\TeXtoTEIPat{\begin {col}[#1]}{<div type="colophon" xml:id="#1">}
+  \TeXtoTEIPat{\end {col}}{</div>}
+\TeXtoTEIPat{\begin {ava}[#1]}{<div type="avataranika" xml:id="#1">} %%% changed 2024-07-01 mm
+  \TeXtoTEIPat{\end {ava}}{</div>} %%% changed 2024-07-01 mm
+												   
+\TeXtoTEIPat{\outdent}{}
+\TeXtoTEIPat{\startaltrecension}{} %%% changed 2023-12-05 mm
+\TeXtoTEIPat{\endaltrecension}{} %%% changed 2023-12-05 mm
+\TeXtoTEIPat{\startaltnormal}{} % added by MD 2023-11-14 %%% changed 2023-12-05 mm
+\TeXtoTEIPat{\endaltnormal}{} % added by MD 2023-11-14 %%% changed 2023-12-05 mm
+\TeXtoTEIPat{\begin {alttlg}[#1]}{<div type="altrec"><lg xml:id="#1">}
+  \TeXtoTEIPat{\end {alttlg}}{</lg></div>}
+
+
+
+% additions/changes 2022-03-12 mm:
+\TeXtoTEIPat{\begin {tlg}[#1]}{<lg xml:id="#1">}
+  \TeXtoTEIPat{\end {tlg}}{</lg>}
+
+\TeXtoTEIPat{\begin {translation}[#1]}{<note type="translation" target="##1">}
+  \TeXtoTEIPat{\end {translation}}{</note>}
+\TeXtoTEIPat{\begin {philcomm}[#1]}{<note type="philcomm" target="##1">}
+  \TeXtoTEIPat{\end {philcomm}}{</note>}
+\TeXtoTEIPat{\begin {sources}[#1]}{<note type="sources" target="##1">}
+  \TeXtoTEIPat{\end {sources}}{</note>}
+
+
+\TeXtoTEIPat{\begin {marma}[#1]}{<note type="marma" target="##1">}
+  \TeXtoTEIPat{\end {marma}}{</note>}
+
+\TeXtoTEIPat{\begin {jyotsna}[#1]}{<note type="jyotsna" target="##1">}
+  \TeXtoTEIPat{\end {jyotsna}}{</note>}
+
+\EnvtoTEI{description}{list}
+\EnvtoTEI{itemize}{list}
+\TeXtoTEIPat{\item [#1]}{<label>#1</label>\item}
+
+\TeXtoTEI{tl}{l}
+\TeXtoTEI{myfn}{note}[type="myfn"]
+\TeXtoTEIPat{\getsiglum {#1}}{<ref target="##1"/>}
+
+\TeXtoTEI{SetLineation}{}
+\TeXtoTEI{noindent}{}
+\TeXtoTEI{subsection*}{}
+
+\TeXtoTEI{rlap}{}
+
+% end additions/changes
+% \TeXtoTEIPat{\skp {#1}}{#1}
+% \TeXtoTEIPat{\skm {#1}}{}
+
+\TeXtoTEIPat{\begin {prose}}{<p>}
+  \TeXtoTEIPat{\end {prose}}{</p>}
+
+\TeXtoTEIPat{\begin {tlate}}{<p>}
+  \TeXtoTEIPat{\end {tlate}}{</p>}
+
+\TeXtoTEI{emph}{hi}
+\TeXtoTEI{smallskip}{}
+\TeXtoTEI{medskip}{}
+\TeXtoTEI{bigskip}{}
+% \TeXtoTEI{/}{|}
+\TeXtoTEI{tl}{l}
+\TeXtoTEIPat{english}{}
+%\TeXtoTEIPat{-}{ } %% change 2023-04-16 MD
+%\TeXtoTEIPat{°}{} %% change 2023-04-16 MD
+\TeXtoTEIPat{\textcolor {#1}{#2}}{<hi rend="#1">#2</hi>}
+
+\TeXtoTEIPat{\add}{<hi rend="italic">add.</hi>} %% change 2023-04-16 MD
+\TeXtoTEIPat{\ante}{<hi rend="italic">ante</hi> } %% change 2023-04-16 MD
+\TeXtoTEIPat{\post}{<hi rend="italic">post</hi> } %% change 2023-04-16 MD
+\TeXtoTEIPat{\illeg}{<gap reason="illeg."/>} %%% change 2023-04-11 mm
+\TeXtoTEIPat{\om}{<gap reason="om."/>} %%% change 2023-04-11 mm
+\TeXtoTEIPat{\vl}{<hi rend="italic">v.l.</hi>}
+\TeXtoTEIPat{\unm}{<hi rend="italic">unm.</hi>}
+\TeXtoTEIPat{\lacuna}{<gap reason="lac."/>} % addition 2024-03-24 MD
+\TeXtoTEIPat{\lost}{<gap reason="lost"/>} % addition 2024-06-24 MD
+
+% List of Scholars
+\DeclareScholar{nos}{nos}[
+forename=HPP,
+surname=Team]
+
+% Nullify \selectlanguage in TEI as it has been used in
+% \DeclareWitness but should be ignored in TEI.
+\TeXtoTEI{selectlanguage}{}
+

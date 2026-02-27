@@ -1,0 +1,27 @@
+<list>
+  <group>
+    <id>hp01_016_1</id>
+    <id>hp01_016_2</id>
+  </group>
+  <group>
+    <id>hp01_045</id>
+    <id>hp01_046</id>
+  </group>
+  <group>
+    <id>hp01_050</id>
+    <id>hp01_051</id>
+    <id>hp01_052</id>
+  </group>
+  <group>
+    <id>hp01_053</id>
+    <id>hp01_054</id>
+  </group>
+  <group>
+    <id>hp01_055_1</id>
+    <id>hp01_055_2</id>
+  </group>
+  <group>
+    <id>hp03_034_1</id>
+    <id>hp03_034_2</id>
+  </group>
+</list>

@@ -1,5 +1,13 @@
 <?xml version="1.0"?>
 <locatingRules xmlns="http://thaiopensource.com/ns/locating-rules/1.0">
+  <uri resource="HP1_pub-tei.xml" uri="tei-schema/tei_all.rnc"/>
+  <uri resource="HP2_pub-tei.xml" uri="tei-schema/tei_all.rnc"/>
+  <uri resource="HP3_pub-tei.xml" uri="tei-schema/tei_all.rnc"/>
+  <uri resource="HP4_pub-tei.xml" uri="tei-schema/tei_all.rnc"/>
+  <uri resource="HP4_pub2-tei.xml" uri="tei-schema/tei_all.rnc"/>
+  <uri resource="HP4X_pub-tei.xml" uri="tei-schema/tei_all.rnc"/>
+  <uri resource="HP4X_merged-tei.xml" uri="tei-schema/tei_all.rnc"/>
+  <uri resource="Kalajnana.xml" uri="tei-schema/tei_all.rnc"/>
   <uri resource="HP1_text-tei.xml" uri="tei-schema/tei_all.rnc"/>
   <uri resource="HP2_text-tei.xml" uri="tei-schema/tei_all.rnc"/>
   <uri resource="HP3_text-tei.xml" uri="tei-schema/tei_all.rnc"/>

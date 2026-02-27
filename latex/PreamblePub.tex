@@ -1,0 +1,508 @@
+\documentclass[11pt,twoside]{article}
+\usepackage[papersize={17cm,24cm},
+	centering, textwidth=12.5cm, textheight=17.9cm,
+	asymmetric]{geometry} % so that the orgvnr always appear on the right side
+%\linespread{1.1}
+\sloppy
+
+\usepackage{xcolor, xparse, xspace, pifont, datetime2}
+\usepackage{enumitem}
+
+\newcommand{\HP}{\textit{Haṭha\-pra\-dī\-pikā}\xspace}
+
+\usepackage{fancyhdr}
+	\renewcommand{\headrulewidth}{0pt}
+	\fancyhead[EL]{\small\texteng{\thepage}}
+	\fancyhead[ER]{\small\texteng{Critical Edition \& Translation}}
+	\fancyhead[OL]{\small\texteng{HP\hindsection}}
+	\fancyhead[OR]{\small\texteng{\thepage}}
+	\fancyhead[C]{}
+	\fancyfoot[C]{}
+%	\pagestyle{fancy}
+
+\fancypagestyle{firstpage}{%
+	\fancyhead[OL]{\small\texteng{(\Today)}}
+	\fancyhead[OR]{\small\texteng{\thepage}}
+	\fancyhead[C]{}
+	}
+
+\fancypagestyle{HPed}{%
+	\renewcommand{\headrulewidth}{0pt}
+	\fancyhead[EL]{\small\texteng{\thepage}}
+	\fancyhead[ER]{\small\texteng{[\rightmark\textendash}}
+	\fancyhead[OL]{\small\texteng{\textendash\leftmark]}}
+	\fancyhead[OR]{\small\texteng{\thepage}}
+	\fancyhead[C]{\small\texteng{Critical Edition}}
+	\fancyfoot[C]{}
+	}
+\pagestyle{HPed}
+
+\usepackage{scrextend}
+	\deffootnote[]{0em}{1em}{}
+%	\deffootnote[2.1em]{0em}{1.5em}{\color{blue}\texteng{\textbf{Verse \thefootnotemark}}}
+\usepackage{fnpos}
+	\makeFNbottom
+%\footnoterulefalse
+\setlength{\footnotesep}{1em}
+%\dimen\footins=??
+%\renewcommand{\footnotesize}{\small}  % Wirkt auf App und Fn beides.
+
+\usepackage[english]{babel}
+\usepackage{babel-iast}
+\babelfont[iast]{rm}[Renderer=Harfbuzz, Scale=1.1]{AdishilaSan}
+\babeltags{dev = iast}
+\babeltags{eng = english}
+\usepackage{libertine}
+
+\usepackage[teiexport=tidy,poetry=verse]{ekdosis}
+\usepackage{sanskrit-poetry}
+\input{MssNewSigla}
+\input{Manuscript-Sigla.tex}
+\input{TeX2Tei-Commands}
+
+\setlength\parindent{1em}
+\SetLineation{lineation=none}
+\poemlines{0}
+
+\SetHooks{
+	lemmastyle=\bfseries,
+	refnumstyle=\selectlanguage{english}\color{blue}\bfseries, 
+	appfontsize=\footnotesize
+	}
+\DeclareApparatus{default}[
+	lang=english,
+	sep = {] },
+	delim=\hskip 0.75em,
+	%	rule=none,
+	]
+\DeclareApparatus{anmkg}[
+	notelang=english,
+	sep = { },
+	delim=\texteng{\ \textbullet\ \ },
+%	rule=\relax
+	rule=\rule{0.15\columnwidth}{0.4pt}
+	]
+
+\newcommand{\mydelim}{\xspace\textcolor{violet}{\textbullet}\ \ }
+\newcommand{\mylem}[1]{\texteng{\textcolor{violet}{#1}}}
+\setlength{\vrightskip}{-15pt}
+\setlength{\vgap}{-3em} % default 1.5em
+\verselinenumfont{\footnotesize\selectlanguage{english}\normalfont}
+
+\newlength{\myoutdent}\setlength{\myoutdent}{2em}
+
+\DeclareShorthand{emend}{\texteng{\emph{em.}}}{ego}
+%\DeclareShorthand{conj}{\texteng{\emph{conj.}}}{ego}
+
+%Define two commands: \skp ("sanskrit plus"), to be ignored by TeX in
+%the edition text, but processed in the TEI output. Conversely, \skm
+%("sanskrit minus") is to be processed in the edition text, but
+%ignored if found in the apparatus criticus and in the TEI output:
+
+\newif\ifinapparatus
+\NewDocumentCommand{\skp}{m}{}
+\NewDocumentCommand{\skm}{m}{\unless\ifinapparatus#1\fi}
+
+\SetTEIxmlExport{autopar=false}
+
+\newcommand{\versenr}{\ \themyvnum//}
+
+\NewDocumentEnvironment{tlg}{O{}}{
+	\def\hpvnum{\texteng{\thepoemline}}
+	\markboth{\hpvnum}{\hpvnum}
+	\setcounter{myvnum}{\value{poemline}}
+	\begin{ekdverse}
+	\Large}{\normalsize
+	\end{ekdverse}
+	%\smallskip
+%  \stepcounter{myvnum}
+}
+
+\NewDocumentEnvironment{alttlg}{O{}}{
+	\setvnum{\hindsection.\arabic{saved@poemline}*\arabic{poemline}}
+	\def\hpvnum{\texteng{\hindsection.\arabic{saved@poemline}*\arabic{poemline}}}
+	\markboth{\hpvnum}{\hpvnum}
+	\setcounter{altvnum}{\value{poemline}}
+	\begin{ekdverse}[type=altrecension]
+	\color{gray}
+	\Large}{\normalsize
+	\end{ekdverse}
+	%\smallskip
+}
+
+\NewDocumentCommand{\tl}{m}{#1}
+
+\NewDocumentEnvironment{ava}{O{}}{
+	\setvnum{prescript:}
+	\begin{ekdverse}
+	\hspace{-\myoutdent}
+	\Large}{\normalsize
+	\end{ekdverse}
+	\smallskip
+}
+
+\NewDocumentEnvironment{altava}{O{}}{
+	\setvnum{prescript:}
+	\begin{ekdverse}[type=altrecension]
+	\color{gray}
+	\hspace{-\myoutdent}
+	\Large}{\normalsize
+	\end{ekdverse}
+	\smallskip
+}   
+
+\NewDocumentEnvironment{postmula}{O{}}{
+	\setvnum{postscript:}
+	\smallskip
+	\begin{ekdverse}
+	\hspace{-\myoutdent}
+	\Large}{\normalsize
+	\end{ekdverse}
+}
+
+\NewDocumentEnvironment{altpostmula}{O{}}{
+	\setvnum{postscript:}
+	\smallskip
+	\begin{ekdverse}[type=altrecension]
+	\color{gray}
+	\hspace{-\myoutdent}
+	\Large}{\normalsize
+	\end{ekdverse}
+}
+
+\NewDocumentEnvironment{col}{O{}}{
+	\setvnum{colophon:}
+	\medskip
+	\begin{ekdverse}%
+	\hspace{-2.5em}%
+	\Large%
+	}{\normalsize
+	\end{ekdverse}
+	%\smallskip
+      }
+      
+\NewDocumentCommand{\tcommref}{m}{}
+\NewDocumentCommand{\ttransref}{m}{}
+\NewDocumentCommand{\tnocomm}{}{}
+
+
+\def\startaltrecension{
+	\setcounter{altvnum}{0}
+	\stopvline
+	\addtocounter{saved@poemline}{-1}
+	\renewcommand{\versenr}{\ \themyvnum *{\small \arabic{poemline}}//}
+%	\small
+	}
+	
+\def\endaltrecension{
+	\addtocounter{saved@poemline}{1}
+	\startvline
+	\setvnum{\hindsection.\arabic{poemline}}
+	\renewcommand{\versenr}{\ \themyvnum//}
+%	\normalsize
+	}
+
+\def\startaltnormal{
+	\startaltrecension
+	\setvnum{\hindsection.\arabic{saved@poemline}*\arabic{poemline}}
+	}
+
+\def\endaltnormal{\endaltrecension}
+
+%%%%%%
+
+\newcommand{\teionly}[1]{}
+\newcommand{\teimute}[1]{#1}
+\newcommand{\manuref}[1]{#1}
+\newcounter{myvnum}\setcounter{myvnum}{0}
+\newcounter{altvnum}\setcounter{altvnum}{0}
+\newcounter{mynotenr}\setcounter{mynotenr}{0}
+%\newcommand{\myfn}[1]{\footnote{\texteng{#1}}}
+
+\newcommand{\myfn}[1]{%
+	\setcounter{ekd@padanum}{0} % um Pāda-Nummer zu unterdrücken
+	\stepcounter{mynotenr}%
+	\linelabel{note\themynotenr}%
+	\note[type=anmkg, labelb={note\themynotenr}]{#1}
+	}
+
+% \newcommand{\myfnx}[1]{%
+	% \setcounter{ekd@padanum}{0} % um Pāda-Nummer zu unterdrücken
+	% \stepcounter{mynotenr}%
+	% \linelabel{note\themynotenr}%
+	% \note[type=anmkg, labelb={note\themynotenr},num]{#1}
+	% }
+
+\renewcommand{\thefootnote}{\texteng{\arabic{footnote}}}
+\newcommand{\devnote}[1]{{\small\textdev{#1}}}
+\newcommand{\devtext}[1]{{\normalsize\textdev{#1}}}
+%\newcommand{\vsn}[1]{{\footnotesize\texteng{#1}}}
+\newcommand{\graus}[1]{\small\textcolor{gray}{#1}\normalsize} % partial altrecension
+\newcommand{\grau}[1]{\textcolor{gray}{#1}} % partial altrecension
+\newcommand{\Anm}[1]{\begin{ekdverse}
+	\texteng{\footnotesize (#1)}
+	\end{ekdverse}
+	}
+
+%\newcommand{\sgwit}[1]{{\footnotesize (\getsiglum{#1})}}
+%\newcommand{\NotIn}[1]{\texteng{\footnotesize (om. \getsiglum{#1})}}
+%\newcommand{\lineom}[2]{\texteng{\footnotesize (#1 om. \getsiglum{#2})}}
+%\newcommand{\anm}[1]{\texteng{\footnotesize [#1]}}
+\newcommand{\sgwit}[1]{}% Nur für Online version; Change TEI too!!
+%\newcommand{\lineom}[2]{\myfn{#1 om. \getsiglum{#2}}}
+\newcommand{\anm}[1]{\myfn{#1}}
+%\newcommand{\unavbl}[1]{\marginpar{\scriptsize\texteng{−\,\getsiglum{#1}}}}
+%\newcommand{\unavbl}[1]{\myfn{Folio lost in \getsiglum{#1}}}
+\newcommand{\textapp}[1]{\texteng{\textsf{#1}}}
+\newcommand{\unavbl}{\textapp{folio lost}}
+\newcommand{\incl}{\textapp{included in}}
+\newcommand{\only}{\textapp{only included in}}
+\newcommand{\also}{\textapp{also included in}}
+\newcommand{\excl}{\textapp{included in all except}}
+\newcommand{\NotIn}{\om}
+\newcommand{\expnr}[1]{\textcolor{magenta}{#1}}% X\kern 1pt
+
+\def\om{\texteng{\emph{om.\@}}}% \kern-0.3ex
+\def\illeg{\texteng{\emph{illeg.\@}}} 
+\def\lost{\texteng{\emph{lost}}} 
+\def\lacuna{\texteng{\emph{lac.\@}}}
+\def\unm{\texteng{\emph{unm.\ }}}
+\def\ante{\texteng{\normalfont\textapp{ante\ }}}
+\def\add{\texteng{\normalfont\emph{add.\@}}}
+\def\post{\texteng{\normalfont\textapp{post\ }}}
+\def\antecorr{\texteng{\textsubscript{ac}}}
+\def\postcorr{\texteng{\textsubscript{pc}}}
+\def\marmas{\ }%\texteng{\textsuperscript{\#}}\ }
+\def\marma{}%\texteng{\textsuperscript{\#}}}
+\def\crux{\texteng{\textsuperscript{\textdagger}}}
+
+%%%%%%% Commentary part
+
+\usepackage{catchfilebetweentags}
+
+\NewDocumentEnvironment{translation}{O{}}{%
+	\selectlanguage{english}}{%
+	\selectlanguage{iast}}
+	
+\NewDocumentEnvironment{sources}{O{}}{%
+	\selectlanguage{english}%
+	\begin{description}[leftmargin=1em, 
+		topsep=0pt, parsep=0pt, partopsep=0pt,
+		listparindent=0pt, labelwidth=1em, labelsep=0pt]
+	\item[\ding{118}\ Sources]
+	\item %
+	}{\end{description}\selectlanguage{iast}}
+
+\NewDocumentEnvironment{testimonia}{O{}}{%
+	\selectlanguage{english}%
+	\begin{description}[leftmargin=1em,
+		topsep=0pt, parsep=0pt, partopsep=0pt,
+		listparindent=0pt, labelwidth=1em, labelsep=0pt]
+	\item[\ding{118}\ Testimonia]
+	\item %
+	}{\end{description}\selectlanguage{iast}}
+	
+\NewDocumentEnvironment{philcomm}{O{}}{%
+	\selectlanguage{english}%
+	\begin{description}[leftmargin=1em, 
+		topsep=0pt, parsep=0pt, partopsep=0pt,
+		listparindent=1.5em,
+		labelwidth=1em, labelsep=0pt]
+	\item[\ding{118}\ Commentary]\ %
+	\newline
+	}{\end{description}\selectlanguage{iast}}
+
+\newenvironment{variants}{%
+	\begin{description}[%
+		leftmargin=4em,
+		topsep=3.5pt,
+		parsep=0pt,
+	%	partopsep=0pt,
+		listparindent=-1.5em,
+		labelwidth=2.5em,
+		labelsep=0pt]
+	\item\scriptsize}{%
+	\end{description}
+	}
+ 
+\newenvironment{versinnote}{%
+	\setlength{\vindent}{0pt}
+%	\poemlines{0}
+	\vspace{4pt plus 2pt minus 2pt}
+	\begin{ekdverse}
+	\linespread{0.9}\normalsize\selectlanguage{iast}}{%
+	\linespread{1}\selectlanguage{english}\end{ekdverse}
+	\vspace{4pt plus 2pt minus 2pt}
+%	\poemlines{1}
+	\addtocounter{poemline}{-1}
+	}
+
+  \newenvironment{versinnoterm}{%
+	\setlength{\vindent}{0pt}
+	\vspace{1pt}
+	\begin{ekdverse}
+		\itshape}{%
+		\rmfamily
+	\end{ekdverse}
+	\vspace{1pt}
+	\addtocounter{poemline}{-1}
+	}
+
+\newenvironment{appinnote}{% still in use: 1.16, 1.30, 2.50, 2.77, 3.25, 3.34, 3.39*1, 4.9
+	\setlength{\vindent}{0pt}
+	\begin{ekdverse}
+	\scriptsize\selectlanguage{english}}{%
+	\selectlanguage{iast}\end{ekdverse}
+	\vspace{3pt minus 1pt}
+	\addtocounter{poemline}{-1}
+}
+
+%\newcommand{\vnumfix}{\addtocounter{poemline}{1}}
+%\TeXtoTEIPat{\vnumfix}{}
+\newcommand{\labelincomm}{\smallskip\newline\noindent}
+%\TeXtoTEIPat{\labelincomm}{<lb/>} % >> PreambleComm.tex
+%\newcommand{\tre}{\ }
+%\TeXtoTEIPat{\tre}{}
+\newcommand{\skx}[2]{#1} % sandhi between pādas
+%\TeXtoTEIPat{\skx {#1}{#2}}{#2} % >> PreambleComm.tex
+%\TeXtoTEIPat{\commcitecore}{}
+%\TeXtoTEIPat{\commcite}{}
+%\TeXtoTEIPat{\commciterange}{}
+%\TeXtoTEIPat{\altcommcite}{}
+%\TeXtoTEIPat{\avacite}{}
+%\TeXtoTEIPat{\colcite}{}
+%\TeXtoTEIPat{\trcite}{}
+
+%\TeXtoTEIPat{\labelvnum}{}
+%\TeXtoTEIPat{\commvnum}{}
+
+\newcommand{\myvspace}{\vspace{-3pt plus 3pt minus 3pt}}
+\newcommand{\commlabel}{\hfill\texteng{\raisebox{0pt}{\textbf{[\hindsection.\labelvnum]}}}\hfill}
+
+\newcommand{\comminfn}{%
+	\footnotetext{%
+	\commlabel
+	\ExecuteMetaData[\commfilename]{sc\commvnum}%
+	\ExecuteMetaData[\commfilename]{ts\commvnum}%
+	\ExecuteMetaData[\commfilename]{cm\commvnum}%
+	}}
+	
+\newcommand{\commcitecore}{%
+	\myvspace
+	\begin{quote}%
+	\ExecuteMetaData[\commfilename]{tr\commvnum}
+	\texteng{(\labelvnum)}\comminfn
+	\end{quote}}
+
+\def\commfilename{HP\hindsection_comm.tex}
+\newcommand{\commcite}{%
+	\def\commvnum{\themyvnum}%
+	\def\labelvnum{\themyvnum}%
+	\commcitecore}
+
+\newcommand{\commciterange}[2]{%
+	\def\commvnum{#1}%
+	\def\labelvnum{#2}%
+	\commcitecore}
+	
+\newcommand{\altcommcite}{%
+	\def\commvnum{\themyvnum-\thealtvnum}%
+	\def\labelvnum{\themyvnum*\thealtvnum}%
+	\myvspace
+	\begin{quote}%
+	\textcolor{gray}{%
+	\ExecuteMetaData[\commfilename]{tr\commvnum}
+	\texteng{(\labelvnum)}}\comminfn
+	\end{quote}}
+
+\newcommand{\avacite}[1]{%
+	\bigskip%
+	\setlength{\parindent}{1em} %\hspace*{0.5em} in HP4X
+	\ExecuteMetaData[\commfilename]{tr#1}
+	\vspace{-3pt}
+	}
+
+\newcommand{\trcite}[1]{
+	\myvspace
+	\begin{quote}
+	\ExecuteMetaData[\commfilename]{tr#1}
+	\texteng{(#1)}
+	\end{quote}
+	}
+
+\newcommand{\alttrcite}{
+	\def\commvnum{\themyvnum-\thealtvnum}%
+	\def\labelvnum{\themyvnum*\thealtvnum}%
+	\myvspace
+	\begin{quote}
+	\textcolor{gray}{\ExecuteMetaData[\commfilename]{tr\commvnum}
+	\texteng{(\labelvnum)}}
+	\end{quote}
+	}
+
+\newcommand{\colcite}{
+	\medskip
+	\noindent
+	\ExecuteMetaData[\commfilename]{trcol}
+	}
+
+
+\newcommand{\closer}{\vspace{-1ex}}
+\newcommand{\lb}{\par}
+\newcommand{\mylb}{\smallskip\lb}
+\newcommand{\sep}{\par}
+% \TeXtoTEIPat{\sep}{<lb/>}% oder besser mit einem Trennzeichen in einer Zeile lassen?
+\def\vl{\textit{v.l.}\xspace}
+%\newcommand{\var}[1]{\texteng{\scriptsize #1}}
+%\newcommand{\varsep}{\xspace\texteng{\textbullet}\xspace}
+
+\def\sl#1{\emph{#1}}
+\newcommand{\medialink}[2]{\textcolor{violet}{\underline{#1}}}
+%\TeXtoTEIPat{\medialink {#1}{#2}}{<ref target="/images/#2">#1</ref>}
+\usepackage{url}
+
+\newcommand{\alphaOne}{\textalpha\textsubscript{1}}% N3
+\newcommand{\alphaTwo}{\textalpha\textsubscript{2}}% J5
+\newcommand{\alphaThree}{\textalpha\textsubscript{3}}% G4
+\newcommand{\gammaOne}{\textgamma\textsubscript{1}}% N23
+\newcommand{\gammaTwo}{\textgamma\textsubscript{2}}% J7
+\newcommand{\deltaOne}{\textdelta\textsubscript{1}}% V19
+\newcommand{\deltaTwo}{\textdelta\textsubscript{2}}% K3
+\newcommand{\deltaThree}{\textdelta\textsubscript{3}}% C7
+\newcommand{\deltaOmega}{\textdelta\textsubscript{\textomega}}% J6
+\newcommand{\epsilonOne}{\textepsilon\textsubscript{1}}% G11
+\newcommand{\epsilonTwo}{\textepsilon\textsubscript{2}}% G5
+\newcommand{\zetaOne}{\textzeta\textsubscript{1}}% P15
+\newcommand{\zetaTwo}{\textzeta\textsubscript{2}}% N19
+\newcommand{\zetaThree}{\textzeta\textsubscript{3}}% V15
+\newcommand{\zetaFour}{\textzeta\textsubscript{4}}% J11
+\newcommand{\zetaOmega}{\textzeta\textsubscript{\textomega}}% N26
+\newcommand{\etaOne}{\texteta\textsubscript{1}}% V1
+\newcommand{\etaTwo}{\texteta\textsubscript{2}}% J10
+\newcommand{\etaOmega}{\texteta\textsubscript{\textomega}}% E4
+\newcommand{\piOne}{\textpi\textsubscript{1}}% P11
+\newcommand{\piTwo}{\textpi\textsubscript{2}}% C6
+\newcommand{\piOmega}{\textpi\textsubscript{\textomega}}% V3
+
+\def\attr{\hbox{attrib.}\xspace}
+\babelhyphenation{%
+	Dattā-treya-yoga-śāstra
+	Gorakṣa-śataka
+	Go-rakṣa-nātha
+	Haṭha-pra-dī-pikā
+	Haṭha-ratnā-valī
+	Haṭha-tattva-kaumudī
+	Jāran-dhara
+	Rāja-yoga
+	Śām-bhavī
+	Śāṃ-bhavī
+	Śārṅga-dhara-pad-dhati
+	Svātmā-rāma
+	Śiva-saṃhitā
+	Vasiṣṭha-saṃhitā
+	Viveka-mārtaṇḍa
+	Yukta-bhava-deva
+	Yoga-cintā-maṇi
+	Yoga-tattva-pra-kāśa
+	Yoga-yājña-valkya
+	}

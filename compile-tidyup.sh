@@ -3,41 +3,49 @@
 # optional argument 1 is filename, otherwise all relevant *.tex files
 
 xslcmdproc(){
-    xslcmd="java -jar ${HOME}/.nix-profile/saxon-he-11.5.jar"
+    xslcmd="java -jar ${HOME}/Software/saxon9he.jar"
 
     echo "processing xml …"
     echo "… hp1"
-    $xslcmd -s:xml/HP1_text-tei.xml -xsl:xslt/hp-online.xsl -o:html/hp1.html \
+    $xslcmd -s:xml/HP1_pub-tei.xml -xsl:xslt/hp-online.xsl -o:html/hp1.html \
 	    chapid="hp1" \
 	    transl="../xml/HP1_comm-tei.xml" \
-	    marma="../xml/Marmasthanas-tei.xml" \
 	    jyotsna="../xml/jyotsna.xml"
 
     echo "… hp2"
-    $xslcmd -s:xml/HP2_text-tei.xml -xsl:xslt/hp-online.xsl -o:html/hp2.html \
+    $xslcmd -s:xml/HP2_pub-tei.xml -xsl:xslt/hp-online.xsl -o:html/hp2.html \
 	    chapid="hp2" \
 	    transl="../xml/HP2_comm-tei.xml" \
-	    marma="../xml/Marmasthanas-tei.xml" \
 	    jyotsna="../xml/jyotsna.xml"
 
     echo "… hp3"
-    $xslcmd -s:xml/HP3_text-tei.xml -xsl:xslt/hp-online.xsl -o:html/hp3.html \
+    $xslcmd -s:xml/HP3_pub-tei.xml -xsl:xslt/hp-online.xsl -o:html/hp3.html \
 	    chapid="hp3" \
 	    transl="../xml/HP3_comm-tei.xml" \
-	    marma="../xml/Marmasthanas-tei.xml" \
 	    jyotsna="../xml/jyotsna.xml"
 
     echo "… hp4"
-    $xslcmd -s:xml/HP4_text-tei.xml -xsl:xslt/hp-online.xsl -o:html/hp4.html \
+    $xslcmd -s:xml/HP4_pub-tei.xml -xsl:xslt/hp-online.xsl -o:html/hp4.html \
 	    chapid="hp4" \
 	    transl="../xml/HP4_comm-tei.xml" \
-	    marma="../xml/Marmasthanas-tei.xml" \
+	    jyotsna="../xml/jyotsna.xml"
+
+    echo "… hpx4"
+    $xslcmd -s:xml/HP4X_pub-tei.xml -xsl:xslt/hp-online.xsl -o:html/hpx4.html \
+	    chapid="hpx4" \
+	    transl="../xml/HP4_comm-tei.xml"  \
+	    jyotsna="../xml/jyotsna.xml"
+
+    echo "… Kālajñāna+"
+    $xslcmd -s:xml/Kalajnana-tei.xml -xsl:xslt/hp-online.xsl -o:html/kalajnana.html \
+	    chapid="KJ" \
+	    transl="../xml/Kalajnana_comm-tei.xml"  \
 	    jyotsna="../xml/jyotsna.xml"
 
     echo "concatenating html …"
     sed '/<!--content-->/q' html/meta.html > html/hp-online.html 
     
-    for f in "html/hp1.html" "html/hp2.html" "html/hp3.html" "html/hp4.html"
+    for f in "html/hp1.html" "html/hp2.html" "html/hp3.html" "html/hp4.html" "html/hpx4.html" "html/kalajnana.html"
     do
 	sed -e '/^\s*$/d' $f >> html/hp-online.html
     done
@@ -65,9 +73,11 @@ compile(){
     	    -e "s_</?item>_&\n_g" \
 	    -e "s_</?list>_&\n_g" \
 	    -e "s_\\\\[+!]\?__g" \
-	    -e "s_'_’_g" \
+	    -e "s_'_’_g"
 	    "${tei}"
 
+	    # -e ':a; s_\(<ref target="#[^",]\+\),\([^"]\+"/>\)_\1"/><ref target="#\2_; ta'
+	    
 	cp  -v "${tei}" ../xml/
     else
 	echo "No changes to ${1}, skipping compilation."
@@ -113,7 +123,8 @@ then
     compile "${1#*/}"
 elif [ -z "${1:-}" ]
 then
-    for f in "HP1_text.tex" "HP2_text.tex" "HP3_text.tex" "HP4_text.tex" "HP1_comm.tex" "HP2_comm.tex" "HP3_comm.tex" "HP4_comm.tex" "Marmasthanas.tex" 
+    #for f in "HP1_text.tex" "HP2_text.tex" "HP3_text.tex" "HP4_text.tex" "HP1_comm.tex" "HP2_comm.tex" "HP3_comm.tex" "HP4_comm.tex" "Marmasthanas.tex"
+    for f in "HP1_pub.tex" "HP2_pub.tex" "HP3_pub.tex" "HP4_pub.tex" "HP4X_pub.tex" "Kalajnana.tex" "HP1_comm.tex" "HP2_comm.tex" "HP3_comm.tex" "HP4_comm.tex" "Kalajnana_comm.tex" 
     do
 	echo "compiling ${f} …"
 	compile "${f}"

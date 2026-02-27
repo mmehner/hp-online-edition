@@ -1,0 +1,775 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title><!-- Title --></title>
+<respStmt>
+<resp><!-- Edited by --></resp>
+<name><!-- Name --></name>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<distributor><!-- Distributor name  --></distributor>
+</publicationStmt>
+<sourceDesc>
+<listWit>
+<witness xml:id="Vu">
+<abbr type="siglum">Vulg</abbr>
+Vulgate, i.e. Brahmānanda's version
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="X">
+<abbr type="siglum">X</abbr>
+TenChapter Version, Jodhpur 02228 and 02225 (ed. Lonavla)
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="Six">
+<abbr type="siglum">Ṣ</abbr>
+SixChapterVersion, ``6ChapterHPms'', fragment of enlarged text, Jodhpur
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V2">
+<abbr type="siglum">V<hi rend="sub">2</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 29869
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V4">
+<abbr type="siglum">V<hi rend="sub">4</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 29937
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V5">
+<abbr type="siglum">V<hi rend="sub">5</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 29938
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V6">
+<abbr type="siglum">V<hi rend="sub">6</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 29991
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V8">
+<abbr type="siglum">V<hi rend="sub">8</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 30014
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V11">
+<abbr type="siglum">V<hi rend="sub">11</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 30029
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V12">
+<abbr type="siglum">V<hi rend="sub">12</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 30030
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V13">
+<abbr type="siglum">V<hi rend="sub">13</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 30031
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V14">
+<abbr type="siglum">V<hi rend="sub">14</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 30050
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V16">
+<abbr type="siglum">V<hi rend="sub">16</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 30052
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V17">
+<abbr type="siglum">V<hi rend="sub">17</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 30053
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V16pc">
+<abbr type="siglum">V<hi rend="sub">16</hi><hi rend="sup">pc</hi>\space </abbr>
+
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V18">
+<abbr type="siglum">V<hi rend="sub">18</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 30064
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V21">
+<abbr type="siglum">V<hi rend="sub">21</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 30104
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V22">
+<abbr type="siglum">V<hi rend="sub">22</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 30110
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V25">
+<abbr type="siglum">V<hi rend="sub">25</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 30122
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V26">
+<abbr type="siglum">V<hi rend="sub">26</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 30123
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="V28">
+<abbr type="siglum">V<hi rend="sub">28</hi></abbr>
+Sampurnananda Library Sarasvati Bhavan 30136
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="W2">
+<abbr type="siglum">W<hi rend="sub">2</hi></abbr>
+Wai ??
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="W4">
+<abbr type="siglum">W<hi rend="sub">4</hi></abbr>
+Wai 399-6171
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="K3">
+<abbr type="siglum">K<hi rend="sub">3</hi></abbr>
+Privat collection
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="L1">
+<abbr type="siglum">L<hi rend="sub">1</hi></abbr>
+SOAS RE 43454
+<msDesc>
+<msIdentifier>
+<settlement>Jammu</settlement>
+</msIdentifier>
+</msDesc>
+</witness>
+<witness xml:id="J1">
+<abbr type="siglum">J<hi rend="sub">1</hi></abbr>
+Jodhpur 02231
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="J2">
+<abbr type="siglum">J<hi rend="sub">2</hi></abbr>
+Jodhpur 02232
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="J3">
+<abbr type="siglum">J<hi rend="sub">3</hi></abbr>
+Jodhpur 02233
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="J4">
+<abbr type="siglum">J<hi rend="sub">4</hi></abbr>
+Jodhpur 02234
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="J4ac">
+<abbr type="siglum">J<hi rend="sub">4</hi><hi rend="sup">ac</hi>\space </abbr>
+MSPP Jodhpur 02234
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="J4pc">
+<abbr type="siglum">J<hi rend="sub">4</hi><hi rend="sup">pc</hi>\space </abbr>
+MSPP Jodhpur 02234
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="J8">
+<abbr type="siglum">J<hi rend="sub">8</hi></abbr>
+Jodhpur 23709
+<msDesc>
+<msIdentifier/>
+<physDesc>
+<handDesc hands="2">
+<handNote xml:id="J8ac">
+<abbr type="siglum">J<hi rend="sub">8</hi><hi rend="sup">ac</hi></abbr>
+
+</handNote>
+<handNote xml:id="J8pc">
+<abbr type="siglum">J<hi rend="sub">8</hi><hi rend="sup">pc</hi></abbr>
+
+</handNote>
+</handDesc>
+</physDesc>
+</msDesc>
+</witness>
+<witness xml:id="J9">
+<abbr type="siglum">J<hi rend="sub">9</hi></abbr>
+Jodhpur 02224
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="J11">
+<abbr type="siglum">J<hi rend="sub">11</hi></abbr>
+Jodhpur 23532
+<msDesc>
+<msIdentifier/>
+<physDesc>
+<handDesc hands="2">
+<handNote xml:id="J11ac">
+<abbr type="siglum">J<hi rend="sub">11</hi><hi rend="sup">ac</hi></abbr>
+
+</handNote>
+<handNote xml:id="J11pc">
+<abbr type="siglum">J<hi rend="sub">11</hi><hi rend="sup">pc</hi></abbr>
+
+</handNote>
+</handDesc>
+</physDesc>
+</msDesc>
+</witness>
+<witness xml:id="J12">
+<abbr type="siglum">J<hi rend="sub">12</hi></abbr>
+Jodhpur 18552
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="J13">
+<abbr type="siglum">J<hi rend="sub">13</hi></abbr>
+Jodhpur 02229
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="J14">
+<abbr type="siglum">J<hi rend="sub">14</hi></abbr>
+Jodhpur 02239
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="J15">
+<abbr type="siglum">J<hi rend="sub">15</hi></abbr>
+Jodhpur 9732A
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="J16">
+<abbr type="siglum">J<hi rend="sub">16</hi></abbr>
+Jodhpur 9732B
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="J17">
+<abbr type="siglum">J<hi rend="sub">17</hi></abbr>
+Jodhpur 3013
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="B1">
+<abbr type="siglum">B<hi rend="sub">1</hi></abbr>
+Bodleian Library No. d.457(8)
+<msDesc>
+<msIdentifier>
+<settlement>Oxford</settlement>
+</msIdentifier>
+</msDesc>
+</witness>
+<witness xml:id="B2">
+<abbr type="siglum">B<hi rend="sub">2</hi></abbr>
+Bodleian Library No. d.458(1)
+<msDesc>
+<msIdentifier>
+<settlement>Oxford</settlement>
+</msIdentifier>
+</msDesc>
+</witness>
+<witness xml:id="B3">
+<abbr type="siglum">B<hi rend="sub">3</hi></abbr>
+Bodleian Library No. d.458(9)
+<msDesc>
+<msIdentifier>
+<settlement>Oxford</settlement>
+</msIdentifier>
+</msDesc>
+</witness>
+<witness xml:id="C1">
+<abbr type="siglum">C<hi rend="sub">1</hi></abbr>
+Lalchand M-2080
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="C2">
+<abbr type="siglum">C<hi rend="sub">2</hi></abbr>
+Lalchand M-6065
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="C3">
+<abbr type="siglum">C<hi rend="sub">3</hi></abbr>
+Lalchand M-1293
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="C4">
+<abbr type="siglum">C<hi rend="sub">4</hi></abbr>
+Lalchand M-2081
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="C4ac">
+<abbr type="siglum">C<hi rend="sub">4</hi><hi rend="sup">ac</hi>\space </abbr>
+
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="C4pc">
+<abbr type="siglum">C<hi rend="sub">4</hi><hi rend="sup">pc</hi>\space </abbr>
+
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="C5">
+<abbr type="siglum">C<hi rend="sub">5</hi></abbr>
+Lalchand M-2082
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="C8">
+<abbr type="siglum">C<hi rend="sub">8</hi></abbr>
+Lalchand M-2091
+<msDesc>
+<msIdentifier/>
+<physDesc>
+<handDesc hands="2">
+<handNote xml:id="C8ac">
+<abbr type="siglum">C<hi rend="sub">8</hi><hi rend="sup">ac</hi></abbr>
+
+</handNote>
+<handNote xml:id="C8pc">
+<abbr type="siglum">C<hi rend="sub">8</hi><hi rend="sup">pc</hi></abbr>
+
+</handNote>
+</handDesc>
+</physDesc>
+</msDesc>
+</witness>
+<witness xml:id="C9">
+<abbr type="siglum">C<hi rend="sub">9</hi></abbr>
+Lalchand M-4530
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N1">
+<abbr type="siglum">N<hi rend="sub">1</hi></abbr>
+NGMPP A1400-2
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N2">
+<abbr type="siglum">N<hi rend="sub">2</hi></abbr>
+NGMPP B 39-19
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N5">
+<abbr type="siglum">N<hi rend="sub">5</hi></abbr>
+NGMPP A60-15 + A61-1
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N4">
+<abbr type="siglum">N<hi rend="sub">4</hi></abbr>
+NGMPP A61-2
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N6">
+<abbr type="siglum">N<hi rend="sub">6</hi></abbr>
+NGMPP A61-6
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N10">
+<abbr type="siglum">N<hi rend="sub">10</hi></abbr>
+NGMPP A62-37
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N11">
+<abbr type="siglum">N<hi rend="sub">11</hi></abbr>
+NGMPP A63-15
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N12">
+<abbr type="siglum">N<hi rend="sub">12</hi></abbr>
+NGMPP A939-19
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N13">
+<abbr type="siglum">N<hi rend="sub">13</hi></abbr>
+NGMPP A1378-18
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N16">
+<abbr type="siglum">N<hi rend="sub">16</hi></abbr>
+NGMPP B39-20
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N17">
+<abbr type="siglum">N<hi rend="sub">17</hi></abbr>
+NGMPP B 111-10
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N18">
+<abbr type="siglum">N<hi rend="sub">18</hi></abbr>
+NGMPP E 929-3
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N20">
+<abbr type="siglum">N<hi rend="sub">20</hi></abbr>
+NGMPP E 2037-13 
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N21">
+<abbr type="siglum">N<hi rend="sub">21</hi></abbr>
+NGMPP E 2097-31
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="N22">
+<abbr type="siglum">N<hi rend="sub">22</hi></abbr>
+NGMPP G 4-4
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P1">
+<abbr type="siglum">P<hi rend="sub">1</hi></abbr>
+Ānandāśrama S16-3-21
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P2">
+<abbr type="siglum">P<hi rend="sub">2</hi></abbr>
+Ānandāśrama S16-2-20
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P3">
+<abbr type="siglum">P<hi rend="sub">3</hi></abbr>
+BISM (79) 314
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P4">
+<abbr type="siglum">P<hi rend="sub">4</hi></abbr>
+BISM (91) 191
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P5">
+<abbr type="siglum">P<hi rend="sub">5</hi></abbr>
+BISM (29) 5790
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P6">
+<abbr type="siglum">P<hi rend="sub">6</hi></abbr>
+BORI 263/1879-80
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P7">
+<abbr type="siglum">P<hi rend="sub">7</hi></abbr>
+BORI 665/1883-84
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P8">
+<abbr type="siglum">P<hi rend="sub">8</hi></abbr>
+BORI 316/1895-98
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P9">
+<abbr type="siglum">P<hi rend="sub">9</hi></abbr>
+BORI 733-1891-95
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P10">
+<abbr type="siglum">P<hi rend="sub">10</hi></abbr>
+BORI 222-1884-86
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P12">
+<abbr type="siglum">P<hi rend="sub">12</hi></abbr>
+Ānandāśrama S16-3-24
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P13">
+<abbr type="siglum">P<hi rend="sub">13</hi></abbr>
+Ānandāśrama S16-2-22
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P14">
+<abbr type="siglum">P<hi rend="sub">14</hi></abbr>
+Ānandāśrama S16-3-23
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P16">
+<abbr type="siglum">P<hi rend="sub">16</hi></abbr>
+BISM (64) 1115
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P17">
+<abbr type="siglum">P<hi rend="sub">17</hi></abbr>
+BISM 620/1886-92
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P18">
+<abbr type="siglum">P<hi rend="sub">18</hi></abbr>
+BORI 615/1887-91
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P19">
+<abbr type="siglum">P<hi rend="sub">19</hi></abbr>
+BISM 46-39
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P20">
+<abbr type="siglum">P<hi rend="sub">20</hi></abbr>
+BISM 39-273
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P21">
+<abbr type="siglum">P<hi rend="sub">21</hi></abbr>
+BISM 37-743
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P22">
+<abbr type="siglum">P<hi rend="sub">22</hi></abbr>
+BISM 37-729
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P23">
+<abbr type="siglum">P<hi rend="sub">23</hi></abbr>
+BISM 33-60
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P24">
+<abbr type="siglum">P<hi rend="sub">24</hi></abbr>
+BISM 29-5790
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P25">
+<abbr type="siglum">P<hi rend="sub">25</hi></abbr>
+BISM 29-3657
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P26">
+<abbr type="siglum">P<hi rend="sub">26</hi></abbr>
+BISM 25-281
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P27">
+<abbr type="siglum">P<hi rend="sub">27</hi></abbr>
+BISM 7-489
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="P28">
+<abbr type="siglum">P<hi rend="sub">28</hi></abbr>
+BORI 399-1895-1902
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="Tue">
+<abbr type="siglum">Tü</abbr>
+Ma I 339
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="YC">
+<abbr type="siglum">YC</abbr>
+Yogacintāmaṇi
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="A1">
+<abbr type="siglum">A<hi rend="sub">1</hi></abbr>
+Alwar 952
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="G7">
+<abbr type="siglum">G<hi rend="sub">7</hi></abbr>
+GOML D4394
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="Ko">
+<abbr type="siglum">Ko</abbr>
+Koba, Gujarat 55626
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+<witness xml:id="Ba">
+<abbr type="siglum">B<hi rend="sub">a</hi></abbr>
+
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
+</listWit>
+<listPerson xml:id="scholars">
+<person xml:id="nos">
+<persName>
+<abbr type="siglum">nos</abbr>
+<forename>HPP</forename>
+<surname>Team</surname>
+</persName>
+</person>
+</listPerson>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<variantEncoding method="parallel-segmentation" location="internal"/>
+</encodingDesc>
+</teiHeader>
+<text>
+<body>
+<note type="translation" target="#Kj01a"> </note> <note type="translation" target="#Kj01"> Listen, I will teach special omens, from seeing which the adept of yoga knows [the time of] his death. </note> <note type="sources" target="#Kj01"> <hi>Mārkaṇḍeyapurāṇa</hi> 40.1, cf. <hi>Śārṅgadharapaddhati</hi> 4566 <note type="appinnote"> viśiṣṭāni tāni vakṣyāmi tvaṃ śṛṇu ] mahārāja śṛṇu vakṣyāmi tāni te MP, viśiṣṭāni śṛṇu vakṣyāmi tāni te ŚDP </note> </note> <note type="translation" target="#Kj02"> The man who cannot see the Milky Way, the pole star, Venus, the light of the moon, and Arundhatī (i.e. the star, Alcor) will not live more than a year. </note><note type="sources" target="#Kj02"> <hi>Mārkaṇḍeyapurāṇa</hi> 40.2, cf. <hi>Śārṅgadharapaddhati</hi> 4567 Cf. <hi>Dharmaputrikā</hi> 198 <lg> <l>arundhatīṃ dhruvañ caiva somacchāyāṃ mahāpathaṃ/</l> <l>yo na paśyen na jīveta naraḥ saṃvatsarāt paraṃ//</l> </lg> </note> <note type="philcomm" target="#Kj02"> We are not certain of the meaning of <hi>devamārga</hi> here. The Monier-Williams dictionary (s.v.: 1899) says it means the sky but one would expect it to have a more specific astrological meaning in a list of stars and planets. It could be a synonym for <hi>devapatha</hi>, which can mean the Milky Way according to one lexicographical source (<hi>Trikāṇḍaśeṣa</hi> 1.1.97).<lb/>Arundhatī is mentioned in the <hi>Bṛhatsaṃhitā</hi> (13.6) and is said to be close to Vasiṣṭha (<hi>tatra vasiṣṭhaṃ munivaram upāśritārundhatī sādhvī</hi>). Vasiṣṭha and Arundhatī are the double star, Mizar and Alcor in the <hi>saptarṣi nakṣātra</hi> (Ursa Major). See Rao 2019: 53. </note> <note type="translation" target="#Kj03"> When he sees a rayless disc of the sun and a fire with a halo, a man lives eleven months and not longer.</note> <note type="sources" target="#Kj03"> <hi>Mārkaṇḍeyapurāṇa</hi> 40.3, cf. <hi>Śārṅgadharapaddhati</hi> 4568 <note type="appinnote"> māsāt tu ] māsebhyo MP, māsāṃś ca ŚDP<lb/>sa ŚDP ] tu MP </note> Cf. <hi>Śivasvarodaya</hi> 343 <lg> <l>araśmi bimbaṃ sūryasya vahneḥ śītāṃśumālinaḥ/</l> <l>dṛṣṭvaikādaśamāsāyur naraś cordhvaṃ na jīvati//</l> </lg> </note> <note type="translation" target="#Kj04"> [The man] who emits urine and faeces as gold and silver, either in reality or in a dream, his life [will last] ten months. </note> <note type="sources" target="#Kj04"> <hi>Mārkaṇḍeyapurāṇa</hi> 40.4, cf. <hi>Śārṅgadharapaddhati</hi> 4569 <note type="appinnote"> vamen ] vānte MP, vāntyā ŚDP<lb/>purīṣaṃ ŚDP ] purīṣe MP<lb/>svarṇaṃ rajataṃ tathā MP ] suvarṇarajataṃ vamet ŚDP<lb/>athavā ŚDP ] kurute MP<lb/>jīvitaṃ ŚDP ] jīvet sa MP </note> Cf. <hi>Dharmaputrikā</hi> 200 <lg> <l>chardimūtrapuriṣāṇi yasya hemarajo bhavet/</l> <l>pratyakṣam athavā svapne tv aṣṭau māsān sa jīvati//</l> </lg> </note> <note type="testimonia" target="#Kj04"> <hi>Yogacintāmaṇi</hi> f. 142v (\attr Mārkaṇḍeya) <note type="appinnote"> mūtra ] mūtraṃ YCM<lb/>yaḥ su ] ca yaḥ YCM </note> </note> <note type="philcomm" target="#Kj04"> In the version of this verse transmitted in the <hi>Haṭhapradīpikā</hi>, the relative pronoun <hi>yaḥ</hi> requires a verb in the first hemistich, as seen in the <hi>Yogacintāmaṇi</hi>, whose verse is a close parallel to the one in question, hence our emendation of <hi>vātyāṃ</hi> to <hi>vamen</hi> (cf. <hi>Yogacintāmaṇi</hi>).<lb/>The idea behind this verse is clearly expressed in the <hi>Dharmaputrikā</hi>, where the yogi whose urine and faeces become gold and silver, in reality or in sleep, has eight months left to live. </note> <note type="translation" target="#Kj05"> After seeing Pretas, Piśācas and so on, Gandharva cities and gold-coloured trees, he lives nine months.</note> <note type="sources" target="#Kj05"> <hi>Mārkaṇḍeyapurāṇa</hi> 40.5, cf. <hi>Śārṅgadharapaddhati</hi> 4570 <note type="appinnote"> varṇān MP ] varṇa ŚDP </note> </note> <note type="testimonia" target="#Kj05"> <hi>Yogacintāmaṇi</hi> f. 143r (\attr Mārkaṇḍeya) <note type="appinnote"> varṇān ] varṇa YCM </note> </note> <note type="translation" target="#Kj06"> He who is fat and suddenly becomes thin or who is thin and suddenly becomes fat and who deviates from his constitution has a life-span of eight months.</note> <note type="sources" target="#Kj06"> <hi>Mārkaṇḍeyapurāṇa</hi> 40.6, cf. <hi>Śārṅgadharapaddhati</hi> 4571 <note type="appinnote"> prakṛtyāś ] prakṛteś MP, ŚDP </note> </note> <note type="translation" target="#Kj07"> He whose footprint in dirt and mud is missing at the heel and toes lives for seven months. </note> <note type="sources" target="#Kj07"> <hi>Mārkaṇḍeyapurāṇa</hi> 40.7, cf. <hi>Śārṅgadharapaddhati</hi> 4572 <note type="appinnote"> pārṣṇau ] pārṣṇyāṃ MP, pārṣṇyoḥ ŚDP<lb/>tathā ] ca vā MP, 'thavā ŚDP<lb/>kardamayor madhye MP ] kardamamadhye vā ŚDP </note> Cf. <hi>Liṅgapurāṇa</hi> 1.91.7 <lg> <l>agrataḥ pṛṣṭhato vāpi khaṇḍaṃ yasya padaṃ bhavet/</l> <l>pāṃsuke kardame vāpi saptamāsān sa jīvati//</l> </lg> </note> <note type="testimonia" target="#Kj07"> <hi>Yogacintāmaṇi</hi> f. 143r (\attr Mārkaṇḍeya) <note type="appinnote"> pārṣṇau ] pārṣṇyāṃ YCM<lb/>tathā ] 'thavā YCM </note> </note> <note type="translation" target="#Kj08"> A pigeon, vulture, raven, crow or [any other] carrion-eating bird perched on his head indicates a lifespan of six months. </note> <note type="sources" target="#Kj08"> <hi>Mārkaṇḍeyapurāṇa</hi> 40.8, cf. <hi>Śārṅgadharapaddhati</hi> 4573 <note type="appinnote"> kapotagṛdhrau ] gṛdhraḥ kapotaḥ MP, kapotagṛdhra ŚDP<lb/>kākolo MP ] kākolā ŚDP<lb/>vā khago MP ] vāparo ŚDP </note> </note> <note type="testimonia" target="#Kj08"> <hi>Yogacintāmaṇi</hi> f. 143r (\attr Mārkaṇḍeya) <note type="appinnote"> kapotagṛdhrau kākolo ] kapoto gṛdhrakākolau YCM<lb/>līnaḥ ] tiṣṭhet YCM </note> </note> <note type="translation" target="#Kj09"> [If] a man is struck by flocks of crows or a dust storm, or sees his shadow deformed, he lives for four months. </note> <note type="sources" target="#Kj09"> <hi>Mārkaṇḍeyapurāṇa</hi> 40.9, cf. <hi>Śārṅgadharapaddhati</hi> 4574 <note type="appinnote"> śreṇībhiḥ ] paṅktībhiḥ MP, ŚDP<lb/>sva ŚDP ] svāṃ MP<lb/>vānyathā ] anyathā MP, cānyathā ŚDP<lb/>caturmāsān ŚDP ] catuḥpañca MP </note> </note> <note type="testimonia" target="#Kj09"> <hi>Yogacintāmaṇi</hi> f. 143r (\attr Mārkaṇḍeya) <note type="appinnote"> śreṇībhiḥ ] paṅktībhiḥ YCM<lb/>svacchāyāṃ vānyathā dṛṣṭvā caturmāsān sa jīvati ] śuṣyec ca vai yasya marma snānād vāmād adhas\-tanam YCM </note> </note> <note type="translation" target="#Kj10"> When he sees lightning in a southern direction in a cloudless [sky], or a rainbow in water, he has two or three months of life [left]. </note> <note type="sources" target="#Kj10"> <hi>Mārkaṇḍeyapurāṇa</hi> 40.10, cf. <hi>Śārṅgadharapaddhati</hi> 4575 <note type="appinnote"> payasīndradhanur vāpi ŚDP ] rātrāv indradhanuś cāpi MP<lb/>dvitrimāsikam ] hi trimāsikam MP, tridvimāsikam ŚDP </note> </note> <note type="testimonia" target="#Kj10"> <hi>Yogacintāmaṇi</hi> f. 143r (\attr Mārkaṇḍeya) <note type="appinnote"> payasīndra ] udakendra YCM </note> </note> <note type="philcomm" target="#Kj10"> The <hi>Mārkaṇḍeyapurāṇa</hi> appears to preserve the original idea of seeing a rainbow at night, which is as extraordinary as the first sign (i.e., seeing lightning in a cloudless sky). </note> <note type="translation" target="#Kj11"> He who sees another's headless body [reflected] in ghee, oil, a mirror or water does not live beyond a month. </note> <note type="sources" target="#Kj11"> <hi>Mārkaṇḍeyapurāṇa</hi> 40.11, cf. <hi>Śārṅgadharapaddhati</hi> 4576 <note type="appinnote"> vānātmanas MP ] vāpy ātmanas ŚDP<lb/>aśiraskāṃ ca ] aśiraskāṃ vā MP, aśiraḥskandhāṃ ŚDP </note> </note> <note type="testimonia" target="#Kj11"> <hi>Yogacintāmaṇi</hi> f. 143r (\attr Mārkaṇḍeya) <note type="appinnote"> vānātmanas ] vāpy ātmanas YCM<lb/>ca ] sa YCM </note> </note> <note type="translation" target="#Kj12"> He should know, O king, that a yogi whose body odour is similar to that of bones or a corpse has half a month to live. </note> <note type="sources" target="#Kj12"> <hi>Mārkaṇḍeyapurāṇa</hi> 40.12, cf. <hi>Śārṅgadharapaddhati</hi> 4577 <note type="appinnote"> yasyāsthisadṛśo ] yasya bastasamo MP ŚDP<lb/>tasyārdhamāsikaṃ MP ] tasya māsārdhakaṃ ŚDP<lb/>yogino nṛpa MP ] yoginaḥ kila ŚDP </note> </note> <note type="translation" target="#Kj13"> He whose chest and legs are dry straight after bathing and who is dehydrated when drinking water lives ten days. </note> <note type="sources" target="#Kj13"> <hi>Mārkaṇḍeyapurāṇa</hi> 40.13, cf. <hi>Śārṅgadharapaddhati</hi> 4578 <note type="appinnote"> hṛtpādam MP ] hṛttoyam ŚDP<lb/>avaśuṣyati ŚDP ] avaśuṣyate MP </note> Cf. <hi>Dharmaputrikā</hi> 40.13 <lg> <l>sambhidya māruto yasya marmasthānāc ca bhraśyate/</l> <l>jyotiś caiva na paśyed yo dinam ekaṃ sa jīvati//</l> </lg> </note> <note type="translation" target="#Kj14"> For he whose breath is agitated and cuts the vital points, [and] who does not like the touch of water, death is near. </note> <note type="sources" target="#Kj14"> <hi>Mārkaṇḍeyapurāṇa</hi> 40.14, cf. <hi>Liṅgapurāṇa</hi> 1.91.14 <note type="appinnote"> na hṛṣyaty ambusparśāt ] hṛṣyate nāmbusparśāt MP, adbhiḥ spṛṣṭo na hṛṣyeta LP </note> Cf. <hi>Dharmaputrikā</hi> 213 <lg> <l>sambhidya māruto yasya marmasthānāc ca bhraśyate/</l> <l>jyotiś caiva na paśyed yo dinam ekaṃ sa jīvati//</l> </lg> </note> <note type="philcomm" target="#Kj14"> It seems more likely that <hi>mārutaḥ</hi> here refers to the breath rather than external wind, since it is difficult to conceive how wind could cut the vital points, which are located inside the body. In his commentary on <hi>Chāndogyopaniṣat</hi> 6.8.6, Śaṅkara describes an internal process in which the breath cuts vital points as a person dies, with the breath merging into heat, which in turn merges into the highest deity (<hi>prāṇaś ca tadordhvocchvāsī svātmany upasaṃhṛta\-bāhya\-karaṇaḥ saṃvarga\-vidyāyāṃ darśanād dhastapādādīn vikṣipan marma\-sthānāni nikṛntan nana ivotsṛjan krameṇopa\-saṃhṛtas tejasi sampadyate</hi> [...]). Similarly, the first half of a parallel verse in the <hi>Dharmaputrikā</hi> (213) appears to be describing an internal process in which the breath is disturbed and then escapes from the vital points. </note> <note type="translation" target="#Kj15"> The time of death is near for him also who in a dream travels south while singing in a chariot [drawn by] a bear and monkey.</note> <note type="sources" target="#Kj15"> <hi>Mārkaṇḍeyapurāṇa</hi> 40.15 <note type="appinnote"> yugyastho ] yānastho MP<lb/>mṛtyukāla upasthitaḥ ] na mṛtyuḥ kālam icchati MP </note> Cf. <hi>Skandapurāṇa</hi> 1.2.55.76 <lg> <l>ṛkṣavānarayugyastho gāyan yo dakṣiṇāṃ diśam/</l> <l>yāti majjed [d]adhau paṅke gomaye vā na jīvati//</l> </lg> Cf. <hi>Vāyupurāṇa</hi> 19.13 <lg> <l>ṛkṣavānarayuktena rathenāśāṃ tu dakṣiṇām/</l> <l>gāyan atha vrajet svapne vidyān mṛtyur upasthitaḥ//</l> </lg> </note> <note type="philcomm" target="#Kj15"> The idea behind this verse is more clearly expressed in the <hi>Vāyupurāṇa</hi> (19.13), where a chariot is drawn by a bear and monkey.</note> <note type="translation" target="#Kj16"> [If] in a dream a woman wearing red and black clothes, and singing and laughing, leads him to a southern region, he too will not live. </note> <note type="sources" target="#Kj16"> <hi>Mārkaṇḍeyapurāṇa</hi> 40.16, cf. <hi>Śārṅgadharapaddhati</hi> 4581 <note type="appinnote"> gāyantī ca hasanty api ] gāyantī hasatī ca yam MP, gītahāsyaparā ca yam ŚDP </note> </note> <note type="translation" target="#Kj17"> If [a man] sees in a dream a lone naked Jain ascetic laughing, dancing, and leaping about, he knows death is near. </note> <note type="sources" target="#Kj17"> <hi>Mārkaṇḍeyapurāṇa</hi> 40.17, cf. <hi>Śārṅgadharapaddhati</hi> 4582 <note type="appinnote"> hasantaṃ nṛtyatatparam ŚDP ] hasamānaṃ mahābalam MP<lb/>ekaṃ ŚDP ] evaṃ MP<lb/>saṃvīkṣya valgantaṃ MP ] vilakṣaṃ vibhrāntaṃ ŚDP </note> Cf. <hi>Skandapurāṇa</hi> 1.2.55.75cd–76ab <lg> <l>nagnaṃ kṣapaṇakaṃ svapne hasamānaṃ pradṛśya ca//</l> <l>enaṃ ca vīkṣya valgantaṃ taṃ vidyān mṛtyum āgatam/</l> </lg> </note> <note type="philcomm" target="#Kj17"> Other printed versions of the <hi>Mārkaṇḍeyapurāṇa</hi> read <hi>ekaṃ saṃvīkṣya</hi>, e.g., <hi>Mār\-kaṇḍe\-ya\-purāṇa</hi> 43.17 (ed. Vihārilāl Sarkar, Kalikātā-rājadhānyām, 1890)</note> <note type="translation" target="#Kj18"> Then he who sees oneself in a dream immersed in an ocean of mud from the soles [of the feet] up to the head dies immediately. </note> <note type="sources" target="#Kj18"> <hi>Mārkaṇḍeyapurāṇa</hi> 40.18 <note type="appinnote"> yaḥ sadyo mriyate ca saḥ ] sa sadyar mriyate naraḥ MP </note> </note> <note type="translation" target="#Kj19"> If for ten days he dreams of hair, charcoals, ash, snakes and a river without water, death [occurs] on the eleventh day. </note> <note type="sources" target="#Kj19"> <hi>Mārkaṇḍeyapurāṇa</hi> 40.19 <note type="appinnote"> daśāhaṃ ] daśāhāt MP </note> Cf. <hi>Skandapurāṇa</hi> 1.2.55.77cd–78ab <lg> <l>keśāṅgārais tathā bhasmabhujaṅgair nirjalāṃ nadīm//</l> <l>eṣām anyatamaiḥ pūrṇāṃ dṛṣṭvā svapne na jīvati/</l> </lg> Cf. <hi>Liṅgapurāṇa</hi> 1.91.19. <lg> <l>bhasmāṅgārāṃś ca keśāṃś ca nadīṃ śuṣkāṃ bhujaṅgamān/</l> <l>paśyed yo daśarātraṃ tu na sa jīvati tādṛśaḥ//</l> </lg> </note> <note type="philcomm" target="#Kj19"> The original version of the first line was probably that of the <hi>Skandapurāṇa</hi>, where the verse conveys the idea of a waterless river filled with hair, charcoal, ash or snakes. However, it seems that at some point this idea was lost, and each of these elements came to be treated separately, as in <hi>Liṅgapurāṇa</hi> 1.91.19. </note> <note type="translation" target="#Kj20">If in a dream a man is struck by stones [thrown] by terrifying, monstrous and malevolent men with raised weapons, he dies suddenly. </note> <note type="sources" target="#Kj20"> <hi>Mārkaṇḍeyapurāṇa</hi> 40.20, cf. <hi>Śārṅgadharapaddhati</hi> 4585 <note type="appinnote"> vikaṭai rūkṣaiḥ puruṣair ] vikaṭaiḥ kṛṣṇaiḥ puruṣair MP, puruṣaiḥ kṛṣṇair vikaṭair ŚDP<lb/>mṛtyur bhaven naraḥ ŚDP ] mṛtyuṃ labhen naraḥ MP </note> </note> <note type="philcomm" target="#Kj20"> The syntax of the verse transmitted by the <hi>Haṭhapradīpikā</hi> manuscripts is faulty, since <hi>mṛtyuḥ</hi> appears as the subject, whereas the subject should be a man (<hi>naraḥ</hi>), as found in the <hi>Mārkaṇḍeyapurāṇa</hi> (40.20) and <hi>Śārṅgadharapaddhati</hi> (4585). It makes little sense for death to be struck by stones etc., so the reading of the <hi>Śārṅgadharapaddhati</hi>'s final <hi>pāda</hi> has been adopted. </note> <note type="translation" target="#Kj21"> If at sunrise a howling jackal goes in front of, past or around someone, his sudden death is near. </note> <note type="sources" target="#Kj21"> <hi>Mārkaṇḍeyapurāṇa</hi> 40.21, cf. <hi>Skandapurāṇa</hi> 1.2.55.79cd–80ab <note type="appinnote"> sadyomṛtyur upasthitaḥ ] sa sadyomṛtyum ṛcchati MP SP </note> </note> <note type="translation" target="#Kj22"> If [a man's] stomach is afflicted by hunger just after eating and he grinds his teeth, his life is undoubtedly approaching the end. </note> <note type="sources" target="#Kj22"> <hi>Mārkaṇḍeyapurāṇa</hi> 40.22 <note type="appinnote"> pīḍyate ] bādhyate MP<lb/>asaṃśayaḥ ] na saṃśayaḥ MP </note> </note> <note type="testimonia" target="#Kj22"> <hi>Haṭhatattvakaumudī</hi> 56.2 <note type="appinnote"> pīḍyate ] bādhate HTK<lb/>asaṃśayaḥ ] asaṃśayam HTK </note> </note> <note type="philcomm" target="#Kj22"> The meaning of <hi>hṛdaya</hi> as stomach, which makes good sense here, is rare in this type of literature (where it usually means `heart' or `chest') but is attested, e.g. at <hi>Arthaśāstra</hi> 4.7.12–13. </note> <note type="translation" target="#Kj23"> He who in a dream cannot smell lamps and the like, by day or by night, and does not see himself [reflected] in someone else’s eyes, does not live. </note> <note type="sources" target="#Kj23"> <hi>Mārkaṇḍeyapurāṇa</hi> 40.23, cf. <hi>Śārṅgadharapaddhati</hi> 4586 <note type="appinnote"> dīpādigandhaṃ no ŚDP ] dīpagandhaṃ na yo MP<lb/>svapne 'py ahni ] trasyaty ahni MP, paśyaty agniṃ ŚDP<lb/>na sa jīvati MP ] yaḥ mṛtyumān ŚDP </note> </note> <note type="translation" target="#Kj24"> On seeing a rainbow at midnight and a cluster of planets during the day, a prudent man should consider his life to be finished. </note> <note type="sources" target="#Kj24"> <hi>Mārkaṇḍeyapurāṇa</hi> 1.2.55.40.24, cf. <hi>Skandapurāṇa</hi> 81cd–82ab <note type="appinnote"> grahagaṇān MP ] vā grahaṇaṃ SP<lb/>saṃkṣīṇam ātmajīvitam MP ] sa kṣīṇam ātmajīvitam SP<lb/>ātmavān ] ātmavit MP, āptavān SP </note> </note> <note type="translation" target="#Kj25"> Life is over for him whose nose has become crooked, ears are drooping or lifting, and left eye runs. </note> <note type="sources" target="#Kj25"> <hi>Mārkaṇḍeyapurāṇa</hi> 40.25, cf. <hi>Śārṅgadharapaddhati</hi> 4589 </note> <note type="translation" target="#Kj26"> When the face becomes reddish and the tongue is black, the wise man knows that his death is at hand. </note> <note type="sources" target="#Kj26"> <hi>Mārkaṇḍeyapurāṇa</hi> 40.26 <note type="appinnote"> vāpy asitā ŚDP ] vā śyāmatāṃ MP<lb/>yadā MP ] bhavet ŚDP<lb/>ātmānam āgatam ] āsannam ātmanaḥ MP, āsannam āgatam ŚDP </note> </note> <note type="translation" target="#Kj27"> He whose tongue is black and rough, and whose face is lotus-shaped, or whose fleshy region of the cheek is red, is then at the end of his life.</note> <note type="sources" target="#Kj27"> Cf. <hi>Dharmaputrikā</hi> 212 <lg> <l>yasya kṛṣṇā kharā jihvā padmavarṇaṃ mukhaṃ bhavet/</l> <l>gaṇḍau tu pītakau raktau dīpagandhaṃ na jighrati//</l> </lg> Cf. <hi>Liṅgapurāṇa</hi> 1.91.26 <lg> <l>yasya kṛṣṇā kharā jihvā padmābhāsaṃ ca vai mukham/</l> <l>gaṇḍe vā piṇḍikārakte tasya mṛtyur upasthitaḥ//</l> </lg> Cf. <hi>Kubjikāmatatantra</hi> 23.41 <lg> <l>yasya kṛṣṇā bhavej jihvā padmavarṇaṃ mukhaṃ bhavet/</l> <l>gaṇḍapṛṣṭhau suraktābhau trirātraṃ ca sa jīvati//</l> </lg> </note> <note type="testimonia" target="#Kj27"> <hi>Haṭhapradīpikā</hi> (10 chapter) 9.35 <note type="appinnote"> kṛṣṇā kharā ] kṛṣṇaparā HP10<lb/>ca ] tu HP10<lb/>gaṇḍe ] gaṇḍaṃ HP10 </note> </note> <note type="philcomm" target="#Kj27"> We have understood <hi>gaṇḍe vā piṇḍikā</hi> as the fleshy region on the cheek in line with Mitākṣarā's gloss on <hi>Yājñavalkyasmṛti</hi> 3.97cd (<hi>piṇḍikā māṃsalapradeśaḥ</hi>). The original idea appears to be expressed in the <hi>Dharmaputrikā</hi>, where the cheeks turn yellow and red (<hi>gaṇḍau tu pītakau raktau</hi>), and the introduction of the word <hi>piṇḍikā</hi> has caused confusion. </note> <note type="translation" target="#Kj28"> [If] the tongue becomes thick at its root when the hairs bristle and he sees the wrist become thick, he dies within a year and a half. </note> <note type="sources" target="#Kj28"> Cf. <hi>Tantrasadbhava</hi> 24.327cd–328ab <lg> <l>yasya jihvā bhavet sthūlā dantāḥ klidyanti bhāmini//</l> <l>mriyate so naro devi varṣānte ca na saṃśayaḥ/</l> </lg> </note> <note type="testimonia" target="#Kj28"> <hi>Haṭhapradīpikā</hi> (10 chapter) 9.17, <hi>Haṭhapradīpikā</hi> (6 chapter) 6.284 <note type="appinnote"> mūle ] mūlo HP10, mūlaṃ HP6<lb/>sthūlā HP6 ] sthūlo HP10<lb/>romoddhṛti HP6 ] romaharṣa HP10<lb/>vīkṣya HP10 ] vīkṣa HP6<lb/>varṣataḥ HP6 ] māsataḥ HP10 </note> </note> <note type="philcomm" target="#Kj28"> This verse does not appear outside the <hi>Haṭhapradīpikā</hi>'s transmission, yet the notion of the tongue becoming thick seems to be an old omen (see e.g. the <hi>Tantrasadbhava</hi> parallel). Also, the timeframe is not consistent with the verses that precede and follow it. </note> <note type="translation" target="#Kj29"> He who experiences a loss of hearing and smell for seven days, [and] has blackness on the teeth and tongue, surely dies in fifteen days. </note> <note type="testimonia" target="#Kj29"> <hi>Haṭhapradīpikā</hi> (6 chapter) 6.285 <note type="appinnote"> dhvaṃsaṃ ] pathaṃ HP6 </note> Cf. <hi>Haṭhapradīpikā</hi> (10 chapter) 9.13 <lg> <l>śrutipathaṃ yadā śabdo nādhirohati sarvathā/</l> <l>kṛṣṇatvaṃ dantajihvāyāṃ tripakṣe mriyate dhruvam//</l> </lg> </note> <note type="translation" target="#Kj30"> One should know that [a man] who in a dream travels south on a vehicle [drawn by] a camel and donkey dies immediately, O Lord. </note> <note type="sources" target="#Kj30"> <hi>Mārkaṇḍeyapurāṇa</hi> 40.27 <note type="appinnote"> vi ] ca MP </note> </note> <note type="philcomm" target="#Kj30"> The syntax of the transmitted reading for the fourth <hi rend="italic">pāda</hi> (<hi>°mṛtyur bhaven nṛṇām</hi>) does not make sense, so the reading of the <hi>Mārkaṇḍeyapurāṇa</hi> has been adopted. A similar idea is expressed in verse 15. </note> <note type="translation" target="#Kj31"> He who blocks the ears and does not hear the sound arising in oneself, and who does not see a light in his eyes, does not live.</note> <note type="sources" target="#Kj31"> <hi>Mārkaṇḍeyapurāṇa</hi> 40.28, cf. <hi>Śārṅgadharapaddhati</hi> 4580 <note type="appinnote"> na paśyec ] naśyate MP ŚDP<lb/>yaś ca ] yasya MP ŚDP </note> </note> <note type="philcomm" target="#Kj31"> A different idea is expressed in the third quarter of the parallel verses of the <hi>Mārkaṇḍeyapurāṇa</hi> and <hi>Śārṅgadharapaddhati</hi> (i.e. `and the light in his eyes disappears'). </note> <note type="translation" target="#Kj32"> For him who falls into a pit in a dream and its opening is closed, and who cannot get out of the hole, that is the end of his life. </note> <note type="sources" target="#Kj32"> <hi>Mārkaṇḍeyapurāṇa</hi> 40.29, cf. <hi>Śārṅgadharapaddhati</hi> 4583 </note> <note type="translation" target="#Kj33"> [If] the eyes [turn] upwards, are unstable and red, and then roll around; [if] the mouth is hot and the navel is cold: [these signs] portend that men will [soon] take another body. </note> <note type="sources" target="#Kj33"> <hi>Mārkaṇḍeyapurāṇa</hi> 40.30, cf. <hi>Liṅgapurāṇa</hi> 1.91.32 <note type="appinnote"> coṣmā MP ] śoṣaḥ LP<lb/>śaṃsanti puṃsām aparaṃ śarīram MP ] atyuṣṇamūtro viṣamastha eva LP </note> </note> <note type="testimonia" target="#Kj33"> <hi>Haṭhatattvakaumudī</hi> 56.3 </note> <note type="philcomm" target="#Kj33"> Metre: upajāti (indravajrā + upendravajrā) </note> <note type="translation" target="#Kj34"> He who enters fire in a dream and then does not emerge, or [does not emerge] from entering water, that is the end of his life. </note> <note type="sources" target="#Kj34"> <hi>Mārkaṇḍeyapurāṇa</hi> 40.31, cf. <hi>Śārṅgadharapaddhati</hi> 4584 </note> <note type="translation" target="#Kj35"> A man whose sight is afflicted by spirits at night and then during the day undoubtedly meets his death at the end of a week.</note> <note type="sources" target="#Kj35"> <hi>Mārkaṇḍeyapurāṇa</hi> 40.32, cf. <hi>Śārṅgadharapaddhati</hi> 4579 <note type="appinnote"> yasyāpi ŚDP ] yaś cābhi MP<lb/>dṛṣṭair ŚDP ] duṣṭair MP<lb/>pumān ŚDP ] naraḥ MP </note> </note> <note type="translation" target="#Kj36"> If a man sees his spotless, white clothes as red, then black, one should declare that his death is near. </note> <note type="sources" target="#Kj36"> <hi>Mārkaṇḍeyapurāṇa</hi> 40.33 <note type="appinnote"> athāsitam ] atho 'sitam MP </note> </note> <note type="testimonia" target="#Kj36"> <hi>Yogacintāmaṇi</hi> f. 144r (\attr <hi>Mārkaṇḍeyapurāṇa</hi>) <note type="appinnote"> āsannaṃ ] āpannaṃ YCM </note> </note> <note type="translation" target="#Kj37"> They say Yama and Antaka are near to men if there is a reversal of their true nature and an alteration to their constitution. </note> <note type="sources" target="#Kj37"> <hi>Mārkaṇḍeyapurāṇa</hi> 40.34, cf. <hi>Śārṅgadharapaddhati</hi> 4587 <note type="appinnote"> viparītatvaṃ ] vaiparītyaṃ tu MP, vaiparītyena ŚDP </note> </note> <note type="philcomm" target="#Kj37"> We have adopted the readings <hi>°viparītatvaṃ</hi> and <hi>viparyayaḥ</hi> in keeping with the parallel verse in the <hi>Mārkaṇḍeyapurāṇa</hi>. Both <hi>°viparītam</hi> and <hi>viparyayam</hi> in the <hi>Haṭhapradīpikā</hi> witnesses are adjectives without an implied noun. It also seems more probable that <hi>°viparītaṃ ca</hi> is a corruption of <hi>°viparītatvaṃ</hi> than <hi>°vaiparītyaṃ tu</hi>. </note> <note type="translation" target="#Kj38"> For him who sees in a dream a dwarf holding an iron staff and dressed in black clothes, death occurs after three nights. </note> <note type="sources" target="#Kj38"> <hi>Vasiṣṭhasaṃhitā</hi> 8.25cd–26ab <note type="appinnote"> hrasvaṃ ] kṛṣṇaṃ VS<lb/>trirātrān ] trimāsān VS </note> Cf. <hi>Yogaśāstra</hi> 5.155 <lg> <l>kṛṣṇaṃ kṛṣṇaparīvāraṃ lohadaṇḍadharaṃ naram/</l> <l>yadā svapne nirīkṣeta mṛtyur māsais tribhis tadā//</l> </lg> Cf. <hi>Vivekamārtaṇḍa</hi> (6 chapter) 4.187 <lg> <l>lohadaṇḍadharaṃ bhīmaṃ puruṣaṃ kṛṣṇapiṅgalam/</l> <l>yaḥ svapne paśyati kruddhaṃ tribhir māsaiḥ sa gacchati//</l> </lg> </note> <note type="translation" target="#Kj39"> If [a man's] senses do not perceive their respective objects, he will undoubtedly die at the end of a month. </note> <note type="sources" target="#Kj39"> <hi>Vasiṣṭhasaṃhitā</hi> 8.26cd–8.27ab <note type="appinnote"> gṛhṇīyuḥ ] gṛhnanti VS<lb/>viṣayān ] viṣayaṃ VS </note> </note> <note type="translation" target="#Kj40"> For him who does not see his own reflection or face in a mirror or in water, death will undoubtedly occur at the end of a month. </note> <note type="sources" target="#Kj40"> <hi>Vasiṣṭhasaṃhitā</hi> 8.29 <note type="appinnote"> māsānte maraṇaṃ tasya ] tasyāpi māsato mṛtyur VS </note> </note> <note type="testimonia" target="#Kj40"> <hi>Haṭhapradīpikā</hi> (10 chapter) 9.16 <note type="appinnote"> chāyām apsu ] kāyam āsyaṃ HP10 </note> </note> <note type="translation" target="#Kj41"> If half of his body is hot and the [other] half cold or if he has lost the hearing in his ears, he will die in a week. </note> <note type="sources" target="#Kj41"> <hi>Vasiṣṭhasaṃhitā</hi> 8.38 <note type="appinnote"> cāpi ca ] vāpy ati VS<lb/>śruti ] smṛti VS<lb/>saptarātre ] saptāhāt sa VS </note> </note> <note type="testimonia" target="#Kj41"> <hi>Haṭhapradīpikā</hi> (10 chapter) 9.22 </note> <note type="translation" target="#Kj42"> When the time of death has come for yogis, gnostics or other great sages, [the special omen] should be known by wise people. </note> <note type="sources" target="#Kj42"> <hi>Mārkaṇḍeyapurāṇa</hi> 40.37 <note type="appinnote"> ca MP ] vā ŚDP<lb/>'ntakāle ] tu kāle MP, ca kāle ŚDP<lb/>puruṣais ŚDP ] puruṣas MP<lb/>vijñeyaṃ MP ] vicāryaṃ ŚDP </note> </note> <note type="translation" target="#Kj42p"> </note> <note type="translation" target="#Kj43a"> Now, the explanation of liberation without a body -- </note><note type="sources" target="#Kj43a"> <hi>Śārṅgadharapaddhati</hi> 4591 <lg> <l>atha videhamuktikathanam/</l> </lg> </note> <note type="translation" target="#Kj43"> Whether in the morning, in the afternoon, at midday, at any time of day, or sometime at night, [the yogi] should examine the omen.</note> <note type="sources" target="#Kj43"> <hi>Śārṅgadharapaddhati</hi> 4591, cf. <hi>Mārkaṇḍeyapurāṇa</hi> 40.42cd–43ab <note type="appinnote"> vā ŚDP ] ca MP<lb/>vā dine kvacit ] vā pare kvacit ŚDP, cāpi taddine MP </note> </note> <note type="testimonia" target="#Kj43"> <hi>Yogacintāmaṇi</hi> f. 144v (\attr <hi>Mārkaṇḍeyapurāṇa</hi>) <note type="appinnote"> vāparāhne vā ] cāparāhṇe ca YCM<lb/>kvacit ] dine YCM </note> </note> <note type="translation" target="#Kj44"> Having determined the time of his own [death] according to the external and internal signs, [the yogi] who, through renunciation (<hi>nyāsa</hi>), is serene, free of extremes (i.e. hot, cold, pain, pleasure, etc.) and has his senses under control,[\dots ] </note> <note type="sources" target="#Kj44"> <hi>Vasiṣṭhasaṃhitā</hi> 6.3 <note type="appinnote"> nyāsataḥ  sa] nirbhayas tu VS </note> </note> <note type="translation" target="#Kj45"> [\dots ] performs the appropriate rites as well as the daily and occasional ones. He should obtain the supreme self in the heart (<hi>guhā</hi>) with the mind, through yoga,[\dots ] </note> <note type="sources" target="#Kj45"> <hi>Vasiṣṭhasaṃhitā</hi> 6.4 <note type="appinnote"> kurute yukta ] kurvan vidhyukta VS </note> </note> <note type="testimonia" target="#Kj45"> <hi>Haṭhapradīpikā</hi> (10 chapter) 3cd–4ab </note> <note type="translation" target="#Kj46"> [\dots and] with the breath mastered and free from desire, he should always sacrifice with <hi rend="smallcaps">om</hi>. And he who is desireless and devoted to Viṣṇu should repeat the salvific mantra.</note> <note type="sources" target="#Kj46"> <hi>Vasiṣṭhasaṃhitā</hi> 6.5 <note type="appinnote"> yajen ] japen VS<lb/>japec ca ] japed vā VS<lb/>cācyutapriyaḥ ] cācyutaḥ pathāt VS </note> </note> <note type="philcomm" target="#Kj46"> The term <hi>tārakam brahma</hi> (``salvific mantra'') is found in various Purāṇas and more recent Upa\-niṣads. On its meaning in Śaiva sources and its reinterpretion as the six-syllable Rāma mantra by Vaiṣṇava scholars, see Bakker 2019: 467–468. </note> <note type="translation" target="#Kj47"> Likewise, for part of that day, the adept of yoga should practise yoga for [attaining] bodiless liberation at death, knowing [the time of death] and being free from the fear of being born [again]. </note> <note type="sources" target="#Kj47"> <hi>Śārṅgadharapaddhati</hi> 4592 <note type="appinnote"> jananajaṃ ] maraṇajaṃ ŚDP </note> Cf. <hi>Mārkaṇḍeyapurāṇa</hi> 40.41, 40.42ab <lg> <l>dṛṣṭvāriṣṭaṃ tathā yogī tyaktvā maraṇajaṃ bhayam/</l> <l>tatsvabhāvaṃ tadālokya kālo yāvad vipākadaḥ//</l> <l>tasya bhāge tathaivāhno yogaṃ yuñjīta yogavit/</l> </lg> </note> <note type="translation" target="#Kj48"> The wise [yogi], seated in lotus posture with his neck in a straight position, should restrain his <hi>prāṇa</hi> and <hi>apāna</hi>, not touch his teeth together,[\dots ] </note> <note type="testimonia" target="#Kj48"> <hi>Śārṅgadharapaddhati</hi> 4593 <note type="appinnote"> nirudhya prāṇāpānau ca ] niruddhaprāṇapavano ŚDP<lb/>dantān asaṃpṛśan ] dantān na saṃspṛśet ŚDP </note> </note> <note type="translation" target="#Kj49"> [\dots ] mindfully close off the nine apertures [of his body], and shut his eyes. He makes the sound <hi rend="smallcaps">oṃ</hi> his bow, fixes <hi>sattva</hi> as the string, [\dots ] </note> <note type="testimonia" target="#Kj49"> <hi>Śārṅgadharapaddhati</hi> 4594 <note type="appinnote"> niyojayet ] niyojya ca ŚDP </note> </note> <note type="translation" target="#Kj50"> [\dots and] the self as the arrow on [the string]. [The arrow] is equipped with the elements, senses and so forth. Situated in the heart lotus, it is shot by letting it fly with the breath and mind. </note> <note type="sources" target="#Kj50"> <hi>Śārṅgadharapaddhati</hi> 4595 Cf. <hi>Muṇḍakopaniṣat</hi> 2.2.4 <lg> <l>praṇavo dhanuḥ śāro hy ātmā brahma tallakṣyam ucyate/</l> <l>apramattena veddhavyaṃ śaravat tanmayo bhavet//</l> </lg> </note> <note type="testimonia" target="#Kj50"> <hi>Haṭhapradīpikā</hi> (10 chapter) 10.15cd (ab only) <note type="appinnote"> tatrātmānaṃ śaraṃ so 'pi ] ātmānaṃ prāṇam āsādya HP10 </note> </note> <note type="translation" target="#Kj51"> Having reached the target by the path to the tenth door, it then dissolves into the supreme self along with the thirty-six ontic principles. </note> <note type="sources" target="#Kj51"> <hi>Śārṅgadharapaddhati</hi> 4596 </note> <note type="translation" target="#Kj52"> Then, there is supreme space, which is beyond the senses and inaccessible. That which the higher faculty is not able to name does not truly exist.</note> <note type="sources" target="#Kj52"> <hi>Śārṅgadharapaddhati</hi> 4597, cf. <hi>Mārkaṇḍeyapurāṇa</hi> 40.46 <note type="appinnote"> paramam ākāśam ŚDP ] paramanirvāṇam MP<lb/>buddhyā ŚDP ] buddher MP<lb/>naiva ŚDP ] yan na MP<lb/>na ca vastu tat ] 'nantam aśnute ŚDP, tat samaśnute MP </note> </note> <note type="testimonia" target="#Kj52"> <hi>Haṭhapradīpikā</hi> (10 chapter) 10.17 <note type="appinnote"> tataḥ paramam ] etad dhi parama HP10<lb/>yad buddhyā naiva cākhyātuṃ ] yat tu dhyānenākhyātu[ṃ] HP10<lb/>vastu tat ] vastutaḥ HP10 </note> </note> <note type="philcomm" target="#Kj52"> We have adopted the <hi>Śārṅgadharapaddhati</hi>'s reading (<hi>yad buddhyā naiva cākhyātuṃ</hi>) to make sense of third <hi>pāda</hi>. We have retained the unique ending of the fourth <hi>pāda</hi> (<hi>na ca vastu tat</hi>) but the readings of the <hi>Mārkaṇḍeyapurāṇa</hi> (<hi>tat samaśnute</hi>) and <hi>Śārṅgadharapaddhati</hi> (<hi>'nantam aśnute</hi>) are much better. </note> <note type="translation" target="#Kj53a"> Now, cheating death -- </note> <note type="translation" target="#Kj53"> Hear from me about when a yogi wants to roam the three worlds liberated-in-life, with a body. </note> <note type="sources" target="#Kj53"> <hi>Śārṅgadharapaddhati</hi> 4598 <note type="appinnote"> sā ] cej ŚDP </note> </note> <note type="testimonia" target="#Kj53"> <hi>Yogacintāmaṇi</hi> f. 108v (\attr Dattātreya), <hi>Haṭhasaṅketacandrikā</hi> f. 119r (\attr <hi>Yogatattvaprakāśa</hi>) <note type="appinnote"> sā ] cej YCM HSC<lb/>vāñchā YCM ] vāṃchāṃ HSC </note> </note> <note type="translation" target="#Kj54"> Death never spares the body of anyone, anywhere. Therefore, the yogi should make an effort to protect the body. </note> <note type="sources" target="#Kj54"> <hi>Śārṅgadharapaddhati</hi> 4599 <note type="appinnote"> tyajaty ] nayaty ŚDP </note> </note> <note type="testimonia" target="#Kj54"> <hi>Yogacintāmaṇi</hi> f. 108v (\attr Dattātreya), <hi>Haṭhasaṅketacandrikā</hi> f. 119r (\attr <hi>Yogatattvaprakāśa</hi>) <note type="appinnote"> tyajaty eva ] tyajed eṣa YCM, tyajed eva HSC </note> </note> <note type="translation" target="#Kj55"> The yogi should always carefully consider the omens so that, when [the time of death] is known, death does not kill him through deception. </note> <note type="sources" target="#Kj55"> <hi>Śārṅgadharapaddhati</hi> 4600 </note> <note type="testimonia" target="#Kj55"> <hi>Yogacintāmaṇi</hi> f. 108v (\attr Dattātreya), <hi>Haṭhasaṅketacandrikā</hi> f. 119r (\attr <hi>Yogatattvaprakāśa</hi>) <note type="appinnote"> 'sau jñāto hanti cchalān na ] sāvajñāto na nihanti YCM, sāvajñāto na haṃti HSC </note> </note> <note type="translation" target="#Kj56"> Having accurately predicted [the time of] death, he should resort to the place of dissolution and engage in yoga so that the [predicted time of] death comes to nothing. </note> <note type="sources" target="#Kj56"> <hi>Śārṅgadharapaddhati</hi> 4601, cf. <hi>Mārkaṇḍeyapurāṇa</hi> 40.40 <note type="appinnote"> ca kālaṃ ] kālaṃ ca ŚDP MP<lb/>layasthānaṃ sam ŚDP ] abhayasthānam MP<lb/>yogaṃ ŚDP ] yogī MP<lb/>'sya yathāsau jāyate 'phalaḥ ŚDP ] 'sau yathā nāsyāphalo bhavet MP </note> </note> <note type="testimonia" target="#Kj56"> <hi>Yogacintāmaṇi</hi> f. 109r (\attr Dattātreya), <hi>Haṭhasaṅketacandrikā</hi> f. 119r (\attr <hi>Yogatattvaprakāśa</hi>) <note type="appinnote"> ca kālaṃ taṃ samyag ] kālaṃ ca taṃ samyag YCM, kālaṃ nijaṃ yogī HSC<lb/>'phalaḥ YCM HSC<hi rend="italic">v.l.</hi> ] kalaḥ HSC<lb/></note> </note> <note type="philcomm" target="#Kj56"> In <hi>Haṭhapradīpikā</hi> 10.21, Bālakṛṣṇa glosses <hi>layasthānaṃ</hi> (``the place of dissolution'') with <hi>brahmarandhraṃ</hi>. This makes good sense here because in verse 51 the self goes to the tenth door (i.e. the <hi>brahmarandhra</hi>) to dissolve into the supreme self and, in verse 60, the yogi meditates on dissolving into Śiva, who is on the thousand-petalled lotus, which is usually located at the <hi>brahmarandhra</hi>. </note> <note type="translation" target="#Kj57"> Having adopted the adept's pose (<hi>siddhāsana</hi>), [the yogi] should fill the body with an inhalation. Carefully keeping his spine steady, he should close the ten apertures [of his body].</note> <note type="sources" target="#Kj57"> <hi>Śārṅgadharapaddhati</hi> 4602 </note> <note type="testimonia" target="#Kj57"> <hi>Yogacintāmaṇi</hi> f. 109r (\attr Dattātreya), <hi>Haṭhasaṅketacandrikā</hi> f. 119r (\attr <hi>Yogatattvaprakāśa</hi>) <note type="appinnote"> rundhayet ] dhārayet YCM, rodhayet HSC </note> </note> <note type="translation" target="#Kj58"> He should apply <hi>khecarīmudrā</hi>, and the <hi>jālandhara</hi> [lock] on the neck; and the root lock on [the region] of <hi>apāna</hi>, and the <hi>uḍḍīyāṇa</hi> [lock] on the abdomen. </note> <note type="sources" target="#Kj58"> <hi>Śārṅgadharapaddhati</hi> 4603 </note> <note type="testimonia" target="#Kj58"> <hi>Yogacintāmaṇi</hi> f. 109r (\attr Dattātreya), <hi>Haṭhasaṅketacandrikā</hi> f. 119v (\attr <hi>Yogatattvaprakāśa</hi>) <note type="appinnote"> bandhayet YCM ] baddhvā ca HSC </note> </note> <note type="translation" target="#Kj59"> Having used pneumatic blows to raise from the base the serpentine power (i.e. Kuṇḍalinī) situated below, Śiva’s consort who enters Suṣumṇā and pierces the five cakras,[\dots ] </note> <note type="sources" target="#Kj59"> <hi>Śārṅgadharapaddhati</hi> 4604 <note type="appinnote"> mūlād ] mūla ŚDP </note> </note> <note type="testimonia" target="#Kj59"> <hi>Yogacintāmaṇi</hi> f. 109r (\attr Dattātreya), <hi>Haṭhasaṅketacandrikā</hi> f. 119v (\attr <hi>Yogatattvaprakāśa</hi>) <note type="appinnote"> mūlād ghātair adhaḥsthitām ] mūlādhārāmbujasthitām YCM HSC </note> </note> <note type="translation" target="#Kj60"> [\dots ] [the yogi] should lead the <hi>jīva</hi> to the seat of the heart and visualise [Kuṇḍalinī] moving [upwards] together with the higher faculty and mind and dissolving into Śiva in a thousand-petalled lotus. </note><note type="sources" target="#Kj60"> <hi>Śārṅgadharapaddhati</hi> 4605 <note type="appinnote"> hṛdyā ] hṛdā ŚDP<lb/>buddhi ] buddhiṃ ŚDP<lb/>sthe ] stha ŚDP<lb/>vicintayet ] sudhāmaye ŚDP </note> </note> <note type="testimonia" target="#Kj60"> <hi>Yogacintāmaṇi</hi> f. 109r (\attr Dattātreya), <hi>Haṭhasaṅketacandrikā</hi> f. 119v (\attr <hi>Yogatattvaprakāśa</hi>) <note type="appinnote"> hṛdyā ] hṛdā YCM HSC<lb/>sthe YCM ] stha HSC<lb/>vicintayet ] sudhāmaye YCM HSC </note> </note> <note type="translation" target="#Kj61"> Then, he should visualise [Kuṇḍalinī] sprinkling and flooding the whole body from the base [upwards] with the nectar of immortality produced by the moon. </note><note type="sources" target="#Kj61"> <hi>Śārṅgadharapaddhati</hi> 4606 <note type="appinnote"> tataḥ ] pītvā ŚDP </note> </note> <note type="testimonia" target="#Kj61"> <hi>Yogacintāmaṇi</hi> f. 109r (\attr Dattātreya), <hi>Haṭhasaṅketacandrikā</hi> f. 119v (\attr <hi>Yogatattvaprakāśa</hi>) </note> <note type="translation" target="#Kj62"> Then, together with her the yogi attains oneness with Śiva. He becomes full of supreme bliss and gives up even mental activity.</note> <note type="sources" target="#Kj62"> <hi>Śārṅgadharapaddhati</hi> 4607 </note> <note type="testimonia" target="#Kj62"> <hi>Yogacintāmaṇi</hi> f. 109r (\attr Dattātreya), <hi>Haṭhasaṅketacandrikā</hi> f. 119v (\attr <hi>Yogatattvaprakāśa</hi>) <note type="appinnote"> bhūtvā YCM HSC<hi rend="italic">v.l.</hi> ] sūtva HSC </note> </note> <note type="translation" target="#Kj63"> After that, how can death kill he who is invisible, unmanifest, free from ego, and completely without a conception of the body? </note> <note type="sources" target="#Kj63"> <hi>Śārṅgadharapaddhati</hi> 4608 </note> <note type="testimonia" target="#Kj63"> <hi>Yogacintāmaṇi</hi> f. 109r (\attr Dattātreya), <hi>Haṭhasaṅketacandrikā</hi> f. 119v (\attr <hi>Yogatattvaprakāśa</hi>) <note type="appinnote"> sarvāṅga YCM HSC<hi rend="italic">v.l.</hi> ] sarvāṅgai HSC </note> </note> <note type="translation" target="#Kj64"> He alone is death, he is Śiva, he is everything and nothing. Who is killed by whom? In that [state], no one dies. </note> <note type="sources" target="#Kj64"> <hi>Śārṅgadharapaddhati</hi> 4609 <note type="appinnote"> eva ] eka ŚDP </note> </note> <note type="testimonia" target="#Kj64"> <hi>Yogacintāmaṇi</hi> f. 109r (\attr Dattātreya), <hi>Haṭhasaṅketacandrikā</hi> f. 119v (\attr <hi>Yogatattvaprakāśa</hi>) </note> <note type="translation" target="#Kj65"> Then when the time has passed for the puzzled Death, the yogi is awakened by knowledge, like one who has arisen from sleep. </note> <note type="sources" target="#Kj65"> <hi>Śārṅgadharapaddhati</hi> 4610 <note type="appinnote"> bodhaṃ yāti prabodhataḥ ] prabodhaṃ yāti bodhitaḥ ŚDP </note> </note> <note type="testimonia" target="#Kj65"> <hi>Yogacintāmaṇi</hi> f. 109r (\attr Dattātreya), <hi>Haṭhasaṅketacandrikā</hi> f. 119v (\attr <hi>Yogatattvaprakāśa</hi>) <note type="appinnote"> bodhaṃ yāti prabodhataḥ ] prabodhe pratibodhitaḥ YCM, pratibodhe prabodhitaḥ HSC </note> </note> <note type="philcomm" target="#Kj65"> Death is puzzled (<hi>bhrāntirūpiṇaḥ</hi>) because the yogi has cheated death. </note> <note type="translation" target="#Kj66"> Thus, the yogi becomes perfected, having duly and with extraordinary valour cheated death, the creator of transmigration.</note> <note type="sources" target="#Kj66"> <hi>Śārṅgadharapaddhati</hi> 4611 </note> <note type="testimonia" target="#Kj66"> <hi>Yogacintāmaṇi</hi> f. 109r (\attr Dattātreya), <hi>Haṭhasaṅketacandrikā</hi> f. 119v (\attr <hi>Yogatattvaprakāśa</hi>) </note> <note type="translation" target="#Kj67"> The singular yogi wanders there in the three worlds, seeing the wonder of worldly life, as he pleases, without ego. </note><note type="sources" target="#Kj67"> <hi>Śārṅgadharapaddhati</hi> 4612 <note type="appinnote"> tatra ] tatas ŚDP<lb/>viharaty ] vicaraty ŚDP </note> </note> <note type="testimonia" target="#Kj67"> <hi>Yogacintāmaṇi</hi> f. 109r–109v (\attr Dattātreya), <hi>Haṭhasaṅketacandrikā</hi> f. 119v (\attr <hi>Yogatattvaprakāśa</hi>) <note type="appinnote"> tatra ] tatas YCM HSC<lb/>viharaty ] vicaraty YCM HSC </note> </note> <note type="translation" target="#Kj68"> A sun-stone manifests fire through contact with the rays of the sun, not when it is alone. That is an example of a yogi. </note> <note type="sources" target="#Kj68"> <hi>Śārṅgadharapaddhati</hi> 4613, cf. <hi>Mārkaṇḍeyapurāṇa</hi> 43.49 <note type="appinnote"> dṛṣṭāntas tu sa ] dṛṣṭāntaḥ sa tu ŚDP, upamā sāpi MP </note> </note> <note type="philcomm" target="#Kj68"> The reason the sun-stone seems to be an example of a yogi here is that this stone was used to create fire like a magnifying glass, when it was in contact with the sun, much like the yogi is liberated-in-life when he becomes one with Śiva (62b). The fire-producing quality of the sun-stone (more commonly known as <hi>sūryakānta</hi> or <hi>agnimaṇi</hi>, etc.) is described in <hi>Rājanighaṇṭu</hi> 13.205cd: ``That is a sun-stone from which real fire is emitted upon contact with the sun rays'' (<hi>yaḥ sūryāṃśusparśaniṣṭhyūtavahnir jātyaḥ so 'yaṃ jāyate sūryakāntaḥ</hi>). </note> <note type="translation" target="#Kj68p"> </note> 
+</body>
+</text>
+</TEI>

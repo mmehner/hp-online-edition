@@ -10,6 +10,7 @@
 \setlength{\parskip}{0.3em}
 \setlength\parindent{0pt}
 
+\usepackage{xspace}
 \makepagestyle{HPed}
 \makeoddhead{HPed}{\small{HP Translation \& Commentary}}{}{\small{\today}}
 \makeevenhead{HPed}{\small{HP Translation \& Commentary}}{}{\small{\today}}
@@ -27,6 +28,29 @@
 \input{TeX2Tei-Commands}
 \SetTEIxmlExport{autopar=false}
 
+%%%%% from PreamblePub.tex
+
+\usepackage{enumitem}
+%\newcommand{\devtext}[1]{\textit{#1}}% Devanagari in the edition
+%\TeXtoTEIPat{\devtext {#1}}{#1}
+\newcommand{\texteng}[1]{#1}
+%\TeXtoTEIPat{\texteng {#1}}{#1}
+%\newcommand{\var}[1]{{\footnotesize #1}}
+
+\newcommand{\teionly}[1]{}
+\newcommand{\teimute}[1]{#1}
+\newcommand{\skx}[2]{#2} % sandhi between pādas
+%\TeXtoTEIPat{\skx {#1}{#2}}{#2}
+\newcommand{\labelincomm}{}
+%\TeXtoTEIPat{\labelincomm}{<lb/>}
+%\TeXtoTEIPat{\smallskip}{}
+\newcommand{\mylb}{}% \smallskip\\ in PreamblePub.tex
+%\TeXtoTEI{mylb}{}
+\def\crux{\texteng{\textsuperscript{\textdagger}}}
+\newcommand{\closer}{}
+%\TeXtoTEI{closer}{}
+
+\usepackage{url}
 %%%%%%%%%%%
 
 \SetTEIxmlExport{autopar=false}
@@ -40,18 +64,29 @@
 \NewDocumentEnvironment{testimonia}{O{}}{
 	\textcolor{blue}{\textbf{Testimonia:}}\linebreak}{}
 \NewDocumentEnvironment{versinnote}{O{}}{\begin{ekdverse}}{\end{ekdverse}}
+\NewDocumentEnvironment{versinnoterm}{O{}}{\begin{ekdverse}}{\end{ekdverse}}
+%\TeXtoTEIPat{\begin {versinnoterm}}{<lg>}
+%  \TeXtoTEIPat{\end {versinnoterm}}{</lg>}
+\NewDocumentEnvironment{appinnote}{O{}}{\footnotesize\begin{ekdverse}}{\end{ekdverse}}
+\NewDocumentEnvironment{variants}{O{}}{\footnotesize\begin{ekdverse}}{\end{ekdverse}}
+
 %\newcommand{\var}[1]{\footnotesize\textup{#1}}
 \newcommand{\medialink}[2]{\textcolor{green}{\underline{#1}}}
 %\TeXtoTEIPat{\medialink {#1}{#2}}{<ref target="/images/#2">#1</ref>}
 
 \NewDocumentCommand{\tl}{m}{#1}
 \NewDocumentCommand{\lb}{}{} %%% added mm 2024-07-04
+\newcommand{\sep}{\\} %%% added md 2025-12-22
+%\TeXtoTEIPat{\sep}{<lb/>}
+%\newcommand{\varsep}{\xspace\texteng{\textbullet}\xspace}
 
 \newcommand{\manuref}[1]{#1}
 
-\def\vl{\textit{v.l.}}
-\def\var#1{{\footnotesize #1}}
+\def\vl{\emph{v.l.}}
 \def\sl#1{\emph{#1}}
+\def\om{\emph{om.}}
+\def\unm{\emph{unm.}}
+\def\attr{\hbox{attrib.}~}
 
 %%%%%%%%%%%%
 
@@ -60,9 +95,9 @@
 \newcommand{\alphaOne}{\textalpha\textsubscript{1}}% N3
 \newcommand{\alphaTwo}{\textalpha\textsubscript{2}}% J5
 \newcommand{\alphaThree}{\textalpha\textsubscript{3}}% G4
-\newcommand{\betaOne}{\textbeta\textsubscript{1}}% P11
-\newcommand{\betaTwo}{\textbeta\textsubscript{2}}% C6
-\newcommand{\betaOmega}{\textbeta\textsubscript{\textomega}}% V3
+\newcommand{\betaOne}{\textpi\textsubscript{1}}% P11 old
+\newcommand{\betaTwo}{\textpi\textsubscript{2}}% C6 old
+\newcommand{\betaOmega}{\textpi\textsubscript{\textomega}}% V3 old
 \newcommand{\gammaOne}{\textgamma\textsubscript{1}}% N23
 \newcommand{\gammaTwo}{\textgamma\textsubscript{2}}% J7
 \newcommand{\deltaOne}{\textdelta\textsubscript{1}}% V19
@@ -79,6 +114,9 @@
 \newcommand{\etaOne}{\texteta\textsubscript{1}}% V1
 \newcommand{\etaTwo}{\texteta\textsubscript{2}}% J10
 \newcommand{\etaOmega}{\texteta\textsubscript{\textomega}}% E4
+\newcommand{\piOne}{\textpi\textsubscript{1}}% P11 new
+\newcommand{\piTwo}{\textpi\textsubscript{2}}% C6 new
+\newcommand{\piOmega}{\textpi\textsubscript{\textomega}}% V3 new
 
 %%%%%%%%%%%%%%
 

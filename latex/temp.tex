@@ -1,0 +1,389 @@
+\input{PreamblePub}
+
+\def\hindsection{X4}
+
+\renewcommand{\Anm}[1]{}
+\newcommand{\xinclude}[1]{#1} %
+\newcommand{\xexclude}[1]{} %
+\TeXtoTEI{xinclude}{ab}
+\TeXtoTEI{xexclude}{}
+%\newcommand{\orgx}[2]{#2} % for X-Version
+\newcommand{\myfnx}[1]{\myfn{#1}}
+
+\setlength{\marginparsep}{-22pt} \newcommand{\orgvnr}[1]{%
+  \marginpar{\footnotesize{\texteng{=\,4.#1}}}}
+
+\RenewDocumentEnvironment{alttlg}{O{}}{
+  \def\hpvnum{\texteng{\thepoemline}} \markboth{\hpvnum}{\hpvnum}
+  \stepcounter{myvnum}
+  \begin{ekdverse}[type=altrecension] \color{gray}% d. einzige
+    Unterschied \Large}{\normalsize
+  \end{ekdverse} \smallskip }
+
+\RenewDocumentEnvironment{tlg}{O{}}{
+  \def\hpvnum{\texteng{\thepoemline}} \markboth{\hpvnum}{\hpvnum}
+  \setcounter{myvnum}{\value{poemline}}
+  \begin{ekdverse} \Large}{%\normalsize
+  \end{ekdverse} \smallskip }
+
+\NewDocumentEnvironment{Xalttlg}{O{}}{
+  \setvnum{\hindsection.\arabic{saved@poemline}*\arabic{poemline}}
+  \def\hpvnum{\texteng{\hindsection.\arabic{saved@poemline}*\arabic{poemline}}}
+  \markboth{\hpvnum}{\hpvnum} %\setcounter{altvnum}{\value{poemline}}
+  % \def\labelvnum{\thehpvnum}
+  \begin{ekdverse}[type=altrecension] \large\color{gray}}{
+  \end{ekdverse} }
+
+\def\commfilename{HP4_comm.tex}
+
+\newcommand{\Xcommcite}[1]{%
+  \def\commvnum{#1}% \def\labelvnum{\themyvnum}% \myvspace
+  \begin{quote}% \textcolor{gray}{%
+    \ExecuteMetaData[\commfilename]{tr\commvnum}
+    \texteng{(\labelvnum)}}\comminfn
+\end{quote}}
+
+\newcommand\content{}
+
+\newcommand{\Xtext}[1]{%
+  \ExecuteMetaData[HP4_pub2.tex]{vs#1}%
+}
+
+\newcommand{\Xava}[1]{%
+  \ExecuteMetaData[HP4_pub2.tex]{vs#1}%
+}
+
+\newcommand{\Xset}[1]{%
+  \Xtext{#1} \Xcommcite{#1}
+}
+
+% \newcommand{\Xaltcite}[2]{% % \def\commvnum{#1}% %
+\def\labelvnum{#2}% % \commcitecore}
+
+\renewcommand{\avacite}[1]{ \smallskip \hspace*{0.5em}
+  \textcolor{gray}{\ExecuteMetaData[\commfilename]{tr#1}} }
+
+\begin{document}
+
+\thispagestyle{firstpage}
+\begin{center}
+  \section*{Chapter 4 (expanded version)}
+\end{center} \bigskip
+
+\begin{otherlanguage}{iast}
+  \begin{ekdosis}
+    
+    % 1
+    \Xset{0-1}\newpage
+    \Xset{0-2}%
+    \newpage
+    \Xtext{32}
+    \Xtext{33}%
+    \newpage
+    % 5
+    \Xset{0-3}
+    \Xtext{73}%
+    \newpage 
+    \Xset{0-4}%
+    \newpage
+    \Xset{0-5}%\newpage
+    \Xset{0-6}%
+    \newpage
+    % 10
+    \Xtext{56} 
+    \Xtext{57}%
+    \newpage
+    \Xset{0-7}%\newpage
+    \Xset{0-8}%
+    \newpage
+    \Xset{0-9}%\newpage
+    % 15
+    \Xset{0-10}%
+    \newpage 
+    \Xset{0-11}%
+    \newpage
+    \Xset{0-12}%
+    \newpage
+    \Xtext{58}
+    \Xtext{60}
+    % 20
+    \Xtext{64} 
+    \Xtext{65}%
+    \newpage
+    \Xtext{66}
+    \Xtext{67}
+    \Xtext{68}
+    % 25
+    \Xtext{69}%
+    \newpage
+    \Xtext{70}
+    \Xtext{71}%
+    \newpage
+    \Xset{0-13}%\newpage
+    \Xset{0-14}%
+    \newpage
+    % 30
+    \Xtext{72} 
+    \Xtext{74}%
+    \newpage
+    \Xtext{1}%\newpage
+    \Xset{1-1}%
+    \newpage
+    \Xtext{2}
+    % 35
+    \Xtext{3} 
+    \Xtext{4}
+    \Xtext{5}%
+    \newpage
+    \Xtext{6}
+    \Xtext{7}
+    % 40
+    \Xtext{8}%
+    \newpage 
+    \Xset{11-1}%
+    \newpage
+    \Xset{11-2}%
+    \newpage
+    \Xset{11-3}%
+    \newpage%\ \newpage
+    \Xset{11-4}%
+    \newpage
+    % 45
+    \Xava{11-5a}%
+    \avacite{11-5a} % khecari
+
+    \bigskip
+
+    \Xtext{11-5}%
+    \Xcommcite{11-5}%\newpage 
+    \Xset{11-6}%
+    \newpage
+    \Xtext{11-7}%
+    \myvspace
+    \begin{quote}
+      \color{gray}
+      \ExecuteMetaData[HP3_comm.tex]{tr37}%
+      \ttransref{HP3_comm-tei.xml#hp03_037}
+      \texteng{(\themyvnum)}\footnotetext{%
+        \color{black}\commlabel%
+        \ExecuteMetaData[\commfilename]{cm11-7}%
+        \tcommref{HP4_comm-tei.xml#hp04_011_17}
+      }%
+    \end{quote}
+
+    \Xset{11-8}%
+    \newpage
+    \Xset{11-9}%\newpage
+    % 50
+    \Xset{11-10}%
+    \newpage
+    \Xset{11-11}
+    \Xset{11-12}%
+    \newpage
+    \Xset{11-13}
+    \Xset{11-14}%
+    \newpage
+    % 55
+    \Xset{11-15}
+    \Xset{11-16}%
+    \newpage
+    \Xset{11-17}
+    \Xset{11-18}%
+    \newpage
+    \Xava{11-19a}%
+    \avacite{11-19a}
+
+    \bigskip
+
+    \Xtext{11-19}%
+    \Xcommcite{11-19}%\newpage
+    % 60
+    \Xset{11-20}%
+    \newpage 
+    \Xset{11-21}%\newpage
+    \Xset{11-22}%
+    \newpage 
+    \Xset{11-23}%\newpage
+    \Xset{11-24}%
+    \newpage 
+    % 65
+    \Xset{11-25}%\newpage
+    \Xset{11-26}%
+    \newpage 
+    \Xset{11-27}%\newpage
+    \Xset{11-28}%
+    \newpage 
+    \Xset{11-29}%\newpage
+    % 70
+    \Xava{11-30a}%
+    \avacite{11-30a}
+
+    \bigskip
+
+    \Xtext{11-30}%
+    \Xcommcite{11-30}
+    \Xset{11-31}%
+    \newpage 
+    \Xtext{12}
+    \Xtext{55}
+    \Xtext{19}%
+    \newpage 
+    % 75
+    \Xava{20a}%
+    \Xtext{20}
+    \Xtext{21}
+    \medskip
+    \Xava{22a}%
+    \Xtext{22}
+    \Xtext{23}%
+    \newpage 
+    \Xava{24a}%
+    \Xtext{24}
+    % 80
+    \Xtext{25}%\newpage 
+    \medskip
+    \Xava{26a}%
+    \Xtext{26}
+    \Xtext{27}%
+    \newpage 
+    % \medskip
+    \Xava{27-1a}%
+    \avacite{27-1a}
+
+    \bigskip
+
+    \Xtext{27-1}%
+    \Xcommcite{27-1} 
+    \Xtext{36}%
+    \newpage 
+    % 85
+    \Xtext{13}
+    % \startaltrecension
+    % \begin{Xalttlg}
+    %   \Xtext{36-1}
+    % \end{Xalttlg}
+    % \small
+    % \Xaltcite{36-1}{85*1}
+    % \normalsize\endaltrecension
+    % \newpage
+    \Xtext{38}
+    \Xtext{39}
+    \Xtext{40}%
+    \newpage 
+    \Xtext{41}
+    % 90
+    \Xtext{42}
+    \Xtext{43}
+    \Xtext{44}%
+    \newpage 
+    \Xtext{45}%\newpage 
+    \Xtext{14}
+    % 95
+    \Xtext{15}
+    \Xtext{16}%
+    \newpage 
+    \Xava{17a}%
+    \Xtext{17}%\newpage 
+    \Xtext{18}
+    \Xtext{37}
+    % 100
+    \Xtext{46}%
+    \newpage 
+    \Xtext{47}
+    \Xset{47-1}%
+    \newpage 
+    \Xtext{49}
+    \Xtext{48}
+    % 105
+    \Xtext{50}%
+    \newpage
+    \Xset{50-1}%\newpage 
+    \Xset{52-1}%
+    \newpage
+    \Xtext{53}
+    \Xtext{54}%
+    \newpage 
+    % 110
+    \Xset{55-1}
+    \Xset{55-2}%
+    \newpage 
+    \Xset{55-3}%
+    \newpage 
+    \Xtext{52}
+    \Xtext{55-4}%
+    \Xcommcite{55-4}%
+    \Xava{55-4p}%
+    \avacite{55-4p}%
+    \newpage 
+    % 115
+    \Xava{55-5a}%
+    \avacite{55-5a}
+
+    \bigskip
+    \begin{alttlg}
+      \tl{\app{\lem[nolem]{}
+          \rdg[wit={G11,G5}]{\only}}%
+        \pada{yuvā vṛddho'tivṛddho vā} 
+        \pada{vyādhito durbalo'pi vā/}\\+}
+      \tl{
+        \pada{abhyāsāt siddhim āpnoti} 
+        \pada{sarvayogeṣv atandritaḥ//\versenr}
+        \myfn{=\,1.64 \mydelim\ In place of this verse, \getsiglum{N19} reads \textit{yathā vṛddho veti}, and \getsiglum{V15} \textit{yathā vṛddhaiḥ prabhāṣitaṃ}.}
+        \\!}
+    \end{alttlg}
+    \myvspace	
+    \begin{quote}\color{gray}
+      \ExecuteMetaData[HP1_comm.tex]{tr64}%
+      \ttransref{HP1_comm-tei.xml#hp01_064}
+      \texteng{(\themyvnum)}\color{black}
+    \end{quote}
+
+    \Xtext{77}%
+    \newpage
+    \Xtext{28}
+    \Xtext{29}
+    \Xtext{30}
+    % 120
+    \Xtext{31}%
+    \newpage
+    \Xtext{34}
+    \Xtext{35}
+    \Xtext{51}%
+    \newpage
+    \Xset{35-1}%
+    \newpage
+    % 125
+    \Xset{35-2}%
+    \newpage
+    \Xset{35-3}
+    \Xset{35-4}%
+    \newpage
+    \Xset{35-5}
+    \Xset{35-6}%
+    \newpage
+    % 130
+    \Xtext{76}
+    \Xset{35-7}%
+    \newpage
+    \Xset{35-8}%
+    \newpage
+    \Xtext{75}
+    \Xtext{78}%\newpage 
+
+    % 134*1
+    % \startaltrecension
+    % \begin{Xalttlg}
+    %   \Xtext{78-1}
+    % \end{Xalttlg}
+    % \small
+    % \Xaltcite{78-1}{134*1}
+    % \normalsize
+    % \endaltrecension
+
+    \medskip
+    \Xtext{col}
+
+
+  \end{ekdosis}
+\end{otherlanguage}
+\end{document}
