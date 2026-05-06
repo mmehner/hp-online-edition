@@ -41,7 +41,7 @@
   <xsl:template match="*[@type='altrec']">
     <xsl:param name="x4-rec" tunnel="yes"/>
     <xsl:element name="{local-name()}">
-      <xsl:if test="not($x4-rec)">
+      <xsl:if test="not($x4-rec) and not(contains($chapid, 'omega'))">
 	<xsl:attribute name="class">altrec</xsl:attribute>
       </xsl:if>
       <xsl:apply-templates/>
@@ -50,6 +50,7 @@
 
   <!-- main switch -->
   <xsl:template match="lg[not(ancestor::note)]">
+    <xsl:param name="x4-rec" tunnel="yes"/>
     <xsl:variable name="tree" select="//*"/>
     <xsl:variable name="lggroup" select="key('group-by-id', @xml:id, $groupsDoc)"/>
     <xsl:choose>
@@ -65,14 +66,29 @@
 		</xsl:attribute>
 		<xsl:attribute name="class">hp</xsl:attribute>
 		<span class="number">
-		  HP <xsl:call-template name="id-to-number"/>
-		  <xsl:text>–</xsl:text>
+		  HP
 		  <xsl:choose>
-		    <xsl:when test="matches($lggroup/Q{}id[position() = last()], 'hp\d+_\d+_\d+')">
-		      <xsl:value-of select="replace($lggroup/Q{}id[position() = last()], 'hp0*(\d+)_0*(\d+)_0*(\d+)', '$2*$3')"/>
+		    <xsl:when test="$x4-rec">
+		      X4.<xsl:value-of select="$x4-rec"/>
 		    </xsl:when>
 		    <xsl:otherwise>
-		      <xsl:value-of select="replace($lggroup/Q{}id[position() = last()], 'hp0*(\d+)_0*(\d+)', '$2')"/>
+		      <xsl:call-template name="id-to-number"/>
+		    </xsl:otherwise>
+		  </xsl:choose>
+		  <xsl:text>–</xsl:text>
+		  <xsl:choose>
+		    <xsl:when test="$x4-rec"><!-- only 4.32-33 = X4.3-4-->
+		     <xsl:text>4</xsl:text>
+		    </xsl:when>
+		    <xsl:otherwise>
+		      <xsl:choose>
+			<xsl:when test="matches($lggroup/Q{}id[position() = last()], 'hp\d+_\d+_\d+')">
+			  <xsl:value-of select="replace($lggroup/Q{}id[position() = last()], 'hp0*(\d+)_0*(\d+)_0*(\d+)', '$2*$3')"/>
+			</xsl:when>
+			<xsl:otherwise>
+			  <xsl:value-of select="replace($lggroup/Q{}id[position() = last()], 'hp0*(\d+)_0*(\d+)', '$2')"/>
+			</xsl:otherwise>
+		      </xsl:choose>
 		    </xsl:otherwise>
 		  </xsl:choose>
 		</span>
@@ -201,7 +217,7 @@
 	      HP
 	      <xsl:choose>
 		<xsl:when test="$x4-rec">
-		  X4.<xsl:value-of select="$x4-rec"/> (= <xsl:call-template name="id-to-number"/>)
+		  X4.<xsl:value-of select="$x4-rec"/>
 		</xsl:when>
 		<xsl:otherwise>
 		  <xsl:call-template name="id-to-number"/>
@@ -332,7 +348,7 @@
     <xsl:variable name="correspkey" select="concat('#', @xml:id )"/>
     
     <xsl:element name="div">
-      <xsl:attribute name="class">main<xsl:if test="not(ancestor::div[@type='altrec']) and not(child::*[not(@type='altrec')]) and not($x4-rec)"> altrec</xsl:if>
+      <xsl:attribute name="class">main<xsl:if test="not(ancestor::div[@type='altrec']) and not(child::*[not(@type='altrec')]) and not($x4-rec) and not(contains($chapid, 'omega'))"> altrec</xsl:if>
       </xsl:attribute>
       <div class="hpmeta">
 	<div class="text">
@@ -578,7 +594,7 @@
   <xsl:template name="apparatus">
     <xsl:param name="x4-rec" tunnel="yes"/>
     <xsl:element name="div">
-      <xsl:attribute name="class">app<xsl:if test="ancestor::*[@type='altrec'] and not($x4-rec)"> altrec</xsl:if></xsl:attribute>
+      <xsl:attribute name="class">app<xsl:if test="ancestor::*[@type='altrec'] and not($x4-rec) and not(contains($chapid, 'omega'))"> altrec</xsl:if></xsl:attribute>
       <xsl:choose>
 	<xsl:when test="lem">
 	  <xsl:apply-templates select="lem" mode="lemma"/>
@@ -663,7 +679,7 @@
   <!-- refs specific to 4X -->
   <xsl:template match="ref[@type='set']">
     <xsl:variable name="idkey" select="substring-after(@target, '#')"/>
-    <xsl:variable name="textsource" select="document('../xml/HP4_pub-tei.xml')"/>
+    <xsl:variable name="textsource" select="document('../xml/HP4_pub2-tei.xml')"/>
     <xsl:apply-templates select="$textsource//lg[@xml:id = $idkey]">
       <xsl:with-param name="x4-rec" select="@n" tunnel="yes"/>
     </xsl:apply-templates>
@@ -671,7 +687,7 @@
 
   <xsl:template match="ref[@type='textonly']">
     <xsl:variable name="idkey" select="substring-after(@target, '#')"/>
-    <xsl:variable name="textsource" select="document('../xml/HP4_pub-tei.xml')"/>
+    <xsl:variable name="textsource" select="document('../xml/HP4_pub2-tei.xml')"/>
     <xsl:apply-templates select="$textsource//lg[@xml:id = $idkey]">
       <xsl:with-param name="x4-rec" select="@n" tunnel="yes"/>
       <xsl:with-param name="textonly" select="true()" tunnel="yes"/>
@@ -680,7 +696,7 @@
 
   <xsl:template match="ref[@type='avaset']">
     <xsl:variable name="idkey" select="substring-after(@target, '#')"/>
-    <xsl:variable name="textsource" select="document('../xml/HP4_pub-tei.xml')"/>
+    <xsl:variable name="textsource" select="document('../xml/HP4_pub2-tei.xml')"/>
     <xsl:apply-templates select="$textsource//div[@xml:id = $idkey]">
       <xsl:with-param name="x4-rec" select="true()" tunnel="yes"/>
     </xsl:apply-templates>
@@ -688,7 +704,7 @@
   
   <xsl:template match="ref[@type='avatextonly']">
     <xsl:variable name="idkey" select="substring-after(@target, '#')"/>
-    <xsl:variable name="textsource" select="document('../xml/HP4_pub-tei.xml')"/>
+    <xsl:variable name="textsource" select="document('../xml/HP4_pub2-tei.xml')"/>
     <xsl:apply-templates select="$textsource//div[@xml:id = $idkey]">
       <xsl:with-param name="x4-rec" select="true()" tunnel="yes"/>
       <xsl:with-param name="textonly" select="true()" tunnel="yes"/>
@@ -769,7 +785,7 @@
   <xsl:template match="l[not(ancestor::note)]">
     <xsl:param name="x4-rec" tunnel="yes"/>
     <xsl:element name="p">
-      <xsl:attribute name="class">hpvers<xsl:if test="not(ancestor::div[@type='altrec']) and not(child::*[not(@type='altrec')]) and not($x4-rec)"> altrec</xsl:if>
+      <xsl:attribute name="class">hpvers<xsl:if test="not(ancestor::div[@type='altrec']) and not(child::*[not(@type='altrec')]) and not($x4-rec) and not(contains($chapid, 'omega'))"> altrec</xsl:if>
       </xsl:attribute>
       <xsl:apply-templates/>
     </xsl:element>
@@ -793,6 +809,10 @@
 
   <xsl:template match="lb">
     <br/>
+  </xsl:template>
+
+  <xsl:template match="seg[@type='sep']">
+    <xsl:text>&#160;&#160;&#160;&#160;</xsl:text>
   </xsl:template>
   
   <!-- non-main stanzas -->

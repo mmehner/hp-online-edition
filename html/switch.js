@@ -12,6 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     setbuttons();
     hide("altrec"); /*entbehrlich durch css?*/
+    hideID("hpx4");
     
     devbutton.addEventListener('click', ()=> {
 	if ( dev && !ltn ) {
@@ -47,11 +48,17 @@ document.addEventListener("DOMContentLoaded", () => {
 
     altrecbutton.addEventListener('click', () => {
 	if ( altrec ) {
+	    show("notaltrec");
+	    showID("hp4");
 	    hide("altrec");
+	    hideID("hpx4");
 	    altrec=false;
 	    setbuttons();
 	} else {
+	    hide("notaltrec");
+	    hideID("hp4");
 	    show("altrec");
+	    showID("hpx4");
 	    altrec=true;
 	    setbuttons();
 	};
@@ -79,14 +86,28 @@ document.addEventListener("DOMContentLoaded", () => {
 	    div.style.display="none";
 	} 
     }
-
+    
     function show(scriptclass) {
 	let class_a = document.getElementsByClassName(scriptclass);
 
 	for (var i = class_a.length -1 ; i >= 0; i--) {
 	    let div=class_a[i];
-	    div.style.display="block";
-	    
+	    if (div.tagName === "A") {
+		div.style.display="inline-block";
+	    } else {
+		div.style.display="block";
+	    }
 	}
     }
+
+    function hideID(id) {
+	let div = document.getElementById(id);
+	div.style.display="none";
+    }
+
+    function showID(id) {
+	let div = document.getElementById(id);
+	div.style.display="block";
+    }
+
 });

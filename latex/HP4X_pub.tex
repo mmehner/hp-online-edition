@@ -1,5 +1,8 @@
 \input{PreamblePub}
 \def\hindsection{X4}
+\setcounter{page}{283}
+\def\apxnr{A}
+\pagestyle{Appendix}
 
 \renewcommand{\Anm}[1]{}
 \newcommand{\xinclude}[1]{#1} %
@@ -88,10 +91,12 @@
 
 
 \begin{document}
-\thispagestyle{firstpage}
+\thispagestyle{empty}
 \begin{center}
-  \section*{Chapter 4 (expanded version)}
+\textsf{\large ⟦Appendix A⟧}
 \end{center}
+\section*{\LARGE Chapter 4 of the Expanded Version}
+\teimute{\extramarksright{Chapter 4 of the Expanded Version}}
 \bigskip
 
 \begin{otherlanguage}{iast}
@@ -105,8 +110,8 @@
     % 5
     \Xset{0-3}{hp04_000_3}{5}
     \Xtext{73}{hp04_073a}{6}\newpage 
-    \Xset{0-4}{hp04_000_4}{7}\newpage
-    \Xset{0-5}{hp04_000_5}{8}%\newpage
+    \Xset{0-4}{hp04_000_4}{7}%\newpage
+    \Xset{0-5}{hp04_000_5}{8}\newpage
     \Xset{0-6}{hp04_000_6}{9}\newpage
     % 10
     \Xtext{56}{hp04_056}{10} 
@@ -157,17 +162,18 @@
 
     \Xset{11-5}{hp04_011_5}{45}%\Xtext{11-5}{hp04_011_5}{45}\Xcommcite{11-5}{hp04_011_5}%\newpage %%% vereinfacht macht es einen Unterschied?
     \Xset{11-6}{hp04_011_6}{46}\newpage
-    \Xtext{11-7}{hp04_011_7}{47}%
-    \myvspace
-    \begin{quote}
-      \color{gray}
-      \ExecuteMetaData[HP3_comm.tex]{tr37}%#hp03_037
-      \texteng{(\themyvnum)}\footnotetext{%
-	\color{black}\commlabel%
-	\ExecuteMetaData[\commfilename]{cm11-7}%#hp04_011_17
-      }%
-    \end{quote}
 
+%    \Xtext{11-7}{hp04_011_7}{47}%
+%    \myvspace
+%    \begin{quote}
+%      \color{gray}
+%      \ExecuteMetaData[HP3_comm.tex]{tr37}%#hp03_037
+%      \texteng{(\themyvnum)}\footnotetext{%
+%	\color{black}\commlabel%
+%	\ExecuteMetaData[\commfilename]{cm11-7}%#hp04_011_17
+%      }%
+%    \end{quote}
+    \Xset{11-7}{hp04_011_7}{47}
     \Xset{11-8}{hp04_011_8}{48}\newpage
     \Xset{11-9}{hp04_011_9}{49}%\newpage
     % 50
@@ -264,34 +270,38 @@
     \Xset{50-1}{hp04_050_1}{106}%\newpage 
     \Xset{52-1}{hp04_052_1}{107}\newpage
     \Xtext{53}{hp04_053}{108}
-    \Xtext{54}{hp04_054}{109}\newpage 
+    \Xtext{54}{hp04_054}{109}
     % 110
-    \Xset{55-1}{hp04_055_1}{110}
-    \Xset{55-2}{hp04_055_2}{111}\newpage 
+    \Xset{55-1}{hp04_055_1}{110}\newpage 
+    \Xset{55-2}{hp04_055_2}{111}%\newpage 
     \Xset{55-3}{hp04_055_3}{112}\newpage 
     \Xtext{52}{hp04_052}{113}
     \Xset{55-4}{hp04_055_4}{114}%\Xtext{55-4}{hp04_055_4}{114}\Xcommcite{55-4}{hp04_055_4}
-    \Xavaset{55-4p}{hp04_055_4p}%\Xava{55-4p}{hp04_055_4p}\avacite{55-4p}{hp04_055_4p}\newpage 
+    \Xavaset{55-4p}{hp04_055_4p}\newpage %\Xava{55-4p}{hp04_055_4p}\avacite{55-4p}{hp04_055_4p}
     % 115
     \Xavaset{55-5a}{hp04_055_5a}%\Xava{55-5a}{hp04_055_5a}\avacite{55-5a}{hp04_055_5a}
 
     \bigskip
-    \begin{alttlg}[hp4X_01]
-      \tl{\app{\lem[nolem]{}
-          \rdg[wit={G11,G5}]{\only}}%
-        \pada{yuvā vṛddho'tivṛddho vā} 
-        \pada{vyādhito durbalo'pi vā/}\\+}
-      \tl{
-        \pada{abhyāsāt siddhim āpnoti} 
-        \pada{sarvayogeṣv atandritaḥ//\versenr}
-        \myfn{=\,1.64 \mydelim\ In place of this verse, \getsiglum{N19} reads \textit{yathā vṛddho veti}, and \getsiglum{V15} \textit{yathā vṛddhaiḥ prabhāṣitaṃ}.}
-        \\!}
-    \end{alttlg}
-    \myvspace	
-    \begin{quote}\color{gray}
-      \ExecuteMetaData[HP1_comm.tex]{tr64}%#hp01_064
-      \texteng{(\themyvnum)}\color{black}
-    \end{quote}
+%    \begin{alttlg}[hp4X_01]
+%	\tl{\app{\lem[nolem]{}
+%		\rdg{\texteng{=\,1.64}}
+%		\rdg[wit={G11,G5}]{\only}
+%		\rdg[wit={N19}]{yathā vṛddho veti}
+%		\rdg[wit={V15}]{yathā vṛddhaiḥ prabhāṣitaṃ}
+%		}%
+%        \pada{yuvā vṛddho'tivṛddho vā} 
+%        \pada{vyādhito durbalo'pi vā/}\\+}
+%    \tl{
+%        \pada{abhyāsāt siddhim āpnoti} 
+%        \pada{sarvayogeṣv atandritaḥ//\versenr}
+%        \\!}
+%    \end{alttlg}
+%    \myvspace	
+%    \begin{quote}\color{gray}
+%      \ExecuteMetaData[HP1_comm.tex]{tr64}%#hp01_064
+%      \texteng{(\themyvnum)}\color{black}
+%    \end{quote}
+    \Xset{55-5}{hp04_055_5}{115}
 
     \Xtext{77}{hp04_077}{116}\newpage
     \Xtext{28}{hp04_028}{117}
@@ -304,14 +314,14 @@
     \Xtext{51}{hp04_051}{123}\newpage
     \Xset{35-1}{hp04_035_1}{124}\newpage
     % 125
-    \Xset{35-2}{hp04_035_2}{125}\newpage
-    \Xset{35-3}{hp04_035_3}{126}
-    \Xset{35-4}{hp04_035_4}{127}\newpage
-    \Xset{35-5}{hp04_035_5}{128}
-    \Xset{35-6}{hp04_035_6}{129}\newpage
+    \Xset{35-2}{hp04_035_2}{125}
+    \Xset{35-3}{hp04_035_3}{126}\newpage
+    \Xset{35-4}{hp04_035_4}{127}
+    \Xset{35-5}{hp04_035_5}{128}\newpage
+    \Xset{35-6}{hp04_035_6}{129}
     % 130
-    \Xtext{76}{hp04_076}{130}
-    \Xset{35-7}{hp04_035_7}{131}\newpage
+    \Xtext{76}{hp04_076}{130}\newpage
+    \Xset{35-7}{hp04_035_7}{131}
     \Xset{35-8}{hp04_035_8}{132}\newpage
     \Xtext{75}{hp04_075}{133}
     \Xtext{78}{hp04_078}{134}%\newpage 

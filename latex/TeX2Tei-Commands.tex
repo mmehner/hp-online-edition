@@ -1,11 +1,17 @@
-% new commands
+% additions 2026-05-06 mm:
+%\TeXtoTEIPat{\{ }{{} %breaks TEI, postprocess with sed instead
+%\TeXtoTEIPat{\} }{}} %breaks TEI, postprocess with sed instead
+%\TeXtoTEI{\_ }{…} %breaks TEI, postprocess with sed instead
+\TeXtoTEI{space}{}
+\TeXtoTEI{vspaceinnote}{}
+\TeXtoTEIPat{\setcounter {#1}{#2}}{}
+\EnvtoTEI{center}{}
 
-% \mydelim
-% \mylem
-% == used in commentary files ==
-% \newenvironment{appinnote}{%
-% \newenvironment{variants}{% = appinnote
-% \varsep
+% additions 2026-03-18 md:
+\TeXtoTEIPat{\hpref {#1}}{#1}
+\TeXtoTEIPat{\attr }{attrib. }
+%\TeXtoTEIPat{\- }{} %%% changed 2026-05-06 mm, breaks TEI, postprocess with sed instead
+\TeXtoTEIPat{\dots }{...}
 
 % additions 2026-02-24 mm:
 \TeXtoTEI{texteng}{s}[xml:lang="en"]
@@ -28,8 +34,8 @@
 \TeXtoTEI{footnote}{}
 \TeXtoTEI{footnotesize}{}
 \TeXtoTEI{footnotetext}{}
-\TeXtoTEIPat{\  }{}
-\TeXtoTEIPat{--}{–}
+\TeXtoTEIPat{\  }{ }
+\TeXtoTEIPat{ -- }{ – } %%% changed 2026-05-06 mm
 \TeXtoTEIPat{\fi}{}
 \TeXtoTEIPat{\iffalse}{}
 \TeXtoTEIPat{\def}{}
@@ -47,7 +53,7 @@
 \TeXtoTEI{commlabel}{}
 \TeXtoTEIPat{\begin {versinnoterm}}{<lg>}
   \TeXtoTEIPat{\end {versinnoterm}}{</lg>}
-\TeXtoTEIPat{\sep}{<lb/>}
+\TeXtoTEIPat{\sep }{<seg type="sep"/>}
 \TeXtoTEIPat{\vspace {#1}}{}
 \TeXtoTEIPat{\trcite {#1}}{}
 \TeXtoTEIPat{\avacite {#1}}{}
@@ -71,7 +77,7 @@
 
 % additions 2025-12 md:
 \TeXtoTEI{versenr}{} 
-\TeXtoTEIPat{\expnr {#1}}{#1}
+%\TeXtoTEIPat{\expnr {#1}}{#1}
 \TeXtoTEIPat{\textapp {#1}}{#1}
 
 % additions 2025-08-23 md:
@@ -88,8 +94,8 @@
 \TeXtoTEIPat{\zetaOne}{ζ<hi rend="sub">1</hi>}
 \TeXtoTEIPat{\zetaTwo}{ζ<hi rend="sub">2</hi>}
 \TeXtoTEIPat{\zetaThree}{ζ<hi rend="sub">3</hi>}
-\TeXtoTEIPat{\zetaFour}{ζ<hi rend="sub">4</hi>}
-\TeXtoTEIPat{\zetaOmega}{ζ<hi rend="sub">ω</hi>}
+%\TeXtoTEIPat{\zetaFour}{ζ<hi rend="sub">4</hi>}
+%\TeXtoTEIPat{\zetaOmega}{ζ<hi rend="sub">ω</hi>}
 \TeXtoTEIPat{\eta}{η}
 
 % additions/changes 2024-07-04 mm:
@@ -110,9 +116,9 @@
 \TeXtoTEIPat{\alphaOne}{α<hi rend="sub">1</hi>}% N3
 \TeXtoTEIPat{\alphaTwo}{α<hi rend="sub">2</hi>}% J5
 \TeXtoTEIPat{\alphaThree}{α<hi rend="sub">3</hi>}% G4
-\TeXtoTEIPat{\betaOne}{β<hi rend="sub">1</hi>}% P11 old
-\TeXtoTEIPat{\betaTwo}{β<hi rend="sub">2</hi>}% C6 old
-\TeXtoTEIPat{\betaOmega}{β<hi rend="sub">ω</hi>}% V3 old
+%\TeXtoTEIPat{\betaOne}{β<hi rend="sub">1</hi>}% P11 old
+%\TeXtoTEIPat{\betaTwo}{β<hi rend="sub">2</hi>}% C6 old
+%\TeXtoTEIPat{\betaOmega}{β<hi rend="sub">ω</hi>}% V3 old
 \TeXtoTEIPat{\gammaOne}{γ<hi rend="sub">1</hi>}% N23
 \TeXtoTEIPat{\gammaTwo}{γ<hi rend="sub">2</hi>}% J7
 \TeXtoTEIPat{\deltaOne}{δ<hi rend="sub">1</hi>}% V19
@@ -197,7 +203,7 @@
 %\TeXtoTEI{var}{note}[type="appinnote"]
 
 
-\TeXtoTEI{anm}{note}[type="memo"] %% change 2023-04-16 MD
+%\TeXtoTEI{anm}{note}[type="memo"] %% change 2023-04-16 MD
 \TeXtoTEI{Anm}{note}[type="memo"] %% change 2023-12-05 MM
 \TeXtoTEIPat{\startverse}{} %%% marked for change 2023-04-13 mm
 \TeXtoTEIPat{\endverse}{} %%% marked for change 2023-04-13 mm

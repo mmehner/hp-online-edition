@@ -1,0 +1,36 @@
+\input{PreamblePub}
+
+\RenewDocumentEnvironment{alttlg}{O{}}{
+  \setvnum{\hindsection.\arabic{saved@poemline}*\arabic{poemline}}
+  \def\hpvnum{\texteng{\hindsection.\arabic{saved@poemline}*\arabic{poemline}}}
+  \markboth{\hpvnum}{\hpvnum}
+  \setcounter{altvnum}{\value{poemline}}
+  \begin{ekdverse}[type=altrecension]
+    %	\color{gray}
+    \Large}{\normalsize
+  \end{ekdverse}
+  % \smallskip
+}
+
+\renewcommand{\altcommcite}{%
+  \def\commvnum{32-\thealtvnum}%
+  \def\labelvnum{32*\thealtvnum}%
+  \myvspace
+  \begin{quote}%
+    %	\textcolor{gray}{%
+    \ExecuteMetaData[\commfilename]{tr\commvnum}
+    \texteng{(\labelvnum)}\comminfn
+  \end{quote}
+}
+
+\TeXtoTEI{subsection*}{head}
+
+\begin{document}
+
+%\input{hp_omega-1.tex}
+
+\input{hp_omega-3.tex}
+
+%\input{hp_omega-KJ.tex}
+
+\end{document}

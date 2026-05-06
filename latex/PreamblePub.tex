@@ -7,13 +7,18 @@
 
 \usepackage{xcolor, xparse, xspace, pifont, datetime2}
 \usepackage{enumitem}
+\usepackage{extramarks}
+
+\usepackage[medium]{titlesec}
+    \titleformat*{\section}{\centering\huge\bfseries}
+    \titleformat*{\subsection}{\centering\large\bfseries}
 
 \newcommand{\HP}{\textit{Haṭha\-pra\-dī\-pikā}\xspace}
 
 \usepackage{fancyhdr}
 	\renewcommand{\headrulewidth}{0pt}
 	\fancyhead[EL]{\small\texteng{\thepage}}
-	\fancyhead[ER]{\small\texteng{Critical Edition \& Translation}}
+	\fancyhead[ER]{\small\texteng{Critical Edition}}
 	\fancyhead[OL]{\small\texteng{HP\hindsection}}
 	\fancyhead[OR]{\small\texteng{\thepage}}
 	\fancyhead[C]{}
@@ -21,21 +26,32 @@
 %	\pagestyle{fancy}
 
 \fancypagestyle{firstpage}{%
-	\fancyhead[OL]{\small\texteng{(\Today)}}
-	\fancyhead[OR]{\small\texteng{\thepage}}
+	\fancyhead[OL]{}%\small\texteng{\thepage}}
+	\fancyhead[OR]{\small\texteng{(\Today)}}
 	\fancyhead[C]{}
 	}
 
 \fancypagestyle{HPed}{%
 	\renewcommand{\headrulewidth}{0pt}
-	\fancyhead[EL]{\small\texteng{\thepage}}
+	\fancyhead[EL]{}%\small\texteng{\thepage}}
+	\fancyhead[EC]{\small\textsc{\texteng{Critical Edition and Translation}}}
 	\fancyhead[ER]{\small\texteng{[\rightmark\textendash}}
 	\fancyhead[OL]{\small\texteng{\textendash\leftmark]}}
-	\fancyhead[OR]{\small\texteng{\thepage}}
-	\fancyhead[C]{\small\texteng{Critical Edition}}
+	\fancyhead[OR]{}%\small\texteng{\thepage}}
+	\fancyhead[OC]{\small\textsc{\texteng{\firstrightxmark}}}
 	\fancyfoot[C]{}
 	}
 \pagestyle{HPed}
+
+\fancypagestyle{Appendix}{%
+	\renewcommand{\headrulewidth}{0pt}
+	\fancyhead[EL,OR]{}
+	\fancyhead[EC]{\small\textsc{\texteng{Appendix \apxnr}}}
+	\fancyhead[ER]{\small\texteng{[\rightmark\textendash}}
+	\fancyhead[OL]{\small\texteng{\textendash\leftmark]}}
+	\fancyhead[OC]{\small\textsc{\texteng{\firstrightxmark}}}
+	\fancyfoot[C]{}
+	}
 
 \usepackage{scrextend}
 	\deffootnote[]{0em}{1em}{}
@@ -64,6 +80,7 @@
 \SetLineation{lineation=none}
 \poemlines{0}
 
+\SetSubseparator{\unskip, }
 \SetHooks{
 	lemmastyle=\bfseries,
 	refnumstyle=\selectlanguage{english}\color{blue}\bfseries, 
@@ -179,12 +196,11 @@
 	}{\normalsize
 	\end{ekdverse}
 	%\smallskip
-      }
-      
+}
+
 \NewDocumentCommand{\tcommref}{m}{}
 \NewDocumentCommand{\ttransref}{m}{}
 \NewDocumentCommand{\tnocomm}{}{}
-
 
 \def\startaltrecension{
 	\setcounter{altvnum}{0}
@@ -214,6 +230,7 @@
 \newcommand{\teionly}[1]{}
 \newcommand{\teimute}[1]{#1}
 \newcommand{\manuref}[1]{#1}
+\newcommand{\hpref}[1]{\textcolor{magenta}{#1}}
 \newcounter{myvnum}\setcounter{myvnum}{0}
 \newcounter{altvnum}\setcounter{altvnum}{0}
 \newcounter{mynotenr}\setcounter{mynotenr}{0}
@@ -243,6 +260,8 @@
 	\texteng{\footnotesize (#1)}
 	\end{ekdverse}
 	}
+\newcommand{\vspaceinnote}{\vspace{2pt minus 1pt}}
+\newcommand{\myvin}{\hspace*{2em}}% indent for verses cited in app. reg. 2
 
 %\newcommand{\sgwit}[1]{{\footnotesize (\getsiglum{#1})}}
 %\newcommand{\NotIn}[1]{\texteng{\footnotesize (om. \getsiglum{#1})}}
@@ -250,17 +269,17 @@
 %\newcommand{\anm}[1]{\texteng{\footnotesize [#1]}}
 \newcommand{\sgwit}[1]{}% Nur für Online version; Change TEI too!!
 %\newcommand{\lineom}[2]{\myfn{#1 om. \getsiglum{#2}}}
-\newcommand{\anm}[1]{\myfn{#1}}
+\newcommand{\anm}[1]{\myfn{#1}} % nicht mehr benutzt!!
 %\newcommand{\unavbl}[1]{\marginpar{\scriptsize\texteng{−\,\getsiglum{#1}}}}
 %\newcommand{\unavbl}[1]{\myfn{Folio lost in \getsiglum{#1}}}
-\newcommand{\textapp}[1]{\texteng{\textsf{#1}}}
+\newcommand{\textapp}[1]{\texteng{\textit{#1}}}
 \newcommand{\unavbl}{\textapp{folio lost}}
 \newcommand{\incl}{\textapp{included in}}
 \newcommand{\only}{\textapp{only included in}}
 \newcommand{\also}{\textapp{also included in}}
 \newcommand{\excl}{\textapp{included in all except}}
 \newcommand{\NotIn}{\om}
-\newcommand{\expnr}[1]{\textcolor{magenta}{#1}}% X\kern 1pt
+%\newcommand{\expnr}[1]{\textcolor{magenta}{#1}}% X\kern 1pt
 
 \def\om{\texteng{\emph{om.\@}}}% \kern-0.3ex
 \def\illeg{\texteng{\emph{illeg.\@}}} 
@@ -309,13 +328,13 @@
 		listparindent=1.5em,
 		labelwidth=1em, labelsep=0pt]
 	\item[\ding{118}\ Commentary]\ %
-	\newline
+	\item
 	}{\end{description}\selectlanguage{iast}}
 
 \newenvironment{variants}{%
 	\begin{description}[%
 		leftmargin=4em,
-		topsep=3.5pt,
+		topsep=3pt,
 		parsep=0pt,
 	%	partopsep=0pt,
 		listparindent=-1.5em,
@@ -353,7 +372,7 @@
 	\begin{ekdverse}
 	\scriptsize\selectlanguage{english}}{%
 	\selectlanguage{iast}\end{ekdverse}
-	\vspace{3pt minus 1pt}
+	\vspace{3pt minus 2pt}
 	\addtocounter{poemline}{-1}
 }
 
@@ -365,28 +384,33 @@
 %\TeXtoTEIPat{\tre}{}
 \newcommand{\skx}[2]{#1} % sandhi between pādas
 %\TeXtoTEIPat{\skx {#1}{#2}}{#2} % >> PreambleComm.tex
-%\TeXtoTEIPat{\commcitecore}{}
-%\TeXtoTEIPat{\commcite}{}
-%\TeXtoTEIPat{\commciterange}{}
-%\TeXtoTEIPat{\altcommcite}{}
-%\TeXtoTEIPat{\avacite}{}
-%\TeXtoTEIPat{\colcite}{}
-%\TeXtoTEIPat{\trcite}{}
+% \TeXtoTEIPat{\commcitecore}{}
+% \TeXtoTEIPat{\commcite}{}
+% \TeXtoTEIPat{\commciterange}{}
+% \TeXtoTEIPat{\altcommcite}{}
+% \TeXtoTEIPat{\avacite}{}
+% \TeXtoTEIPat{\colcite}{}
+% \TeXtoTEIPat{\trcite}{}
 
 %\TeXtoTEIPat{\labelvnum}{}
 %\TeXtoTEIPat{\commvnum}{}
 
 \newcommand{\myvspace}{\vspace{-3pt plus 3pt minus 3pt}}
-\newcommand{\commlabel}{\hfill\texteng{\raisebox{0pt}{\textbf{[\hindsection.\labelvnum]}}}\hfill}
+\newcommand{\commlabel}{\hfill\texteng{\raisebox{0pt}{\textbf{[\hindsection.\labelvnum]}}}\hfill\ }
 
 \newcommand{\comminfn}{%
 	\footnotetext{%
-	\commlabel
+	\commlabel\vspace{-0.5ex}
 	\ExecuteMetaData[\commfilename]{sc\commvnum}%
 	\ExecuteMetaData[\commfilename]{ts\commvnum}%
 	\ExecuteMetaData[\commfilename]{cm\commvnum}%
 	}}
 	
+\newcommand{\commonly}[2]{%
+	\def\commvnum{#1}%
+	\def\labelvnum{#2}%
+	\comminfn}
+
 \newcommand{\commcitecore}{%
 	\myvspace
 	\begin{quote}%
@@ -395,6 +419,7 @@
 	\end{quote}}
 
 \def\commfilename{HP\hindsection_comm.tex}
+
 \newcommand{\commcite}{%
 	\def\commvnum{\themyvnum}%
 	\def\labelvnum{\themyvnum}%
@@ -416,10 +441,10 @@
 	\end{quote}}
 
 \newcommand{\avacite}[1]{%
-	\bigskip%
+	\medskip%
 	\setlength{\parindent}{1em} %\hspace*{0.5em} in HP4X
 	\ExecuteMetaData[\commfilename]{tr#1}
-	\vspace{-3pt}
+	%\vspace{-3pt}
 	}
 
 \newcommand{\trcite}[1]{
@@ -451,7 +476,7 @@
 \newcommand{\lb}{\par}
 \newcommand{\mylb}{\smallskip\lb}
 \newcommand{\sep}{\par}
-% \TeXtoTEIPat{\sep}{<lb/>}% oder besser mit einem Trennzeichen in einer Zeile lassen?
+%\TeXtoTEIPat{\sep}{<lb/>}% oder besser mit einem Trennzeichen in einer Zeile lassen?
 \def\vl{\textit{v.l.}\xspace}
 %\newcommand{\var}[1]{\texteng{\scriptsize #1}}
 %\newcommand{\varsep}{\xspace\texteng{\textbullet}\xspace}
@@ -459,7 +484,7 @@
 \def\sl#1{\emph{#1}}
 \newcommand{\medialink}[2]{\textcolor{violet}{\underline{#1}}}
 %\TeXtoTEIPat{\medialink {#1}{#2}}{<ref target="/images/#2">#1</ref>}
-\usepackage{url}
+\usepackage{url}\def\UrlFont{\sf}
 
 \newcommand{\alphaOne}{\textalpha\textsubscript{1}}% N3
 \newcommand{\alphaTwo}{\textalpha\textsubscript{2}}% J5
@@ -492,6 +517,7 @@
 	Haṭha-pra-dī-pikā
 	Haṭha-ratnā-valī
 	Haṭha-tattva-kaumudī
+	Haṭha-yoga
 	Jāran-dhara
 	Rāja-yoga
 	Śām-bhavī
