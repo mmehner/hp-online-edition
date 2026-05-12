@@ -1229,8 +1229,7 @@ Koba, Gujarat 55626
 </teiHeader>
 <text>
 <body>
-<head><s xml:lang="en"><hi>Kālajñāna</hi>, <hi>videhamukti</hi>, and <hi>kālavañcana</hi>*(in chapter 4)</s></head>    <div type="avataranika" xml:id="Kj01a"> atha kālajñānam/<note type="anmkg" target="#right(kjloc)">These passages are found after X4.116 in <ref target="#E4"/>. See Introduction p. 86 for their locations in <ref target="#V3"/> and <ref target="#J6"/>.</note>
-<anchor xml:id="kjloc"/></div> 
+<head><s xml:lang="en"><hi>Kālajñāna</hi>, <hi>videhamukti</hi>, and <hi>kālavañcana</hi>*(in chapter 4)</s></head>    <div type="avataranika" xml:id="Kj01a"> atha kālajñānam/ </div> 
 <lg xml:id="Kj01">
  <l> <s type="pada">ariṣṭāni viśiṣṭāni</s> <s type="pada">tāni vakṣyāmi tvaṃ śṛṇu/</s></l>
 <l> <s type="pada">yeṣā<app><lem wit="#J6"><seg type="ltn-ignore">m </seg>ālokanā<seg type="deva-ignore">n</seg></lem><rdg wit="#E4">alokanān</rdg><rdg wit="#V3">ālokyanāt</rdg></app>n mṛtyuṃ</s> <s type="pada">nijaṃ jānāti yogavit//</s></l> 
@@ -1451,7 +1450,7 @@ Koba, Gujarat 55626
  
 <lg xml:id="Kj44">
  <l> <s type="pada">viniścityātmanaḥ kālaṃ</s> <s type="pada">bāhyābhyantaralakṣaṇaiḥ/</s></l>
-<l> <s type="pada">nyāsataḥ <app><lem wit="#E4 #V3 #J6pc">sa pra<seg type="deva-ignore">°</seg></lem><rdg wit="#J6ac">sapta</rdg></app></s>{sannātmā} <s type="pada"><app><lem wit="#E4 #J6">nirdvandvo</lem><rdg wit="#V3">nirdvando</rdg></app> vijitendriyaḥ//</s></l> 
+<l> <s type="pada">nyāsataḥ <app><lem wit="#E4 #V3 #J6pc">sa pra<seg type="deva-ignore">°</seg></lem><rdg wit="#J6ac">sapta</rdg></app>sannātmā</s> <s type="pada"><app><lem wit="#E4 #J6">nirdvandvo</lem><rdg wit="#V3">nirdvando</rdg></app> vijitendriyaḥ//</s></l> 
 </lg>
  
 <lg xml:id="Kj45">

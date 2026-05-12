@@ -13,6 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
     setbuttons();
     hide("altrec"); /*entbehrlich durch css?*/
     hideID("hpx4");
+
     
     devbutton.addEventListener('click', ()=> {
 	if ( dev && !ltn ) {

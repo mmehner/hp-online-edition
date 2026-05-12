@@ -56,7 +56,7 @@ xslcmdproc(){
 
     echo "concatenating hp omega …"
     
-    printf "<div id=\"hpomega\">\n" > html/hpomega.html
+    printf "<div id=\"hpomega\" class=\"altrec\">\n" > html/hpomega.html
     for f in "html/hpomega1.html" "html/hpomega3.html" "html/hpomegaKj.html"
     do
 	sed -e '/^\s*$/d' $f >> html/hpomega.html
@@ -127,6 +127,7 @@ xmlizejyotsna(){
 	-e 's_\\blank__g' \
 	-e 's_\\[a-z]*{[^{}]*}__g' \
 	-e 's_{[^{}]\+}__g' \
+	-e "s_'_’_g" \
 	-e 's_\\[a-z]*{[^{}]*}__g' |
     tr '\0' '\n' |
     sed -e '/{\\bf/,/)}/ {d}' \

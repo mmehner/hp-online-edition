@@ -1,3 +1,8 @@
+% additions/changes 2026-05-09 md:
+\TeXtoTEIPat{\commonly {#1}{#2}}{}
+\TeXtoTEIPat{\dummy}{}
+\TeXtoTEIPat{\sgwit {#1}}{}
+
 % additions 2026-05-06 mm:
 %\TeXtoTEIPat{\{ }{{} %breaks TEI, postprocess with sed instead
 %\TeXtoTEIPat{\} }{}} %breaks TEI, postprocess with sed instead
@@ -24,8 +29,8 @@
 \TeXtoTEIPat{\excl }{included in all except}
 \TeXtoTEIPat{\NotIn }{<gap reason="om."/>}
 \TeXtoTEIPat{\Xset {#1}{#2}{#3}}{<ref type="set" target="##2" n="#3"/>}
-\TeXtoTEIPat{\Xtext {#1}{#2}{#3}}{<ref type="textonly" target="##2" n="#3"/>}
-\TeXtoTEIPat{\Xava {#1}{#2}}{<ref type="avatextonly" target="##2"/>}
+\TeXtoTEIPat{\Xtext {#1}{#2}{#3}}{<ref type="set" target="##2" n="#3"/>}
+\TeXtoTEIPat{\Xava {#1}{#2}}{<ref type="avaset" target="##2"/>}
 \TeXtoTEIPat{\Xavaset {#1}{#2}}{<ref type="avaset" target="##2"/>}
 \TeXtoTEIPat{\Xcommcite {#1}{#2}}{}
 \TeXtoTEI{myfnx}{note}[type="myfn"]
@@ -174,7 +179,7 @@
 \TeXtoTEIPat{\begin {altava}[#1]}{<div type="altrec"><div type="avataranika" xml:id="#1">} %%% changed 2024-07-01 mm
   \TeXtoTEIPat{\end {altava}}{</div></div>} %%% changed 2024-07-01 mm
 
-\TeXtoTEIPat{\sgwit {#1}}{<note type="inlineref"><ref>#1</ref></note>}
+%\TeXtoTEIPat{\sgwit {#1}}{<note type="inlineref"><ref>#1</ref></note>}
 
 % changes/additions 2023-10-12 MM:
 \TeXtoTEIPat{\\.}{}

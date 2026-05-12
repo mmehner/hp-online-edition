@@ -1232,14 +1232,12 @@ Koba, Gujarat 55626
 <head><s xml:lang="en"><hi>Yama</hi> and <hi>niyama</hi> (in chapter 1)</s></head>   <div type="altrec">
 <lg xml:id="hp01_016_1">
  <l><s type="pada">ahiṃsā satyam asteyaṃ</s> <s type="pada">brahmacaryaṃ kṣamā dhṛtiḥ/</s> </l>
-<l> <s type="pada"><app><lem resp="ego">dayārjavaṃ</lem><rdg wit="#E4 #V3">dayārjava</rdg><rdg wit="#J6">devārcanaṃ</rdg></app> mitāhāraḥ</s> <s type="pada">śaucaṃ caiva yamā daśa//</s> <note type="inlineref"><ref>Gr6</ref></note>
- </l>
+<l> <s type="pada"><app><lem resp="ego">dayārjavaṃ</lem><rdg wit="#E4 #V3">dayārjava</rdg><rdg wit="#J6">devārcanaṃ</rdg></app> mitāhāraḥ</s> <s type="pada">śaucaṃ caiva yamā daśa//</s>  </l>
 </lg>
 </div> <div type="altrec">
 <lg xml:id="hp01_016_2">
  <l><s type="pada">tapaḥ saṃtoṣam āstikyaṃ</s> <s type="pada">dānam īśvarapūjanam/</s> </l>
-<l> <s type="pada"><app><lem wit="#J6 #E4">siddhānta</lem><rdg wit="#V3">siddhāntaṃ</rdg></app>śravaṇaṃ caiva</s> <s type="pada"><app><lem wit="#J6pc">hrīr matiś ca</lem><rdg wit="#J6ac #V3">hrī matiś ca</rdg><rdg wit="#E4">hrī matī ca</rdg></app> japo hutam//</s> <note type="inlineref"><ref>Gr6</ref></note>
- </l>
+<l> <s type="pada"><app><lem wit="#J6 #E4">siddhānta</lem><rdg wit="#V3">siddhāntaṃ</rdg></app>śravaṇaṃ caiva</s> <s type="pada"><app><lem wit="#J6pc">hrīr matiś ca</lem><rdg wit="#J6ac #V3">hrī matiś ca</rdg><rdg wit="#E4">hrī matī ca</rdg></app> japo hutam//</s>  </l>
 </lg>
 </div> 
 </body>

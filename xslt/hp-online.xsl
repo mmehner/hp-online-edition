@@ -92,10 +92,11 @@
 		    </xsl:otherwise>
 		  </xsl:choose>
 		</span>
-		<xsl:for-each select="$tree[@xml:id = $lggroup/Q{}id]">
-		  <xsl:call-template name="mainvers-dev-and-ltn"/>
-		</xsl:for-each>
 	      </xsl:element>
+	      
+	      <xsl:for-each select="$tree[@xml:id = $lggroup/Q{}id]">
+		<xsl:call-template name="mainvers-dev-and-ltn"/>
+	      </xsl:for-each>
 	      
 	      <div class="translation">
 		<xsl:for-each select="$tree[@xml:id = $lggroup/Q{}id]">
@@ -146,18 +147,17 @@
 		    </div>
 		  </details>
 		</xsl:if>
-	      </xsl:for-each>
 
-	      <details class="testimonia-d">
-		<summary>Testimonia</summary>
-		<div class="testimonia">
-		  <xsl:for-each select="$tree[@xml:id = $lggroup/Q{}id]">
-		    <xsl:variable name="correspkey" select="concat('#', @xml:id )"/>
-		    <xsl:variable name="testimonia" select="document($transl)//note[@type='testimonia' and @target=$correspkey]"/>
-		    <xsl:apply-templates select="$testimonia"/>
-		  </xsl:for-each>
-		</div>
-	      </details>
+		<xsl:variable name="testimonia" select="document($transl)//note[@type='testimonia' and @target=$correspkey]"/>
+		<xsl:if test="$testimonia">
+		  <details class="testimonia-d">
+		    <summary>Testimonia</summary>
+		    <div class="testimonia">
+		      <xsl:apply-templates select="$testimonia"/>
+		    </div>
+		  </details>
+		</xsl:if>
+	      </xsl:for-each>
 	    </div>
 	  </div>
 
@@ -812,7 +812,7 @@
   </xsl:template>
 
   <xsl:template match="seg[@type='sep']">
-    <xsl:text>&#160;&#160;&#160;&#160;</xsl:text>
+    <xsl:text>&#160;&#160;&#160;&#160;&#160;&#160;</xsl:text>
   </xsl:template>
   
   <!-- non-main stanzas -->
@@ -827,7 +827,7 @@
   </xsl:template>
 
   <xsl:template match="note[@type='appinnote']">
-    <span class="appinnote"><xsl:apply-templates/></span>
+    <p class="appinnote"><xsl:apply-templates/></p>
   </xsl:template>
   
   <!-- footnotes -->
