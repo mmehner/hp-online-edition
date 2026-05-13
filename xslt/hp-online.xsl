@@ -66,15 +66,7 @@
 		</xsl:attribute>
 		<xsl:attribute name="class">hp</xsl:attribute>
 		<span class="number">
-		  HP
-		  <xsl:choose>
-		    <xsl:when test="$x4-rec">
-		      X4.<xsl:value-of select="$x4-rec"/>
-		    </xsl:when>
-		    <xsl:otherwise>
-		      <xsl:call-template name="id-to-number"/>
-		    </xsl:otherwise>
-		  </xsl:choose>
+		  HP <xsl:call-template name="id-to-number"/>
 		  <xsl:text>–</xsl:text>
 		  <xsl:choose>
 		    <xsl:when test="$x4-rec"><!-- only 4.32-33 = X4.3-4-->
@@ -92,11 +84,11 @@
 		    </xsl:otherwise>
 		  </xsl:choose>
 		</span>
-	      </xsl:element>
 	      
-	      <xsl:for-each select="$tree[@xml:id = $lggroup/Q{}id]">
-		<xsl:call-template name="mainvers-dev-and-ltn"/>
-	      </xsl:for-each>
+		<xsl:for-each select="$tree[@xml:id = $lggroup/Q{}id]">
+		  <xsl:call-template name="mainvers-dev-and-ltn"/>
+		</xsl:for-each>
+	      </xsl:element>
 	      
 	      <div class="translation">
 		<xsl:for-each select="$tree[@xml:id = $lggroup/Q{}id]">
@@ -123,11 +115,24 @@
 		<xsl:variable name="metre" select="document($transl)//note[@type='metre' and @target=$correspkey]"/>
 		<xsl:if test="$metre">
 		  <div class="metre">
-		    Metre <xsl:call-template name="id-to-number"/>: <xsl:value-of select="$metre"/>
+		    Metre
+		    <xsl:choose>
+		      <xsl:when test="$x4-rec and $correspkey='#hp04_033'">X4.4</xsl:when>
+		      <xsl:otherwise>
+			<xsl:call-template name="id-to-number"/>: <xsl:value-of select="$metre"/>
+		      </xsl:otherwise>
+		    </xsl:choose>
 		  </div>
 		</xsl:if>
 		<div class="apparatus">
-		  <h3>Readings <xsl:call-template name="id-to-number"/></h3>
+		  <h3>Readings
+		  <xsl:choose>
+		    <xsl:when test="$x4-rec and $correspkey='#hp04_033'">X4.4</xsl:when>
+		    <xsl:otherwise>
+		      <xsl:call-template name="id-to-number"/>
+		    </xsl:otherwise>
+		  </xsl:choose>
+		  </h3>
 		  <xsl:for-each select="descendant::note[@type='omission' or @type='foliolost']">
 		    <div class="app">
 		      <xsl:apply-templates/>
@@ -319,7 +324,11 @@
   </xsl:template>
 
   <xsl:template name="id-to-number">
+    <xsl:param name="x4-rec" tunnel="yes"/>
     <xsl:choose>
+      <xsl:when test="$x4-rec">
+	X4.<xsl:value-of select="$x4-rec"/>
+      </xsl:when>
       <xsl:when test="matches(@xml:id, 'hp\d+_\d+_\d+')">
 	<xsl:value-of select="replace(@xml:id, 'hp0*(\d+)_0*(\d+)_0*(\d+)', '$1.$2*$3')"/>
       </xsl:when>
@@ -452,6 +461,7 @@
   </xsl:template>
 
   <xsl:template match="div[@type='colophon']">
+    <xsl:param name="x4-rec" tunnel="yes"/>
     <xsl:variable name="correspkey" select="concat('#', @xml:id )"/>
     <div class="main">
       <div class="hpmeta">
@@ -463,7 +473,9 @@
 	    </xsl:attribute>
 	    <xsl:attribute name="class">hp</xsl:attribute>
 	    <span class="number">
-	      <xsl:value-of select="replace(@xml:id, 'hp0*(\d+)_.*', 'HP $1 Colophon')"/>
+	      <xsl:text>HP </xsl:text>
+	      <xsl:if test="$x4-rec">X</xsl:if>
+	      <xsl:value-of select="replace(@xml:id, 'hp0*(\d+)_.*', '$1 Colophon')"/>
 	    </span>
 	    <div class="versdev">
 	      <p class="hpprose">
@@ -680,7 +692,7 @@
   <xsl:template match="ref[@type='set']">
     <xsl:variable name="idkey" select="substring-after(@target, '#')"/>
     <xsl:variable name="textsource" select="document('../xml/HP4_pub2-tei.xml')"/>
-    <xsl:apply-templates select="$textsource//lg[@xml:id = $idkey]">
+    <xsl:apply-templates select="$textsource//*[@xml:id = $idkey]">
       <xsl:with-param name="x4-rec" select="@n" tunnel="yes"/>
     </xsl:apply-templates>
   </xsl:template>
