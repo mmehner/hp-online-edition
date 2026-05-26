@@ -149,7 +149,7 @@
 		    </xsl:choose>
 		  </div>
 		</xsl:if>
-		<details>
+		<details class="apparatus">
 		  <summary>Readings
 		  <xsl:choose>
 		    <xsl:when test="$x4-rec and $correspkey='#hp04_033'">X4.4</xsl:when>
@@ -283,7 +283,7 @@
 	      Metre: <xsl:value-of select="$metre"/>
 	    </div>
 	  </xsl:if>
-	  <details>
+	  <details class="apparatus">
 	    <summary>Readings</summary>
 	    <p class="versinnote">
 	      <xsl:for-each select="descendant::note[@type='omission' or @type='foliolost']">
@@ -417,7 +417,8 @@
 	  <div class="apparatus">
 	    <xsl:choose>
 	      <xsl:when test="descendant::app">
-		<h3>Readings</h3>
+		<details class="apparatus">
+		  <summary>Readings</summary>
 		<xsl:for-each select="descendant::note[@type='omission' or @type='foliolost']">
 		  <div class="app">
 		    <xsl:apply-templates/>
@@ -426,9 +427,9 @@
 		<xsl:for-each select="descendant::app">
 		  <xsl:call-template name="apparatus"/>
 		</xsl:for-each>
+		</details>
 	      </xsl:when>
 	      <xsl:otherwise>
-		<h3>No Readings</h3>
 	      </xsl:otherwise>
 	    </xsl:choose>
 	  </div>
