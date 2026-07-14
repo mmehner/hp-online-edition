@@ -13,7 +13,7 @@
     \titleformat*{\section}{\centering\huge\bfseries}
     \titleformat*{\subsection}{\centering\large\bfseries}
 
-\newcommand{\HP}{\textit{Haṭha\teimute{\-}pra\teimute{\-}dī\teimute{\-}pikā}\xspace}
+\newcommand{\HP}{\textit{Haṭha\-pra\-dī\-pikā}\xspace}
 
 \usepackage{fancyhdr}
 	\renewcommand{\headrulewidth}{0pt}
@@ -65,6 +65,7 @@
 
 \usepackage[english]{babel}
 \usepackage{babel-iast}
+\babelprovide[typography/prehyphenchar = `-,transforms=transliteration.iast]{iast}
 \babelfont[iast]{rm}[Renderer=Harfbuzz, Scale=1.1]{AdishilaSan}
 \babeltags{dev = iast}
 \babeltags{eng = english}

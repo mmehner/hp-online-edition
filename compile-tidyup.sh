@@ -74,7 +74,7 @@ xslcmdproc(){
     sed -n '/<!--content-->/,$ {p}' html/meta.html >> html/hp-online.html
 
     #postprocess straddle consonants in 4line meteres
-    sed -i '/<p class="hpvers">.*-\s*<\/p>/{N}; x; s_-\(\s*</p>\s*<p class="hpvers">\s*\(<mark>\)\?\s*\)\([kgṅcjñṭḍṇtdnpbmyrlv]\) _\3\1_g' html/hp-online.html 
+    sed -i '/<p class="hpvers">.*-\s*<\/p>/{N}; x; s_-\(\s*</p>\s*<p class="hpvers">\s*\(<mark>\)\?\s*\)\([kgṅcjñṭḍṇtdnpbmyrlv]\) _\3\1_g' html/hp-online.html
 }
 
 compile(){

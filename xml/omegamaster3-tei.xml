@@ -433,28 +433,28 @@ Brahmānanda’s version
 </msDesc>
 </witness>
 <witness xml:id="Gr1">
-<abbr type="siglum"><s xml:lang="en">α<hi rend="sub">1</hi>α<hi rend="sub">2</hi>α<hi rend="sub">3</hi></s></abbr>
+<abbr type="siglum"><s xml:lang="en">α<hi rend="sub">1</hi> α<hi rend="sub">2</hi> α<hi rend="sub">3</hi></s></abbr>
 N3,J5,G4
 <msDesc>
 <msIdentifier/>
 </msDesc>
 </witness>
 <witness xml:id="Gr2">
-<abbr type="siglum"><s xml:lang="en">γ<hi rend="sub">1</hi>γ<hi rend="sub">2</hi></s></abbr>
+<abbr type="siglum"><s xml:lang="en">γ<hi rend="sub">1</hi> γ<hi rend="sub">2</hi></s></abbr>
 N23,J7
 <msDesc>
 <msIdentifier/>
 </msDesc>
 </witness>
 <witness xml:id="Gr3">
-<abbr type="siglum"><s xml:lang="en">δ<hi rend="sub">1</hi>δ<hi rend="sub">2</hi></s></abbr>
+<abbr type="siglum"><s xml:lang="en">δ<hi rend="sub">1</hi> δ<hi rend="sub">2</hi></s></abbr>
 V19,E2
 <msDesc>
 <msIdentifier/>
 </msDesc>
 </witness>
 <witness xml:id="GrB">
-<abbr type="siglum"><s xml:lang="en">π<hi rend="sub">1</hi>π<hi rend="sub">2</hi>π<hi rend="sub">ω</hi></s></abbr>
+<abbr type="siglum"><s xml:lang="en">π<hi rend="sub">1</hi> π<hi rend="sub">2</hi> π<hi rend="sub">ω</hi></s></abbr>
 P11,C6,V3
 <msDesc>
 <msIdentifier/>
@@ -468,7 +468,7 @@ V3,J6,N9,N26
 </msDesc>
 </witness>
 <witness xml:id="G11plus">
-<abbr type="siglum"><s xml:lang="en">ε<hi rend="sub">1</hi>ε<hi rend="sub">2</hi></s></abbr>
+<abbr type="siglum"><s xml:lang="en">ε<hi rend="sub">1</hi> ε<hi rend="sub">2</hi></s></abbr>
 G11,G5,M3
 <msDesc>
 <msIdentifier/>
@@ -1229,7 +1229,7 @@ Koba, Gujarat 55626
 </teiHeader>
 <text>
 <body>
-<head><s xml:lang="en"><hi>Khecaryabhyāsakrama</hi> (in chapter 3)</s></head>    <div type="altrec">
+<head>Large <s xml:lang="en"><hi>Khecaryabhyāsakrama</hi> (in chapter 3)</s></head>    <div type="altrec">
 <lg xml:id="hp03_032_01">
  <l><app><lem/><rdg wit="#V15 #Jyo">also included in</rdg></app><s type="pada"><app><lem wit="#J6 #Jyo">snuhī</lem><rdg wit="#V15 #E4">snuhi</rdg><rdg wit="#V3">śnuhi</rdg></app>pattranibhaṃ śastraṃ</s> <s type="pada">sutīkṣṇaṃ snigdhanirmalam/</s></l>
 <l> <s type="pada">samādāya tatas tena</s> <s type="pada">romamātraṃ <app><lem wit="#V3">samucchidet</lem><rdg wit="#V15 #E4 #Jyo">samucchinet</rdg><rdg wit="#J6">samucchiṃdyāt</rdg></app>//</s>  </l> 

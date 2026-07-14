@@ -433,28 +433,28 @@ Brahmānanda’s version
 </msDesc>
 </witness>
 <witness xml:id="Gr1">
-<abbr type="siglum"><s xml:lang="en">α<hi rend="sub">1</hi>α<hi rend="sub">2</hi>α<hi rend="sub">3</hi></s></abbr>
+<abbr type="siglum"><s xml:lang="en">α<hi rend="sub">1</hi> α<hi rend="sub">2</hi> α<hi rend="sub">3</hi></s></abbr>
 N3,J5,G4
 <msDesc>
 <msIdentifier/>
 </msDesc>
 </witness>
 <witness xml:id="Gr2">
-<abbr type="siglum"><s xml:lang="en">γ<hi rend="sub">1</hi>γ<hi rend="sub">2</hi></s></abbr>
+<abbr type="siglum"><s xml:lang="en">γ<hi rend="sub">1</hi> γ<hi rend="sub">2</hi></s></abbr>
 N23,J7
 <msDesc>
 <msIdentifier/>
 </msDesc>
 </witness>
 <witness xml:id="Gr3">
-<abbr type="siglum"><s xml:lang="en">δ<hi rend="sub">1</hi>δ<hi rend="sub">2</hi></s></abbr>
+<abbr type="siglum"><s xml:lang="en">δ<hi rend="sub">1</hi> δ<hi rend="sub">2</hi></s></abbr>
 V19,E2
 <msDesc>
 <msIdentifier/>
 </msDesc>
 </witness>
 <witness xml:id="GrB">
-<abbr type="siglum"><s xml:lang="en">π<hi rend="sub">1</hi>π<hi rend="sub">2</hi>π<hi rend="sub">ω</hi></s></abbr>
+<abbr type="siglum"><s xml:lang="en">π<hi rend="sub">1</hi> π<hi rend="sub">2</hi> π<hi rend="sub">ω</hi></s></abbr>
 P11,C6,V3
 <msDesc>
 <msIdentifier/>
@@ -468,7 +468,7 @@ V3,J6,N9,N26
 </msDesc>
 </witness>
 <witness xml:id="G11plus">
-<abbr type="siglum"><s xml:lang="en">ε<hi rend="sub">1</hi>ε<hi rend="sub">2</hi></s></abbr>
+<abbr type="siglum"><s xml:lang="en">ε<hi rend="sub">1</hi> ε<hi rend="sub">2</hi></s></abbr>
 G11,G5,M3
 <msDesc>
 <msIdentifier/>
@@ -1285,7 +1285,7 @@ Koba, Gujarat 55626
  
 <lg xml:id="hp02_011">
  <l> <s type="pada"><app><lem wit="#ceteri">prātar madhyaṃdine</lem><rdg wit="#E2"><seg type="ltn-ignore">prātarmadhyaṃ</seg>dina</rdg><rdg wit="#C6">prātaḥ sāyaṃ ca</rdg></app> <app><lem wit="#G4 #V19 #E2 #G11 #V15 #V1 #J10 #V3 #Jyo">sāyam ardha</lem><rdg wit="#N3">sāyam addha</rdg><rdg wit="#J5">śāyamadhyaṃ</rdg><rdg wit="#J7 #P15 #P11">sāyaṃ madhya</rdg><rdg wit="#N23">soyamadhya</rdg><rdg wit="#C6">madhyāhne</rdg></app></s><s type="pada"><app><lem wit="#N3 #G4 #J7 #V19 #E2 #V1 #J10 #P11 #V3 #Jyo">rātre ca</lem><rdg wit="#N23">rātra ca</rdg><rdg wit="#G11">rātreṇa</rdg><rdg wit="#J5 #P15 #V15">rātrau ca</rdg><rdg wit="#C6">niśīthe caiva</rdg></app> <app><lem wit="#ceteri">kumbhakān</lem><rdg wit="#N23 #V3">kumbhakāt</rdg></app>/</s></l>
-<l> <s type="pada">śanai<app><lem wit="#ceteri"><seg type="ltn-ignore">r </seg>aśīti</lem><rdg wit="#V19">amībhiḥ</rdg></app><app><lem wit="#ceteri">paryantaṃ</lem><rdg wit="#N3">paryante</rdg><rdg wit="#J5">paryeca</rdg></app></s> <s type="pada">caturvāraṃ samabhyaset//</s><note type="myfn">After this verse the δ manuscripts have an additional verse: <s xml:lang="sa-deva">myvin iḍayā piva ṣoḍaśabhiḥ pavanaṃ/ kuru ṣaṣṭicatuṣṭayam antagatam</s> (<ref target="#V19"/>; <s xml:lang="sa-deva">॰mantaragam</s> <ref target="#E2,C7"/>)<s xml:lang="sa-deva">/myvin tyaja piṅgalayā śanakaiḥ śanakaiḥ/ daśabhir daśabhir daśabhir dvyadhikaiḥ//</s> (metre: <hi>toṭaka</hi>)</note>
+<l> <s type="pada">śanai<app><lem wit="#ceteri"><seg type="ltn-ignore">r </seg>aśīti</lem><rdg wit="#V19">amībhiḥ</rdg></app><app><lem wit="#ceteri">paryantaṃ</lem><rdg wit="#N3">paryante</rdg><rdg wit="#J5">paryeca</rdg></app></s> <s type="pada">caturvāraṃ samabhyaset//</s><note type="myfn">After this verse the δ manuscripts have an additional verse: <s xml:lang="sa-deva">myvin iḍayā piva ṣoḍaśabhiḥ pavanaṃ/ kuru ṣaṣṭicatuṣṭayam antagatam/</s> (<s xml:lang="sa-deva">°mantagatam</s> <ref target="#V19"/>; <s xml:lang="sa-deva">॰mantaragam</s> <ref target="#E2,C7"/>)<s xml:lang="sa-deva">myvin tyaja piṅgalayā śanakaiḥ śanakaiḥ/ daśabhir daśabhir daśabhir dvyadhikaiḥ//</s> (metre: <hi>toṭaka</hi>)</note>
 </l> 
 </lg>
  

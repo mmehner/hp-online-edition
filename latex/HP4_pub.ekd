@@ -898,6 +898,7 @@
 <24-x-1>{\selectlanguage {english}rājayoga} \getsiglum {J5,N23,N19,J10,P11,C6a,C6b}</24-x-1>
 <24-x-1>\hskip 0.75em{\selectlanguage {english}\color {blue}\bfseries }{\bfseries \selectlanguage {english}samādhiś ca} \getsiglum {ceteri}\ekdsep </24-x-1>
 <24-x-1>{\selectlanguage {english}samādhīś cā} \getsiglum {P11}</24-x-1>
+<24-x-1>\ekdsubsep {\selectlanguage {english}samādhiḥ syād} \getsiglum {N19,V15}</24-x-1>
 <24-x-1>\hskip 0.75em{\selectlanguage {english}\color {blue}\bfseries \LRnum {4.32b}~}{\bfseries \selectlanguage {english}unmanī} \getsiglum {ceteri}\ekdsep </24-x-1>
 <24-x-1>{\selectlanguage {english}py unmanī} \getsiglum {J5,G11}</24-x-1>
 <24-x-1>\ekdsubsep {\selectlanguage {english}hy unmanī} \getsiglum {C6b}</24-x-1>
@@ -1783,7 +1784,7 @@
 <41-x-1>\hskip 0.75em{\selectlanguage {english}\color {blue}\bfseries }{\bfseries \selectlanguage {english}ślokacatuṣṭayam} \getsiglum {N3,Gr3,G11,G5,GrB}\ekdsep </41-x-1>
 <41-x-1>{\selectlanguage {english}ślokam eva catuṣṭayaṃ} \getsiglum {J5}</41-x-1>
 <41-x-1>\ekdsubsep {\selectlanguage {english}ślokacatuṣṭayam āha} \getsiglum {J7}</41-x-1>
-<41-x-2>{\selectlanguage {english}\color {blue}\bfseries \LRnum {prescript:}~}{\bfseries \selectlanguage {iast}}\ekdsep {\selectlanguage {english}\getsiglum {G11,G5} have this set of verses as \manuref {3.93*7}\,ff. in a different order (4.62 \textrightarrow \ 4.61 with prescript \textrightarrow \ 4.63 \textrightarrow \ 4.64; cf. the introduction p.\,\hpref {75}\,f.). Their readings are reported here.}</41-x-2>
+<41-x-2>{\selectlanguage {english}\color {blue}\bfseries \LRnum {prescript:}~}{\bfseries \selectlanguage {iast}}\ekdsep {\selectlanguage {english}\getsiglum {G11,G5} have this set of verses as \manuref {3.93*7}\,ff. in a different order (4.62 \textrightarrow \ 4.61 with prescript \textrightarrow \ 4.63 \textrightarrow \ 4.64; cf. the introduction p.\,\hpref {77}\,f.). Their readings are reported here.}</41-x-2>
 <41-x-1>\hskip 0.75em{\selectlanguage {english}\color {blue}\bfseries \LRnum {4.61}~}</41-x-1>
 <41-x-1>{\selectlanguage {english}\unavbl } \getsiglum {N23}</41-x-1>
 <41-x-1>\ekdsubsep {\selectlanguage {english}\om } \getsiglum {N19,V15,J10,Jyo}</41-x-1>

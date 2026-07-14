@@ -56,6 +56,7 @@
     <xsl:choose>
       <!-- first in group -->
       <xsl:when test="@xml:id = $lggroup/Q{}id[1]">
+	<xsl:variable name="correspkey" select="concat('#', @xml:id )"/>
 	<!-- <xsl:message select="'Current ID:', string(@xml:id)"/> -->
 	
 	<div class="main-wrapper main">
@@ -64,7 +65,14 @@
 	      
 	      <xsl:element name="div">
 		<xsl:attribute name="id">
+		  <xsl:choose>
+		    <xsl:when test="$x4-rec">
+		      <xsl:value-of select="replace(@xml:id, 'hp0', 'hpx')"/>
+		    </xsl:when>
+		    <xsl:otherwise>
 		  <xsl:value-of select="@xml:id"/>
+		    </xsl:otherwise>
+		  </xsl:choose>
 		</xsl:attribute>
 		<xsl:attribute name="class">vers-title</xsl:attribute>
 		
@@ -72,8 +80,11 @@
 		  <xsl:call-template name="id-to-number"/>
 		  <xsl:text>–</xsl:text>
 		  <xsl:choose>
-		    <xsl:when test="$x4-rec"><!-- only 4.32-33 = X4.3-4-->
+		    <xsl:when test="$x4-rec and $correspkey='#hp04_032'"><!-- 4.32-33 = X4.3-4-->
 		     <xsl:text>4</xsl:text>
+		    </xsl:when>
+		    <xsl:when test="$x4-rec and $correspkey='#hp04_034'"><!-- 4.34-35 = X4.121-122-->
+		     <xsl:text>122</xsl:text>
 		    </xsl:when>
 		    <xsl:otherwise>
 		      <xsl:choose>
@@ -143,6 +154,7 @@
 		    Metre
 		    <xsl:choose>
 		      <xsl:when test="$x4-rec and $correspkey='#hp04_033'">X4.4</xsl:when>
+		      <xsl:when test="$x4-rec and $correspkey='#hp04_035'">X4.122</xsl:when>
 		      <xsl:otherwise>
 			<xsl:call-template name="id-to-number"/>: <xsl:value-of select="$metre"/>
 		      </xsl:otherwise>
@@ -153,6 +165,7 @@
 		  <summary>Readings
 		  <xsl:choose>
 		    <xsl:when test="$x4-rec and $correspkey='#hp04_033'">X4.4</xsl:when>
+		    <xsl:when test="$x4-rec and $correspkey='#hp04_035'">X4.122</xsl:when>
 		    <xsl:otherwise>
 		      <xsl:call-template name="id-to-number"/>
 		    </xsl:otherwise>
@@ -217,7 +230,7 @@
 	    <xsl:attribute name="id">
 	      <xsl:choose>
 		<xsl:when test="$x4-rec">
-		  <xsl:text>hpx4.</xsl:text>
+		  <xsl:text>hpx4_</xsl:text>
 		  <xsl:value-of select="$x4-rec"/>
 		</xsl:when>
 		<xsl:otherwise>
@@ -371,8 +384,14 @@
 	<div class="text">
 	  <xsl:element name="div">
 	    <xsl:attribute name="id">
-	      <xsl:if test="$x4-rec">x</xsl:if>
+	      <xsl:choose>
+		<xsl:when test="$x4-rec">
+		  <xsl:value-of select="replace(@xml:id, 'hp0', 'hpx')"/>
+		</xsl:when>
+		<xsl:otherwise>
 	      <xsl:value-of select="@xml:id"/>
+		</xsl:otherwise>
+	      </xsl:choose>
 	    </xsl:attribute>
 	    <xsl:attribute name="class">hp</xsl:attribute>
 	    <div class="versdev">
@@ -474,7 +493,14 @@
 
 	  <xsl:element name="div">
 	    <xsl:attribute name="id">
+	      <xsl:choose>
+		<xsl:when test="$x4-rec">
+		  <xsl:value-of select="replace(@xml:id, 'hp0', 'hpx')"/>
+		</xsl:when>
+		<xsl:otherwise>
 	      <xsl:value-of select="@xml:id"/>
+		</xsl:otherwise>
+	      </xsl:choose>
 	    </xsl:attribute>
 	    <xsl:attribute name="class">hp</xsl:attribute>
 	    <span class="number">
@@ -547,6 +573,7 @@
 	
 	<xsl:value-of select="replace(replace(
 			      translate(
+			      translate(
 			      replace(replace(replace(
 			      translate(
 			      replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(concat($addstring,.),
@@ -583,8 +610,9 @@
 			      'ai','ऐ'),
 			      'au','औ'),
 			      'aāiīuūṛṝeo','अआइईउऊऋॠएओ'),
-			      '//',' ॥'),
-			      '/',' ।')"/>
+			      '0123456789','०१२३४५६७८९'),
+			      '//','॥'),
+			      '/','।')"/>
       </xsl:when>
       <xsl:otherwise>
 	<xsl:value-of select="replace(.,'\s*/(/)?',' /$1')"/>
@@ -646,7 +674,7 @@
   </xsl:template>
 
   <xsl:template match="lem|rdg">
-    <xsl:value-of select="."/>
+    <xsl:apply-templates select="./node()"/>
     <xsl:apply-templates select="descendant::gap"/>
     <xsl:call-template name="sigla"/>
   </xsl:template>
@@ -797,6 +825,23 @@
 	</xsl:for-each>
       </xsl:otherwise>
     </xsl:choose>
+  </xsl:template>
+
+  <!-- anchor/pointer = ekdosis equ. of label/ref -->
+  <xsl:template match="anchor">
+    <xsl:element  name="span">
+      <xsl:attribute name="id">
+	<xsl:value-of select="@xml:id"/>
+      </xsl:attribute>
+    </xsl:element>
+  </xsl:template>
+
+  <xsl:template match="ptr[@target]">
+    <xsl:variable name="tree" select="//*"/>
+    <xsl:variable name="idkey" select="substring-after(@target, '#')"/>
+      <xsl:for-each select="$tree[@xml:id = $idkey]/ancestor::lg">
+	<xsl:call-template name="id-to-number"/>
+      </xsl:for-each>
   </xsl:template>
 
   <!-- simple html equivalents -->

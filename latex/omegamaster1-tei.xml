@@ -433,28 +433,28 @@ Brahmānanda’s version
 </msDesc>
 </witness>
 <witness xml:id="Gr1">
-<abbr type="siglum"><s xml:lang="en">α<hi rend="sub">1</hi>α<hi rend="sub">2</hi>α<hi rend="sub">3</hi></s></abbr>
+<abbr type="siglum"><s xml:lang="en">α<hi rend="sub">1</hi> α<hi rend="sub">2</hi> α<hi rend="sub">3</hi></s></abbr>
 N3,J5,G4
 <msDesc>
 <msIdentifier/>
 </msDesc>
 </witness>
 <witness xml:id="Gr2">
-<abbr type="siglum"><s xml:lang="en">γ<hi rend="sub">1</hi>γ<hi rend="sub">2</hi></s></abbr>
+<abbr type="siglum"><s xml:lang="en">γ<hi rend="sub">1</hi> γ<hi rend="sub">2</hi></s></abbr>
 N23,J7
 <msDesc>
 <msIdentifier/>
 </msDesc>
 </witness>
 <witness xml:id="Gr3">
-<abbr type="siglum"><s xml:lang="en">δ<hi rend="sub">1</hi>δ<hi rend="sub">2</hi></s></abbr>
+<abbr type="siglum"><s xml:lang="en">δ<hi rend="sub">1</hi> δ<hi rend="sub">2</hi></s></abbr>
 V19,E2
 <msDesc>
 <msIdentifier/>
 </msDesc>
 </witness>
 <witness xml:id="GrB">
-<abbr type="siglum"><s xml:lang="en">π<hi rend="sub">1</hi>π<hi rend="sub">2</hi>π<hi rend="sub">ω</hi></s></abbr>
+<abbr type="siglum"><s xml:lang="en">π<hi rend="sub">1</hi> π<hi rend="sub">2</hi> π<hi rend="sub">ω</hi></s></abbr>
 P11,C6,V3
 <msDesc>
 <msIdentifier/>
@@ -468,7 +468,7 @@ V3,J6,N9,N26
 </msDesc>
 </witness>
 <witness xml:id="G11plus">
-<abbr type="siglum"><s xml:lang="en">ε<hi rend="sub">1</hi>ε<hi rend="sub">2</hi></s></abbr>
+<abbr type="siglum"><s xml:lang="en">ε<hi rend="sub">1</hi> ε<hi rend="sub">2</hi></s></abbr>
 G11,G5,M3
 <msDesc>
 <msIdentifier/>
@@ -1229,7 +1229,7 @@ Koba, Gujarat 55626
 </teiHeader>
 <text>
 <body>
-<head><s xml:lang="en"><hi>Yama</hi> and <hi>niyama</hi> (in chapter 1)</s></head>   <div type="altrec">
+<head>Large <s xml:lang="en"><hi>Yama</hi> and <hi>niyama</hi> (in chapter 1)</s></head>   <div type="altrec">
 <lg xml:id="hp01_016_1">
  <l><s type="pada">ahiṃsā satyam asteyaṃ</s> <s type="pada">brahmacaryaṃ kṣamā dhṛtiḥ/</s> </l>
 <l> <s type="pada"><app><lem resp="ego">dayārjavaṃ</lem><rdg wit="#E4 #V3">dayārjava</rdg><rdg wit="#J6">devārcanaṃ</rdg></app> mitāhāraḥ</s> <s type="pada">śaucaṃ caiva yamā daśa//</s>  </l>

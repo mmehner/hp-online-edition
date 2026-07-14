@@ -709,6 +709,13 @@ BORI 399-1895-1902
 <msIdentifier/>
 </msDesc>
 </witness>
+<witness xml:id="M1">
+<abbr type="siglum">M<hi rend="sub">1</hi></abbr>
+P-5682/4
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
 <witness xml:id="Tue">
 <abbr type="siglum">Tü</abbr>
 Ma I 339
@@ -810,7 +817,7 @@ Koba, Gujarat 55626
  <note type="translation" target="#hp04_000_11"> When equanimity has been obtained, and the breath is moving into the central channel, then the <hi>vajrolī</hi> of the lineage of immortals arises †and then there is the hope for [immortal] life too.† </note>
  <note type="sources" target="#hp04_000_11"> <hi>Amaraugha</hi> 7 <note type="appinnote"> samatvam AO<hi rend="italic">v.l.</hi> ] tu sattvam AO<seg type="sep"/>vajrolī ] vajrolis AO<seg type="sep"/>tadāśā jīvite ’pi ] tadāśājīvitasya AO </note>
  </note>
- <note type="philcomm" target="#hp04_000_11"> The second line of this verse is problematic in both the source text (the <hi>Amaraugha</hi>) and the manuscripts of the <hi>Haṭhapradīpikā</hi>. For the last <hi>pāda</hi>, we have adopted the closest reading to that of the source text but cannot make sense of it, so have cruxed it. In addition to the tentative translation we have made, one could understand <hi>amaraughavajrolī</hi> and <hi>āśājīvite</hi> as dual forms: “ldots then <hi>amaraugha</hi> and <hi>vajrolī</hi> arise, and there is hope and life too”. The line was rewritten in η<hi rend="sub">2</hi> and other manuscripts, as well as the <hi>Jyotsnā</hi> (4.14cd), to include the two variations of <hi>vajrolī</hi>, namely <hi>amarolī</hi> and <hi>sahajolī</hi>.</note>
+ <note type="philcomm" target="#hp04_000_11"> The second line of this verse is problematic in both the source text (the <hi>Amaraugha</hi>) and the manuscripts of the <hi>Haṭhapradīpikā</hi>. For the last <hi>pāda</hi>, we have adopted the closest reading to that of the source text but cannot make sense of it, so have cruxed it. In addition to the tentative translation we have made, one could understand <hi>amaraughavajrolī</hi> and <hi>āśājīvite</hi> as dual forms: “... then <hi>amaraugha</hi> and <hi>vajrolī</hi> arise, and there is hope and life too”. The line was rewritten in η<hi rend="sub">2</hi> and other manuscripts, as well as the <hi>Jyotsnā</hi> (4.14cd), to include the two variations of <hi>vajrolī</hi>, namely <hi>amarolī</hi> and <hi>sahajolī</hi>.</note>
  <note type="translation" target="#hp04_000_12"> How can knowledge exist, when the mind is alive, O goddess? So long as the breath lives, the mind does not die. Breath and mind: [when] this pair goes to dissolution, a man attains liberation; in no way [does any] other [man]. </note>
  <note type="sources" target="#hp04_000_12"> <hi>Candrāvalokana</hi> 6 <note type="appinnote"> na tāvat ] na yāvat CA </note>
  </note>
@@ -852,13 +859,13 @@ Koba, Gujarat 55626
  </note>
  <note type="testimonia" target="#hp04_004"> <hi>Yogacintāmaṇi</hi> f. 24r (attrib. <hi>Rājayoga</hi>), <hi>Haṭhasaṅketacandrikā</hi> f. 128r (attrib. HP), <hi>Haṭhatattvakaumudī</hi> 49.25 (attrib. HP) <note type="appinnote"> sanātanaḥ HTK ] sanātanī YCM HSC<seg type="sep"/>syād chaktir ] na sā śaktir HTK<seg type="sep"/>jīvabhūtānāṃ ] sarvabhūtānāṃ YCM HSC, bhāvabhūtānāṃ HTK<seg type="sep"/>dṛṣṭir lakṣye layaṃ gatā ] dṛṣṭir lekṣeṇa saṃgatā YCM HSC, dṛṣṭe lakṣe kṣayaṃ gatā HTK </note>
  </note>
- <note type="translation" target="#hp04_005"> The Vedas, Shastras and Puranas are like common prostitutes. <hi>Śāmbhavī mudrā</hi> is unique and guarded like a woman of a good family. </note>
+ <note type="translation" target="#hp04_005"> The Vedas, Shastras and Puranas are like common prostitutes. <hi>Śām-bhavī mudrā</hi> is unique and guarded like a woman of a good family. </note>
  <note type="sources" target="#hp04_005"> <hi>Amanaska</hi> 2.9 <note type="appinnote"> vedaśāstrapurāṇāni A ] vedaśāstrapurāṇādyāḥ A<hi rend="italic">v.l.</hi>, vedaśāstrāṇi sarvāṇi A<hi rend="italic">v.l.</hi>, vedaśāstrapurāṇādi A<hi rend="italic">v.l.</hi></note>
  </note>
  <note type="testimonia" target="#hp04_005"> <hi>Haṭharatnāvalī</hi> 4.27, <hi>Yogacintāmaṇi</hi> f. 24v (attrib. <hi rend="italic">Rājayoga</hi>), <hi>Haṭhatattvakaumudī</hi> 49.26 (attrib. HP) <note type="appinnote"> purāṇāni HRĀ HTK ] purāṇaughāḥ YCM<seg type="sep"/>eṣā sā ] ekaiva HRĀ YCM HTK </note>
  </note>
  <note type="philcomm" target="#hp04_005"> See <hi rend="smallcaps">Birch</hi> 2013: 286 for more parallel verses. </note>
- <note type="translation" target="#hp04_006"> The focus is internal, the gaze external, unblinking: this is the <hi>śāmbhavī mudrā</hi> concealed in all the Tantras.</note>
+ <note type="translation" target="#hp04_006"> The focus is internal, the gaze external, unblinking: this is the <hi>śām-bhavī mudrā</hi> concealed in all the Tantras.</note>
  <note type="sources" target="#hp04_006"> <hi>Amanaska</hi> 2.10, <hi>Candrāvalokana</hi> 1 <note type="appinnote"> lakṣyaṃ A CA ] lakṣya A<hi rend="italic">v.l.</hi>, lakṣaṃ A<hi rend="italic">v.l.</hi>, lakṣā A<hi rend="italic">v.l.</hi>, lakṣo A<hi rend="italic">v.l.</hi><seg type="sep"/>varjitā A ] varjitaḥ CA<seg type="sep"/>eṣā sā ] eṣā hi A, iyaṃ sā CA </note>
  </note>
  <note type="testimonia" target="#hp04_006"> <hi>Yogacintāmaṇi</hi> f. 24v (attrib. <hi rend="italic">Rājayoga</hi>) <note type="appinnote"> eṣā sā ] eṣā tu YCM </note>
@@ -874,11 +881,11 @@ Koba, Gujarat 55626
  <note type="translation" target="#hp04_008"> There is no difference between the states of <hi>śāmbhavī</hi> and <hi>khecarī</hi>. </note>
  <note type="testimonia" target="#hp04_008"> <hi>Yogacintāmaṇi</hi> f. 25r (attrib. HP), <hi>Haṭhasaṅketacandrikā</hi> f. 128r–128v (attrib. HP) <note type="appinnote"> śāmbhavyāś ca khecaryā HSC ] śāmbhavyāḥ khecaryāś ca YCM<seg type="sep"/>avasthāyām abhedatā ] avasthāṃ ca labhed ataḥ YCM, avasthāṃ tu labhed ataḥ HSC </note>
  </note>
- <note type="philcomm" target="#hp04_008"> This line may be authorial because it is explaining the fact that 4.6 and 4.7 teach similar techniques called <hi>śāmbhavī mudrā</hi> and <hi>khecarī mudrā</hi> respectively. One would expect a verse on <hi>khecarī mudrā</hi> to be explaining the insertion of the tongue in the nasopharyngeal cavity (cf. 3.33–48), but the practice of meditating by fixing the gaze is called <hi>khecarī mudrā</hi> in 4.7 (as attested by α, η and π manuscripts) and manuscripts of the <hi>Candrāvalokana</hi>, the text from which Svātmārāma borrowed this verse. It is, therefore, likely that he added 4.8 to explain that <hi>śāmbhavī</hi> and <hi>khecarī mudrās</hi> are the same with respect to the gaze and meditative state of mind. A similar conflation occurs in the <hi rend="italic">Śivayogapradīpikā</hi> (5.3).</note>
- <note type="translation" target="#hp04_009"> That which enters the aperture into the underworld, which exists at the base of Meru, the wise yogi say that is the truth, the source of [all] rivers. [Likewise,] the essence of the body flows from the moon. Because of that, people die. One should dam that [essence] with the earth that is the good <hi rend="italic">mudrā</hi>. Otherwise, there is no bodily perfection. </note>
-<note type="testimonia" target="#hp04_009"> <hi>Haṭharatnāvalī</hi> 4.30, <hi>Yogacintāmaṇi</hi> f. 75r (attrib. HP), <hi>Yuktabhavadeva</hi> 7.220 (attrib. Gorakṣanātha), <hi>Haṭhatattvakaumudī</hi> 14.26 (attrib. HP) <note type="appinnote"> pātāle yad viśati HRĀ YBhD ] pātāle yad vitata HTK, tat pātālād viyati YCM<seg type="sep"/>suṣiraṃ HRĀ YBhD HTK ] śikhare YCM<seg type="sep"/>mūle YBhD YCM HTK ] mūlaṃ HRĀ<seg type="sep"/>tad asmin HTK ] tad asti HRĀ YCM, yad asti YBhD<seg type="sep"/>tattvaṃ HRĀ YCM ] tadvac YBhD HTK<seg type="sep"/>pravadati YBhD HTK YCM ] vadati HRĀ<seg type="sep"/>sudhīs YCM YBhD HTK ] sudhā HRĀ<seg type="sep"/>tan mukhaṃ HRĀ YBhD HTK ] saṃmukhe YCM<seg type="sep"/>sāraḥ YCM YBhD HTK ] sāraṃ HRĀ<seg type="sep"/>taṃ badhnīyāt HTK ] tad badhnīyāt HRĀ YCM, badhnīyāt tat YBhD<seg type="sep"/>sukaraṇamṛdā HTK ] sukharatimṛdur HRĀ, svakaraṇamṛdā YCM, sukaraṇam atho YBhD<seg type="sep"/>kāyasiddhiḥ YCM YBhD HTK ] kāryasiddhiḥ HRĀ </note>
+ <note type="philcomm" target="#hp04_008"> This line may be authorial because it is explaining the fact that 4.6 and 4.7 teach similar techniques called <hi>śāmbhavī mudrā</hi> and <hi>khecarī mudrā</hi> respectively. One would expect a verse on <hi>khecarī mudrā</hi> to be explaining the insertion of the tongue in the nasopharyngeal cavity (cf. 3.33–48), but the practice of meditating by fixing the gaze is called <hi>khecarī mudrā</hi> in 4.7 (as attested by α, η and π manuscripts) and manuscripts of the <hi>Candrāvalokana</hi>, the text from which Svātmārāma borrowed this verse. It is, therefore, likely that he added 4.8 to explain that <hi>śām-bhavī</hi> and <hi>khecarī mudrās</hi> are the same with respect to the gaze and meditative state of mind. A similar conflation occurs in the <hi rend="italic">Śivayogapradīpikā</hi> (5.3).</note>
+ <note type="translation" target="#hp04_009"> That which enters the aperture into the underworld, which exists at the base of Meru, the wise [yogi] says that is the truth, the source of [all] rivers. [Likewise,] the essence of the body flows from the moon. Because of that, people die. One should dam that [essence] with the earth that is the good <hi rend="italic">mudrā</hi>. Otherwise, there is no bodily perfection. </note>
+<note type="testimonia" target="#hp04_009"> <hi>Haṭharatnāvalī</hi> 4.30, <hi>Yogacintāmaṇi</hi> f. 75r (attrib. HP), <hi>Yuktabhavadeva</hi> 7.220 (attrib. Gorakṣa-nātha), <hi>Haṭha-tattva-kaumudī</hi> 14.26 (attrib. HP) <note type="appinnote"> pātāle yad viśati HRĀ YBhD ] pātāle yad vitata HTK, tat pātālād viyati YCM<seg type="sep"/>suṣiraṃ HRĀ YBhD HTK ] śikhare YCM<seg type="sep"/>mūle YBhD YCM HTK ] mūlaṃ HRĀ<seg type="sep"/>tad asmin HTK ] tad asti HRĀ YCM, yad asti YBhD<seg type="sep"/>tattvaṃ HRĀ YCM ] tadvac YBhD HTK<seg type="sep"/>pravadati YBhD HTK YCM ] vadati HRĀ<seg type="sep"/>sudhīs YCM YBhD HTK ] sudhā HRĀ<seg type="sep"/>tan mukhaṃ HRĀ YBhD HTK ] saṃmukhe YCM<seg type="sep"/>sāraḥ YCM YBhD HTK ] sāraṃ HRĀ<seg type="sep"/>taṃ badhnīyāt HTK ] tad badhnīyāt HRĀ YCM, badhnīyāt tat YBhD<seg type="sep"/>sukaraṇamṛdā HTK ] sukharatimṛdur HRĀ, svakaraṇamṛdā YCM, sukaraṇam atho YBhD<seg type="sep"/>kāyasiddhiḥ YCM YBhD HTK ] kāryasiddhiḥ HRĀ </note>
  </note>
- <note type="philcomm" target="#hp04_009"> On the position of these verses (4.9–11) in the various recensions of the text, see the introduction p. 75.<lb/>The first half of the verse has many variants among the witnesses, and none of the variants are satisfactory. A different version is found in the <hi>Jyotsnā</hi> (3.52) and some manuscripts belonging to lower branches of the stemma (e.g., η<hi rend="sub">2</hi>, π<hi rend="sub">ω</hi>, etc.). This version was likely inserted into chapter three of α<hi rend="sub">2</hi>, which seems to best represent it: 
+ <note type="philcomm" target="#hp04_009"> On the position of these verses (4.9–11) in the various recensions of the text, see the introduction p. 77.<lb/>The first half of the verse has many variants among the witnesses, and none of the variants are satisfactory. A different version is found in the <hi>Jyotsnā</hi> (3.52) and some manuscripts belonging to lower branches of the stemma (e.g., η<hi rend="sub">2</hi>, π<hi rend="sub">ω</hi>, etc.). This version was likely inserted into chapter three of α<hi rend="sub">2</hi>, which seems to best represent it: 
 <lg>
  <l>yat prāleyaṃ pihitasukhire merumūle yad astī </l>
 <l>tasmi tvaṃ pravadati sudhīs tan mukhaṃ nimnagānām</l> 
@@ -1025,7 +1032,7 @@ Koba, Gujarat 55626
  <note type="testimonia" target="#hp04_012"> <hi>Haṭharatnāvalī</hi> 1.12, <hi>Yogacintāmaṇi</hi> f. 23v (attrib. HP) <note type="appinnote"> jayante ] jayantu HRĀ, jayanti YCM<seg type="sep"/>ekam eva ] eva kāryam HRĀ YCM </note>
  </note>
  <note type="metre" target="#hp04_012"> Upajāti </note>
- <note type="translation" target="#hp04_013"> Seated in the pose of the liberated ones, the yogi should adopt <hi>śāṃbhavī mudrā</hi> and, with his mind one-pointed, listen to the inner sound in his right ear. </note>
+ <note type="translation" target="#hp04_013"> Seated in the pose of the liberated ones, the yogi should adopt <hi>śāṃ-bhavī mudrā</hi> and, with his mind one-pointed, listen to the inner sound in his right ear. </note>
  <note type="testimonia" target="#hp04_013"> <hi>Yogacintāmaṇi</hi> f. 23v (attrib. HP), <hi>Haṭhasaṅketacandrikā</hi> f. 124r (attrib. HP) <note type="appinnote"> antaḥstham ekadhīḥ ] antargataṃ sadā YCM, ekāntike sudhīḥ HSC </note>
  </note>
  <note type="philcomm" target="#hp04_013"> In verse 1.37, <hi>muktāsana</hi> is said to be the same as <hi>siddhāsana</hi>. </note>
@@ -1112,7 +1119,7 @@ Koba, Gujarat 55626
  </note>
  <note type="translation" target="#hp04_029"> Rājayoga without Haṭha and Haṭha without Rājayoga do not succeed so [the yogi] should practise both until the perfection stage. </note>
  <note type="sources" target="#hp04_029"> <hi>Śivasaṃhitā</hi> 5.222 </note>
- <note type="testimonia" target="#hp04_029"> <hi>Haṭharatnāvalī</hi> 1.19, <hi>Yogacintāmaṇi</hi> f. 21r (attrib. HP), <hi>Yogacintāmaṇi</hi> f. 21r (attrib. HP), <hi>Haṭhatattvakaumudī</hi> 55.1 <note type="appinnote"> rājayogo HRĀ YBhD HTK ] rājayogaṃ YCM <seg type="sep"/>Pāda cd ] vyāptiḥ syād avinābhūtā śrīrājahaṭhayogayoḥ HRĀ <seg type="sep"/>samabhyaset HTK YCM ] samācaret YBhD </note>
+ <note type="testimonia" target="#hp04_029"> <hi>Haṭharatnāvalī</hi> 1.19, <hi>Yogacintāmaṇi</hi> f. 21r (attrib. HP), <hi>Yuktabhavadeva</hi> 7.127 (attrib. HP), <hi>Haṭhatattvakaumudī</hi> 55.1 <note type="appinnote"> rājayogo HRĀ YBhD HTK ] rājayogaṃ YCM <seg type="sep"/>Pāda cd ] vyāptiḥ syād avinābhūtā śrīrājahaṭhayogayoḥ HRĀ <seg type="sep"/>samabhyaset HTK YCM ] samācaret YBhD </note>
  </note>
  <note type="metre" target="#hp04_029"> Anuṣṭubh (a: ra-vipulā) </note>
  <note type="translation" target="#hp04_030"> I consider those who are ignorant of Rājayoga and work only at Haṭha to be like farmhands who get no reward for their efforts.</note>
@@ -1129,11 +1136,8 @@ Koba, Gujarat 55626
  <note type="sources" target="#hp04_033"> <hi>Yogacintāmaṇi</hi> f. 6r (attrib. HP), <hi>Upāsanāsārasaṅgraha</hi> p. 106 (attrib. HP) <note type="appinnote"> ca YCM ] cāpy USS<seg type="sep"/>amaraugho ’pi cādvaitaṃ USS ] amaraughaughacāndrīva YCM<seg type="sep"/>layas tattvaṃ USS ] layaś caiva YCM<seg type="sep"/>paraṃ padaṃ USS ] parāparam YCM<seg type="sep"/>ekavācakāḥ ] ekavācakam YCM USS </note>
  </note>
  <note type="metre" target="#hp04_033"> Anuṣṭubh (c: na-vipulā) </note>
- <note type="translation" target="#hp04_034"> Two paths for the quick attainment of the beyond-mind state are approved by me: [cultivating] the ultimate reality (<hi>tattva</hi>) or supreme pleasure. And focusing on the inner sound [...] </note>
- <note type="testimonia" target="#hp04_034"> <hi>Yogacintāmaṇi</hi> f. 23v (attrib. HP), <hi>Upāsanāsārasaṅgraha</hi> p. 106 (attrib. HP) <note type="appinnote"> mārgau dvau USS ] dvau mārgau YCM<seg type="sep"/>ca ] vā YCM USS </note>
- </note>
- <note type="translation" target="#hp04_035"> [...] is approved even for foolish people whose minds are intent upon pleasure. The dissolution which arises from the inner sound instantly bestows bliss. </note>
- <note type="testimonia" target="#hp04_035"> <hi>Yogacintāmaṇi</hi> f. 23v (attrib. HP), <hi>Upāsanāsārasaṅgraha</hi> p. 106 (attrib. HP) <note type="appinnote"> saukhya YCM ] sāṅkhye USS<seg type="sep"/>saṃmatam YCM ] saṃmateḥ USS<seg type="sep"/>sadya-ānandasandhāyī YCM ] tasya svānaṃdasa*ryo USS </note>
+ <note type="translation" target="#hp04_035"> Two paths for the quick attainment of the beyond-mind state are approved by me: [cultivating] the ultimate reality (<hi>tattva</hi>) or supreme pleasure. And focusing on the inner sound is approved even for foolish people whose minds are intent upon pleasure. The dissolution which arises from the inner sound instantly bestows bliss. </note>
+ <note type="testimonia" target="#hp04_035"> <hi>Yogacintāmaṇi</hi> f. 23v (attrib. HP), <hi>Upāsanāsārasaṅgraha</hi> p. 106 (attrib. HP) <note type="appinnote"> mārgau dvau USS ] dvau mārgau YCM<seg type="sep"/>ca ] vā YCM USS saukhya YCM ] sāṅkhye USS<seg type="sep"/>saṃmatam YCM ] saṃmateḥ USS<seg type="sep"/>sadya-ānandasandhāyī YCM ] tasya svānaṃdasa*ryo USS </note>
  </note>
  <note type="translation" target="#hp04_035_1"> There is one seed [syllable] consisting of creation and one <hi>mudrā</hi>, <hi>khecarī</hi>, one god, the unsupported, [and] one state, mind beyond mind. </note>
  <note type="sources" target="#hp04_035_1"> Cf. <hi>Tantrāloka</hi> 32.64 
@@ -1212,7 +1216,7 @@ Koba, Gujarat 55626
  <note type="translation" target="#hp04_041"> In the first stage, [the sounds] are those that are produced by the ocean, a [storm] cloud, a kettle drum and a waterfall. In the intermediate stage, they are [the sounds] produced by a bass drum and conch and a bell and trumpet. </note>
  <note type="testimonia" target="#hp04_041"> <hi>Haṭharatnāvalī</hi> 4.10, <hi>Yogacintāmaṇi</hi> f. 24r (attrib. HP), <hi>Haṭhatattvakaumudī</hi> 54.32 <note type="appinnote"> nirjhara HRĀ HTK ] jharjhara YCM<seg type="sep"/>saṃbhavāḥ HRĀ ] saṃbhavaḥ YCM HTK<seg type="sep"/>śaṃkhotthā HRĀ HTK ] śaṃkhottha YCM<seg type="sep"/>kāhalajās ] kāhalakās HRĀ YCM HTK </note>
  </note>
- <note type="philcomm" target="#hp04_041"> We have translated <hi>kāhala</hi> as ‘trumpet’ on the basis of e.g. <hi>Viśvalocanakośa</hi>, <hi>lāntavarga</hi> 161 (<hi>dhvaninālā tu vīṇāyāṃ veṇukāhalayor api</hi>), but it can also mean a type of drum (see e.g. <hi>Śabdakalpadruma</hi> s.v. <hi>kāhala</hi>, where it is said to be a <hi>bṛhaḍḍhakkā</hi>, a big drum).</note>
+ <note type="philcomm" target="#hp04_041"> We have translated <hi>kāhala</hi> as ‘trumpet’ on the basis of e.g. <hi>Viśvalocanakośa</hi>, <hi>lāntavarga</hi> 161 (<hi>dhvaninālā tu vīṇāyāṃ veṇukāhalayor api</hi>), but it can also mean a type of drum (see e.g. <hi>Śabda-kalpadruma</hi> s.v. <hi>kāhala</hi>, where it is said to be a <hi>bṛhaḍḍhakkā</hi>, a big drum).</note>
  <note type="translation" target="#hp04_042"> In the final stage, there are the sounds of little bells, a bamboo flute, a veena and a bee. These various sound are heard in the body. </note>
  <note type="testimonia" target="#hp04_042"> <hi>Haṭharatnāvalī</hi> 4.11, <hi>Yogacintāmaṇi</hi> f. 24r (attrib. HP), <hi>Haṭhatattvakaumudī</hi> 54.33 <note type="appinnote"> vaṃśa HTK ] vṛnda HRĀ YCM<seg type="sep"/>vīṇā HRĀ YCM ] nādā HTK<seg type="sep"/>nānāvidhā nādāḥ śrūyante dehamadhyataḥ HRĀ, nānāvidho nādaḥ śrūyate dehamadhyagaḥ YCM, nānāvidhā nādāḥ śrūyante yatra madhyataḥ HTK </note>
  </note>
@@ -1236,7 +1240,7 @@ Koba, Gujarat 55626
  <note type="translation" target="#hp04_047_1"> Bound by the sulphur of the inner sound, the lord that is the mercury of the mind immediately casts off its fickle nature and attains fame as “[the bird] with clipped wings”. </note>
  <note type="testimonia" target="#hp04_047_1"> <hi>Haṭhatattvakaumudī</hi> 54.43 <note type="appinnote"> sunādagandhena ] sugandhanādena HTK<seg type="sep"/>cetaḥsūtendraḥ ] sūtacittendraḥ HTK<seg type="sep"/>iti prathām ] ivāprabhaḥ HTK </note>
  </note>
- <note type="philcomm" target="#hp04_047_1"> On <hi>pakṣaccheda</hi> in alchemical processes of immobilizing mercury and for references in Rasaśāstra, see <hi rend="smallcaps">Hellwig</hi> 2009: 276–278. </note>
+ <note type="philcomm" target="#hp04_047_1"> On <hi>pakṣaccheda</hi> in alchemical processes of immobilizing mercury and for references in Rasa-śāstra, see <hi rend="smallcaps">Hellwig</hi> 2009: 276–278. </note>
  <note type="metre" target="#hp04_047_1"> Anuṣṭubh (c: ma-vipulā) </note>
  <note type="translation" target="#hp04_048"> As a result of listening to the inner sound, the snake that is the mind forgets everything and, one-pointed, does not dart off anywhere. </note>
  <note type="testimonia" target="#hp04_048"> <hi>Yogacintāmaṇi</hi> f. 26v (attrib. HP), <hi>Haṭhatattvakaumudī</hi> 54.44 <note type="appinnote"> bhujaṅgamaḥ ] turaṅgamaḥ YCM, kuraṃgakaḥ HTK<seg type="sep"/>vismṛtya HTK ] viśūnyaṃ YCM<seg type="sep"/>sarvam YCM ] viśvam HTK<seg type="sep"/>ekāgraḥ HTK ] ekāgryaṃ YCM </note>
@@ -1273,7 +1277,7 @@ Koba, Gujarat 55626
  <note type="testimonia" target="#hp04_054"> <hi>Yogacintāmaṇi</hi> f. 27r (attrib. HP), <hi>Haṭhasaṅketacandrikā</hi> f. 123r (attrib. HP) <note type="appinnote"> nādarūpeṇa ] nāmarūpeṇa YCM HSC<seg type="sep"/>yas tac YCM ] yasya HSC </note>
  </note>
  <note type="translation" target="#hp04_055"> Blocking of the ears, mouth, eyes, and nose should not be performed [when] a clear inner sound is heard distinctly in the purified Suṣumṇā channel. </note>
- <note type="testimonia" target="#hp04_055"> <hi>Yogacintāmaṇi</hi> f. 26v (attrib. HP), <hi>Haṭhasaṅketacandrikā</hi> 123v–124r (attrib. HP), <hi>Saubhāgyalakṣmyupaniṣad</hi> 4 <note type="appinnote"> śravaṇamukhanayananāsānirodhanaṃ naiva kartavyaṃ ] śravaṇapuṭanayananāsāpuṭarodhanaṃ kāryam YCM, śravaṇapuṭanayanayugalanāsāmukharodham eva kartavyaṃ HSC, śravaṇamukhanayananāsānirodhanenaiva SLU<seg type="sep"/>śuddhasuṣumṇāśaraṇau SLU ] śrīśuddhasuṣumṇāsaraṇau YCM, śuddhasuṣumṇāśaraṇe HSC </note>
+ <note type="testimonia" target="#hp04_055"> <hi>Yogacintāmaṇi</hi> f. 26v (attrib. HP), <hi>Haṭhasaṅketacandrikā</hi> 123v–124r (attrib. HP), <hi>Saubhāgya-lakṣmyupaniṣad</hi> 4 <note type="appinnote"> śravaṇamukhanayananāsānirodhanaṃ naiva kartavyaṃ ] śravaṇapuṭanayananāsāpuṭarodhanaṃ kāryam YCM, śravaṇapuṭanayanayugalanāsāmukharodham eva kartavyaṃ HSC, śravaṇa-mu-kha-nayananāsānirodhanenaiva SLU<seg type="sep"/>śuddhasuṣumṇāśaraṇau SLU ] śrīśuddhasuṣumṇāsaraṇau YCM, śuddhasuṣumṇāśaraṇe HSC </note>
  </note>
  <note type="metre" target="#hp04_055"> Upagīti </note>
  <note type="translation" target="#hp04_055_1"> The inner sound is called Śakti; knowledge of the inner sound is Sadāśiva. But when knowledge and the object of knowledge have disappeared, only the beyond-mind [state] remains. </note>
@@ -1308,7 +1312,7 @@ Koba, Gujarat 55626
  </note>
  <note type="philcomm" target="#hp04_056"> This verse may have been composed by Svātmārāma to introduce the next two verses, which are from the <hi>Candrāvalokana</hi>, a dialogue between Matsyendra and Śiva. Verse 1.34, which may also be authorial like this one, has the vocative <hi>sakhe</hi>. </note>
  <note type="translation" target="#hp04_057"> As long as the moving breath does not enter the middle path, as long as bindu is not stable, restrained by the breath, as long as [realisation of] the ultimate truth (<hi>tattvam</hi>), which is as natural as the sky, does not arise, then all that one says is deceitful, and false chatter.</note>
-<note type="sources" target="#hp04_057"> <hi>Candrāvalokana</hi> 14 <note type="appinnote"> vātaprabaddhaḥ ] vātaprabandhaḥ CA, ghātaprabuddhaḥ CA<hi rend="italic">v.l.</hi>, vāyuḥ prabuddhaḥ CA<hi rend="italic">v.l.</hi>, vātaprabuddhaḥ CA<hi rend="italic">v.l.</hi><seg type="sep"/>sahajasadṛśaṃ ] sadṛśa sarasaṃ CA<seg type="sep"/>naiva tattvaṃ ] nonmanatvaṃ CAs<seg type="sep"/>vadati yad idaṃ ] yadi ca vadate CA </note>
+<note type="sources" target="#hp04_057"> <hi>Candrāvalokana</hi> 14 <note type="appinnote"> vātaprabaddhaḥ ] vātaprabandhaḥ CA, ghātaprabuddhaḥ CA<hi rend="italic">v.l.</hi>, vāyuḥ prabuddhaḥ CA<hi rend="italic">v.l.</hi>, vāta-prabuddhaḥ CA<hi rend="italic">v.l.</hi><seg type="sep"/>sahajasadṛśaṃ ] sadṛśa sarasaṃ CA<seg type="sep"/>naiva tattvaṃ ] nonmanatvaṃ CAs<seg type="sep"/>vadati yad idaṃ ] yadi ca vadate CA </note>
  </note>
  <note type="testimonia" target="#hp04_057"> <hi>Yogacintāmaṇi</hi> f. 22a (attrib. HP), <hi>Upāsanāsārasaṅgraha</hi> f. 110–111 (attrib. HP), <hi>Haṭhatattvakaumudī</hi> 2.2 <note type="appinnote"> prabaddhaḥ YCM ] prabaddhe USS, prabandhaḥ HTK<seg type="sep"/>naiva tatvam YCM ] nātmatattvaṃ USS, naiva cittaṃ HTK<seg type="sep"/>yad YCM USS ] tad HTK </note>
  </note>
@@ -1352,7 +1356,7 @@ Koba, Gujarat 55626
  </note>
  <note type="philcomm" target="#hp04_063"> We are unsure of the meaning of <hi>kūṭa</hi> here. As suggested to us by Sven Sellmer, it may mean the tip of the tongue which in, for example <hi>Khecarīvidyā</hi> 1.65–67 and 3.16–17, is to be placed at <hi>trikūṭa</hi> as part of the practice of <hi>khecarīmudrā</hi>. </note>
  <note type="translation" target="#hp04_064"> There are seventy-two thousand openings of the channels in the cage [that is the body]. Suṣumṇā is the Śāmbhavī Śakti while the other [channels] are pointless. </note>
-<note type="testimonia" target="#hp04_064"> <hi>Upāsanāsārasaṅgraha</hi> f. 111 (attrib. HP), <hi>Haṭhasaṅketacandrikā</hi> f. 108r (attrib. HP), <hi>Yogaśikhopaniṣat</hi> 6.17cd–18ab <note type="appinnote"> dvāsaptatisahasrāṇi nāḍīdvārāṇi USS YŚU ] sūryācandramasau kṛtvā viditvā kara HSC<seg type="sep"/>eva USS HSC ] anye YŚU </note>
+<note type="testimonia" target="#hp04_064"> <hi>Upāsanāsārasaṅgraha</hi> f. 111 (attrib. HP), <hi>Haṭhasaṅketacandrikā</hi> f. 108r (attrib. HP), <hi>Yoga-śikho-paniṣat</hi> 6.17cd–18ab <note type="appinnote"> dvāsaptatisahasrāṇi nāḍīdvārāṇi USS YŚU ] sūryācandramasau kṛtvā viditvā kara HSC<seg type="sep"/>eva USS HSC ] anye YŚU </note>
  </note>
  <note type="philcomm" target="#hp04_064"> The compound <hi>nāḍīdvāra</hi> is not found elsewhere (other than as <hi>nāḍīdvāreṇa</hi>) and its meaning here is unclear. Brahmānanda understands <hi>dvārāṇi</hi> to refer to routes by which breath enters the body (<hi>dvārāṇi vāyupraveśamārgāḥ</hi>) and we have translated <hi>nāḍīdvārāṇi</hi> accordingly. </note>
  <note type="translation" target="#hp04_065"> The breath, having been carefully accumulated, together with fire awakens Kuṇḍalinī and enters Suṣumṇā without obstruction. </note>
@@ -1388,7 +1392,7 @@ Koba, Gujarat 55626
  <note type="translation" target="#hp04_071"> As a result of one of those two disappearing the other disappears and as a result of one being active the other is active. And when neither has disappeared there is perception through all the sense faculties. When both have disappeared the state of liberation is attained. </note>
  <note type="sources" target="#hp04_071"> <hi>Amanaska</hi> 2.28 <note type="appinnote"> buddhir A ] vṛttir A<hi rend="italic">v.l.</hi>, vṛddhir A<hi rend="italic">v.l.</hi>, vidhi A<hi rend="italic">v.l.</hi>, viddhir A<hi rend="italic">v.l.</hi></note>
  </note>
- <note type="testimonia" target="#hp04_071"> <hi>Yogacintāmaṇi</hi> f. 19r (attrib. <hi>Rājayoga</hi>), <hi>Haṭhatattvakaumudī</hi> 2.6 <note type="appinnote"> adhvastayoś cendriyavargabuddhir ] adhvastayoḥ svendriyavargavṛddhir YCM, adhvastayor indriyavargavṛttir HTK </note>
+ <note type="testimonia" target="#hp04_071"> <hi>Yogacintāmaṇi</hi> f. 19r (attrib. <hi>Rājayoga</hi>), <hi>Haṭhatattvakaumudī</hi> 2.6 <note type="appinnote"> adhvastayoś cendriyavargabuddhir ] adhvastayoḥ svendriyavargavṛddhir YCM, adhvastayor indri-ya-vargavṛttir HTK </note>
  </note>
  <note type="metre" target="#hp04_071"> Upajāti </note>
  <note type="translation" target="#hp04_072"> When there is no movement in the path of the wind, [the yogi] obtains the whole earth and the eight lordly powers. True, true is this, O beautiful one. </note>
@@ -1401,7 +1405,7 @@ Koba, Gujarat 55626
  <note type="translation" target="#hp04_073"> When the breath is destroyed and the mind dissolves, all experience is the same (<hi>samarasatva</hi>). That is called <hi>samādhi</hi>. </note>
  <note type="sources" target="#hp04_073"> <hi>Vivekamārtaṇḍa</hi> 163 <note type="appinnote"> yat ] ca VM </note>
  </note>
- <note type="testimonia" target="#hp04_073"> <hi>Yuktabhavadeva</hi> 11.30 (attrib. Gorakṣanātha), <hi>Haṭhasaṅketacandrikā</hi> f. 117v (attrib. Viśvarūpācārya) <note type="appinnote"> mānasaṃ ca YBhD HSC ] mānaseva HSC<hi rend="italic">v.l.</hi><seg type="sep"/>vilīyate ] pralīyate YBhD HSC<seg type="sep"/>tadā YBhD<hi rend="italic">v.l.</hi>HSC ] yadā YBhD<seg type="sep"/>yat HSC ] ca YBhD<seg type="sep"/>so ’bhidhīyate HSC ] procyate tadā YBhD </note>
+ <note type="testimonia" target="#hp04_073"> <hi>Yuktabhavadeva</hi> 11.30 (attrib. Gorakṣanātha), <hi>Haṭhasaṅketacandrikā</hi> f. 117v (attrib. Viśva-rūpā-cārya) <note type="appinnote"> mānasaṃ ca YBhD HSC ] mānaseva HSC<hi rend="italic">v.l.</hi><seg type="sep"/>vilīyate ] pralīyate YBhD HSC<seg type="sep"/>tadā YBhD<hi rend="italic">v.l.</hi>HSC ] yadā YBhD<seg type="sep"/>yat HSC ] ca YBhD<seg type="sep"/>so ’bhidhīyate HSC ] procyate tadā YBhD </note>
  </note>
  <note type="philcomm" target="#hp04_073"> The six-chapter <hi>Vivekamārtaṇḍa</hi> is attributed to Viśvarūpa, which perhaps explains the attribution of this verse to him. </note>
  <note type="translation" target="#hp04_074"> When the mind is still the breath is still, from which semen becomes still. As a result of semen becoming still, my son, the body becomes still. </note>

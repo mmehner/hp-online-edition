@@ -17,7 +17,16 @@
      <id>hp03_034_2</id>
    </group>
    <group>
+     <id>hp03_093_8</id>
+     <id>hp03_093_9</id>
+     <id>hp03_093_10</id>
+   </group>
+   <group>
      <id>hp04_032</id>
      <id>hp04_033</id>
+   </group>
+   <group>
+     <id>hp04_034</id>
+     <id>hp04_035</id>
    </group>
 </list>
