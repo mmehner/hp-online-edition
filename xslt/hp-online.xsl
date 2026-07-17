@@ -671,7 +671,7 @@
 
   <xsl:template match="lem|rdg">
     <xsl:apply-templates select="./node()"/>
-    <xsl:apply-templates select="descendant::gap"/>
+    <!--<xsl:apply-templates select="descendant::gap"/>-->
     <xsl:call-template name="sigla"/>
   </xsl:template>
 
