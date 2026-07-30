@@ -100,7 +100,7 @@ compile(){
 	    -e "s/\_/_/g" \
 	    "${tei}"
 	
-	    # -e ':a; s_\(<ref target="#[^",]\+\),\([^"]\+"/>\)_\1"/><ref target="#\2_; ta'
+	    # -e ':a; s_\(<ref target="#[^",]\+\),\([^"]\+"/>\)_\1"/><ref target="#\2_; ta' \
 	    
 	cp  -v "${tei}" ../xml/
     else

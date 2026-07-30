@@ -42,7 +42,7 @@
     <xsl:param name="x4-rec" tunnel="yes"/>
     <xsl:element name="{local-name()}">
       <xsl:if test="not($x4-rec) and not(contains($chapid, 'omega'))">
-      <xsl:attribute name="class">altrec</xsl:attribute>
+	<xsl:attribute name="class">altrec</xsl:attribute>
       </xsl:if>
       <xsl:apply-templates/>
     </xsl:element>
@@ -70,7 +70,7 @@
 		      <xsl:value-of select="replace(@xml:id, 'hp0', 'hpx')"/>
 		    </xsl:when>
 		    <xsl:otherwise>
-		  <xsl:value-of select="@xml:id"/>
+		      <xsl:value-of select="@xml:id"/>
 		    </xsl:otherwise>
 		  </xsl:choose>
 		</xsl:attribute>
@@ -81,10 +81,10 @@
 		  <xsl:text>–</xsl:text>
 		  <xsl:choose>
 		    <xsl:when test="$x4-rec and $correspkey='#hp04_032'"><!-- 4.32-33 = X4.3-4-->
-		     <xsl:text>4</xsl:text>
+		      <xsl:text>4</xsl:text>
 		    </xsl:when>
 		    <xsl:when test="$x4-rec and $correspkey='#hp04_034'"><!-- 4.34-35 = X4.121-122-->
-		     <xsl:text>122</xsl:text>
+		      <xsl:text>122</xsl:text>
 		    </xsl:when>
 		    <xsl:otherwise>
 		      <xsl:choose>
@@ -234,7 +234,7 @@
 		  <xsl:value-of select="$x4-rec"/>
 		</xsl:when>
 		<xsl:otherwise>
-	      <xsl:value-of select="@xml:id"/>
+		  <xsl:value-of select="@xml:id"/>
 		</xsl:otherwise>
 	      </xsl:choose>
 	    </xsl:attribute>
@@ -389,7 +389,7 @@
 		  <xsl:value-of select="replace(@xml:id, 'hp0', 'hpx')"/>
 		</xsl:when>
 		<xsl:otherwise>
-	      <xsl:value-of select="@xml:id"/>
+		  <xsl:value-of select="@xml:id"/>
 		</xsl:otherwise>
 	      </xsl:choose>
 	    </xsl:attribute>
@@ -438,14 +438,14 @@
 	      <xsl:when test="descendant::app">
 		<details class="apparatus">
 		  <summary>Readings</summary>
-		<xsl:for-each select="descendant::note[@type='omission' or @type='foliolost']">
-		  <div class="app">
-		    <xsl:apply-templates/>
-		  </div>
-		</xsl:for-each>
-		<xsl:for-each select="descendant::app">
-		  <xsl:call-template name="apparatus"/>
-		</xsl:for-each>
+		  <xsl:for-each select="descendant::note[@type='omission' or @type='foliolost']">
+		    <div class="app">
+		      <xsl:apply-templates/>
+		    </div>
+		  </xsl:for-each>
+		  <xsl:for-each select="descendant::app">
+		    <xsl:call-template name="apparatus"/>
+		  </xsl:for-each>
 		</details>
 	      </xsl:when>
 	      <xsl:otherwise>
@@ -498,7 +498,7 @@
 		  <xsl:value-of select="replace(@xml:id, 'hp0', 'hpx')"/>
 		</xsl:when>
 		<xsl:otherwise>
-	      <xsl:value-of select="@xml:id"/>
+		  <xsl:value-of select="@xml:id"/>
 		</xsl:otherwise>
 	      </xsl:choose>
 	    </xsl:attribute>
@@ -510,17 +510,17 @@
 	    </span>
 	    <div class="vers-dev">
 	      <p class="hpprose">
-	      <xsl:apply-templates>
-		<xsl:with-param name="transc" select="true()" tunnel="yes"/>
-	      </xsl:apply-templates>
+		<xsl:apply-templates>
+		  <xsl:with-param name="transc" select="true()" tunnel="yes"/>
+		</xsl:apply-templates>
 	      </p>
 	    </div>
 	    
 	    <div class="vers-latin">
 	      <p class="hpprose">
-	      <xsl:apply-templates>
-		<xsl:with-param name="transc" select="false()" tunnel="yes"/>
-	      </xsl:apply-templates>
+		<xsl:apply-templates>
+		  <xsl:with-param name="transc" select="false()" tunnel="yes"/>
+		</xsl:apply-templates>
 	      </p>
 	    </div>
 	  </xsl:element>
@@ -667,9 +667,19 @@
   </xsl:template>
 
   <xsl:template match="lem|rdg" mode="lemma">
-    <span class="lem">
-      <xsl:apply-templates mode="lemma" select="./node()"/>
-    </span>
+    <xsl:choose>
+      <xsl:when test="seg/hi">
+	<xsl:apply-templates select="seg/hi"/>
+	<span class="lem">
+	  <xsl:apply-templates mode="lemma" select="seg/text()"/>
+	</span>
+      </xsl:when>
+      <xsl:otherwise>
+	<span class="lem">
+	  <xsl:apply-templates mode="lemma" select="node()"/>
+	</span>
+      </xsl:otherwise>
+    </xsl:choose>
     <xsl:call-template name="sigla"/>
   </xsl:template>
 
@@ -839,9 +849,9 @@
   <xsl:template match="ptr[@target]">
     <xsl:variable name="tree" select="//*"/>
     <xsl:variable name="idkey" select="substring-after(@target, '#')"/>
-      <xsl:for-each select="$tree[@xml:id = $idkey]/ancestor::lg">
-	<xsl:call-template name="id-to-number"/>
-      </xsl:for-each>
+    <xsl:for-each select="$tree[@xml:id = $idkey]/ancestor::lg">
+      <xsl:call-template name="id-to-number"/>
+    </xsl:for-each>
   </xsl:template>
 
   <!-- simple html equivalents -->

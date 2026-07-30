@@ -63,10 +63,11 @@
 %\dimen\footins=??
 %\renewcommand{\footnotesize}{\small}  % Wirkt auf App und Fn beides.
 
-\usepackage[english]{babel}
+\usepackage[sanskrit,english]{babel}
 \usepackage{babel-iast}
 \babelprovide[typography/prehyphenchar = `-,transforms=transliteration.iast]{iast}
 \babelfont[iast]{rm}[Renderer=Harfbuzz, Scale=1.1]{AdishilaSan}
+\babelprovide[typography/prehyphenchar = `-]{sanskrit}
 \babeltags{dev = iast}
 \babeltags{eng = english}
 \usepackage{libertine}
@@ -88,7 +89,7 @@
 	appfontsize=\footnotesize
 	}
 \DeclareApparatus{default}[
-	lang=english,
+	lang=sanskrit,
 	sep = {] },
 	delim=\hskip 0.75em,
 	%	rule=none,
@@ -513,6 +514,7 @@
 
 \def\attr{\hbox{attrib.}\xspace}
 \babelhyphenation{%
+	Amṛta-siddhi
 	Dattā-treya-yoga-śāstra
 	Gorakṣa-śataka
 	Go-rakṣa-nātha

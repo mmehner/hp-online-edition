@@ -663,9 +663,19 @@
   </xsl:template>
 
   <xsl:template match="lem|rdg" mode="lemma">
-    <span class="lem">
-      <xsl:apply-templates mode="lemma" select="./node()"/>
-    </span>
+    <xsl:choose>
+      <xsl:when test="seg/hi">
+	<xsl:apply-templates select="seg/hi"/>
+	<span class="lem">
+	  <xsl:apply-templates mode="lemma" select="seg/text()"/>
+	</span>
+      </xsl:when>
+      <xsl:otherwise>
+	<span class="lem">
+	  <xsl:apply-templates mode="lemma" select="node()"/>
+	</span>
+      </xsl:otherwise>
+    </xsl:choose>
     <xsl:call-template name="sigla"/>
   </xsl:template>
 

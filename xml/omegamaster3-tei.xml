@@ -354,13 +354,6 @@ Sampurnananda Library Sarasvati Bhavan 30051
 </physDesc>
 </msDesc>
 </witness>
-<witness xml:id="M1">
-<abbr type="siglum"><s xml:lang="en">M<hi rend="sub">1</hi></s></abbr>
-P-5682/4
-<msDesc>
-<msIdentifier/>
-</msDesc>
-</witness>
 <witness xml:id="V1">
 <abbr type="siglum"><s xml:lang="en">η<hi rend="sub">1</hi></s></abbr>
 Sampurnananda Library Sarasvati Bhavan 30109
@@ -469,7 +462,7 @@ V3,J6,N9,N26
 </witness>
 <witness xml:id="G11plus">
 <abbr type="siglum"><s xml:lang="en">ε<hi rend="sub">1</hi> ε<hi rend="sub">2</hi></s></abbr>
-G11,G5,M3
+G11,G5
 <msDesc>
 <msIdentifier/>
 </msDesc>
@@ -1169,6 +1162,13 @@ BORI 399-1895-1902
 <msIdentifier/>
 </msDesc>
 </witness>
+<witness xml:id="M1">
+<abbr type="siglum">M<hi rend="sub">1</hi></abbr>
+P-5682/4
+<msDesc>
+<msIdentifier/>
+</msDesc>
+</witness>
 <witness xml:id="Tue">
 <abbr type="siglum">Tü</abbr>
 Ma I 339
@@ -1237,12 +1237,12 @@ Koba, Gujarat 55626
 </div> <div type="altrec">
 <lg xml:id="hp03_032_2">
  <l><app><lem/><rdg wit="#V15 #Jyo">also included in</rdg></app><s type="pada"><app><lem wit="#V15 #Gr6">kṛtvā</lem><rdg wit="#Jyo">tataḥ</rdg></app> saindhava<app><lem wit="#Jyo">pathyābhyāṃ</lem><rdg wit="#J6 #E4 #V3">pathyādi</rdg><rdg wit="#V15">pakṣyādi</rdg></app></s> <s type="pada">cūrṇitābhyāṃ pragharṣayet/</s></l>
-<l>punaḥ saptadine prāpte <s type="pada">romamātraṃ <app><lem wit="#E4 #V3">samucchidet</lem><rdg wit="#Jyo">samucchinet</rdg><rdg wit="#V15">punaḥ chidet</rdg><rdg wit="#J6">samutthiyāt</rdg></app>//</s>  </l> 
+<l>punaḥ saptadine prāpte <s type="pada">romamātraṃ <app><lem wit="#E4 #V3">samucchidet</lem><rdg wit="#J6">samutthiyāt</rdg><rdg wit="#V15">punaḥ chidet</rdg><rdg wit="#Jyo">samucchinet</rdg></app>//</s>  </l> 
 </lg>
 </div> <div type="altrec">
 <lg xml:id="hp03_032_3">
- <l><app><lem/><rdg wit="#V15 #Jyo">also included in</rdg></app><s type="pada">evaṃ krameṇa <app><lem wit="#J6 #E4 #V3 #Jyo">ṣaṇmāsaṃ</lem><rdg wit="#V15">ṣaṇmāsān</rdg></app></s> <s type="pada"><app><lem wit="#J6 #V15 #E4 #V3">nitya</lem><rdg wit="#Jyo">nityaṃ</rdg></app><app><lem wit="#V15 #E4 #V3">yuktaṃ</lem><rdg wit="#Jyo">yuktaḥ</rdg><rdg wit="#J6">muktaṃ</rdg></app> samācaret/</s></l>
-<l> <s type="pada"><app><lem wit="#Gr6 #Jyo">ṣaṇmāsā<seg type="deva-ignore">d</seg></lem><rdg wit="#V15">ṣaṇmāse</rdg></app>d rasanā<app><lem wit="#J6 #E4 #V3 #Jyo">mūla</lem><rdg wit="#V15">mūlaṃ</rdg></app></s><s type="pada"><app><lem wit="#E4pc">śirābandhaṃ</lem><rdg wit="#V15 #Jyo">śirābandhaḥ</rdg><rdg wit="#E4ac #V3">śarābandhaṃ</rdg><rdg wit="#J6">śarabaṃdhaṃ</rdg></app> <app><lem wit="#Gr6">vinaśyati</lem><rdg wit="#V15 #Jyo">praṇaśyati</rdg></app>//</s>  </l> 
+ <l><app><lem/><rdg wit="#V15 #Jyo">also included in</rdg></app><s type="pada">evaṃ krameṇa <app><lem wit="#J6 #E4 #V3 #Jyo">ṣaṇmāsaṃ</lem><rdg wit="#V15">ṣaṇmāsān</rdg></app></s> <s type="pada"><app><lem wit="#J6 #V15 #E4 #V3">nitya</lem><rdg wit="#Jyo">nityaṃ</rdg></app><app><lem wit="#V15 #E4 #V3">yuktaṃ</lem><rdg wit="#J6">muktaṃ</rdg><rdg wit="#Jyo">yuktaḥ</rdg></app> samācaret/</s></l>
+<l> <s type="pada"><app><lem wit="#Gr6 #Jyo">ṣaṇmāsā<seg type="deva-ignore">d</seg></lem><rdg wit="#V15">ṣaṇmāse</rdg></app>d rasanā<app><lem wit="#J6 #E4 #V3 #Jyo">mūla</lem><rdg wit="#V15">mūlaṃ</rdg></app></s><s type="pada"><app><lem wit="#E4pc">śirābandhaṃ</lem><rdg wit="#J6">śarabaṃdhaṃ</rdg><rdg wit="#V15 #Jyo">śirābandhaḥ</rdg><rdg wit="#E4ac #V3">śarābandhaṃ</rdg></app> <app><lem wit="#Gr6">vinaśyati</lem><rdg wit="#V15 #Jyo">praṇaśyati</rdg></app>//</s>  </l> 
 </lg>
 </div> <div type="altrec">
 <lg xml:id="hp03_032_4">
@@ -1327,8 +1327,8 @@ Koba, Gujarat 55626
 </lg>
 </div> <div type="altrec">
 <lg xml:id="hp03_032_19">
-<l><s type="pada">divyakalpaṃ <app><lem wit="#E4 #V3">rame<seg type="deva-ignore">n</seg></lem><rdg wit="#J6">krīḍen</rdg></app>n nityam</s> <s type="pada">utkṛṣṭo jāyate dhruvam/</s></l>
-<l> <s type="pada">tanmayatvam avāpnoti</s> <s type="pada"><app><lem wit="#J6">kośakārīva</lem><rdg wit="#V3">kauśakārīva</rdg><rdg wit="#E4">kauṣṭakārīva</rdg></app> kīṭakaḥ//</s>  </l> 
+<l><s type="pada">divyakalpaṃ <app><lem wit="#E4 #V3">rame<seg type="deva-ignore">n</seg></lem><rdg wit="#J6">krīḍen</rdg></app>n nitya</s><s type="pada">m utkṛṣṭo jāyate dhruvam/</s></l>
+<l> <s type="pada">tanmayatvam avāpnoti</s> <s type="pada"><app><lem wit="#J6">kośakārīva</lem><rdg wit="#E4">kauṣṭakārīva</rdg><rdg wit="#V3">kauśakārīva</rdg></app> kīṭakaḥ//</s>  </l> 
 </lg>
 </div> 
 </body>
