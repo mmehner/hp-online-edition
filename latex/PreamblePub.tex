@@ -38,7 +38,7 @@
 	\fancyhead[ER]{\small\texteng{[\rightmark\textendash}}
 	\fancyhead[OL]{\small\texteng{\textendash\leftmark]}}
 	\fancyhead[OR]{}%\small\texteng{\thepage}}
-	\fancyhead[OC]{\small\textsc{\texteng{\firstrightxmark}}}
+	\fancyhead[OC]{\small{\texteng{\textsc{Chapter} \hindsection}}}
 	\fancyfoot[C]{}
 	}
 \pagestyle{HPed}
@@ -70,12 +70,18 @@
 \babelprovide[typography/prehyphenchar = `-]{sanskrit}
 \babeltags{dev = iast}
 \babeltags{eng = english}
-\usepackage{libertine}
+\newcommand{\skt}[1]{\selectlanguage{sanskrit}\textit{#1}\selectlanguage{english}}
+%\usepackage{libertine}
+\usepackage{fontspec}
+\setmainfont{Linux Libertine O}[
+    SmallCapsFont={Junicode},
+    SmallCapsFeatures={Letters=SmallCaps,LetterSpace=2}
+	]
 
 \usepackage[teiexport=tidy,poetry=verse]{ekdosis}
 \usepackage{sanskrit-poetry}
 \input{MssNewSigla}
-\input{Manuscript-Sigla.tex}
+%\input{Manuscript-Sigla.tex}
 \input{TeX2Tei-Commands}
 
 \setlength\parindent{1em}
@@ -90,7 +96,7 @@
 	}
 \DeclareApparatus{default}[
 	lang=sanskrit,
-	sep = {] },
+%	sep = {\,] }, % too wide
 	delim=\hskip 0.75em,
 	%	rule=none,
 	]
@@ -259,22 +265,15 @@
 %\newcommand{\vsn}[1]{{\footnotesize\texteng{#1}}}
 \newcommand{\graus}[1]{\small\textcolor{gray}{#1}\normalsize} % partial altrecension
 \newcommand{\grau}[1]{\textcolor{gray}{#1}} % partial altrecension
-\newcommand{\Anm}[1]{\begin{ekdverse}
-	\texteng{\footnotesize (#1)}
-	\end{ekdverse}
-	}
 \newcommand{\vspaceinnote}{\vspace{2pt minus 1pt}}
 \newcommand{\myvin}{\hspace*{2em}}% indent for verses cited in app. reg. 2
+\newcommand{\locsiglum}[1]{#1}
+
 
 %\newcommand{\sgwit}[1]{{\footnotesize (\getsiglum{#1})}}
-%\newcommand{\NotIn}[1]{\texteng{\footnotesize (om. \getsiglum{#1})}}
-%\newcommand{\lineom}[2]{\texteng{\footnotesize (#1 om. \getsiglum{#2})}}
 %\newcommand{\anm}[1]{\texteng{\footnotesize [#1]}}
 \newcommand{\sgwit}[1]{}% Nur für Online version; Change TEI too!!
-%\newcommand{\lineom}[2]{\myfn{#1 om. \getsiglum{#2}}}
 \newcommand{\anm}[1]{\myfn{#1}} % nicht mehr benutzt!!
-%\newcommand{\unavbl}[1]{\marginpar{\scriptsize\texteng{−\,\getsiglum{#1}}}}
-%\newcommand{\unavbl}[1]{\myfn{Folio lost in \getsiglum{#1}}}
 \newcommand{\textapp}[1]{\texteng{\textit{#1}}}
 \newcommand{\unavbl}{\textapp{folio lost}}
 \newcommand{\incl}{\textapp{included in}}
@@ -333,6 +332,15 @@
 	\item[\ding{118}\ Commentary]\ %
 	\item
 	}{\end{description}\selectlanguage{iast}}
+
+\NewDocumentEnvironment{metre}{O{}}{%
+	\selectlanguage{english}%
+	\begin{description}[leftmargin=1em, 
+		topsep=0pt, parsep=0pt, partopsep=0pt,
+		listparindent=0pt, labelwidth=1em, labelsep=1em]
+	\item[\ding{118}\ Metre]
+	}{\end{description}\selectlanguage{iast}}
+
 
 \newenvironment{variants}{%
 	\begin{description}[%
@@ -398,12 +406,13 @@
 %\TeXtoTEIPat{\labelvnum}{}
 %\TeXtoTEIPat{\commvnum}{}
 
-\newcommand{\myvspace}{\vspace{-3pt plus 3pt minus 3pt}}
+\newcommand{\myvspace}{\vspace{-2pt plus 3pt minus 3pt}}
 \newcommand{\commlabel}{\hfill\texteng{\raisebox{0pt}{\textbf{[\hindsection.\labelvnum]}}}\hfill\ }
 
 \newcommand{\comminfn}{%
 	\footnotetext{%
 	\commlabel\vspace{-0.5ex}
+	\ExecuteMetaData[\commfilename]{mt\commvnum}%
 	\ExecuteMetaData[\commfilename]{sc\commvnum}%
 	\ExecuteMetaData[\commfilename]{ts\commvnum}%
 	\ExecuteMetaData[\commfilename]{cm\commvnum}%
@@ -417,8 +426,9 @@
 \newcommand{\commcitecore}{%
 	\myvspace
 	\begin{quote}%
-	\ExecuteMetaData[\commfilename]{tr\commvnum}
-	\texteng{(\labelvnum)}\comminfn
+	\texteng{(\labelvnum)}
+	\ExecuteMetaData[\commfilename]{tr\commvnum}%
+	\comminfn
 	\end{quote}}
 
 \def\commfilename{HP\hindsection_comm.tex}
@@ -439,8 +449,9 @@
 	\myvspace
 	\begin{quote}%
 	\textcolor{gray}{%
-	\ExecuteMetaData[\commfilename]{tr\commvnum}
-	\texteng{(\labelvnum)}}\comminfn
+	\texteng{(\labelvnum)}
+	\ExecuteMetaData[\commfilename]{tr\commvnum}}%
+	\comminfn
 	\end{quote}}
 
 \newcommand{\avacite}[1]{%
@@ -453,8 +464,8 @@
 \newcommand{\trcite}[1]{
 	\myvspace
 	\begin{quote}
-	\ExecuteMetaData[\commfilename]{tr#1}
 	\texteng{(#1)}
+	\ExecuteMetaData[\commfilename]{tr#1}
 	\end{quote}
 	}
 
@@ -463,8 +474,8 @@
 	\def\labelvnum{\themyvnum*\thealtvnum}%
 	\myvspace
 	\begin{quote}
-	\textcolor{gray}{\ExecuteMetaData[\commfilename]{tr\commvnum}
-	\texteng{(\labelvnum)}}
+	\textcolor{gray}{\texteng{(\labelvnum)} 
+	\ExecuteMetaData[\commfilename]{tr\commvnum}}
 	\end{quote}
 	}
 
@@ -480,7 +491,8 @@
 \newcommand{\mylb}{\smallskip\lb}
 \newcommand{\sep}{\par}
 %\TeXtoTEIPat{\sep}{<lb/>}% oder besser mit einem Trennzeichen in einer Zeile lassen?
-\def\vl{\textit{v.l.}\xspace}
+%\def\vl{\textit{v.l.}\xspace}
+\def\vl{\textit{v.l.}}
 %\newcommand{\var}[1]{\texteng{\scriptsize #1}}
 %\newcommand{\varsep}{\xspace\texteng{\textbullet}\xspace}
 
@@ -524,6 +536,7 @@
 	Haṭha-yoga
 	Jāran-dhara
 	Rāja-yoga
+	śām-bhavī
 	Śām-bhavī
 	Śāṃ-bhavī
 	Śārṅga-dhara-pad-dhati

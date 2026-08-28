@@ -98,7 +98,7 @@
 <9-x-1>{\selectlanguage {sanskrit}dakṣaṇāśāṃ} \getsiglum {E4,V3}</9-x-1>
 <9-x-1>\hskip 0.75em{\selectlanguage {english}\color {blue}\bfseries }{\bfseries \selectlanguage {sanskrit}nayen} \getsiglum {E4,J6}\ekdsep </9-x-1>
 <9-x-1>{\selectlanguage {sanskrit}mayen} \getsiglum {V3}</9-x-1>
-<9-x-1>\hskip 0.75em{\selectlanguage {english}\color {blue}\bfseries \LRnum {Kj.16d}~}{\bfseries \selectlanguage {sanskrit}so'pi na jīvati} \getsiglum {E4}\ekdsep </9-x-1>
+<9-x-1>\hskip 0.75em{\selectlanguage {english}\color {blue}\bfseries \LRnum {Kj.16d}~}{\bfseries \selectlanguage {sanskrit}so 'pi na jīvati} \getsiglum {E4}\ekdsep </9-x-1>
 <9-x-1>{\selectlanguage {sanskrit}\om } \getsiglum {V3,J6}</9-x-1>
 <10-x-1>{\selectlanguage {english}\color {blue}\bfseries \LRnum {Kj.17a}~}</10-x-1>
 <10-x-1>{\selectlanguage {sanskrit}\om } \getsiglum {V3,J6}</10-x-1>
@@ -302,7 +302,7 @@
 <26-x-1>{\selectlanguage {sanskrit}na ca} \getsiglum {E4,V3,J6}</26-x-1>
 <26-x-1>\hskip 0.75em{\selectlanguage {english}\color {blue}\bfseries \LRnum {Kj.49c}~}{\bfseries \selectlanguage {sanskrit}tu} \getsiglum {E4,V3}\ekdsep </26-x-1>
 <26-x-1>{\selectlanguage {sanskrit}ca} \getsiglum {J6}</26-x-1>
-<26-x-1>\hskip 0.75em{\selectlanguage {english}\color {blue}\bfseries \LRnum {Kj.50a}~}{\bfseries \selectlanguage {sanskrit}śaraṃ so'pi} \getsiglum {emend}\ekdsep </26-x-1>
+<26-x-1>\hskip 0.75em{\selectlanguage {english}\color {blue}\bfseries \LRnum {Kj.50a}~}{\bfseries \selectlanguage {sanskrit}śaraṃ so 'pi} \getsiglum {emend}\ekdsep </26-x-1>
 <26-x-1>{\selectlanguage {sanskrit}ra\{\{ṃ\}\} so 'pi} \getsiglum {E4}</26-x-1>
 <26-x-1>\ekdsubsep {\selectlanguage {sanskrit}ramaṇo 'pi} \getsiglum {V3,J6ac}</26-x-1>
 <26-x-1>\ekdsubsep {\selectlanguage {sanskrit}lakṣyayitvā} \getsiglum {J6pc}</26-x-1>
@@ -361,7 +361,7 @@
 <29-x-1>{\selectlanguage {sanskrit}balān na} \getsiglum {J6}</29-x-1>
 <29-x-1>\hskip 0.75em{\selectlanguage {english}\color {blue}\bfseries \LRnum {Kj.56a}~}{\bfseries \selectlanguage {sanskrit}taṃ samyag} \getsiglum {E4,V3}\ekdsep </29-x-1>
 <29-x-1>{\selectlanguage {sanskrit}samyak ca} \getsiglum {J6}</29-x-1>
-<29-x-1>\hskip 0.75em{\selectlanguage {english}\color {blue}\bfseries \LRnum {Kj.56c}~}{\bfseries \selectlanguage {sanskrit}kālo'sya} \getsiglum {emend}\ekdsep </29-x-1>
+<29-x-1>\hskip 0.75em{\selectlanguage {english}\color {blue}\bfseries \LRnum {Kj.56c}~}{\bfseries \selectlanguage {sanskrit}kālo 'sya} \getsiglum {emend}\ekdsep </29-x-1>
 <29-x-1>{\selectlanguage {sanskrit}kālasya} \getsiglum {E4,V3,J6}</29-x-1>
 <29-x-1>\hskip 0.75em{\selectlanguage {english}\color {blue}\bfseries \LRnum {Kj.56d}~}{\bfseries \selectlanguage {sanskrit}'phalaḥ} \getsiglum {J6pc}\ekdsep </29-x-1>
 <29-x-1>{\selectlanguage {sanskrit}'phalaṃ} \getsiglum {E4,V3,J6ac}</29-x-1>
@@ -419,10 +419,10 @@
 <32-x-1>{\selectlanguage {sanskrit}siṃcaṃtā} \getsiglum {V3}</32-x-1>
 <32-x-1>\hskip 0.75em{\selectlanguage {english}\color {blue}\bfseries \LRnum {Kj.61d}~}{\bfseries \selectlanguage {sanskrit}plāvayantīṃ} \getsiglum {E4,J6}\ekdsep </32-x-1>
 <32-x-1>{\selectlanguage {sanskrit}plāvayaṃtī} \getsiglum {V3}</32-x-1>
-<32-x-2>{\selectlanguage {english}\color {blue}\bfseries \LRnum {Kj.62}~}{\bfseries \selectlanguage {iast}}\ekdsep {\selectlanguage {english}This verse has been omitted in the collated manuscripts but is found in J\textsubscript {15} of the \getsiglum {E4} group, the 10-chapter \emph {Haṭhapradīpikā} (10.26) and all of the reported testimonia.}</32-x-2>
+<32-x-2>{\selectlanguage {english}\color {blue}\bfseries \LRnum {Kj.62}~}{\bfseries \selectlanguage {iast}}\ekdsep {\selectlanguage {english}This verse has been omitted in the collated manuscripts but is found in \locsiglum {J15} of the \getsiglum {E4} group, the 10-chapter \emph {Haṭhapradīpikā} (10.26) and all of the reported testimonia.}</32-x-2>
 <33-x-1>{\selectlanguage {english}\color {blue}\bfseries \LRnum {Kj.63a}~}{\bfseries \selectlanguage {sanskrit}'lakṣyam anābhāsam} \getsiglum {emend}\ekdsep </33-x-1>
 <33-x-1>{\selectlanguage {sanskrit}lakṣamanābhyāsam} \getsiglum {E4,V3}</33-x-1>
-<33-x-1>\ekdsubsep {\selectlanguage {sanskrit}lakṣyamano'bhyāsam} \getsiglum {J6}</33-x-1>
+<33-x-1>\ekdsubsep {\selectlanguage {sanskrit}lakṣyamano 'bhyāsam} \getsiglum {J6}</33-x-1>
 <33-x-1>\hskip 0.75em{\selectlanguage {english}\color {blue}\bfseries \LRnum {Kj.63b}~}{\bfseries \selectlanguage {sanskrit}varjitam} \getsiglum {E4,V3,J6pc}\ekdsep </33-x-1>
 <33-x-1>{\selectlanguage {sanskrit}varjitaḥ} \getsiglum {J6ac}</33-x-1>
 <33-x-1>\hskip 0.75em{\selectlanguage {english}\color {blue}\bfseries \LRnum {Kj.64b}~}{\bfseries \selectlanguage {sanskrit}sarvaṃ nāpi} \getsiglum {emend}\ekdsep </33-x-1>

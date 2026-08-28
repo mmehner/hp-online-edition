@@ -8,7 +8,7 @@
 <1-x-1>\ekdsubsep {\selectlanguage {sanskrit}samucchiṃdyāt} \getsiglum {J6}</1-x-1>
 <1-x-1>\hskip 0.75em{\selectlanguage {english}\color {blue}\bfseries \LRnum {3.32*2}~}</1-x-1>
 <1-x-1>{\selectlanguage {sanskrit}\also } \getsiglum {V15,Jyo}</1-x-1>
-<1-x-1>\hskip 0.75em{\selectlanguage {english}\color {blue}\bfseries \LRnum {3.32*2a}~}{\bfseries \selectlanguage {sanskrit}kṛtvā} \getsiglum {V15,Gr6}\ekdsep </1-x-1>
+<1-x-1>\hskip 0.75em{\selectlanguage {english}\color {blue}\bfseries \LRnum {3.32*2a}~}{\bfseries \selectlanguage {sanskrit}kṛtvā} \getsiglum {V15,Omega}\ekdsep </1-x-1>
 <1-x-1>{\selectlanguage {sanskrit}tataḥ} \getsiglum {Jyo}</1-x-1>
 <1-x-1>\hskip 0.75em{\selectlanguage {english}\color {blue}\bfseries }{\bfseries \selectlanguage {sanskrit}pathyābhyāṃ} \getsiglum {Jyo}\ekdsep </1-x-1>
 <1-x-1>{\selectlanguage {sanskrit}pathyādi} \getsiglum {J6,E4,V3}</1-x-1>
@@ -26,7 +26,7 @@
 <2-x-1>\hskip 0.75em{\selectlanguage {english}\color {blue}\bfseries }{\bfseries \selectlanguage {sanskrit}yuktaṃ} \getsiglum {V15,E4,V3}\ekdsep </2-x-1>
 <2-x-1>{\selectlanguage {sanskrit}muktaṃ} \getsiglum {J6}</2-x-1>
 <2-x-1>\ekdsubsep {\selectlanguage {sanskrit}yuktaḥ} \getsiglum {Jyo}</2-x-1>
-<2-x-1>\hskip 0.75em{\selectlanguage {english}\color {blue}\bfseries \LRnum {3.32*3c}~}{\bfseries \selectlanguage {sanskrit}ṣaṇmāsād} \getsiglum {Gr6,Jyo}\ekdsep </2-x-1>
+<2-x-1>\hskip 0.75em{\selectlanguage {english}\color {blue}\bfseries \LRnum {3.32*3c}~}{\bfseries \selectlanguage {sanskrit}ṣaṇmāsād} \getsiglum {Omega,Jyo}\ekdsep </2-x-1>
 <2-x-1>{\selectlanguage {sanskrit}ṣaṇmāse} \getsiglum {V15}</2-x-1>
 <2-x-1>\hskip 0.75em{\selectlanguage {english}\color {blue}\bfseries }{\bfseries \selectlanguage {sanskrit}mūla} \getsiglum {J6,E4,V3,Jyo}\ekdsep </2-x-1>
 <2-x-1>{\selectlanguage {sanskrit}mūlaṃ} \getsiglum {V15}</2-x-1>
@@ -34,7 +34,7 @@
 <2-x-1>{\selectlanguage {sanskrit}śarabaṃdhaṃ} \getsiglum {J6}</2-x-1>
 <2-x-1>\ekdsubsep {\selectlanguage {sanskrit}śirābandhaḥ} \getsiglum {V15,Jyo}</2-x-1>
 <2-x-1>\ekdsubsep {\selectlanguage {sanskrit}śarābandhaṃ} \getsiglum {E4ac,V3}</2-x-1>
-<2-x-1>\hskip 0.75em{\selectlanguage {english}\color {blue}\bfseries }{\bfseries \selectlanguage {sanskrit}vinaśyati} \getsiglum {Gr6}\ekdsep </2-x-1>
+<2-x-1>\hskip 0.75em{\selectlanguage {english}\color {blue}\bfseries }{\bfseries \selectlanguage {sanskrit}vinaśyati} \getsiglum {Omega}\ekdsep </2-x-1>
 <2-x-1>{\selectlanguage {sanskrit}praṇaśyati} \getsiglum {V15,Jyo}</2-x-1>
 <3-x-1>{\selectlanguage {english}\color {blue}\bfseries \LRnum {3.32*5}~}</3-x-1>
 <3-x-1>{\selectlanguage {sanskrit}\texteng {=\,\manuref {3.95*2}}}</3-x-1>

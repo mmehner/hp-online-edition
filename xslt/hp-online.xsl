@@ -521,6 +521,25 @@
 	      </p>
 	    </div>
 	  </xsl:element>
+
+	  <xsl:variable name="translation" select="document($transl)//note[@type='translation' and @target=$correspkey]"/>
+	  <xsl:if test="$translation">
+	    <div class="translation-prose">
+	      <p class="hpprose">
+		<xsl:apply-templates select="$translation"/>
+	      </p>
+	    </div>
+	  </xsl:if>
+	  
+	  <xsl:variable name="philcomm" select="document($transl)//note[@type='philcomm' and @target=$correspkey]"/>
+	  <xsl:if test="$philcomm">
+	    <details class="philcomm-d">
+	      <summary>Philological Commentary</summary>
+	      <div class="philcomm">
+		<xsl:apply-templates select="$philcomm"/>
+	      </div>
+	    </details>
+	  </xsl:if>
 	</div>
 
 	<div class="crit">

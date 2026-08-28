@@ -1,3 +1,6 @@
+% additions/changes 2026-08-26 mm:
+\TeXtoTEIPat{\locsiglum {#1}}{#1}
+
 % additions/changes 2026-07-30 mm:
 \TeXtoTEI{textapp}{hi}[rend="italic"]
 
@@ -28,10 +31,10 @@
 \TeXtoTEI{texteng}{s}[xml:lang="en"]
 \TeXtoTEIPat{\crux }{†}
 \TeXtoTEIPat{\unavbl }{<gap reason="folio lost in"/>}
-\TeXtoTEIPat{\incl }{included in}
-\TeXtoTEIPat{\only }{only included in}
-\TeXtoTEIPat{\also }{also included in}
-\TeXtoTEIPat{\excl }{included in all except}
+\TeXtoTEIPat{\incl }{<hi>included in</hi>}
+\TeXtoTEIPat{\only }{<hi>only included in</hi>}
+\TeXtoTEIPat{\also }{<hi>also included in</hi>}
+\TeXtoTEIPat{\excl }{<hi>included in all except</hi>}
 \TeXtoTEIPat{\NotIn }{<gap reason="om."/>}
 \TeXtoTEIPat{\Xset {#1}{#2}{#3}}{<ref type="set" target="##2" n="#3"/>}
 \TeXtoTEIPat{\Xtext {#1}{#2}{#3}}{<ref type="set" target="##2" n="#3"/>}
